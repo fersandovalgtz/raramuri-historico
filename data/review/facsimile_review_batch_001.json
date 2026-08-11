@@ -1,0 +1,49 @@
+{
+  "batch_id": "RHD-FR-001",
+  "title": "First 100 high-machine candidates: facsimile headword/boundary review",
+  "review_date": "2026-08-11",
+  "review_scope": "headword_and_entry_start_boundary",
+  "review_method": "visual_facsimile_collation_ai_assisted",
+  "review_agent": "OpenAI ChatGPT GPT-5.6 Sol",
+  "provenance_note": "AI-assisted visual collation under project direction; not linguistic validation and not full diplomatic transcription.",
+  "records": [
+    ["RHD-S1809-00065",301],["RHD-S1809-00072",301],["RHD-S1809-00073",301],["RHD-S1809-00081",302],["RHD-S1809-00089",302],["RHD-S1809-00090",302],["RHD-S1809-00092",302],["RHD-S1809-00093",302],["RHD-S1809-00094",302],["RHD-S1809-00106",302],
+    ["RHD-S1809-00115",303],["RHD-S1809-00116",304],["RHD-S1809-00123",304],["RHD-S1809-00129",304],["RHD-S1809-00142",304],["RHD-S1809-00147",305],["RHD-S1809-00150",305],["RHD-S1809-00177",307],["RHD-S1809-00178",307],["RHD-S1809-00181",307],
+    ["RHD-S1809-00183",307],["RHD-S1809-00191",307],["RHD-S1809-00203",308],["RHD-S1809-00235",308],["RHD-S1809-00243",309],["RHD-S1809-00261",309],["RHD-S1809-00269",309],["RHD-S1809-00270",309],["RHD-S1809-00271",309],["RHD-S1809-00272",309],
+    ["RHD-S1809-00273",309],["RHD-S1809-00274",309],["RHD-S1809-00275",309],["RHD-S1809-00279",309],["RHD-S1809-00280",309],["RHD-S1809-00285",310],["RHD-S1809-00287",310],["RHD-S1809-00289",310],["RHD-S1809-00294",310],["RHD-S1809-00295",310],
+    ["RHD-S1809-00296",310],["RHD-S1809-00297",310],["RHD-S1809-00298",310],["RHD-S1809-00299",310],["RHD-S1809-00300",310],["RHD-S1809-00310",311],["RHD-S1809-00321",312],["RHD-S1809-00322",312],["RHD-S1809-00323",312],["RHD-S1809-00324",312],
+    ["RHD-S1809-00325",312],["RHD-S1809-00332",312],["RHD-S1809-00333",312],["RHD-S1809-00354",313],["RHD-S1809-00365",313],["RHD-S1809-00366",313],["RHD-S1809-00367",313],["RHD-S1809-00372",313],["RHD-S1809-00374",313],["RHD-S1809-00379",313],
+    ["RHD-S1809-00384",313],["RHD-S1809-00385",313],["RHD-S1809-00386",313],["RHD-S1809-00393",313],["RHD-S1809-00395",314],["RHD-S1809-00396",314],["RHD-S1809-00397",314],["RHD-S1809-00399",314],["RHD-S1809-00400",314],["RHD-S1809-00411",314],
+    ["RHD-S1809-00412",314],["RHD-S1809-00413",314],["RHD-S1809-00428",315],["RHD-S1809-00431",315],["RHD-S1809-00432",315],["RHD-S1809-00433",315],["RHD-S1809-00440",315],["RHD-S1809-00462",315],["RHD-S1809-00463",315],["RHD-S1809-00465",316],
+    ["RHD-S1809-00467",316],["RHD-S1809-00468",316],["RHD-S1809-00472",316],["RHD-S1809-00473",316],["RHD-S1809-00474",316],["RHD-S1809-00476",316],["RHD-S1809-00477",316],["RHD-S1809-00485",316],["RHD-S1809-00486",316],["RHD-S1809-00487",316],
+    ["RHD-S1809-00488",316],["RHD-S1809-00489",316],["RHD-S1809-00490",316],["RHD-S1809-00491",316],["RHD-S1809-00492",316],["RHD-S1809-00494",316],["RHD-S1809-00495",317],["RHD-S1809-00497",317],["RHD-S1809-00501",317],["RHD-S1809-00509",317]
+  ],
+  "rejections": {
+    "RHD-S1809-00115":{"disposition":"catchword_not_entry","note":"Catchword “Arbeit” at the foot of p. 303; the actual article begins on p. 304."},
+    "RHD-S1809-00123":{"disposition":"merge_into_previous","note":"“Nazionen” occurs inside the extended article/ethnographic note for Armbrust; not an independent headword."},
+    "RHD-S1809-00147":{"disposition":"merge_into_previous","note":"OCR fragment from the article Ausbreiten (“Peré”); not an independent headword."},
+    "RHD-S1809-00181":{"disposition":"merge_into_previous","note":"“Spaniern” is running prose inside the article Bärtig; not an independent headword."},
+    "RHD-S1809-00273":{"disposition":"merge_into_previous","note":"“Papier” is a cross-reference within the article Blatt (“s. Papier”), not a new article here."},
+    "RHD-S1809-00294":{"disposition":"merge_into_previous","note":"“Tichapiboli” is the Rarámuri equivalent within the article Brautpaar; not a German headword."},
+    "RHD-S1809-00365":{"disposition":"merge_into_previous","note":"“Pemoliki” is an equivalent inside the article Dunst; not an independent headword."},
+    "RHD-S1809-00372":{"disposition":"merge_into_previous","note":"“Weib” is an indented subline within the article Ehelos, not a top-level headword."},
+    "RHD-S1809-00374":{"disposition":"merge_into_previous","note":"“Kia” is an equivalent inside the article Ehemals; not an independent headword."},
+    "RHD-S1809-00379":{"disposition":"merge_into_previous","note":"“Opi” is an equivalent inside the article Eheweib; not an independent headword."},
+    "RHD-S1809-00393":{"disposition":"catchword_not_entry","note":"OCR/catchword artifact at the end of p. 313; no independent article Einwickeln is visible in the facsimile."},
+    "RHD-S1809-00494":{"disposition":"merge_into_previous","note":"“Guele” is part of the equivalents in the article Fett; not an independent headword."},
+    "RHD-S1809-00497":{"disposition":"ocr_fragment_not_entry","note":"Garbled OCR fragment within the cross-page Feuer article; no independent headword “Nsikt” in the facsimile."},
+    "RHD-S1809-00501":{"disposition":"merge_into_previous","note":"“Tichonaba” is the equivalent within the article Finster; not an independent headword."}
+  },
+  "corrections": {
+    "RHD-S1809-00072":{"corrected_headword":"Allmächtig","note":"Initial letter misread by OCR as H."},
+    "RHD-S1809-00396":{"corrected_headword":"Eingraben","note":"OCR dropped the letter r; facsimile reads “Eingraben.”"},
+    "RHD-S1809-00472":{"corrected_headword":"Faſttag","note":"OCR produced “Kafttag”; facsimile shows the article Faſttag/Fasttag."},
+    "RHD-S1809-00509":{"corrected_headword":"Fledermaus","note":"OCR misread the initial F as S."}
+  },
+  "notes": {
+    "RHD-S1809-00065":"Entry start Abweg is valid, but the OCR article block is contaminated by text belonging to the Adern article because source text order does not preserve two-column layout. Full diplomatic body remains pending.",
+    "RHD-S1809-00323":"Headword Denken is valid; current machine block absorbs the following article “Der, die, das.” End boundary requires resegmentation.",
+    "RHD-S1809-00495":"Headword Feuer is valid on p. 317; the current OCR block crosses a page/layout boundary and requires resegmentation before diplomatic verification."
+  },
+  "summary":{"reviewed":100,"accepted":86,"rejected":14,"headword_corrections":4}
+}

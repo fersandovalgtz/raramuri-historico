@@ -7,7 +7,9 @@ on:
     paths:
       - 'sources/steffel-1809-ocr-source.txt'
       - 'data/entries_curated.csv'
+      - 'data/review/**'
       - 'scripts/extract_full_corpus.py'
+      - 'scripts/apply_review_overrides.py'
       - 'scripts/generate_exports.py'
       - 'tests/validate.py'
   pull_request:
@@ -29,11 +31,12 @@ jobs:
             curl -L --fail --retry 3 -o sources/steffel-1809-ocr-source.txt https://archive.org/download/tarahumarischesw00stef/tarahumarischesw00stef_djvu.txt
           fi
           echo "6df508cd8c63db030cfa0339f8fdd45980c01d1dc7f85b310059f233653c9fb8  sources/steffel-1809-ocr-source.txt" | sha256sum -c -
-      - name: Regenerate integral corpus
+      - name: Regenerate integral corpus and apply editorial reviews
         run: |
           python3 scripts/extract_full_corpus.py
+          python3 scripts/apply_review_overrides.py
           python3 scripts/generate_exports.py
-      - name: Validate corpus and exports
+      - name: Validate corpus, review layer and exports
         run: python3 tests/validate.py
       - name: Commit regenerated artifacts
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -44,6 +47,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No generated changes"
           else
-            git commit -m "Regenerate complete Steffel corpus"
+            git commit -m "Apply facsimile review overlays and regenerate corpus"
             git push
           fi
