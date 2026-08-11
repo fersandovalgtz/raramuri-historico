@@ -1,0 +1,38 @@
+{
+  "dataset_id": "raramuri-historico-steffel-1809",
+  "title": "Rarámuri Histórico Digital — Corpus Steffel 1791/1809",
+  "version": "0.1.0-mvp",
+  "generated": "2026-08-11",
+  "source": {
+    "author": "Matthäus Steffel",
+    "title": "Tarahumarisches Wörterbuch, nebst einigen Nachrichten von den Sitten und Gebräuchen der Tarahumaren",
+    "compilation_year": 1791,
+    "publication_year": 1809,
+    "editor": "Christoph Gottlieb von Murr",
+    "place": "Halle",
+    "publisher": "Johann Christian Hendel",
+    "printed_pages": "293–374 (dictionary proper 301–374; facsimile supplied: 84 PDF pages)",
+    "language_codes": [
+      "deu",
+      "tar"
+    ]
+  },
+  "scope": {
+    "curated_entries": 60,
+    "facsimile_pdf_pages": 84,
+    "directions": [
+      "German–Tarahumara",
+      "Tarahumara–German"
+    ],
+    "status": "MVP; OCR-derived starter transcription, not linguistically validated"
+  },
+  "responsible": {
+    "name": "Fernando Sandoval Gutierrez",
+    "orcid": "0000-0002-3168-6725",
+    "institutions": [
+      "Universidad CEEES",
+      "Universidad Autónoma de Ciudad Juárez",
+      "Cuerpo Académico UACJ-113"
+    ]
+  }
+}

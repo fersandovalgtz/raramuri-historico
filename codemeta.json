@@ -1,0 +1,30 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Rarámuri Histórico Digital",
+  "version": "0.1.0-mvp",
+  "dateCreated": "2026-08-11",
+  "description": "Infraestructura abierta para lexicografía histórica rarámuri; primera colección: Corpus Steffel 1791/1809.",
+  "codeRepository": "https://github.com/fersandovalgtz/raramuri-historico",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "author": {
+    "@type": "Person",
+    "givenName": "Fernando",
+    "familyName": "Sandoval Gutierrez",
+    "@id": "https://orcid.org/0000-0002-3168-6725"
+  },
+  "programmingLanguage": [
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "SQL"
+  ],
+  "keywords": [
+    "Rarámuri",
+    "Tarahumara",
+    "historical lexicography",
+    "digital humanities",
+    "indigenous languages"
+  ]
+}

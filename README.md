@@ -6,8 +6,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/dataset-0.1.0--mvp-172033?style=flat-square" alt="Dataset 0.1.0 MVP">
   <img src="https://img.shields.io/badge/fuente-Steffel%201809-7a263a?style=flat-square" alt="Steffel 1809">
-  <img src="https://img.shields.io/badge/páginas%20facsimilares-84-455B55?style=flat-square" alt="84 PDF pages">
-  <img src="https://img.shields.io/badge/entradas%20curadas-60-2d6a4f?style=flat-square" alt="60 curated starter entries">
+  <img src="https://img.shields.io/badge/facsímil-84%20páginas-455B55?style=flat-square" alt="84 PDF pages">
+  <img src="https://img.shields.io/badge/entradas%20iniciales-60-2d6a4f?style=flat-square" alt="60 starter entries">
   <img src="https://img.shields.io/badge/estado-cotejo%20pendiente-b7791f?style=flat-square" alt="Facsimile collation pending">
   <img src="https://img.shields.io/badge/código-MIT-172033?style=flat-square" alt="MIT">
 </p>
@@ -20,41 +20,38 @@ La primera colección es el **Corpus Steffel 1791/1809**, basado en el *Tarahuma
 
 ## Estado del MVP
 
-Esta versión contiene el facsímil suministrado de 84 páginas, el OCR de trabajo, 60 entradas iniciales curadas a partir de pasajes legibles, un esquema de procedencia, CSV, JSON, XML, SQLite, un borrador TEI y un sitio estático de consulta. **Nada de lo extraído se presenta como validación lingüística definitiva.**
+La versión `0.1.0-mvp` fija la arquitectura científica antes de escalar la transcripción. Incluye 60 entradas iniciales con procedencia, un CSV canónico, una proyección JSON para la interfaz, esquema de datos, políticas editoriales y de gobernanza, metadatos de citación, scripts reproducibles para generar JSON/XML/TEI/SQLite y un sitio estático de consulta.
 
-La regla editorial fundamental es: **facsímil → transcripción diplomática → transcripción normalizada → datos estructurados**. Ninguna normalización sustituye la evidencia de la fuente.
+El proyecto se construyó sobre un facsímil de 84 páginas y un OCR de trabajo. Los archivos de ingesta originales se preservan fuera de la capa editorial del repositorio y se registran mediante checksums; el repositorio enlaza además copias públicas de consulta. **Nada de lo extraído se presenta como validación lingüística definitiva.**
 
-## Inicio rápido
+La regla editorial fundamental es: **facsímil → OCR bruto → transcripción diplomática → normalización → datos estructurados**. Ninguna normalización sustituye la evidencia de la fuente.
 
-Abra `public/index.html` directamente o sirva el directorio:
+## Reproducibilidad
 
-```bash
-python3 -m http.server 8000 -d public
-```
-
-Después visite `http://localhost:8000`.
-
-Para validar el dataset:
+El CSV es la fuente canónica del MVP. Las serializaciones derivadas se regeneran con:
 
 ```bash
+python3 scripts/build_exports.py
 python3 tests/validate.py
 ```
 
+El pipeline produce JSON completo, XML, borrador TEI, SQLite y la proyección JSON usada por la interfaz pública. GitHub Actions ejecuta la misma secuencia en cada cambio.
+
 ## Estructura
 
-- `sources/`: facsímil, OCR original y checksums.
-- `data/entries_curated.csv`: primeras entradas estructuradas y trazables.
-- `data/pages.csv`: extracción OCR página por página desde el PDF.
-- `data/json/`, `data/xml/`, `data/raramuri_historico.sqlite`: serializaciones.
+- `data/entries_curated.csv`: dataset canónico inicial.
+- `data/correspondences_template.csv`: modelo de futuras relaciones Steffel ↔ Rarámuri Digital.
 - `public/`: MVP web de consulta.
+- `scripts/build_exports.py`: generación reproducible de serializaciones.
 - `SCHEMA.md`: modelo de datos.
-- `PROVENANCE.md`: política de procedencia.
+- `PROVENANCE.md`: procedencia documental.
 - `EDITORIAL_POLICY.md`: criterios de transcripción y normalización.
-- `ROADMAP.md`: siguiente fase científica y técnica.
+- `GOVERNANCE.md`: separación entre evidencia, interpretación y validación.
+- `ROADMAP.md`: ruta hacia la edición digital de investigación.
 
 ## Identificadores
 
-Las entradas usan `RHD-S1809-#####`. El prefijo diferencia Rarámuri Histórico Digital (`RHD`) del dataset contemporáneo Rarámuri Digital (`RD`).
+Las entradas usan `RHD-S1809-#####`. El prefijo diferencia Rarámuri Histórico Digital (`RHD`) del conjunto contemporáneo Rarámuri Digital (`RD`).
 
 ## Relación con Rarámuri Digital
 
@@ -62,6 +59,11 @@ Este repositorio permanece separado de la base contemporánea. Las correspondenc
 
 - Recurso contemporáneo: https://raramuri.ceees.mx
 - Repositorio contemporáneo: https://github.com/fersandovalgtz/raramuri-digital
+
+## Fuente primaria y consulta
+
+- Open Library: https://openlibrary.org/works/OL16883366W/
+- Internet Archive: https://archive.org/details/tarahumarischesw00stef
 
 ## Responsable
 
@@ -71,4 +73,4 @@ ORCID: 0000-0002-3168-6725
 
 ## Licencias
 
-Código: MIT. Las capas editoriales y datos derivados del proyecto se proponen bajo CC BY 4.0 en este MVP; el facsímil histórico debe citarse por su propia procedencia. Véase `DATA_LICENSE.md`.
+Código: MIT. Las capas editoriales y datos derivados del proyecto se proponen bajo CC BY 4.0 en este MVP; la obra histórica debe citarse por su propia procedencia. Véase `DATA_LICENSE.md`.

@@ -1,0 +1,39 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Rarámuri Histórico Digital API",
+    "version": "0.1.0-mvp",
+    "description": "Draft contract for historical lexical entries."
+  },
+  "paths": {
+    "/api/entries": {
+      "get": {
+        "summary": "Search historical entries",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "direction",
+            "in": "query",
+            "schema": {
+              "enum": [
+                "DE-RAR",
+                "RAR-DE"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Matching entries"
+          }
+        }
+      }
+    }
+  }
+}
