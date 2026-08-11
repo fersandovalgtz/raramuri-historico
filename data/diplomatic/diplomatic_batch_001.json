@@ -1,0 +1,121 @@
+{
+  "batch_id": "RHD-DIP-001A",
+  "title": "First complete diplomatic article-text transcriptions",
+  "review_date": "2026-08-11",
+  "transcription_scope": "complete short article text; source spelling and punctuation retained; typographic line wrapping not encoded",
+  "review_method": "visual_facsimile_transcription_ai_assisted",
+  "review_agent": "OpenAI ChatGPT GPT-5.6 Sol",
+  "human_verified": false,
+  "provenance_note": "AI-assisted visual transcription under project direction. These records are complete at article-text scope but remain pending independent human/philological verification.",
+  "records": [
+    {
+      "record_id": "RHD-S1809-00065",
+      "printed_page": 301,
+      "pdf_page": 11,
+      "column": "right",
+      "headword_diplomatic": "Abweg",
+      "article_diplomatic": "Abweg. Tà póvireck.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "The short article boundary is clear; diacritics in the Rarámuri equivalent remain flagged for later human verification."
+    },
+    {
+      "record_id": "RHD-S1809-00072",
+      "printed_page": 301,
+      "pdf_page": 11,
+      "column": "right",
+      "headword_diplomatic": "Allmächtig",
+      "article_diplomatic": "Allmächtig. Jumájumájameke.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00073",
+      "printed_page": 301,
+      "pdf_page": 11,
+      "column": "right",
+      "headword_diplomatic": "Allwiſſend",
+      "article_diplomatic": "Allwiſſend. Jumámatsigameke.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00089",
+      "printed_page": 302,
+      "pdf_page": 12,
+      "column": "right",
+      "headword_diplomatic": "Anderer",
+      "article_diplomatic": "Anderer. Huli. Senú, senúla.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00090",
+      "printed_page": 302,
+      "pdf_page": 12,
+      "column": "right",
+      "headword_diplomatic": "Anderſt",
+      "article_diplomatic": "Anderſt. Segui.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00092",
+      "printed_page": 302,
+      "pdf_page": 12,
+      "column": "right",
+      "headword_diplomatic": "Anfaſſen",
+      "article_diplomatic": "Anfaſſen. Tſchepi.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00093",
+      "printed_page": 302,
+      "pdf_page": 12,
+      "column": "right",
+      "headword_diplomatic": "Anfechten",
+      "article_diplomatic": "Anfechten. Sátuje.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00094",
+      "printed_page": 302,
+      "pdf_page": 12,
+      "column": "right",
+      "headword_diplomatic": "Anfechter",
+      "article_diplomatic": "Anfechter. Sátiameke.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00106",
+      "printed_page": 302,
+      "pdf_page": 12,
+      "column": "right",
+      "headword_diplomatic": "Anzünden",
+      "article_diplomatic": "Anzünden. Naige. Es iſt angezündet. Náiruc.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00142",
+      "printed_page": 304,
+      "pdf_page": 14,
+      "column": "right",
+      "headword_diplomatic": "Aufmerken",
+      "article_diplomatic": "Aufmerken. Gáne kaké.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    }
+  ],
+  "summary": {
+    "complete_article_transcriptions": 10,
+    "pages_represented": [
+      301,
+      302,
+      304
+    ],
+    "human_verified": 0
+  }
+}

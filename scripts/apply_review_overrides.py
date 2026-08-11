@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Apply facsimile-review overlays to the machine candidate layer.
+"""Apply facsimile-review and diplomatic-transcription overlays.
 
-Review manifests are append-only editorial evidence. Machine candidates keep
-their persistent record_id even when rejected, so later identifiers never shift.
-A facsimile headword review does not imply diplomatic or linguistic validation.
+Editorial manifests are append-only evidence. Machine candidates keep persistent
+record IDs even when a boundary is rejected. AI-assisted visual review is kept
+explicitly distinct from human/philological verification.
 """
 from pathlib import Path
 import csv, json, re, unicodedata
@@ -11,7 +11,14 @@ import csv, json, re, unicodedata
 ROOT = Path(__file__).resolve().parents[1]
 ENTRIES = ROOT / "data" / "entries.csv"
 REVIEW_DIR = ROOT / "data" / "review"
+DIPLOMATIC_DIR = ROOT / "data" / "diplomatic"
 INVENTORY = ROOT / "data" / "corpus_inventory.json"
+
+DIP_FIELDS = [
+    "facsimile_column","headword_diplomatic","article_diplomatic",
+    "diplomatic_status","diplomatic_batch","diplomatic_note",
+    "human_verified","diplomatic_review_method"
+]
 
 def search_key(s: str) -> str:
     s = (s.replace('ſ','s').replace('ß','ss').replace('⸗','-')
@@ -26,6 +33,12 @@ rows = list(csv.DictReader(ENTRIES.open(encoding="utf-8")))
 if not rows:
     raise SystemExit("data/entries.csv is empty")
 fieldnames = list(rows[0].keys())
+for f in DIP_FIELDS:
+    if f not in fieldnames:
+        fieldnames.append(f)
+for r in rows:
+    for f in DIP_FIELDS:
+        r.setdefault(f, "")
 by_id = {r["record_id"]: r for r in rows}
 
 reviewed = accepted = rejected = corrections = 0
@@ -83,6 +96,48 @@ for path in sorted(REVIEW_DIR.glob("facsimile_review_batch_*.json")):
         note_parts.append(f"{batch}: {method}; scope={scope}; exact_page={printed_page}.")
         r["editorial_note"] = " ".join(x for x in note_parts if x)
 
+dip_count = 0
+dip_batches = []
+dip_pages = set()
+dip_uncertain = 0
+dip_seen = set()
+for path in sorted(DIPLOMATIC_DIR.glob("diplomatic_batch_*.json")):
+    manifest = json.load(path.open(encoding="utf-8"))
+    batch = manifest["batch_id"]
+    method = manifest.get("review_method", "")
+    human_verified = bool(manifest.get("human_verified", False))
+    dip_batches.append(batch)
+    for item in manifest.get("records", []):
+        rid = item["record_id"]
+        if rid in dip_seen:
+            raise SystemExit(f"duplicate diplomatic override for {rid}")
+        dip_seen.add(rid)
+        if rid not in by_id:
+            raise SystemExit(f"diplomatic record_id not found in entries.csv: {rid}")
+        r = by_id[rid]
+        if r.get("status") == "rejected_false_positive":
+            raise SystemExit(f"diplomatic overlay targets rejected boundary: {rid}")
+        page = int(item["printed_page"])
+        r["printed_page"] = str(page)
+        r["pdf_page"] = str(int(item.get("pdf_page", page - 290)))
+        r["facsimile_column"] = item.get("column", "")
+        r["headword_diplomatic"] = item.get("headword_diplomatic", "").strip()
+        r["article_diplomatic"] = item.get("article_diplomatic", "").strip()
+        r["diplomatic_status"] = item.get("transcription_status", "complete_ai_assisted")
+        r["diplomatic_batch"] = batch
+        r["diplomatic_note"] = item.get("uncertainty_note", "").strip()
+        r["human_verified"] = "true" if human_verified else "false"
+        r["diplomatic_review_method"] = method
+        r["status"] = "diplomatic_transcription_ai_assisted"
+        r["validation"] = (
+            "transcripción_diplomática_visual_ai_asistida;"
+            "pendiente_de_validación_humana_y_lingüística"
+        )
+        dip_count += 1
+        dip_pages.add(page)
+        if r["diplomatic_note"]:
+            dip_uncertain += 1
+
 with ENTRIES.open("w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=fieldnames)
     w.writeheader()
@@ -99,5 +154,17 @@ inv["facsimile_review"] = {
     "method": "visual_facsimile_collation_ai_assisted",
     "full_diplomatic_transcription_completed": False
 }
+inv["diplomatic_transcription"] = {
+    "batches": dip_batches,
+    "complete_article_transcriptions_ai_assisted": dip_count,
+    "pages_represented": sorted(dip_pages),
+    "records_with_uncertainty_note": dip_uncertain,
+    "method": "visual_facsimile_transcription_ai_assisted",
+    "human_verified": False,
+    "scope_note": "Complete article text for selected short entries; source spelling/punctuation retained; typographic line wrapping not encoded."
+}
 INVENTORY.write_text(json.dumps(inv, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-print(f"Applied {reviewed} reviews: {accepted} accepted, {rejected} rejected, {corrections} corrections")
+print(
+    f"Applied {reviewed} boundary reviews: {accepted} accepted, {rejected} rejected, "
+    f"{corrections} corrections; {dip_count} complete AI-assisted diplomatic articles"
+)

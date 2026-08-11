@@ -7,9 +7,9 @@
   <img src="https://img.shields.io/badge/dataset-0.2.0-172033?style=flat-square" alt="Dataset 0.2.0">
   <img src="https://img.shields.io/badge/fuente-Steffel%201809-7a263a?style=flat-square" alt="Steffel 1809">
   <img src="https://img.shields.io/badge/candidatos%20segmentados-2%2C495-2d6a4f?style=flat-square" alt="2,495 candidate entries">
-  <img src="https://img.shields.io/badge/cotejados%20con%20facsímil-100-0f766e?style=flat-square" alt="100 facsimile-reviewed candidates">
-  <img src="https://img.shields.io/badge/falsos%20positivos%20detectados-14-9b2c2c?style=flat-square" alt="14 rejected false positives">
-  <img src="https://img.shields.io/badge/código-MIT-172033?style=flat-square" alt="MIT">
+  <img src="https://img.shields.io/badge/l%C3%ADmites%20cotejados-100-b7791f?style=flat-square" alt="100 boundaries reviewed">
+  <img src="https://img.shields.io/badge/art%C3%ADculos%20diplom%C3%A1ticos%20AI--asistidos-10-455B55?style=flat-square" alt="10 AI-assisted diplomatic articles">
+  <img src="https://img.shields.io/badge/c%C3%B3digo-MIT-172033?style=flat-square" alt="MIT">
 </p>
 
 ## Propósito
@@ -18,30 +18,35 @@
 
 La primera colección es el **Corpus Steffel 1791/1809**, basado en el *Tarahumarisches Wörterbuch* de Matthäus Steffel. La obra contiene vocabulario alemán–tarahumara, vocabulario tarahumara–alemán, observaciones gramaticales y culturales, un apéndice sobre numeración y una muestra lingüística trilingüe.
 
-**Sitio público:** https://fersandovalgtz.github.io/raramuri-historico/
+## Estado 0.2.0: cobertura integral y revisión editorial
 
-## Estado 0.2.0: cobertura integral + cotejo facsimilar iniciado
+La segmentación de alta cobertura contiene **2,495 candidatos de artículo lexicográfico**: **1,607 alemán→rarámuri** y **888 rarámuri→alemán**. Las 60 entradas previamente curadas conservan sus identificadores persistentes originales.
 
-La capa automática contiene **2,495 candidatos de artículo lexicográfico**: **1,607 alemán→rarámuri** y **888 rarámuri→alemán**. Las 60 entradas previamente curadas conservan sus identificadores persistentes originales.
+El número 2,495 no se presenta como conteo filológico definitivo. La tipografía Fraktur, errores del OCR y el diseño a dos columnas producen límites candidatos que pueden dividir o unir artículos incorrectamente. Por ello el proyecto separa explícitamente cobertura automática, cotejo facsimilar, transcripción diplomática y futura validación lingüística.
 
-El primer lote de cotejo facsimilar (`RHD-FR-001`) revisó visualmente **100 candidatos de confianza automática alta**. Se aceptaron **86 arranques de artículo**, se rechazaron **14 falsos límites** y se corrigieron **4 lemas** por errores inequívocos de OCR: `Allmächtig`, `Eingraben`, `Faſttag` y `Fledermaus`. Los candidatos rechazados conservan su `record_id` y pasan a `rejected_false_positive`; los aceptados quedan como `facsimile_checked_headword_ai_assisted`.
+El primer lote de cotejo facsimilar (`RHD-FR-001`) revisó 100 límites candidatos: 86 arranques fueron aceptados, 14 falsos límites fueron rechazados y cuatro lemas recibieron correcciones claras de OCR. La capa activa pública queda provisionalmente en 2,481 candidatos.
 
-Este cotejo es explícitamente **asistido por IA y limitado al lema y al inicio del artículo**. No equivale a transcripción diplomática completa ni a validación lingüística.
+## Primera capa diplomática
 
-El número 2,495 no se presenta como conteo filológico definitivo. El primer lote confirmó además un problema estructural importante: el OCR suministrado no siempre conserva el orden de lectura de las páginas a dos columnas, por lo que un lema auténtico puede arrastrar texto perteneciente a otro artículo. Las fases siguientes deben reconstruir los cuerpos de artículo desde la evidencia de página.
+Las páginas impresas 301–317 (PDF 11–27) ya cuentan con un modelo explícito de sus dos columnas. Sobre esa evidencia se creó `RHD-DIP-001A`, con **10 artículos cortos transcritos completamente** desde el facsímil.
 
-La regla editorial es: **facsímil → OCR bruto → segmentación de alta cobertura → cotejo de límites → transcripción diplomática → normalización → datos estructurados**.
+Estos registros usan el estado `diplomatic_transcription_ai_assisted`. La transcripción conserva grafía y puntuación de la fuente, pero no codifica los saltos tipográficos de línea. **No se presenta como verificación humana**: `human_verified=false` y la revisión filológica independiente continúa pendiente.
+
+La regla editorial es:
+
+**facsímil → OCR bruto → segmentación de alta cobertura → cotejo de límites → reconstrucción por columnas → transcripción diplomática → validación humana/lingüística → normalización → datos estructurados.**
 
 ## Datos principales
 
-- `data/entries.csv`: capa maestra integral, incluidos candidatos rechazados con estado explícito.
-- `data/review/facsimile_review_batch_001.json`: evidencia editorial del primer lote de 100 cotejos.
-- `FACSIMILE_REVIEW_STATUS.md`: resultados y alcance metodológico del cotejo.
-- `data/entries_curated.csv`: 60 anclas iniciales.
+- `data/entries.csv`: capa maestra integral con overlays editoriales.
+- `data/entries_curated.csv`: 60 anclas iniciales con identificadores persistentes.
+- `data/review/`: manifiestos de revisión de límites y lemas.
+- `data/facsimile/page_layout_301_317.csv`: modelo de columnas para las primeras 17 páginas lexicográficas.
+- `data/diplomatic/diplomatic_batch_001.json`: primera colección de transcripciones completas de artículo.
 - `data/ocr_dictionary_lines.csv`: capa de auditoría de líneas OCR.
-- `data/corpus_inventory.json`: inventario, conteos y progreso de revisión.
+- `data/corpus_inventory.json`: conteos, rangos y progreso editorial.
 - `data/json/entries.json`, `data/xml/entries.xml`, `data/xml/steffel-1809-tei-machine.xml` y `data/raramuri_historico.sqlite`: serializaciones derivadas.
-- `data/sections/`: apéndice de numeración y muestra lingüística separados.
+- `data/sections/`: apéndice de numeración y muestra lingüística separados del cuerpo lexicográfico.
 - `sources/steffel-1809-ocr-source.txt`: OCR primario preservado sin corrección.
 
 ## Reproducibilidad
@@ -53,11 +58,15 @@ python3 scripts/generate_exports.py
 python3 tests/validate.py
 ```
 
-Las revisiones facsimilares son capas de sobreescritura editorial reproducibles: nunca modifican el OCR fuente. Los identificadores asignados no se reciclan aunque un candidato sea posteriormente rechazado.
+El pipeline reconstruye primero la capa automática y después aplica, de manera reproducible, los manifiestos editoriales. Las correcciones no sustituyen ni alteran el OCR fuente.
+
+## Identificadores
+
+Las unidades usan `RHD-S1809-#####`. Los identificadores `RHD-S1809-00001` a `RHD-S1809-00060` continúan vinculados a sus 60 anclas originales. Un identificador asignado no se reutiliza aunque un límite sea posteriormente rechazado o fusionado.
 
 ## Relación con Rarámuri Digital
 
-Este repositorio permanece separado de la base contemporánea. Las correspondencias futuras Steffel ↔ Rarámuri Digital se modelarán como relaciones explícitas con estado, confianza, método y revisión humana; nunca como fusiones automáticas.
+El corpus histórico permanece separado de la base contemporánea. Las correspondencias Steffel ↔ Rarámuri Digital se modelarán posteriormente como relaciones explícitas con estado, confianza, método y revisión; nunca como fusiones automáticas.
 
 - Recurso contemporáneo: https://raramuri.ceees.mx
 - Repositorio contemporáneo: https://github.com/fersandovalgtz/raramuri-digital
