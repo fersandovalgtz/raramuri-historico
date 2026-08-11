@@ -1,0 +1,28 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "extraction_version": "0.2.0-machine-complete",
+  "source_lines": 10876,
+  "dictionary_ranges": {
+    "DE-RAR": [
+      438,
+      7765
+    ],
+    "RAR-DE": [
+      7774,
+      10285
+    ]
+  },
+  "candidate_entries_total": 2495,
+  "candidate_entries_by_direction": {
+    "DE-RAR": 1607,
+    "RAR-DE": 888
+  },
+  "curated_seed_anchors": 60,
+  "segmentation_confidence_counts": {
+    "curated_anchor": 60,
+    "high_machine": 609,
+    "medium_machine": 1110,
+    "low_machine": 716
+  },
+  "methodological_note": "Candidate count is not asserted as the definitive lexicographic entry count. Coverage-first machine segmentation intentionally favors recall; every machine candidate remains unverified until facsimile collation."
+}

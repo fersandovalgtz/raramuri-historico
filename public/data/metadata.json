@@ -1,7 +1,7 @@
 {
   "dataset_id": "raramuri-historico-steffel-1809",
   "title": "Rarámuri Histórico Digital — Corpus Steffel 1791/1809",
-  "version": "0.1.0-mvp",
+  "version": "0.2.0",
   "generated": "2026-08-11",
   "source": {
     "author": "Matthäus Steffel",
@@ -18,13 +18,16 @@
     ]
   },
   "scope": {
-    "curated_entries": 60,
+    "candidate_entries": 2495,
+    "candidate_entries_de_rar": 1607,
+    "candidate_entries_rar_de": 888,
+    "curated_anchors": 60,
     "facsimile_pdf_pages": 84,
     "directions": [
       "German–Tarahumara",
       "Tarahumara–German"
     ],
-    "status": "MVP; OCR-derived starter transcription, not linguistically validated"
+    "status": "Complete OCR-range machine segmentation; facsimile collation and linguistic validation pending"
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",

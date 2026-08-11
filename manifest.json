@@ -1,0 +1,267 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "version": "0.2.0",
+  "generated": "2026-08-11",
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 710,
+      "sha256": "1ef53d6d50d29366465975f904e59c42861ca9b215e940d2d1811881ae1c4c69"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 1709,
+      "sha256": "29702bc310f3eb603e7512fcdb2cea4986144f020f72932d0b0b3361a10dbe35"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 36,
+      "sha256": "291b95a29b77e82a83f605080e51c77f9ee66c89ef0d56e40353b8a17e307b8a"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 773,
+      "sha256": "c66b0eae323870679648f678633126ab57a214a73ce45963b70e4806f4a8b9f3"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 515,
+      "sha256": "6e4497ad08dcc800aec40019ef8e8feb4c77dbdd9481b793b6cc929ab6f9b45b"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 745,
+      "sha256": "154d6c5615499ba2f84256e97d9b7b0604191ce1d8252904004fe29c5f20297d"
+    },
+    {
+      "path": "CONTRIBUTORS.md",
+      "bytes": 327,
+      "sha256": "0d959e9ebbdff44108b91f53a9b347916df65b1fa9e9970a94fec32a78cee229"
+    },
+    {
+      "path": "CORRECTIONS.md",
+      "bytes": 335,
+      "sha256": "c2db8dcaddeb38e78db09cba49f8eb4329e51b261e73880057bd4509c9d12d5a"
+    },
+    {
+      "path": "COVERAGE.md",
+      "bytes": 1942,
+      "sha256": "3d8bfda25fd99a9b4c45a8f872d7528e20e663e1cde3f8a43a75f63954c20fae"
+    },
+    {
+      "path": "DATASHEET.md",
+      "bytes": 780,
+      "sha256": "d46e6e26f9a6cb71b55f7558d2ab47a6ab73db52d4fb1e3833761e0ac3c1cec7"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 707,
+      "sha256": "4022096bd79b4f29fee2ab0540dfe2ca7a5398947cd4f210c359e3209b4d1560"
+    },
+    {
+      "path": "DEPLOYMENT.md",
+      "bytes": 834,
+      "sha256": "ca982d2bab045f9da308e526140b4b014c1e086a734baaece1962a7dd5093414"
+    },
+    {
+      "path": "EDITORIAL_POLICY.md",
+      "bytes": 1464,
+      "sha256": "8ee80cb07d417db9c6878b47d3b7a3aceda3a715e9cc1e2529b79f1dada73653"
+    },
+    {
+      "path": "FAIR_ASSESSMENT.md",
+      "bytes": 680,
+      "sha256": "a96b46a234b3c4b6276d2c1336d7a2b835c29c176532144ea19b2e88caba3deb"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "bytes": 542,
+      "sha256": "c04cc3c001a4a4cf02d18a978c82a7a24ac1fd6cad8b4a2de19ea1aa1a348375"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 825,
+      "sha256": "f32aaaf2eb203298d5c2a8edce2e89d59006433844a36d5238d2799a4ba087f1"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 1259,
+      "sha256": "23deb59869d3830fa480a729531a07cd3590eb013d584995a71f562732d1633f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5748,
+      "sha256": "b9c206aa9156d6ccb3958584a087e26b0f1792aeb56fe795cbc6df905ee11c92"
+    },
+    {
+      "path": "RELEASE_NOTES_0.1.0.md",
+      "bytes": 339,
+      "sha256": "e41e674a95edd15337461c542978d875476d0f050ca2e2cff561cb895dfaeb75"
+    },
+    {
+      "path": "RELEASE_NOTES_0.2.0.md",
+      "bytes": 735,
+      "sha256": "4a625ce2ccec313d822e9a3da6c8fc1530e2938246fb75dfb8dd1dcb67b0e82e"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 1295,
+      "sha256": "1a7092318c0c14d18d765efaf479af2251bed77dec6d21c45732bbd12b3376f0"
+    },
+    {
+      "path": "SCHEMA.md",
+      "bytes": 2161,
+      "sha256": "d6dc8a119a654920dc21406f5b6a11f3c5443bdb6dacf46577cfb1d93c82510e"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 873,
+      "sha256": "704d3eff937709c69814d259794fc8cc09e187ee754c6768dbd911c1286643ee"
+    },
+    {
+      "path": "codemeta.json",
+      "bytes": 852,
+      "sha256": "058a4d6fa238e5aa93e1198cb64d9e433c211b3e9bb50721ce4a5bb16448d2c8"
+    },
+    {
+      "path": "data/corpus_inventory.json",
+      "bytes": 778,
+      "sha256": "caed92d9cee068c81dc13d4d5bec49b21ea9ea092eef48a9f30f6ea767d96b3a"
+    },
+    {
+      "path": "data/correspondences_template.csv",
+      "bytes": 101,
+      "sha256": "aebfe363cc375dbc73c13eb0b2c37b807f83811124c676f7199b9ec09dad1e50"
+    },
+    {
+      "path": "data/entries.csv",
+      "bytes": 1149311,
+      "sha256": "ba12c97d0c946c3a1bbf3e2a5113815ef83627a8dc5a5b02c904e4e7ef9a3169"
+    },
+    {
+      "path": "data/entries_curated.csv",
+      "bytes": 11766,
+      "sha256": "2cd5f3982a91708c58839d7f73b7f88baf3b40f4abfea32f10219efe59b9acd5"
+    },
+    {
+      "path": "data/json/entries.json",
+      "bytes": 2472739,
+      "sha256": "b12e23b914ccdd7c1349ff3f700c7605be957e9fd27aef6e9a227dfbb53ffb2c"
+    },
+    {
+      "path": "data/ocr_dictionary_lines.csv",
+      "bytes": 289905,
+      "sha256": "53461b0eddbe6fac2b9251d0c71b16f0179dccce8faedbeb9e309cae9927e2e1"
+    },
+    {
+      "path": "data/raramuri_historico.sqlite",
+      "bytes": 1445888,
+      "sha256": "5a2acd00358caed2e3a9004f8c809beaceef934661c6d820d05fcd522d5a6bc4"
+    },
+    {
+      "path": "data/sections/appendix-and-numerals-ocr.txt",
+      "bytes": 4793,
+      "sha256": "fe82be2809078775797ff8d80d612aa290e78098ac0af3ab1f19cd48a9908d68"
+    },
+    {
+      "path": "data/sections/language-sample-ocr.txt",
+      "bytes": 5868,
+      "sha256": "b5583d602d2bb415ef74e0ecdea8e208df5e3c758777919ebfb07d4126c15369"
+    },
+    {
+      "path": "data/xml/entries.xml",
+      "bytes": 2943416,
+      "sha256": "0cbc850a2fc7a58814cb7a6dfab2e09eb427b219de00fd2f40e391076ed4caa4"
+    },
+    {
+      "path": "data/xml/steffel-1809-tei-machine.xml",
+      "bytes": 951368,
+      "sha256": "53eed5ea9d151a31d9e9c2c4ce9556edb1ebc20817b4318534be84cc9c0dad5e"
+    },
+    {
+      "path": "external-references.json",
+      "bytes": 533,
+      "sha256": "fbafca1c5d8a2a68d7df71e36a27c2abaae7097ac3f4df8795dc56675839d759"
+    },
+    {
+      "path": "openapi.json",
+      "bytes": 807,
+      "sha256": "2fe598ec7278fb7c5b44c66a39d52d075c4674bd47af29373d23e5c6c087525e"
+    },
+    {
+      "path": "project-metadata.json",
+      "bytes": 1292,
+      "sha256": "4806817c333445c4978634480ad8eead8ecc602dba5197f6949f9ec80b15fad8"
+    },
+    {
+      "path": "public/app.js",
+      "bytes": 2367,
+      "sha256": "343724af14615b7dbb8283326d98f32e345f4e89b4a522141f38792bb281f430"
+    },
+    {
+      "path": "public/data/entries.json",
+      "bytes": 2143398,
+      "sha256": "b1c716d5979bf1429d420b78f4bb4f05aab57841b950b0781cefc5cce472ab2c"
+    },
+    {
+      "path": "public/data/metadata.json",
+      "bytes": 1292,
+      "sha256": "4806817c333445c4978634480ad8eead8ecc602dba5197f6949f9ec80b15fad8"
+    },
+    {
+      "path": "public/index.html",
+      "bytes": 5089,
+      "sha256": "fac100a46df9545c1ec1909276f92747115503d75cf616653f85ba9017c95961"
+    },
+    {
+      "path": "public/styles.css",
+      "bytes": 4227,
+      "sha256": "05e841888eda86fc689976daeb936f68732b11eb78ea72db96ebad56713e7768"
+    },
+    {
+      "path": "scripts/build_exports.py",
+      "bytes": 4708,
+      "sha256": "2faa492792cc9d6c7024bf9228e65107796dfad4473cd996ec4f2903df4cd9d6"
+    },
+    {
+      "path": "scripts/extract_full_corpus.py",
+      "bytes": 12466,
+      "sha256": "e0a799590a1c036a992ce08b9fe8543b8451dc6ac1ab9add9d794ff3e3bf73b1"
+    },
+    {
+      "path": "scripts/extract_pages.py",
+      "bytes": 795,
+      "sha256": "125530162c644b5e4503e95cbc447e4b5957076aa5be62633e939fd3dc9e0c9b"
+    },
+    {
+      "path": "scripts/generate_exports.py",
+      "bytes": 4402,
+      "sha256": "036c369d0d46496cabc37325f144610abe0a814702b2921fb499d6ba6a4f5bd2"
+    },
+    {
+      "path": "scripts/normalize_search.py",
+      "bytes": 314,
+      "sha256": "9fb24ed796eaa7579a483b6a6ef3ddafe18e201cbcce309a4d8e7ab42e7d1aa4"
+    },
+    {
+      "path": "sources/README.md",
+      "bytes": 576,
+      "sha256": "8c48a0d071aef76546c705186a3d3d9680ad814d5578489c0b445778f0ca1901"
+    },
+    {
+      "path": "sources/checksums.json",
+      "bytes": 326,
+      "sha256": "57e15250531daa28881d029b1976ef284778dfba3707f9d3b68b4d3f13d4f32a"
+    },
+    {
+      "path": "sources/steffel-1809-ocr-source.txt",
+      "bytes": 183484,
+      "sha256": "6df508cd8c63db030cfa0339f8fdd45980c01d1dc7f85b310059f233653c9fb8"
+    },
+    {
+      "path": "tests/validate.py",
+      "bytes": 3111,
+      "sha256": "1a078851b2a24a99577207baa32baa859354d27f6eb9255bd2fdb5e716a357d5"
+    }
+  ]
+}
