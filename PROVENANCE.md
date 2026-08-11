@@ -1,11 +1,9 @@
 # Procedencia
 
-La fuente primaria de trabajo es el facsímil PDF y el TXT OCR suministrados al proyecto el 11 de agosto de 2026. Sus huellas SHA-256 se registran en `sources/checksums.json`; los binarios de ingesta se mantienen separados de las capas editoriales versionadas para evitar confundir reproducción documental con datos curados.
+La fuente primaria de trabajo es el PDF facsimilar y el TXT OCR suministrados al proyecto el 11 de agosto de 2026. El OCR textual se conserva sin modificación en `sources/steffel-1809-ocr-source.txt`; `sources/checksums.json` registra las huellas SHA-256 del PDF y del TXT de origen. El repositorio puede enlazar el facsímil externo en lugar de duplicar necesariamente el binario.
 
-La obra corresponde al *Tarahumarisches Wörterbuch* de Matthäus Steffel, compilado/fechado en 1791 y publicado en 1809 dentro de la compilación de Christoph Gottlieb von Murr. El opúsculo ocupa 84 páginas; el diccionario propiamente dicho se extiende entre las páginas impresas 301–374, precedido por portada y prolegómenos.
+La obra corresponde al *Tarahumarisches Wörterbuch* de Matthäus Steffel, compilado/fechado en 1791 y publicado en 1809 dentro de la compilación de Christoph Gottlieb von Murr. El facsímil de trabajo tiene 84 páginas; la paginación impresa relevante para el diccionario corre de 301 a 374.
 
-Las entradas de `data/entries_curated.csv` se extrajeron únicamente de pasajes legibles del OCR suministrado y conservan referencia a línea de evidencia y página. La traducción española es una capa editorial moderna, no una traducción atribuida a Steffel ni a la edición crítica de 2020.
+La versión 0.2.0 procesa todo el rango de ambos diccionarios del OCR y conserva las líneas de evidencia. `data/entries.csv` es una segmentación automática de alta cobertura; `data/entries_curated.csv` conserva 60 anclas previamente trabajadas. Ningún candidato automático se presenta como transcripción diplomática ni como validación lingüística.
 
-No se reutiliza como dato la traducción española de la Universidad de Sonora. Debe consultarse como bibliografía y edición crítica, respetando su licencia.
-
-Copias públicas de consulta de la fuente histórica se identifican en `SOURCES.md` y `external-references.json`.
+La traducción española de la edición crítica de la Universidad de Sonora no se reutiliza como dato del corpus. Se consulta como bibliografía y edición crítica independiente, respetando su licencia.

@@ -1,11 +1,7 @@
-# Fuentes de ingesta y consulta
+# Fuentes preservadas y referenciadas
 
-El proyecto se inició con un facsímil PDF de 84 páginas y un TXT OCR suministrados el 11 de agosto de 2026. Sus huellas SHA-256 y tamaños están documentados en `checksums.json`.
+- `steffel-1809-ocr-source.txt`: OCR primario suministrado, incorporado al repositorio sin corrección.
+- `checksums.json`: SHA-256 y tamaño del PDF facsimilar y del TXT de origen.
+- `external-references.json`: referencias de consulta a reproducciones y ediciones externas.
 
-Los binarios de ingesta se mantienen separados de las capas editoriales versionadas. Para consulta pública de la obra histórica pueden utilizarse:
-
-- Open Library: `OL25505181M`.
-- Internet Archive: `tarahumarischesw00stef`.
-- Copia del volumen completo en Wikimedia Commons / Internet Archive, documentada en `SOURCES.md`.
-
-Las correcciones nunca se aplican sobre la evidencia primaria: pertenecen a transcripciones y anotaciones derivadas.
+El PDF facsimilar de trabajo tiene 84 páginas. Puede conservarse fuera del repositorio Git cuando convenga evitar duplicar un binario; su identidad queda fijada por SHA-256. Las correcciones nunca se realizan sobre el OCR fuente: pertenecen a capas derivadas.

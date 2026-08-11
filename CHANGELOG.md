@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0 — 2026-08-11
+
+- Cobertura integral de ambos rangos lexicográficos del OCR.
+- 2,495 candidatos de artículo; 60 anclas con identificadores preservados.
+- OCR fuente incorporado, tabla de líneas completa y exportaciones regenerables.
+- Validación automatizada actualizada para la capa integral.
+
 ## 0.1.0-mvp — 2026-08-11
 
 - Creación de Rarámuri Histórico Digital como infraestructura separada de Rarámuri Digital.

@@ -1,34 +1,39 @@
-# Esquema de datos
+# Esquema de datos / Data Schema
 
-## Identidad
+## Identidad y versiones
 
-- Dataset: `0.1.0-mvp`.
-- Entrada: `RHD-S1809-#####`.
-- Fuente inicial: `STEFFEL-1809`.
+- Dataset: `0.2.0`.
+- Identificador: `RHD-S1809-#####`, persistente y no reciclable.
+- Fuente: `STEFFEL-1809`.
+- Direcciones: `DE-RAR` y `RAR-DE`.
 - Codificación: UTF-8.
 
-## Entrada maestra
+## Capa maestra `data/entries.csv`
 
-| Campo | Regla |
+| Campo | Función |
 |---|---|
-| `record_id` | Identificador persistente de la transcripción estructurada. |
+| `record_id` | Identificador persistente. Los 60 IDs iniciales se preservan. |
 | `source_code` | Fuente documental controlada. |
-| `direction` | `DE-RAR` o `RAR-DE`. |
-| `headword_raw` | Forma conservada de la fuente/OCR cotejado. Nunca se sobrescribe. |
-| `headword_search` | Clave técnica de búsqueda; reemplaza ſ por s y elimina diacríticos solo para recuperación. |
-| `gloss_de_raw` | Glosa alemana tal como se conserva en la capa de trabajo. |
-| `translation_es_editorial` | Traducción española añadida por el proyecto; no forma parte de Steffel. |
-| `printed_page` | Página de la edición de 1809. |
-| `pdf_page` | Página física del facsímil suministrado. |
-| `source_ocr_line` | Línea de evidencia dentro del TXT suministrado. |
-| `editorial_note` | Advertencias, variantes o decisiones editoriales. |
-| `status` | Estado técnico de extracción. |
-| `validation` | Estado de cotejo/validación. |
+| `direction` | Dirección lexicográfica. |
+| `headword_raw` | Lema de presentación de la capa actual; en anclas puede incorporar una restauración editorial documentada. |
+| `headword_ocr_raw` | Prefijo exactamente segmentado desde la línea OCR, antes de correcciones editoriales. |
+| `headword_search` | Clave técnica normalizada para recuperación. |
+| `definition_raw` | Contenido OCR asociado al candidato después del lema. |
+| `translation_es_editorial` | Traducción española propia solo cuando existe en la capa curada; nunca atribuida a Steffel. |
+| `editorial_note` | Decisión o advertencia editorial. |
+| `article_ocr_raw` | Bloque OCR completo asignado al candidato. |
+| `printed_page` / `pdf_page` | Localización documental. |
+| `source_ocr_line_start` / `source_ocr_line_end` | Rango exacto de evidencia dentro del TXT primario. |
+| `delimiter` | Señal tipográfica usada para proponer el límite. |
+| `extraction_score` | Puntaje técnico del segmentador. |
+| `segmentation_confidence` | `curated_anchor`, `high_machine`, `medium_machine` o `low_machine`. |
+| `curated_anchor` | Indica pertenencia a las 60 anclas iniciales. |
+| `extraction_method` | Método reproducible empleado. |
+| `status` | Estado técnico; los candidatos automáticos son `machine_segmented_unverified`. |
+| `validation` | Estado de cotejo facsimilar y validación lingüística. |
 
-## Capas previstas
+## Capas
 
-`facsimile` → `ocr_raw` → `diplomatic_transcription` → `normalized_transcription` → `lexical_entry` → `historical_correspondence`.
+`facsimile` → `ocr_raw` → `machine_segmentation` → `diplomatic_transcription` → `normalized_transcription` → `lexical_entry` → `historical_correspondence`.
 
-## Correspondencias diacrónicas futuras
-
-Las relaciones con Rarámuri Digital se almacenarán aparte, con `historical_entry_id`, `rd_entry_id`, `relation_type`, `confidence`, `method`, `review_status` y `reviewer`.
+La segmentación automática no se confunde con la entidad lexicográfica validada. Una futura fusión o rechazo debe conservar trazabilidad e identificadores históricos.

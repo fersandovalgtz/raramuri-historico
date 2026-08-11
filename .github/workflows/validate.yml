@@ -1,7 +1,20 @@
 name: validate
+
 on:
+  workflow_dispatch:
   push:
+    branches: [main]
+    paths:
+      - 'sources/steffel-1809-ocr-source.txt'
+      - 'data/entries_curated.csv'
+      - 'scripts/extract_full_corpus.py'
+      - 'scripts/generate_exports.py'
+      - 'tests/validate.py'
   pull_request:
+
+permissions:
+  contents: write
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -10,7 +23,27 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Regenerate derived exports
-        run: python3 scripts/build_exports.py
-      - name: Validate canonical data and exports
+      - name: Ensure primary OCR source
+        run: |
+          if [ ! -f sources/steffel-1809-ocr-source.txt ]; then
+            curl -L --fail --retry 3 -o sources/steffel-1809-ocr-source.txt https://archive.org/download/tarahumarischesw00stef/tarahumarischesw00stef_djvu.txt
+          fi
+          echo "6df508cd8c63db030cfa0339f8fdd45980c01d1dc7f85b310059f233653c9fb8  sources/steffel-1809-ocr-source.txt" | sha256sum -c -
+      - name: Regenerate integral corpus
+        run: |
+          python3 scripts/extract_full_corpus.py
+          python3 scripts/generate_exports.py
+      - name: Validate corpus and exports
         run: python3 tests/validate.py
+      - name: Commit regenerated artifacts
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sources/steffel-1809-ocr-source.txt data public/data manifest.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Regenerate complete Steffel corpus"
+            git push
+          fi
