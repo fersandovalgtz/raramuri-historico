@@ -376,7 +376,7 @@
     "headword_search": "abweg",
     "definition_raw": "Ta pdvireck. Hali Das boa iſt ein Huͤlfswort ſolcher Größe, daß fie ein EE EEE EPÄZEL TE N 2 \"TER * Nr ni Fu",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Entry start Abweg is valid, but the OCR article block is contaminated by text belonging to the Adern article because source text order does not preserve two-column layout. Full diplomatic body remains pending. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=301.",
     "article_ocr_raw": "Abweg. Ta pdvireck. \nHali \n\n\nDas boa iſt ein Huͤlfswort \n\n\nſolcher Größe, daß fie ein \n\n\nEE EEE EPÄZEL TE N \n2 \"TER * Nr ni Fu",
     "printed_page": "301",
     "pdf_page": "11",
@@ -387,8 +387,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00013",
@@ -762,15 +762,15 @@
     "record_id": "RHD-S1809-00072",
     "source_code": "STEFFEL-1809",
     "direction": "DE-RAR",
-    "headword_raw": "Hllmächtig",
+    "headword_raw": "Allmächtig",
     "headword_ocr_raw": "Hllmächtig",
-    "headword_search": "hllmaechtig",
+    "headword_search": "allmaechtig",
     "definition_raw": "Jumäjumajameke.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Initial letter misread by OCR as H. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=301.",
     "article_ocr_raw": "Hllmächtig. Jumäjumajameke.",
-    "printed_page": "302",
-    "pdf_page": "12",
+    "printed_page": "301",
+    "pdf_page": "11",
     "source_ocr_line_start": "537",
     "source_ocr_line_end": "539",
     "delimiter": ".",
@@ -778,8 +778,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00073",
@@ -790,10 +790,10 @@
     "headword_search": "allwissend",
     "definition_raw": "Jumamatsigameke,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=301.",
     "article_ocr_raw": "Allwiſſend. Jumamatsigameke,",
-    "printed_page": "302",
-    "pdf_page": "12",
+    "printed_page": "301",
+    "pdf_page": "11",
     "source_ocr_line_start": "540",
     "source_ocr_line_end": "540",
     "delimiter": ".",
@@ -801,8 +801,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00023",
@@ -1020,7 +1020,7 @@
     "headword_search": "also",
     "definition_raw": "Co oder 26 iſt bey den Tarahumaren eine ange haͤngte Sylbe am Ende des",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=302.",
     "article_ocr_raw": "Alſo. Co oder 26 iſt bey den \n\n\nTarahumaren eine ange \nhaͤngte Sylbe am Ende des",
     "printed_page": "302",
     "pdf_page": "12",
@@ -1031,8 +1031,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00082",
@@ -1227,7 +1227,7 @@
     "headword_search": "anderer",
     "definition_raw": "Huli. Senü, senüla.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=302.",
     "article_ocr_raw": "Anderer. Huli. Senü, senüla.",
     "printed_page": "302",
     "pdf_page": "12",
@@ -1238,8 +1238,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00090",
@@ -1250,10 +1250,10 @@
     "headword_search": "anderst",
     "definition_raw": "Segul.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=302.",
     "article_ocr_raw": "Anderſt. Segul.",
-    "printed_page": "303",
-    "pdf_page": "13",
+    "printed_page": "302",
+    "pdf_page": "12",
     "source_ocr_line_start": "637",
     "source_ocr_line_end": "637",
     "delimiter": ".",
@@ -1261,8 +1261,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00091",
@@ -1296,10 +1296,10 @@
     "headword_search": "anfassen",
     "definition_raw": "Tschapi. 4",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=302.",
     "article_ocr_raw": "Anfaſſen. Tschapi. 4",
-    "printed_page": "303",
-    "pdf_page": "13",
+    "printed_page": "302",
+    "pdf_page": "12",
     "source_ocr_line_start": "641",
     "source_ocr_line_end": "643",
     "delimiter": ".",
@@ -1307,8 +1307,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00093",
@@ -1319,10 +1319,10 @@
     "headword_search": "anfechten",
     "definition_raw": "Satuje.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=302.",
     "article_ocr_raw": "Anfechten. Satuje.",
-    "printed_page": "303",
-    "pdf_page": "13",
+    "printed_page": "302",
+    "pdf_page": "12",
     "source_ocr_line_start": "644",
     "source_ocr_line_end": "646",
     "delimiter": ".",
@@ -1330,8 +1330,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00094",
@@ -1342,10 +1342,10 @@
     "headword_search": "anfechter",
     "definition_raw": "Satiämeke,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=302.",
     "article_ocr_raw": "Anfechter. Satiämeke,",
-    "printed_page": "303",
-    "pdf_page": "13",
+    "printed_page": "302",
+    "pdf_page": "12",
     "source_ocr_line_start": "647",
     "source_ocr_line_end": "647",
     "delimiter": ".",
@@ -1353,8 +1353,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00095",
@@ -1618,10 +1618,10 @@
     "headword_search": "anzunden",
     "definition_raw": "Neige. Es iſt angezuͤndet. Nair ue,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=302.",
     "article_ocr_raw": "Anzuͤnden. Neige. Es iſt \nangezuͤndet. Nair ue,",
-    "printed_page": "303",
-    "pdf_page": "13",
+    "printed_page": "302",
+    "pdf_page": "12",
     "source_ocr_line_start": "670",
     "source_ocr_line_end": "673",
     "delimiter": ".",
@@ -1629,8 +1629,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00107",
@@ -1825,10 +1825,10 @@
     "headword_search": "arbeit",
     "definition_raw": "ferde, und 304",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Catchword “Arbeit” at the foot of p. 303; the actual article begins on p. 304. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=303.",
     "article_ocr_raw": "Arbeit. \n\n\nferde, und \n\n\n304",
-    "printed_page": "304",
-    "pdf_page": "14",
+    "printed_page": "303",
+    "pdf_page": "13",
     "source_ocr_line_start": "895",
     "source_ocr_line_end": "903",
     "delimiter": ".",
@@ -1836,8 +1836,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00116",
@@ -1848,7 +1848,7 @@
     "headword_search": "arbeit",
     "definition_raw": "Tnoitsanali, oder noit- fanali. Ä 1",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=304.",
     "article_ocr_raw": "Arbeit. Tnoitsanali, oder noit- \nfanali. Ä 1",
     "printed_page": "304",
     "pdf_page": "14",
@@ -1859,8 +1859,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00117",
@@ -2009,7 +2009,7 @@
     "headword_search": "nazionen",
     "definition_raw": "Beide find in der Hand eines Indianers ſehr fuͤrchterliche und ger faͤhrliche Waffen. Ich will ſie dem Feuergeſchuͤtze da⸗ rum vorziehen, well der",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Nazionen” occurs inside the extended article/ethnographic note for Armbrust; not an independent headword. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=304.",
     "article_ocr_raw": "„Nazionen. Beide find in \n\n\nder Hand eines Indianers \nſehr fuͤrchterliche und ger \nfaͤhrliche Waffen. Ich will \nſie dem Feuergeſchuͤtze da⸗ \nrum vorziehen, well der",
     "printed_page": "304",
     "pdf_page": "14",
@@ -2020,8 +2020,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00124",
@@ -2147,7 +2147,7 @@
     "headword_search": "aufladen",
     "definition_raw": "und Deutſch Tarahumariſches ‚fen auch, ihm beym Ab: druͤcken eine fo unverfehene und ſchnelle Richtung zu geben, daß ſie nicht den, auf welchen ſie zielen, ſon⸗ dern einen andern, den ſie wollen treffen. Der Ta⸗ rahumare geht allezeit mit ſeinem Bogen auf dem Arm, mit- ſeinem Koͤcher auf dem",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=304.",
     "article_ocr_raw": "Aufladen. \n\n\nund \n\n\nDeutſch Tarahumariſches \n\n\n‚fen auch, ihm beym Ab: \ndruͤcken eine fo unverfehene \nund ſchnelle Richtung zu \ngeben, daß ſie nicht den, \nauf welchen ſie zielen, ſon⸗ \ndern einen andern, den ſie \n\n\nwollen treffen. Der Ta⸗ \nrahumare geht allezeit mit \nſeinem Bogen auf dem Arm, \nmit- ſeinem Koͤcher auf dem",
     "printed_page": "304",
     "pdf_page": "14",
@@ -2158,8 +2158,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00130",
@@ -2446,10 +2446,10 @@
     "headword_search": "aufmerken",
     "definition_raw": "Gane kake.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=304.",
     "article_ocr_raw": "Aufmerken. Gane kake.",
-    "printed_page": "305",
-    "pdf_page": "15",
+    "printed_page": "304",
+    "pdf_page": "14",
     "source_ocr_line_start": "1028",
     "source_ocr_line_end": "1030",
     "delimiter": ".",
@@ -2457,8 +2457,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00143",
@@ -2561,7 +2561,7 @@
     "headword_search": "n pere",
     "definition_raw": "usfuͤllen. Putlcha. lusgehen. Matfchine ſimi. lusgetrunken. Sie zeigen das Geſchirr, und fagen:",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. OCR fragment from the article Ausbreiten (“Peré”); not an independent headword. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=305.",
     "article_ocr_raw": "N pere. \nusfuͤllen. Putlcha. \n\n\nlusgehen. Matfchine ſimi. \n\n\nlusgetrunken. Sie zeigen \n\n\ndas Geſchirr, und fagen:",
     "printed_page": "305",
     "pdf_page": "15",
@@ -2572,8 +2572,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00148",
@@ -2630,7 +2630,7 @@
     "headword_search": "backenstreich",
     "definition_raw": "Tlehotſchonala.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=305.",
     "article_ocr_raw": "Backenſtreich. Tlehotſchonala.",
     "printed_page": "305",
     "pdf_page": "15",
@@ -2641,8 +2641,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00151",
@@ -3251,7 +3251,7 @@
     "headword_search": "bart",
     "definition_raw": "Eilchaguala.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=307.",
     "article_ocr_raw": "Bart. Eilchaguala.",
     "printed_page": "307",
     "pdf_page": "17",
@@ -3262,8 +3262,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00178",
@@ -3274,7 +3274,7 @@
     "headword_search": "bartig",
     "definition_raw": "Etfchagudameke. Weil den Tarahumaren kein",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=307.",
     "article_ocr_raw": "Baͤrtig. Etfchagudameke. \nWeil den Tarahumaren kein",
     "printed_page": "307",
     "pdf_page": "17",
@@ -3285,8 +3285,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00179",
@@ -3343,7 +3343,7 @@
     "headword_search": "spaniern",
     "definition_raw": "Selbſt die Spa⸗ nier gebrauchen ſich zweyer⸗ ley Namen, durch welche die, welche aus Spanien ankommen, und jene, die in Amerika von ſpaniſchen",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Spaniern” is running prose inside the article Bärtig; not an independent headword. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=307.",
     "article_ocr_raw": "Spaniern. Selbſt die Spa⸗ \nnier gebrauchen ſich zweyer⸗ \nley Namen, durch welche \n\n\ndie, welche aus Spanien \n\n\nankommen, und jene, die \n\nin Amerika von ſpaniſchen",
     "printed_page": "307",
     "pdf_page": "17",
@@ -3354,8 +3354,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00182",
@@ -3389,7 +3389,7 @@
     "headword_search": "bauch",
     "definition_raw": "Rhopala. 2",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=307.",
     "article_ocr_raw": "Bauch. Rhopala. 2",
     "printed_page": "307",
     "pdf_page": "17",
@@ -3400,8 +3400,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00184",
@@ -3573,10 +3573,10 @@
     "headword_search": "baumfruchte",
     "definition_raw": "‚Khutugala,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=307.",
     "article_ocr_raw": "Baumfruͤchte. ‚Khutugala,",
-    "printed_page": "308",
-    "pdf_page": "18",
+    "printed_page": "307",
+    "pdf_page": "17",
     "source_ocr_line_start": "1477",
     "source_ocr_line_end": "1477",
     "delimiter": ".",
@@ -3584,8 +3584,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00192",
@@ -3849,7 +3849,7 @@
     "headword_search": "begehren",
     "definition_raw": "Ela. Tanf.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=308.",
     "article_ocr_raw": "Begehren. Ela. Tanf.",
     "printed_page": "308",
     "pdf_page": "18",
@@ -3860,8 +3860,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00204",
@@ -4585,10 +4585,10 @@
     "headword_search": "beschauen",
     "definition_raw": "Nens. Reteguä,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=308.",
     "article_ocr_raw": "Beſchauen. Nens. Reteguä,",
-    "printed_page": "309",
-    "pdf_page": "19",
+    "printed_page": "308",
+    "pdf_page": "18",
     "source_ocr_line_start": "1584",
     "source_ocr_line_end": "1584",
     "delimiter": ".",
@@ -4596,8 +4596,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00236",
@@ -4769,7 +4769,7 @@
     "headword_search": "bein",
     "definition_raw": "",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=309.",
     "article_ocr_raw": "Bein.",
     "printed_page": "309",
     "pdf_page": "19",
@@ -4780,8 +4780,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00244",
@@ -5183,7 +5183,7 @@
     "headword_search": "bewusst",
     "definition_raw": "Matſchigameke. Bey Ne |",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=309.",
     "article_ocr_raw": "Bewußt. Matſchigameke. Bey \nNe |",
     "printed_page": "309",
     "pdf_page": "19",
@@ -5194,8 +5194,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00262",
@@ -5367,7 +5367,7 @@
     "headword_search": "bisweilen",
     "definition_raw": "Sint, ſchiné.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=309.",
     "article_ocr_raw": "Bisweilen. Sint, ſchiné.",
     "printed_page": "309",
     "pdf_page": "19",
@@ -5378,8 +5378,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00270",
@@ -5390,7 +5390,7 @@
     "headword_search": "bitten",
     "definition_raw": "Tani. ö",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=309.",
     "article_ocr_raw": "Bitten. Tani. ö",
     "printed_page": "309",
     "pdf_page": "19",
@@ -5401,8 +5401,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00271",
@@ -5413,7 +5413,7 @@
     "headword_search": "blasen",
     "definition_raw": "Putiche.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=309.",
     "article_ocr_raw": "Blaſen. Putiche.",
     "printed_page": "309",
     "pdf_page": "19",
@@ -5424,8 +5424,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00272",
@@ -5436,10 +5436,10 @@
     "headword_search": "blatt",
     "definition_raw": "Bacagudca. Blatt eis nes Buches. Hofleliki, ſ.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=309.",
     "article_ocr_raw": "Blatt. Bacagudca. Blatt eis \nnes Buches. Hofleliki, ſ.",
-    "printed_page": "310",
-    "pdf_page": "20",
+    "printed_page": "309",
+    "pdf_page": "19",
     "source_ocr_line_start": "1681",
     "source_ocr_line_end": "1683",
     "delimiter": ".",
@@ -5447,8 +5447,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00273",
@@ -5459,10 +5459,10 @@
     "headword_search": "papier",
     "definition_raw": "",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Papier” is a cross-reference within the article Blatt (“s. Papier”), not a new article here. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=309.",
     "article_ocr_raw": "Papier.",
-    "printed_page": "310",
-    "pdf_page": "20",
+    "printed_page": "309",
+    "pdf_page": "19",
     "source_ocr_line_start": "1684",
     "source_ocr_line_end": "1685",
     "delimiter": ".",
@@ -5470,8 +5470,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00274",
@@ -5482,10 +5482,10 @@
     "headword_search": "blau",
     "definition_raw": "Schidgameke.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=309.",
     "article_ocr_raw": "Blau. Schidgameke.",
-    "printed_page": "310",
-    "pdf_page": "20",
+    "printed_page": "309",
+    "pdf_page": "19",
     "source_ocr_line_start": "1686",
     "source_ocr_line_end": "1687",
     "delimiter": ".",
@@ -5493,8 +5493,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00275",
@@ -5505,10 +5505,10 @@
     "headword_search": "blech",
     "definition_raw": "Guenomi tfchipera- meke, das heißt, ein duͤn⸗ nes Metall. ü",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=309.",
     "article_ocr_raw": "Blech. Guenomi tfchipera- \n\nmeke, das heißt, ein duͤn⸗ \n\nnes Metall. ü",
-    "printed_page": "310",
-    "pdf_page": "20",
+    "printed_page": "309",
+    "pdf_page": "19",
     "source_ocr_line_start": "1688",
     "source_ocr_line_end": "1693",
     "delimiter": ".",
@@ -5516,8 +5516,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00276",
@@ -5597,10 +5597,10 @@
     "headword_search": "blut",
     "definition_raw": "Das Menſchenblut heißt eldca, anderes Blut aber nennet man uur laca,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=309.",
     "article_ocr_raw": "Blut. Das Menſchenblut \n\nheißt eldca, anderes Blut \naber nennet man uur laca,",
-    "printed_page": "310",
-    "pdf_page": "20",
+    "printed_page": "309",
+    "pdf_page": "19",
     "source_ocr_line_start": "1702",
     "source_ocr_line_end": "1706",
     "delimiter": ".",
@@ -5608,8 +5608,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00280",
@@ -5620,10 +5620,10 @@
     "headword_search": "blutsfreund",
     "definition_raw": "Tehima. Tehi- meéameke. Mein Bluts⸗ freund. Tebimals. Das am Ende angehaͤngte la be⸗ deutet die zweyte Endung, ſ. Mutter. ock Cambalätfehi, oder gam- balatiehi. Ein wilder Bock,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=309.",
     "article_ocr_raw": "Blutsfreund. Tehima. Tehi- \n\nmeéameke. Mein Bluts⸗ \n\nfreund. Tebimals. Das \nam Ende angehaͤngte la be⸗ \ndeutet die zweyte Endung, \n\nſ. Mutter. \nock Cambalätfehi, oder gam- \nbalatiehi. Ein wilder Bock,",
-    "printed_page": "310",
-    "pdf_page": "20",
+    "printed_page": "309",
+    "pdf_page": "19",
     "source_ocr_line_start": "1707",
     "source_ocr_line_end": "1717",
     "delimiter": ".",
@@ -5631,8 +5631,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00281",
@@ -5735,7 +5735,7 @@
     "headword_search": "bohren",
     "definition_raw": "Hoco.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=310.",
     "article_ocr_raw": "„Bohren. Hoco.",
     "printed_page": "310",
     "pdf_page": "20",
@@ -5746,8 +5746,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00286",
@@ -5781,7 +5781,7 @@
     "headword_search": "bos",
     "definition_raw": "Tleti. Boͤſes thun.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=310.",
     "article_ocr_raw": "Boͤs. Tleti. Boͤſes thun.",
     "printed_page": "310",
     "pdf_page": "20",
@@ -5792,8 +5792,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00288",
@@ -5827,7 +5827,7 @@
     "headword_search": "bothschaft bringen",
     "definition_raw": "Matſchi⸗ ruje. ö",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=310.",
     "article_ocr_raw": "Bothſchaft bringen. Matſchi⸗ \nruje. ö",
     "printed_page": "310",
     "pdf_page": "20",
@@ -5838,8 +5838,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00290",
@@ -5942,7 +5942,7 @@
     "headword_search": "tichapiboli",
     "definition_raw": "",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Tichapiboli” is the Rarámuri equivalent within the article Brautpaar; not a German headword. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=310.",
     "article_ocr_raw": "Tichapiboli.",
     "printed_page": "310",
     "pdf_page": "20",
@@ -5953,8 +5953,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00295",
@@ -5965,7 +5965,7 @@
     "headword_search": "brechen",
     "definition_raw": "Caſſini, oder gaſſinale. 5",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=310.",
     "article_ocr_raw": "Brechen. Caſſini, \n\noder gaſſinale. 5",
     "printed_page": "310",
     "pdf_page": "20",
@@ -5976,8 +5976,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00296",
@@ -5988,7 +5988,7 @@
     "headword_search": "brennen",
     "definition_raw": "Es brennt, racha. Es brennt ſchon. Rachaba.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=310.",
     "article_ocr_raw": "Brennen. Es brennt, racha. \n\nEs brennt ſchon. Rachaba.",
     "printed_page": "310",
     "pdf_page": "20",
@@ -5999,8 +5999,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00297",
@@ -6011,7 +6011,7 @@
     "headword_search": "brennholz",
     "definition_raw": "Küllu. Brenn⸗ ſchwamm. Galld.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=310.",
     "article_ocr_raw": "Brennholz. Küllu. Brenn⸗ \nſchwamm. Galld.",
     "printed_page": "310",
     "pdf_page": "20",
@@ -6022,8 +6022,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00298",
@@ -6034,7 +6034,7 @@
     "headword_search": "brief",
     "definition_raw": "Hoflelixi, ſ. Papier.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=310.",
     "article_ocr_raw": "Brief. Hoflelixi, ſ. Papier.",
     "printed_page": "310",
     "pdf_page": "20",
@@ -6045,8 +6045,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00299",
@@ -6057,7 +6057,7 @@
     "headword_search": "bringen",
     "definition_raw": "16 Brings her, cad, oder guäcard,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=310.",
     "article_ocr_raw": "Bringen. 16 Brings her, \ncad, oder guäcard,",
     "printed_page": "310",
     "pdf_page": "20",
@@ -6068,8 +6068,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00300",
@@ -6080,7 +6080,7 @@
     "headword_search": "brod",
     "definition_raw": "Nach der Art der Ta⸗ rahumaren Teméke, oder beſſer Remeke, Es iſt ein von tuͤrkiſchen Walzen ger backener Kuchen, welcher das gewoͤhnliche Tiſchbrod iſt, ob es gleich am rechten",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=310.",
     "article_ocr_raw": "Brod. Nach der Art der Ta⸗ \nrahumaren Teméke, oder \nbeſſer Remeke, Es iſt ein \nvon tuͤrkiſchen Walzen ger \n\nbackener Kuchen, welcher \ndas gewoͤhnliche Tiſchbrod \niſt, ob es gleich am rechten",
     "printed_page": "310",
     "pdf_page": "20",
@@ -6091,8 +6091,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00301",
@@ -6310,7 +6310,7 @@
     "headword_search": "brunst",
     "definition_raw": "Naiki. Damit nicht. Mapuguitaje tä,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=311.",
     "article_ocr_raw": "Brunſt. Naiki. Damit nicht. Mapuguitaje tä,",
     "printed_page": "311",
     "pdf_page": "21",
@@ -6321,8 +6321,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00311",
@@ -6563,7 +6563,7 @@
     "headword_search": "decken",
     "definition_raw": "Pole. Gedeckt, Po- lirügameke.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=312.",
     "article_ocr_raw": "Decken. Pole. Gedeckt, Po- \n\nlirügameke.",
     "printed_page": "312",
     "pdf_page": "22",
@@ -6574,8 +6574,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00322",
@@ -6586,7 +6586,7 @@
     "headword_search": "degen",
     "definition_raw": "Malagala. Dein. Muhéli.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=312.",
     "article_ocr_raw": "Degen. Malagala. \n\nDein. Muhéli.",
     "printed_page": "312",
     "pdf_page": "22",
@@ -6597,8 +6597,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00323",
@@ -6609,7 +6609,7 @@
     "headword_search": "denken",
     "definition_raw": "Mae, Der, die, das. Iche. In eis nigen Doͤrfern ſagen ſie auch stle, welches eigentlich das anzeigende Fuͤrwort Diez ſer iſt.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Headword Denken is valid; current machine block absorbs the following article “Der, die, das.” End boundary requires resegmentation. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=312.",
     "article_ocr_raw": "Denken. Mae, \n\nDer, die, das. Iche. In eis \n\nnigen Doͤrfern ſagen ſie auch \nstle, welches eigentlich das \nanzeigende Fuͤrwort Diez \nſer iſt.",
     "printed_page": "312",
     "pdf_page": "22",
@@ -6620,8 +6620,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00324",
@@ -6632,7 +6632,7 @@
     "headword_search": "derswegen",
     "definition_raw": "Colaguitaje. Ke- ‚punaguitaje. Elaguitaje. Iche- taje. Hipéguitaje. Kibela- guitaje. Etſeguitaje.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=312.",
     "article_ocr_raw": "Derswegen. Colaguitaje. Ke- \n‚punaguitaje. Elaguitaje. Iche- \ntaje. Hipéguitaje. Kibela- \nguitaje. Etſeguitaje.",
     "printed_page": "312",
     "pdf_page": "22",
@@ -6643,8 +6643,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00325",
@@ -6655,7 +6655,7 @@
     "headword_search": "derselbe",
     "definition_raw": "Iche. Etſe.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=312.",
     "article_ocr_raw": "Derſelbe. Iche. Etſe.",
     "printed_page": "312",
     "pdf_page": "22",
@@ -6666,8 +6666,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00326",
@@ -6816,7 +6816,7 @@
     "headword_search": "dieweil",
     "definition_raw": "Mapuguitaje. telſt eines geſchaͤrften Hol⸗ D",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=312.",
     "article_ocr_raw": "9 8 Dieweil. Mapuguitaje. \ntelſt eines geſchaͤrften Hol⸗ D",
     "printed_page": "312",
     "pdf_page": "22",
@@ -6827,8 +6827,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00333",
@@ -6839,7 +6839,7 @@
     "headword_search": "ding",
     "definition_raw": "Nana;",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=312.",
     "article_ocr_raw": "Ding. Nana;",
     "printed_page": "312",
     "pdf_page": "22",
@@ -6850,8 +6850,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00334",
@@ -7322,7 +7322,7 @@
     "headword_search": "dunkel",
     "definition_raw": "Tamatsiame.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=313.",
     "article_ocr_raw": "Dunkel. Tamatsiame.",
     "printed_page": "313",
     "pdf_page": "23",
@@ -7333,8 +7333,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00355",
@@ -7575,7 +7575,7 @@
     "headword_search": "pemoliki",
     "definition_raw": "Noliki. 313",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Pemoliki” is an equivalent inside the article Dunst; not an independent headword. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=313.",
     "article_ocr_raw": "Pemoliki. Noliki. \n\n\n313",
     "printed_page": "313",
     "pdf_page": "23",
@@ -7586,8 +7586,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00366",
@@ -7598,7 +7598,7 @@
     "headword_search": "ekel haben",
     "definition_raw": "Tkitsiki,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=313.",
     "article_ocr_raw": "Ekel haben. Tkitsiki,",
     "printed_page": "313",
     "pdf_page": "23",
@@ -7609,8 +7609,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00367",
@@ -7621,7 +7621,7 @@
     "headword_search": "ehe als",
     "definition_raw": "Dieſes Bindewort mangelt, es wird aber durch das Talld mit dem Zeitworte in der ee",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=313.",
     "article_ocr_raw": "Ehe als. Dieſes Bindewort \nmangelt, es wird aber durch \n\ndas Talld mit dem Zeitworte \nin der ee",
     "printed_page": "313",
     "pdf_page": "23",
@@ -7632,8 +7632,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00368",
@@ -7736,7 +7736,7 @@
     "headword_search": "weib",
     "definition_raw": "",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Weib” is an indented subline within the article Ehelos, not a top-level headword. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=313.",
     "article_ocr_raw": "Weib.",
     "printed_page": "313",
     "pdf_page": "23",
@@ -7747,8 +7747,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00373",
@@ -7782,7 +7782,7 @@
     "headword_search": "kia",
     "definition_raw": "Kiae.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Kia” is an equivalent inside the article Ehemals; not an independent headword. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=313.",
     "article_ocr_raw": "Kia. Kiae.",
     "printed_page": "313",
     "pdf_page": "23",
@@ -7793,8 +7793,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00375",
@@ -7897,7 +7897,7 @@
     "headword_search": "opi",
     "definition_raw": "Upila. N",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Opi” is an equivalent inside the article Eheweib; not an independent headword. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=313.",
     "article_ocr_raw": "Opi. Upila. N",
     "printed_page": "313",
     "pdf_page": "23",
@@ -7908,8 +7908,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00380",
@@ -8012,10 +8012,10 @@
     "headword_search": "eigen",
     "definition_raw": "Wenn ſief ſagen wollen: das iſt mir eigen, das iſt mein, ſo druͤcken ſie ſich ſo aus: nehe bonoje en",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=313.",
     "article_ocr_raw": "Eigen. Wenn ſief ſagen wollen: \ndas iſt mir eigen, das iſt \nmein, ſo druͤcken ſie ſich ſo \naus: nehe bonoje en",
-    "printed_page": "314",
-    "pdf_page": "24",
+    "printed_page": "313",
+    "pdf_page": "23",
     "source_ocr_line_start": "2229",
     "source_ocr_line_end": "2233",
     "delimiter": ".",
@@ -8023,8 +8023,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00385",
@@ -8035,10 +8035,10 @@
     "headword_search": "eilends",
     "definition_raw": "Belägo.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=313.",
     "article_ocr_raw": "Eilends. Belägo.",
-    "printed_page": "314",
-    "pdf_page": "24",
+    "printed_page": "313",
+    "pdf_page": "23",
     "source_ocr_line_start": "2234",
     "source_ocr_line_end": "2235",
     "delimiter": ".",
@@ -8046,8 +8046,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00386",
@@ -8058,10 +8058,10 @@
     "headword_search": "eilf",
     "definition_raw": "Macoek pile. 1 Macoefla ämoba fie en pile. Pilèke. Nur ei⸗ ner, pilela, Einer allein,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=313.",
     "article_ocr_raw": "Eilf. Macoek pile. \n\n1 Macoefla ämoba fie \n\n\nen pile. Pilèke. Nur ei⸗ \n\n\nner, pilela, Einer allein,",
-    "printed_page": "314",
-    "pdf_page": "24",
+    "printed_page": "313",
+    "pdf_page": "23",
     "source_ocr_line_start": "2236",
     "source_ocr_line_end": "2244",
     "delimiter": ".",
@@ -8069,8 +8069,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00387",
@@ -8219,10 +8219,10 @@
     "headword_search": "einwickeln",
     "definition_raw": "314",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. OCR/catchword artifact at the end of p. 313; no independent article Einwickeln is visible in the facsimile. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=313.",
     "article_ocr_raw": "Einwickeln. \n\n\n314",
-    "printed_page": "314",
-    "pdf_page": "24",
+    "printed_page": "313",
+    "pdf_page": "23",
     "source_ocr_line_start": "2263",
     "source_ocr_line_end": "2266",
     "delimiter": ".",
@@ -8230,8 +8230,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00394",
@@ -8265,7 +8265,7 @@
     "headword_search": "eingeweide",
     "definition_raw": "Siguaca.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=314.",
     "article_ocr_raw": "Eingeweide. Siguaca.",
     "printed_page": "314",
     "pdf_page": "24",
@@ -8276,19 +8276,19 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00396",
     "source_code": "STEFFEL-1809",
     "direction": "DE-RAR",
-    "headword_raw": "Eingaben",
+    "headword_raw": "Eingraben",
     "headword_ocr_raw": "Eingaben",
-    "headword_search": "eingaben",
+    "headword_search": "eingraben",
     "definition_raw": "Toco. graben. Töruke,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. OCR dropped the letter r; facsimile reads “Eingraben.” RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=314.",
     "article_ocr_raw": "Eingaben.  Toco. \ngraben. Töruke,",
     "printed_page": "314",
     "pdf_page": "24",
@@ -8299,8 +8299,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00397",
@@ -8311,7 +8311,7 @@
     "headword_search": "einkehren",
     "definition_raw": "Bechté. Einmal.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=314.",
     "article_ocr_raw": "Einkehren. Bechté. Einmal.",
     "printed_page": "314",
     "pdf_page": "24",
@@ -8322,8 +8322,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00398",
@@ -8357,7 +8357,7 @@
     "headword_search": "einode",
     "definition_raw": "Cauguila. Cauguiki,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=314.",
     "article_ocr_raw": "Einoͤde. Cauguila. Cauguiki,",
     "printed_page": "314",
     "pdf_page": "24",
@@ -8368,8 +8368,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00400",
@@ -8380,7 +8380,7 @@
     "headword_search": "einsalben",
     "definition_raw": "Tſchutſcha.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=314.",
     "article_ocr_raw": "Einſalben. Tſchutſcha.",
     "printed_page": "314",
     "pdf_page": "24",
@@ -8391,8 +8391,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00401",
@@ -8633,7 +8633,7 @@
     "headword_search": "elend",
     "definition_raw": "Telsiguati.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=314.",
     "article_ocr_raw": "Elend. Telsiguati.",
     "printed_page": "314",
     "pdf_page": "24",
@@ -8644,8 +8644,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00412",
@@ -8656,7 +8656,7 @@
     "headword_search": "elle",
     "definition_raw": "Pilé cusiki.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=314.",
     "article_ocr_raw": "Elle. Pilé cusiki.",
     "printed_page": "314",
     "pdf_page": "24",
@@ -8667,8 +8667,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00413",
@@ -8679,10 +8679,10 @@
     "headword_search": "endigen",
     "definition_raw": "Cajena. Re",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=314.",
     "article_ocr_raw": "Endigen. Cajena. Re",
-    "printed_page": "315",
-    "pdf_page": "25",
+    "printed_page": "314",
+    "pdf_page": "24",
     "source_ocr_line_start": "2306",
     "source_ocr_line_end": "2306",
     "delimiter": ".",
@@ -8690,8 +8690,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00414",
@@ -9024,10 +9024,10 @@
     "headword_search": "ereignen",
     "definition_raw": "Es ereignet ſich. Jeki.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=315.",
     "article_ocr_raw": "Ereignen. Es ereignet ſich. Jeki.",
-    "printed_page": "317",
-    "pdf_page": "27",
+    "printed_page": "315",
+    "pdf_page": "25",
     "source_ocr_line_start": "2497",
     "source_ocr_line_end": "2498",
     "delimiter": ".",
@@ -9035,8 +9035,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00429",
@@ -9093,10 +9093,10 @@
     "headword_search": "ergreifen",
     "definition_raw": "Tſchepi. Es ift ergriffen. Ifchapirüc. Er⸗ griffen, tfchapirugsineke, }",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=315.",
     "article_ocr_raw": "Ergreifen. Tſchepi. Es ift \nergriffen. Ifchapirüc. Er⸗ \n\ngriffen, tfchapirugsineke, }",
-    "printed_page": "317",
-    "pdf_page": "27",
+    "printed_page": "315",
+    "pdf_page": "25",
     "source_ocr_line_start": "2502",
     "source_ocr_line_end": "2506",
     "delimiter": ".",
@@ -9104,8 +9104,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00432",
@@ -9116,10 +9116,10 @@
     "headword_search": "erinneren sich",
     "definition_raw": "Neguale.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=315.",
     "article_ocr_raw": "Erinneren ſich. Neguale.",
-    "printed_page": "317",
-    "pdf_page": "27",
+    "printed_page": "315",
+    "pdf_page": "25",
     "source_ocr_line_start": "2507",
     "source_ocr_line_end": "2509",
     "delimiter": ".",
@@ -9127,8 +9127,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00433",
@@ -9139,10 +9139,10 @@
     "headword_search": "erkennen",
     "definition_raw": "Matſchi. a",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=315.",
     "article_ocr_raw": "Erkennen. Matſchi. a",
-    "printed_page": "317",
-    "pdf_page": "27",
+    "printed_page": "315",
+    "pdf_page": "25",
     "source_ocr_line_start": "2510",
     "source_ocr_line_end": "2510",
     "delimiter": ".",
@@ -9150,8 +9150,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00434",
@@ -9300,10 +9300,10 @@
     "headword_search": "ernahren",
     "definition_raw": "Nutütuje. 1",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=315.",
     "article_ocr_raw": "Ernaͤhren. Nutütuje. 1",
-    "printed_page": "317",
-    "pdf_page": "27",
+    "printed_page": "315",
+    "pdf_page": "25",
     "source_ocr_line_start": "2519",
     "source_ocr_line_end": "2519",
     "delimiter": ".",
@@ -9311,8 +9311,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00441",
@@ -9806,10 +9806,10 @@
     "headword_search": "etwann",
     "definition_raw": "Gualéke. 15 a „ tachpłbi,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=315.",
     "article_ocr_raw": "Etwann. Gualéke. 15 \na „ tachpłbi,",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "315",
+    "pdf_page": "25",
     "source_ocr_line_start": "2554",
     "source_ocr_line_end": "2557",
     "delimiter": ".",
@@ -9817,8 +9817,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00463",
@@ -9829,10 +9829,10 @@
     "headword_search": "etwas",
     "definition_raw": "-Rachpebi, tat pileke, pile nanamuti.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=315.",
     "article_ocr_raw": "Etwas. -Rachpebi, tat \npileke, pile nanamuti.",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "315",
+    "pdf_page": "25",
     "source_ocr_line_start": "2558",
     "source_ocr_line_end": "2559",
     "delimiter": ".",
@@ -9840,8 +9840,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00464",
@@ -9875,10 +9875,10 @@
     "headword_search": "eule",
     "definition_raw": "Ululd.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Eule. Ululd.",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2579",
     "source_ocr_line_end": "2579",
     "delimiter": ".",
@@ -9886,8 +9886,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00466",
@@ -9921,10 +9921,10 @@
     "headword_search": "fakel",
     "definition_raw": "Racheliki. Tſehopeke.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Fakel. Racheliki. Tſehopeke.",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2586",
     "source_ocr_line_end": "2588",
     "delimiter": ".",
@@ -9932,8 +9932,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00468",
@@ -9944,10 +9944,10 @@
     "headword_search": "fallen",
     "definition_raw": "Guechtichiki.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Fallen. Guechtichiki.",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2589",
     "source_ocr_line_end": "2589",
     "delimiter": ".",
@@ -9955,8 +9955,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00469",
@@ -10031,15 +10031,15 @@
     "record_id": "RHD-S1809-00472",
     "source_code": "STEFFEL-1809",
     "direction": "DE-RAR",
-    "headword_raw": "Kafttag",
+    "headword_raw": "Faſttag",
     "headword_ocr_raw": "Kafttag",
-    "headword_search": "kafttag",
+    "headword_search": "fasttag",
     "definition_raw": "Jumagnaliki. Die Tarahumaren gebrauchen ſich auch dieſes Wortes um einen großen Faſttag anzu⸗ deuten, obgleich ein Faſttag eigentlich Jom-iki heißt,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. OCR produced “Kafttag”; facsimile shows the article Faſttag/Fasttag. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Kafttag. Jumagnaliki. Die \n\n\nTarahumaren gebrauchen \nſich auch dieſes Wortes um \neinen großen Faſttag anzu⸗ \n\n\ndeuten, obgleich ein Faſttag \n\n\neigentlich Jom-iki heißt,",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2595",
     "source_ocr_line_end": "2607",
     "delimiter": ".",
@@ -10047,8 +10047,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00473",
@@ -10059,10 +10059,10 @@
     "headword_search": "faul",
     "definition_raw": "Naislamekle.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Faul. Naislamekle.",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2608",
     "source_ocr_line_end": "2609",
     "delimiter": ".",
@@ -10070,8 +10070,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00474",
@@ -10082,10 +10082,10 @@
     "headword_search": "faulenzen",
     "definition_raw": "Nafsinäe. Fau⸗ lenzend im Faulenzen be⸗ griffen, nalsinsja. Faulen.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Faulenzen. Nafsinäe. Fau⸗ \nlenzend im Faulenzen be⸗ \n\ngriffen, nalsinsja. Faulen.",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2610",
     "source_ocr_line_end": "2613",
     "delimiter": ".",
@@ -10093,8 +10093,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00475",
@@ -10128,10 +10128,10 @@
     "headword_search": "feder",
     "definition_raw": "Lupale, Mashäca.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Feder. Lupale, Mashäca.",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2619",
     "source_ocr_line_end": "2621",
     "delimiter": ".",
@@ -10139,8 +10139,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00477",
@@ -10151,10 +10151,10 @@
     "headword_search": "fegen",
     "definition_raw": "Peisikt.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Fegen. Peisikt.",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2622",
     "source_ocr_line_end": "2622",
     "delimiter": ".",
@@ -10162,8 +10162,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00478",
@@ -10335,10 +10335,10 @@
     "headword_search": "fein",
     "definition_raw": "Titakome,",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Fein. Titakome,",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2699",
     "source_ocr_line_end": "2700",
     "delimiter": ".",
@@ -10346,8 +10346,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00486",
@@ -10358,10 +10358,10 @@
     "headword_search": "feld",
     "definition_raw": "Boſſa. 5",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Feld. Boſſa. 5",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2701",
     "source_ocr_line_end": "2702",
     "delimiter": ".",
@@ -10369,8 +10369,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00487",
@@ -10381,10 +10381,10 @@
     "headword_search": "fell",
     "definition_raw": "Bougussiki.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Fell. Bougussiki.",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2703",
     "source_ocr_line_end": "2704",
     "delimiter": ".",
@@ -10392,8 +10392,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00488",
@@ -10404,10 +10404,10 @@
     "headword_search": "felsen",
     "definition_raw": "Tecuteke. Br",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Felſen. Tecuteke. Br",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2705",
     "source_ocr_line_end": "2706",
     "delimiter": ".",
@@ -10415,8 +10415,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00489",
@@ -10427,10 +10427,10 @@
     "headword_search": "fertig",
     "definition_raw": "Es ift fertig. Caje- apa. 0 5 N",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Fertig. Es ift fertig. Caje- \napa. 0 5 N",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2707",
     "source_ocr_line_end": "2709",
     "delimiter": ".",
@@ -10438,8 +10438,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00490",
@@ -10450,10 +10450,10 @@
     "headword_search": "fest",
     "definition_raw": "Igueameke. Peguamek é. eſtmachen. Igueruje.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Feſt. Igueameke. Peguamek é. \n\neſtmachen. Igueruje.",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2710",
     "source_ocr_line_end": "2713",
     "delimiter": ".",
@@ -10461,8 +10461,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00491",
@@ -10473,10 +10473,10 @@
     "headword_search": "festtag",
     "definition_raw": "Jomeiki. Jumag ua- Hi f",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Feſttag. Jomeiki. Jumag ua- \n\nHi f",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2714",
     "source_ocr_line_end": "2718",
     "delimiter": ".",
@@ -10484,8 +10484,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00492",
@@ -10496,10 +10496,10 @@
     "headword_search": "fett",
     "definition_raw": "",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Fett.",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2719",
     "source_ocr_line_end": "2719",
     "delimiter": ".",
@@ -10507,8 +10507,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00493",
@@ -10542,10 +10542,10 @@
     "headword_search": "guele",
     "definition_raw": ". Culüameke. Es iſt",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Guele” is part of the equivalents in the article Fett; not an independent headword. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=316.",
     "article_ocr_raw": "Guele. . Culüameke. \nEs iſt",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "316",
+    "pdf_page": "26",
     "source_ocr_line_start": "2727",
     "source_ocr_line_end": "2730",
     "delimiter": ".",
@@ -10553,8 +10553,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00495",
@@ -10565,10 +10565,10 @@
     "headword_search": "feuer",
     "definition_raw": "Samiamek&",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Headword Feuer is valid on p. 317; the current OCR block crosses a page/layout boundary and requires resegmentation before diplomatic verification. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=317.",
     "article_ocr_raw": "Feuer. \n\n\nSamiamek&",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "317",
+    "pdf_page": "27",
     "source_ocr_line_start": "2731",
     "source_ocr_line_end": "2734",
     "delimiter": ".",
@@ -10576,8 +10576,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00496",
@@ -10611,10 +10611,10 @@
     "headword_search": "nsikt",
     "definition_raw": "euer. chen, naipe. tan muß",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Garbled OCR fragment within the cross-page Feuer article; no independent headword “Nsikt” in the facsimile. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=317.",
     "article_ocr_raw": "Nsikt. \n\n\neuer. \nchen, naipe. tan muß",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "317",
+    "pdf_page": "27",
     "source_ocr_line_start": "2744",
     "source_ocr_line_end": "2748",
     "delimiter": ".",
@@ -10622,8 +10622,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00498",
@@ -10703,10 +10703,10 @@
     "headword_search": "tichonaba",
     "definition_raw": "Finſtere Nacht, nox bia, Tucaguo. fh. Torfehi. Die gar klei⸗ x nern Fiſche heißen: Sale, groͤßere von Karpenart: Sa- eat, noch andere tichuchen: .",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Tichonaba” is the equivalent within the article Finster; not an independent headword. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=317.",
     "article_ocr_raw": "Tichonaba. Finſtere Nacht, \n\n\nnox bia, Tucaguo. \n\n\nfh. Torfehi. Die gar klei⸗ x \n\n\nnern Fiſche heißen: Sale, \n\n\ngroͤßere von Karpenart: Sa- \neat, noch andere tichuchen: .",
-    "printed_page": "318",
-    "pdf_page": "28",
+    "printed_page": "317",
+    "pdf_page": "27",
     "source_ocr_line_start": "2769",
     "source_ocr_line_end": "2784",
     "delimiter": ".",
@@ -10714,8 +10714,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "rejected_false_positive",
+    "validation": "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
   },
   {
     "record_id": "RHD-S1809-00502",
@@ -10882,15 +10882,15 @@
     "record_id": "RHD-S1809-00509",
     "source_code": "STEFFEL-1809",
     "direction": "DE-RAR",
-    "headword_raw": "Sledermaus",
+    "headword_raw": "Fledermaus",
     "headword_ocr_raw": "Sledermaus",
-    "headword_search": "sledermaus",
+    "headword_search": "fledermaus",
     "definition_raw": "Aan.",
     "translation_es_editorial": "",
-    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.",
+    "editorial_note": "Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. OCR misread the initial F as S. RHD-FR-001: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=317.",
     "article_ocr_raw": "Sledermaus. Aan.",
-    "printed_page": "319",
-    "pdf_page": "29",
+    "printed_page": "317",
+    "pdf_page": "27",
     "source_ocr_line_start": "2934",
     "source_ocr_line_end": "2936",
     "delimiter": ".",
@@ -10898,8 +10898,8 @@
     "segmentation_confidence": "high_machine",
     "curated_anchor": "no",
     "extraction_method": "coverage-first OCR line segmentation v1",
-    "status": "machine_segmented_unverified",
-    "validation": "pendiente_de_cotejo_facsímil_y_validación_lingüística"
+    "status": "facsimile_checked_headword_ai_assisted",
+    "validation": "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes"
   },
   {
     "record_id": "RHD-S1809-00510",
