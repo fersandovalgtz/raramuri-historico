@@ -6,10 +6,10 @@
         <title>Rarámuri Histórico Digital — Corpus Steffel 1791/1809</title>
       </titleStmt>
       <publicationStmt>
-        <p>Machine-segmented research layer; facsimile collation pending.</p>
+        <p>Machine-segmented research layer with partial AI-assisted facsimile and diplomatic overlays; not a validated TEI Lex-0 edition.</p>
       </publicationStmt>
       <sourceDesc>
-        <p>Matthäus Steffel, Tarahumarisches Wörterbuch, 1809; OCR supplied to the project.</p>
+        <p>Matthäus Steffel, Tarahumarisches Wörterbuch, 1809; project facsimile and supplied OCR.</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -183,7 +183,12 @@
           <sense>
             <def>Ta pdvireck. Hali Das boa iſt ein Huͤlfswort ſolcher Größe, daß fie ein EE EEE EPÄZEL TE N 2 "TER * Nr ni Fu</def>
           </sense>
+          <cit type="diplomatic-transcription">
+            <quote>Abweg. Tà póvireck.</quote>
+            <note type="verification">AI-assisted visual transcription; independent human/philological verification pending.</note>
+          </cit>
           <note type="segmentation-status">high_machine</note>
+          <note type="diplomatic-status">complete_ai_assisted</note>
           <bibl>Steffel 1809, p. 301; OCR lines 478–491</bibl>
         </entry>
         <entry xml:id="RHD-S1809-00013">
@@ -353,7 +358,12 @@
           <sense>
             <def>Jumäjumajameke.</def>
           </sense>
+          <cit type="diplomatic-transcription">
+            <quote>Allmächtig. Jumájumájameke.</quote>
+            <note type="verification">AI-assisted visual transcription; independent human/philological verification pending.</note>
+          </cit>
           <note type="segmentation-status">high_machine</note>
+          <note type="diplomatic-status">complete_ai_assisted</note>
           <bibl>Steffel 1809, p. 301; OCR lines 537–539</bibl>
         </entry>
         <entry xml:id="RHD-S1809-00073">
@@ -363,7 +373,12 @@
           <sense>
             <def>Jumamatsigameke,</def>
           </sense>
+          <cit type="diplomatic-transcription">
+            <quote>Allwiſſend. Jumámatsigameke.</quote>
+            <note type="verification">AI-assisted visual transcription; independent human/philological verification pending.</note>
+          </cit>
           <note type="segmentation-status">high_machine</note>
+          <note type="diplomatic-status">complete_ai_assisted</note>
           <bibl>Steffel 1809, p. 301; OCR lines 540–540</bibl>
         </entry>
         <entry xml:id="RHD-S1809-00023">
@@ -553,7 +568,12 @@
           <sense>
             <def>Huli. Senü, senüla.</def>
           </sense>
+          <cit type="diplomatic-transcription">
+            <quote>Anderer. Huli. Senú, senúla.</quote>
+            <note type="verification">AI-assisted visual transcription; independent human/philological verification pending.</note>
+          </cit>
           <note type="segmentation-status">high_machine</note>
+          <note type="diplomatic-status">complete_ai_assisted</note>
           <bibl>Steffel 1809, p. 302; OCR lines 634–636</bibl>
         </entry>
         <entry xml:id="RHD-S1809-00090">
@@ -563,7 +583,12 @@
           <sense>
             <def>Segul.</def>
           </sense>
+          <cit type="diplomatic-transcription">
+            <quote>Anderſt. Segui.</quote>
+            <note type="verification">AI-assisted visual transcription; independent human/philological verification pending.</note>
+          </cit>
           <note type="segmentation-status">high_machine</note>
+          <note type="diplomatic-status">complete_ai_assisted</note>
           <bibl>Steffel 1809, p. 302; OCR lines 637–637</bibl>
         </entry>
         <entry xml:id="RHD-S1809-00091">
@@ -583,7 +608,12 @@
           <sense>
             <def>Tschapi. 4</def>
           </sense>
+          <cit type="diplomatic-transcription">
+            <quote>Anfaſſen. Tſchepi.</quote>
+            <note type="verification">AI-assisted visual transcription; independent human/philological verification pending.</note>
+          </cit>
           <note type="segmentation-status">high_machine</note>
+          <note type="diplomatic-status">complete_ai_assisted</note>
           <bibl>Steffel 1809, p. 302; OCR lines 641–643</bibl>
         </entry>
         <entry xml:id="RHD-S1809-00093">
@@ -593,7 +623,12 @@
           <sense>
             <def>Satuje.</def>
           </sense>
+          <cit type="diplomatic-transcription">
+            <quote>Anfechten. Sátuje.</quote>
+            <note type="verification">AI-assisted visual transcription; independent human/philological verification pending.</note>
+          </cit>
           <note type="segmentation-status">high_machine</note>
+          <note type="diplomatic-status">complete_ai_assisted</note>
           <bibl>Steffel 1809, p. 302; OCR lines 644–646</bibl>
         </entry>
         <entry xml:id="RHD-S1809-00094">
@@ -603,7 +638,12 @@
           <sense>
             <def>Satiämeke,</def>
           </sense>
+          <cit type="diplomatic-transcription">
+            <quote>Anfechter. Sátiameke.</quote>
+            <note type="verification">AI-assisted visual transcription; independent human/philological verification pending.</note>
+          </cit>
           <note type="segmentation-status">high_machine</note>
+          <note type="diplomatic-status">complete_ai_assisted</note>
           <bibl>Steffel 1809, p. 302; OCR lines 647–647</bibl>
         </entry>
         <entry xml:id="RHD-S1809-00095">
@@ -718,12 +758,17 @@
         </entry>
         <entry xml:id="RHD-S1809-00106">
           <form type="lemma">
-            <orth>Anzuͤnden</orth>
+            <orth>Anzünden</orth>
           </form>
           <sense>
             <def>Neige. Es iſt angezuͤndet. Nair ue,</def>
           </sense>
+          <cit type="diplomatic-transcription">
+            <quote>Anzünden. Naige. Es iſt angezündet. Náiruc.</quote>
+            <note type="verification">AI-assisted visual transcription; independent human/philological verification pending.</note>
+          </cit>
           <note type="segmentation-status">high_machine</note>
+          <note type="diplomatic-status">complete_ai_assisted</note>
           <bibl>Steffel 1809, p. 302; OCR lines 670–673</bibl>
         </entry>
         <entry xml:id="RHD-S1809-00107">
@@ -1083,7 +1128,12 @@
           <sense>
             <def>Gane kake.</def>
           </sense>
+          <cit type="diplomatic-transcription">
+            <quote>Aufmerken. Gáne kaké.</quote>
+            <note type="verification">AI-assisted visual transcription; independent human/philological verification pending.</note>
+          </cit>
           <note type="segmentation-status">high_machine</note>
+          <note type="diplomatic-status">complete_ai_assisted</note>
           <bibl>Steffel 1809, p. 304; OCR lines 1028–1030</bibl>
         </entry>
         <entry xml:id="RHD-S1809-00143">

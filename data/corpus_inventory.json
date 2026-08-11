@@ -34,5 +34,20 @@
     "scope": "headword_and_entry_start_boundary",
     "method": "visual_facsimile_collation_ai_assisted",
     "full_diplomatic_transcription_completed": false
+  },
+  "diplomatic_transcription": {
+    "batches": [
+      "RHD-DIP-001A"
+    ],
+    "complete_article_transcriptions_ai_assisted": 10,
+    "pages_represented": [
+      301,
+      302,
+      304
+    ],
+    "records_with_uncertainty_note": 1,
+    "method": "visual_facsimile_transcription_ai_assisted",
+    "human_verified": false,
+    "scope_note": "Complete article text for selected short entries; source spelling/punctuation retained; typographic line wrapping not encoded."
   }
 }
