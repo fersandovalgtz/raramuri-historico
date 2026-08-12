@@ -7,8 +7,8 @@
   <img src="https://img.shields.io/badge/dataset-0.2.0-172033?style=flat-square" alt="Dataset 0.2.0">
   <img src="https://img.shields.io/badge/fuente-Steffel%201809-7a263a?style=flat-square" alt="Steffel 1809">
   <img src="https://img.shields.io/badge/candidatos%20segmentados-2%2C495-2d6a4f?style=flat-square" alt="2,495 candidate entries">
-  <img src="https://img.shields.io/badge/l%C3%ADmites%20cotejados-1%2C819-b7791f?style=flat-square" alt="1,819 boundaries reviewed">
-  <img src="https://img.shields.io/badge/art%C3%ADculos%20diplom%C3%A1ticos%20AI--asistidos-1%2C501-455B55?style=flat-square" alt="1,501 AI-assisted diplomatic articles">
+  <img src="https://img.shields.io/badge/l%C3%ADmites%20cotejados-1%2C919-b7791f?style=flat-square" alt="1,919 boundaries reviewed">
+  <img src="https://img.shields.io/badge/art%C3%ADculos%20diplom%C3%A1ticos%20AI--asistidos-1%2C542-455B55?style=flat-square" alt="1,542 AI-assisted diplomatic articles">
   <img src="https://img.shields.io/badge/c%C3%B3digo-MIT-172033?style=flat-square" alt="MIT">
 </p>
 
@@ -22,19 +22,21 @@ La primera colección es el **Corpus Steffel 1791/1809**, basado en el *Tarahuma
 
 La segmentación de alta cobertura contiene **2,495 candidatos**: 1,607 alemán→rarámuri y 888 rarámuri→alemán. Este número no se presenta como conteo filológico definitivo: Fraktur, OCR y composición a dos columnas producen falsos límites que se resuelven contra el facsímil.
 
-A través de `RHD-FR-001`–`RHD-FR-020` se han cotejado **1,819 límites candidatos**: **1,501 arranques aceptados**, **318 falsos límites** y **672 correcciones claras de lema**. La capa activa queda provisionalmente en **2,177 candidatos**.
+A través de `RHD-FR-001`–`RHD-FR-021` se han cotejado **1,919 límites candidatos**: **1,542 arranques aceptados**, **377 falsos límites** y **677 correcciones claras de lema**. La capa activa queda provisionalmente en **2,118 candidatos**.
 
-Los niveles `high_machine` y `medium_machine` están agotados: 609 candidatos altos produjeron 553 aceptados / 56 rechazados; 1,110 candidatos medios produjeron 908 / 202. `RHD-FR-020` inaugura `low_machine`: de sus primeros 100 candidatos sólo **40 son arranques reales y 60 son falsos límites**. Quedan **616 `low_machine`**.
+Los niveles `high_machine` y `medium_machine` están agotados. En `low_machine` se han revisado **200 de 716 candidatos**: **81 arranques aceptados y 119 falsos límites**. Quedan **516 candidatos de baja confianza**.
 
-## RHD-FR-020: primer lote de baja confianza
+## RHD-FR-021: segundo lote de baja confianza
 
-El cotejo facsimilar corrige la extensión automática pp. 301–316 a **pp. 301–314** y registra **52 correcciones de página**. Los falsos límites son sobre todo prosa, ejemplos, equivalentes rarámuri o subentradas internas de artículos extensos; esto confirma el cambio de perfil de error esperado para el nivel bajo.
+`RHD-FR-021` revisa 100 candidatos en orden determinista. El facsímil corrige la extensión automática pp. 316–326 a **pp. 314–326**. El resultado es **41 arranques reales, 59 falsos límites, 5 correcciones claras de lema y 37 correcciones de página**.
 
-Los 40 arranques aceptados incluyen, entre otros, `Abſchneiden`, `Als`, `Arm`, `Armbruſt`, `Bauen`, `Baum`, `Begreifen`, `Behend`, `Berauſchen`, `Betrübt ſeyn`, `Dörren`, `Drauſſen`, `Ehemann`, `Eichhorn`, `Eben ſo` y `Einſam`. Ocho lemas requieren corrección clara respecto del OCR. `Drauſſen` ejemplifica la necesidad de cotejo visual: aparece como catchword al pie de p. 312, pero su artículo comienza en p. 313.
+Las cinco reparaciones de lema son `Flachs`, `Forttragen`, `Hügel`, `Hurtig` y `Jenſeits des Fluſſes`. El lote confirma patrones característicos de baja confianza: prosa de artículos largos, ejemplos, equivalentes rarámuri, repeticiones internas y catchwords. `RHD-S1809-00671` (`Heil`) es un caso explícito: el candidato procede del catchword al pie de p. 323; el artículo real comienza en p. 324 bajo otro ID persistente.
 
 ## Capa diplomática
 
-Los **1,501 arranques aceptados** tienen transcripción diplomática completa IA-asistida. `RHD-DIP-020A`–`RHD-DIP-020E` añaden las 40 transcripciones de FR-020, incluidos artículos extensos como `Armbruſt`, `Bauen`, `Baum` y `Eichhorn`. El inventario registra **529 transcripciones con nota explícita de incertidumbre**. Todos los registros mantienen `human_verified=false`.
+Los **1,542 arranques aceptados** tienen transcripción diplomática completa IA-asistida. `RHD-DIP-021A`–`RHD-DIP-021E` añaden los **41 artículos completos** aceptados en FR-021, incluidos `Flachs`, `Gegenwart`, `Großvater`, `Heurathen`, `Hülſenfrucht`, `Ich`, `Klein` y `Kienholz zum Brennen`.
+
+El inventario registra **553 transcripciones con nota explícita de incertidumbre**. Las notas documentan dificultades reales de grafía, diacríticos o secuencias rarámuri; todos los registros mantienen `human_verified=false`.
 
 El facsímil de 1809 es la autoridad. Merrill et al. (2020), DOI `10.47807/UNISON.8`, se utiliza únicamente como colación secundaria para lecturas difíciles; nunca sustituye ni normaliza silenciosamente el testimonio histórico.
 
@@ -46,10 +48,10 @@ La regla editorial es:
 
 - `data/entries.csv`: capa maestra integral con overlays editoriales.
 - `data/entries_curated.csv`: 60 anclas iniciales con identificadores persistentes.
-- `data/review/`: manifiestos append-only de revisión (`RHD-FR-001`–`RHD-FR-020`).
+- `data/review/`: manifiestos append-only de revisión (`RHD-FR-001`–`RHD-FR-021`).
 - `data/review/next_review_queue.json`: siguiente cohorte generada determinísticamente.
 - `data/facsimile/`: modelo de columnas para pp. 301–368.
-- `data/diplomatic/`: 1,501 transcripciones diplomáticas IA-asistidas hasta `RHD-DIP-020E`.
+- `data/diplomatic/`: 1,542 transcripciones diplomáticas IA-asistidas hasta `RHD-DIP-021E`.
 - `data/corpus_inventory.json`: inventario regenerado.
 - JSON, XML, TEI y SQLite: serializaciones derivadas.
 - `sources/steffel-1809-ocr-source.txt`: OCR primario preservado sin corrección.
@@ -66,7 +68,7 @@ python3 tests/validate.py
 
 El pipeline reconstruye la capa automática, aplica manifiestos editoriales, excluye IDs ya revisados y regenera exportaciones. GitHub Actions valida el corpus y usa una protección de concurrencia para evitar fallos espurios de auto-push cuando `main` avanza durante una ejecución.
 
-La siguiente cohorte es **`RHD-FR-021`**, segundo lote `low_machine`: 100 de los 616 candidatos restantes, desde `RHD-S1809-00422` (`Haaſe`) hasta `RHD-S1809-00787` (`Kienholz zum Brennen`), estimados automáticamente alrededor de pp. 316–326. La pertenencia y paginación de cada candidato seguirán resolviéndose contra el facsímil.
+La siguiente cohorte es **`RHD-FR-022`**, tercer lote `low_machine`: los primeros 100 de los **516** candidatos restantes, desde `RHD-S1809-00789` (`Kieſelſtein`) hasta `RHD-S1809-00964` (OCR `C | ſondere bedeutet eine ver`), estimados automáticamente alrededor de pp. **327–334**. Cada disposición seguirá resolviéndose contra el facsímil.
 
 ## Identificadores y relación diacrónica
 
