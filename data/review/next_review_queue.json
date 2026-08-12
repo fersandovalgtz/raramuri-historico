@@ -1,0 +1,909 @@
+{
+  "generated_from": "data/entries.csv + data/review/facsimile_review_batch_*.json",
+  "selection_rule": "first 100 unreviewed records in source/record order, medium_machine before low_machine",
+  "tier": "medium_machine",
+  "remaining_before_batch": 610,
+  "count": 100,
+  "records": [
+    {
+      "record_id": "RHD-S1809-01063",
+      "direction": "DE-RAR",
+      "headword_raw": "Saitenſpiel",
+      "printed_page": 338,
+      "pdf_page": 48,
+      "source_ocr_line_start": 5602,
+      "source_ocr_line_end": 5603
+    },
+    {
+      "record_id": "RHD-S1809-01067",
+      "direction": "DE-RAR",
+      "headword_raw": "Tichutfcheliameke",
+      "printed_page": 338,
+      "pdf_page": 48,
+      "source_ocr_line_start": 5609,
+      "source_ocr_line_end": 5610
+    },
+    {
+      "record_id": "RHD-S1809-01073",
+      "direction": "DE-RAR",
+      "headword_raw": "Sand",
+      "printed_page": 338,
+      "pdf_page": 48,
+      "source_ocr_line_start": 5622,
+      "source_ocr_line_end": 5635
+    },
+    {
+      "record_id": "RHD-S1809-01074",
+      "direction": "DE-RAR",
+      "headword_raw": "Sandig",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5636,
+      "source_ocr_line_end": 5637
+    },
+    {
+      "record_id": "RHD-S1809-01075",
+      "direction": "DE-RAR",
+      "headword_raw": "Sanft",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5638,
+      "source_ocr_line_end": 5640
+    },
+    {
+      "record_id": "RHD-S1809-01080",
+      "direction": "DE-RAR",
+      "headword_raw": "Saufer",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5650,
+      "source_ocr_line_end": 5651
+    },
+    {
+      "record_id": "RHD-S1809-01083",
+      "direction": "DE-RAR",
+      "headword_raw": "Schaben",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5656,
+      "source_ocr_line_end": 5657
+    },
+    {
+      "record_id": "RHD-S1809-01085",
+      "direction": "DE-RAR",
+      "headword_raw": "Schaf Pouguacs ſ",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5660,
+      "source_ocr_line_end": 5661
+    },
+    {
+      "record_id": "RHD-S1809-01089",
+      "direction": "DE-RAR",
+      "headword_raw": "Schale",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5668,
+      "source_ocr_line_end": 5668
+    },
+    {
+      "record_id": "RHD-S1809-01090",
+      "direction": "DE-RAR",
+      "headword_raw": "Trinkſchale ſ",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5669,
+      "source_ocr_line_end": 5670
+    },
+    {
+      "record_id": "RHD-S1809-01091",
+      "direction": "DE-RAR",
+      "headword_raw": "SOSE Tiei",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5671,
+      "source_ocr_line_end": 5672
+    },
+    {
+      "record_id": "RHD-S1809-01094",
+      "direction": "DE-RAR",
+      "headword_raw": "Schaͤtzen",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5677,
+      "source_ocr_line_end": 5678
+    },
+    {
+      "record_id": "RHD-S1809-01098",
+      "direction": "DE-RAR",
+      "headword_raw": "Scheffel",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5686,
+      "source_ocr_line_end": 5688
+    },
+    {
+      "record_id": "RHD-S1809-01101",
+      "direction": "DE-RAR",
+      "headword_raw": "Majè",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5693,
+      "source_ocr_line_end": 5694
+    },
+    {
+      "record_id": "RHD-S1809-01103",
+      "direction": "DE-RAR",
+      "headword_raw": "Scherben",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5697,
+      "source_ocr_line_end": 5703
+    },
+    {
+      "record_id": "RHD-S1809-01106",
+      "direction": "DE-RAR",
+      "headword_raw": "Scherzen",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5708,
+      "source_ocr_line_end": 5710
+    },
+    {
+      "record_id": "RHD-S1809-01111",
+      "direction": "DE-RAR",
+      "headword_raw": "Schilf",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5719,
+      "source_ocr_line_end": 5720
+    },
+    {
+      "record_id": "RHD-S1809-01113",
+      "direction": "DE-RAR",
+      "headword_raw": "Melirügameke",
+      "printed_page": 339,
+      "pdf_page": 49,
+      "source_ocr_line_start": 5739,
+      "source_ocr_line_end": 5759
+    },
+    {
+      "record_id": "RHD-S1809-01122",
+      "direction": "DE-RAR",
+      "headword_raw": "Schlimm",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5836,
+      "source_ocr_line_end": 5836
+    },
+    {
+      "record_id": "RHD-S1809-01124",
+      "direction": "DE-RAR",
+      "headword_raw": "Schlinge",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5838,
+      "source_ocr_line_end": 5838
+    },
+    {
+      "record_id": "RHD-S1809-01125",
+      "direction": "DE-RAR",
+      "headword_raw": "Schlingen",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5839,
+      "source_ocr_line_end": 5839
+    },
+    {
+      "record_id": "RHD-S1809-01126",
+      "direction": "DE-RAR",
+      "headword_raw": "Schluͤſſel Epuläcc",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5840,
+      "source_ocr_line_end": 5840
+    },
+    {
+      "record_id": "RHD-S1809-01127",
+      "direction": "DE-RAR",
+      "headword_raw": "Schmackhaft",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5841,
+      "source_ocr_line_end": 5841
+    },
+    {
+      "record_id": "RHD-S1809-01131",
+      "direction": "DE-RAR",
+      "headword_raw": "Schnee",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5849,
+      "source_ocr_line_end": 5849
+    },
+    {
+      "record_id": "RHD-S1809-01132",
+      "direction": "DE-RAR",
+      "headword_raw": "Schneiden",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5850,
+      "source_ocr_line_end": 5850
+    },
+    {
+      "record_id": "RHD-S1809-01135",
+      "direction": "DE-RAR",
+      "headword_raw": "Schön",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5856,
+      "source_ocr_line_end": 5858
+    },
+    {
+      "record_id": "RHD-S1809-01138",
+      "direction": "DE-RAR",
+      "headword_raw": "Schöpfer",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5863,
+      "source_ocr_line_end": 5888
+    },
+    {
+      "record_id": "RHD-S1809-01139",
+      "direction": "DE-RAR",
+      "headword_raw": "Schoͤps",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5889,
+      "source_ocr_line_end": 5890
+    },
+    {
+      "record_id": "RHD-S1809-01141",
+      "direction": "DE-RAR",
+      "headword_raw": "Schreiben",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5893,
+      "source_ocr_line_end": 5893
+    },
+    {
+      "record_id": "RHD-S1809-01142",
+      "direction": "DE-RAR",
+      "headword_raw": "Schreiten",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5894,
+      "source_ocr_line_end": 5894
+    },
+    {
+      "record_id": "RHD-S1809-01143",
+      "direction": "DE-RAR",
+      "headword_raw": "Schreyen",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5895,
+      "source_ocr_line_end": 5895
+    },
+    {
+      "record_id": "RHD-S1809-01144",
+      "direction": "DE-RAR",
+      "headword_raw": "Schrift",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5896,
+      "source_ocr_line_end": 5896
+    },
+    {
+      "record_id": "RHD-S1809-01145",
+      "direction": "DE-RAR",
+      "headword_raw": "Schuh",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5897,
+      "source_ocr_line_end": 5899
+    },
+    {
+      "record_id": "RHD-S1809-01146",
+      "direction": "DE-RAR",
+      "headword_raw": "Schuld",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5900,
+      "source_ocr_line_end": 5900
+    },
+    {
+      "record_id": "RHD-S1809-01147",
+      "direction": "DE-RAR",
+      "headword_raw": "Schuͤler",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5901,
+      "source_ocr_line_end": 5901
+    },
+    {
+      "record_id": "RHD-S1809-01148",
+      "direction": "DE-RAR",
+      "headword_raw": "Schuͤrze",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5902,
+      "source_ocr_line_end": 5902
+    },
+    {
+      "record_id": "RHD-S1809-01149",
+      "direction": "DE-RAR",
+      "headword_raw": "Schuͤſſel",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5903,
+      "source_ocr_line_end": 5903
+    },
+    {
+      "record_id": "RHD-S1809-01150",
+      "direction": "DE-RAR",
+      "headword_raw": "Schwalbe",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5904,
+      "source_ocr_line_end": 5904
+    },
+    {
+      "record_id": "RHD-S1809-01151",
+      "direction": "DE-RAR",
+      "headword_raw": "Schwamm",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5905,
+      "source_ocr_line_end": 5905
+    },
+    {
+      "record_id": "RHD-S1809-01152",
+      "direction": "DE-RAR",
+      "headword_raw": "Schwanger",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5906,
+      "source_ocr_line_end": 5906
+    },
+    {
+      "record_id": "RHD-S1809-01153",
+      "direction": "DE-RAR",
+      "headword_raw": "Schwarz",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5907,
+      "source_ocr_line_end": 5907
+    },
+    {
+      "record_id": "RHD-S1809-01154",
+      "direction": "DE-RAR",
+      "headword_raw": "Schweif",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5908,
+      "source_ocr_line_end": 5908
+    },
+    {
+      "record_id": "RHD-S1809-01155",
+      "direction": "DE-RAR",
+      "headword_raw": "Schweigen",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5909,
+      "source_ocr_line_end": 5909
+    },
+    {
+      "record_id": "RHD-S1809-01156",
+      "direction": "DE-RAR",
+      "headword_raw": "Schwein",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5910,
+      "source_ocr_line_end": 5910
+    },
+    {
+      "record_id": "RHD-S1809-01157",
+      "direction": "DE-RAR",
+      "headword_raw": "Schwermuͤthig",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5911,
+      "source_ocr_line_end": 5912
+    },
+    {
+      "record_id": "RHD-S1809-01158",
+      "direction": "DE-RAR",
+      "headword_raw": "Schwert",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5913,
+      "source_ocr_line_end": 5913
+    },
+    {
+      "record_id": "RHD-S1809-01159",
+      "direction": "DE-RAR",
+      "headword_raw": "Schweſter",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5914,
+      "source_ocr_line_end": 5914
+    },
+    {
+      "record_id": "RHD-S1809-01161",
+      "direction": "DE-RAR",
+      "headword_raw": "Schwitzen",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5916,
+      "source_ocr_line_end": 5918
+    },
+    {
+      "record_id": "RHD-S1809-01162",
+      "direction": "DE-RAR",
+      "headword_raw": "Schwißzſtube",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5919,
+      "source_ocr_line_end": 5921
+    },
+    {
+      "record_id": "RHD-S1809-01164",
+      "direction": "DE-RAR",
+      "headword_raw": "Schwoͤren",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5923,
+      "source_ocr_line_end": 5929
+    },
+    {
+      "record_id": "RHD-S1809-01165",
+      "direction": "DE-RAR",
+      "headword_raw": "Schwungfeder",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5930,
+      "source_ocr_line_end": 5930
+    },
+    {
+      "record_id": "RHD-S1809-01167",
+      "direction": "DE-RAR",
+      "headword_raw": "Sechsmal",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5932,
+      "source_ocr_line_end": 5940
+    },
+    {
+      "record_id": "RHD-S1809-01173",
+      "direction": "DE-RAR",
+      "headword_raw": "Sehe",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5965,
+      "source_ocr_line_end": 5965
+    },
+    {
+      "record_id": "RHD-S1809-01174",
+      "direction": "DE-RAR",
+      "headword_raw": "Seidenzeug",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5966,
+      "source_ocr_line_end": 5970
+    },
+    {
+      "record_id": "RHD-S1809-01175",
+      "direction": "DE-RAR",
+      "headword_raw": "Seil",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5971,
+      "source_ocr_line_end": 5973
+    },
+    {
+      "record_id": "RHD-S1809-01177",
+      "direction": "DE-RAR",
+      "headword_raw": "Tarahumar",
+      "printed_page": 340,
+      "pdf_page": 50,
+      "source_ocr_line_start": 5977,
+      "source_ocr_line_end": 5977
+    },
+    {
+      "record_id": "RHD-S1809-01185",
+      "direction": "DE-RAR",
+      "headword_raw": "Mittel",
+      "printed_page": 341,
+      "pdf_page": 51,
+      "source_ocr_line_start": 6051,
+      "source_ocr_line_end": 6052
+    },
+    {
+      "record_id": "RHD-S1809-01186",
+      "direction": "DE-RAR",
+      "headword_raw": "Breit",
+      "printed_page": 341,
+      "pdf_page": 51,
+      "source_ocr_line_start": 6053,
+      "source_ocr_line_end": 6054
+    },
+    {
+      "record_id": "RHD-S1809-01196",
+      "direction": "DE-RAR",
+      "headword_raw": "Kkittséco",
+      "printed_page": 341,
+      "pdf_page": 51,
+      "source_ocr_line_start": 6074,
+      "source_ocr_line_end": 6074
+    },
+    {
+      "record_id": "RHD-S1809-01198",
+      "direction": "DE-RAR",
+      "headword_raw": "Sieh",
+      "printed_page": 341,
+      "pdf_page": 51,
+      "source_ocr_line_start": 6087,
+      "source_ocr_line_end": 6087
+    },
+    {
+      "record_id": "RHD-S1809-01201",
+      "direction": "DE-RAR",
+      "headword_raw": "Singen Guicara",
+      "printed_page": 341,
+      "pdf_page": 51,
+      "source_ocr_line_start": 6093,
+      "source_ocr_line_end": 6093
+    },
+    {
+      "record_id": "RHD-S1809-01205",
+      "direction": "DE-RAR",
+      "headword_raw": "Colsi",
+      "printed_page": 341,
+      "pdf_page": 51,
+      "source_ocr_line_start": 6114,
+      "source_ocr_line_end": 6114
+    },
+    {
+      "record_id": "RHD-S1809-01210",
+      "direction": "DE-RAR",
+      "headword_raw": "Sollen",
+      "printed_page": 342,
+      "pdf_page": 52,
+      "source_ocr_line_start": 6140,
+      "source_ocr_line_end": 6153
+    },
+    {
+      "record_id": "RHD-S1809-01211",
+      "direction": "DE-RAR",
+      "headword_raw": "Sollen",
+      "printed_page": 342,
+      "pdf_page": 52,
+      "source_ocr_line_start": 6154,
+      "source_ocr_line_end": 6157
+    },
+    {
+      "record_id": "RHD-S1809-01227",
+      "direction": "DE-RAR",
+      "headword_raw": "Spiel",
+      "printed_page": 342,
+      "pdf_page": 52,
+      "source_ocr_line_start": 6180,
+      "source_ocr_line_end": 6185
+    },
+    {
+      "record_id": "RHD-S1809-01229",
+      "direction": "DE-RAR",
+      "headword_raw": "FKußlauler aus",
+      "printed_page": 342,
+      "pdf_page": 52,
+      "source_ocr_line_start": 6188,
+      "source_ocr_line_end": 6261
+    },
+    {
+      "record_id": "RHD-S1809-01230",
+      "direction": "DE-RAR",
+      "headword_raw": "Pferde halten nicht aus",
+      "printed_page": 342,
+      "pdf_page": 52,
+      "source_ocr_line_start": 6262,
+      "source_ocr_line_end": 6265
+    },
+    {
+      "record_id": "RHD-S1809-01234",
+      "direction": "DE-RAR",
+      "headword_raw": "Sgielplatz",
+      "printed_page": 343,
+      "pdf_page": 53,
+      "source_ocr_line_start": 6299,
+      "source_ocr_line_end": 6301
+    },
+    {
+      "record_id": "RHD-S1809-01237",
+      "direction": "DE-RAR",
+      "headword_raw": "Berluſt angerechnet",
+      "printed_page": 343,
+      "pdf_page": 53,
+      "source_ocr_line_start": 6338,
+      "source_ocr_line_end": 6338
+    },
+    {
+      "record_id": "RHD-S1809-01242",
+      "direction": "DE-RAR",
+      "headword_raw": "Spruch",
+      "printed_page": 343,
+      "pdf_page": 53,
+      "source_ocr_line_start": 6370,
+      "source_ocr_line_end": 6377
+    },
+    {
+      "record_id": "RHD-S1809-01244",
+      "direction": "DE-RAR",
+      "headword_raw": "Knie aufgetrieben werden",
+      "printed_page": 343,
+      "pdf_page": 53,
+      "source_ocr_line_start": 6381,
+      "source_ocr_line_end": 6390
+    },
+    {
+      "record_id": "RHD-S1809-01247",
+      "direction": "DE-RAR",
+      "headword_raw": "Spaniſchen entlehnt",
+      "printed_page": 343,
+      "pdf_page": 53,
+      "source_ocr_line_start": 6393,
+      "source_ocr_line_end": 6394
+    },
+    {
+      "record_id": "RHD-S1809-01248",
+      "direction": "DE-RAR",
+      "headword_raw": "Spitze",
+      "printed_page": 343,
+      "pdf_page": 53,
+      "source_ocr_line_start": 6395,
+      "source_ocr_line_end": 6397
+    },
+    {
+      "record_id": "RHD-S1809-01249",
+      "direction": "DE-RAR",
+      "headword_raw": "Sprachlos",
+      "printed_page": 343,
+      "pdf_page": 53,
+      "source_ocr_line_start": 6398,
+      "source_ocr_line_end": 6400
+    },
+    {
+      "record_id": "RHD-S1809-01250",
+      "direction": "DE-RAR",
+      "headword_raw": "Sprechen",
+      "printed_page": 343,
+      "pdf_page": 53,
+      "source_ocr_line_start": 6401,
+      "source_ocr_line_end": 6403
+    },
+    {
+      "record_id": "RHD-S1809-01251",
+      "direction": "DE-RAR",
+      "headword_raw": "Staar",
+      "printed_page": 343,
+      "pdf_page": 53,
+      "source_ocr_line_start": 6404,
+      "source_ocr_line_end": 6408
+    },
+    {
+      "record_id": "RHD-S1809-01253",
+      "direction": "DE-RAR",
+      "headword_raw": "Spaniern Tordos",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6424,
+      "source_ocr_line_end": 6425
+    },
+    {
+      "record_id": "RHD-S1809-01254",
+      "direction": "DE-RAR",
+      "headword_raw": "Stab",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6426,
+      "source_ocr_line_end": 6427
+    },
+    {
+      "record_id": "RHD-S1809-01255",
+      "direction": "DE-RAR",
+      "headword_raw": "Stachel",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6428,
+      "source_ocr_line_end": 6429
+    },
+    {
+      "record_id": "RHD-S1809-01256",
+      "direction": "DE-RAR",
+      "headword_raw": "Stahl",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6430,
+      "source_ocr_line_end": 6433
+    },
+    {
+      "record_id": "RHD-S1809-01257",
+      "direction": "DE-RAR",
+      "headword_raw": "Stande",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6434,
+      "source_ocr_line_end": 6437
+    },
+    {
+      "record_id": "RHD-S1809-01258",
+      "direction": "DE-RAR",
+      "headword_raw": "Stange",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6438,
+      "source_ocr_line_end": 6439
+    },
+    {
+      "record_id": "RHD-S1809-01259",
+      "direction": "DE-RAR",
+      "headword_raw": "Stark",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6440,
+      "source_ocr_line_end": 6441
+    },
+    {
+      "record_id": "RHD-S1809-01260",
+      "direction": "DE-RAR",
+      "headword_raw": "Staub",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6442,
+      "source_ocr_line_end": 6454
+    },
+    {
+      "record_id": "RHD-S1809-01261",
+      "direction": "DE-RAR",
+      "headword_raw": "Staͤupen",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6455,
+      "source_ocr_line_end": 6456
+    },
+    {
+      "record_id": "RHD-S1809-01262",
+      "direction": "DE-RAR",
+      "headword_raw": "Stecken",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6457,
+      "source_ocr_line_end": 6458
+    },
+    {
+      "record_id": "RHD-S1809-01263",
+      "direction": "DE-RAR",
+      "headword_raw": "Stehen",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6459,
+      "source_ocr_line_end": 6461
+    },
+    {
+      "record_id": "RHD-S1809-01264",
+      "direction": "DE-RAR",
+      "headword_raw": "Stehlen",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6462,
+      "source_ocr_line_end": 6463
+    },
+    {
+      "record_id": "RHD-S1809-01265",
+      "direction": "DE-RAR",
+      "headword_raw": "Steig",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6464,
+      "source_ocr_line_end": 6465
+    },
+    {
+      "record_id": "RHD-S1809-01266",
+      "direction": "DE-RAR",
+      "headword_raw": "Stei ben",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6466,
+      "source_ocr_line_end": 6476
+    },
+    {
+      "record_id": "RHD-S1809-01267",
+      "direction": "DE-RAR",
+      "headword_raw": "Stein",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6477,
+      "source_ocr_line_end": 6480
+    },
+    {
+      "record_id": "RHD-S1809-01268",
+      "direction": "DE-RAR",
+      "headword_raw": "Zerſtoßener Stein",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6481,
+      "source_ocr_line_end": 6485
+    },
+    {
+      "record_id": "RHD-S1809-01271",
+      "direction": "DE-RAR",
+      "headword_raw": "Stempel",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6492,
+      "source_ocr_line_end": 6494
+    },
+    {
+      "record_id": "RHD-S1809-01272",
+      "direction": "DE-RAR",
+      "headword_raw": "Reiben",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6495,
+      "source_ocr_line_end": 6496
+    },
+    {
+      "record_id": "RHD-S1809-01273",
+      "direction": "DE-RAR",
+      "headword_raw": "Sterben",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6497,
+      "source_ocr_line_end": 6500
+    },
+    {
+      "record_id": "RHD-S1809-01277",
+      "direction": "DE-RAR",
+      "headword_raw": "Sterblich",
+      "printed_page": 344,
+      "pdf_page": 54,
+      "source_ocr_line_start": 6514,
+      "source_ocr_line_end": 6534
+    },
+    {
+      "record_id": "RHD-S1809-01282",
+      "direction": "DE-RAR",
+      "headword_raw": "Ichipugameke",
+      "printed_page": 345,
+      "pdf_page": 55,
+      "source_ocr_line_start": 6539,
+      "source_ocr_line_end": 6539
+    },
+    {
+      "record_id": "RHD-S1809-01286",
+      "direction": "DE-RAR",
+      "headword_raw": "Strafen",
+      "printed_page": 345,
+      "pdf_page": 55,
+      "source_ocr_line_start": 6543,
+      "source_ocr_line_end": 6550
+    },
+    {
+      "record_id": "RHD-S1809-01294",
+      "direction": "DE-RAR",
+      "headword_raw": "Stuhl",
+      "printed_page": 345,
+      "pdf_page": 55,
+      "source_ocr_line_start": 6574,
+      "source_ocr_line_end": 6575
+    },
+    {
+      "record_id": "RHD-S1809-01295",
+      "direction": "DE-RAR",
+      "headword_raw": "Süd",
+      "printed_page": 345,
+      "pdf_page": 55,
+      "source_ocr_line_start": 6576,
+      "source_ocr_line_end": 6579
+    }
+  ]
+}

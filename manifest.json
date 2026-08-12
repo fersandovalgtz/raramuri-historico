@@ -10,8 +10,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "bytes": 1977,
-      "sha256": "983a4b7e7c836303313714a6c1d6357ee04c23022e9dde7858c14f7653d08bf3"
+      "bytes": 2071,
+      "sha256": "408b982201c5040ba6e8cb5322232cbc4d7083bb85097181a0f2b979b235e35f"
     },
     {
       "path": ".gitignore",
@@ -524,6 +524,11 @@
       "sha256": "01f56cbae7a81f3e01fab43bb5e6ebb5c203921c2ebe2214b06eb101b4164752"
     },
     {
+      "path": "data/review/next_review_queue.json",
+      "bytes": 23772,
+      "sha256": "f38248358234820e6a6cfca827932f54392bfb293d8590f72823fcf5ff68c310"
+    },
+    {
       "path": "data/sections/appendix-and-numerals-ocr.txt",
       "bytes": 4793,
       "sha256": "fe82be2809078775797ff8d80d612aa290e78098ac0af3ab1f19cd48a9908d68"
@@ -555,8 +560,8 @@
     },
     {
       "path": "project-metadata.json",
-      "bytes": 1987,
-      "sha256": "eb8d86d834aa64ab0ceb1d9d32bda4dd9c99195069e4e670c05a75ba673043b4"
+      "bytes": 2265,
+      "sha256": "29b4ae769547ab187ba04c589a26342bb61b498554f42288243d9f06ca4ecd7d"
     },
     {
       "path": "public/app.js",
@@ -570,8 +575,8 @@
     },
     {
       "path": "public/data/metadata.json",
-      "bytes": 1987,
-      "sha256": "eb8d86d834aa64ab0ceb1d9d32bda4dd9c99195069e4e670c05a75ba673043b4"
+      "bytes": 2265,
+      "sha256": "29b4ae769547ab187ba04c589a26342bb61b498554f42288243d9f06ca4ecd7d"
     },
     {
       "path": "public/index.html",
@@ -607,6 +612,11 @@
       "path": "scripts/generate_exports.py",
       "bytes": 5515,
       "sha256": "dbf3a5b7fb85c80a77a422f070d55ed3145e46c758af622d8a0f7e569435d6f0"
+    },
+    {
+      "path": "scripts/generate_review_queue.py",
+      "bytes": 2312,
+      "sha256": "3b3a373b40dcc40892857a08a0f58ebf709f0cb3dde1b8b984c0a934f4f2389f"
     },
     {
       "path": "scripts/normalize_search.py",
