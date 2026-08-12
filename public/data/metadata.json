@@ -2,7 +2,7 @@
   "dataset_id": "raramuri-historico-steffel-1809",
   "title": "Rarámuri Histórico Digital — Corpus Steffel 1791/1809",
   "version": "0.2.0",
-  "generated": "2026-08-11",
+  "generated": "2026-08-12",
   "source": {
     "author": "Matthäus Steffel",
     "title": "Tarahumarisches Wörterbuch, nebst einigen Nachrichten von den Sitten und Gebräuchen der Tarahumaren",
@@ -11,7 +11,7 @@
     "editor": "Christoph Gottlieb von Murr",
     "place": "Halle",
     "publisher": "Johann Christian Hendel",
-    "printed_pages": "293–374 (dictionary proper 301–374; facsimile supplied: 84 PDF pages)",
+    "printed_pages": "293–374 (dictionary proper 301–368; appendix and language sample follow; facsimile supplied: 84 PDF pages)",
     "language_codes": [
       "deu",
       "tar"
@@ -23,11 +23,20 @@
     "candidate_entries_rar_de": 888,
     "curated_anchors": 60,
     "facsimile_pdf_pages": 84,
+    "facsimile_reviewed_candidate_boundaries": 1009,
+    "accepted_article_starts": 855,
+    "rejected_false_positive_boundaries": 154,
+    "headword_corrections": 332,
+    "active_provisional_candidates": 2341,
+    "complete_diplomatic_transcriptions_ai_assisted": 855,
+    "human_verified_diplomatic_transcriptions": 0,
+    "remaining_medium_machine_candidates": 710,
+    "remaining_low_machine_candidates": 716,
     "directions": [
       "German–Tarahumara",
       "Tarahumara–German"
     ],
-    "status": "Complete OCR-range machine segmentation; facsimile collation and linguistic validation pending"
+    "status": "Complete OCR-range machine segmentation; high-confidence tier exhausted; first 400 medium-confidence candidates collated against facsimile; 855 accepted starts have complete AI-assisted diplomatic transcriptions; independent human/philological and linguistic validation pending"
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",

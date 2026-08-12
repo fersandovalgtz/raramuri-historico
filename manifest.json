@@ -1,7 +1,7 @@
 {
   "dataset": "raramuri-historico-steffel-1809",
   "version": "0.2.0",
-  "generated": "2026-08-11",
+  "generated": "2026-08-12",
   "files": [
     {
       "path": ".github/workflows/pages.yml",
@@ -95,8 +95,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5756,
-      "sha256": "bde6cb3a99dc9a65e11af5aa77fcd65f3a5abc62c73bc9612ca916f2d5a3cb87"
+      "bytes": 6344,
+      "sha256": "03be020c59f7fb8803f226d8270dc9d3427481ca8ab998c2cc375a7bb99b3f2d"
     },
     {
       "path": "RELEASE_NOTES_0.1.0.md",
@@ -530,8 +530,8 @@
     },
     {
       "path": "project-metadata.json",
-      "bytes": 1292,
-      "sha256": "4806817c333445c4978634480ad8eead8ecc602dba5197f6949f9ec80b15fad8"
+      "bytes": 1927,
+      "sha256": "004f42edb3db5414e62f906a2b6e657d15072648a894a5e0f2e5d53476895580"
     },
     {
       "path": "public/app.js",
@@ -545,18 +545,18 @@
     },
     {
       "path": "public/data/metadata.json",
-      "bytes": 1292,
-      "sha256": "4806817c333445c4978634480ad8eead8ecc602dba5197f6949f9ec80b15fad8"
+      "bytes": 1927,
+      "sha256": "004f42edb3db5414e62f906a2b6e657d15072648a894a5e0f2e5d53476895580"
     },
     {
       "path": "public/index.html",
-      "bytes": 6003,
-      "sha256": "647877b3e0a71a63f2053634a1a5b19c5a59c7d5333936450f8b88ec6a4c1278"
+      "bytes": 6645,
+      "sha256": "afe189775354ca11fbd374761180909ecaeafd923f95c9e59865fda1d5a1e941"
     },
     {
       "path": "public/styles.css",
-      "bytes": 4227,
-      "sha256": "05e841888eda86fc689976daeb936f68732b11eb78ea72db96ebad56713e7768"
+      "bytes": 4905,
+      "sha256": "f5b4640531a549f29f933af2be2c4dfbba638da9b32618b19ac11d241600689a"
     },
     {
       "path": "scripts/apply_review_overrides.py",
@@ -580,8 +580,8 @@
     },
     {
       "path": "scripts/generate_exports.py",
-      "bytes": 5300,
-      "sha256": "40f8d0c2c9409059fc5077d2332ea4cda3f300af60ba2c86f607741fa6c7c7d4"
+      "bytes": 5515,
+      "sha256": "dbf3a5b7fb85c80a77a422f070d55ed3145e46c758af622d8a0f7e569435d6f0"
     },
     {
       "path": "scripts/normalize_search.py",
