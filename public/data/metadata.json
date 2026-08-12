@@ -23,20 +23,21 @@
     "candidate_entries_rar_de": 888,
     "curated_anchors": 60,
     "facsimile_pdf_pages": 84,
-    "facsimile_reviewed_candidate_boundaries": 1009,
-    "accepted_article_starts": 855,
-    "rejected_false_positive_boundaries": 154,
-    "headword_corrections": 332,
-    "active_provisional_candidates": 2341,
-    "complete_diplomatic_transcriptions_ai_assisted": 855,
+    "facsimile_reviewed_candidate_boundaries": 1109,
+    "accepted_article_starts": 936,
+    "rejected_false_positive_boundaries": 173,
+    "headword_corrections": 344,
+    "active_provisional_candidates": 2322,
+    "complete_diplomatic_transcriptions_ai_assisted": 936,
+    "diplomatic_transcriptions_with_uncertainty_note": 424,
     "human_verified_diplomatic_transcriptions": 0,
-    "remaining_medium_machine_candidates": 710,
+    "remaining_medium_machine_candidates": 610,
     "remaining_low_machine_candidates": 716,
     "directions": [
       "German–Tarahumara",
       "Tarahumara–German"
     ],
-    "status": "Complete OCR-range machine segmentation; high-confidence tier exhausted; first 400 medium-confidence candidates collated against facsimile; 855 accepted starts have complete AI-assisted diplomatic transcriptions; independent human/philological and linguistic validation pending"
+    "status": "Complete OCR-range machine segmentation; high-confidence tier exhausted; first 500 medium-confidence candidates collated against facsimile; 936 accepted starts have complete AI-assisted diplomatic transcriptions; independent human/philological and linguistic validation pending"
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",
