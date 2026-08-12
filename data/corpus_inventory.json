@@ -26,11 +26,11 @@
   },
   "methodological_note": "Candidate count is not asserted as the definitive lexicographic entry count. Coverage-first machine segmentation intentionally favors recall; every machine candidate remains unverified until facsimile collation.",
   "facsimile_review": {
-    "reviewed_candidate_boundaries": 1819,
-    "accepted_headword_starts": 1501,
-    "rejected_false_positive_boundaries": 318,
-    "headword_corrections": 672,
-    "active_candidates_after_review": 2177,
+    "reviewed_candidate_boundaries": 1919,
+    "accepted_headword_starts": 1542,
+    "rejected_false_positive_boundaries": 377,
+    "headword_corrections": 676,
+    "active_candidates_after_review": 2118,
     "scope": "headword_and_entry_start_boundary",
     "method": "visual_facsimile_collation_ai_assisted",
     "full_diplomatic_transcription_completed": false
