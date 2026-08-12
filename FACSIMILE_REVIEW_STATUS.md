@@ -1,10 +1,10 @@
 # Facsimile collation and diplomatic transcription status
 
-Rarámuri Histórico Digital maintains sixteen append-only boundary-review batches spanning both dictionary directions and two machine-confidence tiers, plus a separate diplomatic-transcription layer. AI-assisted visual collation is always distinguished from independent human/philological and linguistic verification.
+Rarámuri Histórico Digital mantiene diecisiete lotes append-only de revisión de límites y una capa separada de transcripción diplomática. Todo el trabajo actual de cotejo visual es IA-asistido y se distingue explícitamente de una futura validación humana, filológica y lingüística independiente.
 
 ## Boundary-review results
 
-| Batch | Machine candidates reviewed | Accepted article starts | Rejected false boundaries | Clear headword corrections | Printed-page span |
+| Batch | Reviewed | Accepted | Rejected | Headword corrections | Printed-page span |
 |---|---:|---:|---:|---:|---|
 | `RHD-FR-001` | 100 | 86 | 14 | 4 | 301–317 |
 | `RHD-FR-002` | 100 | 85 | 15 | 10 | 318–339 |
@@ -23,32 +23,21 @@ Rarámuri Histórico Digital maintains sixteen append-only boundary-review batch
 | `RHD-FR-014` | 100 | 81 | 19 | 6 | 345–350 |
 | `RHD-FR-015` | 100 | 84 | 16 | 37 | 350–356 |
 | `RHD-FR-016` | 100 | 90 | 10 | 87 | 356–360 |
-| **Cumulative reviewed corpus** | **1,509** | **1,274** | **235** | **483** | **301–368** |
+| `RHD-FR-017` | 100 | 91 | 9 | 90 | 360–364 |
+| **Cumulative reviewed corpus** | **1,609** | **1,365** | **244** | **573** | **301–368** |
 
-The coverage-first machine layer remains 2,495 candidates. All 609 `high_machine` candidates have been resolved. The first **900 of 1,110 `medium_machine` candidates** have also been reviewed: **721 accepted starts and 179 false boundaries**. Rejected IDs remain persistent and are never recycled, leaving **2,260 active provisional candidates**.
+La capa de cobertura conserva 2,495 candidatos. Los 609 `high_machine` ya fueron resueltos. Los primeros **1,000 de 1,110 `medium_machine`** también fueron cotejados: **812 arranques aceptados y 188 falsos límites**. Quedan **110 `medium_machine`** y posteriormente 716 `low_machine`. Los IDs rechazados permanecen persistentes y nunca se reciclan; la capa activa provisional contiene **2,251 candidatos**.
 
-`RHD-FR-016` is wholly within the Rarámuri→German section. It resolves 100 candidates across printed pp. **356–360**, accepting 90 and rejecting 10 German glosses, cross-references or fragments of explanatory prose. The inverse section exhibits severe OCR degradation: **87 of the 90 accepted starts require a clear headword correction**, and **32 candidate page assignments are corrected by direct facsimile collation**.
+`RHD-FR-017` está enteramente en rarámuri→alemán. El facsímil corrige la extensión automática 360–365 a **360–364**, acepta 91 candidatos y rechaza nueve glosas alemanas mal segmentadas como supuestos lemas: `Brod`, `Mehr`, `Kriegen`, `Zange`, `Belohnen`, `Bekennen`, `Wahrheit`, `Weg` y `Nicht viel`. **90 de los 91 arranques aceptados requieren corrección clara de lema**, y 24 registros cambian de página tras cotejo directo.
 
-Representative recovered forms include `Etschaguóameke`, `Ekítschipí`, `Galá tá símega`, `Guarátscha`, `Guechtschíc`, `Haleséatschic, oder Hareséatschic`, `Jachcála`, `Jumánamatschígameke`, `Kauguáca`, `Kuepútsela, oder Kepútschela` and `Kubírusi, oder Gubírusi`. The Steffel facsimile remains authoritative; the Merrill et al. 2020 transcription is used only as a secondary collation aid for difficult glyphs and diacritics.
-
-Boundary review validates headword presence, article-start boundary, exact page placement and documentary direction. It does not constitute independent linguistic or philological validation.
-
-## Deterministic review queue
-
-`scripts/generate_review_queue.py` selects the first 100 unreviewed records in source order, exhausting `medium_machine` before entering `low_machine`, and excludes every persistent ID already represented in append-only review manifests. Facsimile review remains authoritative for exact page, column, direction and lemma reading.
-
-## Page-layout reconstruction
-
-Printed pages 301–368 remain modeled explicitly as 68 two-column dictionary pages. Printed p. 353 is a transition page: German→Rarámuri concludes above the section break and Rarámuri→German begins below it. `RHD-FR-016` further demonstrates that OCR-derived page assignment in the inverse section can drift across page boundaries and therefore must remain an editorial overlay rather than source truth.
+Entre las lecturas recuperadas están `Lála`, `Moorápera`, `Nachtétuje`, `Nacuguíta`, `Nassípasic`, `Noitsámela`, `Ossanaguóameke`, `Pitschabúrameke`, `Rachtábatsáboa`, `Rauguelíki` y `Rhaná`. El facsímil es autoritativo; Merrill et al. (2020) se usa únicamente como ayuda secundaria de colación para grafías difíciles.
 
 ## Diplomatic transcription
 
-`RHD-DIP-001A`–`RHD-DIP-007A` provide complete AI-assisted diplomatic coverage for all **553 accepted starts in the exhausted `high_machine` tier**. Subsequent diplomatic series cover every accepted start in `RHD-FR-008` through `RHD-FR-016`.
+`RHD-DIP-017A`–`RHD-DIP-017J` aportan **91 transcripciones completas** para todos los arranques aceptados de FR-017. La serie acumulada contiene **1,365 artículos diplomáticos IA-asistidos**, exactamente los mismos 1,365 arranques aceptados entre 1,609 límites cotejados. El inventario registra **512 notas explícitas de incertidumbre**. Todos los registros permanecen `human_verified=false`.
 
-For `RHD-FR-016`, `RHD-DIP-016A`–`RHD-DIP-016I` provide **90 complete article transcriptions** across pp. 356–360. Two records in this new series carry explicit uncertainty notes for a long place-name article and a difficult variant-form pair.
-
-The cumulative diplomatic layer contains **1,274 complete AI-assisted article transcriptions**, exactly matching the **1,274 accepted starts among the 1,509 candidates reviewed to date**. The inventory records **511 records with an explicit uncertainty note**. All current diplomatic records remain `human_verified=false`.
+La lectura `Putschíla, Brust, uber.` se conserva diplomáticamente tal como aparece visualmente y la glosa final queda marcada para recotejo humano independiente.
 
 ## Next editorial stage
 
-The next systematic stage is **`RHD-FR-017`**. Its deterministic queue contains the next 100 `medium_machine` candidates, from `RHD-S1809-01989` (`Lala`) through `RHD-S1809-02233` (`Rnsra`), entirely within Rarámuri→German and automatically estimated around printed pp. **360–365**. **210 `medium_machine` candidates remain unreviewed**, followed by 716 `low_machine` candidates. Global `full_diplomatic_transcription_completed` remains `false`.
+La siguiente etapa es **`RHD-FR-018`**. La cola determinista contiene 100 de los 110 `medium_machine` restantes, desde `RHD-S1809-02234` hasta `RHD-S1809-02478`. La asignación automática alcanza p. 369; como el vocabulario termina en p. 368 y el apéndice comienza en p. 369, el próximo lote deberá resolver explícitamente el límite diccionario/apéndice mediante el facsímil. Global `full_diplomatic_transcription_completed` continúa en `false`.
