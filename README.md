@@ -7,8 +7,8 @@
   <img src="https://img.shields.io/badge/dataset-0.2.0-172033?style=flat-square" alt="Dataset 0.2.0">
   <img src="https://img.shields.io/badge/fuente-Steffel%201809-7a263a?style=flat-square" alt="Steffel 1809">
   <img src="https://img.shields.io/badge/candidatos%20segmentados-2%2C495-2d6a4f?style=flat-square" alt="2,495 candidate entries">
-  <img src="https://img.shields.io/badge/l%C3%ADmites%20cotejados-1%2C209-b7791f?style=flat-square" alt="1,209 boundaries reviewed">
-  <img src="https://img.shields.io/badge/art%C3%ADculos%20diplom%C3%A1ticos%20AI--asistidos-1%2C019-455B55?style=flat-square" alt="1,019 AI-assisted diplomatic articles">
+  <img src="https://img.shields.io/badge/l%C3%ADmites%20cotejados-1%2C309-b7791f?style=flat-square" alt="1,309 boundaries reviewed">
+  <img src="https://img.shields.io/badge/art%C3%ADculos%20diplom%C3%A1ticos%20AI--asistidos-1%2C100-455B55?style=flat-square" alt="1,100 AI-assisted diplomatic articles">
   <img src="https://img.shields.io/badge/c%C3%B3digo-MIT-172033?style=flat-square" alt="MIT">
 </p>
 
@@ -24,15 +24,15 @@ La segmentación de alta cobertura contiene **2,495 candidatos de artículo lexi
 
 El número 2,495 no se presenta como conteo filológico definitivo. La tipografía Fraktur, errores del OCR y el diseño a dos columnas producen límites candidatos que pueden dividir o unir artículos incorrectamente. Por ello el proyecto separa explícitamente cobertura automática, cotejo facsimilar, transcripción diplomática y futura validación lingüística.
 
-A través de `RHD-FR-001`–`RHD-FR-013` se han cotejado visualmente **1,209 límites candidatos**: **1,019 arranques de artículo fueron aceptados**, **190 falsos límites rechazados** y **353 lemas recibieron correcciones claras**. Los identificadores de los límites rechazados se preservan y nunca se reciclan. La capa activa queda provisionalmente en **2,305 candidatos**.
+A través de `RHD-FR-001`–`RHD-FR-014` se han cotejado visualmente **1,309 límites candidatos**: **1,100 arranques de artículo fueron aceptados**, **209 falsos límites rechazados** y **359 lemas recibieron correcciones claras**. Los identificadores de los límites rechazados se preservan y nunca se reciclan. La capa activa queda provisionalmente en **2,286 candidatos**.
 
-La totalidad de los **609 candidatos `high_machine`** ya fue resuelta. También se revisaron los primeros **600 de 1,110 candidatos `medium_machine`**: 466 arranques aceptados y 134 falsos límites. Restan **510 candidatos de confianza media** y posteriormente 716 candidatos `low_machine`.
+La totalidad de los **609 candidatos `high_machine`** ya fue resuelta. También se revisaron los primeros **700 de 1,110 candidatos `medium_machine`**: 547 arranques aceptados y 153 falsos límites. Restan **410 candidatos de confianza media** y posteriormente 716 candidatos `low_machine`.
 
 ## Capa diplomática
 
-Los **1,019 arranques aceptados entre los 1,209 candidatos cotejados** cuentan con transcripción diplomática completa IA-asistida. La serie llega actualmente a `RHD-DIP-013E`; conserva grafía y puntuación históricas y documenta de forma explícita las lecturas inciertas. El inventario registra **452 transcripciones con una nota de incertidumbre**.
+Los **1,100 arranques aceptados entre los 1,309 candidatos cotejados** cuentan con transcripción diplomática completa IA-asistida. La serie llega actualmente a `RHD-DIP-014E`; conserva grafía y puntuación históricas y documenta de forma explícita las lecturas inciertas. El inventario registra **485 transcripciones con una nota de incertidumbre**.
 
-`RHD-FR-013` revisa el sexto lote de 100 candidatos `medium_machine` sobre las páginas impresas 338–344: **83 arranques aceptados, 17 falsos límites y 9 correcciones claras de lema**. `RHD-DIP-013A`–`RHD-DIP-013E` completan los 83 artículos aceptados, incluidos textos extensos como `Spiel`, `Spielplatz`, `Staar`, `Stein`, `Sterben` y `Sterblich`.
+`RHD-FR-014` revisa el séptimo lote de 100 candidatos `medium_machine` sobre las páginas impresas 345–350: **81 arranques aceptados, 19 falsos límites y 6 correcciones claras de lema**. `RHD-DIP-014A`–`RHD-DIP-014E` completan los 81 artículos aceptados. Entre los registros extensos o documentalmente complejos se encuentran `Taback`, `Verhexen`, `Viel`, `Vogel`, `Weit` y `Waizen`.
 
 En los artículos extensos o especialmente difíciles, la lectura del facsímil puede cotejarse adicionalmente con la edición crítica contemporánea de Merrill et al. (2020), ya documentada en `SOURCES.md`; ese cotejo funciona como evidencia secundaria y nunca sustituye al facsímil de 1809 como fuente autoritativa del proyecto.
 
@@ -46,10 +46,10 @@ La regla editorial es:
 
 - `data/entries.csv`: capa maestra integral con overlays editoriales.
 - `data/entries_curated.csv`: 60 anclas iniciales con identificadores persistentes.
-- `data/review/`: manifiestos append-only de revisión de límites y lemas (`RHD-FR-001`–`RHD-FR-013`).
+- `data/review/`: manifiestos append-only de revisión de límites y lemas (`RHD-FR-001`–`RHD-FR-014`).
 - `data/review/next_review_queue.json`: siguiente cohorte editorial, generada de forma determinista.
 - `data/facsimile/`: modelo explícito de columnas para las 68 páginas lexicográficas impresas 301–368.
-- `data/diplomatic/`: transcripciones diplomáticas IA-asistidas de los 1,019 artículos aceptados hasta `RHD-FR-013`.
+- `data/diplomatic/`: transcripciones diplomáticas IA-asistidas de los 1,100 artículos aceptados hasta `RHD-FR-014`.
 - `data/ocr_dictionary_lines.csv`: capa de auditoría de líneas OCR.
 - `data/corpus_inventory.json`: conteos, rangos y progreso editorial.
 - `data/json/entries.json`, `data/xml/entries.xml`, `data/xml/steffel-1809-tei-machine.xml` y `data/raramuri_historico.sqlite`: serializaciones derivadas.
@@ -67,6 +67,8 @@ python3 tests/validate.py
 ```
 
 El pipeline reconstruye primero la capa automática y después aplica, de manera reproducible, los manifiestos editoriales. La cola de revisión deriva del orden de fuente y excluye todos los identificadores ya presentes en los manifiestos append-only; las correcciones no sustituyen ni alteran el OCR fuente. GitHub Actions ejecuta el pipeline y las pruebas de validación tras cambios en las capas editoriales y regenera las exportaciones derivadas.
+
+La siguiente cohorte sistemática es `RHD-FR-015`. Su cola comienza en la página impresa 351 y atraviesa la transición de la p. 353 desde alemán→rarámuri hacia rarámuri→alemán, por lo que el cotejo será explícitamente sensible a la dirección lexicográfica.
 
 ## Identificadores
 
