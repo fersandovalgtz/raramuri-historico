@@ -1,6 +1,6 @@
 # Facsimile collation and diplomatic transcription status
 
-Rarámuri Histórico Digital now maintains three append-only boundary-review batches spanning both dictionary directions, plus a separate diplomatic-transcription layer. AI-assisted visual collation is always distinguished from independent human/philological and linguistic verification.
+Rarámuri Histórico Digital maintains three append-only boundary-review batches spanning both dictionary directions, plus a separate diplomatic-transcription layer. AI-assisted visual collation is always distinguished from independent human/philological and linguistic verification.
 
 ## Boundary-review results
 
@@ -8,12 +8,14 @@ Rarámuri Histórico Digital now maintains three append-only boundary-review bat
 |---|---:|---:|---:|---:|---|
 | `RHD-FR-001` | 100 | 86 | 14 | 4 | 301–317 |
 | `RHD-FR-002` | 100 | 85 | 15 | 10 | 318–339 |
-| `RHD-FR-003` | 100 | 89 | 11 | 33 | 340–357 |
+| `RHD-FR-003` | 100 | 89 | 11 | 33 | 339–357 |
 | **Cumulative** | **300** | **260** | **40** | **47** | **301–357** |
 
 The coverage-first machine layer remains 2,495 candidates. After the 40 visually rejected false boundaries, 2,455 candidates remain active provisionally. Candidate count is not asserted as the definitive number of printed lexicographic entries.
 
 Boundary review validates headword presence, article-start boundary and exact page placement. It does not by itself validate a complete article body or linguistic interpretation.
+
+A direct facsimile recheck during diplomatic completion corrected `RHD-S1809-01137` (`Schöpfen`) from printed p. 340 to printed p. 339 / PDF 49. The correction is stored in the review manifest rather than hidden in downstream exports.
 
 ## Page-layout reconstruction
 
@@ -27,10 +29,12 @@ The supplied OCR does not consistently preserve the reading order of Steffel's t
 
 `RHD-DIP-001A`–`RHD-DIP-001E` provide complete AI-assisted diplomatic transcriptions for all **86 accepted starts in RHD-FR-001**. `RHD-DIP-002A` and `RHD-DIP-002B` provide the same coverage for all **85 accepted starts in RHD-FR-002**.
 
-Within `RHD-FR-003`, `RHD-DIP-003A` adds 14 complete articles from printed p. 357, `RHD-DIP-003B` adds 23 clearly bounded articles from p. 356, and `RHD-DIP-003C` adds 18 from p. 355. One accepted p. 356 record (`Cuviruſi`) remains deliberately deferred because its printed cross-reference is visually truncated/ambiguous. The cumulative diplomatic layer now contains **226 complete AI-assisted article transcriptions**. Ninety-eight records carry an explicit uncertainty note.
+`RHD-FR-003` is now also complete at the AI-assisted diplomatic level. `RHD-DIP-003A` adds 14 articles from p. 357; `RHD-DIP-003B` adds 23 from p. 356; `RHD-DIP-003C` adds 18 from p. 355; `RHD-DIP-003D` adds the 15 remaining German→Rarámuri articles on pp. 339, 340, 346 and 350; and `RHD-DIP-003E` adds the 19 remaining Rarámuri→German articles on pp. 353–356. The cumulative diplomatic layer therefore contains **260 complete AI-assisted article transcriptions**, exactly matching the 260 accepted starts among the first 300 reviewed candidates.
+
+The previously deferred `Cuviruſi` cross-reference on p. 356 is transcribed as `Cuviruſi, ſ. Gries.`. The terminal cross-reference is difficult in the scan, so this resolution is explicitly documented as an inference supported by the visible facsimile string plus the internal German→Rarámuri `Gries` article, and remains pending independent human confirmation.
 
 All current diplomatic records remain `human_verified=false`. Completion of the AI-assisted transcription layer must not be described as independent philological or linguistic verification.
 
 ## Next editorial stage
 
-`RHD-FR-003` has **34 accepted starts still awaiting diplomatic reconstruction**. The next stage is to resolve the remaining inverse-dictionary material on pp. 353–354 and the deferred p. 356 record conservatively, then transcribe the accepted German→Rarámuri articles on pp. 340–352. Structurally questionable candidates are not promoted merely to increase coverage.
+The first three boundary-review cohorts are internally complete at the AI-assisted diplomatic level: 300 candidates reviewed, 260 accepted starts, and 260 complete diplomatic overlays. The next systematic stage is `RHD-FR-004`: review the next unreviewed high-confidence candidates against the facsimile, extend page-layout coverage beyond p. 357 as necessary, reject false boundaries without recycling IDs, correct clear OCR headword errors, and then build the corresponding diplomatic transcription batches.
