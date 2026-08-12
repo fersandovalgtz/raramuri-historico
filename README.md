@@ -7,8 +7,8 @@
   <img src="https://img.shields.io/badge/dataset-0.2.0-172033?style=flat-square" alt="Dataset 0.2.0">
   <img src="https://img.shields.io/badge/fuente-Steffel%201809-7a263a?style=flat-square" alt="Steffel 1809">
   <img src="https://img.shields.io/badge/candidatos%20segmentados-2%2C495-2d6a4f?style=flat-square" alt="2,495 candidate entries">
-  <img src="https://img.shields.io/badge/l%C3%ADmites%20cotejados-1%2C409-b7791f?style=flat-square" alt="1,409 boundaries reviewed">
-  <img src="https://img.shields.io/badge/art%C3%ADculos%20diplom%C3%A1ticos%20AI--asistidos-1%2C184-455B55?style=flat-square" alt="1,184 AI-assisted diplomatic articles">
+  <img src="https://img.shields.io/badge/l%C3%ADmites%20cotejados-1%2C509-b7791f?style=flat-square" alt="1,509 boundaries reviewed">
+  <img src="https://img.shields.io/badge/art%C3%ADculos%20diplom%C3%A1ticos%20AI--asistidos-1%2C274-455B55?style=flat-square" alt="1,274 AI-assisted diplomatic articles">
   <img src="https://img.shields.io/badge/c%C3%B3digo-MIT-172033?style=flat-square" alt="MIT">
 </p>
 
@@ -22,19 +22,19 @@ La primera colección es el **Corpus Steffel 1791/1809**, basado en el *Tarahuma
 
 La segmentación de alta cobertura contiene **2,495 candidatos de artículo lexicográfico**: **1,607 alemán→rarámuri** y **888 rarámuri→alemán**. Las 60 entradas previamente curadas conservan sus identificadores persistentes originales. El número 2,495 no se presenta como conteo filológico definitivo: la tipografía Fraktur, errores de OCR y composición a dos columnas generan límites candidatos que deben resolverse contra el facsímil.
 
-A través de `RHD-FR-001`–`RHD-FR-015` se han cotejado visualmente **1,409 límites candidatos**: **1,184 arranques de artículo aceptados**, **225 falsos límites rechazados** y **396 correcciones claras de lema**. Los identificadores rechazados se preservan y nunca se reciclan. La capa activa queda provisionalmente en **2,270 candidatos**.
+A través de `RHD-FR-001`–`RHD-FR-016` se han cotejado visualmente **1,509 límites candidatos**: **1,274 arranques de artículo aceptados**, **235 falsos límites rechazados** y **483 correcciones claras de lema**. Los identificadores rechazados se preservan y nunca se reciclan. La capa activa queda provisionalmente en **2,260 candidatos**.
 
-La totalidad de los **609 candidatos `high_machine`** ya fue resuelta. También se revisaron los primeros **800 de 1,110 candidatos `medium_machine`**: **631 arranques aceptados y 169 falsos límites**. Restan **310 candidatos de confianza media** y posteriormente 716 candidatos `low_machine`.
+La totalidad de los **609 candidatos `high_machine`** ya fue resuelta. También se revisaron los primeros **900 de 1,110 candidatos `medium_machine`**: **721 arranques aceptados y 179 falsos límites**. Restan **210 candidatos de confianza media** y posteriormente 716 candidatos `low_machine`.
 
 ## Capa diplomática
 
-Los **1,184 arranques aceptados entre los 1,409 candidatos cotejados** cuentan con transcripción diplomática completa IA-asistida. La serie llega actualmente a `RHD-DIP-015E`; conserva grafía y puntuación históricas, orden documental de columnas y notas explícitas para lecturas inciertas. El inventario registra **509 transcripciones con una nota de incertidumbre**.
+Los **1,274 arranques aceptados entre los 1,509 candidatos cotejados** cuentan con transcripción diplomática completa IA-asistida. La serie llega a `RHD-DIP-016I`; conserva la lectura documental, página, columna y notas explícitas para lecturas inciertas. El inventario registra **511 transcripciones con una nota de incertidumbre**.
 
-`RHD-FR-015` revisa el octavo lote sistemático de 100 candidatos `medium_machine`. El cotejo facsimilar corrigió su extensión real a las páginas impresas **350–356** y resolvió **84 arranques aceptados, 16 falsos límites y 37 correcciones claras de lema**. El lote es metodológicamente singular porque atraviesa, dentro de la p. 353, el final del vocabulario alemán→rarámuri y el comienzo del vocabulario rarámuri→alemán. `RHD-DIP-015A`–`RHD-DIP-015E` completan los 84 artículos aceptados.
+`RHD-FR-016` revisa el noveno lote sistemático de 100 candidatos `medium_machine`, enteramente dentro de rarámuri→alemán y localizado por cotejo en las páginas impresas **356–360**. El resultado es **90 arranques aceptados, 10 falsos límites y 87 correcciones claras de lema**. Además, **32 registros recibieron corrección de página**, lo que vuelve a mostrar que la geometría documental no puede derivarse de manera segura del OCR lineal.
 
-Entre las correcciones más significativas de OCR están `Wohin`, `Zuſchließen`, `Zwanzig`, `Ali oder ari`, `Baſſará`, `Bucú`, `Cachcánali`, `Caú`, `Cocotſchi`, `Corilícu`, `Cotſchimé`, `Echſámela` y `Echtſchiruc`. El lote también demuestra que la página y dirección lexicográfica no pueden inferirse de manera segura desde el OCR lineal: los primeros cuatro candidatos que la cola situaba en p. 351 pertenecen realmente a la parte baja de p. 350.
+La degradación de OCR es especialmente visible en este tramo inverso. Entre las recuperaciones figuran `Etschaguóameke`, `Ekítschipí`, `Galá tá símega`, `Guarátscha`, `Guechtschíc`, `Haleséatschic, oder Hareséatschic`, `Jachcála`, `Jumánamatschígameke`, `Kauguáca`, `Kuepútsela, oder Kepútschela` y `Kubírusi, oder Gubírusi`. Diez candidatos fueron descartados por corresponder a glosas alemanas, remisiones o prosa interna de artículos.
 
-En artículos extensos o especialmente difíciles, la lectura del facsímil puede cotejarse adicionalmente con la edición crítica contemporánea de Merrill et al. (2020), documentada en `SOURCES.md`; ese cotejo funciona sólo como evidencia secundaria y nunca sustituye al facsímil de 1809 como fuente autoritativa.
+`RHD-DIP-016A`–`RHD-DIP-016I` completan los **90 artículos aceptados**. El facsímil de 1809 sigue siendo la autoridad. Para grafías rarámuri difíciles se utilizó como colación secundaria la transcripción publicada por Merrill et al. (2020), DOI `10.47807/UNISON.8`, ya documentada en `SOURCES.md`; esta consulta no sustituye al testimonio facsimilar.
 
 Todos los registros diplomáticos actuales usan el estado `diplomatic_transcription_ai_assisted` y mantienen **`human_verified=false`**. No deben describirse como verificación filológica o lingüística independiente.
 
@@ -46,10 +46,10 @@ La regla editorial es:
 
 - `data/entries.csv`: capa maestra integral con overlays editoriales.
 - `data/entries_curated.csv`: 60 anclas iniciales con identificadores persistentes.
-- `data/review/`: manifiestos append-only de revisión (`RHD-FR-001`–`RHD-FR-015`).
+- `data/review/`: manifiestos append-only de revisión (`RHD-FR-001`–`RHD-FR-016`).
 - `data/review/next_review_queue.json`: siguiente cohorte editorial generada de forma determinista.
 - `data/facsimile/`: modelo explícito de columnas para las 68 páginas lexicográficas impresas 301–368.
-- `data/diplomatic/`: **1,184 transcripciones diplomáticas IA-asistidas** hasta `RHD-DIP-015E`.
+- `data/diplomatic/`: **1,274 transcripciones diplomáticas IA-asistidas** hasta `RHD-DIP-016I`.
 - `data/corpus_inventory.json`: inventario regenerado de cobertura y progreso editorial.
 - `data/json/entries.json`, `data/xml/entries.xml`, `data/xml/steffel-1809-tei-machine.xml` y `data/raramuri_historico.sqlite`: serializaciones derivadas.
 - `sources/steffel-1809-ocr-source.txt`: OCR primario preservado sin corrección.
@@ -66,7 +66,7 @@ python3 tests/validate.py
 
 El pipeline reconstruye la capa automática, aplica los manifiestos editoriales, genera la siguiente cola a partir del orden de fuente y excluye todos los IDs ya revisados. Las correcciones nunca sustituyen el OCR fuente. GitHub Actions valida los overlays y regenera las exportaciones derivadas.
 
-La siguiente cohorte sistemática es **`RHD-FR-016`**. La cola determinista contiene los siguientes 100 `medium_machine`, desde `RHD-S1809-01778` hasta `RHD-S1809-01988`, ya dentro del vocabulario rarámuri→alemán y con estimación automática aproximada de pp. 356–360. La paginación y los lemas deberán volver a confirmarse contra el facsímil.
+La siguiente cohorte sistemática es **`RHD-FR-017`**. La cola determinista contiene los siguientes 100 `medium_machine`, desde `RHD-S1809-01989` (`Lala`) hasta `RHD-S1809-02233` (`Rnsra`), enteramente en rarámuri→alemán y estimada alrededor de las páginas impresas **360–365**. Los lemas y la paginación deben volver a confirmarse contra el facsímil.
 
 ## Identificadores
 
