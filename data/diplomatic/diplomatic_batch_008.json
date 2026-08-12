@@ -1,0 +1,157 @@
+{
+  "batch_id": "RHD-DIP-003A",
+  "title": "First diplomatic article-text batch derived from RHD-FR-003",
+  "review_date": "2026-08-11",
+  "transcription_scope": "complete article text for the accepted RHD-FR-003 high-confidence candidates on printed page 357; source spelling and punctuation retained; typographic line wrapping not encoded",
+  "review_method": "visual_facsimile_transcription_ai_assisted",
+  "review_agent": "OpenAI ChatGPT GPT-5.6 Sol",
+  "human_verified": false,
+  "provenance_note": "AI-assisted visual transcription from printed page 357 of the supplied Steffel facsimile. The facsimile is authoritative; OCR is used only as a secondary reading aid. This page belongs to the Rarámuri→German dictionary. Ambiguous diacritics and compact Fraktur/Antiqua letterforms are explicitly flagged and remain pending independent human/philological and linguistic verification.",
+  "records": [
+    {
+      "record_id": "RHD-S1809-01802",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "left",
+      "headword_diplomatic": "Gané",
+      "article_diplomatic": "Gané, Recht gut.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-01803",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "left",
+      "headword_diplomatic": "Gáneba",
+      "article_diplomatic": "Gáneba, Es iſt ſchon gut.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "The acute mark in the headword is visually present but should be independently checked against the original scan/print."
+    },
+    {
+      "record_id": "RHD-S1809-01804",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "left",
+      "headword_diplomatic": "Ganeliameke",
+      "article_diplomatic": "Ganeliameke, Der geſund iſt, dem es gut geht.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "Fine diacritics in the Rarámuri headword are not encoded where the facsimile is not sufficiently unambiguous."
+    },
+    {
+      "record_id": "RHD-S1809-01805",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "left",
+      "headword_diplomatic": "Ganileliki",
+      "article_diplomatic": "Ganileliki, Glückſeligkeit.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-01806",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "left",
+      "headword_diplomatic": "Ganileruje",
+      "article_diplomatic": "Ganileruje, Glückſelig machen.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-01807",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "left",
+      "headword_diplomatic": "Ganilile",
+      "article_diplomatic": "Ganilile, Geſund, wohlauf ſeyn.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-01808",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "left",
+      "headword_diplomatic": "Gaſſini",
+      "article_diplomatic": "Gaſſini, oder Gaſſinale, Zerbrechen.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "The historical long-s sequence is retained from visual collation; the variant Gaſſinale remains pending independent linguistic verification."
+    },
+    {
+      "record_id": "RHD-S1809-01811",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "left",
+      "headword_diplomatic": "Gaſſó",
+      "article_diplomatic": "Gaſſó, Brennſchwamm.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-01812",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "left",
+      "headword_diplomatic": "Gatiki",
+      "article_diplomatic": "Gatiki, oder gatiki, Wohnen, ſich wo befinden, ſeyn, ſ. Seyn.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "The repeated variant is retained as printed; fine accentuation remains pending linguistic verification."
+    },
+    {
+      "record_id": "RHD-S1809-01814",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "left",
+      "headword_diplomatic": "Guá",
+      "article_diplomatic": "Guá, Schilf, Rohr.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-01824",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "left",
+      "headword_diplomatic": "Gualíneke",
+      "article_diplomatic": "Gualíneke, Hurtig, ſchneller Läufer.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "Accent placement is retained from the facsimile and remains pending linguistic verification."
+    },
+    {
+      "record_id": "RHD-S1809-01837",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "right",
+      "headword_diplomatic": "Guechpiſóco",
+      "article_diplomatic": "Guechpiſóco, Peitſchen, geißeln.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "The long-s-like character and acute mark are visually supported but should receive independent philological/linguistic confirmation."
+    },
+    {
+      "record_id": "RHD-S1809-01844",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "right",
+      "headword_diplomatic": "Guelé",
+      "article_diplomatic": "Guelé, Dick, fett.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-01847",
+      "printed_page": 357,
+      "pdf_page": 67,
+      "column": "right",
+      "headword_diplomatic": "Guelube",
+      "article_diplomatic": "Guelube, Größer, länger.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "Fine diacritic detail in the headword is not asserted beyond what is visually clear in the scan."
+    }
+  ],
+  "summary": {
+    "complete_article_transcriptions": 14,
+    "pages_represented": [357],
+    "human_verified": 0
+  }
+}
