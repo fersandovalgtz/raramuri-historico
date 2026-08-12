@@ -130,8 +130,8 @@
     },
     {
       "path": "data/corpus_inventory.json",
-      "bytes": 4789,
-      "sha256": "1557166222050214b23492b090709a35192d9e2a6d349f5b11efd101c2ff5df5"
+      "bytes": 5523,
+      "sha256": "8cbd67039f4826b2aa8e944c72383bd8bccf88bbe9349bdbf6e395c2f477e220"
     },
     {
       "path": "data/correspondences_template.csv",
@@ -705,8 +705,8 @@
     },
     {
       "path": "data/entries.csv",
-      "bytes": 1845366,
-      "sha256": "a1c75b420b1610b0db6d7c8b99fbf45715720273ac98e8f2b813022b5583e302"
+      "bytes": 1846176,
+      "sha256": "62deb887350a3b98f63b65ca1350f993a2a992799559f1158db6de4a9546a7a8"
     },
     {
       "path": "data/entries_curated.csv",
@@ -750,8 +750,8 @@
     },
     {
       "path": "data/json/entries.json",
-      "bytes": 3731872,
-      "sha256": "78b50a4413c504ab136bae55accc9ebe06125e153596f12419a5415561500270"
+      "bytes": 3732682,
+      "sha256": "46199764bda1aa525cd4ed067cc847f80ff045244f7c5293646218ee5d0d468a"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -760,8 +760,8 @@
     },
     {
       "path": "data/raramuri_historico.sqlite",
-      "bytes": 2334720,
-      "sha256": "c207d6f8b0d0711bf8dc6e8ae867dfd7daf63076485bb0cffbcc80271f0286d4"
+      "bytes": 2338816,
+      "sha256": "0ef12640642cc671fb6812cc6dad1f73eb98b86271405a2b5e07aea37df56d8d"
     },
     {
       "path": "data/review/README.md",
@@ -900,8 +900,8 @@
     },
     {
       "path": "data/xml/entries.xml",
-      "bytes": 4363089,
-      "sha256": "a742ae799cb9831ed5a038dc330241531da5fb6210d14ecb4af3f5bccf7cd463"
+      "bytes": 4364475,
+      "sha256": "ae6a03ea3797af67bb8176b69eac33d29afe9c6e7676adcf82ef231bb1dd3451"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
@@ -930,8 +930,8 @@
     },
     {
       "path": "public/data/entries.json",
-      "bytes": 3282771,
-      "sha256": "b08b7263418322effa6063c491c8c1b1eaa0d6bc256229e09fc8f5e15f2fbb68"
+      "bytes": 3283581,
+      "sha256": "1bf7f9d443a620ce1df2e85b9575a0c98e8c6c70fdf3d4854405bad7d7352fdf"
     },
     {
       "path": "public/data/metadata.json",
@@ -950,8 +950,8 @@
     },
     {
       "path": "scripts/apply_review_overrides.py",
-      "bytes": 7183,
-      "sha256": "69f5bda56b60f37d3ee539efc88c2dfe4755d60ce79d81af511446eb2b7496bd"
+      "bytes": 8873,
+      "sha256": "2055af8c00e9c1cabacd89f1026db2cb345aea8d589343991716e52c596a59be"
     },
     {
       "path": "scripts/build_exports.py",
