@@ -34556,14 +34556,14 @@ chnell. Guslineke,</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01137" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01137" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Schoͤpfen</headword_raw>
+    <headword_raw>Schöpfen</headword_raw>
     <headword_ocr_raw>Schoͤpfen</headword_ocr_raw>
-    <headword_search>schopfen</headword_search>
+    <headword_search>schoepfen</headword_search>
     <definition_raw>Pabahi.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Schöpfen”; OCR represents the umlaut with a combining historical glyph. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=340.</editorial_note>
     <article_ocr_raw>Schoͤpfen. Pabahi.</article_ocr_raw>
     <printed_page>340</printed_page>
     <pdf_page>50</pdf_page>
@@ -34574,7 +34574,7 @@ chnell. Guslineke,</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -35314,14 +35314,14 @@ meke. Tel-iv usti.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01163" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01163" direction="DE-RAR" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Badſtube⸗</headword_raw>
     <headword_ocr_raw>Badſtube⸗</headword_ocr_raw>
     <headword_search>badstube</headword_search>
     <definition_raw />
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Badſtube” is a cross-reference subline inside the article Schwitzstube (“ſ. Badſtube”), not an independent article start. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=340.</editorial_note>
     <article_ocr_raw>Badſtube⸗ .</article_ocr_raw>
     <printed_page>340</printed_page>
     <pdf_page>50</pdf_page>
@@ -35332,7 +35332,7 @@ meke. Tel-iv usti.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -35466,14 +35466,14 @@ Deutſch Tarahumariſches</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01168" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01168" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Sechſter</headword_raw>
     <headword_ocr_raw>Sechſter</headword_ocr_raw>
     <headword_search>sechster</headword_search>
     <definition_raw>Pufaniaje.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=340.</editorial_note>
     <article_ocr_raw>Sechſter. Pufaniaje.</article_ocr_raw>
     <printed_page>340</printed_page>
     <pdf_page>50</pdf_page>
@@ -35484,7 +35484,7 @@ Deutſch Tarahumariſches</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -35494,14 +35494,14 @@ Deutſch Tarahumariſches</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01169" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01169" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Sechzehn</headword_raw>
     <headword_ocr_raw>Sechzehn</headword_ocr_raw>
     <headword_search>sechzehn</headword_search>
     <definition_raw>Macöck ſanik. a 1</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=340.</editorial_note>
     <article_ocr_raw>Sechzehn. Macöck 
 ſanik. a 1</article_ocr_raw>
     <printed_page>340</printed_page>
@@ -35513,7 +35513,7 @@ Deutſch Tarahumariſches</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -35523,14 +35523,14 @@ Deutſch Tarahumariſches</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01170" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01170" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>See</headword_raw>
     <headword_ocr_raw>See</headword_ocr_raw>
     <headword_search>see</headword_search>
     <definition_raw>Pauguim mila. Paugui- man kt.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=340.</editorial_note>
     <article_ocr_raw>See. Pauguim mila. Paugui- 
 
 man kt.</article_ocr_raw>
@@ -35543,7 +35543,7 @@ man kt.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -35553,14 +35553,14 @@ man kt.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01171" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01171" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Seele</headword_raw>
     <headword_ocr_raw>Seele</headword_ocr_raw>
     <headword_search>seele</headword_search>
     <definition_raw>Halsguala, wird im Mangel eines andern Wor⸗ tes uneigentlich gefagt.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=340.</editorial_note>
     <article_ocr_raw>Seele. Halsguala, wird im 
 Mangel eines andern Wor⸗ 
 tes uneigentlich gefagt.</article_ocr_raw>
@@ -35573,7 +35573,7 @@ tes uneigentlich gefagt.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -35583,14 +35583,14 @@ tes uneigentlich gefagt.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01172" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01172" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Sehen</headword_raw>
     <headword_ocr_raw>Sehen</headword_ocr_raw>
     <headword_search>sehen</headword_search>
     <definition_raw>Nene. Retegud. Mat- chi. Bloͤd, oder übel ſe⸗ hen, tane ga matſchi, oder a mobs pu- ne 8 td ga mätichi. Sieh, iq. wa |</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=340.</editorial_note>
     <article_ocr_raw>Sehen. Nene. Retegud. Mat- 
 
 chi. Bloͤd, oder übel ſe⸗ 
@@ -35611,7 +35611,7 @@ iq. wa |</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -35709,14 +35709,14 @@ gewebt iſt. ſ. Gewebe.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01176" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01176" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Secitenſtechen</headword_raw>
+    <headword_raw>Seitenſtechen</headword_raw>
     <headword_ocr_raw>Secitenſtechen</headword_ocr_raw>
-    <headword_search>secitenstechen</headword_search>
+    <headword_search>seitenstechen</headword_search>
     <definition_raw>Volsiga. Der</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. OCR corrupted the initial letter sequence; facsimile clearly reads historical “Seitenſtechen.” RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=340.</editorial_note>
     <article_ocr_raw>Secitenſtechen. Volsiga. Der</article_ocr_raw>
     <printed_page>340</printed_page>
     <pdf_page>50</pdf_page>
@@ -35727,7 +35727,7 @@ gewebt iſt. ſ. Gewebe.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -37553,14 +37553,14 @@ f ö and.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01233" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01233" direction="DE-RAR" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>VPDuooͤrtebuch</headword_raw>
     <headword_ocr_raw>VPDuooͤrtebuch</headword_ocr_raw>
     <headword_search>vpduoortebuch</headword_search>
     <definition_raw>anderes Spiel, ſ. unten</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. OCR candidate is the running header “Wörterbuch” on printed p. 343, not a lexicographic article. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=343.</editorial_note>
     <article_ocr_raw>VPDuooͤrtebuch. 
 
 
@@ -37574,7 +37574,7 @@ anderes Spiel, ſ. unten</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -40198,14 +40198,14 @@ unterhaltend.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01316" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01316" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Thuͤre</headword_raw>
     <headword_ocr_raw>Thuͤre</headword_ocr_raw>
     <headword_search>thure</headword_search>
     <definition_raw>Era.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=346.</editorial_note>
     <article_ocr_raw>Thuͤre. Era.</article_ocr_raw>
     <printed_page>346</printed_page>
     <pdf_page>56</pdf_page>
@@ -40216,7 +40216,7 @@ unterhaltend.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -40226,14 +40226,14 @@ unterhaltend.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01317" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01317" direction="DE-RAR" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Bewegung</headword_raw>
     <headword_ocr_raw>Bewegung</headword_ocr_raw>
     <headword_search>bewegung</headword_search>
     <definition_raw>Da fangen ſie an, mit ihrem Kuͤrbis ge⸗ rade nach dem Takt ein Ge⸗ klapper zu machen, und machen zugleich bey ihren künſtlichen Durchdrehungen mit dem Lederbuſche in der rechten Hand ganz gleiche</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Bewegung” is running prose continuing the long article Tanzen from p. 345 into p. 346; not an independent headword. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=346.</editorial_note>
     <article_ocr_raw>Bewegung. Da fangen ſie 
 an, mit ihrem Kuͤrbis ge⸗ 
 rade nach dem Takt ein Ge⸗ 
@@ -40257,7 +40257,7 @@ rechten Hand ganz gleiche</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -40395,14 +40395,14 @@ quoque gaudia genti.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01322" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01322" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Taub</headword_raw>
     <headword_ocr_raw>Taub</headword_ocr_raw>
     <headword_search>taub</headword_search>
     <definition_raw>Nacheatule,</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=346.</editorial_note>
     <article_ocr_raw>Taub. Nacheatule,</article_ocr_raw>
     <printed_page>346</printed_page>
     <pdf_page>56</pdf_page>
@@ -40413,7 +40413,7 @@ quoque gaudia genti.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -40423,14 +40423,14 @@ quoque gaudia genti.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01323" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01323" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Taufe</headword_raw>
     <headword_ocr_raw>Taufe</headword_ocr_raw>
     <headword_search>taufe</headword_search>
     <definition_raw>Pauvoliki.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=346.</editorial_note>
     <article_ocr_raw>Taufe. Pauvoliki.</article_ocr_raw>
     <printed_page>346</printed_page>
     <pdf_page>56</pdf_page>
@@ -40441,7 +40441,7 @@ quoque gaudia genti.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -40451,14 +40451,14 @@ quoque gaudia genti.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01324" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01324" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Taufen</headword_raw>
     <headword_ocr_raw>Taufen</headword_ocr_raw>
     <headword_search>taufen</headword_search>
     <definition_raw>Pagota. Getauft, pa- 700 gotugameke, oder auch ipa- gatügameke.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=346.</editorial_note>
     <article_ocr_raw>Taufen. Pagota. Getauft, pa- 
 
 
@@ -40478,7 +40478,7 @@ gatügameke.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -40544,14 +40544,14 @@ gatügameke.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01327" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01327" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Teufel</headword_raw>
     <headword_ocr_raw>Teufel</headword_ocr_raw>
     <headword_search>teufel</headword_search>
     <definition_raw>Aitaruc. Gemeiniglich aber fagen fie: telegauga- m ke, der unten iſt.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=346.</editorial_note>
     <article_ocr_raw>Teufel. Aitaruc. Gemeiniglich 
 
 
@@ -40566,7 +40566,7 @@ m ke, der unten iſt.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -40604,14 +40604,14 @@ m ke, der unten iſt.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01329" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01329" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Thier</headword_raw>
     <headword_ocr_raw>Thier</headword_ocr_raw>
     <headword_search>thier</headword_search>
     <definition_raw>Buco. Iſt der allge: gemeine Name aller vier⸗ füßigen Thiere</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=346.</editorial_note>
     <article_ocr_raw>Thier. Buco. Iſt der allge: 
 gemeine Name aller vier⸗ 
 füßigen Thiere</article_ocr_raw>
@@ -40624,7 +40624,7 @@ füßigen Thiere</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -40668,14 +40668,14 @@ meke, Es iſt gethan, Jolärupa.
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01331" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01331" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Tief</headword_raw>
     <headword_ocr_raw>Tief</headword_ocr_raw>
     <headword_search>tief</headword_search>
     <definition_raw>Es iſi tief, rocheo.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=346.</editorial_note>
     <article_ocr_raw>Tief. Es iſi tief, rocheo.</article_ocr_raw>
     <printed_page>346</printed_page>
     <pdf_page>56</pdf_page>
@@ -40686,7 +40686,7 @@ meke, Es iſt gethan, Jolärupa.
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -42881,14 +42881,14 @@ ngo,
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01409" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01409" direction="DE-RAR" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Ballatfameke</headword_raw>
     <headword_ocr_raw>Ballatfameke</headword_ocr_raw>
     <headword_search>ballatfameke</headword_search>
     <definition_raw>5 A</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. The form is the Rarámuri equivalent inside the German article Urbar on p. 347, not an independent headword. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=347.</editorial_note>
     <article_ocr_raw>Ballatfameke. 5 A</article_ocr_raw>
     <printed_page>347</printed_page>
     <pdf_page>57</pdf_page>
@@ -42899,7 +42899,7 @@ ngo,
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -46528,14 +46528,14 @@ weich, lomiſimi.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01532" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01532" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Wehe thun</headword_raw>
     <headword_ocr_raw>Wehe thun</headword_ocr_raw>
     <headword_search>wehe thun</headword_search>
     <definition_raw>Es thut mir weh, ich leide Schmerzen.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=350.</editorial_note>
     <article_ocr_raw>Wehe thun. Es thut mir 
 weh, ich leide Schmerzen.</article_ocr_raw>
     <printed_page>350</printed_page>
@@ -46547,7 +46547,7 @@ weh, ich leide Schmerzen.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -47704,14 +47704,14 @@ nachgeſetzt wird.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01569" direction="DE-RAR" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01569" direction="DE-RAR" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Gott</headword_raw>
     <headword_ocr_raw>Gott</headword_ocr_raw>
     <headword_search>gott</headword_search>
     <definition_raw>1</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Gott!” completes the phrase “Wollte Gott!” inside the article Wünſchen; it is not a new article. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=352.</editorial_note>
     <article_ocr_raw>Gott! 1</article_ocr_raw>
     <printed_page>352</printed_page>
     <pdf_page>62</pdf_page>
@@ -47722,7 +47722,7 @@ nachgeſetzt wird.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -50133,14 +50133,14 @@ tern wahrgenommen.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01644" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01644" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Ajcruje</headword_raw>
+    <headword_raw>Ajóruje</headword_raw>
     <headword_ocr_raw>Ajcruje</headword_ocr_raw>
-    <headword_search>ajcruje</headword_search>
+    <headword_search>ajoruje</headword_search>
     <definition_raw>zornig machen. Be⸗</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile clearly reads “Ajóruje”; OCR severely corrupted the medial letters. RHD-FR-003 crosses the dictionary-direction transition: Ajóruje is in the Rarámuri→German section beginning on printed p. 353. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=353.</editorial_note>
     <article_ocr_raw>Ajcruje, zornig machen. Be⸗</article_ocr_raw>
     <printed_page>353</printed_page>
     <pdf_page>63</pdf_page>
@@ -50151,7 +50151,7 @@ tern wahrgenommen.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -50193,14 +50193,14 @@ angehängt, bedeutet es dass</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01646" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01646" direction="RAR-DE" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Thungtoder Machen</headword_raw>
     <headword_ocr_raw>Thungtoder Machen</headword_ocr_raw>
     <headword_search>thungtoder machen</headword_search>
     <definition_raw>as das Zeitworn ſelbſt aus drücket.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Thun oder Machen” is explanatory German prose within Ajóruje and describes the function of the auxiliary ruje; not a Rarámuri headword. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=353.</editorial_note>
     <article_ocr_raw>80% Thungtoder Machen, 
 
 
@@ -50216,7 +50216,7 @@ drücket.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -50254,14 +50254,14 @@ drücket.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01647" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01647" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Aitarue</headword_raw>
+    <headword_raw>Aitáruc</headword_raw>
     <headword_ocr_raw>Aitarue</headword_ocr_raw>
-    <headword_search>aitarue</headword_search>
+    <headword_search>aitaruc</headword_search>
     <definition_raw>Teufel. Gemeiniglich aber wird er Telegatigameke Oer unten iſt genannt. Tele, unten echt, Em die Endſylben ameke bezeichnen das Mittelwort gegenwärti⸗ ger Zeit wirkender Bedeu⸗ tung. Die Tarahumaren verſchlingen zwar in der Aus⸗ ſprache meiſtentheils die laste</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Aitáruc, Teufel”; the article begins on printed p. 353. Exact article start is on printed p. 353, not p. 354; the article continues across the page transition. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=353.</editorial_note>
     <article_ocr_raw>Aitarue, Teufel. Gemeiniglich 
 
 aber wird er Telegatigameke 
@@ -50278,8 +50278,8 @@ tung. Die Tarahumaren
 verſchlingen zwar in der Aus⸗ 
 
 ſprache meiſtentheils die laste</article_ocr_raw>
-    <printed_page>354</printed_page>
-    <pdf_page>64</pdf_page>
+    <printed_page>353</printed_page>
+    <pdf_page>63</pdf_page>
     <source_ocr_line_start>7815</source_ocr_line_start>
     <source_ocr_line_end>7830</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -50287,7 +50287,7 @@ verſchlingen zwar in der Aus⸗
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -50417,14 +50417,14 @@ Alicante, f. in dem deutſch⸗ ta⸗
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01651" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01651" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Amela</headword_raw>
     <headword_ocr_raw>Amela</headword_ocr_raw>
     <headword_search>amela</headword_search>
     <definition_raw>Man fol o oder muß ſu⸗ chen. Mela ein Huͤlfswort wirkender Bedeutung, einem audern mit Verwerfung deſ⸗ ſen letzter Sylbe angehängt, bedeutet, daß man dieſes thun ſolle, was das Zeitwort aus⸗ druͤckt, f. muͤſſen. A1 verlieren.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Amela begins in the right column of printed p. 353; OCR/page interpolation had shifted it to p. 354. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=353.</editorial_note>
     <article_ocr_raw>Amela, Man fol o oder muß ſu⸗ 
 chen. Mela ein Huͤlfswort 
 wirkender Bedeutung, einem 
@@ -50435,8 +50435,8 @@ bedeutet, daß man dieſes thun
 druͤckt, f. muͤſſen. 
 
 A1 verlieren.</article_ocr_raw>
-    <printed_page>354</printed_page>
-    <pdf_page>64</pdf_page>
+    <printed_page>353</printed_page>
+    <pdf_page>63</pdf_page>
     <source_ocr_line_start>7849</source_ocr_line_start>
     <source_ocr_line_end>7859</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -50444,7 +50444,7 @@ A1 verlieren.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -50454,17 +50454,17 @@ A1 verlieren.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01652" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01652" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Amoba</headword_raw>
     <headword_ocr_raw>Amoba</headword_ocr_raw>
     <headword_search>amoba</headword_search>
     <definition_raw>M ehr. Dorüber,</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Amoba begins in the right column of printed p. 353; exact page established from facsimile. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=353.</editorial_note>
     <article_ocr_raw>"Amoba, M ehr. Dorüber,</article_ocr_raw>
-    <printed_page>354</printed_page>
-    <pdf_page>64</pdf_page>
+    <printed_page>353</printed_page>
+    <pdf_page>63</pdf_page>
     <source_ocr_line_start>7860</source_ocr_line_start>
     <source_ocr_line_end>7861</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -50472,7 +50472,7 @@ A1 verlieren.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -50541,14 +50541,14 @@ A1 verlieren.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01653" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01653" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Bala</headword_raw>
     <headword_ocr_raw>Bala</headword_ocr_raw>
     <headword_search>bala</headword_search>
     <definition_raw>354</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=354.</editorial_note>
     <article_ocr_raw>Bala, 
 
 
@@ -50562,7 +50562,7 @@ A1 verlieren.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -50572,14 +50572,14 @@ A1 verlieren.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01654" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01654" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Apatſche</headword_raw>
     <headword_ocr_raw>Apatſche</headword_ocr_raw>
     <headword_search>apatsche</headword_search>
     <definition_raw>ſ. Apatſchen.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=354.</editorial_note>
     <article_ocr_raw>Apatſche, ſ. Apatſchen.</article_ocr_raw>
     <printed_page>354</printed_page>
     <pdf_page>64</pdf_page>
@@ -50590,7 +50590,7 @@ A1 verlieren.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -50600,14 +50600,14 @@ A1 verlieren.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01655" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01655" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Ari</headword_raw>
     <headword_ocr_raw>Ari</headword_ocr_raw>
     <headword_search>ari</headword_search>
     <definition_raw>ein Anruf, mit welchem man die belaſteten Maulthie⸗ re antreibt.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=354.</editorial_note>
     <article_ocr_raw>Ari, ein Anruf, mit welchem 
 man die belaſteten Maulthie⸗ 
 re antreibt.</article_ocr_raw>
@@ -50620,7 +50620,7 @@ re antreibt.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -50630,14 +50630,14 @@ re antreibt.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01656" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01656" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Arjero</headword_raw>
+    <headword_raw>Ariero</headword_raw>
     <headword_ocr_raw>Arjero</headword_ocr_raw>
-    <headword_search>arjero</headword_search>
+    <headword_search>ariero</headword_search>
     <definition_raw>Eſeltreiber. Iſt ein ſpaniſches Wort. N</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads the Spanish loanword “Ariero”; OCR misread the i. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=354.</editorial_note>
     <article_ocr_raw>Arjero, Eſeltreiber. Iſt ein 
 ſpaniſches Wort. N</article_ocr_raw>
     <printed_page>354</printed_page>
@@ -50649,7 +50649,7 @@ re antreibt.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -50839,14 +50839,14 @@ pfen. \</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01660" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01660" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Bacagudca</headword_raw>
+    <headword_raw>Bacaguáca</headword_raw>
     <headword_ocr_raw>Bacagudca</headword_ocr_raw>
-    <headword_search>bacagudca</headword_search>
+    <headword_search>bacaguaca</headword_search>
     <definition_raw>Blatt,</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile clearly preserves the accented form “Bacaguáca.” RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=354.</editorial_note>
     <article_ocr_raw>Bacagudca, Blatt,</article_ocr_raw>
     <printed_page>354</printed_page>
     <pdf_page>64</pdf_page>
@@ -50857,7 +50857,7 @@ pfen. \</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -50896,14 +50896,14 @@ art, ſ. Schlange.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01662" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01662" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Bahumali</headword_raw>
     <headword_ocr_raw>Bahumali</headword_ocr_raw>
     <headword_search>bahumali</headword_search>
     <definition_raw>Eine andere Schlan, genart.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=354.</editorial_note>
     <article_ocr_raw>Bahumali, Eine andere Schlan, 
 genart.</article_ocr_raw>
     <printed_page>354</printed_page>
@@ -50915,7 +50915,7 @@ genart.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -50925,14 +50925,14 @@ genart.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01663" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01663" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Baica</headword_raw>
     <headword_ocr_raw>Baica</headword_ocr_raw>
     <headword_search>baica</headword_search>
     <definition_raw>Dr.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=354.</editorial_note>
     <article_ocr_raw>Baica, Dr.</article_ocr_raw>
     <printed_page>354</printed_page>
     <pdf_page>64</pdf_page>
@@ -50943,7 +50943,7 @@ genart.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -50981,14 +50981,14 @@ genart.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01664" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01664" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Boicarügameke</headword_raw>
+    <headword_raw>Baicarúgameke</headword_raw>
     <headword_ocr_raw>Boicarügameke</headword_ocr_raw>
-    <headword_search>boicaruegameke</headword_search>
+    <headword_search>baicarugameke</headword_search>
     <definition_raw>dreyfach.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile clearly reads “Baicarúgameke, dreyfach.” RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=354.</editorial_note>
     <article_ocr_raw>Boicarügameke, dreyfach.</article_ocr_raw>
     <printed_page>354</printed_page>
     <pdf_page>64</pdf_page>
@@ -50999,7 +50999,7 @@ genart.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -51009,14 +51009,14 @@ genart.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01665" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01665" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Bsje</headword_raw>
+    <headword_raw>Bajé</headword_raw>
     <headword_ocr_raw>Bsje</headword_ocr_raw>
-    <headword_search>bsje</headword_search>
+    <headword_search>baje</headword_search>
     <definition_raw>Nufen. *</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. OCR badly damaged the short headword; facsimile reads “Bajé, Rufen.” RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=354.</editorial_note>
     <article_ocr_raw>Bsje, Nufen. *</article_ocr_raw>
     <printed_page>354</printed_page>
     <pdf_page>64</pdf_page>
@@ -51027,7 +51027,7 @@ genart.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -51037,14 +51037,14 @@ genart.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01666" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01666" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Baiesmeke</headword_raw>
+    <headword_raw>Bajéameke</headword_raw>
     <headword_ocr_raw>Baiesmeke</headword_ocr_raw>
-    <headword_search>baiesmeke</headword_search>
+    <headword_search>bajeameke</headword_search>
     <definition_raw>der Rufende.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Bajéameke, der Rufende.” RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=354.</editorial_note>
     <article_ocr_raw>Baiesmeke, der Rufende.</article_ocr_raw>
     <printed_page>354</printed_page>
     <pdf_page>64</pdf_page>
@@ -51055,7 +51055,7 @@ genart.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -51065,14 +51065,14 @@ genart.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01667" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01667" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Bajeınels</headword_raw>
+    <headword_raw>Bajémela</headword_raw>
     <headword_ocr_raw>Bajeınels</headword_ocr_raw>
-    <headword_search>baje nels</headword_search>
+    <headword_search>bajemela</headword_search>
     <definition_raw>Rufen tollen, oder. muͤſſen, ſ. Amela.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Bajémela, Rufen ſollen, oder müſſen.” RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=354.</editorial_note>
     <article_ocr_raw>Bajeınels, Rufen tollen, oder. 
 
 
@@ -51086,7 +51086,7 @@ muͤſſen, ſ. Amela.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -51194,14 +51194,14 @@ Tarahumariſch-Deutſches</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01671" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01671" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Baffaräboa</headword_raw>
+    <headword_raw>Baſſaráboa</headword_raw>
     <headword_ocr_raw>Baffaräboa</headword_ocr_raw>
-    <headword_search>baffaraeboa</headword_search>
+    <headword_search>bassaraboa</headword_search>
     <definition_raw>es muß geackert werden. Boa iſt das Huͤlfs⸗ wort der leidenden Bedeu⸗ tung, wie mela müffın, ſollen der „ ft, ſ. müſſen.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Baſſaráboa”; OCR substantially distorted the long-s/letter sequence. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=354.</editorial_note>
     <article_ocr_raw>Baffaräboa, es muß geackert 
 werden. Boa iſt das Huͤlfs⸗ 
 wort der leidenden Bedeu⸗ 
@@ -51216,7 +51216,7 @@ der „ ft, ſ. müſſen.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -51226,14 +51226,14 @@ der „ ft, ſ. müſſen.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01672" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01672" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Bafloräicke</headword_raw>
+    <headword_raw>Baſſaráleke</headword_raw>
     <headword_ocr_raw>Bafloräicke</headword_ocr_raw>
-    <headword_search>bafloraeicke</headword_search>
+    <headword_search>bassaraleke</headword_search>
     <definition_raw>Pfiug, f Plug.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Baſſaráleke, Pflug, ſ. Pflug.” RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=354.</editorial_note>
     <article_ocr_raw>Bafloräicke, Pfiug, f Plug.</article_ocr_raw>
     <printed_page>354</printed_page>
     <pdf_page>64</pdf_page>
@@ -51244,7 +51244,7 @@ der „ ft, ſ. müſſen.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -51651,14 +51651,14 @@ bedeutet. 5 Bechte, Wohnen. *</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01686" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01686" direction="RAR-DE" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Wire</headword_raw>
     <headword_ocr_raw>Wire</headword_ocr_raw>
     <headword_search>wire</headword_search>
     <definition_raw />
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. The isolated OCR candidate “Wire” has no corresponding independent headword in the p. 355 facsimile and arises from corrupted mixed-column OCR. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Wire,</article_ocr_raw>
     <printed_page>355</printed_page>
     <pdf_page>65</pdf_page>
@@ -51669,7 +51669,7 @@ bedeutet. 5 Bechte, Wohnen. *</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -51679,14 +51679,14 @@ bedeutet. 5 Bechte, Wohnen. *</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01687" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01687" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Boa</headword_raw>
     <headword_ocr_raw>Boa</headword_ocr_raw>
     <headword_search>boa</headword_search>
     <definition_raw>ſ. baffarähoa,</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Boa, ſ. baffarähoa,</article_ocr_raw>
     <printed_page>355</printed_page>
     <pdf_page>65</pdf_page>
@@ -51697,7 +51697,7 @@ bedeutet. 5 Bechte, Wohnen. *</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -51967,14 +51967,14 @@ trick.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01697" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01697" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Bula</headword_raw>
     <headword_ocr_raw>Bula</headword_ocr_raw>
     <headword_search>bula</headword_search>
     <definition_raw>Binden. |</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Bula, Binden. |</article_ocr_raw>
     <printed_page>355</printed_page>
     <pdf_page>65</pdf_page>
@@ -51985,7 +51985,7 @@ trick.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -51995,14 +51995,14 @@ trick.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01698" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01698" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Büliruc</headword_raw>
     <headword_ocr_raw>Büliruc</headword_ocr_raw>
     <headword_search>bueliruc</headword_search>
     <definition_raw>es iſt gebunden.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Büliruc, es iſt gebunden.</article_ocr_raw>
     <printed_page>355</printed_page>
     <pdf_page>65</pdf_page>
@@ -52013,7 +52013,7 @@ trick.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -52079,14 +52079,14 @@ trick.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01701" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01701" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Bae</headword_raw>
+    <headword_raw>Bálla</headword_raw>
     <headword_ocr_raw>Bae</headword_ocr_raw>
-    <headword_search>bae</headword_search>
+    <headword_search>balla</headword_search>
     <definition_raw>vom m Scl wecken. .</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Bálla, vom Schlafe wecken”; OCR reduced the headword to “Bae”. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Bae, vom m Scl wecken. 
 
 
@@ -52100,7 +52100,7 @@ trick.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -52500,14 +52500,14 @@ N x
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01715" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01715" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cocoruje</headword_raw>
     <headword_ocr_raw>Cocoruje</headword_ocr_raw>
     <headword_search>cocoruje</headword_search>
     <definition_raw>,</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>' Cocoruje,,</article_ocr_raw>
     <printed_page>355</printed_page>
     <pdf_page>65</pdf_page>
@@ -52518,7 +52518,7 @@ N x
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -52528,14 +52528,14 @@ N x
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01716" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01716" direction="RAR-DE" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Scherben</headword_raw>
     <headword_ocr_raw>Scherben</headword_ocr_raw>
     <headword_search>scherben</headword_search>
     <definition_raw>zerbro⸗ 355 Catl6. ognater⸗</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Scherben” is the German gloss within Caſſiniki (“Scherben, zerbrochenes Geſchirr”), not an independent Rarámuri headword. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Scherben, zerbro⸗ 
 
 
@@ -52553,7 +52553,7 @@ ognater⸗</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -52619,14 +52619,14 @@ ognater⸗</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01719" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01719" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cauguila</headword_raw>
     <headword_ocr_raw>Cauguila</headword_ocr_raw>
     <headword_search>cauguila</headword_search>
     <definition_raw>Wuͤſte Eindde.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Cauguila, Wuͤſte Eindde.</article_ocr_raw>
     <printed_page>355</printed_page>
     <pdf_page>65</pdf_page>
@@ -52637,7 +52637,7 @@ ognater⸗</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -52647,14 +52647,14 @@ ognater⸗</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01720" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01720" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cavölameke</headword_raw>
     <headword_ocr_raw>Cavölameke</headword_ocr_raw>
     <headword_search>cavoelameke</headword_search>
     <definition_raw>oder cavorameke,</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Cavölameke, oder cavorameke,</article_ocr_raw>
     <printed_page>355</printed_page>
     <pdf_page>65</pdf_page>
@@ -52665,7 +52665,7 @@ ognater⸗</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -52703,14 +52703,14 @@ ognater⸗</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01722" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01722" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cavoli</headword_raw>
     <headword_ocr_raw>Cavoli</headword_ocr_raw>
     <headword_search>cavoli</headword_search>
     <definition_raw>Kugel,</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Cavoli, Kugel,</article_ocr_raw>
     <printed_page>355</printed_page>
     <pdf_page>65</pdf_page>
@@ -52721,7 +52721,7 @@ ognater⸗</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -52764,14 +52764,14 @@ doch. Jolago; mache doch.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01724" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01724" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Hipeèco</headword_raw>
     <headword_ocr_raw>Hipeèco</headword_ocr_raw>
     <headword_search>hipeeco</headword_search>
     <definition_raw>itzt gleich.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Hipeèco, itzt gleich.</article_ocr_raw>
     <printed_page>355</printed_page>
     <pdf_page>65</pdf_page>
@@ -52782,7 +52782,7 @@ doch. Jolago; mache doch.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -52792,14 +52792,14 @@ doch. Jolago; mache doch.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01725" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01725" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cocolä</headword_raw>
     <headword_ocr_raw>Cocolä</headword_ocr_raw>
     <headword_search>cocolae</headword_search>
     <definition_raw>Rranf ſeyn.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Cocolä, Rranf ſeyn.</article_ocr_raw>
     <printed_page>355</printed_page>
     <pdf_page>65</pdf_page>
@@ -52810,7 +52810,7 @@ doch. Jolago; mache doch.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -52820,14 +52820,14 @@ doch. Jolago; mache doch.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01726" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01726" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cocoli</headword_raw>
     <headword_ocr_raw>Cocoli</headword_ocr_raw>
     <headword_search>cocoli</headword_search>
     <definition_raw>tuͤrkiſcher Pfeffer, 4</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Cocoli, tuͤrkiſcher Pfeffer, 4</article_ocr_raw>
     <printed_page>355</printed_page>
     <pdf_page>65</pdf_page>
@@ -52838,7 +52838,7 @@ doch. Jolago; mache doch.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -52933,14 +52933,14 @@ bel zufügen. i</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01730" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01730" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cojahéta</headword_raw>
     <headword_ocr_raw>Cojahéta</headword_ocr_raw>
     <headword_search>cojaheta</headword_search>
     <definition_raw>Eine Wurzel, die fchön gelb färbt,</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Cojahéta, Eine Wurzel, die 
 fchön gelb färbt,</article_ocr_raw>
     <printed_page>355</printed_page>
@@ -52952,7 +52952,7 @@ fchön gelb färbt,</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -52962,17 +52962,17 @@ fchön gelb färbt,</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01731" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01731" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Cojatfchi</headword_raw>
+    <headword_raw>Cojatſchi</headword_raw>
     <headword_ocr_raw>Cojatfchi</headword_ocr_raw>
-    <headword_search>cojatfchi</headword_search>
+    <headword_search>cojatschi</headword_search>
     <definition_raw>Hut.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Cojatſchi, Hut”; OCR misread the historical long-s/ch sequence. Cojatſchi and the following C-series entries through Cotſchimeameke occur in the right column of printed p. 355, despite OCR page drift. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Cojatfchi, Hut.</article_ocr_raw>
-    <printed_page>356</printed_page>
-    <pdf_page>66</pdf_page>
+    <printed_page>355</printed_page>
+    <pdf_page>65</pdf_page>
     <source_ocr_line_start>8140</source_ocr_line_start>
     <source_ocr_line_end>8141</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -52980,7 +52980,7 @@ fchön gelb färbt,</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -52990,17 +52990,17 @@ fchön gelb färbt,</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01732" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01732" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Coigua</headword_raw>
     <headword_ocr_raw>Coigua</headword_ocr_raw>
     <headword_search>coigua</headword_search>
     <definition_raw>Wuͤrzen⸗</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Coigua, Wuͤrzen⸗</article_ocr_raw>
-    <printed_page>356</printed_page>
-    <pdf_page>66</pdf_page>
+    <printed_page>355</printed_page>
+    <pdf_page>65</pdf_page>
     <source_ocr_line_start>8142</source_ocr_line_start>
     <source_ocr_line_end>8143</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -53008,7 +53008,7 @@ fchön gelb färbt,</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53018,17 +53018,17 @@ fchön gelb färbt,</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01733" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01733" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Coiguala</headword_raw>
     <headword_ocr_raw>Coiguala</headword_ocr_raw>
     <headword_search>coiguala</headword_search>
     <definition_raw>gute ſchmackhafte</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Coiguala, gute ſchmackhafte</article_ocr_raw>
-    <printed_page>356</printed_page>
-    <pdf_page>66</pdf_page>
+    <printed_page>355</printed_page>
+    <pdf_page>65</pdf_page>
     <source_ocr_line_start>8144</source_ocr_line_start>
     <source_ocr_line_end>8144</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -53036,7 +53036,7 @@ fchön gelb färbt,</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53074,18 +53074,18 @@ fchön gelb färbt,</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01735" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01735" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Colaguitaje</headword_raw>
     <headword_ocr_raw>Colaguitaje</headword_ocr_raw>
     <headword_search>colaguitaje</headword_search>
     <definition_raw>Daher, deswegen, damit darum, f. damit.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Colaguitaje, Daher, deswegen, 
 damit darum, f. damit.</article_ocr_raw>
-    <printed_page>356</printed_page>
-    <pdf_page>66</pdf_page>
+    <printed_page>355</printed_page>
+    <pdf_page>65</pdf_page>
     <source_ocr_line_start>8147</source_ocr_line_start>
     <source_ocr_line_end>8150</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -53093,7 +53093,7 @@ damit darum, f. damit.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53103,17 +53103,17 @@ damit darum, f. damit.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01736" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01736" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Colätichi</headword_raw>
+    <headword_raw>Colatſchi</headword_raw>
     <headword_ocr_raw>Colätichi</headword_ocr_raw>
-    <headword_search>colaetichi</headword_search>
+    <headword_search>colatschi</headword_search>
     <definition_raw>der Rabe.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Colatſchi, der Rabe”; OCR distorted the medial consonants. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Colätichi, der Rabe.</article_ocr_raw>
-    <printed_page>356</printed_page>
-    <pdf_page>66</pdf_page>
+    <printed_page>355</printed_page>
+    <pdf_page>65</pdf_page>
     <source_ocr_line_start>8151</source_ocr_line_start>
     <source_ocr_line_end>8151</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -53121,7 +53121,7 @@ damit darum, f. damit.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53360,17 +53360,17 @@ Schon i</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01745" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01745" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Cotlchiki</headword_raw>
+    <headword_raw>Cotſchiki</headword_raw>
     <headword_ocr_raw>Cotlchiki</headword_ocr_raw>
-    <headword_search>cotlchiki</headword_search>
+    <headword_search>cotschiki</headword_search>
     <definition_raw>Schlaf.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Cotſchiki, Schlaf.” RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Cotlchiki, Schlaf.</article_ocr_raw>
-    <printed_page>356</printed_page>
-    <pdf_page>66</pdf_page>
+    <printed_page>355</printed_page>
+    <pdf_page>65</pdf_page>
     <source_ocr_line_start>8167</source_ocr_line_start>
     <source_ocr_line_end>8167</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -53378,7 +53378,7 @@ Schon i</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53416,14 +53416,14 @@ Schon i</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01747" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01747" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Cotiehimeameke</headword_raw>
+    <headword_raw>Cotſchimeameke</headword_raw>
     <headword_ocr_raw>Cotiehimeameke</headword_ocr_raw>
-    <headword_search>cotiehimeameke</headword_search>
+    <headword_search>cotschimeameke</headword_search>
     <definition_raw>Ein Schla⸗ e 1 1% 38 2 Cova 356</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Cotſchimeameke, Ein Schlafender”; OCR corrupted several letters. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=355.</editorial_note>
     <article_ocr_raw>Cotiehimeameke, Ein Schla⸗ 
 
 
@@ -53434,8 +53434,8 @@ e 1 1%
 
 
 356</article_ocr_raw>
-    <printed_page>356</printed_page>
-    <pdf_page>66</pdf_page>
+    <printed_page>355</printed_page>
+    <pdf_page>65</pdf_page>
     <source_ocr_line_start>8171</source_ocr_line_start>
     <source_ocr_line_end>8182</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -53443,7 +53443,7 @@ e 1 1%
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53453,14 +53453,14 @@ e 1 1%
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01748" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01748" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cavara</headword_raw>
     <headword_ocr_raw>Cavara</headword_ocr_raw>
     <headword_search>cavara</headword_search>
     <definition_raw>Stirne.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cavara, Stirne.</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -53471,7 +53471,7 @@ e 1 1%
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53481,14 +53481,14 @@ e 1 1%
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01749" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01749" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Cucutlebigus</headword_raw>
+    <headword_raw>Cucútſchigua</headword_raw>
     <headword_ocr_raw>Cucutlebigus</headword_ocr_raw>
-    <headword_search>cucutlebigus</headword_search>
+    <headword_search>cucutschigua</headword_search>
     <definition_raw>Kinder, es md gen Soͤhne oder Töchter feyn.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Cucútſchigua, Kinder”; OCR badly distorted the headword. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cucutlebigus, Kinder, es md 
 gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <printed_page>356</printed_page>
@@ -53500,7 +53500,7 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53510,14 +53510,14 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01750" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01750" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cugue</headword_raw>
     <headword_ocr_raw>Cugue</headword_ocr_raw>
     <headword_search>cugue</headword_search>
     <definition_raw>Epät, Nacht.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cugue, Epät, Nacht.</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -53528,7 +53528,7 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53538,14 +53538,14 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01751" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01751" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Cug i</headword_raw>
+    <headword_raw>Cuguí</headword_raw>
     <headword_ocr_raw>Cug i</headword_ocr_raw>
-    <headword_search>cug i</headword_search>
+    <headword_search>cugui</headword_search>
     <definition_raw>Helfen.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Cuguí, Helfen”; OCR separated/garbled the final vowel. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cug i, Helfen.</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -53556,7 +53556,7 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53566,14 +53566,14 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01752" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01752" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cuguſemeke</headword_raw>
     <headword_ocr_raw>Cuguſemeke</headword_ocr_raw>
     <headword_search>cugusemeke</headword_search>
     <definition_raw>Helfer.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cuguſemeke, Helfer.</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -53584,7 +53584,7 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53594,14 +53594,14 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01753" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01753" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cuguila</headword_raw>
     <headword_ocr_raw>Cuguila</headword_ocr_raw>
     <headword_search>cuguila</headword_search>
     <definition_raw>Hülfe, ſ. Gruͤßen.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cuguila, Hülfe, ſ. Gruͤßen.</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -53612,7 +53612,7 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53622,14 +53622,14 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01754" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01754" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Culüsmeh e</headword_raw>
+    <headword_raw>Culúameke</headword_raw>
     <headword_ocr_raw>Culüsmeh e</headword_ocr_raw>
-    <headword_search>culuesmeh e</headword_search>
+    <headword_search>culuameke</headword_search>
     <definition_raw>dick, fett, leibig,</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Culúameke, dick, fett, leibig, Schmeerbauch”; OCR heavily corrupted the form. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Culüsmeh e, dick, fett, leibig,</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -53640,7 +53640,7 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53678,14 +53678,14 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01756" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01756" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cuna</headword_raw>
     <headword_ocr_raw>Cuna</headword_ocr_raw>
     <headword_search>cuna</headword_search>
     <definition_raw>Ehemann.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cuna , Ehemann.</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -53696,7 +53696,7 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53706,14 +53706,14 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01757" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01757" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Funds amelie</headword_raw>
+    <headword_raw>Cuneameke</headword_raw>
     <headword_ocr_raw>Funds amelie</headword_ocr_raw>
-    <headword_search>funds amelie</headword_search>
+    <headword_search>cuneameke</headword_search>
     <definition_raw>Verheurathete</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Cuneameke, Verheurathete Weibsperson”; OCR produced a non-word fragment. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Funds amelie, Verheurathete</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -53724,7 +53724,7 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53762,14 +53762,14 @@ gen Soͤhne oder Töchter feyn.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01759" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01759" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Culeameke</headword_raw>
     <headword_ocr_raw>Culeameke</headword_ocr_raw>
     <headword_search>culeameke</headword_search>
     <definition_raw>Ein Ort, oder Ge⸗ gend, wo es Holz oder Baͤu⸗ me giebt.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Culeameke, Ein Ort, oder Ge⸗ 
 gend, wo es Holz oder Baͤu⸗ 
 me giebt.</article_ocr_raw>
@@ -53782,7 +53782,7 @@ me giebt.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53792,14 +53792,14 @@ me giebt.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01760" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01760" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cusigueameke</headword_raw>
     <headword_ocr_raw>Cusigueameke</headword_ocr_raw>
     <headword_search>cusigueameke</headword_search>
     <definition_raw>Der einen Stab oder Stecken hat, f. Des frichter.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cusigueameke, Der einen 
 Stab oder Stecken hat, f. 
 Des frichter.</article_ocr_raw>
@@ -53812,7 +53812,7 @@ Des frichter.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53822,14 +53822,14 @@ Des frichter.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01761" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01761" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cusiki</headword_raw>
     <headword_ocr_raw>Cusiki</headword_ocr_raw>
     <headword_search>cusiki</headword_search>
     <definition_raw>Holz, Stab, Stecken,</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cusiki, Holz, Stab, Stecken,</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -53840,7 +53840,7 @@ Des frichter.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53878,14 +53878,14 @@ Des frichter.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01763" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01763" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cü</headword_raw>
     <headword_ocr_raw>Cü</headword_ocr_raw>
     <headword_search>cue</headword_search>
     <definition_raw>oder bẽch, Zuruͤck.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cü, oder bẽch, Zuruͤck.</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -53896,7 +53896,7 @@ Des frichter.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53906,14 +53906,14 @@ Des frichter.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01764" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01764" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cutsi</headword_raw>
     <headword_ocr_raw>Cutsi</headword_ocr_raw>
     <headword_search>cutsi</headword_search>
     <definition_raw>Kurz. b</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cutsi, Kurz. b</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -53924,7 +53924,7 @@ Des frichter.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53934,14 +53934,14 @@ Des frichter.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01765" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01765" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Cürfehigua</headword_raw>
+    <headword_raw>Cútſchigua</headword_raw>
     <headword_ocr_raw>Cürfehigua</headword_ocr_raw>
-    <headword_search>cuerfehigua</headword_search>
+    <headword_search>cutschigua</headword_search>
     <definition_raw>Kind.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Cútſchigua, Kind”; OCR corrupted the long-s/ch sequence. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cürfehigua, Kind.</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -53952,7 +53952,7 @@ Des frichter.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53962,14 +53962,14 @@ Des frichter.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01766" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01766" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Cutlchiki</headword_raw>
+    <headword_raw>Cutſchiki</headword_raw>
     <headword_ocr_raw>Cutlchiki</headword_ocr_raw>
-    <headword_search>cutlchiki</headword_search>
+    <headword_search>cutschiki</headword_search>
     <definition_raw>Baum. \</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Cutſchiki, Baum.” RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cutlchiki, Baum. \</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -53980,7 +53980,7 @@ Des frichter.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -53990,14 +53990,14 @@ Des frichter.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01767" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01767" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cuvala</headword_raw>
     <headword_ocr_raw>Cuvala</headword_ocr_raw>
     <headword_search>cuvala</headword_search>
     <definition_raw>Gipfel, Spitze.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cuvala, Gipfel, Spitze.</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -54008,7 +54008,7 @@ Des frichter.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -54018,14 +54018,14 @@ Des frichter.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01768" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01768" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cuvèſali</headword_raw>
     <headword_ocr_raw>Cuvèſali</headword_ocr_raw>
     <headword_search>cuvesali</headword_search>
     <definition_raw>Sommer.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cuvèſali, Sommer.</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -54036,7 +54036,7 @@ Des frichter.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -54046,14 +54046,14 @@ Des frichter.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01769" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01769" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cuviruſi</headword_raw>
     <headword_ocr_raw>Cuviruſi</headword_ocr_raw>
     <headword_search>cuvirusi</headword_search>
     <definition_raw>ſ. Gries- „% M Dieſer Buchſtabe iſt in keinem einzigen Tarabumariſchen</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Cuviruſi, ſ. Gries- 
 
 „% M 
@@ -54069,7 +54069,7 @@ einzigen Tarabumariſchen</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -54112,14 +54112,14 @@ E.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01771" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01771" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Echtfcha</headword_raw>
+    <headword_raw>Echtſchá</headword_raw>
     <headword_ocr_raw>Echtfcha</headword_ocr_raw>
-    <headword_search>echtfcha</headword_search>
+    <headword_search>echtscha</headword_search>
     <definition_raw>Saen.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Echtſchá, Säen”; historical long s and accent restored from the scan. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Echtfcha, Saen.</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -54130,7 +54130,7 @@ E.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -54284,14 +54284,14 @@ miſſen, ſ. amela. .</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01777" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01777" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Brlhocuafa</headword_raw>
+    <headword_raw>Etſchaguala</headword_raw>
     <headword_ocr_raw>Brlhocuafa</headword_ocr_raw>
-    <headword_search>brlhocuafa</headword_search>
+    <headword_search>etschaguala</headword_search>
     <definition_raw />
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Etſchaguala, Bart”; OCR rendered the headword almost unrecognizably. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>3 Brlhocuafa,</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -54302,7 +54302,7 @@ miſſen, ſ. amela. .</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -54340,14 +54340,14 @@ miſſen, ſ. amela. .</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01779" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01779" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Erle‘</headword_raw>
+    <headword_raw>Eſſe</headword_raw>
     <headword_ocr_raw>Erle‘</headword_ocr_raw>
-    <headword_search>erle</headword_search>
+    <headword_search>esse</headword_search>
     <definition_raw />
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Eſſe, Dieſer, dieſes”; OCR misread the short form as “Erle”. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>‚Erle‘,</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -54358,7 +54358,7 @@ miſſen, ſ. amela. .</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -54520,14 +54520,14 @@ um, ſ. damit.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01785" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01785" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Epüsje</headword_raw>
+    <headword_raw>Epúaje</headword_raw>
     <headword_ocr_raw>Epüsje</headword_ocr_raw>
-    <headword_search>epuesje</headword_search>
+    <headword_search>epuaje</headword_search>
     <definition_raw>oder epuje, alle chen Sail.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Epúaje, oder epúje, Aufmachen, Aufſperren”; OCR distorted the medial letters. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Epüsje, oder epuje, alle 
 
 
@@ -54541,7 +54541,7 @@ chen Sail.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -54607,14 +54607,14 @@ chen Sail.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01788" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01788" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Erü</headword_raw>
+    <headword_raw>Erú</headword_raw>
     <headword_ocr_raw>Erü</headword_ocr_raw>
-    <headword_search>erue</headword_search>
+    <headword_search>eru</headword_search>
     <definition_raw>Ja,</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Erú, Ja, ſ. Ja.” RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Erü, Ja,</article_ocr_raw>
     <printed_page>356</printed_page>
     <pdf_page>66</pdf_page>
@@ -54625,7 +54625,7 @@ chen Sail.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -54992,20 +54992,20 @@ ev bvicht befler ſeyn kann.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01801" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01801" direction="RAR-DE" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Gang</headword_raw>
     <headword_ocr_raw>Gang</headword_ocr_raw>
     <headword_search>gang</headword_search>
     <definition_raw>Woͤrterbuch.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. The OCR candidate is the catchword for Gané at the foot of printed p. 356; the actual article begins on p. 357. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=356.</editorial_note>
     <article_ocr_raw>Gang, 
 
 
 Woͤrterbuch.</article_ocr_raw>
-    <printed_page>357</printed_page>
-    <pdf_page>67</pdf_page>
+    <printed_page>356</printed_page>
+    <pdf_page>66</pdf_page>
     <source_ocr_line_start>8323</source_ocr_line_start>
     <source_ocr_line_end>8328</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -55013,7 +55013,7 @@ Woͤrterbuch.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -55023,14 +55023,14 @@ Woͤrterbuch.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01802" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01802" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Cane</headword_raw>
+    <headword_raw>Gané</headword_raw>
     <headword_ocr_raw>Cane</headword_ocr_raw>
-    <headword_search>cane</headword_search>
+    <headword_search>gane</headword_search>
     <definition_raw>Recht gut.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Gané, Recht gut”; the preceding OCR candidate is only the p. 356 catchword. Gané is the first actual G-entry on printed p. 357 after a catchword at the foot of p. 356. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Cane, Recht gut.</article_ocr_raw>
     <printed_page>357</printed_page>
     <pdf_page>67</pdf_page>
@@ -55041,7 +55041,7 @@ Woͤrterbuch.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -55051,14 +55051,14 @@ Woͤrterbuch.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01803" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01803" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Ganeba</headword_raw>
     <headword_ocr_raw>Ganeba</headword_ocr_raw>
     <headword_search>ganeba</headword_search>
     <definition_raw>Es iſt ſchon gut.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Ganeba, Es iſt ſchon gut.</article_ocr_raw>
     <printed_page>357</printed_page>
     <pdf_page>67</pdf_page>
@@ -55069,7 +55069,7 @@ Woͤrterbuch.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -55079,14 +55079,14 @@ Woͤrterbuch.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01804" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01804" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Ganeliameke</headword_raw>
     <headword_ocr_raw>Ganeliameke</headword_ocr_raw>
     <headword_search>ganeliameke</headword_search>
     <definition_raw>Der geſund iſt, dem es gut gent.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Ganeliameke, Der geſund iſt, 
 dem es gut gent.</article_ocr_raw>
     <printed_page>357</printed_page>
@@ -55098,7 +55098,7 @@ dem es gut gent.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -55108,14 +55108,14 @@ dem es gut gent.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01805" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01805" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Ganileliki</headword_raw>
     <headword_ocr_raw>Ganileliki</headword_ocr_raw>
     <headword_search>ganileliki</headword_search>
     <definition_raw>Glückſeligkeit.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Ganileliki, Glückſeligkeit.</article_ocr_raw>
     <printed_page>357</printed_page>
     <pdf_page>67</pdf_page>
@@ -55126,7 +55126,7 @@ dem es gut gent.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -55136,14 +55136,14 @@ dem es gut gent.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01806" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01806" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Ganileruje</headword_raw>
     <headword_ocr_raw>Ganileruje</headword_ocr_raw>
     <headword_search>ganileruje</headword_search>
     <definition_raw>Gluckſelig machen.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Ganileruje, Gluckſelig machen.</article_ocr_raw>
     <printed_page>357</printed_page>
     <pdf_page>67</pdf_page>
@@ -55154,7 +55154,7 @@ dem es gut gent.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -55164,14 +55164,14 @@ dem es gut gent.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01807" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01807" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Ganilile</headword_raw>
     <headword_ocr_raw>Ganilile</headword_ocr_raw>
     <headword_search>ganilile</headword_search>
     <definition_raw>Geſund, wohlauf ſeyn.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Ganilile, Geſund, wohlauf ſeyn.</article_ocr_raw>
     <printed_page>357</printed_page>
     <pdf_page>67</pdf_page>
@@ -55182,7 +55182,7 @@ dem es gut gent.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -55192,14 +55192,14 @@ dem es gut gent.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01808" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01808" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Caſſinf</headword_raw>
+    <headword_raw>Gaſſini</headword_raw>
     <headword_ocr_raw>Caſſinf</headword_ocr_raw>
-    <headword_search>cassinf</headword_search>
+    <headword_search>gassini</headword_search>
     <definition_raw>oder re, Zer⸗ brechen.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Gaſſini, oder Gaſſinale, Zerbrechen”; OCR corrupted the final letters. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Caſſinf, oder re, Zer⸗ 
 brechen.</article_ocr_raw>
     <printed_page>357</printed_page>
@@ -55211,7 +55211,7 @@ brechen.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -55249,14 +55249,14 @@ brechen.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01810" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01810" direction="RAR-DE" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>N Zerbrochenes</headword_raw>
     <headword_ocr_raw>N Zerbrochenes</headword_ocr_raw>
     <headword_search>n zerbrochenes</headword_search>
     <definition_raw>cherben.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Zerbrochenes” is part of the German gloss of Gaſſirúgameke and not an independent Rarámuri article. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>N Zerbrochenes, 
 
 cherben.</article_ocr_raw>
@@ -55269,7 +55269,7 @@ cherben.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -55279,14 +55279,14 @@ cherben.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01811" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01811" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Gef</headword_raw>
+    <headword_raw>Gaſſó</headword_raw>
     <headword_ocr_raw>Gef</headword_ocr_raw>
-    <headword_search>gef</headword_search>
+    <headword_search>gasso</headword_search>
     <definition_raw>Brennſchwamm. {</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Gaſſó, Brennſchwamm”; OCR reduced the headword to “Gef”. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Gef, Brennſchwamm. {</article_ocr_raw>
     <printed_page>357</printed_page>
     <pdf_page>67</pdf_page>
@@ -55297,7 +55297,7 @@ cherben.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -55307,14 +55307,14 @@ cherben.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01812" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01812" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Gatiki</headword_raw>
     <headword_ocr_raw>Gatiki</headword_ocr_raw>
     <headword_search>gatiki</headword_search>
     <definition_raw>oder gatiki, Wohnen, ſich wo befinden, ſeyn, ſ.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Gatiki, oder gatiki, Wohnen, 
 ſich wo befinden, ſeyn, ſ.</article_ocr_raw>
     <printed_page>357</printed_page>
@@ -55326,7 +55326,7 @@ cherben.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -55368,14 +55368,14 @@ druck giebt, ſ. co.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01814" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01814" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Gua</headword_raw>
     <headword_ocr_raw>Gua</headword_ocr_raw>
     <headword_search>gua</headword_search>
     <definition_raw>Schilf, Rohr.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Gua, Schilf, Rohr.</article_ocr_raw>
     <printed_page>357</printed_page>
     <pdf_page>67</pdf_page>
@@ -55386,7 +55386,7 @@ druck giebt, ſ. co.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -55648,14 +55648,14 @@ druck giebt, ſ. co.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01824" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01824" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Gualineke</headword_raw>
     <headword_ocr_raw>Gualineke</headword_ocr_raw>
     <headword_search>gualineke</headword_search>
     <definition_raw>Hurtig, ſchneller Laufer</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Gualineke, Hurtig, ſchneller 
 Laufer</article_ocr_raw>
     <printed_page>357</printed_page>
@@ -55667,7 +55667,7 @@ Laufer</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -55992,14 +55992,14 @@ geiſſelt.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01836" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01836" direction="RAR-DE" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Gepeitſcht</headword_raw>
     <headword_ocr_raw>Gepeitſcht</headword_ocr_raw>
     <headword_search>gepeitscht</headword_search>
     <definition_raw>ge⸗ 357</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. “Gepeitſcht” is the German gloss belonging to Guéchpiruc at the foot of p. 357, not an independent Rarámuri headword. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Gepeitſcht, ge⸗ 
 
 
@@ -56013,7 +56013,7 @@ geiſſelt.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -56023,14 +56023,14 @@ geiſſelt.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01837" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01837" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Guechpiſòco</headword_raw>
+    <headword_raw>Guechpicóco</headword_raw>
     <headword_ocr_raw>Guechpiſòco</headword_ocr_raw>
-    <headword_search>guechpisoco</headword_search>
+    <headword_search>guechpicoco</headword_search>
     <definition_raw>Peitſchen, geiffeln.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Guechpicóco, Peitſchen, geißeln”; OCR distorted several consonants. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Guechpiſòco, Peitſchen, geiffeln.</article_ocr_raw>
     <printed_page>357</printed_page>
     <pdf_page>67</pdf_page>
@@ -56041,7 +56041,7 @@ geiſſelt.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -56222,14 +56222,14 @@ ve</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01844" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01844" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Gueld</headword_raw>
+    <headword_raw>Guelé</headword_raw>
     <headword_ocr_raw>Gueld</headword_ocr_raw>
-    <headword_search>gueld</headword_search>
+    <headword_search>guele</headword_search>
     <definition_raw>Dick fett. ga</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. Facsimile reads “Guelé, Dick, fett”; OCR misread the final accented vowel. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Gueld, Dick fett. ga</article_ocr_raw>
     <printed_page>357</printed_page>
     <pdf_page>67</pdf_page>
@@ -56240,7 +56240,7 @@ ve</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
@@ -56306,14 +56306,14 @@ ve</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01847" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-01847" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Guelube</headword_raw>
     <headword_ocr_raw>Guelube</headword_ocr_raw>
     <headword_search>guelube</headword_search>
     <definition_raw>‚Größer, länger.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-003: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=357.</editorial_note>
     <article_ocr_raw>Guelube, ‚Größer, länger.</article_ocr_raw>
     <printed_page>357</printed_page>
     <pdf_page>67</pdf_page>
@@ -56324,7 +56324,7 @@ ve</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
+    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
     <facsimile_column />
     <headword_diplomatic />
     <article_diplomatic />
