@@ -1,0 +1,31 @@
+{
+  "batch_id": "RHD-DIP-003C",
+  "title": "Third diplomatic article-text batch derived from RHD-FR-003",
+  "review_date": "2026-08-11",
+  "transcription_scope": "complete article text for 18 clearly bounded accepted RHD-FR-003 entries on printed page 355; source spelling and punctuation retained; typographic line wrapping not encoded",
+  "review_method": "visual_facsimile_transcription_ai_assisted",
+  "review_agent": "OpenAI ChatGPT GPT-5.6 Sol",
+  "human_verified": false,
+  "provenance_note": "AI-assisted visual transcription from printed page 355 of the supplied Steffel facsimile, in the Rarámuri→German dictionary. The facsimile is authoritative and OCR is used only as a secondary reading aid. Candidates whose status remains structurally questionable are not promoted merely to increase coverage.",
+  "records": [
+    {"record_id":"RHD-S1809-01687","printed_page":355,"pdf_page":65,"column":"left","headword_diplomatic":"Bóa","article_diplomatic":"Bóa, ſ. baſſaráboa.","transcription_status":"complete_ai_assisted","uncertainty_note":"Accentuation and the cross-referenced historical form remain pending independent linguistic verification."},
+    {"record_id":"RHD-S1809-01697","printed_page":355,"pdf_page":65,"column":"left","headword_diplomatic":"Bulá","article_diplomatic":"Bulá, Binden.","transcription_status":"complete_ai_assisted","uncertainty_note":"The acute mark is retained from visual reading and remains pending independent confirmation."},
+    {"record_id":"RHD-S1809-01698","printed_page":355,"pdf_page":65,"column":"left","headword_diplomatic":"Búliruc","article_diplomatic":"Búliruc, es iſt gebunden.","transcription_status":"complete_ai_assisted","uncertainty_note":""},
+    {"record_id":"RHD-S1809-01701","printed_page":355,"pdf_page":65,"column":"left","headword_diplomatic":"Bálla","article_diplomatic":"Bálla, vom Schlafe wecken.","transcription_status":"complete_ai_assisted","uncertainty_note":""},
+    {"record_id":"RHD-S1809-01715","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Cocoruje","article_diplomatic":"Cocoruje, Schaden. Ein Uebel zufügen.","transcription_status":"complete_ai_assisted","uncertainty_note":"The printed spelling Uebel is retained without modernization."},
+    {"record_id":"RHD-S1809-01719","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Cauguila","article_diplomatic":"Cauguila, Wüſte, Einöde.","transcription_status":"complete_ai_assisted","uncertainty_note":""},
+    {"record_id":"RHD-S1809-01720","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Cavólameke","article_diplomatic":"Cavólameke, oder cavórameke, kugelförmig. Rund.","transcription_status":"complete_ai_assisted","uncertainty_note":"The two accented variants are visually legible but remain pending linguistic verification."},
+    {"record_id":"RHD-S1809-01722","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Cavóli","article_diplomatic":"Cavóli, Kugel.","transcription_status":"complete_ai_assisted","uncertainty_note":""},
+    {"record_id":"RHD-S1809-01725","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Cocolá","article_diplomatic":"Cocolá, Krank ſeyn.","transcription_status":"complete_ai_assisted","uncertainty_note":""},
+    {"record_id":"RHD-S1809-01726","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Cocóli","article_diplomatic":"Cocóli, türkiſcher Pfeffer, ſ. Pfeffer.","transcription_status":"complete_ai_assisted","uncertainty_note":"Accentuation in the Rarámuri headword remains pending independent confirmation."},
+    {"record_id":"RHD-S1809-01730","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Cojahéta","article_diplomatic":"Cojahéta, Eine Wurzel, die ſchön gelb färbt.","transcription_status":"complete_ai_assisted","uncertainty_note":""},
+    {"record_id":"RHD-S1809-01731","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Cojatſchi","article_diplomatic":"Cojatſchi, Hut.","transcription_status":"complete_ai_assisted","uncertainty_note":"Historical long-s/ch sequence is retained from the facsimile."},
+    {"record_id":"RHD-S1809-01732","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Coigua","article_diplomatic":"Coigua, Würzen.","transcription_status":"complete_ai_assisted","uncertainty_note":""},
+    {"record_id":"RHD-S1809-01733","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Coiguala","article_diplomatic":"Coiguala, gute ſchmackhafte Speiſe.","transcription_status":"complete_ai_assisted","uncertainty_note":""},
+    {"record_id":"RHD-S1809-01735","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Colaguitaje","article_diplomatic":"Colaguitaje, Daher, deswegen, damit, darum, ſ. damit.","transcription_status":"complete_ai_assisted","uncertainty_note":""},
+    {"record_id":"RHD-S1809-01736","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Colatſchi","article_diplomatic":"Colatſchi, der Rabe.","transcription_status":"complete_ai_assisted","uncertainty_note":"Historical long-s/ch sequence is retained from the facsimile."},
+    {"record_id":"RHD-S1809-01745","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Cotſchiki","article_diplomatic":"Cotſchiki, Schlaf.","transcription_status":"complete_ai_assisted","uncertainty_note":"Historical long-s/ch sequence is retained from the facsimile."},
+    {"record_id":"RHD-S1809-01747","printed_page":355,"pdf_page":65,"column":"right","headword_diplomatic":"Cotſchimeameke","article_diplomatic":"Cotſchimeameke, Ein Schlafender.","transcription_status":"complete_ai_assisted","uncertainty_note":"The long-s/ch sequence is clear enough for an AI-assisted diplomatic reading but remains pending independent linguistic verification."}
+  ],
+  "summary":{"complete_article_transcriptions":18,"pages_represented":[355],"human_verified":0}
+}
