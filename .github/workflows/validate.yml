@@ -10,6 +10,7 @@ on:
       - 'data/review/**'
       - 'data/diplomatic/**'
       - 'data/facsimile/**'
+      - 'project-metadata.json'
       - 'scripts/extract_full_corpus.py'
       - 'scripts/apply_review_overrides.py'
       - 'scripts/generate_exports.py'
