@@ -12,8 +12,12 @@ This directory stores append-only editorial review batches applied on top of the
 
 `RHD-FR-004` reviews the fourth 100, wholly in the Rarámuri→German dictionary on pp. 357–361: 90 accepted, 10 rejected and 62 corrections. All accepted starts are covered by `RHD-DIP-004A`–`RHD-DIP-004E`.
 
-`RHD-FR-005` reviews the fifth 100, also wholly Rarámuri→German, spanning the end of p. 361 through p. 365: 96 accepted, 4 rejected and 90 corrections. The rejected candidates are inter-page/header noise, a German gloss continuing a preceding article, Q-section explanatory prose and a page-foot catchword rather than an article start. All 96 accepted starts are covered by `RHD-DIP-005A`–`RHD-DIP-005F`.
+`RHD-FR-005` reviews the fifth 100 on pp. 361–365: 96 accepted, 4 rejected and 90 corrections. All accepted starts are covered by `RHD-DIP-005A`–`RHD-DIP-005F`.
 
-Cumulative status after five review batches: **500 candidates reviewed, 446 starts accepted, 54 false boundaries rejected, 199 clear headword corrections, 446 complete AI-assisted diplomatic articles and 2,441 active provisional candidates** out of the 2,495-candidate coverage layer.
+`RHD-FR-006` reviews the sixth 100, wholly Rarámuri→German, on pp. 365–368: 98 accepted, 2 rejected and 91 clear headword corrections. The rejected candidates are German gloss fragments (`Hinweg`, `Immer`) rather than Rarámuri article starts. The review also restores genuine headwords lost by linear OCR, such as `Tápoa`. All 98 accepted starts are covered by `RHD-DIP-006A`–`RHD-DIP-006D`.
+
+Cumulative status after six review batches: **600 candidates reviewed, 544 starts accepted, 56 false boundaries rejected, 290 clear headword corrections, 544 complete AI-assisted diplomatic articles and 2,439 active provisional candidates** out of the 2,495-candidate coverage layer.
 
 The scope of review batches is headword presence, article-start boundary and exact page placement. Accepted records move to `facsimile_checked_headword_ai_assisted` unless a diplomatic overlay supersedes that status. Rejected IDs are retained with `rejected_false_positive`. Diplomatic overlays use `diplomatic_transcription_ai_assisted`. None of these statuses should be interpreted as `diplomatic_verified` or as human linguistic validation.
+
+The machine segmentation contains 609 `high_machine` candidates in total. After `RHD-FR-006`, nine remain for the final small high-confidence cohort `RHD-FR-007`.
