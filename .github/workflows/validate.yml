@@ -13,6 +13,7 @@ on:
       - 'project-metadata.json'
       - 'scripts/extract_full_corpus.py'
       - 'scripts/apply_review_overrides.py'
+      - 'scripts/generate_review_queue.py'
       - 'scripts/generate_exports.py'
       - 'tests/validate.py'
   pull_request:
@@ -38,6 +39,7 @@ jobs:
         run: |
           python3 scripts/extract_full_corpus.py
           python3 scripts/apply_review_overrides.py
+          python3 scripts/generate_review_queue.py
           python3 scripts/generate_exports.py
       - name: Validate corpus, layout, diplomatic layer and exports
         run: python3 tests/validate.py
