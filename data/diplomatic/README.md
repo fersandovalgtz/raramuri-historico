@@ -1,21 +1,19 @@
 # Diplomatic transcription layer
 
-This directory contains append-only editorial overlays produced from direct visual comparison with the Steffel 1809 facsimile. The facsimile is authoritative; OCR is retained as a secondary reading aid rather than a source of truth for article boundaries, page placement or body order.
+Este directorio contiene overlays editoriales append-only producidos mediante comparación visual directa con el facsímil Steffel 1809. El facsímil es autoritativo; el OCR se conserva como ayuda secundaria y nunca como fuente de verdad para límites, página, columna o lectura del artículo.
 
-Diplomatic batches preserve source wording and punctuation while not encoding typographic line wrapping. The review method is `visual_facsimile_transcription_ai_assisted`; every current record has `human_verified=false`. These records must therefore not be described as independently philologically or linguistically verified.
+Las transcripciones preservan la formulación y puntuación documentales sin codificar los saltos tipográficos de línea. El método es `visual_facsimile_transcription_ai_assisted`; todos los registros actuales tienen `human_verified=false`.
 
-`RHD-DIP-001A`–`RHD-DIP-007A` cover all **553 accepted starts** from the fully exhausted 609-candidate `high_machine` tier. Subsequent diplomatic series provide complete coverage for every accepted start in the systematically reviewed `medium_machine` cohorts.
+`RHD-DIP-001A`–`RHD-DIP-007A` cubren los 553 arranques aceptados del nivel `high_machine`. Las series posteriores proporcionan cobertura completa para cada arranque aceptado en los lotes `medium_machine` revisados.
 
-`RHD-DIP-016A`–`RHD-DIP-016I` add **90 complete articles** from `RHD-FR-016` across printed pp. **356–360**, entirely inside the Rarámuri→German section. The series was split into smaller append-only subbatches after a connector-size limitation during writing; this implementation detail does not alter editorial scope or record identity.
+`RHD-DIP-017A`–`RHD-DIP-017J` añaden **91 artículos completos** de `RHD-FR-017`, todos dentro de rarámuri→alemán y con arranques en pp. **360–364**. La serie incluye formas recuperadas como `Lála`, `Lessíameke`, `Moorápera`, `Nachtétuje`, `Nacuguíta`, `Nassípasic`, `Noitsámela`, `Ossanaguóameke`, `Pitschabúrameke`, `Rachtábatsáboa`, `Rauguelíki` y `Rhaná`.
 
-The set includes compact lexical articles and the longer `Haleséatschic, oder Hareséatschic` place-name article. Representative recovered forms include `Etschaguóameke`, `Galá tá símega`, `Guarátscha`, `Guechtschíc`, `Jachcála`, `Jumánamatschígameke`, `Kauguáca`, `Kuepútsela, oder Kepútschela` and `Kubírusi, oder Gubírusi`. Two new records carry explicit uncertainty notes for a long toponymic passage and a difficult variant pair.
+La transcripción de `Putschíla` conserva `Putschíla, Brust, uber.` porque ésa es la lectura visual del facsímil; la última glosa alemana se marca como incierta para recotejo humano/filológico. La transcripción de Merrill et al. (2020, DOI `10.47807/UNISON.8`) funciona sólo como colación secundaria para grafías difíciles y nunca sustituye la evidencia facsimilar.
 
-The facsimile remains authoritative. The 2020 Universidad de Sonora transcription (Merrill et al., DOI `10.47807/UNISON.8`) was used only as a secondary collation aid for difficult Rarámuri glyphs and diacritics; it does not replace direct facsimile evidence.
+La capa acumulada contiene **1,365 transcripciones diplomáticas IA-asistidas**, exactamente los **1,365 arranques aceptados entre 1,609 candidatos cotejados**. El inventario registra **512 transcripciones con nota explícita de incertidumbre**. Todos los registros permanecen `human_verified=false`.
 
-The cumulative layer currently contains **1,274 complete AI-assisted diplomatic article transcriptions**, exactly matching the **1,274 accepted starts among all 1,509 facsimile-reviewed candidates**. The current inventory records **511 transcriptions with an explicit uncertainty note**. All current records remain `human_verified=false` and pending independent human/philological and linguistic validation.
+Los campos diplomáticos son aplicados por `scripts/apply_review_overrides.py` y propagados a JSON, XML, TEI, SQLite y la proyección pública. El OCR fuente no se modifica.
 
-The machine OCR remains untouched in the source layer. Diplomatic fields are applied as overlays by `scripts/apply_review_overrides.py` and propagated to the derived JSON/XML/TEI/SQLite exports.
+La revisión de alta confianza y los primeros diez lotes `medium_machine` están completos a nivel de límites y transcripción diplomática IA-asistida. No es una conclusión global del corpus: quedan **110 `medium_machine`**, 716 `low_machine` y toda la validación humana/lingüística independiente.
 
-The high-confidence tier and the first nine medium-confidence cohorts are complete at the AI-assisted boundary-review and diplomatic-transcription levels. This is not global corpus completion: **210 `medium_machine` candidates remain unreviewed**, 716 `low_machine` candidates remain outside systematic review, and all current diplomatic records remain pending independent human/linguistic validation.
-
-The next cohort is **`RHD-FR-017`**, wholly within Rarámuri→German, automatically estimated around printed pp. **360–365**. Its queue again contains many heavily corrupted Rarámuri candidates, so exact headword, page and column must be established from the facsimile.
+El siguiente lote es `RHD-FR-018`. Su cola alcanza automáticamente p. 369; dado que el diccionario termina en p. 368 y el apéndice comienza en p. 369, la próxima revisión deberá distinguir cuidadosamente entradas lexicográficas, catchwords y materiales del apéndice.
