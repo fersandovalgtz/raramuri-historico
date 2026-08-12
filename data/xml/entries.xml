@@ -51679,7 +51679,7 @@ bedeutet. 5 Bechte, Wohnen. *</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01687" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01687" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Boa</headword_raw>
     <headword_ocr_raw>Boa</headword_ocr_raw>
@@ -51697,15 +51697,15 @@ bedeutet. 5 Bechte, Wohnen. *</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Bóa</headword_diplomatic>
+    <article_diplomatic>Bóa, ſ. baſſaráboa.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
+    <diplomatic_note>Accentuation and the cross-referenced historical form remain pending independent linguistic verification.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01688" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -51967,7 +51967,7 @@ trick.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01697" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01697" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Bula</headword_raw>
     <headword_ocr_raw>Bula</headword_ocr_raw>
@@ -51985,17 +51985,17 @@ trick.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Bulá</headword_diplomatic>
+    <article_diplomatic>Bulá, Binden.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
+    <diplomatic_note>The acute mark is retained from visual reading and remains pending independent confirmation.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01698" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01698" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Büliruc</headword_raw>
     <headword_ocr_raw>Büliruc</headword_ocr_raw>
@@ -52013,15 +52013,15 @@ trick.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Búliruc</headword_diplomatic>
+    <article_diplomatic>Búliruc, es iſt gebunden.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01699" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -52079,7 +52079,7 @@ trick.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01701" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01701" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Bálla</headword_raw>
     <headword_ocr_raw>Bae</headword_ocr_raw>
@@ -52100,15 +52100,15 @@ trick.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Bálla</headword_diplomatic>
+    <article_diplomatic>Bálla, vom Schlafe wecken.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01702" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -52500,7 +52500,7 @@ N x
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01715" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01715" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cocoruje</headword_raw>
     <headword_ocr_raw>Cocoruje</headword_ocr_raw>
@@ -52518,15 +52518,15 @@ N x
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Cocoruje</headword_diplomatic>
+    <article_diplomatic>Cocoruje, Schaden. Ein Uebel zufügen.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
+    <diplomatic_note>The printed spelling Uebel is retained without modernization.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01716" direction="RAR-DE" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
@@ -52619,7 +52619,7 @@ ognater⸗</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01719" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01719" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cauguila</headword_raw>
     <headword_ocr_raw>Cauguila</headword_ocr_raw>
@@ -52637,17 +52637,17 @@ ognater⸗</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Cauguila</headword_diplomatic>
+    <article_diplomatic>Cauguila, Wüſte, Einöde.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01720" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01720" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cavölameke</headword_raw>
     <headword_ocr_raw>Cavölameke</headword_ocr_raw>
@@ -52665,15 +52665,15 @@ ognater⸗</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Cavólameke</headword_diplomatic>
+    <article_diplomatic>Cavólameke, oder cavórameke, kugelförmig. Rund.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
+    <diplomatic_note>The two accented variants are visually legible but remain pending linguistic verification.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01721" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -52703,7 +52703,7 @@ ognater⸗</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01722" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01722" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cavoli</headword_raw>
     <headword_ocr_raw>Cavoli</headword_ocr_raw>
@@ -52721,15 +52721,15 @@ ognater⸗</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Cavóli</headword_diplomatic>
+    <article_diplomatic>Cavóli, Kugel.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01723" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -52792,7 +52792,7 @@ doch. Jolago; mache doch.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01725" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01725" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cocolä</headword_raw>
     <headword_ocr_raw>Cocolä</headword_ocr_raw>
@@ -52810,17 +52810,17 @@ doch. Jolago; mache doch.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Cocolá</headword_diplomatic>
+    <article_diplomatic>Cocolá, Krank ſeyn.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01726" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01726" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cocoli</headword_raw>
     <headword_ocr_raw>Cocoli</headword_ocr_raw>
@@ -52838,15 +52838,15 @@ doch. Jolago; mache doch.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Cocóli</headword_diplomatic>
+    <article_diplomatic>Cocóli, türkiſcher Pfeffer, ſ. Pfeffer.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
+    <diplomatic_note>Accentuation in the Rarámuri headword remains pending independent confirmation.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01727" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -52933,7 +52933,7 @@ bel zufügen. i</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01730" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01730" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cojahéta</headword_raw>
     <headword_ocr_raw>Cojahéta</headword_ocr_raw>
@@ -52952,17 +52952,17 @@ fchön gelb färbt,</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Cojahéta</headword_diplomatic>
+    <article_diplomatic>Cojahéta, Eine Wurzel, die ſchön gelb färbt.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01731" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01731" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cojatſchi</headword_raw>
     <headword_ocr_raw>Cojatfchi</headword_ocr_raw>
@@ -52980,17 +52980,17 @@ fchön gelb färbt,</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Cojatſchi</headword_diplomatic>
+    <article_diplomatic>Cojatſchi, Hut.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
+    <diplomatic_note>Historical long-s/ch sequence is retained from the facsimile.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01732" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01732" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Coigua</headword_raw>
     <headword_ocr_raw>Coigua</headword_ocr_raw>
@@ -53008,17 +53008,17 @@ fchön gelb färbt,</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Coigua</headword_diplomatic>
+    <article_diplomatic>Coigua, Würzen.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01733" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01733" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Coiguala</headword_raw>
     <headword_ocr_raw>Coiguala</headword_ocr_raw>
@@ -53036,15 +53036,15 @@ fchön gelb färbt,</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Coiguala</headword_diplomatic>
+    <article_diplomatic>Coiguala, gute ſchmackhafte Speiſe.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01734" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -53074,7 +53074,7 @@ fchön gelb färbt,</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01735" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01735" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Colaguitaje</headword_raw>
     <headword_ocr_raw>Colaguitaje</headword_ocr_raw>
@@ -53093,17 +53093,17 @@ damit darum, f. damit.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Colaguitaje</headword_diplomatic>
+    <article_diplomatic>Colaguitaje, Daher, deswegen, damit, darum, ſ. damit.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01736" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01736" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Colatſchi</headword_raw>
     <headword_ocr_raw>Colätichi</headword_ocr_raw>
@@ -53121,15 +53121,15 @@ damit darum, f. damit.</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Colatſchi</headword_diplomatic>
+    <article_diplomatic>Colatſchi, der Rabe.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
+    <diplomatic_note>Historical long-s/ch sequence is retained from the facsimile.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01737" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -53360,7 +53360,7 @@ Schon i</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01745" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01745" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cotſchiki</headword_raw>
     <headword_ocr_raw>Cotlchiki</headword_ocr_raw>
@@ -53378,15 +53378,15 @@ Schon i</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Cotſchiki</headword_diplomatic>
+    <article_diplomatic>Cotſchiki, Schlaf.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
+    <diplomatic_note>Historical long-s/ch sequence is retained from the facsimile.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01746" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -53416,7 +53416,7 @@ Schon i</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01747" direction="RAR-DE" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01747" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Cotſchimeameke</headword_raw>
     <headword_ocr_raw>Cotiehimeameke</headword_ocr_raw>
@@ -53443,15 +53443,15 @@ e 1 1%
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Cotſchimeameke</headword_diplomatic>
+    <article_diplomatic>Cotſchimeameke, Ein Schlafender.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-003C</diplomatic_batch>
+    <diplomatic_note>The long-s/ch sequence is clear enough for an AI-assisted diplomatic reading but remains pending independent linguistic verification.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01748" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
