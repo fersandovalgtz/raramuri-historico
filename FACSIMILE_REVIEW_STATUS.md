@@ -1,6 +1,6 @@
 # Facsimile collation and diplomatic transcription status
 
-Rarámuri Histórico Digital mantiene dieciocho lotes append-only de revisión de límites y una capa separada de transcripción diplomática. Todo el trabajo actual de cotejo visual es IA-asistido y se distingue explícitamente de una futura validación humana, filológica y lingüística independiente.
+Rarámuri Histórico Digital mantiene diecinueve lotes append-only de revisión de límites y una capa separada de transcripción diplomática. Todo el trabajo actual de cotejo visual es IA-asistido y se distingue explícitamente de una futura validación humana, filológica y lingüística independiente.
 
 ## Boundary-review results
 
@@ -25,20 +25,22 @@ Rarámuri Histórico Digital mantiene dieciocho lotes append-only de revisión d
 | `RHD-FR-016` | 100 | 90 | 10 | 87 | 356–360 |
 | `RHD-FR-017` | 100 | 91 | 9 | 90 | 360–364 |
 | `RHD-FR-018` | 100 | 87 | 13 | 82 | 364–368 |
-| **Cumulative reviewed corpus** | **1,709** | **1,452** | **257** | **655** | **301–368** |
+| `RHD-FR-019` | 10 | 9 | 1 | 9 | 368 |
+| **Medium-confidence tier** | **1,110** | **908** | **202** | **366** | **301–368** |
+| **Cumulative reviewed corpus** | **1,719** | **1,461** | **258** | **664** | **301–368** |
 
-La capa de cobertura conserva 2,495 candidatos. Los 609 `high_machine` ya fueron resueltos. Los primeros **1,100 de 1,110 `medium_machine`** también fueron cotejados: **899 arranques aceptados y 201 falsos límites**. Quedan **10 `medium_machine`** y posteriormente 716 `low_machine`. Los IDs rechazados permanecen persistentes y nunca se reciclan; la capa activa provisional contiene **2,238 candidatos**.
+La capa de cobertura conserva 2,495 candidatos. Los dos niveles superiores están ahora **completamente agotados**: 609 `high_machine` y 1,110 `medium_machine`. El nivel medio produjo **908 arranques aceptados y 202 falsos límites**. Quedan **716 `low_machine`** sin revisión sistemática. Los IDs rechazados permanecen persistentes y nunca se reciclan; la capa activa provisional contiene **2,237 candidatos**.
 
-`RHD-FR-018` resuelve el extremo final de la sección rarámuri→alemán. El facsímil corrige la extensión automática a **pp. 364–368**, acepta 87 candidatos, rechaza 13 falsos límites, corrige 82 lemas y cambia de página 45 registros. Entre los rechazos hay glosas alemanas, un catchword, un running header, un ejemplo interno y un artefacto OCR sin correlato facsimilar.
+`RHD-FR-019` resuelve los diez candidatos medios finales. Aunque la cola automática ubicaba todos en p. 369, el facsímil demuestra que su evidencia pertenece a la columna derecha de **p. 368**, antes de la indicación `Anhang`. Nueve son entradas reales y `Bär` es una glosa/remisión dentro de `Vohí, Bär, s. Bär.`. El lote corrige los nueve lemas aceptados y las diez asignaciones de página.
 
-El lote verifica directamente la frontera documental: **p. 368 es la última página del diccionario; p. 369 inicia el apéndice**. Ningún candidato de FR-018 se acepta como artículo de diccionario en p. 369. Los candidatos automáticamente desplazados a 369 sólo se recolocan en 368 cuando existe evidencia visual inequívoca.
+Las formas recuperadas son `Uélameke`, `Uilí`, `Uipáca`, `Veréndo`, `Vissigó`, `Ulé`, `Ululú`, `Upéameke` y `Vuossaguáca`. El facsímil sigue siendo autoritativo; Merrill et al. (2020) se usa únicamente como ayuda secundaria de colación. La capa diplomática conserva literalmente la forma impresa `Uélameke` y la glosa `Spielblatt` de `Ulé`, aunque el estudio moderno discuta ambas como posibles errores del testimonio histórico.
+
+La frontera documental queda establecida de manera inequívoca: **p. 368 cierra el diccionario y p. 369 inicia el apéndice**.
 
 ## Diplomatic transcription
 
-`RHD-DIP-018A`–`RHD-DIP-018I` aportan **87 transcripciones completas** para todos los arranques aceptados de FR-018. La serie acumulada contiene **1,452 artículos diplomáticos IA-asistidos**, exactamente los mismos 1,452 arranques aceptados entre 1,709 límites cotejados. El inventario registra **521 notas explícitas de incertidumbre**. Todos los registros permanecen `human_verified=false`.
-
-Entre las lecturas señaladas para futura re-colación independiente están variantes o secuencias difíciles de `Sini, oder Schine`, `Tamateiáme`, `T-fliguá`, `Tótschi`, `Tschapíboli`, `Tschie`, `Tlestatáccameke, oder Stácameke`, `Tulchilki` y `Vassúritschi`.
+`RHD-DIP-019A` aporta **9 transcripciones completas** para todos los arranques aceptados de FR-019. La serie acumulada contiene **1,461 artículos diplomáticos IA-asistidos**, exactamente los mismos 1,461 arranques aceptados entre 1,719 límites cotejados. El inventario registra **521 notas explícitas de incertidumbre**. Todos los registros permanecen `human_verified=false`.
 
 ## Next editorial stage
 
-La siguiente etapa es **`RHD-FR-019`**, que contiene los **10 `medium_machine` restantes**: `RHD-S1809-02480`–`RHD-S1809-02494`. Todos están etiquetados automáticamente como p. 369, pero esa página pertenece al apéndice. FR-019 deberá establecer si alguno corresponde todavía a una entrada rezagada de p. 368 o si son artefactos/material no lexicográfico. Tras FR-019 comenzará el nivel `low_machine`. Global `full_diplomatic_transcription_completed` continúa en `false`.
+La siguiente etapa es **`RHD-FR-020`**, el primer lote `low_machine`. Su cola contiene los primeros 100 de 716 candidatos de baja confianza, desde `RHD-S1809-00061` (`Vorrede erinnert habe`) hasta `RHD-S1809-00421` (`Vogel`), aproximadamente en pp. **301–316** según la asignación automática. La cohorte está poblada por numerosos fragmentos de prosa, glosas y secuencias internas, por lo que el cotejo facsimilar deberá privilegiar tipografía, sangría y continuidad documental sobre la apariencia textual del OCR. Global `full_diplomatic_transcription_completed` continúa en `false`.
