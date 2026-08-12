@@ -529,6 +529,11 @@
       "sha256": "f38248358234820e6a6cfca827932f54392bfb293d8590f72823fcf5ff68c310"
     },
     {
+      "path": "data/review/next_review_queue_compact.json",
+      "bytes": 3646,
+      "sha256": "f03aac4cd127de4b77d5c756c7b670e8f4d4afa1fe7b18c6ac19a18c6be36bb4"
+    },
+    {
       "path": "data/sections/appendix-and-numerals-ocr.txt",
       "bytes": 4793,
       "sha256": "fe82be2809078775797ff8d80d612aa290e78098ac0af3ab1f19cd48a9908d68"
@@ -615,8 +620,8 @@
     },
     {
       "path": "scripts/generate_review_queue.py",
-      "bytes": 2312,
-      "sha256": "3b3a373b40dcc40892857a08a0f58ebf709f0cb3dde1b8b984c0a934f4f2389f"
+      "bytes": 2669,
+      "sha256": "e2906b940b1a1068195109eef0700fc834819b27d57a3367e887e5b3995cec7f"
     },
     {
       "path": "scripts/normalize_search.py",
