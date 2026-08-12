@@ -130,8 +130,8 @@
     },
     {
       "path": "data/corpus_inventory.json",
-      "bytes": 2265,
-      "sha256": "be6fb43a9cbbdd29cc0d7194c8052064d357dd73da3ab42b518e2e2a57f84aac"
+      "bytes": 2420,
+      "sha256": "e8a7e0ced206de86414483af34ed8eb8cc3b4d946a8c264b0ca40396ca659ba2"
     },
     {
       "path": "data/correspondences_template.csv",
@@ -204,9 +204,34 @@
       "sha256": "8ced754fdfe72c063efebbd0b6cdb856d3caf6e8dfcfee61f9edb71e3128f6de"
     },
     {
+      "path": "data/diplomatic/diplomatic_batch_013.json",
+      "bytes": 4606,
+      "sha256": "81765a8708d2cafb88ec9ec8100c0e74a05470c7cf193d8bb28e7f941ef30547"
+    },
+    {
+      "path": "data/diplomatic/diplomatic_batch_014.json",
+      "bytes": 8653,
+      "sha256": "adf6edf80bbfba029cf95b6648bc338985d1e99db09b455da22f5ebc2d1b8c1e"
+    },
+    {
+      "path": "data/diplomatic/diplomatic_batch_015.json",
+      "bytes": 8641,
+      "sha256": "3e85353297c1b61c5b0f5ab0ceb4ae9e364dfcd8d5107ba3f32ddfc0515a63ed"
+    },
+    {
+      "path": "data/diplomatic/diplomatic_batch_016.json",
+      "bytes": 1670,
+      "sha256": "cc3a17702f8820761ee8d56b6afbb9d36ba478764cf67a435073c5cd3f3b89d4"
+    },
+    {
+      "path": "data/diplomatic/diplomatic_batch_017.json",
+      "bytes": 6975,
+      "sha256": "0edd1d13107571aa198246aec044e21db1f2e84d7786e44d46a610a7f4d26587"
+    },
+    {
       "path": "data/entries.csv",
-      "bytes": 1279011,
-      "sha256": "8e40dd249ed03175228bf02a0e30f69358a8e1d2e7fd816d3c9dc5a3bf0dcd63"
+      "bytes": 1316932,
+      "sha256": "4954238d9ecee487c82227d8db785edff1e657c222039b0f85b58c5cbc7e8769"
     },
     {
       "path": "data/entries_curated.csv",
@@ -234,9 +259,14 @@
       "sha256": "c706559c9a2fc0fa7e2b30601b7f0945b8954da4fe884443b5db05172567f43c"
     },
     {
+      "path": "data/facsimile/page_layout_358_361.csv",
+      "bytes": 2263,
+      "sha256": "991494a16bb656a9a8b4fba3f7eacceb9aa08355bea7b2a72c35cf899fa66b4f"
+    },
+    {
       "path": "data/json/entries.json",
-      "bytes": 3168331,
-      "sha256": "809c29e3684240d134110497afee4deac94b41ad655992422b9bad606948dc3d"
+      "bytes": 3206060,
+      "sha256": "c0254443faa3d625b4bddf8004b6dab68fc24b62dddb131b7622863e5e6127d7"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -245,8 +275,8 @@
     },
     {
       "path": "data/raramuri_historico.sqlite",
-      "bytes": 1630208,
-      "sha256": "c1affa40a2f1ea3a6b58936856fed4d979640ce2fd330b8ee84052b0fb6dc290"
+      "bytes": 1675264,
+      "sha256": "39b2d528624670ce8a513cf6c703d73f61d732c16197eb8044b4964b71780c38"
     },
     {
       "path": "data/review/README.md",
@@ -269,6 +299,11 @@
       "sha256": "3dbdf6d9fe17e17dc3b2eb8d1e04384835e9c0ddada5b369425ee1fd5d2406a8"
     },
     {
+      "path": "data/review/facsimile_review_batch_004.json",
+      "bytes": 15749,
+      "sha256": "2fc79638ae78bf7acb6e3aa0c81cdf8c5a0a5db55cc7260b03d04dff31b22f41"
+    },
+    {
       "path": "data/sections/appendix-and-numerals-ocr.txt",
       "bytes": 4793,
       "sha256": "fe82be2809078775797ff8d80d612aa290e78098ac0af3ab1f19cd48a9908d68"
@@ -280,13 +315,13 @@
     },
     {
       "path": "data/xml/entries.xml",
-      "bytes": 3615254,
-      "sha256": "11854cafbd3fff018bcb95581a2b3587e5736355a740303ac8505ed65f93380d"
+      "bytes": 3665493,
+      "sha256": "5d80aa79d93d4de4b80ea0e214b3aca7550afea9d08ca63ef07d379603ee3eed"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
-      "bytes": 1044206,
-      "sha256": "5325490c8544edb3830007bbfe3a4b0ed50bf4e8169310253d23ef36414c7202"
+      "bytes": 1073730,
+      "sha256": "e1938529852e7d535ba734858cfbee19cc4acfe53fd2415d3ae12ce5d1569012"
     },
     {
       "path": "external-references.json",
@@ -310,8 +345,8 @@
     },
     {
       "path": "public/data/entries.json",
-      "bytes": 2719230,
-      "sha256": "e5229e0f1b7539a574a51e54660a72b23946bdb96bd53e0a5ccd48b6ef22d509"
+      "bytes": 2756959,
+      "sha256": "019c754a39dfd894ac539dfbc8385363eca3df720bbe23020ed386c3c8e545a6"
     },
     {
       "path": "public/data/metadata.json",
