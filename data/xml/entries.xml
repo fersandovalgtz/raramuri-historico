@@ -13923,7 +13923,7 @@ jameke,</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00479" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00479" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Feige indianiſche</headword_raw>
     <headword_ocr_raw>Feige indianiſche</headword_ocr_raw>
@@ -13948,15 +13948,15 @@ unbekannt, aber nur in</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Feige indianiſche</headword_diplomatic>
+    <article_diplomatic>Feige indianiſche. Nopál. Dieſe Bäume ſind zwar in unſerm Teutſchlande nicht unbekannt, aber nur in Zwergengeſtalt. Der Baum fängt von einem Blatte an zu wachſen, woraus mit der Zeit ein dicker und hoher Stamm entſtehet, deſſen Aeſte große, dicke und halbrunde Blätter ſind, an deren Rande, zur Sommerszeit kleine Röschen von rother, weißer oder gelber Farbe, je nachdem die Gattung der Feigen iſt, hervorkommen, woraus endlich die Frucht wird. Nachdem ſie reif geworden, werden ſie mit einer Stange herabgeſtoſſen und im Graſe gut herumgetrieben, damit ſie die feinen Stacheln, mit welchen ſie um und um verſehen ſind, verlieren. Sie ſind der Schale, der Größe und der Geſtalt nach einer Gurke ähnlich, nur daß ſie am Ende nicht ſo geſpitzt ſind, und keine Warzen haben. Zum Genuße wird die Schale an beyden Enden abgeſchnitten, die Feige von oben herab getheilet, und die innerliche Frucht gegeſſen, welche lauter kleine Körnchen hat, und köſtlich ſchmecket. Die Spanier nennen dergleichen Feigenwälder Tunal. Von dieſem Baum iſt noch zu bemerken, daß er, ſo dick auch der aus dicken Blättern erwachſene Stamm iſt, mit einem wohlgeſchärften Meſſer auf einmal gefället werden kann, weil er voll Saft und nicht holzig iſt. Ein Blatt, das abgeſchlagen wird, faulet auf dem Boden nicht, ſondern es bringt oft Blüthe und Früchte, und wird zu einem Baume.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010D</diplomatic_batch>
+    <diplomatic_note>Long ethnobotanical article reconstructed across both columns of printed p. 316. Historical botanical terminology is retained; `Nopál` and `Tunal` remain pending independent philological/botanical collation.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00480" direction="DE-RAR" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
@@ -15713,7 +15713,7 @@ heißt. 1 8</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-00530" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00530" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Fragen</headword_raw>
     <headword_ocr_raw>Fragen</headword_ocr_raw>
@@ -15741,15 +15741,15 @@ er auch: ha? Ha wird jeder</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Fragen</headword_diplomatic>
+    <article_diplomatic>Fragen. Náruje. Sie haben ihre Fragewörter há und tſá. Das há iſt ein Wort, mit welchem man den, den man fragen will, aufmerkſam machet. Wenn der Tarahumar die Frage nicht wohl verſtanden hat, ſagt er auch: há? Há wird jeder Frage vorgeſetzt, und tſá mit Verluſt der letzten Sylbe des letzten Wortes am Ende angehängt, z. B. há mú jola tſá? haſt du es gethan? jola hat in der vergangenen Zeit joláca: die letzte Sylbe ca wird alſo wegen des anzuhängenden Wörtchens tſá weggelaſſen. Frage, ob es Peter gethan habe, náruje há oder háli Pedro jolátſá. Wenn die Frage mit Ernſt, und gleichſam drohend geſchieht, muß die Rede ſo ausfallen: jolátſamú? haſt es gethan?</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010D</diplomatic_batch>
+    <diplomatic_note>Long grammatical article reconstructed from printed p. 318. Question particles, accents and example forms are retained provisionally and require independent linguistic verification.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00531" direction="DE-RAR" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -17321,7 +17321,7 @@ gleich. — Es geht ab, rGco.</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00581" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00581" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geige</headword_raw>
     <headword_ocr_raw>Geige</headword_ocr_raw>
@@ -17349,15 +17349,15 @@ Deutſch⸗Tarahumariſches</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Geige</headword_diplomatic>
+    <article_diplomatic>Geige. Ravelí. Die tarahumariſche Geige iſt von gehobelten Bretchen gemacht, mit Pech geleimt, und auch mit Darmſaiten beſpannt, mit welcher und einer kleinen Zitter ſie bey ihren Tänzen Muſik machen.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010D</diplomatic_batch>
+    <diplomatic_note>Article crosses the column boundary on printed p. 320. The instrument name `Ravelí` is a provisional facsimile reading pending linguistic/ethnomusicological review.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00582" direction="DE-RAR" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
@@ -17484,7 +17484,7 @@ wenn es den Beck andeuten
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-00586" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00586" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geißeln</headword_raw>
     <headword_ocr_raw>Geißeln</headword_ocr_raw>
@@ -17503,17 +17503,17 @@ wenn es den Beck andeuten
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Geißeln</headword_diplomatic>
+    <article_diplomatic>Geißeln. Guechpilóco. Gegeißelt, guechpiruc.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
+    <diplomatic_note>The headword forms are visually clear enough for an AI-assisted reading, but their linguistic spelling remains pending independent review.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00587" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00587" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Gelächter</headword_raw>
     <headword_ocr_raw>Gelächter</headword_ocr_raw>
@@ -17531,15 +17531,15 @@ wenn es den Beck andeuten
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Gelächter</headword_diplomatic>
+    <article_diplomatic>Gelächter. Atſchilelila.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00588" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -17569,7 +17569,7 @@ wenn es den Beck andeuten
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00589" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00589" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geld</headword_raw>
     <headword_ocr_raw>Geld</headword_ocr_raw>
@@ -17587,17 +17587,17 @@ wenn es den Beck andeuten
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Geld</headword_diplomatic>
+    <article_diplomatic>Geld. Guenomí, ſ. Metall.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00590" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00590" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Gelehrt</headword_raw>
     <headword_ocr_raw>Gelehrt</headword_ocr_raw>
@@ -17615,17 +17615,17 @@ wenn es den Beck andeuten
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Gelehrt</headword_diplomatic>
+    <article_diplomatic>Gelehrt. Matſchigameke.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00591" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00591" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Gelind</headword_raw>
     <headword_ocr_raw>Gelind</headword_ocr_raw>
@@ -17643,17 +17643,17 @@ wenn es den Beck andeuten
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Gelind</headword_diplomatic>
+    <article_diplomatic>Gelind, ſachte. Kelíki.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00592" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00592" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Gemach</headword_raw>
     <headword_ocr_raw>Gemach</headword_ocr_raw>
@@ -17671,15 +17671,15 @@ wenn es den Beck andeuten
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Gemach</headword_diplomatic>
+    <article_diplomatic>Gemach. Kelíki.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00593" direction="DE-RAR" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -17737,7 +17737,7 @@ wenn es den Beck andeuten
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00595" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00595" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geneſen</headword_raw>
     <headword_ocr_raw>Geneſen</headword_ocr_raw>
@@ -17757,15 +17757,15 @@ ne ganile, ich bin etwas ge⸗</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Geneſen</headword_diplomatic>
+    <article_diplomatic>Geneſen. Sauguiba, oder wie ſie zu ſagen pflegen: rachpé ne ganíle, ich bin etwas geſund.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
+    <diplomatic_note>The Rarámuri phrase is retained provisionally from the facsimile.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00596" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -17798,7 +17798,7 @@ oder neguarupa.</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00597" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00597" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geſchirr</headword_raw>
     <headword_ocr_raw>Geſchirr</headword_ocr_raw>
@@ -17816,17 +17816,17 @@ oder neguarupa.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Geſchirr</headword_diplomatic>
+    <article_diplomatic>Geſchirr. Bechtoléke.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00598" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00598" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geſchmack</headword_raw>
     <headword_ocr_raw>Geſchmack</headword_ocr_raw>
@@ -17844,17 +17844,17 @@ oder neguarupa.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Geſchmack</headword_diplomatic>
+    <article_diplomatic>Geſchmack. Igué gá, das heißt: ſehr gut.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00599" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00599" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geſchwind</headword_raw>
     <headword_ocr_raw>Geſchwind</headword_ocr_raw>
@@ -17875,17 +17875,17 @@ lineke. 1 3</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Geſchwind</headword_diplomatic>
+    <article_diplomatic>Geſchwind. Hiá, hiága: vielfach hiáſi. Belágo. Geſchwind, das Beywort. Gualíneke.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
+    <diplomatic_note>Compact Rarámuri forms and accents remain pending independent linguistic collation.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00600" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00600" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geſegnet</headword_raw>
     <headword_ocr_raw>Geſegnet</headword_ocr_raw>
@@ -17903,17 +17903,17 @@ lineke. 1 3</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Geſegnet</headword_diplomatic>
+    <article_diplomatic>Geſegnet. Galatſaneliameke.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
+    <diplomatic_note>The long Rarámuri form is a provisional direct facsimile reading.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00601" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00601" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geſicht</headword_raw>
     <headword_ocr_raw>Geſicht</headword_ocr_raw>
@@ -17931,17 +17931,17 @@ lineke. 1 3</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Geſicht</headword_diplomatic>
+    <article_diplomatic>Geſicht. Retéguala.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00602" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00602" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geſtern</headword_raw>
     <headword_ocr_raw>Geſtern</headword_ocr_raw>
@@ -17959,17 +17959,17 @@ lineke. 1 3</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Geſtern</headword_diplomatic>
+    <article_diplomatic>Geſtern. Tapáco.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00603" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00603" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geſtirn</headword_raw>
     <headword_ocr_raw>Geſtirn</headword_ocr_raw>
@@ -17987,17 +17987,17 @@ lineke. 1 3</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Geſtirn</headword_diplomatic>
+    <article_diplomatic>Geſtirn. Sopóli.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00604" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00604" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geſund</headword_raw>
     <headword_ocr_raw>Geſund</headword_ocr_raw>
@@ -18019,15 +18019,15 @@ ant⸗</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Geſund</headword_diplomatic>
+    <article_diplomatic>Geſund. Ganelíameke, d. i. dem es wohlgehet. Wenn ich aber frage: wie befindeſt du dich? auchi mu inile, ſo antwortet er: ganémile: ich bin geſund, oder wohlauf.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
+    <diplomatic_note>Article continues from printed p. 320 into the top of p. 321. The Rarámuri question and answer forms remain pending linguistic verification.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00605" direction="DE-RAR" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
@@ -18061,7 +18061,7 @@ bin geſund, oder wohlauf.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-00606" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00606" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geſundheit</headword_raw>
     <headword_ocr_raw>Geſundheit</headword_ocr_raw>
@@ -18080,17 +18080,17 @@ eſund ſeyn, Ganinile.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Geſundheit</headword_diplomatic>
+    <article_diplomatic>Geſundheit. Ganileliki.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00607" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00607" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Getauft</headword_raw>
     <headword_ocr_raw>Betauft</headword_ocr_raw>
@@ -18110,17 +18110,17 @@ gatllusmeke. 10</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Getauft</headword_diplomatic>
+    <article_diplomatic>Getauft. Pagorúgameke. Sie pflegen auch zu ſagen: Ipagatúgameke.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
+    <diplomatic_note>Both Rarámuri forms are visually compact and remain provisional pending linguistic collation.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00608" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00608" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Getränk</headword_raw>
     <headword_ocr_raw>Getränk</headword_ocr_raw>
@@ -18138,15 +18138,15 @@ gatllusmeke. 10</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Getränk</headword_diplomatic>
+    <article_diplomatic>Getränk. Ein Getränk der Tarahumaren heißt Patalíki, womit ſie ſich berauſchen. Es wird alſo zubereitet: der türkiſche Weizen wird eingegraben, bis er zu keimen anfängt; alsdann wird er mit Waſſer auf einem Reibſteine abgetrieben, in Töpfe oder in große ausgehöhlte Kürbiſſe gefüllt, dieſe zum Feuer oder in die Sonne geſtellt, damit er gähre und eine Schärfe bekomme. Dieſes Getränk, welches ſie auch Schuguiki nennen, ward ihnen auf das ſchärfſte verboten, weil bey dergleichen Saufereyen ſich gemeiniglich Unglücksfälle ereigneten. Sie verbargen ſich alſo in die Wildniſſe, um ihre Freyheit zu genießen, und wenn ſie verrathen oder von den Miſſionarien überfallen wurden, mußte man ſich einer großen Beſcheidenheit dabey bedienen, um das weitere Saufen zu verhüten und ſie auseinander zu bringen. Denn obgleich die Tarahumaren, ſo lange ſie nüchtern ſind, ſich ziemlich gelaſſen betragen, ſo daß ich niemals zwey miteinander habe zanken gehört: ſo ſind ſie doch ſehr wild und unbändig, wenn ſie viel getrunken haben, denn da ſchonen ſie keinem, der mit ihnen anbindet. — Ein anderes bey den Mexicanern gewöhnliches Getränk heißt mit einem mexicaniſchen Worte Pülke, welches aus den großen Aloepflanzen gezogen wird. Der mäßige Gebrauch deſſelben iſt ſehr geſund, aber unmäßig genommen, da berauſcht es wie Wein oder ſtarkes Bier. Es iſt weiß von Farbe und hinterläßt im Geſchirr einen 2 Fingerdicken Satz, gleich denen Hefen, der aber nicht ſchädlich iſt. Von dieſem Aloegetränke werden täglich gleich am erſten Morgen viele 1000 Eymer in ledernen Säcken auf Maulthieren in die Hauptſtadt Mexico gebracht, und von eingebornen Mexicanern, von Mulatten, Meſtizen und dergleichen Geſindel aufgezehrt; denn kein Spanier findet ſich bey dergleichen Pulkereyen ein. Es wird auch nicht zu einem gewöhnlichen Haus- oder Tiſchtrunk geholt, weil nur Waſſer getrunken wird.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010D</diplomatic_batch>
+    <diplomatic_note>Long ethnographic article reconstructed across both columns of printed p. 321. Historical cultural language is preserved as documentary evidence without endorsement. Beverage names and several historical spellings remain pending philological/linguistic review.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00609" direction="DE-RAR" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -18459,7 +18459,7 @@ trunken wird.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-00617" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00617" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Getreidemaaß</headword_raw>
     <headword_ocr_raw>Getreidemaaß</headword_ocr_raw>
@@ -18513,15 +18513,15 @@ Ge⸗
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Getreidemaaß</headword_diplomatic>
+    <article_diplomatic>Getreidemaaß. Tſchivávoli. Eine Metze, welche die dortigen Spanier Fanega, oder oder auch Aneya nennen.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
+    <diplomatic_note>The historical measure name and Rarámuri form are retained from the facsimile; the source visibly repeats `oder`.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00618" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -18579,7 +18579,7 @@ Ge⸗
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-00620" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00620" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Geyer</headword_raw>
     <headword_ocr_raw>Geyer</headword_ocr_raw>
@@ -18597,17 +18597,17 @@ Ge⸗
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Geyer</headword_diplomatic>
+    <article_diplomatic>Geyer. Raugui.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00621" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00621" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Giebel, Gipfel</headword_raw>
     <headword_ocr_raw>Giebel</headword_ocr_raw>
@@ -18625,17 +18625,17 @@ Ge⸗
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Giebel, Gipfel</headword_diplomatic>
+    <article_diplomatic>Giebel, Gipfel. Cuvála.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00622" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00622" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Gieſſen</headword_raw>
     <headword_ocr_raw>Gieſſen</headword_ocr_raw>
@@ -18653,17 +18653,17 @@ Ge⸗
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Gieſſen</headword_diplomatic>
+    <article_diplomatic>Gieſſen. Comiguá.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00623" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00623" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Glänzend</headword_raw>
     <headword_ocr_raw>Glänzend</headword_ocr_raw>
@@ -18681,15 +18681,15 @@ Ge⸗
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Glänzend</headword_diplomatic>
+    <article_diplomatic>Glänzend. Repágameke.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00624" direction="DE-RAR" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -18786,7 +18786,7 @@ hnenbutten aͤhnlich find,</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-00627" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00627" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Glätten</headword_raw>
     <headword_ocr_raw>Glatten</headword_ocr_raw>
@@ -18804,15 +18804,15 @@ hnenbutten aͤhnlich find,</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Glätten</headword_diplomatic>
+    <article_diplomatic>Glätten. Mallisi.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
+    <diplomatic_note>The Rarámuri form is visually read as `Mallisi`; the supplied OCR is strongly corrupted and independent linguistic collation is needed.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00628" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -18842,7 +18842,7 @@ hnenbutten aͤhnlich find,</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00629" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00629" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Glauben</headword_raw>
     <headword_ocr_raw>Glauben</headword_ocr_raw>
@@ -18860,17 +18860,17 @@ hnenbutten aͤhnlich find,</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Glauben</headword_diplomatic>
+    <article_diplomatic>Glauben. Pitſchigé.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00630" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00630" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Gleichwie</headword_raw>
     <headword_ocr_raw>Gleichwie</headword_ocr_raw>
@@ -18892,15 +18892,15 @@ hatſchi rech.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Gleichwie</headword_diplomatic>
+    <article_diplomatic>Gleichwie. Mapú recá, imapú réuega. Hatſchí réuega, hatſchí recá.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-010C</diplomatic_batch>
+    <diplomatic_note>The second comparative form is visually difficult; `imapú réuega` is a provisional reading supported by the supplied OCR.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00631" direction="DE-RAR" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
