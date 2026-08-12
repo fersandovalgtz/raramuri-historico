@@ -6,6 +6,8 @@ import hashlib
 ROOT=Path(__file__).resolve().parents[1]
 CSV=ROOT/'data/entries.csv'
 rows=list(csv.DictReader(CSV.open(encoding='utf-8')))
+pm=ROOT/'project-metadata.json'
+project_metadata=json.loads(pm.read_text(encoding='utf-8')) if pm.exists() else {}
 
 # JSON
 jdir=ROOT/'data/json'; jdir.mkdir(parents=True,exist_ok=True)
@@ -83,7 +85,6 @@ if 'diplomatic_status' in cols:
 con.commit(); con.close()
 
 # Public metadata mirrors project metadata
-pm=ROOT/'project-metadata.json'
 if pm.exists():
     (pdir/'metadata.json').write_text(pm.read_text(encoding='utf-8'),encoding='utf-8')
 
@@ -96,7 +97,12 @@ for path in sorted(ROOT.rglob('*')):
     b=path.read_bytes()
     manifest_files.append({'path':rel,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()})
 (ROOT/'manifest.json').write_text(
-    json.dumps({'dataset':'raramuri-historico-steffel-1809','version':'0.2.0','generated':'2026-08-11','files':manifest_files},ensure_ascii=False,indent=2)+'\n',
+    json.dumps({
+        'dataset':project_metadata.get('dataset_id','raramuri-historico-steffel-1809'),
+        'version':project_metadata.get('version','0.2.0'),
+        'generated':project_metadata.get('generated',''),
+        'files':manifest_files
+    },ensure_ascii=False,indent=2)+'\n',
     encoding='utf-8'
 )
 print(f'generated exports for {len(rows)} candidate entries')
