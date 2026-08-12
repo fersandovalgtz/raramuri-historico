@@ -9,7 +9,7 @@
   "records": [
     ["RHD-S1809-00065",301],["RHD-S1809-00072",301],["RHD-S1809-00073",301],["RHD-S1809-00081",302],["RHD-S1809-00089",302],["RHD-S1809-00090",302],["RHD-S1809-00092",302],["RHD-S1809-00093",302],["RHD-S1809-00094",302],["RHD-S1809-00106",302],
     ["RHD-S1809-00115",303],["RHD-S1809-00116",304],["RHD-S1809-00123",304],["RHD-S1809-00129",304],["RHD-S1809-00142",304],["RHD-S1809-00147",305],["RHD-S1809-00150",305],["RHD-S1809-00177",307],["RHD-S1809-00178",307],["RHD-S1809-00181",307],
-    ["RHD-S1809-00183",307],["RHD-S1809-00191",307],["RHD-S1809-00203",308],["RHD-S1809-00235",308],["RHD-S1809-00243",309],["RHD-S1809-00261",309],["RHD-S1809-00269",309],["RHD-S1809-00270",309],["RHD-S1809-00271",309],["RHD-S1809-00272",309],
+    ["RHD-S1809-00183",307],["RHD-S1809-00191",307],["RHD-S1809-00203",308],["RHD-S1809-00235",308],["RHD-S1809-00243",308],["RHD-S1809-00261",309],["RHD-S1809-00269",309],["RHD-S1809-00270",309],["RHD-S1809-00271",309],["RHD-S1809-00272",309],
     ["RHD-S1809-00273",309],["RHD-S1809-00274",309],["RHD-S1809-00275",309],["RHD-S1809-00279",309],["RHD-S1809-00280",309],["RHD-S1809-00285",310],["RHD-S1809-00287",310],["RHD-S1809-00289",310],["RHD-S1809-00294",310],["RHD-S1809-00295",310],
     ["RHD-S1809-00296",310],["RHD-S1809-00297",310],["RHD-S1809-00298",310],["RHD-S1809-00299",310],["RHD-S1809-00300",310],["RHD-S1809-00310",311],["RHD-S1809-00321",312],["RHD-S1809-00322",312],["RHD-S1809-00323",312],["RHD-S1809-00324",312],
     ["RHD-S1809-00325",312],["RHD-S1809-00332",312],["RHD-S1809-00333",312],["RHD-S1809-00354",313],["RHD-S1809-00365",313],["RHD-S1809-00366",313],["RHD-S1809-00367",313],["RHD-S1809-00372",313],["RHD-S1809-00374",313],["RHD-S1809-00379",313],
@@ -43,7 +43,8 @@
   "notes": {
     "RHD-S1809-00065":"Entry start Abweg is valid, but the OCR article block is contaminated by text belonging to the Adern article because source text order does not preserve two-column layout. Full diplomatic body remains pending.",
     "RHD-S1809-00323":"Headword Denken is valid; current machine block absorbs the following article “Der, die, das.” End boundary requires resegmentation.",
-    "RHD-S1809-00495":"Headword Feuer is valid on p. 317; the current OCR block crosses a page/layout boundary and requires resegmentation before diplomatic verification."
+    "RHD-S1809-00495":"Headword Feuer is valid on p. 317; the current OCR block crosses a page/layout boundary and requires resegmentation before diplomatic verification.",
+    "RHD-S1809-00243":"Page corrected from 309 to 308 after direct visual confirmation of the Bein article on printed p. 308 / PDF p. 18."
   },
   "summary":{"reviewed":100,"accepted":86,"rejected":14,"headword_corrections":4}
 }
