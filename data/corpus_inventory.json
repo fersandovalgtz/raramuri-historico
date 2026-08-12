@@ -224,15 +224,12 @@
       367,
       368
     ],
-    "records_with_uncertainty_note": 570,
-    "method": "mixed_ai_assisted_diplomatic_transcription",
+    "records_with_uncertainty_note": 565,
+    "method": "visual_facsimile_transcription_ai_assisted",
     "methods": [
-      "primary_ocr_preverified_facsimile_layout_secondary_transcription_ai_assisted",
       "visual_facsimile_transcription_ai_assisted"
     ],
-    "direct_facsimile_image_recheck_pending_batches": [
-      "RHD-DIP-022G"
-    ],
+    "direct_facsimile_image_recheck_pending_batches": [],
     "human_verified": false,
     "scope_note": "Complete article text for accepted records; source spelling/punctuation retained where supported; typographic line wrapping not encoded. Batches without direct facsimile image reinspection are explicitly flagged for later re-collation."
   }
