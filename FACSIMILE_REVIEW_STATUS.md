@@ -1,6 +1,6 @@
 # Facsimile collation and diplomatic transcription status
 
-Rarámuri Histórico Digital maintains six append-only boundary-review batches spanning both dictionary directions, plus a separate diplomatic-transcription layer. AI-assisted visual collation is always distinguished from independent human/philological and linguistic verification.
+Rarámuri Histórico Digital maintains seven append-only boundary-review batches spanning both dictionary directions, plus a separate diplomatic-transcription layer. AI-assisted visual collation is always distinguished from independent human/philological and linguistic verification.
 
 ## Boundary-review results
 
@@ -12,28 +12,29 @@ Rarámuri Histórico Digital maintains six append-only boundary-review batches s
 | `RHD-FR-004` | 100 | 90 | 10 | 62 | 357–361 |
 | `RHD-FR-005` | 100 | 96 | 4 | 90 | 361–365 |
 | `RHD-FR-006` | 100 | 98 | 2 | 91 | 365–368 |
-| **Cumulative** | **600** | **544** | **56** | **290** | **301–368** |
+| `RHD-FR-007` | 9 | 9 | 0 | 8 | 368 |
+| **Cumulative high-confidence tier** | **609** | **553** | **56** | **298** | **301–368** |
 
-The coverage-first machine layer remains 2,495 candidates. After 56 visually rejected false boundaries, 2,439 candidates remain active provisionally. Candidate count is not asserted as the definitive number of printed lexicographic entries.
+The coverage-first machine layer remains 2,495 candidates. All **609 candidates classified `high_machine` have now been visually collated against the facsimile**. Of these, 553 are accepted article starts and 56 are rejected false boundaries. Because rejected IDs remain persistent and are never recycled, 2,439 candidates remain active provisionally across all confidence tiers. Candidate count is not asserted as the definitive number of printed lexicographic entries.
 
-Boundary review validates headword presence, article-start boundary and exact page placement. It does not by itself validate a complete article body or linguistic interpretation.
+Boundary review validates headword presence, article-start boundary and exact page placement. It does not by itself constitute independent linguistic or philological validation.
 
-`RHD-FR-006` lies wholly in the Rarámuri→German dictionary. Direct facsimile collation corrected substantial OCR distortion in the late R–T sequence and rejected two German gloss fragments that had been promoted mechanically to candidate boundaries: `Hinweg` inside `Segui` and `Immer` inside `Sinévi`. It also restored genuine Rarámuri headwords that disappeared in linear OCR, including `Tápoa` before the German gloss “Aufſpielen, Muſik machen.” Persistent IDs are retained and never recycled.
+`RHD-FR-006` and `RHD-FR-007` lie wholly in the Rarámuri→German dictionary. The final small cohort corrects a consequential OCR page drift: several candidates assigned mechanically to p. 369 actually occur on p. 368, while printed p. 369 begins the appendix. All nine final high-confidence candidates are genuine starts on p. 368.
 
 ## Page-layout reconstruction
 
-Printed pages 301–368 are modeled explicitly as 68 two-column pages. Layout files `data/facsimile/page_layout_301_317.csv`, `data/facsimile/page_layout_318_339.csv`, `data/facsimile/page_layout_340_357.csv`, `data/facsimile/page_layout_358_361.csv`, `data/facsimile/page_layout_362_365.csv` and `data/facsimile/page_layout_366_368.csv` preserve left/right reading order separately from OCR line order.
+Printed pages 301–368 are modeled explicitly as 68 two-column dictionary pages. Layout files `data/facsimile/page_layout_301_317.csv`, `data/facsimile/page_layout_318_339.csv`, `data/facsimile/page_layout_340_357.csv`, `data/facsimile/page_layout_358_361.csv`, `data/facsimile/page_layout_362_365.csv` and `data/facsimile/page_layout_366_368.csv` preserve left/right reading order separately from OCR line order.
 
-Printed p. 353 is the structural transition page where the German→Rarámuri dictionary concludes and the Rarámuri→German dictionary begins. The supplied OCR does not consistently preserve two-column reading order and can drift in page assignment; exact page placement in reviewed records therefore comes from the facsimile overlay.
+Printed p. 353 is the structural transition page where the German→Rarámuri dictionary concludes and the Rarámuri→German dictionary begins. Printed p. 369 begins the appendix and is therefore not added to the two-column dictionary-layout layer.
 
 ## Diplomatic transcription
 
-`RHD-DIP-001A`–`RHD-DIP-001E` cover all 86 accepted starts of `RHD-FR-001`; `RHD-DIP-002A`–`RHD-DIP-002B` cover all 85 of `RHD-FR-002`; `RHD-DIP-003A`–`RHD-DIP-003E` cover all 89 of `RHD-FR-003`; `RHD-DIP-004A`–`RHD-DIP-004E` cover all 90 of `RHD-FR-004`; and `RHD-DIP-005A`–`RHD-DIP-005F` cover all 96 of `RHD-FR-005`.
+`RHD-DIP-001A`–`RHD-DIP-001E` cover all 86 accepted starts of `RHD-FR-001`; `RHD-DIP-002A`–`RHD-DIP-002B` cover all 85 of `RHD-FR-002`; `RHD-DIP-003A`–`RHD-DIP-003E` cover all 89 of `RHD-FR-003`; `RHD-DIP-004A`–`RHD-DIP-004E` cover all 90 of `RHD-FR-004`; `RHD-DIP-005A`–`RHD-DIP-005F` cover all 96 of `RHD-FR-005`; and `RHD-DIP-006A`–`RHD-DIP-006D` cover all 98 of `RHD-FR-006`.
 
-`RHD-FR-006` is also complete at the AI-assisted diplomatic level. `RHD-DIP-006A`–`RHD-DIP-006D` add 98 complete article transcriptions across printed pp. 365–368. The cumulative diplomatic layer therefore contains **544 complete AI-assisted article transcriptions**, exactly matching the 544 accepted starts among the first 600 reviewed high-confidence candidates. The inventory currently records **276 records with an explicit uncertainty note**.
+`RHD-DIP-007A` covers the nine accepted starts in the final high-confidence cohort on p. 368. The cumulative diplomatic layer therefore contains **553 complete AI-assisted article transcriptions**, exactly matching every accepted start among all 609 `high_machine` candidates. The inventory currently records **284 records with an explicit uncertainty note**.
 
-Ambiguous diacritics and compact historical letter sequences are retained or flagged instead of silently normalized. All current diplomatic records remain `human_verified=false`; completion of this layer must not be described as independent philological or linguistic verification.
+Ambiguous diacritics and compact historical letter sequences are retained or flagged instead of silently normalized. All current diplomatic records remain `human_verified=false`; completion of the high-confidence AI-assisted layer must not be described as independent philological or linguistic verification.
 
 ## Next editorial stage
 
-The first six boundary-review cohorts are internally complete at the AI-assisted diplomatic level: 600 candidates reviewed, 544 accepted starts and 544 complete diplomatic overlays. The machine layer contains 609 `high_machine` candidates in total, so only **nine high-confidence candidates remain**. The next systematic stage is a final small cohort, `RHD-FR-007`, to exhaust that confidence tier before the project turns to the medium-confidence layer or independent human/linguistic validation.
+The `high_machine` tier is now exhausted at the AI-assisted facsimile and diplomatic levels. The next editorial decision is whether to begin systematic review of the **1,110 `medium_machine` candidates** or first establish an independent human/linguistic validation sample over the 553 accepted high-confidence articles. In either route, `full_diplomatic_transcription_completed` remains `false` because the complete 2,495-candidate machine layer has not been diplomatically resolved.
