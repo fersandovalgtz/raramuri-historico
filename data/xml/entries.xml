@@ -32360,7 +32360,7 @@ rue.</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01063" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01063" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Saitenſpiel</headword_raw>
     <headword_ocr_raw>Saitenſpiel</headword_ocr_raw>
@@ -32378,15 +32378,15 @@ rue.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Saitenſpiel</headword_diplomatic>
+    <article_diplomatic>Saitenſpiel, Ravéli. ſ. Geige.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
+    <diplomatic_note>Accent in `Ravéli` retained from visual reading; independent linguistic collation pending.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01064" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -32641,7 +32641,7 @@ rue.</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01073" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01073" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Sand</headword_raw>
     <headword_ocr_raw>Sand</headword_ocr_raw>
@@ -32670,17 +32670,17 @@ Deutſch Tarahumar'ſches</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Sand</headword_diplomatic>
+    <article_diplomatic>Sand, Saaté.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01074" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01074" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Sandig</headword_raw>
     <headword_ocr_raw>Sandig</headword_ocr_raw>
@@ -32698,17 +32698,17 @@ Deutſch Tarahumar'ſches</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Sandig</headword_diplomatic>
+    <article_diplomatic>Sandig, Saaéameke.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
+    <diplomatic_note>The Rarámuri equivalent is visually difficult; `Saaéameke` is a provisional facsimile reading.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01075" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01075" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Sanft</headword_raw>
     <headword_ocr_raw>Sanft</headword_ocr_raw>
@@ -32727,15 +32727,15 @@ liki. 7</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Sanft</headword_diplomatic>
+    <article_diplomatic>Sanft, das Nebenwort. Kelíki.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
+    <diplomatic_note>Rarámuri form retained provisionally from the facsimile.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01076" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -32850,7 +32850,7 @@ und Reutzeug⸗ f</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01080" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01080" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Saufer</headword_raw>
     <headword_ocr_raw>Saufer</headword_ocr_raw>
@@ -32868,15 +32868,15 @@ und Reutzeug⸗ f</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Saufer</headword_diplomatic>
+    <article_diplomatic>Saufer; Pahíameke.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01081" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -32934,7 +32934,7 @@ und Reutzeug⸗ f</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01083" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01083" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schaben</headword_raw>
     <headword_ocr_raw>Schaben</headword_ocr_raw>
@@ -32952,15 +32952,15 @@ und Reutzeug⸗ f</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schaben</headword_diplomatic>
+    <article_diplomatic>Schaben, Schucú.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01084" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -32990,7 +32990,7 @@ und Reutzeug⸗ f</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01085" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01085" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schaf</headword_raw>
     <headword_ocr_raw>Schaf Pouguacs ſ</headword_ocr_raw>
@@ -33008,15 +33008,15 @@ und Reutzeug⸗ f</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schaf</headword_diplomatic>
+    <article_diplomatic>Schaf. Pouguáca ſ. Lamm.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01086" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -33102,7 +33102,7 @@ und Reutzeug⸗ f</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01089" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01089" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schale</headword_raw>
     <headword_ocr_raw>Schale</headword_ocr_raw>
@@ -33120,17 +33120,17 @@ und Reutzeug⸗ f</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schale</headword_diplomatic>
+    <article_diplomatic>Schale, Rinde. Kachéla.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
+    <diplomatic_note>Final vowel sequence of the Rarámuri form remains pending independent collation.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01090" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01090" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Trinkſchale</headword_raw>
     <headword_ocr_raw>Trinkſchale ſ</headword_ocr_raw>
@@ -33148,17 +33148,17 @@ und Reutzeug⸗ f</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Trinkſchale</headword_diplomatic>
+    <article_diplomatic>Trinkſchale ſ. Becher.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01091" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01091" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schalf</headword_raw>
     <headword_ocr_raw>SOSE Tiei</headword_ocr_raw>
@@ -33176,15 +33176,15 @@ und Reutzeug⸗ f</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schalf</headword_diplomatic>
+    <article_diplomatic>Schalf. Tſei.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
+    <diplomatic_note>The final Fraktur glyph of the headword is retained as visually read (`Schalf`) and should be independently re-collated.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01092" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -33242,7 +33242,7 @@ und Reutzeug⸗ f</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01094" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01094" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schaͤtzen</headword_raw>
     <headword_ocr_raw>Schaͤtzen</headword_ocr_raw>
@@ -33260,15 +33260,15 @@ und Reutzeug⸗ f</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schätzen</headword_diplomatic>
+    <article_diplomatic>Schätzen, ehren, Noiné.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01095" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -33354,7 +33354,7 @@ und Reutzeug⸗ f</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01098" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01098" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Scheffel</headword_raw>
     <headword_ocr_raw>Scheffel</headword_ocr_raw>
@@ -33372,15 +33372,15 @@ und Reutzeug⸗ f</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Scheffel</headword_diplomatic>
+    <article_diplomatic>Scheffel, ſ. Getreidemaß.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01099" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -33495,7 +33495,7 @@ net mir, ich halte dafür.</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01103" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01103" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Scherben</headword_raw>
     <headword_ocr_raw>Scherben</headword_ocr_raw>
@@ -33517,15 +33517,15 @@ meke.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Scherben</headword_diplomatic>
+    <article_diplomatic>Scherben, zerbrochenes Geſchirr. Caſſiníki. Gaſſirúgameke.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
+    <diplomatic_note>Rarámuri accents and the second form are provisional visual readings.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01104" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -33583,7 +33583,7 @@ meke.</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01106" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01106" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Scherzen</headword_raw>
     <headword_ocr_raw>Scherzen</headword_ocr_raw>
@@ -33602,15 +33602,15 @@ im Scherz, te eja.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Scherzen</headword_diplomatic>
+    <article_diplomatic>Scherzen. Teejé. Scherzend, im Scherz, te ejá.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
+    <diplomatic_note>Rarámuri spacing and accents are retained provisionally.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01107" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -33724,7 +33724,7 @@ im Scherz, te eja.</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01111" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01111" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schilf</headword_raw>
     <headword_ocr_raw>Schilf</headword_ocr_raw>
@@ -33742,15 +33742,15 @@ im Scherz, te eja.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schilf</headword_diplomatic>
+    <article_diplomatic>Schilf, Guá.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01112" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -34135,7 +34135,7 @@ chleifen. Tichua,</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01122" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01122" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schlimm</headword_raw>
     <headword_ocr_raw>Schlimm</headword_ocr_raw>
@@ -34153,15 +34153,15 @@ chleifen. Tichua,</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schlimm</headword_diplomatic>
+    <article_diplomatic>Schlimm. Tſei. Schlimmer, Tſeibé.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01123" direction="DE-RAR" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -34191,7 +34191,7 @@ chleifen. Tichua,</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-01124" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01124" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schlinge</headword_raw>
     <headword_ocr_raw>Schlinge</headword_ocr_raw>
@@ -34209,17 +34209,17 @@ chleifen. Tichua,</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schlinge</headword_diplomatic>
+    <article_diplomatic>Schlinge. Buila. ſ. Strick.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01125" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01125" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schlingen</headword_raw>
     <headword_ocr_raw>Schlingen</headword_ocr_raw>
@@ -34237,17 +34237,17 @@ chleifen. Tichua,</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schlingen</headword_diplomatic>
+    <article_diplomatic>Schlingen. Guagua.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01126" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01126" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schlüſſel</headword_raw>
     <headword_ocr_raw>Schluͤſſel Epuläcc</headword_ocr_raw>
@@ -34265,17 +34265,17 @@ chleifen. Tichua,</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schlüſſel</headword_diplomatic>
+    <article_diplomatic>Schlüſſel Epuláca.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01127" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01127" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schmackhaft</headword_raw>
     <headword_ocr_raw>Schmackhaft</headword_ocr_raw>
@@ -34293,15 +34293,15 @@ chleifen. Tichua,</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schmackhaft</headword_diplomatic>
+    <article_diplomatic>Schmackhaft. Igué ga.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01128" direction="DE-RAR" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -34387,7 +34387,7 @@ chleifen. Tichua,</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01131" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01131" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schnee</headword_raw>
     <headword_ocr_raw>Schnee</headword_ocr_raw>
@@ -34405,17 +34405,17 @@ chleifen. Tichua,</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schnee</headword_diplomatic>
+    <article_diplomatic>Schnee. Kepáliki.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01132" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01132" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schneiden</headword_raw>
     <headword_ocr_raw>Schneiden</headword_ocr_raw>
@@ -34433,15 +34433,15 @@ chleifen. Tichua,</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schneiden</headword_diplomatic>
+    <article_diplomatic>Schneiden. Tepulá. Siká. Sich ſchneiden, guáki.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01133" direction="DE-RAR" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -34500,7 +34500,7 @@ chnell. Guslineke,</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01135" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01135" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schön</headword_raw>
     <headword_ocr_raw>Schön</headword_ocr_raw>
@@ -34518,15 +34518,15 @@ chnell. Guslineke,</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schön</headword_diplomatic>
+    <article_diplomatic>Schön. Galá.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01136" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -34584,7 +34584,7 @@ chnell. Guslineke,</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-01138" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-01138" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Schöpfer</headword_raw>
     <headword_ocr_raw>Schöpfer</headword_ocr_raw>
@@ -34627,15 +34627,15 @@ oder, es iſt ſchon gegangen.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Schöpfer</headword_diplomatic>
+    <article_diplomatic>Schöpfer. Nerejámeke.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-013A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-01139" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
