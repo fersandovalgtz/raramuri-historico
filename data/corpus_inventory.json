@@ -34,12 +34,10 @@
     "scope": "headword_and_entry_start_boundary",
     "method": "mixed_ai_assisted_editorial_collation",
     "methods": [
-      "primary_ocr_preverified_facsimile_layout_secondary_transcription_collation_ai_assisted",
-      "visual_facsimile_collation_ai_assisted"
+      "visual_facsimile_collation_ai_assisted",
+      "visual_facsimile_recollation_ai_assisted"
     ],
-    "direct_facsimile_image_recheck_pending_batches": [
-      "RHD-FR-022"
-    ],
+    "direct_facsimile_image_recheck_pending_batches": [],
     "full_diplomatic_transcription_completed": false
   },
   "diplomatic_transcription": {
