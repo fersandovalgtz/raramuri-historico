@@ -621,7 +621,7 @@
     {
       "path": "data/entries.csv",
       "bytes": 1768255,
-      "sha256": "da6a5e588e7370e80cdb704a7b38122a8c22bd77a8820160e204f2a3c097d6e2"
+      "sha256": "09bc46287bd117a5a8c43a47adeefcf88abd4cebe7175079fb460a13da7bf6c9"
     },
     {
       "path": "data/entries_curated.csv",
@@ -666,7 +666,7 @@
     {
       "path": "data/json/entries.json",
       "bytes": 3655215,
-      "sha256": "b97b10748c9c246272750c29345fe33f87fe98320c4853b5c03ed2ef6c079b35"
+      "sha256": "8ea3a9a9a8cffca346d6683c20b34ddce4460527fb2d3f05feef812e487ec165"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -676,7 +676,7 @@
     {
       "path": "data/raramuri_historico.sqlite",
       "bytes": 2236416,
-      "sha256": "7a43402ba21a92a4c6641c696a96072ebcbbd671edc17c016343c6ecd9314dfe"
+      "sha256": "38f25f0c98ea2af3a3d4a098b0cfe1ef4e8a762fcf055aa0271a577f6eac4498"
     },
     {
       "path": "data/review/README.md",
@@ -780,8 +780,8 @@
     },
     {
       "path": "data/review/facsimile_review_batch_020.json",
-      "bytes": 15181,
-      "sha256": "c874c51813812322f6cae2fdfd98b9db7d849a297e6cddf421d9167232c306d5"
+      "bytes": 15378,
+      "sha256": "24190490a405884ecbb9b7c087edcb095e31854548b2ae136b20843ed6c0b00a"
     },
     {
       "path": "data/review/next_review_queue.json",
@@ -806,12 +806,12 @@
     {
       "path": "data/xml/entries.xml",
       "bytes": 4265742,
-      "sha256": "0a2f35ef39ca2aa88c91bfec5ffd0a86f97daff66f5f15b9c2e2d788a94f41b2"
+      "sha256": "91d2d72327b75165bf8963115cda8102a1ccc3cc2a8b564ac1de8f82e31d8fb4"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
       "bytes": 1470228,
-      "sha256": "cb8096b02fa9b1bc5f575328fdaeae2e5551808a1c698fddb8ac2c30c6b34651"
+      "sha256": "c7c82281da07b830397cb53a14f861befaf922dbc1dfd201b2c122da3d69e094"
     },
     {
       "path": "external-references.json",
@@ -836,7 +836,7 @@
     {
       "path": "public/data/entries.json",
       "bytes": 3206114,
-      "sha256": "b92d2691a9f2d3f02abf7cd58144e9e2e77bd5e016bc0fc38485825b8f918772"
+      "sha256": "9cee24f5462c72f38cd9fb4e65d88e1f90aef60329d34e5a24ddc17c68ffcab2"
     },
     {
       "path": "public/data/metadata.json",
