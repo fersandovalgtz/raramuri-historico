@@ -22,8 +22,10 @@ This addresses a central methodological finding: the supplied OCR does not consi
 
 ## Diplomatic transcription
 
-The first boundary batch has been taken through article-text reconstruction. `RHD-DIP-001A`–`RHD-DIP-001E` provide complete AI-assisted diplomatic transcriptions for all **86 accepted starts in RHD-FR-001**. Source spelling and punctuation are retained; typographic line wrapping is generally not encoded. Twenty-seven of those records carry an explicit uncertainty note.
+`RHD-DIP-001A`–`RHD-DIP-001E` provide complete AI-assisted diplomatic transcriptions for all **86 accepted starts in RHD-FR-001**. Source spelling and punctuation are retained; typographic line wrapping is generally not encoded. Twenty-seven records in that first diplomatic sequence carry an explicit uncertainty note.
+
+`RHD-DIP-002A` begins the same reconstruction process for `RHD-FR-002`. It adds **42 complete, clearly bounded articles from printed page 338**, selected conservatively from the 85 accepted starts. The cumulative diplomatic layer therefore contains **128 complete AI-assisted article transcriptions**. Forty records currently carry explicit uncertainty notes across all diplomatic batches.
 
 All current diplomatic records remain `human_verified=false`. Completion of the AI-assisted transcription layer must not be described as independent philological or linguistic verification.
 
-`RHD-FR-002` has completed its boundary/page review: **85 accepted starts are now ready for page-layout-based diplomatic reconstruction**. The next editorial stage is to transcribe those accepted articles conservatively, beginning with short, clearly bounded entries, before moving to further boundary-review batches.
+There are **43 accepted RHD-FR-002 starts still awaiting diplomatic reconstruction**. The next editorial stage is to continue those articles page by page, retaining explicit uncertainty wherever the Fraktur print, diacritics, article extent or historical Rarámuri form is not sufficiently clear.
