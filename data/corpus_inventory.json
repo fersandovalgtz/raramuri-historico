@@ -38,9 +38,10 @@
   "diplomatic_transcription": {
     "batches": [
       "RHD-DIP-001A",
-      "RHD-DIP-001B"
+      "RHD-DIP-001B",
+      "RHD-DIP-001C"
     ],
-    "complete_article_transcriptions_ai_assisted": 41,
+    "complete_article_transcriptions_ai_assisted": 61,
     "pages_represented": [
       301,
       302,
@@ -50,9 +51,11 @@
       312,
       313,
       314,
-      315
+      315,
+      316,
+      317
     ],
-    "records_with_uncertainty_note": 3,
+    "records_with_uncertainty_note": 14,
     "method": "visual_facsimile_transcription_ai_assisted",
     "human_verified": false,
     "scope_note": "Complete article text for selected short entries; source spelling/punctuation retained; typographic line wrapping not encoded."
