@@ -8,16 +8,16 @@ This directory stores append-only editorial review batches applied on top of the
 
 ## Medium-confidence review
 
-`RHD-FR-008` reviews the first 100 `medium_machine` candidates on printed pp. 301–308: **72 accepted, 28 rejected and 9 corrections**. `RHD-FR-009` reviews the second 100 on printed pp. 308–315: **70 accepted, 30 rejected and 7 corrections**. Both cohorts have complete AI-assisted diplomatic coverage.
+`RHD-FR-008` reviews the first 100 `medium_machine` candidates on printed pp. 301–308: **72 accepted, 28 rejected and 9 corrections**. `RHD-FR-009` reviews the second 100 on printed pp. 308–315: **70 accepted, 30 rejected and 7 corrections**.
 
-`RHD-FR-010` reviews the third 100 `medium_machine` candidates in source order on printed pp. 315–322: **79 accepted, 21 rejected and 13 corrections**. Its accepted starts all have complete AI-assisted diplomatic overlays in `RHD-DIP-010A`–`RHD-DIP-010D`.
+`RHD-FR-010` reviews the third 100 on printed pp. 315–322: **79 accepted, 21 rejected and 13 corrections**. `RHD-FR-011` reviews the fourth 100 on printed pp. 322–327: **81 accepted, 19 rejected and 5 corrections**.
 
-`RHD-FR-011` reviews the fourth 100 `medium_machine` candidates in source order on printed pp. 322–327: **81 accepted article starts, 19 rejected false boundaries and 5 clear headword corrections**. The rejected candidates include cross-references, Rarámuri equivalents, OCR fragments and running prose inside longer articles. The five corrected headwords are `Harnen`, `Hochzeit`, `Hohl`, `Jemand` and `Kamiſol`; the latter corrects an OCR confusion of long `ſ` with `f`.
+`RHD-FR-012` reviews the fifth 100 `medium_machine` candidates in source order across printed pp. 328–338: **81 accepted article starts, 19 rejected false boundaries and 12 clear headword corrections**. Rejections include a page-bottom catchword, Rarámuri equivalents mis-segmented as German lemmas, cross-references, running prose inside long articles, page-header/column noise and OCR fragments. Clear corrected headwords include `Mager`, `Mantel`, `Matt`, `Meſſer`, `Niemals`, `Palmbaum`, `Papier`, `Pflug`, `Prieſter`, `Raubvogel`, `Raufen` and `Roſt`.
 
-`RHD-DIP-011A`–`RHD-DIP-011C` transcribe 72 accepted short/medium articles; `RHD-DIP-011D` completes the nine longer articles `Gras`, `Gries`, `Hart`, `Herr`, `Hinaus`, `Ja`, `Jahr`, `Kochen` and `Kranich`. Thus **all 81 accepted `RHD-FR-011` starts have complete AI-assisted diplomatic overlays**.
+`RHD-DIP-012A`–`RHD-DIP-012D` provide complete diplomatic overlays for **all 81 accepted `RHD-FR-012` starts**. Long articles that cross columns or pages are reconstructed from the facsimile rather than from linear OCR order. The 2020 critical edition listed in `SOURCES.md` is used only as a secondary collation aid for difficult passages; the Steffel facsimile remains authoritative.
 
-Cumulative status after `RHD-FR-011`: **1,009 candidates reviewed, 855 starts accepted, 154 false boundaries rejected, 332 clear headword corrections, 855 complete AI-assisted diplomatic articles and 2,341 active provisional candidates** out of the 2,495-candidate coverage layer.
+Cumulative status after `RHD-FR-012`: **1,109 candidates reviewed, 936 starts accepted, 173 false boundaries rejected, 344 clear headword corrections, 936 complete AI-assisted diplomatic articles and 2,322 active provisional candidates** out of the 2,495-candidate coverage layer.
 
 The scope of review batches is headword presence, article-start boundary and exact page placement. Accepted records move to `facsimile_checked_headword_ai_assisted` unless a diplomatic overlay supersedes that status. Rejected IDs are retained with `rejected_false_positive`. Diplomatic overlays use `diplomatic_transcription_ai_assisted`. None of these statuses should be interpreted as independently verified or as human linguistic validation.
 
-The machine inventory now contains **710 unreviewed `medium_machine` candidates** and 716 `low_machine` candidates. The next systematic review cohort is `RHD-FR-012`.
+The machine inventory now contains **610 unreviewed `medium_machine` candidates** and 716 `low_machine` candidates. The next systematic review cohort is `RHD-FR-013`.
