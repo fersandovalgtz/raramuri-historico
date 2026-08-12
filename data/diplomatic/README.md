@@ -6,14 +6,16 @@ Las transcripciones preservan la formulación y puntuación documentales sin cod
 
 `RHD-DIP-001A`–`RHD-DIP-007A` cubren los 553 arranques aceptados del nivel `high_machine`. Las series posteriores proporcionan cobertura completa para cada arranque aceptado en los lotes `medium_machine` revisados.
 
-`RHD-DIP-017A`–`RHD-DIP-017J` añaden **91 artículos completos** de `RHD-FR-017`, todos dentro de rarámuri→alemán y con arranques en pp. **360–364**. La serie incluye formas recuperadas como `Lála`, `Lessíameke`, `Moorápera`, `Nachtétuje`, `Nacuguíta`, `Nassípasic`, `Noitsámela`, `Ossanaguóameke`, `Pitschabúrameke`, `Rachtábatsáboa`, `Rauguelíki` y `Rhaná`.
+`RHD-DIP-018A`–`RHD-DIP-018I` añaden **87 artículos completos** de `RHD-FR-018`, localizados por cotejo en pp. **364–368**. La serie cubre el final documental del diccionario rarámuri→alemán y no incorpora material del apéndice de p. 369.
 
-La transcripción de `Putschíla` conserva `Putschíla, Brust, uber.` porque ésa es la lectura visual del facsímil; la última glosa alemana se marca como incierta para recotejo humano/filológico. La transcripción de Merrill et al. (2020, DOI `10.47807/UNISON.8`) funciona sólo como colación secundaria para grafías difíciles y nunca sustituye la evidencia facsimilar.
+Entre las formas recuperadas están `Rhenéke`, `R-guála`, `Schugiámeke`, `Sinépi putié`, `Tajenaságo`, `Telsiguála`, `Tótschi`, `Tschie`, `Tschulugéameke`, `Tlestatáccameke, oder Stácameke`, `Tulchilki`, `Vakítsi` y `Vassúritschi`. Nueve nuevos registros llevan notas explícitas para secuencias o diacríticos que requieren re-colación humana/filológica independiente.
 
-La capa acumulada contiene **1,365 transcripciones diplomáticas IA-asistidas**, exactamente los **1,365 arranques aceptados entre 1,609 candidatos cotejados**. El inventario registra **512 transcripciones con nota explícita de incertidumbre**. Todos los registros permanecen `human_verified=false`.
+La capa acumulada contiene **1,452 transcripciones diplomáticas IA-asistidas**, exactamente los **1,452 arranques aceptados entre 1,709 candidatos cotejados**. El inventario registra **521 transcripciones con nota explícita de incertidumbre**. Todos los registros permanecen `human_verified=false`.
+
+El cotejo FR-018 confirma que la última página lexicográfica es **p. 368** y que **p. 369 inicia el apéndice**. Esta frontera se conserva como dato editorial explícito; una asignación OCR a p. 369 no basta para tratar un candidato como artículo de diccionario.
 
 Los campos diplomáticos son aplicados por `scripts/apply_review_overrides.py` y propagados a JSON, XML, TEI, SQLite y la proyección pública. El OCR fuente no se modifica.
 
-La revisión de alta confianza y los primeros diez lotes `medium_machine` están completos a nivel de límites y transcripción diplomática IA-asistida. No es una conclusión global del corpus: quedan **110 `medium_machine`**, 716 `low_machine` y toda la validación humana/lingüística independiente.
+La revisión de alta confianza y los primeros once lotes `medium_machine` están completos a nivel de límites y transcripción diplomática IA-asistida. No es una conclusión global del corpus: quedan **10 `medium_machine`**, 716 `low_machine` y toda la validación humana/lingüística independiente.
 
-El siguiente lote es `RHD-FR-018`. Su cola alcanza automáticamente p. 369; dado que el diccionario termina en p. 368 y el apéndice comienza en p. 369, la próxima revisión deberá distinguir cuidadosamente entradas lexicográficas, catchwords y materiales del apéndice.
+El siguiente lote es `RHD-FR-019`, compuesto por los diez candidatos medios finales. Todos están etiquetados automáticamente como p. 369 y deberán cotejarse contra la frontera 368/369 antes de aceptar cualquier lectura como entrada lexicográfica.
