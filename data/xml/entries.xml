@@ -74635,14 +74635,14 @@ ene Salben. Schmie⸗</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-02459" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-02459" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Tichutfchü</headword_raw>
+    <headword_raw>Tſchutſchú</headword_raw>
     <headword_ocr_raw>Tichutfchü</headword_ocr_raw>
-    <headword_search>tichutfchue</headword_search>
+    <headword_search>tschutschu</headword_search>
     <definition_raw>Taback ſchmauchen, ſ. Tahack.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-007: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=368.</editorial_note>
     <article_ocr_raw>Tichutfchü, Taback ſchmauchen, 
 ſ. Tahack.</article_ocr_raw>
     <printed_page>368</printed_page>
@@ -74654,15 +74654,15 @@ ene Salben. Schmie⸗</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Tſchutſchú</headword_diplomatic>
+    <article_diplomatic>Tſchutſchú, Taback ſchmauchen, ſ. Taback.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-007A</diplomatic_batch>
+    <diplomatic_note>Historical tſch/long-s sequence retained; linguistic verification remains pending.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-02460" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -74692,14 +74692,14 @@ ene Salben. Schmie⸗</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-02461" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-02461" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Tfelixugi</headword_raw>
+    <headword_raw>Tſelixugi</headword_raw>
     <headword_ocr_raw>Tfelixugi</headword_ocr_raw>
-    <headword_search>tfelixugi</headword_search>
+    <headword_search>tselixugi</headword_search>
     <definition_raw>Verzeihen. Vergeben.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. The compact medial xug sequence is difficult in the scan; retained provisionally from the visible facsimile and OCR alignment, pending human linguistic collation. RHD-FR-007: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=368.</editorial_note>
     <article_ocr_raw>Tfelixugi, Verzeihen. Vergeben.</article_ocr_raw>
     <printed_page>368</printed_page>
     <pdf_page>78</pdf_page>
@@ -74710,24 +74710,24 @@ ene Salben. Schmie⸗</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Tſelixugi</headword_diplomatic>
+    <article_diplomatic>Tſelixugi, Verzeihen. Vergeben.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-007A</diplomatic_batch>
+    <diplomatic_note>The compact medial xug sequence is difficult in the scan; this reading is provisional pending human linguistic collation.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-02462" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-02462" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Tfelifapoli</headword_raw>
+    <headword_raw>Tſeliſapoli</headword_raw>
     <headword_ocr_raw>Tfelifapoli</headword_ocr_raw>
-    <headword_search>tfelifapoli</headword_search>
+    <headword_search>tselisapoli</headword_search>
     <definition_raw>Morgenſtern.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-007: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=368.</editorial_note>
     <article_ocr_raw>Tfelifapoli, Morgenſtern.</article_ocr_raw>
     <printed_page>368</printed_page>
     <pdf_page>78</pdf_page>
@@ -74738,24 +74738,24 @@ ene Salben. Schmie⸗</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Tſeliſapoli</headword_diplomatic>
+    <article_diplomatic>Tſeliſapoli, Morgenſtern.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-007A</diplomatic_batch>
+    <diplomatic_note>Historical long-s sequence retained.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-02463" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-02463" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Veniruje</headword_raw>
     <headword_ocr_raw>Veniruje</headword_ocr_raw>
     <headword_search>veniruje</headword_search>
     <definition_raw>Zahm wo ſich pi, 05</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-007: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=368.</editorial_note>
     <article_ocr_raw>Veniruje, Zahm 
 
 
@@ -74772,15 +74772,15 @@ pi, 05</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Veniruje</headword_diplomatic>
+    <article_diplomatic>Veniruje, Zahm machen.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-007A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-02464" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -74813,17 +74813,17 @@ Tarahumariſch⸗ Deutſches</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-02465" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-02465" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Tleſtäna</headword_raw>
+    <headword_raw>Tſeſtána</headword_raw>
     <headword_ocr_raw>Tleſtäna</headword_ocr_raw>
-    <headword_search>tlestaena</headword_search>
+    <headword_search>tsestana</headword_search>
     <definition_raw>Es if *</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-007: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=368.</editorial_note>
     <article_ocr_raw>Tleſtäna, Es if *</article_ocr_raw>
-    <printed_page>369</printed_page>
-    <pdf_page>79</pdf_page>
+    <printed_page>368</printed_page>
+    <pdf_page>78</pdf_page>
     <source_ocr_line_start>10219</source_ocr_line_start>
     <source_ocr_line_end>10219</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -74831,15 +74831,15 @@ Tarahumariſch⸗ Deutſches</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Tſeſtána</headword_diplomatic>
+    <article_diplomatic>Tſeſtána, Es iſt roth.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-007A</diplomatic_batch>
+    <diplomatic_note>Machine interpolation placed this candidate on p. 369; direct facsimile collation places it on p. 368. Historical long-s sequence retained.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-02466" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -74926,17 +74926,17 @@ ke. Roth, 5</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-02469" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-02469" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Tfetijoſa</headword_raw>
+    <headword_raw>Tſetijolá</headword_raw>
     <headword_ocr_raw>Tfetijoſa</headword_ocr_raw>
-    <headword_search>tfetijosa</headword_search>
+    <headword_search>tsetijola</headword_search>
     <definition_raw>Boͤſes thun.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-007: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=368.</editorial_note>
     <article_ocr_raw>Tfetijoſa, Boͤſes thun.</article_ocr_raw>
-    <printed_page>369</printed_page>
-    <pdf_page>79</pdf_page>
+    <printed_page>368</printed_page>
+    <pdf_page>78</pdf_page>
     <source_ocr_line_start>10226</source_ocr_line_start>
     <source_ocr_line_end>10228</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -74944,27 +74944,27 @@ ke. Roth, 5</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Tſetijolá</headword_diplomatic>
+    <article_diplomatic>Tſetijolá, Böſes thun.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-007A</diplomatic_batch>
+    <diplomatic_note>The headword diacritic and historical long-s in the German gloss are retained from the facsimile.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-02470" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-02470" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Tierijolajameke</headword_raw>
+    <headword_raw>Tſetijolájameke</headword_raw>
     <headword_ocr_raw>Tierijolajameke</headword_ocr_raw>
-    <headword_search>tierijolajameke</headword_search>
+    <headword_search>tsetijolajameke</headword_search>
     <definition_raw>Uebelthaͤter.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-007: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=368.</editorial_note>
     <article_ocr_raw>Tierijolajameke, Uebelthaͤter.</article_ocr_raw>
-    <printed_page>369</printed_page>
-    <pdf_page>79</pdf_page>
+    <printed_page>368</printed_page>
+    <pdf_page>78</pdf_page>
     <source_ocr_line_start>10229</source_ocr_line_start>
     <source_ocr_line_end>10229</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -74972,15 +74972,15 @@ ke. Roth, 5</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Tſetijolájameke</headword_diplomatic>
+    <article_diplomatic>Tſetijolájameke, Uebelthäter. Sünder.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-007A</diplomatic_batch>
+    <diplomatic_note>Long headword and accent placement remain pending independent linguistic verification.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-02471" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -75076,17 +75076,17 @@ Via</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-02474" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-02474" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Väcalchi</headword_raw>
+    <headword_raw>Vácalchi</headword_raw>
     <headword_ocr_raw>Väcalchi</headword_ocr_raw>
-    <headword_search>vaecalchi</headword_search>
+    <headword_search>vacalchi</headword_search>
     <definition_raw>Kuh. 5</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. The compact medial consonant sequence is read as Vácalchi from the facsimile and remains pending independent linguistic verification. RHD-FR-007: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=368.</editorial_note>
     <article_ocr_raw>Väcalchi, Kuh. 5</article_ocr_raw>
-    <printed_page>369</printed_page>
-    <pdf_page>79</pdf_page>
+    <printed_page>368</printed_page>
+    <pdf_page>78</pdf_page>
     <source_ocr_line_start>10247</source_ocr_line_start>
     <source_ocr_line_end>10247</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -75094,15 +75094,15 @@ Via</article_ocr_raw>
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Vácalchi</headword_diplomatic>
+    <article_diplomatic>Vácalchi, Kuh.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-007A</diplomatic_batch>
+    <diplomatic_note>The compact medial consonant sequence is visually read as Vácalchi and remains pending linguistic verification.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-02475" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -75590,17 +75590,17 @@ warmes
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-02492" direction="RAR-DE" status="machine_segmented_unverified">
+  <entry id="RHD-S1809-02492" direction="RAR-DE" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
-    <headword_raw>Vnechcä</headword_raw>
+    <headword_raw>Vuechcá</headword_raw>
     <headword_ocr_raw>Vnechcä</headword_ocr_raw>
-    <headword_search>vnechcae</headword_search>
+    <headword_search>vuechca</headword_search>
     <definition_raw>Viel.</definition_raw>
     <translation_es_editorial />
-    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar.</editorial_note>
+    <editorial_note>Segmentación automática de alta cobertura; límite de artículo y lectura OCR pendientes de cotejo facsimilar. RHD-FR-007: visual_facsimile_collation_ai_assisted; scope=headword_and_entry_start_boundary; exact_page=368.</editorial_note>
     <article_ocr_raw>Vnechcä , Viel.</article_ocr_raw>
-    <printed_page>369</printed_page>
-    <pdf_page>79</pdf_page>
+    <printed_page>368</printed_page>
+    <pdf_page>78</pdf_page>
     <source_ocr_line_start>10277</source_ocr_line_start>
     <source_ocr_line_end>10277</source_ocr_line_end>
     <delimiter>,</delimiter>
@@ -75608,15 +75608,15 @@ warmes
     <segmentation_confidence>high_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>pendiente_de_cotejo_facsímil_y_validación_lingüística</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Vuechcá</headword_diplomatic>
+    <article_diplomatic>Vuechcá, Viel.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-007A</diplomatic_batch>
+    <diplomatic_note>The OCR candidate Vnechcä is corrected by direct facsimile reading; final accent retained.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-02493" direction="RAR-DE" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
