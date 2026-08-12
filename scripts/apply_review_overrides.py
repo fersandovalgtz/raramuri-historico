@@ -2,8 +2,9 @@
 """Apply facsimile-review and diplomatic-transcription overlays.
 
 Editorial manifests are append-only evidence. Machine candidates keep persistent
-record IDs even when a boundary is rejected. AI-assisted visual review is kept
-explicitly distinct from human/philological verification.
+record IDs even when a boundary is rejected. AI-assisted editorial review is kept
+explicitly distinct from human/philological verification, and heterogeneous
+review methods are preserved rather than collapsed into a single visual claim.
 """
 from pathlib import Path
 import csv, json, re, unicodedata
@@ -43,6 +44,8 @@ by_id = {r["record_id"]: r for r in rows}
 
 reviewed = accepted = rejected = corrections = 0
 seen = set()
+review_methods = set()
+review_direct_image_pending_batches = []
 
 for path in sorted(REVIEW_DIR.glob("facsimile_review_batch_*.json")):
     manifest = json.load(path.open(encoding="utf-8"))
@@ -52,6 +55,10 @@ for path in sorted(REVIEW_DIR.glob("facsimile_review_batch_*.json")):
     note_map = manifest.get("notes", {})
     scope = manifest.get("review_scope", "")
     method = manifest.get("review_method", "")
+    if method:
+        review_methods.add(method)
+    if manifest.get("direct_facsimile_image_reinspection") is False:
+        review_direct_image_pending_batches.append(batch)
 
     for item in manifest.get("records", []):
         rid, printed_page = item
@@ -73,7 +80,7 @@ for path in sorted(REVIEW_DIR.glob("facsimile_review_batch_*.json")):
             if review_note:
                 note_parts.append(review_note)
             r["status"] = "rejected_false_positive"
-            r["validation"] = "rechazado_como_límite_lexicográfico_tras_cotejo_facsímil_ai_asistido"
+            r["validation"] = "rechazado_como_límite_lexicográfico_tras_revisión_editorial_ai_asistida"
         else:
             accepted += 1
             if rid in correction_map:
@@ -85,15 +92,17 @@ for path in sorted(REVIEW_DIR.glob("facsimile_review_batch_*.json")):
                 review_note = info.get("note", "").strip()
                 if review_note:
                     note_parts.append(review_note)
-            if rid in note_map and note_map[rid].strip():
+            if rid in note_map and isinstance(note_map[rid], str) and note_map[rid].strip():
                 note_parts.append(note_map[rid].strip())
             r["status"] = "facsimile_checked_headword_ai_assisted"
             r["validation"] = (
-                "cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;"
+                "revisión_editorial_de_lema_y_arranque_de_artículo_ai_asistida;"
                 "transcripción_diplomática_y_validación_lingüística_pendientes"
             )
 
         note_parts.append(f"{batch}: {method}; scope={scope}; exact_page={printed_page}.")
+        if manifest.get("direct_facsimile_image_reinspection") is False:
+            note_parts.append("Direct facsimile image re-collation pending for this batch.")
         r["editorial_note"] = " ".join(x for x in note_parts if x)
 
 dip_count = 0
@@ -101,12 +110,18 @@ dip_batches = []
 dip_pages = set()
 dip_uncertain = 0
 dip_seen = set()
+dip_methods = set()
+dip_direct_image_pending_batches = []
 for path in sorted(DIPLOMATIC_DIR.glob("diplomatic_batch_*.json")):
     manifest = json.load(path.open(encoding="utf-8"))
     batch = manifest["batch_id"]
     method = manifest.get("review_method", "")
     human_verified = bool(manifest.get("human_verified", False))
     dip_batches.append(batch)
+    if method:
+        dip_methods.add(method)
+    if manifest.get("direct_facsimile_image_reinspection") is False:
+        dip_direct_image_pending_batches.append(batch)
     for item in manifest.get("records", []):
         rid = item["record_id"]
         if rid in dip_seen:
@@ -130,9 +145,12 @@ for path in sorted(DIPLOMATIC_DIR.glob("diplomatic_batch_*.json")):
         r["diplomatic_review_method"] = method
         r["status"] = "diplomatic_transcription_ai_assisted"
         r["validation"] = (
-            "transcripción_diplomática_visual_ai_asistida;"
+            "transcripción_diplomática_ai_asistida;"
             "pendiente_de_validación_humana_y_lingüística"
         )
+        if manifest.get("direct_facsimile_image_reinspection") is False:
+            extra = "Direct facsimile image re-collation pending for this diplomatic batch."
+            r["diplomatic_note"] = " ".join(x for x in (r["diplomatic_note"], extra) if x)
         dip_count += 1
         dip_pages.add(page)
         if r["diplomatic_note"]:
@@ -144,6 +162,8 @@ with ENTRIES.open("w", encoding="utf-8", newline="") as f:
     w.writerows(rows)
 
 inv = json.load(INVENTORY.open(encoding="utf-8"))
+review_methods_sorted = sorted(review_methods)
+dip_methods_sorted = sorted(dip_methods)
 inv["facsimile_review"] = {
     "reviewed_candidate_boundaries": reviewed,
     "accepted_headword_starts": accepted,
@@ -151,7 +171,9 @@ inv["facsimile_review"] = {
     "headword_corrections": corrections,
     "active_candidates_after_review": len(rows) - rejected,
     "scope": "headword_and_entry_start_boundary",
-    "method": "visual_facsimile_collation_ai_assisted",
+    "method": review_methods_sorted[0] if len(review_methods_sorted) == 1 else "mixed_ai_assisted_editorial_collation",
+    "methods": review_methods_sorted,
+    "direct_facsimile_image_recheck_pending_batches": review_direct_image_pending_batches,
     "full_diplomatic_transcription_completed": False
 }
 inv["diplomatic_transcription"] = {
@@ -159,12 +181,15 @@ inv["diplomatic_transcription"] = {
     "complete_article_transcriptions_ai_assisted": dip_count,
     "pages_represented": sorted(dip_pages),
     "records_with_uncertainty_note": dip_uncertain,
-    "method": "visual_facsimile_transcription_ai_assisted",
+    "method": dip_methods_sorted[0] if len(dip_methods_sorted) == 1 else "mixed_ai_assisted_diplomatic_transcription",
+    "methods": dip_methods_sorted,
+    "direct_facsimile_image_recheck_pending_batches": dip_direct_image_pending_batches,
     "human_verified": False,
-    "scope_note": "Complete article text for selected short entries; source spelling/punctuation retained; typographic line wrapping not encoded."
+    "scope_note": "Complete article text for accepted records; source spelling/punctuation retained where supported; typographic line wrapping not encoded. Batches without direct facsimile image reinspection are explicitly flagged for later re-collation."
 }
 INVENTORY.write_text(json.dumps(inv, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(
     f"Applied {reviewed} boundary reviews: {accepted} accepted, {rejected} rejected, "
-    f"{corrections} corrections; {dip_count} complete AI-assisted diplomatic articles"
+    f"{corrections} corrections; {dip_count} complete AI-assisted diplomatic articles; "
+    f"direct-image recheck pending review batches={review_direct_image_pending_batches}"
 )
