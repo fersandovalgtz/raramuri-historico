@@ -20,23 +20,25 @@
     "candidate_entries_rar_de": 888,
     "curated_anchors": 60,
     "facsimile_pdf_pages": 84,
-    "facsimile_reviewed_candidate_boundaries": 1209,
-    "accepted_article_starts": 1019,
-    "rejected_false_positive_boundaries": 190,
-    "headword_corrections": 353,
-    "active_provisional_candidates": 2305,
-    "complete_diplomatic_transcriptions_ai_assisted": 1019,
-    "diplomatic_transcriptions_with_uncertainty_note": 452,
+    "facsimile_reviewed_candidate_boundaries": 1309,
+    "accepted_article_starts": 1100,
+    "rejected_false_positive_boundaries": 209,
+    "headword_corrections": 359,
+    "active_provisional_candidates": 2286,
+    "complete_diplomatic_transcriptions_ai_assisted": 1100,
+    "diplomatic_transcriptions_with_uncertainty_note": 485,
     "human_verified_diplomatic_transcriptions": 0,
-    "remaining_medium_machine_candidates": 510,
+    "remaining_medium_machine_candidates": 410,
     "remaining_low_machine_candidates": 716,
     "directions": ["German–Tarahumara", "Tarahumara–German"],
-    "status": "Complete OCR-range machine segmentation; high-confidence tier exhausted; first 600 medium-confidence candidates collated against facsimile; 1,019 accepted starts have complete AI-assisted diplomatic transcriptions; independent human/philological and linguistic validation pending"
+    "status": "Complete OCR-range machine segmentation; high-confidence tier exhausted; first 700 medium-confidence candidates collated against facsimile; 1,100 accepted starts have complete AI-assisted diplomatic transcriptions; independent human/philological and linguistic validation pending"
   },
   "editorial_pipeline": {
     "review_queue": "data/review/next_review_queue.json",
     "review_queue_method": "deterministic first-100 unreviewed source-order candidates; medium_machine before low_machine",
-    "review_queue_generator": "scripts/generate_review_queue.py"
+    "review_queue_generator": "scripts/generate_review_queue.py",
+    "next_systematic_batch": "RHD-FR-015",
+    "next_batch_note": "The next cohort crosses the printed p. 353 German–Rarámuri / Rarámuri–German transition and therefore requires explicit direction-aware facsimile collation."
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",
