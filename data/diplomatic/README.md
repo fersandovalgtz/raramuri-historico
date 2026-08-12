@@ -1,15 +1,17 @@
 # Diplomatic transcription layer
 
-Este directorio contiene overlays editoriales append-only producidos mediante comparación visual directa con el facsímil Steffel 1809. El facsímil es autoritativo; el OCR se conserva como evidencia secundaria y nunca como fuente de verdad para límites, página, columna o lectura del artículo. Todos los registros actuales tienen `human_verified=false`.
+Este directorio contiene overlays editoriales append-only. El facsímil Steffel 1809 continúa siendo la autoridad editorial, pero el método efectivo de cada lote se conserva explícitamente: la mayor parte de la serie fue producida por comparación visual directa; `RHD-DIP-022A`–`RHD-DIP-022G` constituyen una excepción documental pendiente de recotejo directo de imagen. Todos los registros actuales tienen `human_verified=false`.
 
-La cobertura diplomática está completa para los niveles `high_machine` y `medium_machine`. La serie `RHD-DIP-020A`–`RHD-DIP-021E` cubre además todos los arranques aceptados en los primeros **200 candidatos `low_machine`**.
+La cobertura diplomática está completa para todos los arranques aceptados hasta `RHD-FR-022`. La capa acumulada contiene **1,611 transcripciones diplomáticas IA-asistidas**, exactamente los 1,611 arranques aceptados entre 2,019 candidatos revisados.
 
-`RHD-DIP-021A`–`RHD-DIP-021E` añaden **41 artículos completos** de `RHD-FR-021`, localizados por cotejo en pp. **315–326** dentro de una cohorte de límites que abarca pp. 314–326. Entre ellos figuran `Erſchrecken`, `Flachs`, `Friſch`, `Früh`, `Gegenwart`, `Großvater`, `Hernach`, `Heurathen`, `Hügel`, `Hülſenfrucht`, `Ich`, `Jenſeits des Fluſſes`, `Klein` y `Kienholz zum Brennen`.
+`RHD-DIP-022A`–`RHD-DIP-022G` añaden **69 artículos completos** localizados en pp. **326–333**, entre ellos `Kraut`, `Leopard`, `Mädchen`, `Lernen`, `Löffel`, `Machen`, `Maulſchelle`, `Mutter`, `Nachfolgen` y `Nachgehen`. Artículos extensos como `Leopard`, `Mädchen` y `Mutter` se conservan como unidades completas, sin convertir sus frases internas en nuevos lemas.
 
-La capa acumulada contiene **1,542 transcripciones diplomáticas IA-asistidas**, exactamente los 1,542 arranques aceptados entre 1,919 candidatos cotejados. El inventario registra **553 transcripciones con nota explícita de incertidumbre**. Las notas se reservan para dificultades documentales reales —diacríticos, secuencias rarámuri o reconstrucción de formas partidas por salto de línea— y no se añaden automáticamente por pertenecer al nivel bajo.
+## Proveniencia de RHD-DIP-022A–G
 
-`Hülſenfrucht` e `Ich` ejemplifican artículos densos preservados como unidades completas; las formas difíciles se mantienen como lectura diplomática provisional, no como normalización lingüística. `Hügel` documenta además una reparación de lema contra el OCR (`Hüte`).
+Las imágenes directas del facsímil no estuvieron disponibles en el runtime de estos siete sublotes. Las transcripciones se reconstruyeron mediante el OCR primario preservado, la arquitectura de página/columnas que ya había sido verificada visualmente y la transcripción académica de la versión publicada sólo como colación secundaria. Cada manifiesto lleva `direct_facsimile_image_reinspection=false` y el método `primary_ocr_preverified_facsimile_layout_secondary_transcription_ai_assisted`.
 
-Merrill et al. (2020, DOI `10.47807/UNISON.8`) se usa únicamente como colación secundaria. Las particularidades del impreso no se normalizan silenciosamente. Los campos diplomáticos se aplican mediante `scripts/apply_review_overrides.py` y se propagan a JSON, XML, TEI, SQLite y la proyección pública.
+El pipeline registra ahora la capa global como `mixed_ai_assisted_diplomatic_transcription`, conserva la lista de métodos y enumera `RHD-DIP-022A`–`G` entre los lotes pendientes de recotejo directo. Los **622 registros con nota de incertidumbre** incluyen por diseño los 69 de FR-022, para que esta obligación metodológica viaje con cada registro hacia CSV, JSON, XML, TEI, SQLite y la proyección pública.
 
-El corpus no está globalmente terminado: quedan **516 `low_machine`** y toda la validación humana/lingüística independiente. El siguiente lote es `RHD-FR-022`, desde `RHD-S1809-00789` hasta `RHD-S1809-00964`.
+Las particularidades del impreso no se normalizan silenciosamente. Las lecturas difíciles se mantienen como provisionales hasta cotejo directo de imagen y validación filológica/lingüística independiente.
+
+El corpus no está globalmente terminado: quedan **416 `low_machine`** y toda la validación humana/lingüística independiente. El siguiente lote es `RHD-FR-023`, desde `RHD-S1809-00965` hasta `RHD-S1809-01238`.
