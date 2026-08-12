@@ -7,8 +7,8 @@
   <img src="https://img.shields.io/badge/dataset-0.2.0-172033?style=flat-square" alt="Dataset 0.2.0">
   <img src="https://img.shields.io/badge/fuente-Steffel%201809-7a263a?style=flat-square" alt="Steffel 1809">
   <img src="https://img.shields.io/badge/candidatos%20segmentados-2%2C495-2d6a4f?style=flat-square" alt="2,495 candidate entries">
-  <img src="https://img.shields.io/badge/l%C3%ADmites%20cotejados-1%2C009-b7791f?style=flat-square" alt="1,009 boundaries reviewed">
-  <img src="https://img.shields.io/badge/art%C3%ADculos%20diplom%C3%A1ticos%20AI--asistidos-855-455B55?style=flat-square" alt="855 AI-assisted diplomatic articles">
+  <img src="https://img.shields.io/badge/l%C3%ADmites%20cotejados-1%2C109-b7791f?style=flat-square" alt="1,109 boundaries reviewed">
+  <img src="https://img.shields.io/badge/art%C3%ADculos%20diplom%C3%A1ticos%20AI--asistidos-936-455B55?style=flat-square" alt="936 AI-assisted diplomatic articles">
   <img src="https://img.shields.io/badge/c%C3%B3digo-MIT-172033?style=flat-square" alt="MIT">
 </p>
 
@@ -24,13 +24,15 @@ La segmentación de alta cobertura contiene **2,495 candidatos de artículo lexi
 
 El número 2,495 no se presenta como conteo filológico definitivo. La tipografía Fraktur, errores del OCR y el diseño a dos columnas producen límites candidatos que pueden dividir o unir artículos incorrectamente. Por ello el proyecto separa explícitamente cobertura automática, cotejo facsimilar, transcripción diplomática y futura validación lingüística.
 
-A través de `RHD-FR-001`–`RHD-FR-011` se han cotejado visualmente **1,009 límites candidatos**: **855 arranques de artículo fueron aceptados**, **154 falsos límites rechazados** y **332 lemas recibieron correcciones claras**. Los identificadores de los límites rechazados se preservan y nunca se reciclan. La capa activa queda provisionalmente en **2,341 candidatos**.
+A través de `RHD-FR-001`–`RHD-FR-012` se han cotejado visualmente **1,109 límites candidatos**: **936 arranques de artículo fueron aceptados**, **173 falsos límites rechazados** y **344 lemas recibieron correcciones claras**. Los identificadores de los límites rechazados se preservan y nunca se reciclan. La capa activa queda provisionalmente en **2,322 candidatos**.
 
-La totalidad de los **609 candidatos `high_machine`** ya fue resuelta. También se revisaron los primeros **400 de 1,110 candidatos `medium_machine`**. Restan 710 candidatos de confianza media y posteriormente 716 candidatos `low_machine`.
+La totalidad de los **609 candidatos `high_machine`** ya fue resuelta. También se revisaron los primeros **500 de 1,110 candidatos `medium_machine`**: 383 arranques aceptados y 117 falsos límites. Restan **610 candidatos de confianza media** y posteriormente 716 candidatos `low_machine`.
 
 ## Capa diplomática
 
-Los **855 arranques aceptados entre los 1,009 candidatos cotejados** cuentan con transcripción diplomática completa IA-asistida. La serie `RHD-DIP-001A`–`RHD-DIP-011D` conserva grafía y puntuación históricas y documenta de forma explícita las lecturas inciertas. El inventario registra actualmente **390 transcripciones con una nota de incertidumbre**.
+Los **936 arranques aceptados entre los 1,109 candidatos cotejados** cuentan con transcripción diplomática completa IA-asistida. La serie `RHD-DIP-001A`–`RHD-DIP-012D` conserva grafía y puntuación históricas y documenta de forma explícita las lecturas inciertas. El inventario registra actualmente **424 transcripciones con una nota de incertidumbre**.
+
+En los artículos extensos o especialmente difíciles, la lectura del facsímil puede cotejarse adicionalmente con la edición crítica contemporánea de Merrill et al. (2020), ya documentada en `SOURCES.md`; ese cotejo funciona como evidencia secundaria y nunca sustituye al facsímil de 1809 como fuente autoritativa del proyecto.
 
 Estos registros usan el estado `diplomatic_transcription_ai_assisted`. **No se presentan como verificación humana**: todos mantienen `human_verified=false` y la revisión filológica y lingüística independiente continúa pendiente.
 
@@ -42,9 +44,9 @@ La regla editorial es:
 
 - `data/entries.csv`: capa maestra integral con overlays editoriales.
 - `data/entries_curated.csv`: 60 anclas iniciales con identificadores persistentes.
-- `data/review/`: manifiestos append-only de revisión de límites y lemas (`RHD-FR-001`–`RHD-FR-011`).
+- `data/review/`: manifiestos append-only de revisión de límites y lemas (`RHD-FR-001`–`RHD-FR-012`).
 - `data/facsimile/`: modelo explícito de columnas para las 68 páginas lexicográficas impresas 301–368.
-- `data/diplomatic/`: transcripciones diplomáticas IA-asistidas de los 855 artículos aceptados hasta `RHD-FR-011`.
+- `data/diplomatic/`: transcripciones diplomáticas IA-asistidas de los 936 artículos aceptados hasta `RHD-FR-012`.
 - `data/ocr_dictionary_lines.csv`: capa de auditoría de líneas OCR.
 - `data/corpus_inventory.json`: conteos, rangos y progreso editorial.
 - `data/json/entries.json`, `data/xml/entries.xml`, `data/xml/steffel-1809-tei-machine.xml` y `data/raramuri_historico.sqlite`: serializaciones derivadas.
