@@ -18,6 +18,6 @@ The higher false-positive rate is methodologically informative. Rejections inclu
 
 Cumulative status after `RHD-FR-008`: **709 candidates reviewed, 625 starts accepted, 84 false boundaries rejected, 308 clear headword corrections, 619 complete AI-assisted diplomatic articles and 2,411 active provisional candidates** out of the 2,495-candidate coverage layer.
 
-The scope of review batches is headword presence, article-start boundary and exact page placement. Accepted records move to `facsimile_checked_headword_ai_assisted` unless a diplomatic overlay supersedes that status. Rejected IDs are retained with `rejected_false_positive`. Diplomatic overlays use `diplomatic_transcription_ai_assisted`. None of these statuses should be interpreted as `diplomatic_verified` or as human linguistic validation.
+The scope of review batches is headword presence, article-start boundary and exact page placement. Accepted records move to `facsimile_checked_headword_ai_assisted` unless a diplomatic overlay supersedes that status. Rejected IDs are retained with `rejected_false_positive`. Diplomatic overlays use `diplomatic_transcription_ai_assisted`. None of these statuses should be interpreted as independently verified or as human linguistic validation.
 
 The machine inventory still contains 1,010 unreviewed `medium_machine` candidates and 716 `low_machine` candidates. The next conservative step is to finish the six deferred long articles before opening another medium-confidence review cohort.
