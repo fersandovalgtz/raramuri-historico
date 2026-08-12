@@ -90,9 +90,10 @@
       "RHD-DIP-012D",
       "RHD-DIP-013A",
       "RHD-DIP-013B",
-      "RHD-DIP-013C"
+      "RHD-DIP-013C",
+      "RHD-DIP-013D"
     ],
-    "complete_article_transcriptions_ai_assisted": 993,
+    "complete_article_transcriptions_ai_assisted": 1006,
     "pages_represented": [
       301,
       302,
@@ -132,6 +133,7 @@
       340,
       341,
       342,
+      343,
       346,
       350,
       353,
@@ -151,7 +153,7 @@
       367,
       368
     ],
-    "records_with_uncertainty_note": 442,
+    "records_with_uncertainty_note": 447,
     "method": "visual_facsimile_transcription_ai_assisted",
     "human_verified": false,
     "scope_note": "Complete article text for selected short entries; source spelling/punctuation retained; typographic line wrapping not encoded."
