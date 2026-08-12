@@ -39,6 +39,11 @@
     ],
     "status": "Complete OCR-range machine segmentation; high-confidence tier exhausted; first 500 medium-confidence candidates collated against facsimile; 936 accepted starts have complete AI-assisted diplomatic transcriptions; independent human/philological and linguistic validation pending"
   },
+  "editorial_pipeline": {
+    "review_queue": "data/review/next_review_queue.json",
+    "review_queue_method": "deterministic first-100 unreviewed source-order candidates; medium_machine before low_machine",
+    "review_queue_generator": "scripts/generate_review_queue.py"
+  },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",
     "orcid": "0000-0002-3168-6725",
