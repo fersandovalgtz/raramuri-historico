@@ -14,10 +14,12 @@ Rarámuri Histórico Digital maintains eight append-only boundary-review batches
 | `RHD-FR-006` | 100 | 98 | 2 | 91 | 365–368 |
 | `RHD-FR-007` | 9 | 9 | 0 | 8 | 368 |
 | **High-confidence tier** | **609** | **553** | **56** | **298** | **301–368** |
-| `RHD-FR-008` · first `medium_machine` cohort | 100 | 72 | 28 | 10 | 301–308 |
-| **Cumulative reviewed corpus** | **709** | **625** | **84** | **308** | **301–368** |
+| `RHD-FR-008` · first `medium_machine` cohort | 100 | 72 | 28 | 9 | 301–308 |
+| **Cumulative reviewed corpus** | **709** | **625** | **84** | **307** | **301–368** |
 
 The coverage-first machine layer remains 2,495 candidates. All 609 `high_machine` candidates have been resolved at the boundary-review level. `RHD-FR-008` opens systematic review of the 1,110-candidate `medium_machine` tier and confirms the expected change in error profile: 28 of its first 100 machine candidates are wrapped glosses, Rarámuri forms, running prose, OCR fragments or page-transition carry-over rather than independent article starts. Rejected IDs remain persistent and are never recycled, leaving **2,411 active provisional candidates** across all confidence tiers.
+
+A refined facsimile re-check withdrew one initially proposed correction: `RHD-S1809-00107` is printed as `Apatſchee`; the immediately following `Apatſche.` belongs to the article body. The persistent ID is unchanged and the correction count is therefore 9 for `RHD-FR-008`, 307 cumulatively.
 
 Boundary review validates headword presence, article-start boundary and exact page placement. It does not by itself constitute independent linguistic or philological validation.
 
@@ -31,10 +33,10 @@ Printed p. 353 is the structural transition page where the German→Rarámuri di
 
 `RHD-DIP-001A`–`RHD-DIP-007A` provide complete AI-assisted diplomatic coverage for all **553 accepted starts in the exhausted `high_machine` tier**.
 
-For `RHD-FR-008`, `RHD-DIP-008A`–`RHD-DIP-008D` add **66 complete short-article transcriptions** from printed pp. 301–308. Six accepted long articles are deliberately deferred for separate full reconstruction rather than forcing incomplete bodies: `Aloe`, `Apatſche`, `Baden`, `Backſtube`, `Bär` and `Beſitzen`. Thus `RHD-FR-008` is complete at the boundary-review level and currently **66/72 complete at the diplomatic level**.
+`RHD-DIP-008A`–`RHD-DIP-008D` add 66 complete short-article transcriptions from `RHD-FR-008`. `RHD-DIP-008E` completes the six long articles that required multi-column or multi-page reconstruction: `Aloe`, `Apatſchee`, `Baden`, `Backſtube`, `Bär` and `Beſitzen`. `RHD-FR-008` is therefore now **72/72 complete at the AI-assisted diplomatic level**.
 
-The cumulative diplomatic layer contains **619 complete AI-assisted article transcriptions**. The inventory records **302 records with an explicit uncertainty note**. All current diplomatic records remain `human_verified=false`; none should be described as independently philologically or linguistically verified.
+The cumulative diplomatic layer contains **625 complete AI-assisted article transcriptions**, exactly matching the **625 accepted starts among the 709 candidates reviewed to date**. The inventory records **308 records with an explicit uncertainty note**. All current diplomatic records remain `human_verified=false`; none should be described as independently philologically or linguistically verified.
 
 ## Next editorial stage
 
-Before opening the second medium-confidence cohort, the conservative next step is to reconstruct and transcribe the six deferred long `RHD-FR-008` articles from their complete facsimile spans. Global `full_diplomatic_transcription_completed` remains `false`.
+The next systematic stage is `RHD-FR-009`: review the next 100 unreviewed `medium_machine` candidates in source order, applying the same facsimile-first boundary, page, column and diplomatic-transcription protocol. Global `full_diplomatic_transcription_completed` remains `false`.
