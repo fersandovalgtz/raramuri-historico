@@ -26,11 +26,11 @@
   },
   "methodological_note": "Candidate count is not asserted as the definitive lexicographic entry count. Coverage-first machine segmentation intentionally favors recall; every machine candidate remains unverified until facsimile collation.",
   "facsimile_review": {
-    "reviewed_candidate_boundaries": 400,
-    "accepted_headword_starts": 350,
-    "rejected_false_positive_boundaries": 50,
-    "headword_corrections": 109,
-    "active_candidates_after_review": 2445,
+    "reviewed_candidate_boundaries": 500,
+    "accepted_headword_starts": 446,
+    "rejected_false_positive_boundaries": 54,
+    "headword_corrections": 199,
+    "active_candidates_after_review": 2441,
     "scope": "headword_and_entry_start_boundary",
     "method": "visual_facsimile_collation_ai_assisted",
     "full_diplomatic_transcription_completed": false
@@ -53,9 +53,15 @@
       "RHD-DIP-004B",
       "RHD-DIP-004C",
       "RHD-DIP-004D",
-      "RHD-DIP-004E"
+      "RHD-DIP-004E",
+      "RHD-DIP-005A",
+      "RHD-DIP-005B",
+      "RHD-DIP-005C",
+      "RHD-DIP-005D",
+      "RHD-DIP-005E",
+      "RHD-DIP-005F"
     ],
-    "complete_article_transcriptions_ai_assisted": 350,
+    "complete_article_transcriptions_ai_assisted": 446,
     "pages_represented": [
       301,
       302,
@@ -97,9 +103,13 @@
       358,
       359,
       360,
-      361
+      361,
+      362,
+      363,
+      364,
+      365
     ],
-    "records_with_uncertainty_note": 174,
+    "records_with_uncertainty_note": 229,
     "method": "visual_facsimile_transcription_ai_assisted",
     "human_verified": false,
     "scope_note": "Complete article text for selected short entries; source spelling/punctuation retained; typographic line wrapping not encoded."

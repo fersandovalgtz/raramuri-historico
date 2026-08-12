@@ -130,8 +130,8 @@
     },
     {
       "path": "data/corpus_inventory.json",
-      "bytes": 2420,
-      "sha256": "e8a7e0ced206de86414483af34ed8eb8cc3b4d946a8c264b0ca40396ca659ba2"
+      "bytes": 2596,
+      "sha256": "5cdd7640d499da1bd339ea828605a582be34a864de909bc191623963b842cee1"
     },
     {
       "path": "data/correspondences_template.csv",
@@ -229,9 +229,39 @@
       "sha256": "0edd1d13107571aa198246aec044e21db1f2e84d7786e44d46a610a7f4d26587"
     },
     {
+      "path": "data/diplomatic/diplomatic_batch_018.json",
+      "bytes": 3778,
+      "sha256": "09b9c826ebf3ec412f1ac9bc168f0248246821b6072b5b4c7fae70dd2155ac11"
+    },
+    {
+      "path": "data/diplomatic/diplomatic_batch_019.json",
+      "bytes": 7479,
+      "sha256": "8d89c7c18f94dc326d81fe076cce4c90449d78c21df7fc57034e2847db89d420"
+    },
+    {
+      "path": "data/diplomatic/diplomatic_batch_020.json",
+      "bytes": 7424,
+      "sha256": "23d52984975a9faa2cff1028888fbde972adc4c89eeca7dbb6699895ee4d70f4"
+    },
+    {
+      "path": "data/diplomatic/diplomatic_batch_021.json",
+      "bytes": 4293,
+      "sha256": "fd274a38019e28e8047c6f6a02b442c2b5528c698736a115ba6a972a9ef4343b"
+    },
+    {
+      "path": "data/diplomatic/diplomatic_batch_022.json",
+      "bytes": 6577,
+      "sha256": "823f48b86e59a8de489f714f16d036d833e30f92c60ceb12b8fa3cfd551f9a20"
+    },
+    {
+      "path": "data/diplomatic/diplomatic_batch_023.json",
+      "bytes": 2494,
+      "sha256": "4840f7511225be811e5e79c8cced7f67d59fe8f45938b049bab897a05866adad"
+    },
+    {
       "path": "data/entries.csv",
-      "bytes": 1316932,
-      "sha256": "4954238d9ecee487c82227d8db785edff1e657c222039b0f85b58c5cbc7e8769"
+      "bytes": 1348919,
+      "sha256": "64cec5c5f2b14c780065c8c928878633c7a620a420ec1f2532ba02b33dd3fba4"
     },
     {
       "path": "data/entries_curated.csv",
@@ -264,9 +294,14 @@
       "sha256": "991494a16bb656a9a8b4fba3f7eacceb9aa08355bea7b2a72c35cf899fa66b4f"
     },
     {
+      "path": "data/facsimile/page_layout_362_365.csv",
+      "bytes": 2223,
+      "sha256": "1b462a10b16c149ebe61c9dfd5f61f2936558eacca5a31112c26823357e0324d"
+    },
+    {
       "path": "data/json/entries.json",
-      "bytes": 3206060,
-      "sha256": "c0254443faa3d625b4bddf8004b6dab68fc24b62dddb131b7622863e5e6127d7"
+      "bytes": 3237849,
+      "sha256": "24ac123342aaad22e85e569cd4f87fc2b6ff62d66d09e73e0a342bf870bc1676"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -275,8 +310,8 @@
     },
     {
       "path": "data/raramuri_historico.sqlite",
-      "bytes": 1675264,
-      "sha256": "39b2d528624670ce8a513cf6c703d73f61d732c16197eb8044b4964b71780c38"
+      "bytes": 1716224,
+      "sha256": "a9e5d967de21c032d06125b08a14fd72e85d274209b0e068a6bcf8584339c14f"
     },
     {
       "path": "data/review/README.md",
@@ -304,6 +339,11 @@
       "sha256": "2fc79638ae78bf7acb6e3aa0c81cdf8c5a0a5db55cc7260b03d04dff31b22f41"
     },
     {
+      "path": "data/review/facsimile_review_batch_005.json",
+      "bytes": 9789,
+      "sha256": "7a40206059bd477e29c38c7e228223c80f58b887f13b990ea8bb278169d4db86"
+    },
+    {
       "path": "data/sections/appendix-and-numerals-ocr.txt",
       "bytes": 4793,
       "sha256": "fe82be2809078775797ff8d80d612aa290e78098ac0af3ab1f19cd48a9908d68"
@@ -315,13 +355,13 @@
     },
     {
       "path": "data/xml/entries.xml",
-      "bytes": 3665493,
-      "sha256": "5d80aa79d93d4de4b80ea0e214b3aca7550afea9d08ca63ef07d379603ee3eed"
+      "bytes": 3710738,
+      "sha256": "b357fe36eceabcd391e8d89879f11a6d93d5267f6590fbf34ced139a731408f5"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
-      "bytes": 1073730,
-      "sha256": "e1938529852e7d535ba734858cfbee19cc4acfe53fd2415d3ae12ce5d1569012"
+      "bytes": 1104619,
+      "sha256": "32999ba06b54cc5b63e68f5644294de69a217f8a0bd0e312cb1eb608237ca053"
     },
     {
       "path": "external-references.json",
@@ -345,8 +385,8 @@
     },
     {
       "path": "public/data/entries.json",
-      "bytes": 2756959,
-      "sha256": "019c754a39dfd894ac539dfbc8385363eca3df720bbe23020ed386c3c8e545a6"
+      "bytes": 2788748,
+      "sha256": "fd674e8b51160042b2038bd542697e9904cf077557857509358d117ec4b0c615"
     },
     {
       "path": "public/data/metadata.json",
