@@ -1,6 +1,6 @@
 # Facsimile collation and diplomatic transcription status
 
-Rarámuri Histórico Digital mantiene veintiún lotes append-only de revisión de límites. Todo el cotejo visual actual es IA-asistido y permanece explícitamente separado de la futura validación humana, filológica y lingüística independiente.
+Rarámuri Histórico Digital mantiene veintidós lotes append-only de revisión de límites. La revisión actual es IA-asistida y permanece explícitamente separada de la futura validación humana, filológica y lingüística independiente. Los métodos de evidencia se conservan por lote: FR-001–FR-021 incluyen cotejo visual directo; FR-022 queda señalado para recotejo directo de imagen.
 
 ## Boundary-review results
 
@@ -10,21 +10,26 @@ Rarámuri Histórico Digital mantiene veintiún lotes append-only de revisión d
 | `RHD-FR-008`–`RHD-FR-019` · medium | 1,110 | 908 | 202 | 366 | 301–368 |
 | `RHD-FR-020` · low | 100 | 40 | 60 | 8 | 301–314 |
 | `RHD-FR-021` · low | 100 | 41 | 59 | 5 | 314–326 |
-| **Low-confidence reviewed** | **200** | **81** | **119** | **13** | **301–326** |
-| **Cumulative reviewed corpus** | **1,919** | **1,542** | **377** | **677** | **301–368** |
+| `RHD-FR-022` · low | 100 | 69 | 31 | 4 | 326–333 |
+| **Low-confidence reviewed** | **300** | **150** | **150** | **17** | **301–333** |
+| **Cumulative reviewed corpus** | **2,019** | **1,611** | **408** | **681** | **301–368** |
 
-Los niveles `high_machine` y `medium_machine` están agotados. De los 716 candidatos `low_machine`, se han resuelto **200** y quedan **516**. La capa activa provisional contiene **2,118 candidatos** de los 2,495 originales.
+Los niveles `high_machine` y `medium_machine` están agotados. De los 716 candidatos `low_machine`, se han resuelto **300** y quedan **416**. La capa activa provisional contiene **2,087 candidatos** de los 2,495 originales.
 
-`RHD-FR-021` mantiene el perfil de depuración intensiva: **41 %** de los candidatos son arranques reales y **59 %** falsos límites. El facsímil corrige la extensión automática pp. 316–326 a **pp. 314–326** y reajusta la página de **37 registros**.
+`RHD-FR-022` presenta un perfil menos ruidoso que FR-020/021: **69 %** de los candidatos se retienen como arranques y **31 %** se rechazan. La alineación corrige pp. 327–334 a **pp. 326–333**, con **61 reajustes de página**. Las cuatro correcciones de lema son `Knüttel`, `Koſt`, `Kriegen` y `Lehrling`.
 
-Las cinco correcciones de lema son `Flachs`, `Forttragen`, `Hügel`, `Hurtig` y `Jenſeits des Fluſſes`. Los rechazos comprenden prosa de `Ente`, `Feige indianiſche`, `Fiſchen`, `Fliege`, `Fragen`, `Gebirg`, `Getränk` y `Gries`, además de ejemplos, equivalentes rarámuri y repeticiones internas. `Heil` (`RHD-S1809-00671`) se rechaza como catchword de p. 323; el artículo auténtico inicia en p. 324 bajo otro ID.
+### Provenance exception: RHD-FR-022
+
+Las imágenes directas del facsímil no estuvieron disponibles en el runtime que produjo FR-022. Este lote se apoya en el OCR primario preservado, en la arquitectura de página/columnas que ya había sido verificada visualmente y en una transcripción académica de la versión publicada sólo como colación secundaria. Por esa razón el manifiesto contiene `direct_facsimile_image_reinspection=false` y el inventario lo enumera en `direct_facsimile_image_recheck_pending_batches`. No debe describirse como cotejo visual directo ni como validación humana.
+
+El pipeline conserva ahora esta heterogeneidad bajo `mixed_ai_assisted_editorial_collation` y registra las metodologías efectivamente usadas.
 
 ## Diplomatic transcription
 
-`RHD-DIP-021A`–`RHD-DIP-021E` aportan **41 transcripciones completas** para todos los arranques aceptados de FR-021. La capa acumulada contiene **1,542 artículos diplomáticos IA-asistidos** y **553 notas explícitas de incertidumbre**. Todos los registros permanecen `human_verified=false`.
+`RHD-DIP-022A`–`RHD-DIP-022G` aportan **69 transcripciones completas** para todos los arranques aceptados de FR-022. La capa acumulada contiene **1,611 artículos diplomáticos IA-asistidos** y **622 notas explícitas de incertidumbre**. Los 69 registros nuevos incluyen una nota de recotejo directo de imagen, de modo que no se confunda reconstrucción documental con inspección visual del testimonio.
 
-La frontera documental sigue fijada en p. 368 / p. 369. El facsímil es autoritativo y Merrill et al. (2020) se usa sólo como ayuda secundaria de colación.
+Todos los registros permanecen `human_verified=false`. La frontera documental sigue fijada en p. 368 / p. 369.
 
 ## Next editorial stage
 
-La siguiente etapa es **`RHD-FR-022`**, tercer lote `low_machine`: 100 candidatos de los 516 restantes, desde `RHD-S1809-00789` (`Kieſelſtein`) hasta `RHD-S1809-00964` (OCR `C | ſondere bedeutet eine ver`), estimados alrededor de pp. **327–334**. Global `full_diplomatic_transcription_completed` continúa en `false`.
+La siguiente etapa es **`RHD-FR-023`**, cuarto lote `low_machine`: 100 candidatos de los 416 restantes, desde `RHD-S1809-00965` (`Nachſehen`) hasta `RHD-S1809-01238` (`Spielplatz`), estimados alrededor de pp. **334–343**. Global `full_diplomatic_transcription_completed` continúa en `false`.
