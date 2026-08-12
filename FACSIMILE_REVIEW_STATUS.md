@@ -27,10 +27,10 @@ The supplied OCR does not consistently preserve the reading order of Steffel's t
 
 `RHD-DIP-001A`–`RHD-DIP-001E` provide complete AI-assisted diplomatic transcriptions for all **86 accepted starts in RHD-FR-001**. `RHD-DIP-002A` and `RHD-DIP-002B` provide the same coverage for all **85 accepted starts in RHD-FR-002**.
 
-`RHD-DIP-003A` starts the diplomatic reconstruction of `RHD-FR-003` with **14 complete articles from printed p. 357**, in the Rarámuri→German section. The cumulative diplomatic layer therefore contains **185 complete AI-assisted article transcriptions**. Seventy-four records carry an explicit uncertainty note. Source spelling and punctuation are retained; typographic line wrapping is generally not encoded.
+`RHD-DIP-003A` adds 14 complete articles from printed p. 357. `RHD-DIP-003B` adds another **23 clearly bounded articles from printed p. 356**. One accepted p. 356 record (`Cuviruſi`) is deliberately deferred because its printed cross-reference is visually truncated/ambiguous. The cumulative diplomatic layer now contains **208 complete AI-assisted article transcriptions**. Eighty-nine records carry an explicit uncertainty note.
 
 All current diplomatic records remain `human_verified=false`. Completion of the AI-assisted transcription layer must not be described as independent philological or linguistic verification.
 
 ## Next editorial stage
 
-`RHD-FR-003` has **75 accepted starts still awaiting diplomatic reconstruction**. The next stage is to continue backwards through the dense inverse-dictionary pages 356 and 355, then resolve the remaining accepted German→Rarámuri articles on pp. 340–352, preserving explicit uncertainty wherever the facsimile does not support a confident reading.
+`RHD-FR-003` has **52 accepted starts still awaiting diplomatic reconstruction**. The next stage is to resolve the deferred p. 356 record conservatively, continue through the dense inverse-dictionary material on p. 355, and then transcribe the remaining accepted German→Rarámuri articles on pp. 340–352, preserving explicit uncertainty wherever the facsimile does not support a confident reading.
