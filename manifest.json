@@ -130,8 +130,8 @@
     },
     {
       "path": "data/corpus_inventory.json",
-      "bytes": 3623,
-      "sha256": "1e41a94f4cfff85d29af0a003cc084c1deaabcdae78b69827d8c3920be2b1616"
+      "bytes": 3656,
+      "sha256": "f18e8e0982b19ed2b419b0bacdbed92191ff631794e974127fa2feea6fd1c2a7"
     },
     {
       "path": "data/correspondences_template.csv",
@@ -449,9 +449,14 @@
       "sha256": "f3e6779308d926c2e5f3a280d33c3644be4027a6e5e8fdcda8f5b3697ef840ff"
     },
     {
+      "path": "data/diplomatic/diplomatic_batch_062.json",
+      "bytes": 7146,
+      "sha256": "479a61e873e72504c312c6d476af278bb6d4a620312ba5c4acb3f233cf1dfe41"
+    },
+    {
       "path": "data/entries.csv",
-      "bytes": 1650364,
-      "sha256": "6c2f5e78607d11c1acb93851a324bfa761e732509a6c2a5c50cdfcf2e9bcbbb3"
+      "bytes": 1653426,
+      "sha256": "b576aec991072d2657ee09314b7a1bf0aae9dd2e757a95bf3a3a95f2bb038836"
     },
     {
       "path": "data/entries_curated.csv",
@@ -495,8 +500,8 @@
     },
     {
       "path": "data/json/entries.json",
-      "bytes": 3538136,
-      "sha256": "36999b4a9921c840bb0a1eee26996badef6ac247c94b7373cd11532c3c973654"
+      "bytes": 3541156,
+      "sha256": "62f52b586a30f58040135d3d3dd4adfa8af47592e0827ae9ab4273a31ac786d6"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -506,7 +511,7 @@
     {
       "path": "data/raramuri_historico.sqlite",
       "bytes": 2097152,
-      "sha256": "9644183d268a356a0e9adcaacab43a6229dc663ff54ab3e1d05c9b4ead15026b"
+      "sha256": "521117b3b4f1a1e78eeadac3bf735fc686541f4c8011cb8656e1bfbaa8c60aca"
     },
     {
       "path": "data/review/README.md",
@@ -610,13 +615,13 @@
     },
     {
       "path": "data/xml/entries.xml",
-      "bytes": 4100800,
-      "sha256": "5b35dbfea3fc32aa6417528e4b46238858e0b8ce0d475b6db7766222a303f904"
+      "bytes": 4106731,
+      "sha256": "82a9e3c2a3ef277ac9c686a5389e5f2631133f242d303d2449f08bdb640d5703"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
-      "bytes": 1351019,
-      "sha256": "2f85bb5ccc78f33fc145f3cf3b981ef66e6de57692425fff3e5d6925da6cd683"
+      "bytes": 1358606,
+      "sha256": "4e316b2276453bf89b6e56a586ffd7efddccb451e306c4d7e838ea59edad14f8"
     },
     {
       "path": "external-references.json",
@@ -640,8 +645,8 @@
     },
     {
       "path": "public/data/entries.json",
-      "bytes": 3089035,
-      "sha256": "2731c8ae78deb6271e45711b162d594a0d8e282e48baad549a7945ac5f7dd4d6"
+      "bytes": 3092055,
+      "sha256": "5f1f66a6df3464b0f066e8793ebcf8141172b629c63bc2d99bdb420956bd7e67"
     },
     {
       "path": "public/data/metadata.json",
