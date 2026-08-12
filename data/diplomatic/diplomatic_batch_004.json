@@ -1,0 +1,217 @@
+{
+  "batch_id": "RHD-DIP-001D",
+  "title": "Fourth complete diplomatic article-text transcription batch",
+  "review_date": "2026-08-11",
+  "transcription_scope": "complete article text for visually bounded entries; source spelling and punctuation retained; typographic line wrapping not encoded",
+  "review_method": "visual_facsimile_transcription_ai_assisted",
+  "review_agent": "OpenAI ChatGPT GPT-5.6 Sol",
+  "human_verified": false,
+  "provenance_note": "AI-assisted visual transcription from the supplied Steffel facsimile. The facsimile is authoritative; supplied OCR was used only as a reading aid. Ambiguities are explicitly flagged and remain pending independent human/philological and linguistic verification.",
+  "records": [
+    {
+      "record_id": "RHD-S1809-00081",
+      "printed_page": 302,
+      "pdf_page": 12,
+      "column": "left",
+      "headword_diplomatic": "Alſo",
+      "article_diplomatic": "Alſo. Có oder gó iſt bey den Tarahumaren eine angehängte Sylbe am Ende des Worts. z. B. geh alſo, simi-gó. Warte alſo ein wenig, pugué rachpéco, item coſſi.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "The final Rarámuri example coſſi and accentuation remain pending human verification."
+    },
+    {
+      "record_id": "RHD-S1809-00116",
+      "printed_page": 304,
+      "pdf_page": 14,
+      "column": "left",
+      "headword_diplomatic": "Arbeit",
+      "article_diplomatic": "Arbeit. Inoitsánali, oder noitsánali.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "The initial I and accentuation of the Rarámuri forms are retained from visual reading and remain pending human verification."
+    },
+    {
+      "record_id": "RHD-S1809-00150",
+      "printed_page": 305,
+      "pdf_page": 15,
+      "column": "left",
+      "headword_diplomatic": "Backenſtreich",
+      "article_diplomatic": "Backenſtreich. Tſchotſchonála.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00177",
+      "printed_page": 307,
+      "pdf_page": 17,
+      "column": "left",
+      "headword_diplomatic": "Bart",
+      "article_diplomatic": "Bart. Etſchaguala.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "The medial long-s/ch sequence is retained as Etſchaguala from the facsimile and remains pending human verification."
+    },
+    {
+      "record_id": "RHD-S1809-00183",
+      "printed_page": 307,
+      "pdf_page": 17,
+      "column": "left",
+      "headword_diplomatic": "Bauch",
+      "article_diplomatic": "Bauch. Rhopala.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "Possible accentuation in the Rarámuri form is not encoded because it is not sufficiently clear in the facsimile."
+    },
+    {
+      "record_id": "RHD-S1809-00191",
+      "printed_page": 308,
+      "pdf_page": 18,
+      "column": "right",
+      "headword_diplomatic": "Baumfrüchte",
+      "article_diplomatic": "Baumfrüchte. Khutugála.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00203",
+      "printed_page": 308,
+      "pdf_page": 18,
+      "column": "left",
+      "headword_diplomatic": "Begehren",
+      "article_diplomatic": "Begehren. Elá. Tani.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00235",
+      "printed_page": 308,
+      "pdf_page": 18,
+      "column": "right",
+      "headword_diplomatic": "Beſchauen",
+      "article_diplomatic": "Beſchauen. Nené. Ketegué.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00243",
+      "printed_page": 308,
+      "pdf_page": 18,
+      "column": "right",
+      "headword_diplomatic": "Bein",
+      "article_diplomatic": "Bein. Hoſchila.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "The medial long-s/ch sequence in Hoſchila is visually compact and remains pending human verification."
+    },
+    {
+      "record_id": "RHD-S1809-00272",
+      "printed_page": 309,
+      "pdf_page": 19,
+      "column": "right",
+      "headword_diplomatic": "Blatt",
+      "article_diplomatic": "Blatt. Bacaguáca. Blatt eines Buches. Hoſſeliki, ſ. Papier.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00274",
+      "printed_page": 309,
+      "pdf_page": 19,
+      "column": "right",
+      "headword_diplomatic": "Blau",
+      "article_diplomatic": "Blau. Schiógameke.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00275",
+      "printed_page": 309,
+      "pdf_page": 19,
+      "column": "right",
+      "headword_diplomatic": "Blech",
+      "article_diplomatic": "Blech. Guenomi tſchipérameke, das heißt, ein dünnes Metall.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00279",
+      "printed_page": 309,
+      "pdf_page": 19,
+      "column": "right",
+      "headword_diplomatic": "Blut",
+      "article_diplomatic": "Blut. Das Menſchenblut heißt eláca, anderes Blut aber nennet man nur láca.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "The scan is weak at the word before láca; nur is the current facsimile reading and should be checked independently."
+    },
+    {
+      "record_id": "RHD-S1809-00287",
+      "printed_page": 310,
+      "pdf_page": 20,
+      "column": "left",
+      "headword_diplomatic": "Bös",
+      "article_diplomatic": "Bös. Tſetí. Böſes thun. Tſetijolá.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00289",
+      "printed_page": 310,
+      "pdf_page": 20,
+      "column": "left",
+      "headword_diplomatic": "Bothſchaft bringen",
+      "article_diplomatic": "Bothſchaft bringen. Matſchiruje.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00299",
+      "printed_page": 310,
+      "pdf_page": 20,
+      "column": "left",
+      "headword_diplomatic": "Bringen",
+      "article_diplomatic": "Bringen. Tó. Brings her, caió, oder guácoró.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "The first imperative form after Brings her is visually close to caió; accentuation remains pending human verification."
+    },
+    {
+      "record_id": "RHD-S1809-00310",
+      "printed_page": 311,
+      "pdf_page": 21,
+      "column": "left",
+      "headword_diplomatic": "Brunſt",
+      "article_diplomatic": "Brunſt. Náiki.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00321",
+      "printed_page": 312,
+      "pdf_page": 22,
+      "column": "left",
+      "headword_diplomatic": "Decken",
+      "article_diplomatic": "Decken. Pole. Gedeckt, Polirúgameke.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    },
+    {
+      "record_id": "RHD-S1809-00324",
+      "printed_page": 312,
+      "pdf_page": 22,
+      "column": "left",
+      "headword_diplomatic": "Derswegen",
+      "article_diplomatic": "Derswegen. Colaguitaje. Kepunaguitaje. Elaguitaje. Ichetaje. Hipéguitaje. Kibeláguitaje. Etſeguitaje.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": "Several closely set Rarámuri variants should be checked independently for accent placement and individual consonants."
+    },
+    {
+      "record_id": "RHD-S1809-00384",
+      "printed_page": 313,
+      "pdf_page": 23,
+      "column": "right",
+      "headword_diplomatic": "Eigen",
+      "article_diplomatic": "Eigen. Wenn ſie ſagen wollen: das iſt mir eigen, das iſt mein, ſo drücken ſie ſich ſo aus: nehe bonoje naligué.",
+      "transcription_status": "complete_ai_assisted",
+      "uncertainty_note": ""
+    }
+  ],
+  "summary": {
+    "complete_article_transcriptions": 20,
+    "pages_represented": [302, 304, 305, 307, 308, 309, 310, 311, 312, 313],
+    "human_verified": 0
+  }
+}
