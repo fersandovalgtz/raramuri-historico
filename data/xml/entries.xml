@@ -731,7 +731,7 @@ A N 8</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-00070" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00070" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Ackern</headword_raw>
     <headword_ocr_raw>Adern</headword_ocr_raw>
@@ -757,15 +757,15 @@ kenden iſt. 5</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Ackern</headword_diplomatic>
+    <article_diplomatic>Ackern. Baſſará. Es muß geackert werden. Baſſaráboa. Das boa iſt ein Hülfswort der leidenden Bedeutung, wie das mela in der wirkenden iſt.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00017" direction="DE-RAR" status="seed_curated_ocr_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -943,7 +943,7 @@ pilspitso. 4</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-00071" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00071" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Allgegenwärtig</headword_raw>
     <headword_ocr_raw>Allgegenwaͤrtig</headword_ocr_raw>
@@ -966,15 +966,15 @@ gatlamgeke,
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Allgegenwärtig</headword_diplomatic>
+    <article_diplomatic>Allgegenwärtig. Jumáguetſi gaiungake.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
+    <diplomatic_note>The second Rarámuri word is difficult in the scan; read provisionally as `gaiungake` pending human linguistic collation.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00072" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -1480,7 +1480,7 @@ pugue rachpeco, item cofli.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-00085" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00085" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Alt</headword_raw>
     <headword_ocr_raw>Alt</headword_ocr_raw>
@@ -1501,15 +1501,15 @@ rameke. Ein altes. Weib,</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>left</facsimile_column>
+    <headword_diplomatic>Alt</headword_diplomatic>
+    <article_diplomatic>Alt. Ein alter Mann, Aſchérameke. Ein altes Weib, Guelameke.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00086" direction="DE-RAR" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
@@ -1542,7 +1542,7 @@ Vor Alters. Cosée Kiaca,</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-00087" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00087" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Ameiſe</headword_raw>
     <headword_ocr_raw>Ameiſe</headword_ocr_raw>
@@ -1560,15 +1560,15 @@ Vor Alters. Cosée Kiaca,</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Ameiſe</headword_diplomatic>
+    <article_diplomatic>Ameiſe. Motſáca.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00088" direction="DE-RAR" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
@@ -1657,7 +1657,7 @@ Vor Alters. Cosée Kiaca,</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00091" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00091" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Andeuten</headword_raw>
     <headword_ocr_raw>Andeuten</headword_ocr_raw>
@@ -1675,15 +1675,15 @@ Vor Alters. Cosée Kiaca,</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Andeuten</headword_diplomatic>
+    <article_diplomatic>Andeuten. Nagueſſá.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00092" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
@@ -1769,7 +1769,7 @@ Vor Alters. Cosée Kiaca,</article_ocr_raw>
     <human_verified>false</human_verified>
     <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00095" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00095" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Anfüllen</headword_raw>
     <headword_ocr_raw>Anfüllen</headword_ocr_raw>
@@ -1788,17 +1788,17 @@ füllt. Potschirne, RINGE</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Anfüllen</headword_diplomatic>
+    <article_diplomatic>Anfüllen. Potſchí. Es iſt angefüllt. Pótſchiruc.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00096" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00096" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Angeſicht</headword_raw>
     <headword_ocr_raw>Angeſicht</headword_ocr_raw>
@@ -1816,17 +1816,17 @@ füllt. Potschirne, RINGE</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Angeſicht</headword_diplomatic>
+    <article_diplomatic>Angeſicht. Retéguala.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00097" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00097" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Anhäufen</headword_raw>
     <headword_ocr_raw>Anhaͤufen</headword_ocr_raw>
@@ -1845,17 +1845,17 @@ haͤuft. Napavitschi.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
-    <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Anhäufen</headword_diplomatic>
+    <article_diplomatic>Anhäufen. Napabú. Angehäuft. Napaviruchi.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
+    <diplomatic_note>The compact final sequence of the second Rarámuri form is difficult; `Napaviruchi` is a provisional facsimile reading.</diplomatic_note>
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00098" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00098" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Anhöhe</headword_raw>
     <headword_ocr_raw>Anhoͤhe</headword_ocr_raw>
@@ -1873,17 +1873,17 @@ haͤuft. Napavitschi.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Anhöhe</headword_diplomatic>
+    <article_diplomatic>Anhöhe. Reguiguiki.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00099" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00099" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Ankündigen</headword_raw>
     <headword_ocr_raw>Ankuͤndigen</headword_ocr_raw>
@@ -1901,17 +1901,17 @@ haͤuft. Napavitschi.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Ankündigen</headword_diplomatic>
+    <article_diplomatic>Ankündigen. Nagueſſá.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00100" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00100" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Annehmen</headword_raw>
     <headword_ocr_raw>Annehmen</headword_ocr_raw>
@@ -1932,17 +1932,17 @@ haͤuft. Napavitschi.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Annehmen</headword_diplomatic>
+    <article_diplomatic>Annehmen. Guiki.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00101" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00101" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Anſchauen</headword_raw>
     <headword_ocr_raw>Anſchauen</headword_ocr_raw>
@@ -1960,15 +1960,15 @@ haͤuft. Napavitschi.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Anſchauen, anſehen</headword_diplomatic>
+    <article_diplomatic>Anſchauen, anſehen. Nené, Reteguá.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00102" direction="DE-RAR" status="rejected_false_positive">
     <source_code>STEFFEL-1809</source_code>
@@ -1998,7 +1998,7 @@ haͤuft. Napavitschi.</article_ocr_raw>
     <human_verified />
     <diplomatic_review_method />
   </entry>
-  <entry id="RHD-S1809-00103" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00103" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Anſtreichen</headword_raw>
     <headword_ocr_raw>Anſtreichen</headword_ocr_raw>
@@ -2016,17 +2016,17 @@ haͤuft. Napavitschi.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Anſtreichen</headword_diplomatic>
+    <article_diplomatic>Anſtreichen. Sauguéra.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
-  <entry id="RHD-S1809-00104" direction="DE-RAR" status="facsimile_checked_headword_ai_assisted">
+  <entry id="RHD-S1809-00104" direction="DE-RAR" status="diplomatic_transcription_ai_assisted">
     <source_code>STEFFEL-1809</source_code>
     <headword_raw>Antworten</headword_raw>
     <headword_ocr_raw>Antworten</headword_ocr_raw>
@@ -2044,15 +2044,15 @@ haͤuft. Napavitschi.</article_ocr_raw>
     <segmentation_confidence>medium_machine</segmentation_confidence>
     <curated_anchor>no</curated_anchor>
     <extraction_method>coverage-first OCR line segmentation v1</extraction_method>
-    <validation>cotejo_facsímil_de_lema_y_arranque_de_artículo_ai_asistido;transcripción_diplomática_y_validación_lingüística_pendientes</validation>
-    <facsimile_column />
-    <headword_diplomatic />
-    <article_diplomatic />
-    <diplomatic_status />
-    <diplomatic_batch />
+    <validation>transcripción_diplomática_visual_ai_asistida;pendiente_de_validación_humana_y_lingüística</validation>
+    <facsimile_column>right</facsimile_column>
+    <headword_diplomatic>Antworten</headword_diplomatic>
+    <article_diplomatic>Antworten. Nehajamera.</article_diplomatic>
+    <diplomatic_status>complete_ai_assisted</diplomatic_status>
+    <diplomatic_batch>RHD-DIP-008A</diplomatic_batch>
     <diplomatic_note />
-    <human_verified />
-    <diplomatic_review_method />
+    <human_verified>false</human_verified>
+    <diplomatic_review_method>visual_facsimile_transcription_ai_assisted</diplomatic_review_method>
   </entry>
   <entry id="RHD-S1809-00105" direction="DE-RAR" status="machine_segmented_unverified">
     <source_code>STEFFEL-1809</source_code>
