@@ -2,908 +2,908 @@
   "generated_from": "data/entries.csv + data/review/facsimile_review_batch_*.json",
   "selection_rule": "first 100 unreviewed records in source/record order, medium_machine before low_machine",
   "tier": "medium_machine",
-  "remaining_before_batch": 210,
+  "remaining_before_batch": 110,
   "count": 100,
   "records": [
     {
-      "record_id": "RHD-S1809-01989",
+      "record_id": "RHD-S1809-02234",
       "direction": "RAR-DE",
-      "headword_raw": "Lala",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8845,
-      "source_ocr_line_end": 8845
-    },
-    {
-      "record_id": "RHD-S1809-01990",
-      "direction": "RAR-DE",
-      "headword_raw": "Lavaca",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8846,
-      "source_ocr_line_end": 8846
-    },
-    {
-      "record_id": "RHD-S1809-01991",
-      "direction": "RAR-DE",
-      "headword_raw": "Leisı",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8847,
-      "source_ocr_line_end": 8848
-    },
-    {
-      "record_id": "RHD-S1809-01992",
-      "direction": "RAR-DE",
-      "headword_raw": "Le'siameke",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8849,
-      "source_ocr_line_end": 8849
-    },
-    {
-      "record_id": "RHD-S1809-01993",
-      "direction": "RAR-DE",
-      "headword_raw": "Lelsſbs",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8850,
-      "source_ocr_line_end": 8852
-    },
-    {
-      "record_id": "RHD-S1809-01995",
-      "direction": "RAR-DE",
-      "headword_raw": "Lo ui Raſen",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8859,
-      "source_ocr_line_end": 8860
-    },
-    {
-      "record_id": "RHD-S1809-01998",
-      "direction": "RAR-DE",
-      "headword_raw": "Lhinisi",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8868,
-      "source_ocr_line_end": 8875
-    },
-    {
-      "record_id": "RHD-S1809-02000",
-      "direction": "RAR-DE",
-      "headword_raw": "Maga",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8877,
-      "source_ocr_line_end": 8877
-    },
-    {
-      "record_id": "RHD-S1809-02005",
-      "direction": "RAR-DE",
-      "headword_raw": "Brod",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8897,
-      "source_ocr_line_end": 8898
-    },
-    {
-      "record_id": "RHD-S1809-02010",
-      "direction": "RAR-DE",
-      "headword_raw": "Mechcea",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8922,
-      "source_ocr_line_end": 8930
-    },
-    {
-      "record_id": "RHD-S1809-02011",
-      "direction": "RAR-DE",
-      "headword_raw": "Melirügameße",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8931,
-      "source_ocr_line_end": 8935
-    },
-    {
-      "record_id": "RHD-S1809-02013",
-      "direction": "RAR-DE",
-      "headword_raw": "Möla",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8938,
-      "source_ocr_line_end": 8939
-    },
-    {
-      "record_id": "RHD-S1809-02014",
-      "direction": "RAR-DE",
-      "headword_raw": "Mehr",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8940,
-      "source_ocr_line_end": 8940
-    },
-    {
-      "record_id": "RHD-S1809-02015",
-      "direction": "RAR-DE",
-      "headword_raw": "Mole",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8941,
-      "source_ocr_line_end": 8941
-    },
-    {
-      "record_id": "RHD-S1809-02016",
-      "direction": "RAR-DE",
-      "headword_raw": "Moleke",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8942,
-      "source_ocr_line_end": 8942
-    },
-    {
-      "record_id": "RHD-S1809-02017",
-      "direction": "RAR-DE",
-      "headword_raw": "Moble",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8943,
-      "source_ocr_line_end": 8943
-    },
-    {
-      "record_id": "RHD-S1809-02018",
-      "direction": "RAR-DE",
-      "headword_raw": "Noorapera",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8944,
-      "source_ocr_line_end": 8944
-    },
-    {
-      "record_id": "RHD-S1809-02019",
-      "direction": "RAR-DE",
-      "headword_raw": "Motladca",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8945,
-      "source_ocr_line_end": 8945
-    },
-    {
-      "record_id": "RHD-S1809-02020",
-      "direction": "RAR-DE",
-      "headword_raw": "Mötichi",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8946,
-      "source_ocr_line_end": 8946
-    },
-    {
-      "record_id": "RHD-S1809-02021",
-      "direction": "RAR-DE",
-      "headword_raw": "Mü",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8947,
-      "source_ocr_line_end": 8947
-    },
-    {
-      "record_id": "RHD-S1809-02022",
-      "direction": "RAR-DE",
-      "headword_raw": "Muhe",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8948,
-      "source_ocr_line_end": 8948
-    },
-    {
-      "record_id": "RHD-S1809-02023",
-      "direction": "RAR-DE",
-      "headword_raw": "Muja",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8949,
-      "source_ocr_line_end": 8949
-    },
-    {
-      "record_id": "RHD-S1809-02024",
-      "direction": "RAR-DE",
-      "headword_raw": "Mujaba",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8950,
-      "source_ocr_line_end": 8955
-    },
-    {
-      "record_id": "RHD-S1809-02027",
-      "direction": "RAR-DE",
-      "headword_raw": "Ma i",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8958,
-      "source_ocr_line_end": 8970
-    },
-    {
-      "record_id": "RHD-S1809-02045",
-      "direction": "RAR-DE",
-      "headword_raw": "Muri",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 9027,
-      "source_ocr_line_end": 9028
-    },
-    {
-      "record_id": "RHD-S1809-02050",
-      "direction": "RAR-DE",
-      "headword_raw": "N Nachki",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9048,
-      "source_ocr_line_end": 9050
-    },
-    {
-      "record_id": "RHD-S1809-02054",
-      "direction": "RAR-DE",
-      "headword_raw": "Nichpigua",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9082,
-      "source_ocr_line_end": 9084
-    },
-    {
-      "record_id": "RHD-S1809-02056",
-      "direction": "RAR-DE",
-      "headword_raw": "Nachpiguamela",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9087,
-      "source_ocr_line_end": 9090
-    },
-    {
-      "record_id": "RHD-S1809-02058",
-      "direction": "RAR-DE",
-      "headword_raw": "Nechieiuje",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9092,
-      "source_ocr_line_end": 9093
-    },
-    {
-      "record_id": "RHD-S1809-02059",
-      "direction": "RAR-DE",
-      "headword_raw": "Nacuguita „Gruͤgen",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9094,
-      "source_ocr_line_end": 9094
-    },
-    {
-      "record_id": "RHD-S1809-02060",
-      "direction": "RAR-DE",
-      "headword_raw": "Nagétſe",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9095,
-      "source_ocr_line_end": 9096
-    },
-    {
-      "record_id": "RHD-S1809-02062",
-      "direction": "RAR-DE",
-      "headword_raw": "Naguabahı",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9098,
-      "source_ocr_line_end": 9100
-    },
-    {
-      "record_id": "RHD-S1809-02066",
-      "direction": "RAR-DE",
-      "headword_raw": "Najafi",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9115,
-      "source_ocr_line_end": 9115
-    },
-    {
-      "record_id": "RHD-S1809-02067",
-      "direction": "RAR-DE",
-      "headword_raw": "Nag E",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9116,
-      "source_ocr_line_end": 9117
-    },
-    {
-      "record_id": "RHD-S1809-02068",
-      "direction": "RAR-DE",
-      "headword_raw": "Näiruc",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9118,
-      "source_ocr_line_end": 9118
-    },
-    {
-      "record_id": "RHD-S1809-02069",
-      "direction": "RAR-DE",
-      "headword_raw": "Najujameke",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9119,
-      "source_ocr_line_end": 9119
-    },
-    {
-      "record_id": "RHD-S1809-02070",
-      "direction": "RAR-DE",
-      "headword_raw": "Nejulũ",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9120,
-      "source_ocr_line_end": 9121
-    },
-    {
-      "record_id": "RHD-S1809-02072",
-      "direction": "RAR-DE",
-      "headword_raw": "Nalsga",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9123,
-      "source_ocr_line_end": 9123
-    },
-    {
-      "record_id": "RHD-S1809-02073",
-      "direction": "RAR-DE",
-      "headword_raw": "Nalagui",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9124,
-      "source_ocr_line_end": 9124
-    },
-    {
-      "record_id": "RHD-S1809-02074",
-      "direction": "RAR-DE",
-      "headword_raw": "Niligoli",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9125,
-      "source_ocr_line_end": 9125
-    },
-    {
-      "record_id": "RHD-S1809-02075",
-      "direction": "RAR-DE",
-      "headword_raw": "Naligue",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9126,
-      "source_ocr_line_end": 9126
-    },
-    {
-      "record_id": "RHD-S1809-02076",
-      "direction": "RAR-DE",
-      "headword_raw": "Nonäca",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9127,
-      "source_ocr_line_end": 9127
-    },
-    {
-      "record_id": "RHD-S1809-02077",
-      "direction": "RAR-DE",
-      "headword_raw": "Nansgua",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9128,
-      "source_ocr_line_end": 9128
-    },
-    {
-      "record_id": "RHD-S1809-02079",
-      "direction": "RAR-DE",
-      "headword_raw": "Napa",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9130,
-      "source_ocr_line_end": 9132
-    },
-    {
-      "record_id": "RHD-S1809-02080",
-      "direction": "RAR-DE",
-      "headword_raw": "N p ‚bümela",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9133,
-      "source_ocr_line_end": 9136
-    },
-    {
-      "record_id": "RHD-S1809-02081",
-      "direction": "RAR-DE",
-      "headword_raw": "Kriegen",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9137,
-      "source_ocr_line_end": 9139
-    },
-    {
-      "record_id": "RHD-S1809-02085",
-      "direction": "RAR-DE",
-      "headword_raw": "Nafsihule",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9158,
-      "source_ocr_line_end": 9158
-    },
-    {
-      "record_id": "RHD-S1809-02086",
-      "direction": "RAR-DE",
-      "headword_raw": "Naisila",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9159,
-      "source_ocr_line_end": 9161
-    },
-    {
-      "record_id": "RHD-S1809-02087",
-      "direction": "RAR-DE",
-      "headword_raw": "Zange",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9162,
-      "source_ocr_line_end": 9162
-    },
-    {
-      "record_id": "RHD-S1809-02088",
-      "direction": "RAR-DE",
-      "headword_raw": "Nalsinae",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9163,
-      "source_ocr_line_end": 9164
-    },
-    {
-      "record_id": "RHD-S1809-02089",
-      "direction": "RAR-DE",
-      "headword_raw": "Natsinsja",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9165,
-      "source_ocr_line_end": 9167
-    },
-    {
-      "record_id": "RHD-S1809-02091",
-      "direction": "RAR-DE",
-      "headword_raw": "Nalsipaſic",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9173,
-      "source_ocr_line_end": 9175
-    },
-    {
-      "record_id": "RHD-S1809-02093",
-      "direction": "RAR-DE",
-      "headword_raw": "Natépa",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9177,
-      "source_ocr_line_end": 9177
-    },
-    {
-      "record_id": "RHD-S1809-02094",
-      "direction": "RAR-DE",
-      "headword_raw": "Natutuje",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9178,
-      "source_ocr_line_end": 9180
-    },
-    {
-      "record_id": "RHD-S1809-02095",
-      "direction": "RAR-DE",
-      "headword_raw": "Belohnen",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9181,
-      "source_ocr_line_end": 9181
-    },
-    {
-      "record_id": "RHD-S1809-02096",
-      "direction": "RAR-DE",
-      "headword_raw": "Naguöco",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9182,
-      "source_ocr_line_end": 9182
-    },
-    {
-      "record_id": "RHD-S1809-02097",
-      "direction": "RAR-DE",
-      "headword_raw": "Navönje",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9183,
-      "source_ocr_line_end": 9184
-    },
-    {
-      "record_id": "RHD-S1809-02103",
-      "direction": "RAR-DE",
-      "headword_raw": "Neguale",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9198,
-      "source_ocr_line_end": 9200
-    },
-    {
-      "record_id": "RHD-S1809-02118",
-      "direction": "RAR-DE",
-      "headword_raw": "Norttfämcla",
-      "printed_page": 363,
-      "pdf_page": 73,
-      "source_ocr_line_start": 9231,
-      "source_ocr_line_end": 9234
-    },
-    {
-      "record_id": "RHD-S1809-02139",
-      "direction": "RAR-DE",
-      "headword_raw": "Oſſa oder guoſſa",
-      "printed_page": 363,
-      "pdf_page": 73,
-      "source_ocr_line_start": 9294,
-      "source_ocr_line_end": 9295
-    },
-    {
-      "record_id": "RHD-S1809-02143",
-      "direction": "RAR-DE",
-      "headword_raw": "Oſſanagudameke",
-      "printed_page": 363,
-      "pdf_page": 73,
-      "source_ocr_line_start": 9302,
-      "source_ocr_line_end": 9303
-    },
-    {
-      "record_id": "RHD-S1809-02148",
-      "direction": "RAR-DE",
-      "headword_raw": "Pas Focttragen",
-      "printed_page": 363,
-      "pdf_page": 73,
-      "source_ocr_line_start": 9314,
-      "source_ocr_line_end": 9315
-    },
-    {
-      "record_id": "RHD-S1809-02167",
-      "direction": "RAR-DE",
-      "headword_raw": "Petsimele",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9410,
-      "source_ocr_line_end": 9411
-    },
-    {
-      "record_id": "RHD-S1809-02168",
-      "direction": "RAR-DE",
-      "headword_raw": "Pigudes",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9412,
-      "source_ocr_line_end": 9413
-    },
-    {
-      "record_id": "RHD-S1809-02169",
-      "direction": "RAR-DE",
-      "headword_raw": "Pigne lila",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9414,
-      "source_ocr_line_end": 9415
-    },
-    {
-      "record_id": "RHD-S1809-02170",
-      "direction": "RAR-DE",
-      "headword_raw": "Pileke",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9416,
-      "source_ocr_line_end": 9416
-    },
-    {
-      "record_id": "RHD-S1809-02171",
-      "direction": "RAR-DE",
-      "headword_raw": "Pillla",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9417,
-      "source_ocr_line_end": 9417
-    },
-    {
-      "record_id": "RHD-S1809-02172",
-      "direction": "RAR-DE",
-      "headword_raw": "Pildöe",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9418,
-      "source_ocr_line_end": 9424
-    },
-    {
-      "record_id": "RHD-S1809-02173",
-      "direction": "RAR-DE",
-      "headword_raw": "Bekennen",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9425,
-      "source_ocr_line_end": 9442
-    },
-    {
-      "record_id": "RHD-S1809-02175",
-      "direction": "RAR-DE",
-      "headword_raw": "Pepi",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9444,
-      "source_ocr_line_end": 9444
-    },
-    {
-      "record_id": "RHD-S1809-02176",
-      "direction": "RAR-DE",
-      "headword_raw": "Picp fo",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9445,
-      "source_ocr_line_end": 9445
-    },
-    {
-      "record_id": "RHD-S1809-02177",
-      "direction": "RAR-DE",
-      "headword_raw": "Pin eipi",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9446,
-      "source_ocr_line_end": 9446
-    },
-    {
-      "record_id": "RHD-S1809-02180",
-      "direction": "RAR-DE",
-      "headword_raw": "Pileliga",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9451,
-      "source_ocr_line_end": 9451
-    },
-    {
-      "record_id": "RHD-S1809-02181",
-      "direction": "RAR-DE",
-      "headword_raw": "Pirss aja",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9452,
-      "source_ocr_line_end": 9452
-    },
-    {
-      "record_id": "RHD-S1809-02182",
-      "direction": "RAR-DE",
-      "headword_raw": "Pitala",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9453,
-      "source_ocr_line_end": 9454
-    },
-    {
-      "record_id": "RHD-S1809-02183",
-      "direction": "RAR-DE",
-      "headword_raw": "Pitſcha",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9455,
-      "source_ocr_line_end": 9456
-    },
-    {
-      "record_id": "RHD-S1809-02184",
-      "direction": "RAR-DE",
-      "headword_raw": "Pitichabürsmeke",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9457,
-      "source_ocr_line_end": 9458
-    },
-    {
-      "record_id": "RHD-S1809-02185",
-      "direction": "RAR-DE",
-      "headword_raw": "Wahrheit",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9459,
-      "source_ocr_line_end": 9461
-    },
-    {
-      "record_id": "RHD-S1809-02187",
-      "direction": "RAR-DE",
-      "headword_raw": "Poa",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9464,
-      "source_ocr_line_end": 9464
-    },
-    {
-      "record_id": "RHD-S1809-02188",
-      "direction": "RAR-DE",
-      "headword_raw": "Pole",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9465,
-      "source_ocr_line_end": 9465
-    },
-    {
-      "record_id": "RHD-S1809-02189",
-      "direction": "RAR-DE",
-      "headword_raw": "Pöliruc",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9466,
-      "source_ocr_line_end": 9466
-    },
-    {
-      "record_id": "RHD-S1809-02190",
-      "direction": "RAR-DE",
-      "headword_raw": "Poichi",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9467,
-      "source_ocr_line_end": 9469
-    },
-    {
-      "record_id": "RHD-S1809-02201",
-      "direction": "RAR-DE",
-      "headword_raw": "Weg",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9498,
-      "source_ocr_line_end": 9499
-    },
-    {
-      "record_id": "RHD-S1809-02212",
-      "direction": "RAR-DE",
-      "headword_raw": "Puricha",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9525,
-      "source_ocr_line_end": 9525
-    },
-    {
-      "record_id": "RHD-S1809-02214",
-      "direction": "RAR-DE",
-      "headword_raw": "Putichila „Bruſt",
+      "headword_raw": "Rheneke",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9527,
-      "source_ocr_line_end": 9527
+      "source_ocr_line_start": 9569,
+      "source_ocr_line_end": 9569
     },
     {
-      "record_id": "RHD-S1809-02215",
+      "record_id": "RHD-S1809-02235",
       "direction": "RAR-DE",
-      "headword_raw": "Putié",
+      "headword_raw": "R-gua",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9528,
-      "source_ocr_line_end": 9532
+      "source_ocr_line_start": 9570,
+      "source_ocr_line_end": 9570
     },
     {
-      "record_id": "RHD-S1809-02218",
+      "record_id": "RHD-S1809-02236",
       "direction": "RAR-DE",
-      "headword_raw": "Kachabs",
+      "headword_raw": "Reguäle",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9548,
-      "source_ocr_line_end": 9549
+      "source_ocr_line_start": 9571,
+      "source_ocr_line_end": 9573
     },
     {
-      "record_id": "RHD-S1809-02219",
+      "record_id": "RHD-S1809-02240",
       "direction": "RAR-DE",
-      "headword_raw": "Rache",
+      "headword_raw": "Abſtegen",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9550,
-      "source_ocr_line_end": 9550
+      "source_ocr_line_start": 9581,
+      "source_ocr_line_end": 9590
     },
     {
-      "record_id": "RHD-S1809-02220",
+      "record_id": "RHD-S1809-02243",
       "direction": "RAR-DE",
-      "headword_raw": "Rachel",
+      "headword_raw": "Gott",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9551,
-      "source_ocr_line_end": 9551
+      "source_ocr_line_start": 9600,
+      "source_ocr_line_end": 9601
     },
     {
-      "record_id": "RHD-S1809-02221",
+      "record_id": "RHD-S1809-02249",
       "direction": "RAR-DE",
-      "headword_raw": "Racheliki",
+      "headword_raw": "Rogui",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9552,
-      "source_ocr_line_end": 9552
+      "source_ocr_line_start": 9611,
+      "source_ocr_line_end": 9611
     },
     {
-      "record_id": "RHD-S1809-02222",
+      "record_id": "RHD-S1809-02250",
       "direction": "RAR-DE",
-      "headword_raw": "Rachö",
+      "headword_raw": "Ropa",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9553,
-      "source_ocr_line_end": 9553
+      "source_ocr_line_start": 9612,
+      "source_ocr_line_end": 9613
     },
     {
-      "record_id": "RHD-S1809-02223",
+      "record_id": "RHD-S1809-02252",
       "direction": "RAR-DE",
-      "headword_raw": "Rachpe oder techpe",
+      "headword_raw": "Weiß",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9554,
-      "source_ocr_line_end": 9555
+      "source_ocr_line_start": 9617,
+      "source_ocr_line_end": 9617
     },
     {
-      "record_id": "RHD-S1809-02224",
+      "record_id": "RHD-S1809-02253",
       "direction": "RAR-DE",
-      "headword_raw": "Nicht viel",
+      "headword_raw": "Rlije",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9556,
-      "source_ocr_line_end": 9556
+      "source_ocr_line_start": 9618,
+      "source_ocr_line_end": 9624
     },
     {
-      "record_id": "RHD-S1809-02225",
+      "record_id": "RHD-S1809-02259",
       "direction": "RAR-DE",
-      "headword_raw": "Rachpebi",
+      "headword_raw": "Sapaca",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9557,
-      "source_ocr_line_end": 9557
+      "source_ocr_line_start": 9637,
+      "source_ocr_line_end": 9637
     },
     {
-      "record_id": "RHD-S1809-02226",
+      "record_id": "RHD-S1809-02260",
       "direction": "RAR-DE",
-      "headword_raw": "Kachtävarlaboa",
+      "headword_raw": "Sapala",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9558,
-      "source_ocr_line_end": 9561
+      "source_ocr_line_start": 9638,
+      "source_ocr_line_end": 9638
     },
     {
-      "record_id": "RHD-S1809-02229",
+      "record_id": "RHD-S1809-02264",
       "direction": "RAR-DE",
-      "headword_raw": "Raje",
+      "headword_raw": "Sauguikt",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9564,
-      "source_ocr_line_end": 9564
+      "source_ocr_line_start": 9645,
+      "source_ocr_line_end": 9648
     },
     {
-      "record_id": "RHD-S1809-02230",
+      "record_id": "RHD-S1809-02268",
       "direction": "RAR-DE",
-      "headword_raw": "Raven",
+      "headword_raw": "Schuglameke",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9565,
-      "source_ocr_line_end": 9565
+      "source_ocr_line_start": 9656,
+      "source_ocr_line_end": 9659
     },
     {
-      "record_id": "RHD-S1809-02231",
+      "record_id": "RHD-S1809-02270",
       "direction": "RAR-DE",
-      "headword_raw": "Raugueliki",
+      "headword_raw": "Sehue wiki",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9566,
-      "source_ocr_line_end": 9566
+      "source_ocr_line_start": 9673,
+      "source_ocr_line_end": 9675
     },
     {
-      "record_id": "RHD-S1809-02232",
+      "record_id": "RHD-S1809-02272",
       "direction": "RAR-DE",
-      "headword_raw": "Raugui",
+      "headword_raw": "Sc",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9567,
-      "source_ocr_line_end": 9567
+      "source_ocr_line_start": 9682,
+      "source_ocr_line_end": 9685
     },
     {
-      "record_id": "RHD-S1809-02233",
+      "record_id": "RHD-S1809-02273",
       "direction": "RAR-DE",
-      "headword_raw": "Rnsra",
+      "headword_raw": "Seguf",
       "printed_page": 365,
       "pdf_page": 75,
-      "source_ocr_line_start": 9568,
-      "source_ocr_line_end": 9568
+      "source_ocr_line_start": 9686,
+      "source_ocr_line_end": 9688
+    },
+    {
+      "record_id": "RHD-S1809-02276",
+      "direction": "RAR-DE",
+      "headword_raw": "Send",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9698,
+      "source_ocr_line_end": 9698
+    },
+    {
+      "record_id": "RHD-S1809-02277",
+      "direction": "RAR-DE",
+      "headword_raw": "Senüla",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9699,
+      "source_ocr_line_end": 9699
+    },
+    {
+      "record_id": "RHD-S1809-02278",
+      "direction": "RAR-DE",
+      "headword_raw": "Sera",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9700,
+      "source_ocr_line_end": 9700
+    },
+    {
+      "record_id": "RHD-S1809-02285",
+      "direction": "RAR-DE",
+      "headword_raw": "Slinibs",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9717,
+      "source_ocr_line_end": 9721
+    },
+    {
+      "record_id": "RHD-S1809-02287",
+      "direction": "RAR-DE",
+      "headword_raw": "Stai",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9724,
+      "source_ocr_line_end": 9729
+    },
+    {
+      "record_id": "RHD-S1809-02288",
+      "direction": "RAR-DE",
+      "headword_raw": "Sinepi putie",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9730,
+      "source_ocr_line_end": 9735
+    },
+    {
+      "record_id": "RHD-S1809-02290",
+      "direction": "RAR-DE",
+      "headword_raw": "Sisi",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9738,
+      "source_ocr_line_end": 9739
+    },
+    {
+      "record_id": "RHD-S1809-02293",
+      "direction": "RAR-DE",
+      "headword_raw": "Soläca",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9745,
+      "source_ocr_line_end": 9745
+    },
+    {
+      "record_id": "RHD-S1809-02299",
+      "direction": "RAR-DE",
+      "headword_raw": "Suenku",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9758,
+      "source_ocr_line_end": 9758
+    },
+    {
+      "record_id": "RHD-S1809-02300",
+      "direction": "RAR-DE",
+      "headword_raw": "Suila",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9759,
+      "source_ocr_line_end": 9760
+    },
+    {
+      "record_id": "RHD-S1809-02301",
+      "direction": "RAR-DE",
+      "headword_raw": "Suläla",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9761,
+      "source_ocr_line_end": 9786
+    },
+    {
+      "record_id": "RHD-S1809-02303",
+      "direction": "RAR-DE",
+      "headword_raw": "Zulatſehic",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9788,
+      "source_ocr_line_end": 9788
+    },
+    {
+      "record_id": "RHD-S1809-02304",
+      "direction": "RAR-DE",
+      "headword_raw": "Sulelila",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9789,
+      "source_ocr_line_end": 9790
+    },
+    {
+      "record_id": "RHD-S1809-02306",
+      "direction": "RAR-DE",
+      "headword_raw": "Sulı",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9792,
+      "source_ocr_line_end": 9792
+    },
+    {
+      "record_id": "RHD-S1809-02307",
+      "direction": "RAR-DE",
+      "headword_raw": "Sutüla",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9793,
+      "source_ocr_line_end": 9800
+    },
+    {
+      "record_id": "RHD-S1809-02308",
+      "direction": "RAR-DE",
+      "headword_raw": "Nein",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9801,
+      "source_ocr_line_end": 9802
+    },
+    {
+      "record_id": "RHD-S1809-02311",
+      "direction": "RAR-DE",
+      "headword_raw": "Tabelaca",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9808,
+      "source_ocr_line_end": 9808
+    },
+    {
+      "record_id": "RHD-S1809-02312",
+      "direction": "RAR-DE",
+      "headword_raw": "Tachpe",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9809,
+      "source_ocr_line_end": 9811
+    },
+    {
+      "record_id": "RHD-S1809-02314",
+      "direction": "RAR-DE",
+      "headword_raw": "Ta guetsi joma",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9815,
+      "source_ocr_line_end": 9815
+    },
+    {
+      "record_id": "RHD-S1809-02315",
+      "direction": "RAR-DE",
+      "headword_raw": "Taicä",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9816,
+      "source_ocr_line_end": 9817
+    },
+    {
+      "record_id": "RHD-S1809-02317",
+      "direction": "RAR-DE",
+      "headword_raw": "Ten",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9819,
+      "source_ocr_line_end": 9825
+    },
+    {
+      "record_id": "RHD-S1809-02318",
+      "direction": "RAR-DE",
+      "headword_raw": "Tajenaſago",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9826,
+      "source_ocr_line_end": 9828
+    },
+    {
+      "record_id": "RHD-S1809-02326",
+      "direction": "RAR-DE",
+      "headword_raw": "Tamatelame",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9845,
+      "source_ocr_line_end": 9845
+    },
+    {
+      "record_id": "RHD-S1809-02327",
+      "direction": "RAR-DE",
+      "headword_raw": "Tame",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9846,
+      "source_ocr_line_end": 9847
+    },
+    {
+      "record_id": "RHD-S1809-02329",
+      "direction": "RAR-DE",
+      "headword_raw": "Tameké",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9849,
+      "source_ocr_line_end": 9850
+    },
+    {
+      "record_id": "RHD-S1809-02331",
+      "direction": "RAR-DE",
+      "headword_raw": "Tana",
+      "printed_page": 366,
+      "pdf_page": 76,
+      "source_ocr_line_start": 9853,
+      "source_ocr_line_end": 9854
+    },
+    {
+      "record_id": "RHD-S1809-02355",
+      "direction": "RAR-DE",
+      "headword_raw": "Spielen",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 9919,
+      "source_ocr_line_end": 9921
+    },
+    {
+      "record_id": "RHD-S1809-02357",
+      "direction": "RAR-DE",
+      "headword_raw": "Tehimä",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 9926,
+      "source_ocr_line_end": 9926
+    },
+    {
+      "record_id": "RHD-S1809-02358",
+      "direction": "RAR-DE",
+      "headword_raw": "Tehimäla",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 9927,
+      "source_ocr_line_end": 9928
+    },
+    {
+      "record_id": "RHD-S1809-02359",
+      "direction": "RAR-DE",
+      "headword_raw": "Tehimeameke",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 9929,
+      "source_ocr_line_end": 9929
+    },
+    {
+      "record_id": "RHD-S1809-02360",
+      "direction": "RAR-DE",
+      "headword_raw": "Tehöje",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 9930,
+      "source_ocr_line_end": 9930
+    },
+    {
+      "record_id": "RHD-S1809-02363",
+      "direction": "RAR-DE",
+      "headword_raw": "Tele",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 9933,
+      "source_ocr_line_end": 9933
+    },
+    {
+      "record_id": "RHD-S1809-02364",
+      "direction": "RAR-DE",
+      "headword_raw": "Telebe",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 9934,
+      "source_ocr_line_end": 9937
+    },
+    {
+      "record_id": "RHD-S1809-02365",
+      "direction": "RAR-DE",
+      "headword_raw": "Wouͤrterbüch",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 9938,
+      "source_ocr_line_end": 9940
+    },
+    {
+      "record_id": "RHD-S1809-02386",
+      "direction": "RAR-DE",
+      "headword_raw": "Tepuläca",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 9992,
+      "source_ocr_line_end": 9994
+    },
+    {
+      "record_id": "RHD-S1809-02387",
+      "direction": "RAR-DE",
+      "headword_raw": "T-fligus",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 9995,
+      "source_ocr_line_end": 9995
+    },
+    {
+      "record_id": "RHD-S1809-02388",
+      "direction": "RAR-DE",
+      "headword_raw": "Teſſiguala",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 9996,
+      "source_ocr_line_end": 9997
+    },
+    {
+      "record_id": "RHD-S1809-02389",
+      "direction": "RAR-DE",
+      "headword_raw": "Telsiguati",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 9998,
+      "source_ocr_line_end": 9999
+    },
+    {
+      "record_id": "RHD-S1809-02390",
+      "direction": "RAR-DE",
+      "headword_raw": "Teſſö",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 10000,
+      "source_ocr_line_end": 10000
+    },
+    {
+      "record_id": "RHD-S1809-02391",
+      "direction": "RAR-DE",
+      "headword_raw": "Tetshoje",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 10001,
+      "source_ocr_line_end": 10001
+    },
+    {
+      "record_id": "RHD-S1809-02392",
+      "direction": "RAR-DE",
+      "headword_raw": "Tetſcholi",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 10002,
+      "source_ocr_line_end": 10002
+    },
+    {
+      "record_id": "RHD-S1809-02394",
+      "direction": "RAR-DE",
+      "headword_raw": "Terüleke",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 10004,
+      "source_ocr_line_end": 10004
+    },
+    {
+      "record_id": "RHD-S1809-02395",
+      "direction": "RAR-DE",
+      "headword_raw": "Thulagua",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 10005,
+      "source_ocr_line_end": 10005
+    },
+    {
+      "record_id": "RHD-S1809-02397",
+      "direction": "RAR-DE",
+      "headword_raw": "Thuläne",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 10007,
+      "source_ocr_line_end": 10007
+    },
+    {
+      "record_id": "RHD-S1809-02398",
+      "direction": "RAR-DE",
+      "headword_raw": "Tilma",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 10008,
+      "source_ocr_line_end": 10008
+    },
+    {
+      "record_id": "RHD-S1809-02399",
+      "direction": "RAR-DE",
+      "headword_raw": "Tatäkome",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 10009,
+      "source_ocr_line_end": 10009
+    },
+    {
+      "record_id": "RHD-S1809-02400",
+      "direction": "RAR-DE",
+      "headword_raw": "Tiatölle",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 10010,
+      "source_ocr_line_end": 10011
+    },
+    {
+      "record_id": "RHD-S1809-02401",
+      "direction": "RAR-DE",
+      "headword_raw": "Te",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 10012,
+      "source_ocr_line_end": 10024
+    },
+    {
+      "record_id": "RHD-S1809-02405",
+      "direction": "RAR-DE",
+      "headword_raw": "Toroli",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 10034,
+      "source_ocr_line_end": 10036
+    },
+    {
+      "record_id": "RHD-S1809-02406",
+      "direction": "RAR-DE",
+      "headword_raw": "Ttiehl",
+      "printed_page": 367,
+      "pdf_page": 77,
+      "source_ocr_line_start": 10037,
+      "source_ocr_line_end": 10041
+    },
+    {
+      "record_id": "RHD-S1809-02407",
+      "direction": "RAR-DE",
+      "headword_raw": "Töruke",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10042,
+      "source_ocr_line_end": 10044
+    },
+    {
+      "record_id": "RHD-S1809-02412",
+      "direction": "RAR-DE",
+      "headword_raw": "Tiehä",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10070,
+      "source_ocr_line_end": 10070
+    },
+    {
+      "record_id": "RHD-S1809-02413",
+      "direction": "RAR-DE",
+      "headword_raw": "Tlehea",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10071,
+      "source_ocr_line_end": 10071
+    },
+    {
+      "record_id": "RHD-S1809-02414",
+      "direction": "RAR-DE",
+      "headword_raw": "Tiehaca",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10072,
+      "source_ocr_line_end": 10072
+    },
+    {
+      "record_id": "RHD-S1809-02416",
+      "direction": "RAR-DE",
+      "headword_raw": "Tichapi",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10074,
+      "source_ocr_line_end": 10074
+    },
+    {
+      "record_id": "RHD-S1809-02417",
+      "direction": "RAR-DE",
+      "headword_raw": "Tiehapivoli",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10075,
+      "source_ocr_line_end": 10078
+    },
+    {
+      "record_id": "RHD-S1809-02418",
+      "direction": "RAR-DE",
+      "headword_raw": "Tichie",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10079,
+      "source_ocr_line_end": 10084
+    },
+    {
+      "record_id": "RHD-S1809-02419",
+      "direction": "RAR-DE",
+      "headword_raw": "Sulatſchie",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10085,
+      "source_ocr_line_end": 10085
+    },
+    {
+      "record_id": "RHD-S1809-02420",
+      "direction": "RAR-DE",
+      "headword_raw": "Tiekicoliki",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10086,
+      "source_ocr_line_end": 10088
+    },
+    {
+      "record_id": "RHD-S1809-02422",
+      "direction": "RAR-DE",
+      "headword_raw": "Tleniculi",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10096,
+      "source_ocr_line_end": 10100
+    },
+    {
+      "record_id": "RHD-S1809-02423",
+      "direction": "RAR-DE",
+      "headword_raw": "Tlehimoli",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10101,
+      "source_ocr_line_end": 10101
+    },
+    {
+      "record_id": "RHD-S1809-02424",
+      "direction": "RAR-DE",
+      "headword_raw": "Tichinaca",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10102,
+      "source_ocr_line_end": 10102
+    },
+    {
+      "record_id": "RHD-S1809-02429",
+      "direction": "RAR-DE",
+      "headword_raw": "Winkel",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10122,
+      "source_ocr_line_end": 10124
+    },
+    {
+      "record_id": "RHD-S1809-02430",
+      "direction": "RAR-DE",
+      "headword_raw": "Maus",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10125,
+      "source_ocr_line_end": 10131
+    },
+    {
+      "record_id": "RHD-S1809-02431",
+      "direction": "RAR-DE",
+      "headword_raw": "Tichiph",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10132,
+      "source_ocr_line_end": 10133
+    },
+    {
+      "record_id": "RHD-S1809-02437",
+      "direction": "RAR-DE",
+      "headword_raw": "Eichhoͤrnchen",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10144,
+      "source_ocr_line_end": 10146
+    },
+    {
+      "record_id": "RHD-S1809-02439",
+      "direction": "RAR-DE",
+      "headword_raw": "Tuſchi",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10148,
+      "source_ocr_line_end": 10150
+    },
+    {
+      "record_id": "RHD-S1809-02446",
+      "direction": "RAR-DE",
+      "headword_raw": "Is Es wird",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10164,
+      "source_ocr_line_end": 10165
+    },
+    {
+      "record_id": "RHD-S1809-02451",
+      "direction": "RAR-DE",
+      "headword_raw": "Tfchuch",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10178,
+      "source_ocr_line_end": 10180
+    },
+    {
+      "record_id": "RHD-S1809-02452",
+      "direction": "RAR-DE",
+      "headword_raw": "Tlchuluguf",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10181,
+      "source_ocr_line_end": 10181
+    },
+    {
+      "record_id": "RHD-S1809-02453",
+      "direction": "RAR-DE",
+      "headword_raw": "Tichulug&ameke",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10182,
+      "source_ocr_line_end": 10182
+    },
+    {
+      "record_id": "RHD-S1809-02454",
+      "direction": "RAR-DE",
+      "headword_raw": "Tlchnluguitſi",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10183,
+      "source_ocr_line_end": 10183
+    },
+    {
+      "record_id": "RHD-S1809-02455",
+      "direction": "RAR-DE",
+      "headword_raw": "Tichumila",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10184,
+      "source_ocr_line_end": 10184
+    },
+    {
+      "record_id": "RHD-S1809-02456",
+      "direction": "RAR-DE",
+      "headword_raw": "Tirhuſigua",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10185,
+      "source_ocr_line_end": 10187
+    },
+    {
+      "record_id": "RHD-S1809-02460",
+      "direction": "RAR-DE",
+      "headword_raw": "Tfele oder Tleli",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10199,
+      "source_ocr_line_end": 10200
+    },
+    {
+      "record_id": "RHD-S1809-02464",
+      "direction": "RAR-DE",
+      "headword_raw": "Uvänale",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10213,
+      "source_ocr_line_end": 10218
+    },
+    {
+      "record_id": "RHD-S1809-02466",
+      "direction": "RAR-DE",
+      "headword_raw": "Tieftatacameke",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10220,
+      "source_ocr_line_end": 10221
+    },
+    {
+      "record_id": "RHD-S1809-02467",
+      "direction": "RAR-DE",
+      "headword_raw": "Tleti",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10222,
+      "source_ocr_line_end": 10222
+    },
+    {
+      "record_id": "RHD-S1809-02468",
+      "direction": "RAR-DE",
+      "headword_raw": "Tletibe",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10223,
+      "source_ocr_line_end": 10225
+    },
+    {
+      "record_id": "RHD-S1809-02472",
+      "direction": "RAR-DE",
+      "headword_raw": "Tucaguod",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10231,
+      "source_ocr_line_end": 10236
+    },
+    {
+      "record_id": "RHD-S1809-02473",
+      "direction": "RAR-DE",
+      "headword_raw": "Tulchiki",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10237,
+      "source_ocr_line_end": 10246
+    },
+    {
+      "record_id": "RHD-S1809-02475",
+      "direction": "RAR-DE",
+      "headword_raw": "Takina",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10248,
+      "source_ocr_line_end": 10248
+    },
+    {
+      "record_id": "RHD-S1809-02476",
+      "direction": "RAR-DE",
+      "headword_raw": "Vakitst",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10249,
+      "source_ocr_line_end": 10249
+    },
+    {
+      "record_id": "RHD-S1809-02478",
+      "direction": "RAR-DE",
+      "headword_raw": "Vaflürichi",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10251,
+      "source_ocr_line_end": 10251
     }
   ]
 }
