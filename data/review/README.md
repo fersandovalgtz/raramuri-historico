@@ -6,18 +6,20 @@ Este directorio conserva manifiestos editoriales append-only sobre la segmentaci
 
 `RHD-FR-001`–`RHD-FR-007` agotaron los 609 candidatos `high_machine`: 553 arranques aceptados, 56 falsos límites y 298 correcciones de lema.
 
-`RHD-FR-008`–`RHD-FR-017` cubren los primeros diez lotes sistemáticos de 100 registros `medium_machine`. Tras FR-017 se han revisado **1,000 de 1,110 candidatos medios**: **812 aceptados y 188 rechazados**.
+`RHD-FR-008`–`RHD-FR-018` cubren los primeros once lotes sistemáticos de 100 registros `medium_machine`. Tras FR-018 se han revisado **1,100 de 1,110 candidatos medios**: **899 aceptados y 201 rechazados**.
 
-`RHD-FR-017` contiene **100 candidatos revisados, 91 arranques aceptados, 9 falsos límites y 90 correcciones claras de lema**. El cotejo directo sitúa la cohorte en pp. **360–364**, no 360–365, y corrige la página de **24 registros**.
+`RHD-FR-018` contiene **100 candidatos revisados, 87 arranques aceptados, 13 falsos límites y 82 correcciones claras de lema**. El cotejo directo sitúa la cohorte en pp. **364–368**, no 365–369, y corrige la página de **45 registros**.
 
-Los nueve límites rechazados son glosas alemanas capturadas como supuestos lemas inversos: `Brod`, `Mehr`, `Kriegen`, `Zange`, `Belohnen`, `Bekennen`, `Wahrheit`, `Weg` y `Nicht viel`. Entre las recuperaciones figuran `Lessíameke`, `Moorápera`, `Nachtétuje`, `Nacuguíta`, `Nassípasic`, `Noitsámela`, `Ossanaguóameke`, `Pitschabúrameke`, `Rachtábatsáboa` y `Rhaná`.
+Los falsos límites incluyen glosas alemanas como `Gott`, `Weiß`, `Nein`, `Spielen`, `Winkel`, `Maus` y `Eichhörnchen`; el catchword `Sulála`; el running header `Wörterbüch`; el ejemplo interno `Sulatschic`; y `Tuſchi`, que no tiene correlato de inicio de artículo en el facsímil. Entre las recuperaciones figuran `Rhenéke`, `R-guála`, `Schugiámeke`, `Sinépi putié`, `Tajenaságo`, `Telsiguála`, `Tótschi`, `Tschie`, `Tschulugéameke`, `Tulchilki` y `Vassúritschi`.
 
-`RHD-DIP-017A`–`RHD-DIP-017J` proporcionan overlay diplomático completo para los **91 arranques aceptados**. El OCR fuente permanece intacto; correcciones, página, columna y transcripción se aplican como capas editoriales reproducibles.
+El manifiesto fija además la frontera **diccionario p. 368 / apéndice p. 369**. Ningún registro de FR-018 se trata como artículo lexicográfico de p. 369; los desplazamientos de OCR se corrigen a p. 368 sólo cuando el facsímil los sustenta.
 
-Estado acumulado: **1,609 candidatos cotejados, 1,365 aceptados, 244 falsos límites, 573 correcciones claras, 1,365 transcripciones diplomáticas completas y 2,251 candidatos activos provisionales** de la cobertura original de 2,495.
+`RHD-DIP-018A`–`RHD-DIP-018I` proporcionan overlay diplomático completo para los **87 arranques aceptados**. El OCR fuente permanece intacto; correcciones, página, columna y transcripción se aplican como capas editoriales reproducibles.
+
+Estado acumulado: **1,709 candidatos cotejados, 1,452 aceptados, 257 falsos límites, 655 correcciones claras, 1,452 transcripciones diplomáticas completas y 2,238 candidatos activos provisionales** de la cobertura original de 2,495.
 
 ## Cola determinista
 
-`scripts/generate_review_queue.py` genera `next_review_queue.json` y `next_review_queue_compact.json` a partir de la capa regenerada y todos los manifiestos append-only. Selecciona los primeros 100 IDs no revisados en orden de fuente, agotando `medium_machine` antes de `low_machine`.
+`scripts/generate_review_queue.py` genera `next_review_queue.json` y `next_review_queue_compact.json` a partir de la capa regenerada y todos los manifiestos append-only. Selecciona IDs no revisados en orden de fuente, agotando `medium_machine` antes de `low_machine`.
 
-Quedan **110 `medium_machine`** y 716 `low_machine`. `RHD-FR-018` tomará los siguientes 100, desde `RHD-S1809-02234` (`Rheneke`) hasta `RHD-S1809-02478` (`Vaflürichi`). La cola automática alcanza p. 369, pero el vocabulario propiamente dicho termina en p. 368 y el apéndice empieza en p. 369; por ello, la pertenencia de los candidatos finales al cuerpo lexicográfico deberá decidirse exclusivamente mediante cotejo documental.
+Quedan **10 `medium_machine`** y 716 `low_machine`. `RHD-FR-019` contiene esos diez candidatos finales, desde `RHD-S1809-02480` (`Uelemeke`) hasta `RHD-S1809-02494` (`Vuoſſaguaca`). Todos aparecen automáticamente en p. 369, que es ya el apéndice; por ello FR-019 debe decidir exclusivamente mediante facsímil si son entradas rezagadas de p. 368, artefactos de linealización o material no lexicográfico.
