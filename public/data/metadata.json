@@ -12,10 +12,7 @@
     "place": "Halle",
     "publisher": "Johann Christian Hendel",
     "printed_pages": "293–374 (dictionary proper 301–368; appendix and language sample follow; facsimile supplied: 84 PDF pages)",
-    "language_codes": [
-      "deu",
-      "tar"
-    ]
+    "language_codes": ["deu", "tar"]
   },
   "scope": {
     "candidate_entries": 2495,
@@ -23,21 +20,18 @@
     "candidate_entries_rar_de": 888,
     "curated_anchors": 60,
     "facsimile_pdf_pages": 84,
-    "facsimile_reviewed_candidate_boundaries": 1109,
-    "accepted_article_starts": 936,
-    "rejected_false_positive_boundaries": 173,
-    "headword_corrections": 344,
-    "active_provisional_candidates": 2322,
-    "complete_diplomatic_transcriptions_ai_assisted": 936,
-    "diplomatic_transcriptions_with_uncertainty_note": 424,
+    "facsimile_reviewed_candidate_boundaries": 1209,
+    "accepted_article_starts": 1019,
+    "rejected_false_positive_boundaries": 190,
+    "headword_corrections": 353,
+    "active_provisional_candidates": 2305,
+    "complete_diplomatic_transcriptions_ai_assisted": 1019,
+    "diplomatic_transcriptions_with_uncertainty_note": 452,
     "human_verified_diplomatic_transcriptions": 0,
-    "remaining_medium_machine_candidates": 610,
+    "remaining_medium_machine_candidates": 510,
     "remaining_low_machine_candidates": 716,
-    "directions": [
-      "German–Tarahumara",
-      "Tarahumara–German"
-    ],
-    "status": "Complete OCR-range machine segmentation; high-confidence tier exhausted; first 500 medium-confidence candidates collated against facsimile; 936 accepted starts have complete AI-assisted diplomatic transcriptions; independent human/philological and linguistic validation pending"
+    "directions": ["German–Tarahumara", "Tarahumara–German"],
+    "status": "Complete OCR-range machine segmentation; high-confidence tier exhausted; first 600 medium-confidence candidates collated against facsimile; 1,019 accepted starts have complete AI-assisted diplomatic transcriptions; independent human/philological and linguistic validation pending"
   },
   "editorial_pipeline": {
     "review_queue": "data/review/next_review_queue.json",
@@ -47,10 +41,6 @@
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",
     "orcid": "0000-0002-3168-6725",
-    "institutions": [
-      "Universidad CEEES",
-      "Universidad Autónoma de Ciudad Juárez",
-      "Cuerpo Académico UACJ-113"
-    ]
+    "institutions": ["Universidad CEEES", "Universidad Autónoma de Ciudad Juárez", "Cuerpo Académico UACJ-113"]
   }
 }
