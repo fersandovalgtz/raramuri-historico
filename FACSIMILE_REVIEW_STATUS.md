@@ -1,32 +1,29 @@
 # Facsimile collation and diplomatic transcription status
 
-The first boundary-review batch (`RHD-FR-001`) covers 100 high-confidence machine candidates from the German→Rarámuri section, spanning printed pages 301–317.
+Rarámuri Histórico Digital now maintains two append-only boundary-review batches over the German→Rarámuri dictionary and a separate diplomatic-transcription layer. AI-assisted visual collation is always distinguished from independent human/philological and linguistic verification.
 
 ## Boundary-review results
 
-| Metric | Count |
-|---|---:|
-| Machine candidates reviewed | 100 |
-| Accepted article starts | 86 |
-| Rejected false-positive boundaries | 14 |
-| Clear headword OCR corrections | 4 |
+| Batch | Machine candidates reviewed | Accepted article starts | Rejected false boundaries | Clear headword corrections | Printed-page span |
+|---|---:|---:|---:|---:|---|
+| `RHD-FR-001` | 100 | 86 | 14 | 4 | 301–317 |
+| `RHD-FR-002` | 100 | 85 | 15 | 10 | 318–339 |
+| **Cumulative** | **200** | **171** | **29** | **14** | **301–339** |
 
-This first review validates the presence of a headword and the beginning of an article. It does not by itself validate the complete article body or linguistic interpretation.
+The coverage-first machine layer remains 2,495 candidates. After the 29 visually rejected false boundaries, 2,466 candidates remain active provisionally. Candidate count is not asserted as the definitive number of printed lexicographic entries.
+
+Boundary review validates headword presence, article-start boundary and exact page placement. It does not by itself validate a complete article body or linguistic interpretation.
 
 ## Page-layout reconstruction
 
-Printed pages 301–317 have now been modeled explicitly as 17 two-column pages (`data/facsimile/page_layout_301_317.csv`), with left/right column order separated from OCR line order.
+Printed pages 301–339 are now modeled explicitly as 39 two-column pages. Layout files `data/facsimile/page_layout_301_317.csv` and `data/facsimile/page_layout_318_339.csv` preserve left/right reading order separately from OCR line order.
 
-This responds to a central methodological finding: the supplied OCR does not always preserve the reading order of Steffel's two-column pages. A genuine headword can therefore be followed in the OCR by text that visually belongs to another article or column. `RHD-S1809-00065` (`Abweg`) is the first clear example: the headword is present on printed page 301, while the machine OCR block absorbs material from the neighboring `Adern` article.
+This addresses a central methodological finding: the supplied OCR does not consistently preserve the reading order of Steffel's two-column pages. Genuine headwords can therefore inherit text from neighboring articles or columns, and OCR-derived page interpolation can drift locally. Exact page placement in reviewed records is consequently taken from the facsimile review overlay.
 
-## First complete article-text batch
+## Diplomatic transcription
 
-`RHD-DIP-001A` adds ten complete short article transcriptions selected only where article boundaries and text are visually clear:
+The first boundary batch has been taken through article-text reconstruction. `RHD-DIP-001A`–`RHD-DIP-001E` provide complete AI-assisted diplomatic transcriptions for all **86 accepted starts in RHD-FR-001**. Source spelling and punctuation are retained; typographic line wrapping is generally not encoded. Twenty-seven of those records carry an explicit uncertainty note.
 
-- `Abweg`, `Allmächtig`, `Allwiſſend` (p. 301);
-- `Anderer`, `Anderſt`, `Anfaſſen`, `Anfechten`, `Anfechter`, `Anzünden` (p. 302);
-- `Aufmerken` (p. 304).
+All current diplomatic records remain `human_verified=false`. Completion of the AI-assisted transcription layer must not be described as independent philological or linguistic verification.
 
-These are marked `diplomatic_transcription_ai_assisted`. Source spelling and punctuation are retained; typographic line wrapping is not encoded. `human_verified=false`: independent human/philological verification remains pending.
-
-The next editorial work is to extend page-layout-based article reconstruction through the remaining accepted starts on pages 301–317, then continue with a second facsimile batch.
+`RHD-FR-002` has completed its boundary/page review: **85 accepted starts are now ready for page-layout-based diplomatic reconstruction**. The next editorial stage is to transcribe those accepted articles conservatively, beginning with short, clearly bounded entries, before moving to further boundary-review batches.
