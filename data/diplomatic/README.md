@@ -1,19 +1,19 @@
 # Diplomatic transcription layer
 
-This directory contains append-only editorial overlays produced from direct visual comparison with the Steffel 1809 facsimile. The facsimile is authoritative; OCR is retained as a secondary reading aid rather than a source of truth for article boundaries or body order.
+This directory contains append-only editorial overlays produced from direct visual comparison with the Steffel 1809 facsimile. The facsimile is authoritative; OCR is retained as a secondary reading aid rather than a source of truth for article boundaries, page placement or body order.
 
-Diplomatic batches preserve source spelling and punctuation while not encoding typographic line wrapping. The review method is explicitly `visual_facsimile_transcription_ai_assisted`; every current record has `human_verified=false`. These records must therefore not be described as independently philologically or linguistically verified.
+Diplomatic batches preserve source spelling and punctuation while not encoding typographic line wrapping. The review method is `visual_facsimile_transcription_ai_assisted`; every current record has `human_verified=false`. These records must therefore not be described as independently philologically or linguistically verified.
 
 `RHD-DIP-001A`–`RHD-DIP-007A` cover all **553 accepted starts** from the fully exhausted 609-candidate `high_machine` tier. Subsequent diplomatic series provide complete coverage for every accepted start in the systematically reviewed `medium_machine` cohorts.
 
-`RHD-DIP-013A`–`RHD-DIP-013E` contain the 83 complete articles accepted in `RHD-FR-013` across printed pp. 338–344.
+`RHD-DIP-015A`–`RHD-DIP-015E` add **84 complete articles** from `RHD-FR-015` across printed pp. **350–356**. This is the first diplomatic cohort to cross the documentary direction change on p. 353. `RHD-DIP-015A` remains German→Rarámuri; `RHD-DIP-015B` contains the transition; subsequent records are Rarámuri→German.
 
-`RHD-DIP-014A`–`RHD-DIP-014E` add **81 complete articles** from `RHD-FR-014` across printed pp. 345–350. The set includes compact lexical records and extended entries such as `Taback`, `Verhexen`, `Viel`, `Vogel`, `Weit` and `Waizen`. Long records are reconstructed in documentary reading order where text crosses columns or printed pages. Difficult glyphs, Rarámuri forms, diacritics and compact letter sequences are retained or explicitly flagged rather than normalized without evidence.
+The set includes long grammatical or cultural articles such as `Wolf`, `Wollen`, `Zugehören`, `Baláliruc`, `Baſſirúgameke`, `Batſabe` and `Có oder gö`, as well as many inverse-dictionary forms whose OCR headwords required direct facsimile recovery. Historical spelling and punctuation are retained; difficult diacritics, Rarámuri forms and morphological interpretations are explicitly flagged rather than normalized without evidence.
 
-The cumulative layer currently contains **1,100 complete AI-assisted diplomatic article transcriptions**, exactly matching the 1,100 accepted starts among all 1,309 facsimile-reviewed candidates. The current inventory records **485 transcriptions with an explicit uncertainty note**. All current records remain `human_verified=false` and pending independent human/philological and linguistic validation.
+The cumulative layer currently contains **1,184 complete AI-assisted diplomatic article transcriptions**, exactly matching the **1,184 accepted starts among all 1,409 facsimile-reviewed candidates**. The current inventory records **509 transcriptions with an explicit uncertainty note**. All current records remain `human_verified=false` and pending independent human/philological and linguistic validation.
 
 The machine OCR remains untouched in the source layer. Diplomatic fields are applied as overlays by `scripts/apply_review_overrides.py` and propagated to the derived JSON/XML/TEI/SQLite exports.
 
-The high-confidence tier and the first seven medium-confidence cohorts are complete at the AI-assisted boundary-review and diplomatic-transcription levels. This is not global corpus completion: **410 `medium_machine` candidates remain unreviewed**, 716 `low_machine` candidates remain outside systematic review, and all current diplomatic records remain pending independent human/linguistic validation.
+The high-confidence tier and the first eight medium-confidence cohorts are complete at the AI-assisted boundary-review and diplomatic-transcription levels. This is not global corpus completion: **310 `medium_machine` candidates remain unreviewed**, 716 `low_machine` candidates remain outside systematic review, and all current diplomatic records remain pending independent human/linguistic validation.
 
-The next cohort, `RHD-FR-015`, crosses printed p. 353, the documentary change from German→Rarámuri to Rarámuri→German. Diplomatic work in that batch must therefore retain explicit direction awareness in addition to the existing facsimile-first and column-order protocol.
+The next cohort is **`RHD-FR-016`**, wholly within the Rarámuri→German section. Its OCR-derived queue spans approximately printed pp. 356–360 and contains many heavily corrupted Rarámuri candidates, so the same facsimile-first, column-aware protocol remains necessary.
