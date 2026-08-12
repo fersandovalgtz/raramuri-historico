@@ -1,23 +1,27 @@
 # Facsimile review
 
-Este directorio conserva manifiestos editoriales append-only sobre la segmentación OCR de alta cobertura. Los IDs son persistentes: un falso límite se rechaza, pero nunca se recicla. La revisión IA-asistida permanece separada de la validación humana/filológica y lingüística.
+Este directorio conserva manifiestos editoriales append-only sobre la segmentación OCR de alta cobertura. Los IDs son persistentes: un falso límite se rechaza, pero nunca se recicla. La revisión IA-asistida permanece separada de la validación humana/filológica y lingüística, y cada manifiesto conserva el método de evidencia realmente utilizado.
 
 ## Estado de revisión
 
 `RHD-FR-001`–`RHD-FR-007` agotaron los 609 `high_machine`: 553 aceptados, 56 rechazados y 298 correcciones de lema. `RHD-FR-008`–`RHD-FR-019` agotaron los 1,110 `medium_machine`: 908 aceptados, 202 rechazados y 366 correcciones.
 
-El nivel `low_machine` lleva dos lotes completos. `RHD-FR-020` resolvió 100 candidatos con 40 aceptados / 60 rechazados; `RHD-FR-021` resuelve otros 100 con **41 aceptados / 59 rechazados**. En conjunto se han cotejado **200 de 716 candidatos bajos: 81 aceptados y 119 falsos límites**.
+El nivel `low_machine` lleva tres lotes completos. FR-020 produjo 40 aceptados / 60 rechazados; FR-021, 41 / 59; FR-022, **69 / 31**. En conjunto se han revisado **300 de 716 candidatos bajos: 150 aceptados y 150 falsos límites**. Quedan **416**.
 
-`RHD-FR-021` se sitúa facsimilarmente en pp. **314–326**, no 316–326, y corrige la página de **37 registros**. Cinco lemas requieren reparación clara: `Flachs`, `Forttragen`, `Hügel`, `Hurtig` y `Jenſeits des Fluſſes`.
+`RHD-FR-022` alinea la cohorte en pp. **326–333**, no 327–334, y corrige la página de **61 registros**. Cuatro lemas se reparan: `Knüttel`, `Koſt`, `Kriegen` y `Lehrling`. Entre los falsos límites aparecen prosa de `Kranich`, `Kraut`, `Kukuck`, `Leopard`, `Mädchen`, `Mästen` y `Mutter`, equivalentes rarámuri internos y frases subordinadas.
 
-Los falsos límites proceden sobre todo de prosa, ejemplos y equivalentes internos de artículos extensos. Casos metodológicos destacados: `RHD-S1809-00577` es una repetición interna de `Gegenwart`; `RHD-S1809-00671` (`Heil`) es el catchword de p. 323, no el artículo de p. 324; `RHD-S1809-00739`, segmentado por OCR como `Hüte`, se recupera facsimilarmente como `Hügel`.
+## Excepción documental de FR-022
 
-`RHD-DIP-021A`–`RHD-DIP-021E` proporcionan overlay diplomático completo para los **41 arranques aceptados**. El OCR fuente permanece intacto.
+FR-022 no tuvo relectura directa de las imágenes del facsímil en el runtime de producción. Su manifiesto declara `direct_facsimile_image_reinspection=false`. La revisión usa el OCR primario preservado como evidencia textual, la arquitectura de página/columnas previamente verificada visualmente y una transcripción académica de la versión publicada únicamente como colación secundaria.
 
-Estado acumulado: **1,919 candidatos cotejados, 1,542 aceptados, 377 falsos límites, 677 correcciones, 1,542 transcripciones diplomáticas completas y 2,118 candidatos activos provisionales**. El inventario registra **553** transcripciones con nota explícita de incertidumbre; todos los registros permanecen `human_verified=false`.
+El lote debe ser recotejado más adelante contra imagen directa. El script `apply_review_overrides.py` conserva esta diferencia metodológica en el inventario mediante `mixed_ai_assisted_editorial_collation`, una lista de métodos y `direct_facsimile_image_recheck_pending_batches`. No se presenta FR-022 como revisión visual ni humana.
+
+`RHD-DIP-022A`–`RHD-DIP-022G` proporcionan overlay diplomático para los **69 arranques aceptados**. El OCR fuente permanece intacto.
+
+Estado acumulado: **2,019 candidatos revisados, 1,611 aceptados, 408 falsos límites, 681 correcciones, 1,611 transcripciones diplomáticas completas y 2,087 candidatos activos provisionales**. El inventario registra **622** transcripciones con nota explícita de incertidumbre; todos los registros permanecen `human_verified=false`.
 
 ## Cola determinista
 
-`scripts/generate_review_queue.py` genera `next_review_queue.json` y `next_review_queue_compact.json` en orden de fuente y excluye todos los IDs ya revisados. Los niveles alto y medio están agotados. Quedan **516 `low_machine`**.
+`scripts/generate_review_queue.py` genera `next_review_queue.json` y `next_review_queue_compact.json` en orden de fuente y excluye todos los IDs ya revisados. Los niveles alto y medio están agotados. Quedan **416 `low_machine`**.
 
-`RHD-FR-022` contiene los siguientes 100 candidatos bajos, desde `RHD-S1809-00789` (`Kieſelſtein`) hasta `RHD-S1809-00964` (OCR `C | ſondere bedeutet eine ver`), estimados automáticamente alrededor de pp. **327–334**. Dado el perfil de FR-020/021, ninguna disposición debe inferirse por apariencia OCR: tipografía, sangría, continuidad de artículo y facsímil siguen siendo determinantes.
+`RHD-FR-023` contiene los siguientes 100 candidatos bajos, desde `RHD-S1809-00965` (`Nachſehen`) hasta `RHD-S1809-01238` (`Spielplatz`), estimados automáticamente alrededor de pp. **334–343**. Ninguna disposición se considera validación humana; cuando no haya inspección directa de imagen, la excepción deberá declararse en el manifiesto correspondiente.
