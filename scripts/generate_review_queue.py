@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ENTRIES = ROOT / "data" / "entries.csv"
 REVIEW_DIR = ROOT / "data" / "review"
 OUT = REVIEW_DIR / "next_review_queue.json"
+COMPACT = REVIEW_DIR / "next_review_queue_compact.json"
 
 rows = list(csv.DictReader(ENTRIES.open(encoding="utf-8")))
 seen = set()
@@ -54,4 +55,10 @@ payload = {
     ]
 }
 OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+compact = {
+    "tier": selected_tier,
+    "remaining_before_batch": remaining_in_tier,
+    "records": [[r["record_id"], int(r["printed_page"]), r.get("headword_raw", "")] for r in selected]
+}
+COMPACT.write_text(json.dumps(compact, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 print(f"generated {len(selected)}-record queue for {selected_tier}; {remaining_in_tier} pending before batch")
