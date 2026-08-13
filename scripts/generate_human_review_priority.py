@@ -98,3 +98,47 @@ print(f"Generated human review priority: {len(full_records)} records; {priority_
 # Generate review packets only after the priority artifacts exist. The called
 # script is also non-adjudicative and leaves every verification flag false.
 runpy.run_path(str(ROOT / "scripts" / "generate_priority1_review_dossiers.py"), run_name="__main__")
+
+# Keep project metadata synchronized with the generated priority layer.
+meta_path = ROOT / "project-metadata.json"
+if meta_path.exists():
+    meta = json.load(meta_path.open(encoding="utf-8"))
+    scope = meta.setdefault("scope", {})
+    pipeline = meta.setdefault("editorial_pipeline", {})
+    unresolved = priority_counts["unresolved_after_ai_recollation"]
+    corrected = priority_counts["corrected_ai_assisted"]
+    confirmed = priority_counts["confirmed_ai_assisted"]
+    scope["human_review_priority_counts"] = {
+        "unresolved_after_ai_recollation": unresolved,
+        "corrected_ai_assisted": corrected,
+        "confirmed_ai_assisted": confirmed,
+    }
+    scope["priority1_review_dossiers"] = unresolved
+    scope["status"] = (
+        "Complete AI-assisted documentary phase: all 2,495 segmented candidates reviewed against facsimile; "
+        "1,965 provisional article starts accepted and diplomatically transcribed; 530 false boundaries rejected; "
+        "781 headwords corrected. Scientific note audit identified 482 explicit open-validation records and "
+        "RHD-PHIL-001–010 re-collated all 482 at high resolution. The independent human queue is prioritized as "
+        f"{unresolved} unresolved, {corrected} proposed corrections and {confirmed} AI-confirmed records with residual "
+        f"review routes. {unresolved} reviewer-ready priority-1 evidence dossiers are generated. Human/philological "
+        "and linguistic verification remains 0/482."
+    )
+    pipeline["priority1_review_dossiers"] = "data/validation/priority1_review_dossiers.json"
+    pipeline["priority1_review_dossiers_compact"] = "data/validation/priority1_review_dossiers_compact.json"
+    pipeline["priority1_review_index"] = "data/validation/PRIORITY1_REVIEW_INDEX.md"
+    pipeline["priority1_review_dossier_directory"] = "data/validation/dossiers/priority1/"
+    pipeline["priority1_review_dossier_generator"] = "scripts/generate_priority1_review_dossiers.py"
+    pipeline["priority1_review_dossier_count"] = unresolved
+    pipeline["human_review_priority_counts"] = {
+        "priority_1_unresolved": unresolved,
+        "priority_2_corrected_ai_assisted": corrected,
+        "priority_3_confirmed_ai_assisted": confirmed,
+    }
+    pipeline["next_stage_priority"] = (
+        f"Begin with the {unresolved} reviewer-ready priority-1 unresolved dossiers, then adjudicate the "
+        f"{corrected} corrected_ai_assisted proposals, then complete residual linguistic, semantic, historical and "
+        f"disciplinary review of the {confirmed} confirmed_ai_assisted records. Use HUMAN_REVIEW_PROTOCOL.md and "
+        "human_review_template.json; no verification flag may be set without explicit independent reviewer evidence."
+    )
+    meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print("Synchronized project-metadata.json human-review counts and dossier references")
