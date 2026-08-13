@@ -2,40 +2,44 @@
 
 Esta carpeta contiene la fase posterior a la primera pasada editorial integral contra el facsímil. Su propósito es separar con rigor recotejo filológico, evaluación lingüística, normalización auxiliar y correspondencias diacrónicas.
 
-La capa diplomática permanece inmutable como evidencia documental. Ninguna normalización, interpretación semántica o decisión lingüística sobrescribe `headword_diplomatic` ni `article_diplomatic`.
+La capa diplomática permanece inmutable como evidencia documental. Ninguna normalización, interpretación semántica ni propuesta `RHD-PHIL` sobrescribe `headword_diplomatic` o `article_diplomatic`.
 
-## Estado de entrada y depuración de notas
+## Estado de entrada
 
 El corpus tiene 2,495 candidatos facsimilarmente revisados. Tras rechazar 530 falsos límites quedan 1,965 artículos activos provisionales, todos con transcripción diplomática completa IA-asistida.
 
-La primera auditoría de notas mostró que **676 registros tenían alguna nota diplomática**, pero no todas representaban problemas pendientes. Se introdujo `diplomatic_note_state` para distinguirlas: **194 notas editoriales ya resueltas** quedan fuera de la cola científica y **482 registros** permanecen `open_validation`.
+La auditoría de notas distinguió **676 registros con alguna nota diplomática**, de los cuales **194 documentan decisiones editoriales ya resueltas** y **482 permanecen `open_validation`**. El triage inicial distribuye estos 482 casos en 230 lecturas gráficas, 29 problemas de estructura de artículo, 201 formas históricas rarámuri, 2 cuestiones de semántica/glosa y 20 casos generales. Estas categorías son organizativas, no diagnósticos lingüísticos.
 
-La cola abierta se distribuye por triage reproducible en 230 casos de lectura gráfica, 29 de estructura de artículo, 201 de forma histórica rarámuri, 2 de semántica/glosa y 20 casos generales. Estas categorías organizan trabajo; no son diagnósticos lingüísticos.
+## RHD-PHIL-001–010
 
-## RHD-PHIL-001
+La serie `RHD-PHIL-001`–`RHD-PHIL-010` agotó la segunda recollación filológica IA-asistida de **los 482/482 casos abiertos**. `validation_progress.json` registra 482 revisados, 0 restantes y `next_ai_recollation_batch=null`.
 
-`RHD-PHIL-001` recotejó directamente contra el facsímil de alta resolución los primeros 50 casos abiertos, correspondientes a pp. 301–320. El resultado fue **25 lecturas confirmadas IA-asistidas, 11 correcciones propuestas y 14 casos todavía irresueltos**.
+Cada manifiesto es append-only y usa sólo tres disposiciones:
 
-Las correcciones propuestas viven exclusivamente en `review/philological_review_batch_001.json`. Entre ellas figuran `Mapúieri`, `Napavitſchi`, `Temaſeáli`, `Nachteuje`, `Teé`, `Pultſché`, `Tſchapiboli`, la eliminación de acentos no visibles en formas de `Ehemann`, `Tſchutſchá` y `Raveli`. Ninguna de ellas sobrescribe automáticamente la transcripción diplomática.
+- `confirmed_ai_assisted`: el nuevo recotejo sostiene la lectura documental previa;
+- `corrected_ai_assisted`: se propone una reparación gráfica o textual sustentada por el facsímil, sin sobrescribir la diplomática;
+- `unresolved_after_ai_recollation`: la imagen o la estructura documental no permiten cerrar el caso con suficiente seguridad.
 
-Después de este lote hay **50 de 482 casos recotejados** y **432 pendientes**. `next_philological_batch.json` avanza determinísticamente a `RHD-PHIL-002` con los siguientes 50 registros.
+Las propuestas PHIL produjeron reparaciones documentales útiles —por ejemplo `Caú. Cajuſchi.`, `Talahipoa`, `Talahúmali`, `Sonúca!`, `Techtéke`, `Atác, oder hatúca`, la restitución de `Mir, netſchi` y `jujega` en `Ich`, así como numerosas correcciones de diacríticos— y conservaron abiertos los casos donde la evidencia no permite una decisión única.
+
+Ninguno de los 482 casos ha sido convertido en validación humana: `human_verified=false`, `philologically_verified_by_human=false` y `linguistically_verified=false` siguen siendo la regla.
 
 ## Artefactos
 
 - `uncertainty_queue.json`: 482 problemas explícitamente abiertos, con artículo diplomático, nota y acción recomendada.
 - `uncertainty_queue_compact.json`: vista compacta de la cola integral.
 - `validation_inventory.json`: conteos del triage inicial y estados independientes de validación.
-- `review/philological_review_batch_###.json`: manifiestos append-only de recotejo IA-asistido.
-- `next_philological_batch.json`: siguiente cohorte determinista de hasta 50 IDs aún no recotejados.
-- `human_review_queue.json`: registros ya recotejados que conservan una ruta explícita de revisión humana/lingüística/disciplinar.
-- `validation_progress.json`: avance cuantitativo de la fase sin convertir recotejo IA en verificación humana.
+- `review/philological_review_batch_001.json`–`philological_review_batch_010.json`: segunda inspección IA-asistida de los 482 casos.
+- `next_philological_batch.json`: sin cohorte pendiente una vez agotados los 482 registros.
+- `human_review_queue.json`: **482 registros** recotejados por IA y preparados para juicio humano independiente.
+- `validation_progress.json`: 482/482 recotejados, 0 pendientes automáticos y 0 verificaciones humanas declaradas.
 
-## Semántica de las disposiciones RHD-PHIL
+## Ruta humana
 
-`confirmed_ai_assisted` indica que la nueva inspección sostiene la lectura documental previa. `corrected_ai_assisted` introduce una lectura propuesta porque el facsímil permite una reparación gráfica clara. `unresolved_after_ai_recollation` conserva el problema abierto porque la imagen no permite una decisión suficientemente segura.
+La siguiente fase no debe ser otra recollación automática. La revisión independiente deberá registrar, como mínimo, identidad del revisor, fecha, competencia relevante, decisión, evidencia y alcance de la decisión. Conviene distinguir cuatro planos: lectura filológica, análisis lingüístico rarámuri, interpretación semántica/histórica y anotación disciplinar especializada.
 
-Todas estas disposiciones mantienen `human_verified=false`. La cola humana prioriza los casos irresueltos y después las lecturas corregidas o confirmadas que requieren juicio lingüístico, semántico, zoológico, etnomusicológico u otra competencia independiente.
+Las correcciones `corrected_ai_assisted` deben aceptarse, rechazarse o modificarse explícitamente por esa capa humana antes de alimentar una edición crítica. Los casos `unresolved_after_ai_recollation` deben priorizarse porque contienen la incertidumbre documental residual más fuerte.
 
-## Siguiente etapa operativa
+## Capas posteriores
 
-El siguiente lote automático es `RHD-PHIL-002`. La validación humana futura deberá registrar revisor, fecha, competencia, decisión y evidencia. Las normalizaciones y las correspondencias con Rarámuri Digital se alojarán en capas separadas, con método y confianza explícitos.
+Una vez documentada la revisión independiente podrán construirse `normalized_transcription`, relaciones de variantes, correspondencias históricas con Rarámuri Digital y anotación crítica. Esas capas deberán enlazar siempre al `record_id`, método y evidencia y nunca borrar el facsímil, OCR, transcripción diplomática o historial PHIL.
