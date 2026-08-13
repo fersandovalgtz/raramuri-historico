@@ -85,6 +85,35 @@ if dip_ids:
     if di.get('complete_article_transcriptions_ai_assisted') != len(dip_ids): errors.append('inventory diplomatic count mismatch')
     if di.get('human_verified') is not False: errors.append('inventory diplomatic layer must state human_verified=false')
 
+validation_queue_path=root/'data/validation/uncertainty_queue.json'
+validation_inventory_path=root/'data/validation/validation_inventory.json'
+if not validation_queue_path.exists():
+    errors.append('scientific uncertainty queue missing')
+else:
+    vq=json.load(validation_queue_path.open(encoding='utf-8'))
+    vrecs=vq.get('records',[])
+    expected_uncertain=[r for r in rows if r.get('status')!='rejected_false_positive' and r.get('diplomatic_status')=='complete_ai_assisted' and (r.get('diplomatic_note') or '').strip()]
+    if vq.get('count') != len(vrecs): errors.append('validation queue count mismatch')
+    if len(vrecs) != len(expected_uncertain): errors.append(f'validation queue coverage mismatch: {len(vrecs)} != {len(expected_uncertain)}')
+    vids=[x.get('record_id') for x in vrecs]
+    if len(vids)!=len(set(vids)): errors.append('duplicate record_id in validation queue')
+    allowed_categories={'graphic_reading','article_structure','historical_raramuri_form','semantic_or_gloss','general_editorial_uncertainty'}
+    for x in vrecs:
+        rid=x.get('record_id')
+        if rid not in by_id: errors.append(f'validation queue id missing from entries: {rid}'); continue
+        if x.get('category') not in allowed_categories: errors.append(f'bad validation category: {rid}')
+        if x.get('priority') not in {1,2,3,4,5}: errors.append(f'bad validation priority: {rid}')
+        if x.get('human_verified') is not False: errors.append(f'validation queue must not claim human verification: {rid}')
+        if x.get('validation_state')!='pending_independent_review': errors.append(f'bad validation state: {rid}')
+        if not (by_id[rid].get('diplomatic_note') or '').strip(): errors.append(f'validation queue record lacks uncertainty note: {rid}')
+    if validation_inventory_path.exists():
+        vi=json.load(validation_inventory_path.open(encoding='utf-8'))
+        if vi.get('active_diplomatic_records_with_explicit_uncertainty') != len(vrecs): errors.append('validation inventory count mismatch')
+        if any(vi.get(k)!=0 for k in ('human_verified_records','philologically_verified_records','linguistically_verified_records')):
+            errors.append('scientific validation inventory must begin with zero independent verified records')
+    else:
+        errors.append('validation inventory missing')
+
 j=json.load((root/'data/json/entries.json').open(encoding='utf-8'))
 if len(j)!=len(rows): errors.append('JSON count differs from CSV')
 ET.parse(root/'data/xml/entries.xml')
@@ -105,4 +134,4 @@ if checks_path.exists():
             if got != item['sha256']: errors.append('checksum mismatch '+item['file'])
 if errors:
     print('\n'.join('ERROR: '+e for e in errors)); sys.exit(1)
-print(f"OK: {len(rows)} candidates; {len(reviewed_ids)} facsimile-reviewed boundaries; {len(rejected_ids)} rejected; {len(dip_ids)} complete AI-assisted diplomatic articles; exports agree")
+print(f"OK: {len(rows)} candidates; {len(reviewed_ids)} facsimile-reviewed boundaries; {len(rejected_ids)} rejected; {len(dip_ids)} complete AI-assisted diplomatic articles; scientific uncertainty queue validated; exports agree")
