@@ -1,0 +1,307 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_de_rar_microstructure_v1",
+  "generated": "2026-08-13",
+  "low_risk_context_count": 64,
+  "unique_record_class_cell_count": 63,
+  "single_class_article_count": 59,
+  "infinitive_headword_cell_count": 26,
+  "random_seed": 1809,
+  "permutation_iterations": 20000,
+  "analyses": {
+    "record_class_cells": {
+      "observation_count": 63,
+      "counts_by_class": {
+        "iameke": 15,
+        "ugameke": 16,
+        "ameke_other": 15,
+        "jameke": 7,
+        "gameke": 10
+      },
+      "microstructure_relation_counts": {
+        "present_participle_subentry_family_candidate": 7,
+        "past_participle_subentry_family_candidate": 9,
+        "multiword_or_ambiguous": 6,
+        "other_local_subentry": 5,
+        "same_as_article_headword": 35,
+        "past_participle_subentry_unmatched": 1
+      },
+      "relation_counts_by_class": {
+        "ameke_other": {
+          "same_as_article_headword": 10,
+          "other_local_subentry": 1,
+          "present_participle_subentry_family_candidate": 2,
+          "multiword_or_ambiguous": 2
+        },
+        "gameke": {
+          "same_as_article_headword": 9,
+          "present_participle_subentry_family_candidate": 1
+        },
+        "iameke": {
+          "present_participle_subentry_family_candidate": 2,
+          "multiword_or_ambiguous": 3,
+          "past_participle_subentry_family_candidate": 2,
+          "same_as_article_headword": 7,
+          "past_participle_subentry_unmatched": 1
+        },
+        "ugameke": {
+          "past_participle_subentry_family_candidate": 7,
+          "other_local_subentry": 3,
+          "same_as_article_headword": 4,
+          "present_participle_subentry_family_candidate": 1,
+          "multiword_or_ambiguous": 1
+        },
+        "jameke": {
+          "same_as_article_headword": 5,
+          "present_participle_subentry_family_candidate": 1,
+          "other_local_subentry": 1
+        }
+      },
+      "tests": [
+        {
+          "outcome": "past_participle_subentry_family_candidate",
+          "target_numerator": 7,
+          "target_denominator": 16,
+          "rest_numerator": 2,
+          "rest_denominator": 47,
+          "target_rate": 0.4375,
+          "rest_rate": 0.042553,
+          "rate_difference": 0.394947,
+          "empirical_two_sided_p": 0.00075,
+          "human_reviewed": false
+        },
+        {
+          "outcome": "present_participle_subentry_family_candidate",
+          "target_numerator": 1,
+          "target_denominator": 16,
+          "rest_numerator": 6,
+          "rest_denominator": 47,
+          "target_rate": 0.0625,
+          "rest_rate": 0.12766,
+          "rate_difference": -0.06516,
+          "empirical_two_sided_p": 0.670816,
+          "human_reviewed": false
+        }
+      ]
+    },
+    "single_class_articles": {
+      "observation_count": 59,
+      "counts_by_class": {
+        "iameke": 15,
+        "ugameke": 14,
+        "ameke_other": 14,
+        "jameke": 6,
+        "gameke": 10
+      },
+      "microstructure_relation_counts": {
+        "present_participle_subentry_family_candidate": 7,
+        "past_participle_subentry_family_candidate": 9,
+        "multiword_or_ambiguous": 4,
+        "other_local_subentry": 3,
+        "same_as_article_headword": 35,
+        "past_participle_subentry_unmatched": 1
+      },
+      "relation_counts_by_class": {
+        "ameke_other": {
+          "same_as_article_headword": 10,
+          "other_local_subentry": 1,
+          "present_participle_subentry_family_candidate": 2,
+          "multiword_or_ambiguous": 1
+        },
+        "gameke": {
+          "same_as_article_headword": 9,
+          "present_participle_subentry_family_candidate": 1
+        },
+        "iameke": {
+          "present_participle_subentry_family_candidate": 2,
+          "multiword_or_ambiguous": 3,
+          "past_participle_subentry_family_candidate": 2,
+          "same_as_article_headword": 7,
+          "past_participle_subentry_unmatched": 1
+        },
+        "ugameke": {
+          "past_participle_subentry_family_candidate": 7,
+          "other_local_subentry": 2,
+          "same_as_article_headword": 4,
+          "present_participle_subentry_family_candidate": 1
+        },
+        "jameke": {
+          "same_as_article_headword": 5,
+          "present_participle_subentry_family_candidate": 1
+        }
+      },
+      "tests": [
+        {
+          "outcome": "past_participle_subentry_family_candidate",
+          "target_numerator": 7,
+          "target_denominator": 14,
+          "rest_numerator": 2,
+          "rest_denominator": 45,
+          "target_rate": 0.5,
+          "rest_rate": 0.044444,
+          "rate_difference": 0.455556,
+          "empirical_two_sided_p": 0.0003,
+          "human_reviewed": false
+        },
+        {
+          "outcome": "present_participle_subentry_family_candidate",
+          "target_numerator": 1,
+          "target_denominator": 14,
+          "rest_numerator": 6,
+          "rest_denominator": 45,
+          "target_rate": 0.071429,
+          "rest_rate": 0.133333,
+          "rate_difference": -0.061905,
+          "empirical_two_sided_p": 0.671516,
+          "human_reviewed": false
+        }
+      ]
+    },
+    "infinitive_headword_record_class_cells": {
+      "observation_count": 26,
+      "counts_by_class": {
+        "iameke": 7,
+        "ugameke": 12,
+        "gameke": 2,
+        "ameke_other": 3,
+        "jameke": 2
+      },
+      "microstructure_relation_counts": {
+        "present_participle_subentry_family_candidate": 7,
+        "past_participle_subentry_family_candidate": 9,
+        "other_local_subentry": 2,
+        "same_as_article_headword": 4,
+        "multiword_or_ambiguous": 3,
+        "past_participle_subentry_unmatched": 1
+      },
+      "relation_counts_by_class": {
+        "ameke_other": {
+          "present_participle_subentry_family_candidate": 2,
+          "multiword_or_ambiguous": 1
+        },
+        "gameke": {
+          "same_as_article_headword": 1,
+          "present_participle_subentry_family_candidate": 1
+        },
+        "iameke": {
+          "present_participle_subentry_family_candidate": 2,
+          "past_participle_subentry_family_candidate": 2,
+          "multiword_or_ambiguous": 1,
+          "same_as_article_headword": 1,
+          "past_participle_subentry_unmatched": 1
+        },
+        "ugameke": {
+          "past_participle_subentry_family_candidate": 7,
+          "other_local_subentry": 2,
+          "present_participle_subentry_family_candidate": 1,
+          "same_as_article_headword": 1,
+          "multiword_or_ambiguous": 1
+        },
+        "jameke": {
+          "present_participle_subentry_family_candidate": 1,
+          "same_as_article_headword": 1
+        }
+      },
+      "tests": [
+        {
+          "outcome": "past_participle_subentry_family_candidate",
+          "target_numerator": 7,
+          "target_denominator": 12,
+          "rest_numerator": 2,
+          "rest_denominator": 14,
+          "target_rate": 0.583333,
+          "rest_rate": 0.142857,
+          "rate_difference": 0.440476,
+          "empirical_two_sided_p": 0.034898,
+          "human_reviewed": false
+        },
+        {
+          "outcome": "present_participle_subentry_family_candidate",
+          "target_numerator": 1,
+          "target_denominator": 12,
+          "rest_numerator": 6,
+          "rest_denominator": 14,
+          "target_rate": 0.083333,
+          "rest_rate": 0.428571,
+          "rate_difference": -0.345238,
+          "empirical_two_sided_p": 0.079046,
+          "human_reviewed": false
+        }
+      ]
+    },
+    "infinitive_headword_single_class_articles": {
+      "observation_count": 24,
+      "counts_by_class": {
+        "iameke": 7,
+        "ugameke": 11,
+        "gameke": 2,
+        "ameke_other": 2,
+        "jameke": 2
+      },
+      "microstructure_relation_counts": {
+        "present_participle_subentry_family_candidate": 7,
+        "past_participle_subentry_family_candidate": 9,
+        "other_local_subentry": 2,
+        "same_as_article_headword": 4,
+        "multiword_or_ambiguous": 1,
+        "past_participle_subentry_unmatched": 1
+      },
+      "relation_counts_by_class": {
+        "ameke_other": {
+          "present_participle_subentry_family_candidate": 2
+        },
+        "gameke": {
+          "same_as_article_headword": 1,
+          "present_participle_subentry_family_candidate": 1
+        },
+        "iameke": {
+          "present_participle_subentry_family_candidate": 2,
+          "past_participle_subentry_family_candidate": 2,
+          "multiword_or_ambiguous": 1,
+          "same_as_article_headword": 1,
+          "past_participle_subentry_unmatched": 1
+        },
+        "ugameke": {
+          "past_participle_subentry_family_candidate": 7,
+          "other_local_subentry": 2,
+          "present_participle_subentry_family_candidate": 1,
+          "same_as_article_headword": 1
+        },
+        "jameke": {
+          "present_participle_subentry_family_candidate": 1,
+          "same_as_article_headword": 1
+        }
+      },
+      "tests": [
+        {
+          "outcome": "past_participle_subentry_family_candidate",
+          "target_numerator": 7,
+          "target_denominator": 11,
+          "rest_numerator": 2,
+          "rest_denominator": 13,
+          "target_rate": 0.636364,
+          "rest_rate": 0.153846,
+          "rate_difference": 0.482517,
+          "empirical_two_sided_p": 0.035048,
+          "human_reviewed": false
+        },
+        {
+          "outcome": "present_participle_subentry_family_candidate",
+          "target_numerator": 1,
+          "target_denominator": 11,
+          "rest_numerator": 6,
+          "rest_denominator": 13,
+          "target_rate": 0.090909,
+          "rest_rate": 0.461538,
+          "rate_difference": -0.370629,
+          "empirical_two_sided_p": 0.073396,
+          "human_reviewed": false
+        }
+      ]
+    }
+  },
+  "human_reviewed": false,
+  "automatic_part_of_speech_tagging": false,
+  "automatic_morphological_analysis": false,
+  "interpretive_scope": "Documentary DE-RAR article-headword to local-label surface microstructure; family candidates are conservative string relationships, not grammatical analysis."
+}
