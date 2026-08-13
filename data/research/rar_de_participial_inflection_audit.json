@@ -30,7 +30,9 @@
       "hits": [
         [
           "rufende",
-          "present-shaped"
+          "present-shaped",
+          "rufend",
+          "inflected"
         ]
       ],
       "human_reviewed": false
@@ -45,7 +47,9 @@
       "hits": [
         [
           "gekochtes",
-          "past-shaped"
+          "past-shaped",
+          "gekocht",
+          "inflected"
         ]
       ],
       "human_reviewed": false
@@ -60,7 +64,9 @@
       "hits": [
         [
           "gebundenes",
-          "past-shaped"
+          "past-shaped",
+          "gebunden",
+          "inflected"
         ]
       ],
       "human_reviewed": false
@@ -95,7 +101,9 @@
       "hits": [
         [
           "schlafender",
-          "present-shaped"
+          "present-shaped",
+          "schlafend",
+          "inflected"
         ]
       ],
       "human_reviewed": false
@@ -120,7 +128,9 @@
       "hits": [
         [
           "gegend",
-          "present-shaped"
+          "present-shaped",
+          "gegend",
+          "bare"
         ]
       ],
       "human_reviewed": false
@@ -145,7 +155,9 @@
       "hits": [
         [
           "verheurathete",
-          "past-shaped"
+          "past-shaped",
+          "verheurathet",
+          "inflected"
         ]
       ],
       "human_reviewed": false
@@ -260,7 +272,9 @@
       "hits": [
         [
           "allwissend",
-          "present-shaped"
+          "present-shaped",
+          "allwissend",
+          "bare"
         ]
       ],
       "human_reviewed": false
@@ -305,7 +319,9 @@
       "hits": [
         [
           "rasend",
-          "present-shaped"
+          "present-shaped",
+          "rasend",
+          "bare"
         ]
       ],
       "human_reviewed": false
@@ -320,7 +336,9 @@
       "hits": [
         [
           "geschlachtet",
-          "past-shaped"
+          "past-shaped",
+          "geschlachtet",
+          "bare"
         ]
       ],
       "human_reviewed": false
@@ -415,7 +433,9 @@
       "hits": [
         [
           "getaufter",
-          "past-shaped"
+          "past-shaped",
+          "getauft",
+          "inflected"
         ]
       ],
       "human_reviewed": false
@@ -436,8 +456,15 @@
       "token": "parugameke",
       "gloss": "Fortgetragenes",
       "v1": false,
-      "inflected_surface_candidate": false,
-      "hits": [],
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "fortgetragenes",
+          "past-shaped",
+          "fortgetragen",
+          "inflected"
+        ]
+      ],
       "human_reviewed": false
     },
     {
@@ -516,8 +543,21 @@
       "token": "schugiameke",
       "gloss": "Es ist ausgegangen, hat abgenommen",
       "v1": false,
-      "inflected_surface_candidate": false,
-      "hits": [],
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "ausgegangen",
+          "past-shaped",
+          "ausgegangen",
+          "bare"
+        ],
+        [
+          "abgenommen",
+          "past-shaped",
+          "abgenommen",
+          "bare"
+        ]
+      ],
       "human_reviewed": false
     },
     {
@@ -536,8 +576,15 @@
       "token": "sikirugameke",
       "gloss": "Zerhauenes",
       "v1": false,
-      "inflected_surface_candidate": false,
-      "hits": [],
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "zerhauenes",
+          "past-shaped",
+          "zerhauen",
+          "inflected"
+        ]
+      ],
       "human_reviewed": false
     },
     {
@@ -580,7 +627,9 @@
       "hits": [
         [
           "berauscht",
-          "past-shaped"
+          "past-shaped",
+          "berauscht",
+          "bare"
         ]
       ],
       "human_reviewed": false
@@ -595,7 +644,9 @@
       "hits": [
         [
           "verwandter",
-          "past-shaped"
+          "past-shaped",
+          "verwandt",
+          "inflected"
         ]
       ],
       "human_reviewed": false
@@ -720,7 +771,9 @@
       "hits": [
         [
           "verheyratheter",
-          "past-shaped"
+          "past-shaped",
+          "verheyrathet",
+          "inflected"
         ]
       ],
       "human_reviewed": false

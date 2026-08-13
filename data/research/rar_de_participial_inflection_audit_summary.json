@@ -18,10 +18,22 @@
   "inflected_candidate_by_class": {
     "ameke_other": 7,
     "gameke": 1,
-    "iameke": 0,
+    "iameke": 1,
     "jameke": 1,
-    "ugameke": 4
+    "ugameke": 6
   },
+  "ugameke_vs_rest_permutation": {
+    "target_numerator": 6,
+    "target_denominator": 9,
+    "rest_numerator": 10,
+    "rest_denominator": 58,
+    "target_rate": 0.666667,
+    "rest_rate": 0.172414,
+    "rate_difference": 0.494253,
+    "empirical_two_sided_p": 0.00425
+  },
+  "random_seed": 1809,
+  "permutation_iterations": 20000,
   "ugameke_records": [
     {
       "member_id": "RHD-AMEKE-00002",
@@ -43,7 +55,9 @@
       "hits": [
         [
           "gekochtes",
-          "past-shaped"
+          "past-shaped",
+          "gekocht",
+          "inflected"
         ]
       ],
       "human_reviewed": false
@@ -58,7 +72,9 @@
       "hits": [
         [
           "gebundenes",
-          "past-shaped"
+          "past-shaped",
+          "gebunden",
+          "inflected"
         ]
       ],
       "human_reviewed": false
@@ -83,7 +99,9 @@
       "hits": [
         [
           "geschlachtet",
-          "past-shaped"
+          "past-shaped",
+          "geschlachtet",
+          "bare"
         ]
       ],
       "human_reviewed": false
@@ -98,7 +116,9 @@
       "hits": [
         [
           "getaufter",
-          "past-shaped"
+          "past-shaped",
+          "getauft",
+          "inflected"
         ]
       ],
       "human_reviewed": false
@@ -109,8 +129,15 @@
       "token": "parugameke",
       "gloss": "Fortgetragenes",
       "v1": false,
-      "inflected_surface_candidate": false,
-      "hits": [],
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "fortgetragenes",
+          "past-shaped",
+          "fortgetragen",
+          "inflected"
+        ]
+      ],
       "human_reviewed": false
     },
     {
@@ -129,8 +156,15 @@
       "token": "sikirugameke",
       "gloss": "Zerhauenes",
       "v1": false,
-      "inflected_surface_candidate": false,
-      "hits": [],
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "zerhauenes",
+          "past-shaped",
+          "zerhauen",
+          "inflected"
+        ]
+      ],
       "human_reviewed": false
     }
   ],
