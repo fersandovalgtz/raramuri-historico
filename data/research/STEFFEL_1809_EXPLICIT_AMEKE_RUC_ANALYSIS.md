@@ -16,8 +16,16 @@ La microestructura del diccionario es coherente con esa explicación. Aparecen, 
 
 Esta evidencia obliga a revisar la etiqueta computacional `ugameke`: debe conservarse como clase gráfica por compatibilidad del pipeline, pero al menos parte de ella contiene una construcción históricamente analizada por Steffel como `ruc + ameke`.
 
-Caballero 2022 documenta `-ame` como participial en Choguita Rarámuri. La observación de Steffel de que el `ke` final de `ameke` suele omitirse hace más relevante esta comparación, pero no prueba por sí sola cognación o continuidad entre variedades y épocas.
+## Corroboración interna de la ausencia de `ke`
 
-La formulación de trabajo pasa a ser: **Steffel describe explícitamente `ameke` como participial en al menos dos comentarios metalingüísticos independientes y documenta `ruc + ameke → rugameke` en al menos una construcción; la relación diacrónica con `-ame` moderno queda pendiente de demostración comparativa independiente.**
+La observación de Steffel sobre la omisión de `ke` también está respaldada por la práctica escrita de su propio material. En la p. 313 el vocabulario DE–RAR registra directamente `Tamatsiame` con la glosa `Dunkel`. Más adelante, en las oraciones rarámuri conectadas de las pp. 372–374, aparecen formas finales en `-ame` en contextos cuya traducción alemana expresa propiedades o estados: `pusiame` en «Dieser Mann ist blind»; `tſchócame` en el contexto de «der Schweif kurz»; `rosácame` en el contexto de huevos blancos; `pamaguéame` en «Die Blätter des Baumes sind grün»; `gueléame` en «die Äste sind dicke»; y `tamatsiame` en «Die Nacht ist dunkel».
 
-`source_explicit_historical_grammar=true`; `ai_facsimile_recollated=true`; `human_reviewed=false`; `automatic_cognacy_judgment=false`; `historical_continuity_judgment=not_performed`.
+La p. 373 contiene además, dentro del mismo conjunto de oraciones conectadas, una forma predicativa de color rojo que conserva la terminación completa `-ameke`. La coexistencia de `-ame` y `-ameke` en el mismo género textual hace especialmente plausible que los ejemplos cortos sean manifestaciones de la variación que Steffel describe, en vez de una simple convención distinta entre diccionario y texto corrido.
+
+Este hallazgo cambia la base de la comparación moderna: la forma corta `-ame` **está impresa en Steffel** y no se obtiene solamente eliminando `ke` de manera computacional. No se afirma, sin embargo, que cada forma en `-ame` deba derivarse de una forma subyacente `-ameke`, ni que `ke` constituya un morfema independiente.
+
+Caballero 2022 documenta `-ame` como participial en Choguita Rarámuri. La observación de Steffel de que el `ke` final de `ameke` suele omitirse y las formas históricas efectivamente impresas en `-ame` hacen más relevante esta comparación, pero no prueban por sí solas cognación o continuidad entre variedades y épocas.
+
+La formulación de trabajo pasa a ser: **Steffel describe explícitamente `ameke` como participial en al menos dos comentarios metalingüísticos independientes, documenta `ruc + ameke → rugameke` en al menos una construcción y atestigua por escrito múltiples formas en `-ame` compatibles con su propia observación de pérdida de `ke`; la relación diacrónica con `-ame` moderno queda pendiente de demostración comparativa independiente.**
+
+`source_explicit_historical_grammar=true`; `source_attested_ame_surface_variants=true`; `ai_facsimile_recollated=true`; `human_reviewed=false`; `automatic_cognacy_judgment=false`; `historical_continuity_judgment=not_performed`.
