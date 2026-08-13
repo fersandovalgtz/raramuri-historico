@@ -130,8 +130,8 @@
     },
     {
       "path": "data/corpus_inventory.json",
-      "bytes": 6023,
-      "sha256": "18d3196d8add231eac5f3e2e8293eda528e9bed0a2a8fd806b66f0225ac571cb"
+      "bytes": 6092,
+      "sha256": "9212316419a1d4d142e6db9ddf8ec5d0e792801d17bc6634a2bb5735bf9fac41"
     },
     {
       "path": "data/correspondences_template.csv",
@@ -860,8 +860,8 @@
     },
     {
       "path": "data/entries.csv",
-      "bytes": 1954365,
-      "sha256": "cfe3a910209113b0007275944fda041cf3da9d992b945c5be69940ccf0858cb0"
+      "bytes": 1970015,
+      "sha256": "d948d811853e8d94489d1bfb238f5af8b315f937504b0840584c4e69a8538188"
     },
     {
       "path": "data/entries_curated.csv",
@@ -905,8 +905,8 @@
     },
     {
       "path": "data/json/entries.json",
-      "bytes": 3840217,
-      "sha256": "d98403ec2ff4e3dc9b84a1dfec532f5fc5c6cbc69a28ac1b004f27792f6d0785"
+      "bytes": 3855865,
+      "sha256": "6c85f67eff7c911db27cf1f66ee9b8aa627d6b662144e0b1839dac84f8bfbe9a"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -915,8 +915,8 @@
     },
     {
       "path": "data/raramuri_historico.sqlite",
-      "bytes": 2482176,
-      "sha256": "39644747036985adccf9d60420719a7011bc87af7e5998d9bb25c50bc0a5338e"
+      "bytes": 2502656,
+      "sha256": "25e5fecc1ac3a495c087000531378c4487c72a6e356bf311f2b72232702cdba8"
     },
     {
       "path": "data/review/README.md",
@@ -1059,6 +1059,11 @@
       "sha256": "80e34367d37cc89ad57cc0074897b028a92ccbfcd09c5405209d8b7c407b51b8"
     },
     {
+      "path": "data/review/facsimile_review_batch_028.json",
+      "bytes": 7889,
+      "sha256": "220e79a1b77249f571ee84eee5d032122eada9d30649cf97c1b686fdc1d948b4"
+    },
+    {
       "path": "data/review/next_review_queue.json",
       "bytes": 275,
       "sha256": "858c8b58ac9c8411b03be76f658a12309773fda3ae56d58200e080cad6300709"
@@ -1080,13 +1085,13 @@
     },
     {
       "path": "data/xml/entries.xml",
-      "bytes": 4511052,
-      "sha256": "af00b1c3a5c1cfe640b821e55c8c095eb4ea6bb7f10ef619b72048fa1d30c5f1"
+      "bytes": 4526700,
+      "sha256": "d778be19d4bd89918d31a19c639613cc6a41e9c786383231f8b3b4ade6d90229"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
-      "bytes": 1630828,
-      "sha256": "b035c914415ae6cff1d894f3298313b3bd8d03a17c9009a7f9a44443581a3390"
+      "bytes": 1630852,
+      "sha256": "70d815716bda38951b74fce777f237eca733ed88af67b47e56e651a52836cc88"
     },
     {
       "path": "external-references.json",
@@ -1110,8 +1115,8 @@
     },
     {
       "path": "public/data/entries.json",
-      "bytes": 3391116,
-      "sha256": "2f4f0c141f126bc502546a057732c260df4d9521e556f335f77d3766cc56b764"
+      "bytes": 3406764,
+      "sha256": "17ac29353a2ceb638291888bf628ef445f41649add5ba7e3c435430e32868b9c"
     },
     {
       "path": "public/data/metadata.json",
