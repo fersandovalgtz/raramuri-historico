@@ -3,7 +3,7 @@
   "review_date": "2026-08-13",
   "review_method": "direct_high_resolution_facsimile_recollation_ai_assisted",
   "source_authority": "user-supplied Steffel 1809 facsimile",
-  "scope": "Final 32 open-validation records, combining late Rarámuri→German character-level checks with general, semantic and article-structure cases retained from the first complete pass",
+  "scope": "Final 32 open-validation records, combining late Rarámuri→German character-level checks with general, semantic and article-structure cases retained from the first complete pass; final late-page ambiguities rechecked at 600 dpi",
   "human_verified": false,
   "philologically_verified_by_human": false,
   "linguistically_verified": false,
@@ -11,12 +11,12 @@
   "records": [
     {"record_id":"RHD-S1809-02377","printed_page":367,"disposition":"confirmed_ai_assisted","confirmed_reading":"Temotſatſchie, Ein Ort, wo viele Kröten ſind.","residual_route":"human_linguistic_and_toponymic_review","note":"The compact historical cluster is graphically sustained."},
     {"record_id":"RHD-S1809-02378","printed_page":367,"disposition":"confirmed_ai_assisted","confirmed_reading":"Tenibátſala, Zaum.","residual_route":"human_linguistic_review","note":"The headword and acute mark are supported."},
-    {"record_id":"RHD-S1809-02383","printed_page":367,"disposition":"confirmed_ai_assisted","confirmed_reading":"Tepágatigámeke, ſ. Gott.","residual_route":"human_linguistic_and_morphological_review","note":"The long headword and visible accents are sustained."},
-    {"record_id":"RHD-S1809-02406","printed_page":367,"disposition":"corrected_ai_assisted","previous_reading":"Tótschi, Fisch. Tótschi tschapiméla, Fische fangen, s. Fischen.","proposed_reading":"Tótschi, Fiſch. Tótschi tſchapiméla, Fiſche fangen, ſ. Fiſchen.","correction_scope":"restore historical long-s/tſch orthography in German and Rarámuri phrase","residual_route":"human_linguistic_and_morphological_review","note":"Direct p. 367 inspection clearly supports historical `tſchapiméla` and long-s spellings."},
+    {"record_id":"RHD-S1809-02383","printed_page":367,"disposition":"corrected_ai_assisted","previous_reading":"Tepágatigámeke, ſ. Gott.","proposed_reading":"Tepágatigameke, ſ. Gott.","correction_scope":"remove unsupported second acute accent","residual_route":"human_linguistic_and_morphological_review","note":"600-dpi p. 367 clearly supports the acute in Tepá- but no acute in the later -gameke sequence."},
+    {"record_id":"RHD-S1809-02406","printed_page":367,"disposition":"corrected_ai_assisted","previous_reading":"Tótschi, Fisch. Tótschi tschapiméla, Fische fangen, s. Fischen.","proposed_reading":"Tótschi, Fiſch. Tótschi tſchapimela, Fiſche fangen, ſ. Fiſchen.","correction_scope":"restore historical long-s/tſch orthography and remove unsupported acute in tſchapimela","residual_route":"human_linguistic_and_morphological_review","note":"600-dpi p. 367 supports historical tſchapimela without an acute mark and the long-s German spellings."},
     {"record_id":"RHD-S1809-02415","printed_page":367,"disposition":"confirmed_ai_assisted","confirmed_reading":"Tſchacheaca, ſ. Staar.","residual_route":"human_linguistic_review","note":"The headword and cross-reference are graphically supported."},
     {"record_id":"RHD-S1809-02458","printed_page":368,"disposition":"confirmed_ai_assisted","confirmed_reading":"Tſchutſchelíla, Salbung.","residual_route":"human_linguistic_review","note":"The historical cluster and acute mark are sustained."},
     {"record_id":"RHD-S1809-02459","printed_page":368,"disposition":"confirmed_ai_assisted","confirmed_reading":"Tſchutſchú, Taback ſchmauchen, ſ. Taback.","residual_route":"human_linguistic_and_contact_lexicon_review","note":"The headword, accent and cross-reference are supported."},
-    {"record_id":"RHD-S1809-02466","printed_page":368,"disposition":"unresolved_after_ai_recollation","confirmed_reading":"Tſ[e/ſ/...]tarácameke, oder Stácameke. Roth. [first long variant retained provisionally]","residual_route":"human_philological_and_linguistic_review","note":"The second variant `Stácameke` and German gloss are clear, but the compact initial sequence of the first variant does not justify a unique character-level reconstruction; no forced replacement of the diplomatic form is made."},
+    {"record_id":"RHD-S1809-02466","printed_page":368,"disposition":"corrected_ai_assisted","previous_reading":"Tlestatáccameke, oder Stácameke. Roth.","proposed_reading":"Tſeſtarácameke, oder Stácameke. Roth.","correction_scope":"resolve compact initial historical consonant sequence and internal accent from 600-dpi source","residual_route":"human_linguistic_and_variant_review","note":"At 600 dpi the first variant is sufficiently clear as Tſeſtarácameke; the second variant Stácameke and gloss Roth are also clear, so the prior unresolved status is closed at the AI-assisted documentary level."},
     {"record_id":"RHD-S1809-02470","printed_page":368,"disposition":"confirmed_ai_assisted","confirmed_reading":"Tſetijolájameke, Uebelthäter. Sünder.","residual_route":"human_linguistic_and_morphological_review","note":"The long form and accent are sustained."},
     {"record_id":"RHD-S1809-02474","printed_page":368,"disposition":"confirmed_ai_assisted","confirmed_reading":"Vácalchi, Kuh.","residual_route":"human_linguistic_review","note":"The compact medial sequence and acute are supported."},
     {"record_id":"RHD-S1809-02214","printed_page":364,"disposition":"confirmed_ai_assisted","confirmed_reading":"Putschíla, Brust, uber.","residual_route":"human_philological_semantic_and_linguistic_review","note":"The source-level reading `uber.` is preserved exactly as visible; its lexical/semantic interpretation remains deliberately unresolved for independent review."},
@@ -35,7 +35,7 @@
     {"record_id":"RHD-S1809-01310","printed_page":345,"disposition":"confirmed_ai_assisted","confirmed_reading":"Tanz [long cultural/ethnographic article confirmed structurally].","residual_route":"human_philological_linguistic_historical_and_cultural_review","note":"Article extent and source wording are confirmed; cultural interpretation and historical claims remain independent review tasks."},
     {"record_id":"RHD-S1809-01329","printed_page":346,"disposition":"confirmed_ai_assisted","confirmed_reading":"Thier [article boundary and classificatory wording confirmed].","residual_route":"human_linguistic_zoological_and_historical_review","note":"The documentary reading is stable; taxonomic interpretation remains separate."},
     {"record_id":"RHD-S1809-01662","printed_page":354,"disposition":"confirmed_ai_assisted","confirmed_reading":"Bahumali, Eine andere Schlangenart.","residual_route":"human_linguistic_and_zoological_review","note":"The unaccented historical headword is supported."},
-    {"record_id":"RHD-S1809-01673","printed_page":354,"disposition":"corrected_ai_assisted","previous_reading":"Atſác oder hatúca, Armbruſt, Bogen ſ. Armbruſt.","proposed_reading":"Atác, oder hatúca, Armbruſt, Bogen ſ. Armbruſt.","correction_scope":"remove unsupported historical long-s from first variant and restore visible acute","residual_route":"human_linguistic_and_variant_review","note":"High-resolution p. 354 clearly reads `Atác, oder hatúca`."},
+    {"record_id":"RHD-S1809-01673","printed_page":354,"disposition":"corrected_ai_assisted","previous_reading":"Atſác oder hatúca, Armbruſt, Bogen ſ. Armbruſt.","proposed_reading":"Atác, oder hatúca, Armbruſt, Bogen ſ. Armbruſt.","correction_scope":"remove unsupported historical long-s from first variant and restore visible acute","residual_route":"human_linguistic_and_variant_review","note":"High-resolution p. 354 clearly reads Atác, oder hatúca."},
     {"record_id":"RHD-S1809-01697","printed_page":355,"disposition":"confirmed_ai_assisted","confirmed_reading":"Bulá, Binden.","residual_route":"human_linguistic_review","note":"The headword and final acute are supported."},
     {"record_id":"RHD-S1809-01748","printed_page":356,"disposition":"confirmed_ai_assisted","confirmed_reading":"Cavára, Stirne.","residual_route":"human_linguistic_review","note":"The historical form and accent are sustained."},
     {"record_id":"RHD-S1809-01759","printed_page":356,"disposition":"confirmed_ai_assisted","confirmed_reading":"Culéameke, Ein Ort oder Gegend, wo es Holz oder Bäume giebt.","residual_route":"human_linguistic_and_toponymic_review","note":"Headword and article wording are supported."},
@@ -44,9 +44,9 @@
   ],
   "summary": {
     "reviewed": 32,
-    "confirmed_ai_assisted": 28,
-    "corrected_ai_assisted": 3,
-    "unresolved_after_ai_recollation": 1,
+    "confirmed_ai_assisted": 27,
+    "corrected_ai_assisted": 5,
+    "unresolved_after_ai_recollation": 0,
     "human_verified": 0
   }
 }
