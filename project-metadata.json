@@ -145,7 +145,16 @@
     "steffel_ameke_edit_distance_one_base_contrast_pairs": 12,
     "steffel_ameke_permutation_iterations": 20000,
     "steffel_ameke_permutation_omnibus_empirical_p": 0.0001,
-    "steffel_ameke_permutation_conservative_signal_count": 1
+    "steffel_ameke_permutation_conservative_signal_count": 1,
+    "steffel_ameke_robustness_permutation_schemes": 5,
+    "steffel_ameke_robustness_permutation_tests": 10,
+    "steffel_ameke_robustness_positive_p_le_0_05_tests": 10,
+    "steffel_ameke_robustness_all_context_schemes_p_le_0_05": true,
+    "steffel_ameke_robustness_all_member_binary_schemes_p_le_0_05": true,
+    "steffel_ameke_robustness_leave_one_target_context_min": 0.3568844948155293,
+    "steffel_ameke_robustness_leave_one_page10_context_min": 0.3346727898966705,
+    "steffel_ameke_robustness_target_members_with_proxy": 15,
+    "steffel_ameke_robustness_target_proxy_context_count": 16
   },
   "editorial_pipeline": {
     "review_queue": "data/review/next_review_queue.json",
@@ -249,6 +258,8 @@
       "scripts/generate_internal_concordance.py",
       "scripts/generate_ameke_constellation.py",
       "scripts/generate_ameke_permutation_tests.py",
+      "scripts/generate_ameke_robustness_controls.py",
+      "scripts/annotate_ameke_robustness.py",
       "scripts/generate_historical_variants.py",
       "scripts/generate_semantic_context_queue.py",
       "scripts/generate_graphemic_statistics.py",
@@ -266,7 +277,7 @@
     "de_rar_inventory_guided_attestations_csv": "data/research/de_rar_inventory_guided_attestations.csv",
     "steffel_internal_concordance_csv": "data/research/internal_concordance.csv",
     "diachronic_semantic_context_queue_csv": "data/research/diachronic_semantic_context_queue.csv",
-    "parallel_machine_research_stage": "Internal Steffel concordance, conservative residual recovery, seeded graphic-family hypotheses, German-context association, -ameke graphic-constellation analysis with permutation controls, documentary variant analysis, graphemic statistics and non-adjudicative diachronic context may advance while independent human validation remains unavailable.",
+    "parallel_machine_research_stage": "Internal Steffel concordance, conservative residual recovery, seeded graphic-family hypotheses, German-context association, -ameke graphic-constellation analysis with permutation and provenance-sensitivity controls, documentary variant analysis, graphemic statistics and non-adjudicative diachronic context may advance while independent human validation remains unavailable.",
     "de_rar_residual_span_triage": "data/research/de_rar_residual_span_triage.json",
     "de_rar_residual_span_triage_csv": "data/research/de_rar_residual_span_triage.csv",
     "de_rar_residual_span_triage_summary": "data/research/de_rar_residual_span_triage_summary.json",
@@ -294,7 +305,11 @@
     "steffel_ameke_permutation_tests": "data/research/ameke_permutation_tests.json",
     "steffel_ameke_permutation_tests_csv": "data/research/ameke_permutation_tests.csv",
     "steffel_ameke_permutation_tests_summary": "data/research/ameke_permutation_tests_summary.json",
-    "ameke_permutation_policy": "Exclusive -ameke graphic-class labels are shuffled across whole members with a fixed seed; empirical p-values, BH-FDR and max-|rate-difference| FWER calibrate documentary context dependence only. Statistical dependence does not establish morphemes, grammatical categories, semantic functions or paradigms."
+    "ameke_permutation_policy": "Exclusive -ameke graphic-class labels are shuffled across whole members with a fixed seed; empirical p-values, BH-FDR and max-|rate-difference| FWER calibrate documentary context dependence only. Statistical dependence does not establish morphemes, grammatical categories, semantic functions or paradigms.",
+    "steffel_ameke_robustness_controls": "data/research/ameke_ugameke_robustness_controls.json",
+    "steffel_ameke_robustness_controls_summary": "data/research/ameke_ugameke_robustness_controls_summary.json",
+    "steffel_ameke_robustness_permutations_csv": "data/research/ameke_ugameke_robustness_permutations.csv",
+    "ameke_robustness_policy": "The pre-specified ugameke↔German infinitive-shape proxy association is stress-tested by provenance/page-stratified member permutations, provenance-specific subgroup tests, and leave-one-out diagnostics. Aggregate robustness does not imply independent replication by provenance and does not establish morphology, grammar or semantics."
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",

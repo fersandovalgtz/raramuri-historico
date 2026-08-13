@@ -141,6 +141,21 @@
     "automatic_morphological_analysis": false,
     "automatic_semantic_classification": false
   },
+  "ameke_hostile_robustness": {
+    "target_graphic_class": "ugameke",
+    "target_proxy": "infinitive_ending_proxy",
+    "permutation_scheme_count": 5,
+    "permutation_test_count": 10,
+    "positive_p_le_0_05_test_count": 10,
+    "all_context_schemes_p_le_0_05": true,
+    "all_member_binary_schemes_p_le_0_05": true,
+    "leave_one_target_context_min": 0.3568844948155293,
+    "leave_one_page10_context_min": 0.3346727898966705,
+    "target_members_with_proxy": 15,
+    "target_proxy_context_count": 16,
+    "automatic_morphological_analysis": false,
+    "automatic_semantic_classification": false
+  },
   "explicit_variant_groups": 24,
   "graphic_collision_groups": 7,
   "diachronic_semantic_context_signals": {
@@ -149,5 +164,5 @@
     "internal_reciprocal_documentary_support": 153
   },
   "human_reviewed_relations": 0,
-  "warning": "Machine/documentary candidates, graphic patterns, German-context associations, mechanically stripped -ameke contrasts and permutation-calibrated dependence tests; not validated linguistic relations, grammatical categories, meanings or morphological analyses."
+  "warning": "Machine/documentary candidates, graphic patterns, German-context associations, mechanically stripped -ameke contrasts, permutation controls and robustness diagnostics; not validated linguistic relations, grammatical categories, meanings or morphological analyses."
 }
