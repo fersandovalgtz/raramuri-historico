@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths:
+      - '.github/workflows/validate-ameke-robustness.yml'
       - 'scripts/generate_ameke_robustness_controls.py'
       - 'data/research/ameke_constellation_members.json'
 permissions:
