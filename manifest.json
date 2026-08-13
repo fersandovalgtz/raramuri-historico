@@ -890,13 +890,13 @@
     },
     {
       "path": "data/entries.csv",
-      "bytes": 2071369,
-      "sha256": "1bc0ac040027f5eb7f6e8bdaaf02675038ad5aea52392a9d4a837c0733dff589"
+      "bytes": 2081959,
+      "sha256": "1f60dae4cbf5fc0940199de361b9169ffb3ac4558bd864a8d44202b6fe95747a"
     },
     {
       "path": "data/entries_curated.csv",
-      "bytes": 111546,
-      "sha256": "14e29a1d0439b7349670d91fe8b29d505f4dd2cd73e484c29405749364aaeca7"
+      "bytes": 122136,
+      "sha256": "4741ec701443720cd6bc96426e3228fac743afaaf701511f05c0cb7009c7131f"
     },
     {
       "path": "data/facsimile/README.md",
@@ -935,8 +935,8 @@
     },
     {
       "path": "data/json/entries.json",
-      "bytes": 4036913,
-      "sha256": "a5145cfc0668cb21aaa3ede43946e4ad5da01aece31309fc93fbb9205271945c"
+      "bytes": 4047503,
+      "sha256": "2ed1083d48a06c25a202e2a85230ae1a9a4c54cbcdaa8da4f977981ae6fdb887"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -945,8 +945,8 @@
     },
     {
       "path": "data/raramuri_historico.sqlite",
-      "bytes": 2650112,
-      "sha256": "5af3729526cb213fdf38fc47b6a3e96aa5d6d866a8aed5b76825cfe29fb0b9d9"
+      "bytes": 2682880,
+      "sha256": "d546f785d48b48530e297fa83117bbcd3504bd661552af0eb152e391849ddd99"
     },
     {
       "path": "data/review/README.md",
@@ -1124,6 +1124,11 @@
       "sha256": "043137558dcd8317d637f7723f4c4a43858de1628c054974232c9cd7d4509878"
     },
     {
+      "path": "data/validation/review/philological_review_batch_001.json",
+      "bytes": 17388,
+      "sha256": "991f2470ae6ded80764bf981d31fee584679067fc82863dc7380523d76810beb"
+    },
+    {
       "path": "data/validation/uncertainty_queue.json",
       "bytes": 435583,
       "sha256": "5f136fdc3a0017a123f34a9992bbd2c7fbd9b0ea43388b0680828e401ee8bb76"
@@ -1140,8 +1145,8 @@
     },
     {
       "path": "data/xml/entries.xml",
-      "bytes": 4751689,
-      "sha256": "b527897ed4a35f90f929e4c18cccb2935fbb62256012b5aec5822118bc52d574"
+      "bytes": 4762279,
+      "sha256": "2942545c9a03a23c6bf2f2afafa5f2b503270cd7730fd50f9ab6b14cc070571c"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
@@ -1170,8 +1175,8 @@
     },
     {
       "path": "public/data/entries.json",
-      "bytes": 3572842,
-      "sha256": "68ae130ac13ee1e587b1d7d291b3e872e9a3967f0de849ac24c58b306247f9b1"
+      "bytes": 3583432,
+      "sha256": "e6d25dee0b71fa935696d7ab8db7421d69d61b57842e35e200264f8ce2aeb8ce"
     },
     {
       "path": "public/data/metadata.json",
