@@ -95,8 +95,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8425,
-      "sha256": "1c40b96bf9ec69c7020011a6cb0f42da511eec3525ac2d061ca80bf125501ab3"
+      "bytes": 9431,
+      "sha256": "bccba566875450b1d65e0bdd9ffa9626ac2b5fb1374462ed200d5b3f5d571e1f"
     },
     {
       "path": "RELEASE_NOTES_0.1.0.md",
@@ -890,13 +890,13 @@
     },
     {
       "path": "data/entries.csv",
-      "bytes": 2283169,
-      "sha256": "6b64553a92af9418f50eea4eac4286615213cca23330da0d6be089e0ae869658"
+      "bytes": 2293759,
+      "sha256": "ac1a89b8fa52d749874394f9343b88e7ad0c1a926cf4f539f588fcf17c78b4d2"
     },
     {
       "path": "data/entries_curated.csv",
-      "bytes": 323346,
-      "sha256": "f15d8e3fe847daa8d73d0a780f8dc93f48892c30690b05fbab6adea9bcff7a85"
+      "bytes": 333936,
+      "sha256": "83b1f991c97e058af2102c79e516dca506ad379b28e1cb3ab2bad662e4fc165f"
     },
     {
       "path": "data/facsimile/README.md",
@@ -935,8 +935,8 @@
     },
     {
       "path": "data/json/entries.json",
-      "bytes": 4248713,
-      "sha256": "681fe917a587bbdcead60fdc2a7731fd15b6eb0ab20d2c912f8ed8030b690e85"
+      "bytes": 4259303,
+      "sha256": "81709ced7985ac85655bffe6132c085b91f4d85b0526006dc445431cdaff0026"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -945,8 +945,8 @@
     },
     {
       "path": "data/raramuri_historico.sqlite",
-      "bytes": 2867200,
-      "sha256": "5bf2b718d00c0288ee138246c24b3b619aaf6f6e89234175c815b1596a6c59e8"
+      "bytes": 2883584,
+      "sha256": "c0a28666fd369138d7775612177c06fb59e07829964904ce526460a5caf7abc0"
     },
     {
       "path": "data/review/README.md",
@@ -1119,9 +1119,244 @@
       "sha256": "ad127429a1bdf13ee86c5df7c42939540ce65e88ad4b28fed656f3b001f76be8"
     },
     {
+      "path": "data/validation/PRIORITY1_REVIEW_INDEX.md",
+      "bytes": 8756,
+      "sha256": "40a23b79e53f5860ab5157703aca2beb4e52c24a1f5dccd609b9b83a090ecb2f"
+    },
+    {
       "path": "data/validation/README.md",
-      "bytes": 5187,
-      "sha256": "31c3cfb2e289b4e5b6139d72bc7376dcc17ca556b74744e023b4d54c0ceac0d6"
+      "bytes": 5574,
+      "sha256": "c84562879775292d8e6ced84d3b876abefc25b3e955c118a19716baa22517191"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-001_RHD-S1809-00016.md",
+      "bytes": 2426,
+      "sha256": "7cdc3a75adc213617a573bbfd9a0f1707ba750c93cd673c8660effdb3df77993"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-002_RHD-S1809-00071.md",
+      "bytes": 2360,
+      "sha256": "c7d1d76ffdfadf3adc73e4782441da59e7f129f214eba8e1007f2aa0a480da27"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-003_RHD-S1809-00144.md",
+      "bytes": 2395,
+      "sha256": "64cc1ed89451471d9c6036610adad7dbb96603d7bd29e65407113f87455405ba"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-004_RHD-S1809-00152.md",
+      "bytes": 4834,
+      "sha256": "1a5f2dcb27b200f914e3ab0355138959910943e977f3e145575db61b0566905e"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-005_RHD-S1809-00185.md",
+      "bytes": 3192,
+      "sha256": "ef9537fa0fb3606f8d09b949be89060f2a64c2ec9e8724e2b72727aefe57ceb2"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-006_RHD-S1809-00241.md",
+      "bytes": 3428,
+      "sha256": "4dadd20ab984c7ee74825d5a222faf1deac4ffd608d6418f4a2644e66aff799f"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-007_RHD-S1809-00264.md",
+      "bytes": 2357,
+      "sha256": "7c561d1486765c23a236b5cd4242be79268f4ae8f8505f6cc31a453879ad747c"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-008_RHD-S1809-00277.md",
+      "bytes": 2558,
+      "sha256": "bba8991f62d58ce99a83349bda0f31062ddaa19d03106d16a333d9aa53be531e"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-009_RHD-S1809-00315.md",
+      "bytes": 3141,
+      "sha256": "8feca7274eae23b7e3ec821a955cb273f5b42f9d0fc493244ad34e5e74164751"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-010_RHD-S1809-00349.md",
+      "bytes": 2327,
+      "sha256": "258088cc2cbd18a61ea442e988b7c95e9e7eaab03608001858c8c349e746ab60"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-011_RHD-S1809-00414.md",
+      "bytes": 5234,
+      "sha256": "80cc4266479f8efd025a7af443ceb7519288436f0ecdc0b5651db75550ec80c9"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-012_RHD-S1809-00436.md",
+      "bytes": 2324,
+      "sha256": "d9f00bcc901c8086f3de690b26b99c14b547d6259a7d6da687df70d338113f4a"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-013_RHD-S1809-00444.md",
+      "bytes": 2355,
+      "sha256": "05ef18d526ce90175a1b3ce62a75912335f986df41e64d8ca5b3e4cc311fb74d"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-014_RHD-S1809-00452.md",
+      "bytes": 2335,
+      "sha256": "f94c0c2b9c98d99dab187db53f6226e469f70103120f85dc21334b7c148c6a35"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-015_RHD-S1809-00530.md",
+      "bytes": 3131,
+      "sha256": "21a8cc2dd17359f0c11626fabc4742f8a3a331093aae143516c36d933db05b8e"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-016_RHD-S1809-00652.md",
+      "bytes": 2465,
+      "sha256": "a105f0fde89e64223a13540999dfc63a818700e0ac190a0d7351910677c5f191"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-017_RHD-S1809-00665.md",
+      "bytes": 2333,
+      "sha256": "bb877856c81ee76a14ff9787286e9a29e9eb5d986f4c23a69e461d67fd6bf8e2"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-018_RHD-S1809-00666.md",
+      "bytes": 2308,
+      "sha256": "90be48cd1d92152a9cbfac70578828b6998a50fbc3885ebc8e12038aa94cbef6"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-019_RHD-S1809-00706.md",
+      "bytes": 2533,
+      "sha256": "0f150376e50abc4c2ed323c79360246dc36ea341ec2263057ac3fc8eb7f35a31"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-020_RHD-S1809-00726.md",
+      "bytes": 2320,
+      "sha256": "4105612a1b122bc1c4066b401f28a5c9e9d4a390e2bcbd8049c8a69fa30482d6"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-021_RHD-S1809-00741.md",
+      "bytes": 2366,
+      "sha256": "1a3ad3293e72133c2b40dd6783378181f73c976f0faac56b66731395408f499e"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-022_RHD-S1809-00801.md",
+      "bytes": 2287,
+      "sha256": "effd3e5fca4d0e5634bd090ec6393446851c620a4d0a28f002629834f0a21a78"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-023_RHD-S1809-00855.md",
+      "bytes": 2562,
+      "sha256": "7e16a1c7f6d4e1e31e32212f009deb2c16cb37582874d8754aba777ce279ee6c"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-024_RHD-S1809-00988.md",
+      "bytes": 2591,
+      "sha256": "d2d3e7d6f95c1da07f732a00ff13723783483d306f61151f8a50d81560a546ed"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-025_RHD-S1809-01015.md",
+      "bytes": 2298,
+      "sha256": "26761472168272021ac553a3066422f00f82f997f33e108ee84934404c4ae02d"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-026_RHD-S1809-01047.md",
+      "bytes": 2466,
+      "sha256": "639445e47226b72cfd50fd57490e413371a083a9a428401011d15ee28c412d5e"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-027_RHD-S1809-01129.md",
+      "bytes": 2389,
+      "sha256": "a9ef16ecd0d81b9d1c4067c0735ac4f7816f5a49217a5d1423fa3c256f372d12"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-028_RHD-S1809-01153.md",
+      "bytes": 2273,
+      "sha256": "62636a98617bab778ed27c43c3b8a49e181b02d82d52c3c944e12b3fc8da3d5b"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-029_RHD-S1809-01164.md",
+      "bytes": 2568,
+      "sha256": "e486bc62378a4001b68d4058698018ca99f7e92f498f0557b9ad8427d4fbabea"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-030_RHD-S1809-01322.md",
+      "bytes": 2440,
+      "sha256": "5fe8664b9255448fe207cc581d5a09d7e6266dd446c68ac80d2f219205de9a0d"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-031_RHD-S1809-01442.md",
+      "bytes": 2341,
+      "sha256": "c1ec9e4adc72aea65bce559cb91ddba05d7ec69a3f417bcf89a693f493997231"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-032_RHD-S1809-01447.md",
+      "bytes": 2419,
+      "sha256": "8397f1f720ecbc187a9fffc653544fab6137d0da04995cb69a46b7612f25d228"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-033_RHD-S1809-01510.md",
+      "bytes": 2494,
+      "sha256": "a9e6c506e38f2851170f4d2bc38ee6ab97a287c9e75cbef7531dd003142ae5dd"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-034_RHD-S1809-01522.md",
+      "bytes": 2372,
+      "sha256": "515d7517927454bc57ce152a7775aee6826bceb3750b65d3083a0a2a20968e86"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-035_RHD-S1809-01529.md",
+      "bytes": 2504,
+      "sha256": "26d52f181b467e40cf1c7d7d326c64da76aabdd85cda451adc3ba361fbe4fe78"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-036_RHD-S1809-01541.md",
+      "bytes": 2952,
+      "sha256": "6d1b22f510e36c98b5d429bceb257d628097405cd7fedebf694e5e7b8475cac9"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-037_RHD-S1809-01544.md",
+      "bytes": 2277,
+      "sha256": "29e8a54d99babc9313a4e81d05fb09b6790cd2645423dcb8ed7384aa44216fcf"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-038_RHD-S1809-01582.md",
+      "bytes": 2304,
+      "sha256": "3ab2ba4ed18c78f758f91749bd57bc4ce0bc39bb91adec9c7d6492e77947b211"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-039_RHD-S1809-01769.md",
+      "bytes": 2562,
+      "sha256": "98dcb8c20ddbba0c58facfbdea420a87953b0f6cbc21aedb973559abd42fa27d"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-040_RHD-S1809-01977.md",
+      "bytes": 2353,
+      "sha256": "0082ca7aa9f58cfad4cc414b55481ad25a194a7503739b8018d0bd0783df0fda"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-041_RHD-S1809-01981.md",
+      "bytes": 2457,
+      "sha256": "d7eec0e20ebccd460c7a7b74c2faac8333697166ef3e3fc1d2aea9393d1a0991"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-042_RHD-S1809-02083.md",
+      "bytes": 2445,
+      "sha256": "24f70610f9d6622e3e8f360b2cc786445cb6ac546ac95ec34da92a3973faa052"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-043_RHD-S1809-02145.md",
+      "bytes": 2337,
+      "sha256": "687bf65672212d087f5eea5e9b674c7ece7f05a9b35072dd67ec87797fcddfe5"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-044_RHD-S1809-02208.md",
+      "bytes": 2327,
+      "sha256": "86167cfca75e443f3517b9caba32150c6dfe796e6fccf5cfc91703f5122573b8"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-045_RHD-S1809-02348.md",
+      "bytes": 2324,
+      "sha256": "3bb0f33937478fa6d3ee2cab40a633518e976e5229b8bd420112d85293ff98a1"
+    },
+    {
+      "path": "data/validation/dossiers/priority1/RHD-HUM-P1-046_RHD-S1809-02461.md",
+      "bytes": 2363,
+      "sha256": "e3ccfdbfb8ccf789ff57dbab4af15b67ddd1f11636181bebc9710eb5914ab870"
     },
     {
       "path": "data/validation/human_review_priority.json",
@@ -1157,6 +1392,16 @@
       "path": "data/validation/next_philological_batch_notes_compact.json",
       "bytes": 51,
       "sha256": "e15d424163ddcb979f5717d85a7323cdeb6365b81ff63a5555fd183d3f2754fc"
+    },
+    {
+      "path": "data/validation/priority1_review_dossiers.json",
+      "bytes": 121772,
+      "sha256": "6dee028a82e40d7e579969a65a04d91763d54cbf07579208a9bd888cd8c40fe0"
+    },
+    {
+      "path": "data/validation/priority1_review_dossiers_compact.json",
+      "bytes": 7221,
+      "sha256": "ef023fce40d8cd7f4326a9e5e097615944f3da05effcb3ac49be2f05b553e05f"
     },
     {
       "path": "data/validation/review/philological_review_batch_001.json",
@@ -1230,8 +1475,8 @@
     },
     {
       "path": "data/xml/entries.xml",
-      "bytes": 4963489,
-      "sha256": "e741fe15426a5bd98bb87266a600848ded2f583b096d9e0ba869096dde85107f"
+      "bytes": 4974079,
+      "sha256": "8fb5c9ba950dabe9324bb0898fea22d259a6c1121a10715d1bdef3b2cd717201"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
@@ -1260,8 +1505,8 @@
     },
     {
       "path": "public/data/entries.json",
-      "bytes": 3784642,
-      "sha256": "5e3010e30215daa79a65c927320a86ad5a6388f3c254b2df7f1dc23105d8f4ac"
+      "bytes": 3795232,
+      "sha256": "3da96c7e2cb763cd3b7ea726f8ea0fa5eadb917b0f650f39c9580fdd38859279"
     },
     {
       "path": "public/data/metadata.json",
@@ -1305,13 +1550,18 @@
     },
     {
       "path": "scripts/generate_human_review_priority.py",
-      "bytes": 3312,
-      "sha256": "458067c256e13264e69534d07723aad8241164738ad951222cd5f1536e454ff0"
+      "bytes": 3669,
+      "sha256": "1faa9fced232b15e4e26d4de577b8e106f46f784a161d85c7458079ccb6da2cd"
     },
     {
       "path": "scripts/generate_next_philological_batch.py",
       "bytes": 4604,
       "sha256": "eb3847dba57b0eef6ed19dcc3deef012dd5febb1d030dc5e03c9713efce83ebe"
+    },
+    {
+      "path": "scripts/generate_priority1_review_dossiers.py",
+      "bytes": 7092,
+      "sha256": "cd7160faef28c2624ba88c351d35847e31325ceb655ef7f836f63c6e6633c126"
     },
     {
       "path": "scripts/generate_review_queue.py",

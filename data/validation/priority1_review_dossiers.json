@@ -1,0 +1,3182 @@
+{
+  "stage": "priority1_independent_human_review_dossiers",
+  "selection_rule": "priority_rank=1 and unresolved_after_ai_recollation in deterministic priority order",
+  "count": 46,
+  "human_verified": false,
+  "records": [
+    {
+      "dossier_id": "RHD-HUM-P1-001",
+      "review_order": 1,
+      "record_id": "RHD-S1809-00016",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 301,
+        "pdf_page": 11,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Acker",
+        "article_diplomatic": "Acker, Balſá. Gepflügter Acker, Baſſa mapú echtſchi-rúe."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The second Rarámuri phrase is directly reconstructed from the facsimile; exact internal consonants remain suitable for independent verification.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The second phrase after `Gepflügter Acker` remains too compact to close every internal character with sufficient confidence.",
+        "confirmed_reading": "Acker, Baſſá.",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-002",
+      "review_order": 2,
+      "record_id": "RHD-S1809-00071",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 301,
+        "pdf_page": 11,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Allgegenwärtig",
+        "article_diplomatic": "Allgegenwärtig. Jumáguetſi gaiungake."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The second Rarámuri word is difficult in the scan; read provisionally as `gaiungake` pending human linguistic collation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The second Rarámuri word remains graphically compact; no new reading is forced.",
+        "confirmed_reading": "Allgegenwärtig. Jumáguetſi …",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-003",
+      "review_order": 3,
+      "record_id": "RHD-S1809-00144",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 304,
+        "pdf_page": 14,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Aufſpielen",
+        "article_diplomatic": "Aufſpielen, Muſikmachen. Taá. Man ſoll aufſpielen, man ſoll Muſik machen, tápoa."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The exact diacritic/glyph sequence of the first Rarámuri form is pending independent collation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The diacritic on the first short Rarámuri form remains typographically ambiguous at this scan quality.",
+        "confirmed_reading": "Aufſpielen, Muſikmachen.",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-004",
+      "review_order": 4,
+      "record_id": "RHD-S1809-00152",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 305,
+        "pdf_page": 15,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Baden",
+        "article_diplomatic": "Baden. Uvánale. Baden und Schwimmen können die Tarahumaren gar wohl. Sie können ſich, gleich den Buſos der Marinären unter das Waſſer tauchen, und lange Zeit in der Tiefe auſhalten. Ich habe die Probe von ihrer Schwimmkunſt geſehen, da ſie mich einer dringenden Urſache wegen über einen ſehr angeſchwollenen Fluß, nur in einen durchlöcherten und mit Kothwaſſer verſtopften hohlen Baume gebracht haben. Dreye faßten das Ende des Strickes und ſchwammen, der Strick aber wurde von dem Strome hingeriſſen, und machte einen Zirkel, der ihnen an die Füſſe kam, u. ſie gewaltig zurücktrieb. Sie wurden rückwärts in das Waſſer geriſſen, ſo daß eine Zeit von ihnen nichts zu ſehen war. Allein ſie kamen bald in die Höhe, und traten glücklich an das Ufer. — Iſt ein Fluß, wie es ſich in jenem Gebirge oft ereignet, zu ſehr eingeſchränkt, und durch große Platzregen zu reiſſend, ſo daß man ſich nicht getrauet, mit dem Pferde über zu ſetzen, ſo wird man von ihnen alſo hinübergebracht, wie ich es auch erfahren habe. Man ſetzt ſich einem auf den Nacken, ergreift ihn beym Schopfe, und hält ſich feſt, da er zugleich mit beyden Händen die Füſſe des Sitzenden zuſammenfaſſet. Auf beiden Seiten ſtellen ſich zween mit einer dicken Stange in das Waſſer, und ergreifen den Träger unter ſeinen Armen. Bey jedem Schritte wird erſt die Stange vorwärts in dem Waſſer feſtgeſtellt, denn ſonſt wäre es nicht möglich ſich in dem Strome auf einem Fuße zu erhalten, noch den gehobenen Fuß auf den Grund zu bringen, und alſo, obgleich das Waſſer oft bis an den Hals reicht, kömmt man doch glücklich durch. Die Halb-Spanier haben noch eine andere Art über Flüſſe zu ſetzen, wo man mit dem Pferde nicht überſetzen kann, wenn das Pferd durch die Laſt des Reuters im Schwimmen zu ſchwach würde. Sie winden ſich den Pferdſchweif recht wohl um die Hand, treiben das Pferd in den Fluß, und laſſen ſich alſo hinüberſchleppen, da ſie zugleich mit der linken Hand nachhelfen. Es muß freilich ein ſolches Pferd dazu gebraucht werden; welches das Durchwaten der Flüſſe, und Schwimmen gewohnt iſt; das ſind aber die meiſten dortigen Pferde, theils weil ſie als Wildfange erzogen, und erſt im dritten Jahre eingefangen und gezähmt werden, theils weil es in Amerika keine Brücken giebt."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Long article reconstructed across printed pp. 305–306. The expression read as `Buſos der Marinären` is visually difficult and remains provisional; the supplied OCR supports the same reading. Human philological review is pending.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_review",
+        "note": "The article extent is secure across pp. 305–306, but the difficult historical expression currently read as `Buſos der Marinären` is not closed here.",
+        "confirmed_reading": "Baden. Uvánale.",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-005",
+      "review_order": 5,
+      "record_id": "RHD-S1809-00185",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 307,
+        "pdf_page": 17,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Bauen",
+        "article_diplomatic": "Bauen, Calíruje. Die Tarahumaren bauen ihre Hütten gemeiniglich ſo: Sie ſchlagen in die Erde vier gegabelte Stöcke, worüber zwo Stangen geleget werden. Zwiſchen dieſen ſtellen ſie zwo andere dergleichen, voran und hinten, die aber etwas höher ſind, worauf eine dicke Latte gelegt wird. Dann werden mehrere auf die Queerſtangen abwärts gelegt, und oben und unten angebunden. Dieſe Häuschen ſind ſehr klein, und ſo niedrig, daß man hineinkriechen muß, und darinnen kaum ſtehen kann. Das ganze Hausgeräth beſtehet aus einem Reibſteine, aus dem Bogen und Köcher; aus einem von Heu, oder einer Haut auf der Erde gemachten Bette. Man hat ihnen aber ſchon gemächlichere Häuschen von Kothziegeln gebauet, wobey dieſe meine Hände, die ich jetzt zum Schreiben gebrauche, nicht wenig beygetragen, und mit Roth gemauert haben."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Complete article reconstructed in documentary column order; minor punctuation/glyph details remain pending independent line-by-line recollation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_review",
+        "note": "The opening is supported, while the very long article retains minor punctuation/glyph questions unsuitable for forced closure.",
+        "confirmed_reading": "Bauen, Calíruje.",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-006",
+      "review_order": 6,
+      "record_id": "RHD-S1809-00241",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 308,
+        "pdf_page": 18,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Beſitzen",
+        "article_diplomatic": "Beſitzen. Naligué. Buké. Das Buké bedeutet eigentlich ein vierfüßiges zahmes Thier beſitzen, oder zum Eigenthum haben. Es kann alſo nur damals angewendet werden, wann die Rede von dem Beſitze ſolcher Thiere iſt. Den Beſitz anderer Sachen auszudrücken dienet das Wort bugué, von welchem noch zu merken iſt: daß, wenn das bugué nicht glatt weg geſagt, ſondern die Sache oder das Eigenthum ſelbſt ausdrücklich genannt wird, die erſte Sylbe bu auszulaſſen, und dem beſtimmten Worte, welches zugleich ſeine letzte Sylbe verliert, nur das gue anzufügen iſt. Man will z. B. ſagen: Vater hat, oder beſitzet türkiſchen Waizen. Türkiſcher Waizen heißt Sunúcu, oder Schunúcu, haben oder beſitzen naligué, ſo muß die Rede ſo ausfallen: Pedro ſunugué. Im Fragen: haſt du? hámú naliguetſá? haſt du türkiſchen Waizen? há mú ſunúguetſá? haſt du Vieh? hámú buketſá, oder buguetſamú?"
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Long grammatical article reconstructed across printed pp. 308–309. The example forms beginning with the long-s-like glyph (`ſunugué`, `ſunúguetſá`) and some accent placement are retained provisionally from the facsimile and require independent linguistic collation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "Opening forms are clear; the long grammatical examples across pp. 308–309 retain accent and compact-form questions.",
+        "confirmed_reading": "Beſitzen. Naligué. Buké.",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-007",
+      "review_order": 7,
+      "record_id": "RHD-S1809-00264",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 309,
+        "pdf_page": 19,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Bezahlen",
+        "article_diplomatic": "Bezahlen. Nachitutuja."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The compact medial sequence is retained provisionally from the facsimile.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The Rarámuri equivalent remains graphically compact; the earlier `Nachitutuja` is not retained as a closed reading, but no replacement is asserted without independent review.",
+        "confirmed_reading": "Bezahlen.",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-008",
+      "review_order": 8,
+      "record_id": "RHD-S1809-00277",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 309,
+        "pdf_page": 19,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Blind",
+        "article_diplomatic": "Blind. Támatiſchigameke, nicht ſehend."
+      },
+      "open_validation": {
+        "category": "historical_raramuri_form",
+        "note": "Rarámuri form read directly from the enlarged facsimile; the compact `tiſchi` sequence remains pending independent linguistic collation.",
+        "recommended_action": "Preserve the diplomatic reading; request independent linguistic assessment of the historical Rarámuri form."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The enlarged source confirms the article location and gloss, but the compact internal letter sequence of the Rarámuri form does not support a unique stronger character-level reading; no forced correction is made.",
+        "confirmed_reading": "Blind. Támatiſchigameke [diplomatic reading retained provisionally], nicht ſehend.",
+        "source_batch": "RHD-PHIL-006",
+        "source_manifest": "data/validation/review/philological_review_batch_006.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-009",
+      "review_order": 9,
+      "record_id": "RHD-S1809-00315",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 311,
+        "pdf_page": 21,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Da",
+        "article_diplomatic": "Da. Das Nebenwort. Ibe. Hená ibe. Da, das Bindewort. Für dieſes werden gewiſſe Wörtchen nach der Verſchiedenheit der Perſonen und Zahlen gebraucht, als: da ich, pané, da du, mamú, da er, mapú, da wir, matámehé, da ihr, matáemi, da ſie, mapú. Sie können auch ein Vertretungswort, welches mit dem lateiniſchen in do übereinſtimmt, anwenden, welches bey den Tarahumaren ſehr gewöhnlich iſt, z. B. da ich gieng, bin ich gefallen; ſiga, oder ſimega né guechtſchiléke, eundo cecidi. Sie haben auch das hecabú mit den Perſonen, z. B. da ich, hecá nehé, da du, hecamú, da er, hecabú, da wir, hecátameke, da ihr, hecatáemi, da ſie, hecabúiché."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Long grammatical article reconstructed from the full left column of printed p. 311. Several compact Rarámuri personal forms and the Latin example are retained provisionally pending linguistic/philological collation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The long grammatical article is structurally secure but contains multiple compact personal forms and a Latin example requiring independent review.",
+        "confirmed_reading": "Da. Das Nebenwort. Ibe. Hená ibe.",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-010",
+      "review_order": 10,
+      "record_id": "RHD-S1809-00349",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 313,
+        "pdf_page": 23,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Dreyſſigmal",
+        "article_diplomatic": "Dreyſſigmal. baiſſa macoëlſa."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The final numeral form is visually compact; `macoëlſa` is a provisional diplomatic reading.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The compact numeral expression remains too dense to close every diacritic with sufficient confidence.",
+        "confirmed_reading": "Dreyſſigmal.",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-011",
+      "review_order": 11,
+      "record_id": "RHD-S1809-00414",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 314,
+        "pdf_page": 24,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Ente",
+        "article_diplomatic": "Ente. Paſſonáca. Von dieſem und anderm dergleichen Geflügel ſind dort alle Seen, Flüße und Lachen ſchaarenweiſe beſetzt. Die mexikaniſchen Amerikaner fangen ſie in großer Menge in jenen zween Seen, welche nahe bey der Hauptſtadt Mexiko ſind. Denn weil aller Küchenunrath, als Schaalen von Melonen, Kürbiſſen und anderen Früchten in die Hauptkanäle, welche durch die Stadt geführet ſind, hineingeworfen, und von da bis in die Seen getrieben wird, ſo kommen die Enten beſonders bey Nachtszeit zum Fraße häufig zuſammen. Wenn nun der Mond ſcheinet, ſtellen die mexikaniſchen Amerikaner ihren Fang alſo an. Sie nehmen über den Kopf einen ausgehöhlten Kürbiß, der zwey auf die Augen paſſende Löcher hat. Mit dieſem tauchen ſie ſich mitten in den ſchwimmenden Unrath bis an den Hals, ertappen nach und nach die um ſie herumſchwimmenden Enten bey den Füſſen, ziehen ſie hinab, und geben ihnen den Knips. Da nun dieſes ohne alles Getös geſchieht, und den übrigen Enten ſcheinet, daß die Gefangenen ſich untergetauchet haben, ſo läuft der Fang ſehr reichlich ab; bringet aber doch ſchlechten Gewinn, theils weil dieſes Geflügel ſehr gemein iſt, theils weil dieſe Enten von den Spaniern nicht gegeſſen werden. Auf dem Markte ſieht man täglich hohe Haufen liegen, und obgleich das Stück um einen halben Real (das iſt: um einen amerikaniſchen halben Silberkreuzer, welcher dort die kleinſte Münze iſt, und nach unſerm Werthe achthalb Kreuzer ausmacht), erkauft werden kann, können ſie doch nicht an Mann gebracht werden. In ganz Amerika, das zu dem Königreiche Spanien gehöret, wird von den Spaniern kein Vogel, keine Gans, kein Haaſe, kein kleines Kalb, kein ſäugendes Ferkel gegeſſen. Das Kalb muß zuvor ſchier ein Jahr geſäugt, und das Ferkel mit türkiſchen Waizen gut ausgefüttert worden ſeyn, bis es aufgeſetzt werden kann. Die vornehmſten Fleiſchſpeiſen, die eine Tafel zieren, ſind: eine franzöſiſche Suppe, das iſt: geſchnittene Semmel mit unterlegten Käßſchnittchen, und mit Schöpſenſuppe übergoſſen: ein gebratenes Hühnlein: ein eingemachtes Kaninchen: eine Eſtofada, das iſt: ein in einer ſüßen Brühe dick eingedämpftes Fleiſch: ein Pipiano, das iſt ein in einer Brühe vom türkiſchen Pfeffer gedämpfter indianiſcher Hahn, und endlich ein gutes Stück Carnovo, oder Schöpſenfleiſch, das mit allerley Gemüſe, als Kraut, Kohl, Kürbiß, einer ganzen Zwiebel, einem Platanus, Ziſererbſen und mit einem Stücke Speck belegt iſt. Darauf folgen lauter ſüße Backwerke, und auch wohl gefrorne Figuren, als auch Eiswaſſer zum Trunke."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Very long ethnographic article reconstructed across printed pp. 314–315. Historical cultural terminology is preserved as documentary evidence. Several food names/spellings (`Käßſchnittchen`, `Eſtofada`, `Pipiano`, `Carnovo`) are visually difficult and retained provisionally pending philological review.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_review",
+        "note": "Opening is clear, but the extensive ethnographic article across pp. 314–315 contains several historical food names and spellings still requiring independent philological collation.",
+        "confirmed_reading": "Ente. Paſſonáca.",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-012",
+      "review_order": 12,
+      "record_id": "RHD-S1809-00436",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 315,
+        "pdf_page": 25,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Ermatten",
+        "article_diplomatic": "Ermatten. Letſi."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The compact `tſ` sequence is retained provisionally from the enlarged facsimile.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The very short equivalent remains susceptible to confusion among compact Fraktur/roman letter shapes; no forced correction is introduced.",
+        "confirmed_reading": "Ermatten.",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-013",
+      "review_order": 13,
+      "record_id": "RHD-S1809-00444",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 315,
+        "pdf_page": 25,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Erſchrecken",
+        "article_diplomatic": "Erſchrecken, wirkend. Mahäruje. Erſchreckt, erſchrocken mahejameke."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Exact accentuation in `Mahäruje` and the internal vowels of `mahejameke` remain pending independent collation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The Rarámuri accent/vowel sequence remains open after enlargement.",
+        "confirmed_reading": "Erſchrecken, wirkend.",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-014",
+      "review_order": 14,
+      "record_id": "RHD-S1809-00452",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 315,
+        "pdf_page": 25,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Erwiedern",
+        "article_diplomatic": "Erwiedern. Nachteuje."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The compact Rarámuri form after the headword is difficult; `Nachteuje` is a provisional facsimile reading.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The compact equivalent remains difficult; the previous `Nachteuje` is not promoted to independently verified status.",
+        "confirmed_reading": "Erwiedern.",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-015",
+      "review_order": 15,
+      "record_id": "RHD-S1809-00530",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 318,
+        "pdf_page": 28,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Fragen",
+        "article_diplomatic": "Fragen. Náruje. Sie haben ihre Fragewörter há und tſá. Das há iſt ein Wort, mit welchem man den, den man fragen will, aufmerkſam machet. Wenn der Tarahumar die Frage nicht wohl verſtanden hat, ſagt er auch: há? Há wird jeder Frage vorgeſetzt, und tſá mit Verluſt der letzten Sylbe des letzten Wortes am Ende angehängt, z. B. há mú jola tſá? haſt du es gethan? jola hat in der vergangenen Zeit joláca: die letzte Sylbe ca wird alſo wegen des anzuhängenden Wörtchens tſá weggelaſſen. Frage, ob es Peter gethan habe, náruje há oder háli Pedro jolátſá. Wenn die Frage mit Ernſt, und gleichſam drohend geſchieht, muß die Rede ſo ausfallen: jolátſamú? haſt es gethan?"
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Long grammatical article reconstructed from printed p. 318. Question particles, accents and example forms are retained provisionally and require independent linguistic verification.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "Article structure is secure, but the sequence of question particles, examples and accent placement should remain open for expert linguistic collation.",
+        "confirmed_reading": "Fragen. Náruje.",
+        "source_batch": "RHD-PHIL-001",
+        "source_manifest": "data/validation/review/philological_review_batch_001.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-016",
+      "review_order": 16,
+      "record_id": "RHD-S1809-00652",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 323,
+        "pdf_page": 33,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Groß",
+        "article_diplomatic": "Groß, Gu-lu. Größer, Guelube. So groß, etſchuſtu."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The Rarámuri equivalents in this compact comparative series are visually difficult; readings are provisional and should be independently collated.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The compact comparative forms, hyphenation and diacritics remain non-unique at the available scan quality; no replacement is forced.",
+        "confirmed_reading": "Groß, Gu-lu. Größer, Guelube. So groß, etſchuſtu.",
+        "source_batch": "RHD-PHIL-002",
+        "source_manifest": "data/validation/review/philological_review_batch_002.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-017",
+      "review_order": 17,
+      "record_id": "RHD-S1809-00665",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 323,
+        "pdf_page": 33,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Haſe",
+        "article_diplomatic": "Haſe, Tichárje."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The medial consonant cluster in the Rarámuri form is visually difficult; `Tichárje` is provisional pending independent collation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The medial consonant sequence remains visually difficult after high-resolution recollation.",
+        "confirmed_reading": "Haſe, Tichárje.",
+        "source_batch": "RHD-PHIL-002",
+        "source_manifest": "data/validation/review/philological_review_batch_002.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-018",
+      "review_order": 18,
+      "record_id": "RHD-S1809-00666",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 323,
+        "pdf_page": 33,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Hauen",
+        "article_diplomatic": "Hauen, Tepulä, tepurä, ſikä."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Rarámuri vowel diacritics are retained provisionally from the facsimile.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The three vowel diacritics are not sufficiently unambiguous to replace the diplomatic reading.",
+        "confirmed_reading": "Hauen, Tepulä, tepurä, ſikä.",
+        "source_batch": "RHD-PHIL-002",
+        "source_manifest": "data/validation/review/philological_review_batch_002.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-019",
+      "review_order": 19,
+      "record_id": "RHD-S1809-00706",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 324,
+        "pdf_page": 34,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Heurathen",
+        "article_diplomatic": "Heurathen, einen Mann nehmen, Tehöje tſchapi. Ein Weib nehmen, mu í tſchapi. Daher nannten ſie in der Kirche das Eheverlöbniß alſo: Tehöje muki tſchapirujehia."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Several Rarámuri forms and diacritics in this article are visually difficult; the diplomatic reading is provisional pending independent collation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The article contains several compact Rarámuri forms and diacritics that remain insufficiently secure for a forced replacement.",
+        "confirmed_reading": "Heurathen",
+        "source_batch": "RHD-PHIL-002",
+        "source_manifest": "data/validation/review/philological_review_batch_002.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-020",
+      "review_order": 20,
+      "record_id": "RHD-S1809-00726",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 325,
+        "pdf_page": 35,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Hinzugehen",
+        "article_diplomatic": "Hinzugehen, Naguá. Amulípi nè ſimí."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The second phrase is a provisional visual reading.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The opening is clear, but the exact diacritics in the second phrase remain insufficiently secure for closure.",
+        "confirmed_reading": "Hinzugehen, Naguá. Amulípi nè ſimí.",
+        "source_batch": "RHD-PHIL-002",
+        "source_manifest": "data/validation/review/philological_review_batch_002.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-021",
+      "review_order": 21,
+      "record_id": "RHD-S1809-00741",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 325,
+        "pdf_page": 35,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Hülfsmittel",
+        "article_diplomatic": "Hülfsmittel, Arzeney, Oguésameke."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The Rarámuri equivalent is split across a line break in the facsimile and is provisionally read `Oguésameke`.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The equivalent is split across a line break and its exact internal vowel/diacritic sequence remains non-unique.",
+        "confirmed_reading": "Hülfsmittel, Oguésameke.",
+        "source_batch": "RHD-PHIL-002",
+        "source_manifest": "data/validation/review/philological_review_batch_002.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-022",
+      "review_order": 22,
+      "record_id": "RHD-S1809-00801",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 326,
+        "pdf_page": 36,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Knie",
+        "article_diplomatic": "Knie, Tſchochcò."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The Rarámuri form is visually difficult and retained provisionally.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The compact consonant cluster remains visually difficult even at high resolution; no alternative is forced.",
+        "confirmed_reading": "Knie, Tſchochcò.",
+        "source_batch": "RHD-PHIL-002",
+        "source_manifest": "data/validation/review/philological_review_batch_002.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-023",
+      "review_order": 23,
+      "record_id": "RHD-S1809-00855",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 328,
+        "pdf_page": 38,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Lang",
+        "article_diplomatic": "Lang, Beywort. Guelù."
+      },
+      "open_validation": {
+        "category": "historical_raramuri_form",
+        "note": "Direct image confirms a grave-like diacritic on the final vowel of `Guelù`; independent linguistic verification remains appropriate.",
+        "recommended_action": "Preserve the diplomatic reading; request independent linguistic assessment of the historical Rarámuri form."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_lexicographic_structure_review",
+        "note": "The first sense is graphically clear, but the repeated printed lemma leaves a lexicographic-structure question—one polyfunctional article versus two adjacent homographic articles. No merge or split is forced.",
+        "confirmed_reading": "Lang, Beywort. Guelù. [Immediately followed by a second printed Lang, Nebenwort der Zeit... sequence.]",
+        "source_batch": "RHD-PHIL-007",
+        "source_manifest": "data/validation/review/philological_review_batch_007.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-024",
+      "review_order": 24,
+      "record_id": "RHD-S1809-00988",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 334,
+        "pdf_page": 44,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Oft",
+        "article_diplomatic": "Oft, Gueſſá. Oefters, gueſſabé. Wie oft? ékiſá. So oft, ékiſá, und das zeigen ſie an den Fingern, mit Körnern, oder mit kleinen Steinen."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The 2020 transcription marks the interrogative form as uncertain; this project therefore retains an explicit uncertainty note for `ékiſá`.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "High-resolution inspection suggests a glyph sequence different from the current `ékiſá`, while the 2020 transcription also marks the interrogative form uncertain. No replacement is asserted without independent collation.",
+        "confirmed_reading": "Oft",
+        "source_batch": "RHD-PHIL-002",
+        "source_manifest": "data/validation/review/philological_review_batch_002.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-025",
+      "review_order": 25,
+      "record_id": "RHD-S1809-01015",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 336,
+        "pdf_page": 46,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Poſſen treiben",
+        "article_diplomatic": "Poſſen treiben. Teétſa."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Rarámuri accentuation is retained provisionally.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The final consonant sequence can also resemble `tl` in the high-resolution print; no replacement is forced.",
+        "confirmed_reading": "Poſſen treiben. Teétſa.",
+        "source_batch": "RHD-PHIL-003",
+        "source_manifest": "data/validation/review/philological_review_batch_003.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-026",
+      "review_order": 26,
+      "record_id": "RHD-S1809-01047",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 338,
+        "pdf_page": 48,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Roth",
+        "article_diplomatic": "Roth. Tleſtatäcameke, oder ſtacameke. Es iſt roth. Tleſtána."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The middle letters/diacritics of the first Rarámuri form are visually degraded; this reading is provisional and requires independent human collation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The middle characters of the first form remain degraded and non-unique even after high-resolution inspection.",
+        "confirmed_reading": "Roth. Tleſtatäcameke, oder ſtacameke. Es iſt roth. Tleſtána.",
+        "source_batch": "RHD-PHIL-003",
+        "source_manifest": "data/validation/review/philological_review_batch_003.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-027",
+      "review_order": 27,
+      "record_id": "RHD-S1809-01129",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 339,
+        "pdf_page": 49,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Schmerz",
+        "article_diplomatic": "Schmerz. Teſſiguala."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The medial long-s sequence of the Rarámuri form is difficult in the scan; Teſſiguala follows visual reading aided by the supplied OCR and must be checked independently.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The medial roman long-s/glyph sequence remains difficult enough that no stronger claim is made.",
+        "confirmed_reading": "Schmerz. Teſſiguala.",
+        "source_batch": "RHD-PHIL-003",
+        "source_manifest": "data/validation/review/philological_review_batch_003.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-028",
+      "review_order": 28,
+      "record_id": "RHD-S1809-01153",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 340,
+        "pdf_page": 50,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Schwarz",
+        "article_diplomatic": "Schwarz. Tſchocámehe."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The Rarámuri equivalent is visually difficult; reading is provisional.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The final `h/k`-like sequence remains visually ambiguous at this scan quality.",
+        "confirmed_reading": "Schwarz. Tſchocámehe.",
+        "source_batch": "RHD-PHIL-003",
+        "source_manifest": "data/validation/review/philological_review_batch_003.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-029",
+      "review_order": 29,
+      "record_id": "RHD-S1809-01164",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 340,
+        "pdf_page": 50,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Schwören",
+        "article_diplomatic": "Schwören. Das eigene Wort mangelt; wenn ſie aber ſchwören, heben ſie die Hand auf, legen den Daumen über dem Zeigefinger, und ſprechen guéva Dioſſ guítaje, oder Santa Crucítaje."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Rarámuri/Spanish formula and diacritics are retained provisionally from the facsimile.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The mixed Rarámuri/Spanish oath formula remains unsuitable for a forced character-by-character closure from this scan alone.",
+        "confirmed_reading": "Schwören. Das eigene Wort mangelt; … guéva Dioſſ guítaje, oder Santa Crucítaje.",
+        "source_batch": "RHD-PHIL-003",
+        "source_manifest": "data/validation/review/philological_review_batch_003.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-030",
+      "review_order": 30,
+      "record_id": "RHD-S1809-01322",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 346,
+        "pdf_page": 56,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Taub",
+        "article_diplomatic": "Taub. Nacheatule."
+      },
+      "open_validation": {
+        "category": "historical_raramuri_form",
+        "note": "The Rarámuri form is visually clear enough for diplomatic transcription but remains pending linguistic verification.",
+        "recommended_action": "Preserve the diplomatic reading; request independent linguistic assessment of the historical Rarámuri form."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "High-resolution enlargement confirms the article but does not justify a unique character-level resolution of the compact medial vowel/diacritic sequence.",
+        "confirmed_reading": "Taub. Nach[e/ä/a]atule [compact medial sequence retained provisionally].",
+        "source_batch": "RHD-PHIL-008",
+        "source_manifest": "data/validation/review/philological_review_batch_008.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-031",
+      "review_order": 31,
+      "record_id": "RHD-S1809-01442",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 348,
+        "pdf_page": 58,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Verkündigen",
+        "article_diplomatic": "Verkündigen, Nagueſlá."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Rarámuri form remains provisional.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The enlarged form supports the overall sequence, but the medial l/long-s cluster remains sufficiently close in the print that no overwrite of the diplomatic layer is forced.",
+        "confirmed_reading": "Verkündigen, Naguelſá.",
+        "source_batch": "RHD-PHIL-004",
+        "source_manifest": "data/validation/review/philological_review_batch_004.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-032",
+      "review_order": 32,
+      "record_id": "RHD-S1809-01447",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 348,
+        "pdf_page": 58,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Verlobt",
+        "article_diplomatic": "Verlobt, zur Ehe, Tſcuapiboli."
+      },
+      "open_validation": {
+        "category": "historical_raramuri_form",
+        "note": "The compact Rarámuri form is directly collated but remains suitable for independent linguistic verification.",
+        "recommended_action": "Preserve the diplomatic reading; request independent linguistic assessment of the historical Rarámuri form."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The enlarged source confirms the surrounding sequence but the small mark over the vowel does not support a unique u/ü decision; no forced repair is introduced.",
+        "confirmed_reading": "Verlobt, zur Ehe, Tſc[u/ü]apiboli.",
+        "source_batch": "RHD-PHIL-008",
+        "source_manifest": "data/validation/review/philological_review_batch_008.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-033",
+      "review_order": 33,
+      "record_id": "RHD-S1809-01510",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 349,
+        "pdf_page": 59,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Wachtel",
+        "article_diplomatic": "Wachtel, Tſele óli. Sie ſind den Wachtelkönigen gleich, und halten ſich gemeiniglich in Wäldern auf."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Rarámuri bird name remains provisional.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_linguistic_and_zoological_review",
+        "note": "The bird name remains too compact for a unique character-by-character closure from this scan; the surrounding German article is clear.",
+        "confirmed_reading": "Wachtel, [compact Rarámuri bird name]. Sie ſind den Wachtelkönigen gleich, und halten ſich gemeiniglich in Wäldern auf.",
+        "source_batch": "RHD-PHIL-004",
+        "source_manifest": "data/validation/review/philological_review_batch_004.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-034",
+      "review_order": 34,
+      "record_id": "RHD-S1809-01522",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 350,
+        "pdf_page": 60,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Waſchen",
+        "article_diplomatic": "Waſchen, Pagóta. Die Wäſche waſchen Viligo, Guitlóna."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Second Rarámuri washing verb is a provisional reading.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "Pagóta and Viligo are clear; the final compact washing verb remains unsuitable for a forced unique reading.",
+        "confirmed_reading": "Waſchen, Pagóta. Die Wäſche waſchen Viligo, [second washing verb].",
+        "source_batch": "RHD-PHIL-004",
+        "source_manifest": "data/validation/review/philological_review_batch_004.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-035",
+      "review_order": 35,
+      "record_id": "RHD-S1809-01529",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 350,
+        "pdf_page": 60,
+        "facsimile_column": "left",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Wegen",
+        "article_diplomatic": "Wegen, Táje, ráje, kitaje, guitaje. Dieſe Wörtchen werden allezeit nachgeſetzt, z. B. wegen dieſem, oder deſſentwegen, ichetaje, elátaje. etléeguitaje."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Rarámuri particles and diacritics are provisional visual readings.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The first four particles are supported, but the compact example forms in the continuation remain too close for a stronger character-level claim.",
+        "confirmed_reading": "Wegen, Táje, ráje, kitaje, guitaje. [examples follow].",
+        "source_batch": "RHD-PHIL-004",
+        "source_manifest": "data/validation/review/philological_review_batch_004.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-036",
+      "review_order": 36,
+      "record_id": "RHD-S1809-01541",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 350,
+        "pdf_page": 60,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Waizen",
+        "article_diplomatic": "Waizen, türkiſcher, Schunúcu, oder ſunúcu. Die Frucht noch am Stamme, patſchiki. Nach abgelöſten Körnern, holirúgameke. Noch nicht abgekörnt, honéameke. Geröſtet und zu Mehl gemacht, cuviruſi. Gemahlen und nicht geröſtet, lakiki. Gekocht, wie eine Suppe, kioliki, welches in Mexiko atoll heißt. Geröſtet und mit Waſſer angemacht heißt es bey einigen eskiate. Zu einem Teig gemacht: ilternil. Gekocht wie ein Brey, tſchorike."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Long culinary/lexical article; multiple Rarámuri forms and one compact form (ilternil) remain provisional and require human linguistic collation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_linguistic_and_ethnobotanical_review",
+        "note": "Most forms are legible, but the compact dough term and some internal forms remain too uncertain for a full forced replacement. The article should be reviewed as a lexical-cultural unit.",
+        "confirmed_reading": "Waizen, türkiſcher, Schunúcu, oder ſunúcu. [long culinary/lexical article].",
+        "source_batch": "RHD-PHIL-004",
+        "source_manifest": "data/validation/review/philological_review_batch_004.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-037",
+      "review_order": 37,
+      "record_id": "RHD-S1809-01544",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 350,
+        "pdf_page": 60,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Werfen",
+        "article_diplomatic": "Werfen, Tſchá."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Rarámuri form remains provisional.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The compact final vowel/diacritic remains visually close enough that the diplomatic Tſchá is not overwritten.",
+        "confirmed_reading": "Werfen, Tſcha[accented final vowel].",
+        "source_batch": "RHD-PHIL-004",
+        "source_manifest": "data/validation/review/philological_review_batch_004.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-038",
+      "review_order": 38,
+      "record_id": "RHD-S1809-01582",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 351,
+        "pdf_page": 61,
+        "facsimile_column": "right",
+        "direction": "DE-RAR"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Zahn",
+        "article_diplomatic": "Zahn, Remela, ternela, ramela."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Variant Rarámuri forms remain provisional.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The first two variants are clear; the third compact variant remains insufficiently distinct for a forced resolution.",
+        "confirmed_reading": "Zahn, Remela, ternela, [third variant].",
+        "source_batch": "RHD-PHIL-004",
+        "source_manifest": "data/validation/review/philological_review_batch_004.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-039",
+      "review_order": 39,
+      "record_id": "RHD-S1809-01769",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 356,
+        "pdf_page": 66,
+        "facsimile_column": "left",
+        "direction": "RAR-DE"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Cuviruſi",
+        "article_diplomatic": "Cuviruſi, ſ. Gries."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The p. 356 cross-reference is visually truncated/ambiguous at its terminal glyph. It is resolved conservatively as Gries by internal source consistency with the German→Rarámuri Gries article; this specific resolution remains pending independent human confirmation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The cross-reference visibly ends in a truncated/hyphen-like terminal mark; internal consistency favors Gries, but the exact printed closure remains intentionally unresolved.",
+        "confirmed_reading": "Cuviruſi, ſ. Gries-",
+        "source_batch": "RHD-PHIL-004",
+        "source_manifest": "data/validation/review/philological_review_batch_004.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-040",
+      "review_order": 40,
+      "record_id": "RHD-S1809-01977",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 360,
+        "pdf_page": 70,
+        "facsimile_column": "left",
+        "direction": "RAR-DE"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Kitſaóco",
+        "article_diplomatic": "Kitſaóco, Sieben."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The numeral form is directly collated; exact historical sibilant sequence remains suitable for independent verification.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The compact medial sibilant/letter sequence remains too close for a stronger character-level claim.",
+        "confirmed_reading": "Kitſaóco [numeral form], Sieben.",
+        "source_batch": "RHD-PHIL-005",
+        "source_manifest": "data/validation/review/philological_review_batch_005.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-041",
+      "review_order": 41,
+      "record_id": "RHD-S1809-01981",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 360,
+        "pdf_page": 70,
+        "facsimile_column": "left",
+        "direction": "RAR-DE"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Kuepútsela, oder Kepútschela",
+        "article_diplomatic": "Kuepútsela, oder Kepútschela. Ich weiß es nicht."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "Variant-form punctuation and exact diacritics remain pending independent human/linguistic collation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The second variant is legible, but the compact medial sequence of the first variant remains non-unique in this scan; no forced replacement is made.",
+        "confirmed_reading": "Kuepú[t/ſ/l]ela, oder Kepútſchela. Ich weiß es nicht.",
+        "source_batch": "RHD-PHIL-005",
+        "source_manifest": "data/validation/review/philological_review_batch_005.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-042",
+      "review_order": 42,
+      "record_id": "RHD-S1809-02083",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 362,
+        "pdf_page": 72,
+        "facsimile_column": "left",
+        "direction": "RAR-DE"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Náiiué",
+        "article_diplomatic": "Náiiué, Zertheilen. Entzweyen."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The compact medial letter sequence in the headword is difficult in the scan; this diplomatic reading is provisional and requires human linguistic collation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The medial compact sequence remains difficult enough that the existing diplomatic reading is retained without stronger closure.",
+        "confirmed_reading": "Náiiué [compact headword], Zertheilen. Entzweyen.",
+        "source_batch": "RHD-PHIL-005",
+        "source_manifest": "data/validation/review/philological_review_batch_005.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-043",
+      "review_order": 43,
+      "record_id": "RHD-S1809-02145",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 363,
+        "pdf_page": 73,
+        "facsimile_column": "left",
+        "direction": "RAR-DE"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Otiſherameke",
+        "article_diplomatic": "Otiſherameke, Ein alter Mann."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The compact medial character sequence is difficult in the facsimile; reading remains provisional.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The medial historical glyph sequence remains visually compact and is not normalized or replaced.",
+        "confirmed_reading": "Otiſherameke, Ein alter Mann.",
+        "source_batch": "RHD-PHIL-005",
+        "source_manifest": "data/validation/review/philological_review_batch_005.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-044",
+      "review_order": 44,
+      "record_id": "RHD-S1809-02208",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 364,
+        "pdf_page": 74,
+        "facsimile_column": "left",
+        "direction": "RAR-DE"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Pulauilla",
+        "article_diplomatic": "Pulauilla, Sechsmal."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The exact internal vowel/diacritic sequence remains pending linguistic verification.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The internal vowel/letter sequence remains too compact for a unique re-segmentation from this scan.",
+        "confirmed_reading": "Pulauilla [headword retained provisionally].",
+        "source_batch": "RHD-PHIL-005",
+        "source_manifest": "data/validation/review/philological_review_batch_005.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-045",
+      "review_order": 45,
+      "record_id": "RHD-S1809-02348",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 366,
+        "pdf_page": 76,
+        "facsimile_column": "right",
+        "direction": "RAR-DE"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Tat ló",
+        "article_diplomatic": "Tat ló, Noch nicht."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The spacing/letter sequence is visually difficult; retained provisionally and pending linguistic verification.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The compact spacing/letter sequence does not justify a normalized closure.",
+        "confirmed_reading": "Tat ló [spacing retained provisionally].",
+        "source_batch": "RHD-PHIL-005",
+        "source_manifest": "data/validation/review/philological_review_batch_005.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    },
+    {
+      "dossier_id": "RHD-HUM-P1-046",
+      "review_order": 46,
+      "record_id": "RHD-S1809-02461",
+      "status": "awaiting_independent_review",
+      "priority_rank": 1,
+      "source_locator": {
+        "source_authority": "Steffel 1809 facsimile",
+        "printed_page": 368,
+        "pdf_page": 78,
+        "facsimile_column": "left",
+        "direction": "RAR-DE"
+      },
+      "documentary_record": {
+        "headword_diplomatic": "Tſelixugi",
+        "article_diplomatic": "Tſelixugi, Verzeihen. Vergeben."
+      },
+      "open_validation": {
+        "category": "graphic_reading",
+        "note": "The compact medial xug sequence is difficult in the scan; this reading is provisional pending human linguistic collation.",
+        "recommended_action": "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
+      },
+      "ai_recollation": {
+        "disposition": "unresolved_after_ai_recollation",
+        "residual_route": "human_philological_and_linguistic_review",
+        "note": "The medial xug-like sequence remains difficult and is not normalized.",
+        "confirmed_reading": "Tſelixugi [compact medial sequence retained provisionally].",
+        "source_batch": "RHD-PHIL-005",
+        "source_manifest": "data/validation/review/philological_review_batch_005.json"
+      },
+      "independent_review": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "phil_relationship": "not_applicable",
+        "philological_decision": {
+          "status": "not_assessed",
+          "reading": "",
+          "evidence": "",
+          "confidence": "not_assessed"
+        },
+        "linguistic_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "semantic_historical_decision": {
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "disciplinary_decision": {
+          "domain": "",
+          "status": "not_assessed",
+          "analysis": "",
+          "evidence": ""
+        },
+        "reviewer_note": ""
+      },
+      "verification": {
+        "human_verified": false,
+        "philologically_verified_by_human": false,
+        "linguistically_verified": false
+      }
+    }
+  ]
+}
