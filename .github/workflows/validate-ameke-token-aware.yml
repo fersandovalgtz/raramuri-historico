@@ -1,0 +1,50 @@
+name: validate-ameke-token-aware
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/validate-ameke-token-aware.yml'
+      - 'scripts/generate_ameke_token_aware_analysis.py'
+      - 'data/research/ameke_constellation_members.json'
+      - 'data/research/ugameke_facsimile_ai_audit.json'
+permissions:
+  contents: write
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate token-aware layer
+        run: python3 scripts/generate_ameke_token_aware_analysis.py
+      - name: Validate state
+        run: |
+          python3 - <<'PY'
+          import csv,json
+          from pathlib import Path
+          d=Path('data/research')
+          s=json.load((d/'ameke_token_aware_summary.json').open(encoding='utf-8'))
+          m=json.load((d/'ameke_token_aware_members.json').open(encoding='utf-8'))
+          u=json.load((d/'ameke_token_aware_units.json').open(encoding='utf-8'))
+          assert s['human_reviewed'] is False and s['automatic_morphological_analysis'] is False
+          assert m['count']==s['member_count']==147
+          assert u['count']==s['unique_token_unit_count']
+          assert s['ugameke_member_count']==27
+          assert s['ugameke_recovered_only_member_count']==18
+          assert s['ugameke_signal_bearing_recovered_member_count']==14
+          assert all(not x['human_reviewed'] for x in m['records'])
+          assert sum(1 for _ in csv.DictReader((d/'ameke_token_aware_members.csv').open(encoding='utf-8')))==147
+          print(json.dumps(s,ensure_ascii=False))
+          PY
+      - name: Commit generated token-aware artifacts
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/research/ameke_token_aware_members.json data/research/ameke_token_aware_units.json data/research/ameke_token_aware_summary.json data/research/ameke_token_aware_members.csv
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Regenerate token-aware ameke analysis'
+          git pull --rebase origin main
+          git push
