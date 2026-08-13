@@ -22,16 +22,19 @@ Una coincidencia exacta de forma no demuestra continuidad semántica. El corpus 
 
 `probable_graphic_candidates.json` contiene una segunda cohorte, separada de las coincidencias exactas. El corte actual produce **248 relaciones candidatas**, distribuidas en **124 registros históricos**, **126 componentes históricos** y **185 registros contemporáneos**. De las 248 relaciones, **247 tienen distancia de edición 1** y **1 tiene distancia 2**.
 
-El tipo de relación es `probable_graphic_correspondence`. El método `conservative_bounded_edit_distance_v1` exige:
-
-- componente de al menos cuatro caracteres;
-- misma inicial gráfica;
-- exclusión de coincidencias exactas ya presentes en la cohorte 1;
-- distancia de Levenshtein máxima 1 para claves de longitud 4–8;
-- distancia máxima 2 únicamente para claves de longitud 9 o mayor y similitud proporcional mínima de 0.80;
-- máximo de tres candidatos contemporáneos por componente histórico.
+El tipo de relación es `probable_graphic_correspondence`. El método `conservative_bounded_edit_distance_v1` exige componente de al menos cuatro caracteres, misma inicial gráfica, exclusión de coincidencias exactas ya presentes en la cohorte 1, distancia de Levenshtein máxima 1 para claves de longitud 4–8, distancia máxima 2 únicamente para claves de longitud 9 o mayor y similitud proporcional mínima de 0.80, y máximo de tres candidatos contemporáneos por componente histórico.
 
 Estas restricciones reducen el espacio de búsqueda sin introducir una teoría fonológica o histórica. Un candidato puede ser gráficamente cercano y, sin embargo, carecer de relación semántica o etimológica. Por ello esta cohorte es una **cola de revisión**, no una lista de cognados o continuidades léxicas.
+
+## Cola de adjudicación independiente
+
+`adjudication_queue.json` integra las dos cohortes sin fusionarlas y ordena las **298 hipótesis documentales** para revisión humana. El corte actual representa **137 registros históricos** y **221 registros contemporáneos**. Las 298 relaciones conservan contexto semántico histórico y contemporáneo disponible para lectura humana, pero el sistema no realiza comparación semántica automática.
+
+La prioridad actual se distribuye en cuatro niveles: **21 candidatos de nivel 1**, **32 de nivel 2**, **244 de nivel 3** y **1 de nivel 4**. El nivel 1 reserva las coincidencias exactas más fuertes: forma no corta y correspondencia única en la clave gráfica exacta. El resto de las coincidencias exactas pasa al nivel 2, junto con los casos probables excepcionalmente fuertes; la mayor parte de las correspondencias por distancia de edición queda en nivel 3 y el único caso de distancia 2 queda en nivel 4.
+
+La puntuación usa únicamente propiedades documentales y de organización de la revisión: fuerza de la cohorte gráfica, distancia/similitud cuando corresponde, multiplicidad de candidatos para un componente histórico, advertencia de forma corta, disponibilidad de glosas/contextos para revisión y estado de transcripción de la entrada moderna. **No calcula similitud semántica, cognación ni continuidad histórica.**
+
+Cada registro recibe un identificador `RHD-ADJ-######` y conserva campos independientes para revisor, afiliación, ORCID, fecha, decisión, tipo de relación adoptado, relación semántica, continuidad histórica, confianza, evidencia y nota. Todos permanecen inicialmente como `human_reviewed=false` y `not_assessed`.
 
 ## Tipos de relación candidatos
 
@@ -52,7 +55,7 @@ Las capas diacrónicas tampoco autorizan automáticamente etiquetas de cognació
 
 ## Flujo científico
 
-La secuencia prevista es: generar candidatos documentales; conservar homónimos y alternativas por separado; revisar forma, sentido, contexto y fuente; registrar aceptación, modificación, rechazo o incertidumbre; y sólo después construir análisis de continuidad/cambio léxico, ortográfico o semántico.
+La secuencia es: generar candidatos documentales; conservar homónimos y alternativas por separado; priorizar la revisión sin adjudicar el contenido; revisar forma, sentido, contexto y fuente; registrar aceptación, modificación, rechazo o incertidumbre; y sólo después construir análisis de continuidad/cambio léxico, ortográfico o semántico.
 
 ## Artefactos reproducibles
 
@@ -63,7 +66,11 @@ La secuencia prevista es: generar candidatos documentales; conservar homónimos 
 - `exact_graphic_candidates_summary.json`: resumen cuantitativo de cohorte 1.
 - `probable_graphic_candidates.json` / `.csv`: cohorte 2 completa.
 - `probable_graphic_candidates_summary.json`: resumen cuantitativo de cohorte 2.
+- `adjudication_queue.json` / `.csv`: cola integrada y priorizada de las 298 hipótesis.
+- `adjudication_queue_summary.json`: conteos de la cola y niveles de prioridad.
+- `ADJUDICATION_REVIEW_INDEX.md`: índice legible para revisión sistemática.
 - `scripts/generate_diachronic_correspondences.py`: generador determinista de coincidencias exactas.
 - `scripts/generate_probable_graphic_correspondences.py`: generador determinista de correspondencias gráficas probables.
+- `scripts/generate_diachronic_adjudication_queue.py`: generador determinista de la cola de adjudicación.
 
-GitHub Actions reconstruye ambas cohortes contra el snapshot contemporáneo fijado y valida identificadores, duplicados, separación entre cohortes, límites de candidatos y estados de revisión. Las dos capas permanecen con revisión humana igual a cero hasta que exista adjudicación independiente documentada.
+GitHub Actions reconstruye las dos cohortes y la cola de adjudicación contra el snapshot contemporáneo fijado y valida identificadores, duplicados, separación entre cohortes, límites de candidatos, orden de prioridad y estados de revisión. Todas las relaciones permanecen con revisión humana igual a cero hasta que exista adjudicación independiente documentada.
