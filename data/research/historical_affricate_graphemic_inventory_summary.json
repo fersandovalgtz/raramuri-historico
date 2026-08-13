@@ -1,0 +1,66 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "historical_affricate_graphemic_inventory_summary_v1",
+  "generated": "2026-08-13",
+  "occurrence_count": 157,
+  "source_record_count": 139,
+  "component_count": 146,
+  "grapheme_counts": {
+    "ts": 50,
+    "tsch": 107
+  },
+  "grapheme_position_counts": {
+    "ts:initial": 14,
+    "ts:medial": 36,
+    "tsch:initial": 39,
+    "tsch:medial": 68
+  },
+  "grapheme_position_following_counts": {
+    "ts:initial:a": 6,
+    "ts:initial:e": 8,
+    "ts:medial:a": 15,
+    "ts:medial:c": 1,
+    "ts:medial:e": 3,
+    "ts:medial:h": 1,
+    "ts:medial:i": 12,
+    "ts:medial:o": 4,
+    "tsch:initial:a": 6,
+    "tsch:initial:e": 1,
+    "tsch:initial:i": 19,
+    "tsch:initial:o": 5,
+    "tsch:initial:u": 8,
+    "tsch:medial:a": 8,
+    "tsch:medial:e": 4,
+    "tsch:medial:i": 50,
+    "tsch:medial:o": 4,
+    "tsch:medial:u": 2
+  },
+  "merrill_distribution_check_counts": {
+    "compatible_with_reported_initial_distribution": 40,
+    "compatible_with_reported_initial_free_variation": 12,
+    "compatible_with_reported_medial_free_variation": 104,
+    "potential_exception_to_reported_initial_distribution": 1
+  },
+  "potential_initial_exception_count": 1,
+  "potential_initial_exceptions": [
+    {
+      "occurrence_id": "RHD-AFF-OCC-00129",
+      "record_id": "RHD-S1809-02443",
+      "form": "Tſchécemeke",
+      "graphic_key": "tschecemeke",
+      "grapheme": "tsch",
+      "following_character": "e",
+      "printed_page": 368
+    }
+  ],
+  "published_reference_model": {
+    "initial_before_a": "tsch and ts reported in free variation",
+    "initial_before_e": "ts reported",
+    "initial_before_i_o_u": "tsch reported",
+    "medial_before_vowels": "tsch and ts reported in free variation",
+    "reference": "Merrill et al. 2020 §7.5.2"
+  },
+  "human_reviewed": false,
+  "automatic_phonological_interpretation": false,
+  "automatic_sound_correspondence_inference": false
+}
