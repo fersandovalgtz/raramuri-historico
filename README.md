@@ -7,8 +7,8 @@
   <img src="https://img.shields.io/badge/dataset-0.2.0-172033?style=flat-square" alt="Dataset 0.2.0">
   <img src="https://img.shields.io/badge/fuente-Steffel%201809-7a263a?style=flat-square" alt="Steffel 1809">
   <img src="https://img.shields.io/badge/candidatos%20segmentados-2%2C495-2d6a4f?style=flat-square" alt="2,495 candidate entries">
-  <img src="https://img.shields.io/badge/l%C3%ADmites%20revisados-2%2C219-b7791f?style=flat-square" alt="2,219 boundaries reviewed">
-  <img src="https://img.shields.io/badge/art%C3%ADculos%20diplom%C3%A1ticos%20AI--asistidos-1%2C755-455B55?style=flat-square" alt="1,755 AI-assisted diplomatic articles">
+  <img src="https://img.shields.io/badge/l%C3%ADmites%20revisados-2%2C319-b7791f?style=flat-square" alt="2,319 boundaries reviewed">
+  <img src="https://img.shields.io/badge/art%C3%ADculos%20diplom%C3%A1ticos%20AI--asistidos-1%2C841-455B55?style=flat-square" alt="1,841 AI-assisted diplomatic articles">
   <img src="https://img.shields.io/badge/c%C3%B3digo-MIT-172033?style=flat-square" alt="MIT">
 </p>
 
@@ -20,27 +20,19 @@ La primera colección es el **Corpus Steffel 1791/1809**, basado en el *Tarahuma
 
 ## Estado 0.2.0
 
-La segmentación de alta cobertura contiene **2,495 candidatos**: 1,607 alemán→rarámuri y 888 rarámuri→alemán. Este número no se presenta como conteo filológico definitivo: Fraktur, OCR y composición a dos columnas producen falsos límites que se depuran contra el facsímil.
+La segmentación de alta cobertura contiene **2,495 candidatos**: 1,607 alemán→rarámuri y 888 rarámuri→alemán. A través de `RHD-FR-001`–`RHD-FR-025` se han revisado **2,319 límites candidatos**: **1,841 arranques aceptados**, **478 falsos límites** y **705 correcciones claras de lema**. La capa activa queda provisionalmente en **2,017 candidatos**.
 
-A través de `RHD-FR-001`–`RHD-FR-024` se han revisado **2,219 límites candidatos**: **1,755 arranques aceptados**, **464 falsos límites** y **695 correcciones claras de lema**. La capa activa queda provisionalmente en **2,031 candidatos**.
+Los niveles `high_machine` y `medium_machine` están agotados. En `low_machine` se han revisado **600 de 716 candidatos**: **380 aceptados y 220 rechazados**. Quedan **116**.
 
-Los niveles `high_machine` y `medium_machine` están agotados. En `low_machine` se han revisado **500 de 716 candidatos**: **294 aceptados y 206 rechazados**. Quedan **216**.
+## Recotejo y lotes recientes
 
-## Recotejo directo de RHD-FR-022
+`RHD-FR-022` y `RHD-DIP-022A`–`G` fueron recotejados directamente contra las imágenes originales; ya no existe ningún lote pendiente de recotejo de imagen. `RHD-FR-023`, pp. 333–343, produjo 58 aceptados / 42 rechazados. `RHD-FR-024`, pp. 343–347, produjo 86 / 14 y resolvió el catchword `Stute` de p. 344 junto con la recuperación del lema `Stroh`.
 
-El facsímil original volvió a estar disponible y `RHD-FR-022` fue recotejado directamente contra las imágenes de pp. 326–333. El balance de límites se confirmó —69 aceptados / 31 rechazados— y sus cuatro reparaciones de lema permanecieron válidas. Las 69 transcripciones de `RHD-DIP-022A`–`G` también fueron revisadas contra imagen directa; entre las correcciones documentales resultantes figuran `Körper, Sepála`, `Lichtputze, Natſíla` y `Müßig, Nalſinaja / Nalſinäe`.
-
-Ya no existe ningún lote pendiente de recotejo de imagen. Todos los registros continúan `human_verified=false`: cotejo directo por IA no equivale a validación humana, filológica o lingüística.
-
-## RHD-FR-023 y RHD-FR-024
-
-`RHD-FR-023`, pp. **333–343**, revisó 100 candidatos: **58 aceptados, 42 rechazados, 4 correcciones de lema y 29 correcciones de página**. Sus 58 artículos están completos en `RHD-DIP-023A`–`F`, incluidos `Packſattel`, `Schlangen`, `Sohle`, `Speiſe` y `Spielplatz`.
-
-`RHD-FR-024`, pp. **343–347**, revisó otros 100: **86 aceptados, 14 rechazados, 10 correcciones de lema y 19 correcciones de página**. La auditoría de solapamiento detectó que `RHD-S1809-01296` (`Stute`) era el catchword de p. 344 y evitó duplicar el artículo auténtico ya representado por `RHD-S1809-01297`. Al mismo tiempo recuperó `RHD-S1809-01293` como el lema genuino `Stroh`. Las 86 transcripciones completas están en `RHD-DIP-024A`–`I`, incluidos `Strick`, `Tanz` y la serie `Un-` / `Ver-` de p. 347.
+`RHD-FR-025`, pp. **347–352**, revisó 100 candidatos: **86 aceptados, 14 rechazados, 10 correcciones de lema y 27 correcciones de página**. Entre las reparaciones figuran `Verfault`, `Verleihen`, `Verlobt`, `Vier`, `Vor`, `Vorlängst`, `Wie immer`, `Wiederholen`, `Wo` y `Ziegelerde`. Sus 86 artículos están completos en `RHD-DIP-025A`–`I`.
 
 ## Capa diplomática
 
-Los **1,755 arranques aceptados** tienen transcripción diplomática completa IA-asistida. El inventario registra **598 transcripciones con nota explícita de incertidumbre**. El facsímil de 1809 es la autoridad; las lecturas difíciles se conservan como provisionales cuando corresponde y no se normalizan silenciosamente.
+Los **1,841 arranques aceptados** tienen transcripción diplomática completa IA-asistida. El inventario registra **620 transcripciones con nota explícita de incertidumbre**. El facsímil de 1809 es la autoridad; las lecturas difíciles se mantienen como provisionales cuando corresponde. Todos los registros permanecen `human_verified=false`.
 
 La regla editorial es:
 
@@ -50,13 +42,12 @@ La regla editorial es:
 
 - `data/entries.csv`: capa maestra integral con overlays editoriales.
 - `data/entries_curated.csv`: 60 anclas iniciales con identificadores persistentes.
-- `data/review/`: manifiestos append-only de revisión (`RHD-FR-001`–`RHD-FR-024`).
-- `data/review/next_review_queue.json`: siguiente cohorte generada determinísticamente.
+- `data/review/`: manifiestos append-only (`RHD-FR-001`–`RHD-FR-025`).
+- `data/review/next_review_queue.json`: siguiente cohorte determinista.
 - `data/facsimile/`: modelo de columnas para pp. 301–368.
-- `data/diplomatic/`: 1,755 transcripciones diplomáticas IA-asistidas hasta `RHD-DIP-024I`.
+- `data/diplomatic/`: 1,841 transcripciones completas hasta `RHD-DIP-025I`.
 - `data/corpus_inventory.json`: inventario regenerado.
 - JSON, XML, TEI y SQLite: serializaciones derivadas.
-- `sources/steffel-1809-ocr-source.txt`: OCR primario preservado sin corrección.
 
 ## Reproducibilidad
 
@@ -68,9 +59,9 @@ python3 scripts/generate_exports.py
 python3 tests/validate.py
 ```
 
-El pipeline reconstruye la capa automática, aplica manifiestos editoriales, excluye IDs ya revisados y regenera exportaciones. GitHub Actions valida el corpus y protege los auto-push concurrentes.
+## Siguiente etapa: RHD-FR-026
 
-La siguiente cohorte es **`RHD-FR-025`**, sexto lote `low_machine`: 100 de los **216** candidatos restantes, desde `RHD-S1809-01419` (`Verbrechen`) hasta `RHD-S1809-01608` (`Zinn`), estimados alrededor de pp. **348–352**. Después quedarán 116 candidatos bajos, ya muy próximos a la transición de dirección de p. 353.
+`RHD-FR-026` contiene 100 de los **116** candidatos `low_machine` restantes, desde `RHD-S1809-01609` (`Zinnen`) hasta `RHD-S1809-02404` (OCR `Tofacameke Weiß`). La cohorte comienza en p. 352 y **cruza el cambio de dirección dentro de p. 353**, extendiéndose automáticamente hasta aproximadamente p. 367. Por tanto deberá revisarse con gramática de lema sensible a la dirección: antes de la frontera el headword es alemán; después, el headword es rarámuri y el alemán funciona como glosa. Tras FR-026 quedarían sólo 16 candidatos bajos.
 
 ## Identificadores y relación diacrónica
 
