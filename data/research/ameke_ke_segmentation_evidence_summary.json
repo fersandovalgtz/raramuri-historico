@@ -1,0 +1,364 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_final_ke_documentary_test_v1",
+  "generated": "2026-08-13",
+  "unique_rar_de_graphic_keys": 788,
+  "ameke_key_count": 67,
+  "final_ke_key_count": 96,
+  "final_ke_outside_ameke_key_count": 29,
+  "final_ame_key_count": 3,
+  "ameke_with_exact_xame_counterpart_count": 1,
+  "ameke_with_exact_bare_base_counterpart_count": 10,
+  "xame_counterpart_examples": [
+    {
+      "ameke_key": "tameke",
+      "mechanical_base": "t",
+      "xame_key": "tame",
+      "xame_attested": true,
+      "xame_attestations": [
+        {
+          "record_id": "RHD-S1809-02327",
+          "surface": "Tamé",
+          "key": "tame",
+          "page": "366"
+        }
+      ],
+      "bare_base_attested": false,
+      "bare_base_attestations": [],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-02329",
+          "surface": "Tameké",
+          "key": "tameke",
+          "page": "366"
+        }
+      ],
+      "status": "documentary_string_test_only",
+      "human_reviewed": false,
+      "automatic_morpheme_segmentation": false,
+      "historical_continuity_judgment": "not_performed"
+    }
+  ],
+  "bare_base_counterpart_examples": [
+    {
+      "ameke_key": "bajeameke",
+      "mechanical_base": "baje",
+      "xame_key": "bajeame",
+      "xame_attested": false,
+      "xame_attestations": [],
+      "bare_base_attested": true,
+      "bare_base_attestations": [
+        {
+          "record_id": "RHD-S1809-01665",
+          "surface": "Bajé",
+          "key": "baje",
+          "page": "354"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-01666",
+          "surface": "Bajéameke",
+          "key": "bajeameke",
+          "page": "354"
+        }
+      ],
+      "status": "documentary_string_test_only",
+      "human_reviewed": false,
+      "automatic_morpheme_segmentation": false,
+      "historical_continuity_judgment": "not_performed"
+    },
+    {
+      "ameke_key": "cotschimeameke",
+      "mechanical_base": "cotschime",
+      "xame_key": "cotschimeame",
+      "xame_attested": false,
+      "xame_attestations": [],
+      "bare_base_attested": true,
+      "bare_base_attestations": [
+        {
+          "record_id": "RHD-S1809-01746",
+          "surface": "Cotſchimé",
+          "key": "cotschime",
+          "page": "355"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-01747",
+          "surface": "Cotſchimeameke",
+          "key": "cotschimeameke",
+          "page": "355"
+        }
+      ],
+      "status": "documentary_string_test_only",
+      "human_reviewed": false,
+      "automatic_morpheme_segmentation": false,
+      "historical_continuity_judgment": "not_performed"
+    },
+    {
+      "ameke_key": "cuguiameke",
+      "mechanical_base": "cugui",
+      "xame_key": "cuguiame",
+      "xame_attested": false,
+      "xame_attestations": [],
+      "bare_base_attested": true,
+      "bare_base_attestations": [
+        {
+          "record_id": "RHD-S1809-01751",
+          "surface": "Cuguí",
+          "key": "cugui",
+          "page": "356"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-01752",
+          "surface": "Cuguíameke",
+          "key": "cuguiameke",
+          "page": "356"
+        }
+      ],
+      "status": "documentary_string_test_only",
+      "human_reviewed": false,
+      "automatic_morpheme_segmentation": false,
+      "historical_continuity_judgment": "not_performed"
+    },
+    {
+      "ameke_key": "igueameke",
+      "mechanical_base": "igue",
+      "xame_key": "igueame",
+      "xame_attested": false,
+      "xame_attestations": [],
+      "bare_base_attested": true,
+      "bare_base_attestations": [
+        {
+          "record_id": "RHD-S1809-01922",
+          "surface": "Igue",
+          "key": "igue",
+          "page": "359"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-01923",
+          "surface": "Igueameke",
+          "key": "igueameke",
+          "page": "359"
+        }
+      ],
+      "status": "documentary_string_test_only",
+      "human_reviewed": false,
+      "automatic_morpheme_segmentation": false,
+      "historical_continuity_judgment": "not_performed"
+    },
+    {
+      "ameke_key": "lessiameke",
+      "mechanical_base": "lessi",
+      "xame_key": "lessiame",
+      "xame_attested": false,
+      "xame_attestations": [],
+      "bare_base_attested": true,
+      "bare_base_attestations": [
+        {
+          "record_id": "RHD-S1809-01991",
+          "surface": "Lessí",
+          "key": "lessi",
+          "page": "360"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-01992",
+          "surface": "Lessíameke",
+          "key": "lessiameke",
+          "page": "360"
+        }
+      ],
+      "status": "documentary_string_test_only",
+      "human_reviewed": false,
+      "automatic_morpheme_segmentation": false,
+      "historical_continuity_judgment": "not_performed"
+    },
+    {
+      "ameke_key": "mukiiatiameke",
+      "mechanical_base": "mukiiati",
+      "xame_key": "mukiiatiame",
+      "xame_attested": false,
+      "xame_attestations": [],
+      "bare_base_attested": true,
+      "bare_base_attestations": [
+        {
+          "record_id": "RHD-S1809-02033",
+          "surface": "Mukiiati",
+          "key": "mukiiati",
+          "page": "361"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-02034",
+          "surface": "Mukiiatiameke",
+          "key": "mukiiatiameke",
+          "page": "361"
+        }
+      ],
+      "status": "documentary_string_test_only",
+      "human_reviewed": false,
+      "automatic_morpheme_segmentation": false,
+      "historical_continuity_judgment": "not_performed"
+    },
+    {
+      "ameke_key": "nesseameke",
+      "mechanical_base": "nesse",
+      "xame_key": "nesseame",
+      "xame_attested": false,
+      "xame_attestations": [],
+      "bare_base_attested": true,
+      "bare_base_attestations": [
+        {
+          "record_id": "RHD-S1809-02110",
+          "surface": "Neſſé",
+          "key": "nesse",
+          "page": "362"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-02111",
+          "surface": "Neſſéameke",
+          "key": "nesseameke",
+          "page": "362"
+        }
+      ],
+      "status": "documentary_string_test_only",
+      "human_reviewed": false,
+      "automatic_morpheme_segmentation": false,
+      "historical_continuity_judgment": "not_performed"
+    },
+    {
+      "ameke_key": "saateameke",
+      "mechanical_base": "saate",
+      "xame_key": "saateame",
+      "xame_attested": false,
+      "xame_attestations": [],
+      "bare_base_attested": true,
+      "bare_base_attestations": [
+        {
+          "record_id": "RHD-S1809-02254",
+          "surface": "Saaté",
+          "key": "saate",
+          "page": "365"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-02255",
+          "surface": "Saatéameke",
+          "key": "saateameke",
+          "page": "365"
+        }
+      ],
+      "status": "documentary_string_test_only",
+      "human_reviewed": false,
+      "automatic_morpheme_segmentation": false,
+      "historical_continuity_judgment": "not_performed"
+    },
+    {
+      "ameke_key": "seliameke",
+      "mechanical_base": "seli",
+      "xame_key": "seliame",
+      "xame_attested": false,
+      "xame_attestations": [],
+      "bare_base_attested": true,
+      "bare_base_attestations": [
+        {
+          "record_id": "RHD-S1809-02269",
+          "surface": "Seli",
+          "key": "seli",
+          "page": "365"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-02275",
+          "surface": "Seliameke",
+          "key": "seliameke",
+          "page": "365"
+        }
+      ],
+      "status": "documentary_string_test_only",
+      "human_reviewed": false,
+      "automatic_morpheme_segmentation": false,
+      "historical_continuity_judgment": "not_performed"
+    },
+    {
+      "ameke_key": "tschitschiameke",
+      "mechanical_base": "tschitschi",
+      "xame_key": "tschitschiame",
+      "xame_attested": false,
+      "xame_attestations": [],
+      "bare_base_attested": true,
+      "bare_base_attestations": [
+        {
+          "record_id": "RHD-S1809-02433",
+          "surface": "Tſchitſchi",
+          "key": "tschitschi",
+          "page": "368"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-02434",
+          "surface": "Tſchitſchiameke",
+          "key": "tschitschiameke",
+          "page": "368"
+        }
+      ],
+      "status": "documentary_string_test_only",
+      "human_reviewed": false,
+      "automatic_morpheme_segmentation": false,
+      "historical_continuity_judgment": "not_performed"
+    }
+  ],
+  "final_ke_outside_ameke_examples": [
+    "bassaraleke",
+    "buke",
+    "eke",
+    "euke",
+    "gualeke",
+    "gualineke",
+    "guaugueke",
+    "gueke",
+    "igueleke",
+    "kake",
+    "ke",
+    "keke",
+    "moleke",
+    "nachpigualeke",
+    "peguamecke",
+    "pileke",
+    "poveke",
+    "pulke",
+    "rheneke",
+    "taiteke",
+    "taugueke",
+    "techteke",
+    "tegueke",
+    "temeke",
+    "tetuleke",
+    "thulaneke",
+    "toruke",
+    "tschecemeke",
+    "vasseraseke"
+  ],
+  "final_ame_examples": [
+    "ame",
+    "tamateiame",
+    "tame"
+  ],
+  "human_reviewed": false,
+  "automatic_morpheme_segmentation": false,
+  "automatic_morphological_analysis": false,
+  "interpretive_scope": "Exact historical string-distribution evidence only. Matches may motivate review but do not establish segmentation as -ame+-ke."
+}
