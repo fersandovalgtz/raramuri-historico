@@ -1,0 +1,739 @@
+{
+  "records": [
+    {
+      "member_id": "RHD-AMEKE-00001",
+      "class": "ameke_other",
+      "token": "ajonameke",
+      "gloss": "ein Zorniger",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00002",
+      "class": "ugameke",
+      "token": "baicarugameke",
+      "gloss": "dreyfach",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00003",
+      "class": "ameke_other",
+      "token": "bajeameke",
+      "gloss": "der Rufende",
+      "v1": false,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "rufende",
+          "present-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00006",
+      "class": "ugameke",
+      "token": "bassirugameke",
+      "gloss": "Gekochtes",
+      "v1": false,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "gekochtes",
+          "past-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00010",
+      "class": "ugameke",
+      "token": "bulirugameke",
+      "gloss": "Gebundenes",
+      "v1": false,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "gebundenes",
+          "past-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00011",
+      "class": "ameke_other",
+      "token": "cavolameke",
+      "gloss": "oder cavórameke, kugelförmig",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00012",
+      "class": "jameke",
+      "token": "coajameke",
+      "gloss": "das Eſſen",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00014",
+      "class": "ameke_other",
+      "token": "cotschimeameke",
+      "gloss": "Ein Schlafender",
+      "v1": false,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "schlafender",
+          "present-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00015",
+      "class": "iameke",
+      "token": "cuguiameke",
+      "gloss": "Helfer",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00016",
+      "class": "ameke_other",
+      "token": "culeameke",
+      "gloss": "Ein Ort, oder Gegend, wo es Holz oder Bäume giebt",
+      "v1": false,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "gegend",
+          "present-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00017",
+      "class": "ameke_other",
+      "token": "culuameke",
+      "gloss": "dick, fett, leibig, Schmeerbauch",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00018",
+      "class": "ameke_other",
+      "token": "cuneameke",
+      "gloss": "Verheurathete Weibsperson",
+      "v1": false,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "verheurathete",
+          "past-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00020",
+      "class": "ameke_other",
+      "token": "cusigueameke",
+      "gloss": "Der einen Stab oder Stecken hat, ſ",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00022",
+      "class": "ameke_other",
+      "token": "etschaguoameke",
+      "gloss": "Der einen Bart hat, s",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00025",
+      "class": "iameke",
+      "token": "ganeliameke",
+      "gloss": "Der geſund iſt, dem es gut geht",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00028",
+      "class": "ameke_other",
+      "token": "guelameke",
+      "gloss": "altes Weib",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00030",
+      "class": "gameke",
+      "token": "haagameke",
+      "gloss": "Belebt",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00034",
+      "class": "ameke_other",
+      "token": "humeameke",
+      "gloss": "Flüchtling",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00036",
+      "class": "ameke_other",
+      "token": "igueameke",
+      "gloss": "Ein Starker, der Kräfte hat",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00038",
+      "class": "jameke",
+      "token": "itschiguajameke",
+      "gloss": "Dieb",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00042",
+      "class": "gameke",
+      "token": "gatigameke",
+      "gloss": "Allgegenwärtig",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00043",
+      "class": "jameke",
+      "token": "jumajumajameke",
+      "gloss": "Allmächtig",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00045",
+      "class": "gameke",
+      "token": "jumanamatschigameke",
+      "gloss": "Allwissend",
+      "v1": true,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "allwissend",
+          "present-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00046",
+      "class": "ugameke",
+      "token": "jumarugameke",
+      "gloss": "Vollkommen",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00047",
+      "class": "gameke",
+      "token": "kachkagameke",
+      "gloss": "Süß",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00049",
+      "class": "iameke",
+      "token": "lessiameke",
+      "gloss": "Müde, matt",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00051",
+      "class": "jameke",
+      "token": "loguijameke",
+      "gloss": "Raſend",
+      "v1": true,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "rasend",
+          "present-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00056",
+      "class": "ugameke",
+      "token": "melirugameke",
+      "gloss": "Geschlachtet",
+      "v1": true,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "geschlachtet",
+          "past-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00061",
+      "class": "iameke",
+      "token": "mukiiatiameke",
+      "gloss": "Sterblich",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00062",
+      "class": "jameke",
+      "token": "mukijameke",
+      "gloss": "oder beſſer upiameke",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00063",
+      "class": "ameke_other",
+      "token": "mukuameke",
+      "gloss": "Todt",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00064",
+      "class": "jameke",
+      "token": "najujameke",
+      "gloss": "Ein Kranker",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00067",
+      "class": "ameke_other",
+      "token": "nesseameke",
+      "gloss": "Hüter",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00068",
+      "class": "jameke",
+      "token": "neteijameke",
+      "gloss": "Schöpfer",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00073",
+      "class": "ameke_other",
+      "token": "ossanaguoameke",
+      "gloss": "Der Achte",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00074",
+      "class": "ameke_other",
+      "token": "otisherameke",
+      "gloss": "Ein alter Mann",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00076",
+      "class": "ugameke",
+      "token": "pagotugameke",
+      "gloss": "Ein Getaufter",
+      "v1": false,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "getaufter",
+          "past-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00078",
+      "class": "ameke_other",
+      "token": "pamagueameke",
+      "gloss": "Grün",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00079",
+      "class": "ugameke",
+      "token": "parugameke",
+      "gloss": "Fortgetragenes",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00082",
+      "class": "ameke_other",
+      "token": "pitschaburameke",
+      "gloss": "Verschnitten",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00084",
+      "class": "ugameke",
+      "token": "potschirugameke",
+      "gloss": "Schwanger",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00092",
+      "class": "ameke_other",
+      "token": "rosacameke",
+      "gloss": "oder toſácameke",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00094",
+      "class": "ameke_other",
+      "token": "saateameke",
+      "gloss": "Sandig",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00096",
+      "class": "iameke",
+      "token": "samiameke",
+      "gloss": "Feucht",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00098",
+      "class": "iameke",
+      "token": "satiameke",
+      "gloss": "Anfechter",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00099",
+      "class": "jameke",
+      "token": "schiojameke",
+      "gloss": "Blau",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00100",
+      "class": "iameke",
+      "token": "schugiameke",
+      "gloss": "Es ist ausgegangen, hat abgenommen",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00102",
+      "class": "iameke",
+      "token": "seliameke",
+      "gloss": "So nennen ſie ihren Dorfrichter",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00103",
+      "class": "ugameke",
+      "token": "sikirugameke",
+      "gloss": "Zerhauenes",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00106",
+      "class": "ameke_other",
+      "token": "stacameke",
+      "gloss": "oder Stácameke",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00115",
+      "class": "ameke_other",
+      "token": "tameke",
+      "gloss": "Wir",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00117",
+      "class": "gameke",
+      "token": "taragameke",
+      "gloss": "Zähler",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00119",
+      "class": "ameke_other",
+      "token": "teculuameke",
+      "gloss": "Berauſcht",
+      "v1": false,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "berauscht",
+          "past-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00120",
+      "class": "ameke_other",
+      "token": "tehimeameke",
+      "gloss": "Verwandter",
+      "v1": false,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "verwandter",
+          "past-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00122",
+      "class": "gameke",
+      "token": "telegatigameke",
+      "gloss": "der unten iſt, ſ",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00123",
+      "class": "gameke",
+      "token": "tepagatigameke",
+      "gloss": "ſ",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00128",
+      "class": "ameke_other",
+      "token": "tlestataccameke",
+      "gloss": "oder Stácameke",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00129",
+      "class": "ameke_other",
+      "token": "tosacameke",
+      "gloss": "Weiß",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00130",
+      "class": "jameke",
+      "token": "tsainijolajameke",
+      "gloss": "Der Böſes thut",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00133",
+      "class": "ameke_other",
+      "token": "tschiperameke",
+      "gloss": "Fein",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00135",
+      "class": "ameke_other",
+      "token": "tschirulameke",
+      "gloss": "Rund",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00136",
+      "class": "iameke",
+      "token": "tschitschiameke",
+      "gloss": "Säugling",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00139",
+      "class": "ameke_other",
+      "token": "tschulugeameke",
+      "gloss": "Hungrig",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00142",
+      "class": "jameke",
+      "token": "tsetijolajameke",
+      "gloss": "Uebelthäter",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00145",
+      "class": "ameke_other",
+      "token": "uelameke",
+      "gloss": "Altes Weib",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00146",
+      "class": "ameke_other",
+      "token": "upeameke",
+      "gloss": "Ein Verheyratheter, Ehemann",
+      "v1": false,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "verheyratheter",
+          "past-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00147",
+      "class": "iameke",
+      "token": "veniameke",
+      "gloss": "Zahm",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "count": 67,
+  "by_class": {
+    "ameke_other": 31,
+    "ugameke": 9,
+    "jameke": 10,
+    "iameke": 10,
+    "gameke": 7
+  },
+  "v1_by_class": {
+    "ameke_other": 0,
+    "gameke": 1,
+    "iameke": 0,
+    "jameke": 1,
+    "ugameke": 1
+  },
+  "inflected_candidate_by_class": {
+    "ameke_other": 7,
+    "gameke": 1,
+    "iameke": 0,
+    "jameke": 1,
+    "ugameke": 4
+  },
+  "ugameke_records": [
+    {
+      "member_id": "RHD-AMEKE-00002",
+      "class": "ugameke",
+      "token": "baicarugameke",
+      "gloss": "dreyfach",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00006",
+      "class": "ugameke",
+      "token": "bassirugameke",
+      "gloss": "Gekochtes",
+      "v1": false,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "gekochtes",
+          "past-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00010",
+      "class": "ugameke",
+      "token": "bulirugameke",
+      "gloss": "Gebundenes",
+      "v1": false,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "gebundenes",
+          "past-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00046",
+      "class": "ugameke",
+      "token": "jumarugameke",
+      "gloss": "Vollkommen",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00056",
+      "class": "ugameke",
+      "token": "melirugameke",
+      "gloss": "Geschlachtet",
+      "v1": true,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "geschlachtet",
+          "past-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00076",
+      "class": "ugameke",
+      "token": "pagotugameke",
+      "gloss": "Ein Getaufter",
+      "v1": false,
+      "inflected_surface_candidate": true,
+      "hits": [
+        [
+          "getaufter",
+          "past-shaped"
+        ]
+      ],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00079",
+      "class": "ugameke",
+      "token": "parugameke",
+      "gloss": "Fortgetragenes",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00084",
+      "class": "ugameke",
+      "token": "potschirugameke",
+      "gloss": "Schwanger",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00103",
+      "class": "ugameke",
+      "token": "sikirugameke",
+      "gloss": "Zerhauenes",
+      "v1": false,
+      "inflected_surface_candidate": false,
+      "hits": [],
+      "human_reviewed": false
+    }
+  ],
+  "human_reviewed": false,
+  "automatic_part_of_speech_tagging": false,
+  "interpretive_scope": "Surface sensitivity audit only; candidate endings are not validated German POS tags."
+}
