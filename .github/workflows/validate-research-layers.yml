@@ -13,6 +13,7 @@ on:
       - 'scripts/generate_internal_concordance.py'
       - 'scripts/generate_ameke_constellation.py'
       - 'scripts/generate_ameke_permutation_tests.py'
+      - 'scripts/update_ameke_research_page.py'
       - 'scripts/generate_historical_variants.py'
       - 'scripts/generate_semantic_context_queue.py'
       - 'scripts/generate_graphemic_statistics.py'
@@ -52,6 +53,7 @@ jobs:
           python3 scripts/generate_research_snapshot.py
           python3 scripts/sync_research_metadata.py
           python3 scripts/update_research_docs.py
+          python3 scripts/update_ameke_research_page.py
       - name: Validate non-adjudicative research state
         run: |
           python3 - <<'PY'
@@ -74,6 +76,8 @@ jobs:
           am=json.load((d/'ameke_constellation_members.json').open(encoding='utf-8'))
           ac=json.load((d/'ameke_base_contrast_candidates.json').open(encoding='utf-8'))
           ams=json.load((d/'ameke_constellation_summary.json').open(encoding='utf-8'))
+          ap=json.load((d/'ameke_permutation_tests.json').open(encoding='utf-8'))
+          aps=json.load((d/'ameke_permutation_tests_summary.json').open(encoding='utf-8'))
           v=json.load((d/'historical_variant_index.json').open(encoding='utf-8'))
           s=json.load((d/'diachronic_semantic_context_queue.json').open(encoding='utf-8'))
           q=json.load(open('data/diachronic/adjudication_queue.json',encoding='utf-8'))
@@ -81,7 +85,7 @@ jobs:
           pm=json.load(open('project-metadata.json',encoding='utf-8'))
           assert a['human_reviewed'] is False and r['human_reviewed'] is False and t['human_reviewed'] is False and rq['human_reviewed'] is False
           assert gf['human_reviewed'] is False and gp['human_reviewed'] is False and gcp['human_reviewed'] is False and gcf['human_reviewed'] is False
-          assert am['human_reviewed'] is False and ac['human_reviewed'] is False and ams['human_reviewed'] is False
+          assert am['human_reviewed'] is False and ac['human_reviewed'] is False and ams['human_reviewed'] is False and ap['human_reviewed'] is False and aps['human_reviewed'] is False
           assert gf['automatic_morphological_analysis'] is False and gf['automatic_morpheme_assignment'] is False
           assert gp['automatic_morphological_analysis'] is False and gp['automatic_morpheme_assignment'] is False
           assert gcp['automatic_semantic_classification'] is False and gcp['automatic_part_of_speech_tagging'] is False
@@ -90,6 +94,8 @@ jobs:
           assert am['automatic_morphological_analysis'] is False and am['automatic_morpheme_assignment'] is False
           assert ac['automatic_morphological_analysis'] is False and ac['automatic_semantic_judgment'] is False
           assert ams['automatic_morphological_analysis'] is False and ams['automatic_morpheme_assignment'] is False and ams['automatic_semantic_classification'] is False and ams['automatic_paradigm_inference'] is False
+          assert ap['automatic_morphological_analysis'] is False and ap['automatic_semantic_classification'] is False
+          assert aps['automatic_morphological_analysis'] is False and aps['automatic_morpheme_assignment'] is False and aps['automatic_semantic_classification'] is False and aps['automatic_part_of_speech_tagging'] is False and aps['automatic_paradigm_inference'] is False
           assert c['human_reviewed'] is False and v['human_reviewed'] is False and s['human_reviewed'] is False
           assert t['count']==r['count']==ts['candidate_count']
           assert rq['count']==rqs['unique_recovery_candidate_groups']
@@ -98,6 +104,10 @@ jobs:
           assert gcp['count']==gcs['pattern_association_count']==gp['count']
           assert gcf['count']==gcs['family_association_count']==gf['count']
           assert am['count']==ams['member_count'] and ac['count']==ams['base_contrast_candidate_count']
+          assert ap['count']==aps['cell_test_count'] and aps['member_count']==am['count'] and aps['permutation_iterations']==20000 and aps['random_seed']==1809
+          assert len({x['test_id'] for x in ap['records']})==ap['count']
+          assert sum(bool(x['conservative_permutation_signal']) for x in ap['records'])==aps['conservative_permutation_signal_count']
+          assert all(not x['human_reviewed'] and x['status']=='machine_permutation_context_test' for x in ap['records'])
           assert all(x['graphic_key'].endswith('ameke') and not x['human_reviewed'] and x['status']=='machine_ameke_graphic_member' for x in am['records'])
           assert all(x['contrast_type'] in {'exact_shared_stripped_base','edit_distance_one_stripped_base_neighbor'} and not x['human_reviewed'] and x['status']=='machine_ameke_base_contrast_candidate' for x in ac['records'])
           assert len({x['member_id'] for x in am['records']})==am['count'] and len({x['contrast_id'] for x in ac['records']})==ac['count']
@@ -116,7 +126,7 @@ jobs:
           assert st['human_reviewed_internal_relations']==0 and st['human_reviewed_diachronic_relations']==0 and pm['scope']['research_layer_human_reviewed_relations']==0
           assert st['residual_span_triage_candidates']==t['count'] and st['residual_recovery_candidate_groups']==rq['count'] and st['graphic_family_hypothesis_count']==gf['count']
           assert st['graphic_context_pattern_association_count']==gcp['count'] and st['graphic_context_family_association_count']==gcf['count']
-          assert st['ameke_constellation_member_count']==am['count'] and st['ameke_base_contrast_candidate_count']==ac['count']
+          assert st['ameke_constellation_member_count']==am['count'] and st['ameke_base_contrast_candidate_count']==ac['count'] and st['ameke_permutation_cell_test_count']==ap['count'] and st['ameke_permutation_conservative_signal_count']==aps['conservative_permutation_signal_count']
           assert sum(1 for _ in csv.DictReader((d/'internal_concordance.csv').open(encoding='utf-8')))==c['count']
           assert sum(1 for _ in csv.DictReader((d/'diachronic_semantic_context_queue.csv').open(encoding='utf-8')))==s['count']
           assert sum(1 for _ in csv.DictReader((d/'de_rar_residual_span_triage.csv').open(encoding='utf-8')))==t['count']
@@ -126,9 +136,10 @@ jobs:
           assert sum(1 for _ in csv.DictReader((d/'graphic_context_family_associations.csv').open(encoding='utf-8')))==gcf['count']
           assert sum(1 for _ in csv.DictReader((d/'ameke_constellation_members.csv').open(encoding='utf-8')))==am['count']
           assert sum(1 for _ in csv.DictReader((d/'ameke_base_contrast_candidates.csv').open(encoding='utf-8')))==ac['count']
-          assert Path('public/research.html').exists() and 'research.html' in Path('public/index.html').read_text(encoding='utf-8')
-          assert 'Investigación interna de Steffel' in Path('README.md').read_text(encoding='utf-8')
-          print('OK research layers:',a['count'],c['count'],s['count'],'residual',t['count'],'recovery',rq['count'],'graphic families',gf['count'],'patterns',gp['count'],'German-context',gcp['count'],gcf['count'],'ameke',am['count'],'contrasts',ac['count'])
+          assert sum(1 for _ in csv.DictReader((d/'ameke_permutation_tests.csv').open(encoding='utf-8')))==ap['count']
+          assert Path('public/research.html').exists() and 'research.html' in Path('public/index.html').read_text(encoding='utf-8') and 'AMEKE_PERM_START' in Path('public/research.html').read_text(encoding='utf-8')
+          assert 'Investigación interna de Steffel' in Path('README.md').read_text(encoding='utf-8') and 'AMEKE_PERM_README_START' in Path('README.md').read_text(encoding='utf-8')
+          print('OK research layers:',a['count'],c['count'],s['count'],'residual',t['count'],'recovery',rq['count'],'graphic families',gf['count'],'patterns',gp['count'],'German-context',gcp['count'],gcf['count'],'ameke',am['count'],'contrasts',ac['count'],'permutation tests',ap['count'],'signals',aps['conservative_permutation_signal_count'])
           PY
       - name: Commit generated research artifacts
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
