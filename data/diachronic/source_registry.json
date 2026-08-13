@@ -1,0 +1,27 @@
+{
+  "registry_version": "1.0",
+  "generated": "2026-08-13",
+  "sources": [
+    {
+      "role": "historical",
+      "dataset_id": "raramuri-historico-steffel-1809",
+      "repository": "fersandovalgtz/raramuri-historico",
+      "record_id_pattern": "^RHD-S1809-[0-9]{5}$",
+      "canonical_file": "data/entries.csv",
+      "documentary_fields": ["headword_diplomatic", "article_diplomatic"],
+      "non_overwrite": true
+    },
+    {
+      "role": "contemporary",
+      "dataset_id": "raramuri-digital",
+      "dataset_version": "1.0.0",
+      "repository": "fersandovalgtz/raramuri-digital",
+      "commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+      "canonical_file": "data/lexicon-master.csv",
+      "record_id_pattern": "^RD-[0-9]{6}$",
+      "comparison_fields": ["record_id", "headword", "headword_raw", "headword_normalized", "homonym_number", "classification", "classification_family", "translation_raw", "senses", "variants", "source_code", "source_document", "page_start", "page_end", "status"],
+      "non_overwrite": true
+    }
+  ],
+  "policy": "Correspondences are explicit derived relations. Pinned source versions provide reproducibility; neither source corpus is modified by the correspondence layer."
+}
