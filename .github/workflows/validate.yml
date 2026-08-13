@@ -17,6 +17,7 @@ on:
       - 'scripts/generate_review_queue.py'
       - 'scripts/generate_validation_queue.py'
       - 'scripts/generate_next_philological_batch.py'
+      - 'scripts/generate_human_review_priority.py'
       - 'scripts/generate_exports.py'
       - 'tests/validate.py'
       - 'tests/validate_validation_phase.py'
@@ -50,6 +51,7 @@ jobs:
           python3 scripts/generate_review_queue.py
           python3 scripts/generate_validation_queue.py
           python3 scripts/generate_next_philological_batch.py
+          python3 scripts/generate_human_review_priority.py
           python3 scripts/generate_exports.py
       - name: Validate corpus, layout, diplomatic layer and exports
         run: |
