@@ -102,6 +102,37 @@
     "context_rate_difference_min": 0.09386973180076627,
     "context_nonpositive_count": 0
   },
+  "provenance_subgroup_diagnostics": [
+    {
+      "provenance": "DE-RAR-recovery_only",
+      "member_count": 80,
+      "target_member_count": 18,
+      "context_rate_difference": 0.48181818181818176,
+      "context_empirical_two_sided_p": 0.00004999750012499375,
+      "member_binary_rate_difference": 0.53584229390681,
+      "member_binary_empirical_two_sided_p": 0.00014999250037498125,
+      "context_p_le_0_05": true,
+      "member_binary_p_le_0_05": true
+    },
+    {
+      "provenance": "RAR-DE_only",
+      "member_count": 67,
+      "target_member_count": 9,
+      "context_rate_difference": 0.09386973180076627,
+      "context_empirical_two_sided_p": 0.2513874306284686,
+      "member_binary_rate_difference": 0.09386973180076627,
+      "member_binary_empirical_two_sided_p": 0.2504874756262187,
+      "context_p_le_0_05": false,
+      "member_binary_p_le_0_05": false
+    }
+  ],
+  "estimable_provenance_subgroup_count": 2,
+  "provenance_subgroups_context_p_le_0_05_count": 1,
+  "provenance_subgroups_member_binary_p_le_0_05_count": 1,
+  "replicated_context_signal_across_all_estimable_provenance_subgroups": false,
+  "replicated_member_binary_signal_across_all_estimable_provenance_subgroups": false,
+  "provenance_sensitivity_flag": true,
+  "provenance_interpretation": "Aggregate and stratified permutation robustness does not imply independent replication by provenance. The signal must be reported as provenance-sensitive rather than source-independent.",
   "human_reviewed": false,
   "automatic_morphological_analysis": false,
   "automatic_morpheme_assignment": false,
