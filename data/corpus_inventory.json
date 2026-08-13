@@ -264,7 +264,10 @@
       367,
       368
     ],
-    "records_with_uncertainty_note": 676,
+    "records_with_editorial_note": 676,
+    "records_with_resolved_editorial_note": 194,
+    "records_with_explicit_open_validation_note": 482,
+    "records_with_uncertainty_note": 482,
     "method": "mixed_ai_assisted_diplomatic_transcription",
     "methods": [
       "visual_facsimile_transcription_ai_assisted",
@@ -274,6 +277,6 @@
     "direct_facsimile_image_recheck_pending_batches": [],
     "full_active_corpus_coverage": true,
     "human_verified": false,
-    "scope_note": "Complete article text for accepted records; source spelling/punctuation retained where supported; typographic line wrapping not encoded. Batches without direct facsimile image reinspection are explicitly flagged for later re-collation."
+    "scope_note": "Complete article text for accepted records; source spelling/punctuation retained where supported; typographic line wrapping not encoded. Non-empty diplomatic notes are classified as resolved editorial notes or explicit open validation notes; only the latter enter the scientific validation queue."
   }
 }
