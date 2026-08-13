@@ -890,13 +890,13 @@
     },
     {
       "path": "data/entries.csv",
-      "bytes": 2113729,
-      "sha256": "99d5a9af82bc2d8e255be9c587823feeb4ddbd4ea16746cb1e69cb9ba7e1d9ac"
+      "bytes": 2124319,
+      "sha256": "318e7be110f3f9169bf2499ae36abf1d8601899ca0929c210b9f3a9e50c9ca45"
     },
     {
       "path": "data/entries_curated.csv",
-      "bytes": 153906,
-      "sha256": "f98f43a69f129973bc7b31a76bc568d4cd51b029332bfc74b42259dce2623999"
+      "bytes": 164496,
+      "sha256": "e2760f831ef9de1db0b74123c439111bd70817cbc0c061421c1f008c9846e148"
     },
     {
       "path": "data/facsimile/README.md",
@@ -935,8 +935,8 @@
     },
     {
       "path": "data/json/entries.json",
-      "bytes": 4079273,
-      "sha256": "657dc80f5ee8242e9bdb9c11b0fa27675cdb5d0a73b7cac0c57c5cf9d6400e5d"
+      "bytes": 4089863,
+      "sha256": "a5e3832ff3f6e927109fb611cb7550b00c970e317882fdacb23d2d0f4242136f"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -945,8 +945,8 @@
     },
     {
       "path": "data/raramuri_historico.sqlite",
-      "bytes": 2723840,
-      "sha256": "5c72e09e7c0ee6d2a7244f3cf20b42ee917237c650b5135c811e6cb5376377db"
+      "bytes": 2740224,
+      "sha256": "aeaf80b68f3e8411fd332912065af6c3d93615608a34e51f671c6c2ec64eecee"
     },
     {
       "path": "data/review/README.md",
@@ -1134,6 +1134,11 @@
       "sha256": "a93a9e9f15e3315c5ce6222dd4e11e38ce7c9c8f36fd6aa2aef8856855f972fc"
     },
     {
+      "path": "data/validation/next_philological_batch_notes_compact.json",
+      "bytes": 7189,
+      "sha256": "ac4fb82134c221f3765648bb69bbbd92efc6299ddb8cb9bda2c6565b19caa29b"
+    },
+    {
       "path": "data/validation/review/philological_review_batch_001.json",
       "bytes": 17388,
       "sha256": "991f2470ae6ded80764bf981d31fee584679067fc82863dc7380523d76810beb"
@@ -1160,8 +1165,8 @@
     },
     {
       "path": "data/xml/entries.xml",
-      "bytes": 4794049,
-      "sha256": "dcb2af7468d7100bbad4f8ffd97572c264a363278e01a5b466d85d0571913d53"
+      "bytes": 4804639,
+      "sha256": "278d65252839b939105951755f373424b202223ab0e2f2879110f54798177aab"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
@@ -1190,8 +1195,8 @@
     },
     {
       "path": "public/data/entries.json",
-      "bytes": 3615202,
-      "sha256": "a8fd433e351348f7d0764b34c5d2d7d9d4053096fcbfc904a76d03fb931997f9"
+      "bytes": 3625792,
+      "sha256": "cc0f39b47b643a67d9d5b1635120cd5be5a27a23d4d310fcccdbb36a9675ee7c"
     },
     {
       "path": "public/data/metadata.json",
@@ -1235,8 +1240,8 @@
     },
     {
       "path": "scripts/generate_next_philological_batch.py",
-      "bytes": 4123,
-      "sha256": "16a3f5b5a3879600ed61a7104b74385ac607d19cbb2c9f691f5d5704fa4fd7ea"
+      "bytes": 4604,
+      "sha256": "eb3847dba57b0eef6ed19dcc3deef012dd5febb1d030dc5e03c9713efce83ebe"
     },
     {
       "path": "scripts/generate_review_queue.py",
