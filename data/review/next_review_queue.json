@@ -2,908 +2,152 @@
   "generated_from": "data/entries.csv + data/review/facsimile_review_batch_*.json",
   "selection_rule": "first 100 unreviewed records in source/record order, medium_machine before low_machine",
   "tier": "low_machine",
-  "remaining_before_batch": 116,
-  "count": 100,
+  "remaining_before_batch": 16,
+  "count": 16,
   "records": [
     {
-      "record_id": "RHD-S1809-01609",
-      "direction": "DE-RAR",
-      "headword_raw": "Zinnen",
-      "printed_page": 352,
-      "pdf_page": 62,
-      "source_ocr_line_start": 7665,
-      "source_ocr_line_end": 7665
-    },
-    {
-      "record_id": "RHD-S1809-01610",
-      "direction": "DE-RAR",
-      "headword_raw": "Zirkel",
-      "printed_page": 352,
-      "pdf_page": 62,
-      "source_ocr_line_start": 7666,
-      "source_ocr_line_end": 7666
-    },
-    {
-      "record_id": "RHD-S1809-01611",
-      "direction": "DE-RAR",
-      "headword_raw": "Zoͤrnen",
-      "printed_page": 352,
-      "pdf_page": 62,
-      "source_ocr_line_start": 7667,
-      "source_ocr_line_end": 7672
-    },
-    {
-      "record_id": "RHD-S1809-01613",
-      "direction": "DE-RAR",
-      "headword_raw": "Jimi",
-      "printed_page": 352,
-      "pdf_page": 62,
-      "source_ocr_line_start": 7679,
-      "source_ocr_line_end": 7682
-    },
-    {
-      "record_id": "RHD-S1809-01616",
-      "direction": "DE-RAR",
-      "headword_raw": "Simiba",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7693,
-      "source_ocr_line_end": 7695
-    },
-    {
-      "record_id": "RHD-S1809-01618",
-      "direction": "DE-RAR",
-      "headword_raw": "Zumachen",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7700,
-      "source_ocr_line_end": 7700
-    },
-    {
-      "record_id": "RHD-S1809-01619",
-      "direction": "DE-RAR",
-      "headword_raw": "Zunamen",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7701,
-      "source_ocr_line_end": 7701
-    },
-    {
-      "record_id": "RHD-S1809-01620",
-      "direction": "DE-RAR",
-      "headword_raw": "Zunder",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7702,
-      "source_ocr_line_end": 7705
-    },
-    {
-      "record_id": "RHD-S1809-01624",
-      "direction": "DE-RAR",
-      "headword_raw": "Zuſammenfallen",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7717,
-      "source_ocr_line_end": 7717
-    },
-    {
-      "record_id": "RHD-S1809-01626",
-      "direction": "DE-RAR",
-      "headword_raw": "Zuſammengefuͤgt",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7719,
-      "source_ocr_line_end": 7720
-    },
-    {
-      "record_id": "RHD-S1809-01628",
-      "direction": "DE-RAR",
-      "headword_raw": "Zuſammengekoppelt",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7722,
-      "source_ocr_line_end": 7723
-    },
-    {
-      "record_id": "RHD-S1809-01629",
-      "direction": "DE-RAR",
-      "headword_raw": "Zuſammenkunft",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7724,
-      "source_ocr_line_end": 7724
-    },
-    {
-      "record_id": "RHD-S1809-01630",
-      "direction": "DE-RAR",
-      "headword_raw": "Zuſammennaͤhen",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7725,
-      "source_ocr_line_end": 7725
-    },
-    {
-      "record_id": "RHD-S1809-01631",
-      "direction": "DE-RAR",
-      "headword_raw": "Zufammentotten",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7726,
-      "source_ocr_line_end": 7726
-    },
-    {
-      "record_id": "RHD-S1809-01632",
-      "direction": "DE-RAR",
-      "headword_raw": "Zuſammenweben",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7727,
-      "source_ocr_line_end": 7732
-    },
-    {
-      "record_id": "RHD-S1809-01636",
-      "direction": "DE-RAR",
-      "headword_raw": "Be Oea oder guoca",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7744,
-      "source_ocr_line_end": 7752
-    },
-    {
-      "record_id": "RHD-S1809-01637",
-      "direction": "DE-RAR",
-      "headword_raw": "Ztweymal",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7753,
-      "source_ocr_line_end": 7753
-    },
-    {
-      "record_id": "RHD-S1809-01638",
-      "direction": "DE-RAR",
-      "headword_raw": "Zweyter",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7754,
-      "source_ocr_line_end": 7756
-    },
-    {
-      "record_id": "RHD-S1809-01640",
-      "direction": "DE-RAR",
-      "headword_raw": "Zwirn",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7758,
-      "source_ocr_line_end": 7758
-    },
-    {
-      "record_id": "RHD-S1809-01643",
-      "direction": "RAR-DE",
-      "headword_raw": "Kind",
-      "printed_page": 353,
-      "pdf_page": 63,
-      "source_ocr_line_start": 7777,
-      "source_ocr_line_end": 7785
-    },
-    {
-      "record_id": "RHD-S1809-01650",
-      "direction": "RAR-DE",
-      "headword_raw": "Natter",
-      "printed_page": 354,
-      "pdf_page": 64,
-      "source_ocr_line_start": 7845,
-      "source_ocr_line_end": 7846
-    },
-    {
-      "record_id": "RHD-S1809-01657",
-      "direction": "RAR-DE",
-      "headword_raw": "Bogen f",
-      "printed_page": 354,
-      "pdf_page": 64,
-      "source_ocr_line_start": 7886,
-      "source_ocr_line_end": 7886
-    },
-    {
-      "record_id": "RHD-S1809-01668",
-      "direction": "RAR-DE",
-      "headword_raw": "Baifla",
-      "printed_page": 354,
-      "pdf_page": 64,
-      "source_ocr_line_start": 7932,
-      "source_ocr_line_end": 7932
-    },
-    {
-      "record_id": "RHD-S1809-01673",
-      "direction": "RAR-DE",
-      "headword_raw": "Atäcı oder hatüea",
-      "printed_page": 354,
-      "pdf_page": 64,
-      "source_ocr_line_start": 7960,
-      "source_ocr_line_end": 7963
-    },
-    {
-      "record_id": "RHD-S1809-01676",
-      "direction": "RAR-DE",
-      "headword_raw": "Befsba oder balsiſimi",
-      "printed_page": 354,
-      "pdf_page": 64,
-      "source_ocr_line_start": 7966,
-      "source_ocr_line_end": 7971
-    },
-    {
-      "record_id": "RHD-S1809-01680",
-      "direction": "RAR-DE",
-      "headword_raw": "Batani",
-      "printed_page": 354,
-      "pdf_page": 64,
-      "source_ocr_line_start": 7985,
-      "source_ocr_line_end": 7987
-    },
-    {
-      "record_id": "RHD-S1809-01681",
-      "direction": "RAR-DE",
-      "headword_raw": "Batfa",
-      "printed_page": 355,
-      "pdf_page": 65,
-      "source_ocr_line_start": 7988,
-      "source_ocr_line_end": 7988
-    },
-    {
-      "record_id": "RHD-S1809-01688",
-      "direction": "RAR-DE",
-      "headword_raw": "Boni",
-      "printed_page": 355,
-      "pdf_page": 65,
-      "source_ocr_line_start": 8014,
-      "source_ocr_line_end": 8014
-    },
-    {
-      "record_id": "RHD-S1809-01712",
-      "direction": "RAR-DE",
-      "headword_raw": "Comö? Wo du? oder",
-      "printed_page": 355,
-      "pdf_page": 65,
-      "source_ocr_line_start": 8076,
-      "source_ocr_line_end": 8077
-    },
-    {
-      "record_id": "RHD-S1809-01727",
-      "direction": "RAR-DE",
-      "headword_raw": "Pfeffer",
-      "printed_page": 355,
-      "pdf_page": 65,
-      "source_ocr_line_start": 8130,
-      "source_ocr_line_end": 8131
-    },
-    {
-      "record_id": "RHD-S1809-01734",
-      "direction": "RAR-DE",
-      "headword_raw": "Speise",
-      "printed_page": 356,
-      "pdf_page": 66,
-      "source_ocr_line_start": 8145,
-      "source_ocr_line_end": 8146
-    },
-    {
-      "record_id": "RHD-S1809-01739",
-      "direction": "RAR-DE",
-      "headword_raw": "See Ein gewiſſer Vogel",
-      "printed_page": 356,
-      "pdf_page": 66,
-      "source_ocr_line_start": 8154,
-      "source_ocr_line_end": 8155
-    },
-    {
-      "record_id": "RHD-S1809-01755",
-      "direction": "RAR-DE",
-      "headword_raw": "Schmeerbauch",
-      "printed_page": 356,
-      "pdf_page": 66,
-      "source_ocr_line_start": 8197,
-      "source_ocr_line_end": 8198
-    },
-    {
-      "record_id": "RHD-S1809-01758",
-      "direction": "RAR-DE",
-      "headword_raw": "Meibeperfon",
-      "printed_page": 356,
-      "pdf_page": 66,
-      "source_ocr_line_start": 8202,
-      "source_ocr_line_end": 8203
-    },
-    {
-      "record_id": "RHD-S1809-01762",
-      "direction": "RAR-DE",
-      "headword_raw": "Pruͤgel",
-      "printed_page": 356,
-      "pdf_page": 66,
-      "source_ocr_line_start": 8213,
-      "source_ocr_line_end": 8214
-    },
-    {
-      "record_id": "RHD-S1809-01775",
-      "direction": "RAR-DE",
-      "headword_raw": "E D SS viel",
-      "printed_page": 356,
-      "pdf_page": 66,
-      "source_ocr_line_start": 8249,
-      "source_ocr_line_end": 8249
-    },
-    {
-      "record_id": "RHD-S1809-01776",
-      "direction": "RAR-DE",
-      "headword_raw": "Nicht viel",
-      "printed_page": 356,
-      "pdf_page": 66,
-      "source_ocr_line_start": 8250,
-      "source_ocr_line_end": 8252
-    },
-    {
-      "record_id": "RHD-S1809-01780",
-      "direction": "RAR-DE",
-      "headword_raw": "E Ale",
-      "printed_page": 356,
-      "pdf_page": 66,
-      "source_ocr_line_start": 8258,
-      "source_ocr_line_end": 8265
-    },
-    {
-      "record_id": "RHD-S1809-01786",
-      "direction": "RAR-DE",
-      "headword_raw": "Epuläca „Schlüſſel",
-      "printed_page": 356,
-      "pdf_page": 66,
-      "source_ocr_line_start": 8281,
-      "source_ocr_line_end": 8281
-    },
-    {
-      "record_id": "RHD-S1809-01791",
-      "direction": "RAR-DE",
-      "headword_raw": "Bart",
-      "printed_page": 357,
-      "pdf_page": 67,
-      "source_ocr_line_start": 8292,
-      "source_ocr_line_end": 8293
-    },
-    {
-      "record_id": "RHD-S1809-01794",
-      "direction": "RAR-DE",
-      "headword_raw": "Vorrede",
-      "printed_page": 357,
-      "pdf_page": 67,
-      "source_ocr_line_start": 8308,
-      "source_ocr_line_end": 8311
-    },
-    {
-      "record_id": "RHD-S1809-01870",
-      "direction": "RAR-DE",
-      "headword_raw": "Gebeine gefunden werden",
-      "printed_page": 358,
-      "pdf_page": 68,
-      "source_ocr_line_start": 8491,
-      "source_ocr_line_end": 8492
-    },
-    {
-      "record_id": "RHD-S1809-01873",
-      "direction": "RAR-DE",
-      "headword_raw": "Ariéro",
-      "printed_page": 358,
-      "pdf_page": 68,
-      "source_ocr_line_start": 8495,
-      "source_ocr_line_end": 8502
-    },
-    {
-      "record_id": "RHD-S1809-01874",
-      "direction": "RAR-DE",
-      "headword_raw": "HE f",
-      "printed_page": 358,
-      "pdf_page": 68,
-      "source_ocr_line_start": 8503,
-      "source_ocr_line_end": 8511
-    },
-    {
-      "record_id": "RHD-S1809-01884",
-      "direction": "RAR-DE",
-      "headword_raw": "Ai Alſogleich",
-      "printed_page": 358,
-      "pdf_page": 68,
-      "source_ocr_line_start": 8527,
-      "source_ocr_line_end": 8531
-    },
-    {
-      "record_id": "RHD-S1809-01893",
-      "direction": "RAR-DE",
-      "headword_raw": "Ziegenbock",
-      "printed_page": 358,
-      "pdf_page": 68,
-      "source_ocr_line_start": 8559,
-      "source_ocr_line_end": 8568
-    },
-    {
-      "record_id": "RHD-S1809-01895",
-      "direction": "RAR-DE",
-      "headword_raw": "Holog ‚ Mifchen",
-      "printed_page": 359,
-      "pdf_page": 69,
-      "source_ocr_line_start": 8571,
-      "source_ocr_line_end": 8576
-    },
-    {
-      "record_id": "RHD-S1809-01896",
-      "direction": "RAR-DE",
-      "headword_raw": "Salz",
-      "printed_page": 359,
-      "pdf_page": 69,
-      "source_ocr_line_start": 8577,
-      "source_ocr_line_end": 8582
-    },
-    {
-      "record_id": "RHD-S1809-01921",
-      "direction": "RAR-DE",
-      "headword_raw": "Ja Wollen",
-      "printed_page": 359,
-      "pdf_page": 69,
-      "source_ocr_line_start": 8664,
-      "source_ocr_line_end": 8673
-    },
-    {
-      "record_id": "RHD-S1809-01924",
-      "direction": "RAR-DE",
-      "headword_raw": "Krafte hat",
-      "printed_page": 359,
-      "pdf_page": 69,
-      "source_ocr_line_start": 8680,
-      "source_ocr_line_end": 8681
-    },
-    {
-      "record_id": "RHD-S1809-01977",
-      "direction": "RAR-DE",
-      "headword_raw": "Ki",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8829,
-      "source_ocr_line_end": 8829
-    },
-    {
-      "record_id": "RHD-S1809-01980",
-      "direction": "RAR-DE",
-      "headword_raw": "Kut pula? Velten? Malala",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8834,
-      "source_ocr_line_end": 8834
-    },
-    {
-      "record_id": "RHD-S1809-01982",
-      "direction": "RAR-DE",
-      "headword_raw": "Ich weiß es nicht",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8836,
-      "source_ocr_line_end": 8836
-    },
-    {
-      "record_id": "RHD-S1809-01984",
-      "direction": "RAR-DE",
-      "headword_raw": "Gries",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8838,
-      "source_ocr_line_end": 8838
-    },
-    {
-      "record_id": "RHD-S1809-01986",
-      "direction": "RAR-DE",
-      "headword_raw": "Ana ne der Fichtenrinde ähnliche",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8840,
-      "source_ocr_line_end": 8842
-    },
-    {
-      "record_id": "RHD-S1809-02001",
-      "direction": "RAR-DE",
-      "headword_raw": "Msvali ſ",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8878,
-      "source_ocr_line_end": 8880
-    },
-    {
-      "record_id": "RHD-S1809-02002",
-      "direction": "RAR-DE",
-      "headword_raw": "Ma „ kaufen",
-      "printed_page": 360,
-      "pdf_page": 70,
-      "source_ocr_line_start": 8881,
-      "source_ocr_line_end": 8892
-    },
-    {
-      "record_id": "RHD-S1809-02026",
-      "direction": "RAR-DE",
-      "headword_raw": "Fault",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8957,
-      "source_ocr_line_end": 8957
-    },
-    {
-      "record_id": "RHD-S1809-02030",
-      "direction": "RAR-DE",
-      "headword_raw": "Lediges Weibsbild",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8982,
-      "source_ocr_line_end": 8983
-    },
-    {
-      "record_id": "RHD-S1809-02035",
-      "direction": "RAR-DE",
-      "headword_raw": "Vergänglich",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 8995,
-      "source_ocr_line_end": 8996
-    },
-    {
-      "record_id": "RHD-S1809-02040",
-      "direction": "RAR-DE",
-      "headword_raw": "Syibe gemacht",
-      "printed_page": 361,
-      "pdf_page": 71,
-      "source_ocr_line_start": 9010,
-      "source_ocr_line_end": 9013
-    },
-    {
-      "record_id": "RHD-S1809-02046",
-      "direction": "RAR-DE",
-      "headword_raw": "Sich hat",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9029,
-      "source_ocr_line_end": 9042
-    },
-    {
-      "record_id": "RHD-S1809-02049",
-      "direction": "RAR-DE",
-      "headword_raw": "Nicheg",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9047,
-      "source_ocr_line_end": 9047
-    },
-    {
-      "record_id": "RHD-S1809-02051",
-      "direction": "RAR-DE",
-      "headword_raw": "Wollen",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9051,
-      "source_ocr_line_end": 9067
-    },
-    {
-      "record_id": "RHD-S1809-02071",
-      "direction": "RAR-DE",
-      "headword_raw": "Raufen",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9122,
-      "source_ocr_line_end": 9122
-    },
-    {
-      "record_id": "RHD-S1809-02078",
-      "direction": "RAR-DE",
-      "headword_raw": "Na Cache",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9129,
-      "source_ocr_line_end": 9129
-    },
-    {
-      "record_id": "RHD-S1809-02090",
-      "direction": "RAR-DE",
-      "headword_raw": "Faulenzen begriffen ſeyn",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9168,
-      "source_ocr_line_end": 9172
-    },
-    {
-      "record_id": "RHD-S1809-02102",
-      "direction": "RAR-DE",
-      "headword_raw": "Ich",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9194,
-      "source_ocr_line_end": 9197
-    },
-    {
-      "record_id": "RHD-S1809-02104",
-      "direction": "RAR-DE",
-      "headword_raw": "Wel nerd Antworten",
-      "printed_page": 362,
-      "pdf_page": 72,
-      "source_ocr_line_start": 9201,
-      "source_ocr_line_end": 9203
-    },
-    {
-      "record_id": "RHD-S1809-02138",
-      "direction": "RAR-DE",
-      "headword_raw": "Verhext",
-      "printed_page": 363,
-      "pdf_page": 73,
-      "source_ocr_line_start": 9292,
-      "source_ocr_line_end": 9293
-    },
-    {
-      "record_id": "RHD-S1809-02146",
-      "direction": "RAR-DE",
-      "headword_raw": "Mann",
-      "printed_page": 363,
-      "pdf_page": 73,
-      "source_ocr_line_start": 9308,
-      "source_ocr_line_end": 9310
-    },
-    {
-      "record_id": "RHD-S1809-02153",
-      "direction": "RAR-DE",
-      "headword_raw": "Ipagatägameke",
-      "printed_page": 363,
-      "pdf_page": 73,
-      "source_ocr_line_start": 9340,
-      "source_ocr_line_end": 9342
-    },
-    {
-      "record_id": "RHD-S1809-02156",
-      "direction": "RAR-DE",
-      "headword_raw": "Duͤrſten",
-      "printed_page": 363,
-      "pdf_page": 73,
-      "source_ocr_line_start": 9359,
-      "source_ocr_line_end": 9360
-    },
-    {
-      "record_id": "RHD-S1809-02166",
-      "direction": "RAR-DE",
-      "headword_raw": "Beſen",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9409,
-      "source_ocr_line_end": 9409
-    },
-    {
-      "record_id": "RHD-S1809-02178",
-      "direction": "RAR-DE",
-      "headword_raw": "Pipi",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9447,
-      "source_ocr_line_end": 9447
-    },
-    {
-      "record_id": "RHD-S1809-02179",
-      "direction": "RAR-DE",
-      "headword_raw": "Piri? Was",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9448,
-      "source_ocr_line_end": 9450
-    },
-    {
-      "record_id": "RHD-S1809-02194",
-      "direction": "RAR-DE",
-      "headword_raw": "Traͤchtig",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9482,
-      "source_ocr_line_end": 9483
-    },
-    {
-      "record_id": "RHD-S1809-02197",
-      "direction": "RAR-DE",
-      "headword_raw": "Schoͤps",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9487,
-      "source_ocr_line_end": 9491
-    },
-    {
-      "record_id": "RHD-S1809-02213",
-      "direction": "RAR-DE",
-      "headword_raw": "Blaſen",
-      "printed_page": 364,
-      "pdf_page": 74,
-      "source_ocr_line_start": 9526,
-      "source_ocr_line_end": 9526
-    },
-    {
-      "record_id": "RHD-S1809-02228",
-      "direction": "RAR-DE",
-      "headword_raw": "Ra",
-      "printed_page": 365,
-      "pdf_page": 75,
-      "source_ocr_line_start": 9563,
-      "source_ocr_line_end": 9563
-    },
-    {
-      "record_id": "RHD-S1809-02237",
-      "direction": "RAR-DE",
-      "headword_raw": "Regué over aregus",
-      "printed_page": 365,
-      "pdf_page": 75,
-      "source_ocr_line_start": 9574,
-      "source_ocr_line_end": 9574
-    },
-    {
-      "record_id": "RHD-S1809-02238",
-      "direction": "RAR-DE",
-      "headword_raw": "Sehn laſſen",
-      "printed_page": 365,
-      "pdf_page": 75,
-      "source_ocr_line_start": 9575,
-      "source_ocr_line_end": 9577
-    },
-    {
-      "record_id": "RHD-S1809-02261",
-      "direction": "RAR-DE",
-      "headword_raw": "N Anfechter",
-      "printed_page": 365,
-      "pdf_page": 75,
-      "source_ocr_line_start": 9639,
-      "source_ocr_line_end": 9642
-    },
-    {
-      "record_id": "RHD-S1809-02262",
-      "direction": "RAR-DE",
-      "headword_raw": "Ge",
-      "printed_page": 365,
-      "pdf_page": 75,
-      "source_ocr_line_start": 9643,
-      "source_ocr_line_end": 9643
-    },
-    {
-      "record_id": "RHD-S1809-02263",
+      "record_id": "RHD-S1809-02409",
       "direction": "RAR-DE",
-      "headword_raw": "Sauguera eichen",
-      "printed_page": 365,
-      "pdf_page": 75,
-      "source_ocr_line_start": 9644,
-      "source_ocr_line_end": 9644
+      "headword_raw": "Tlanholz",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10049,
+      "source_ocr_line_end": 10057
     },
     {
-      "record_id": "RHD-S1809-02279",
+      "record_id": "RHD-S1809-02410",
       "direction": "RAR-DE",
-      "headword_raw": "Wohin kommen",
-      "printed_page": 366,
-      "pdf_page": 76,
-      "source_ocr_line_start": 9701,
-      "source_ocr_line_end": 9703
+      "headword_raw": "Tlani - oder täinijoläjameke",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10058,
+      "source_ocr_line_end": 10065
     },
     {
-      "record_id": "RHD-S1809-02294",
+      "record_id": "RHD-S1809-02411",
       "direction": "RAR-DE",
-      "headword_raw": "Somtbea",
-      "printed_page": 366,
-      "pdf_page": 76,
-      "source_ocr_line_start": 9746,
-      "source_ocr_line_end": 9747
+      "headword_raw": "Tiani - - oder teinijotikl",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10066,
+      "source_ocr_line_end": 10069
     },
     {
-      "record_id": "RHD-S1809-02295",
+      "record_id": "RHD-S1809-02415",
       "direction": "RAR-DE",
-      "headword_raw": "Sopeichi „ Fledermaus",
-      "printed_page": 366,
-      "pdf_page": 76,
-      "source_ocr_line_start": 9748,
-      "source_ocr_line_end": 9750
+      "headword_raw": "Tiehach",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10073,
+      "source_ocr_line_end": 10073
     },
     {
-      "record_id": "RHD-S1809-02337",
+      "record_id": "RHD-S1809-02425",
       "direction": "RAR-DE",
-      "headword_raw": "Zaͤhlen begriffen iſt",
-      "printed_page": 367,
-      "pdf_page": 77,
-      "source_ocr_line_start": 9871,
-      "source_ocr_line_end": 9872
+      "headword_raw": "Tichinſf",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10103,
+      "source_ocr_line_end": 10105
     },
     {
-      "record_id": "RHD-S1809-02343",
+      "record_id": "RHD-S1809-02427",
       "direction": "RAR-DE",
-      "headword_raw": "Vergleichungsſtaffel",
-      "printed_page": 367,
-      "pdf_page": 77,
-      "source_ocr_line_start": 9889,
-      "source_ocr_line_end": 9890
+      "headword_raw": "Hach",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10110,
+      "source_ocr_line_end": 10115
     },
     {
-      "record_id": "RHD-S1809-02347",
+      "record_id": "RHD-S1809-02428",
       "direction": "RAR-DE",
-      "headword_raw": "Grube braten",
-      "printed_page": 367,
-      "pdf_page": 77,
-      "source_ocr_line_start": 9899,
-      "source_ocr_line_end": 9900
+      "headword_raw": "BL ARE CAR",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10116,
+      "source_ocr_line_end": 10121
     },
     {
-      "record_id": "RHD-S1809-02352",
+      "record_id": "RHD-S1809-02449",
       "direction": "RAR-DE",
-      "headword_raw": "Techteke in",
-      "printed_page": 367,
-      "pdf_page": 77,
-      "source_ocr_line_start": 9910,
-      "source_ocr_line_end": 9910
+      "headword_raw": "Ohrfeige",
+      "printed_page": 368,
+      "pdf_page": 78,
+      "source_ocr_line_start": 10171,
+      "source_ocr_line_end": 10175
     },
     {
-      "record_id": "RHD-S1809-02353",
+      "record_id": "RHD-S1809-02471",
       "direction": "RAR-DE",
-      "headword_raw": "Terulüameke}",
-      "printed_page": 367,
-      "pdf_page": 77,
-      "source_ocr_line_start": 9911,
-      "source_ocr_line_end": 9917
+      "headword_raw": "Sünder",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10230,
+      "source_ocr_line_end": 10230
     },
     {
-      "record_id": "RHD-S1809-02361",
+      "record_id": "RHD-S1809-02477",
       "direction": "RAR-DE",
-      "headword_raw": "Mann",
-      "printed_page": 367,
-      "pdf_page": 77,
-      "source_ocr_line_start": 9931,
-      "source_ocr_line_end": 9931
+      "headword_raw": "Vaſſeraſeke",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10250,
+      "source_ocr_line_end": 10250
     },
     {
-      "record_id": "RHD-S1809-02362",
+      "record_id": "RHD-S1809-02479",
       "direction": "RAR-DE",
-      "headword_raw": "Tajaca",
-      "printed_page": 367,
-      "pdf_page": 77,
-      "source_ocr_line_start": 9932,
-      "source_ocr_line_end": 9932
+      "headword_raw": "Waſſer hat",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10252,
+      "source_ocr_line_end": 10252
     },
     {
-      "record_id": "RHD-S1809-02368",
+      "record_id": "RHD-S1809-02481",
       "direction": "RAR-DE",
-      "headword_raw": "Telegons Aa Abwärts",
-      "printed_page": 367,
-      "pdf_page": 77,
-      "source_ocr_line_start": 9946,
-      "source_ocr_line_end": 9948
+      "headword_raw": "Vene Zahm",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10254,
+      "source_ocr_line_end": 10255
     },
     {
-      "record_id": "RHD-S1809-02374",
+      "record_id": "RHD-S1809-02489",
       "direction": "RAR-DE",
-      "headword_raw": "Brod",
-      "printed_page": 367,
-      "pdf_page": 77,
-      "source_ocr_line_start": 9960,
-      "source_ocr_line_end": 9961
+      "headword_raw": "Volsiga Seltenfteben",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10264,
+      "source_ocr_line_end": 10265
     },
     {
-      "record_id": "RHD-S1809-02393",
+      "record_id": "RHD-S1809-02491",
       "direction": "RAR-DE",
-      "headword_raw": "Ten",
-      "printed_page": 367,
-      "pdf_page": 77,
-      "source_ocr_line_start": 10003,
-      "source_ocr_line_end": 10003
+      "headword_raw": "Eheweib",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10268,
+      "source_ocr_line_end": 10276
     },
     {
-      "record_id": "RHD-S1809-02396",
+      "record_id": "RHD-S1809-02493",
       "direction": "RAR-DE",
-      "headword_raw": "Thulärneke",
-      "printed_page": 367,
-      "pdf_page": 77,
-      "source_ocr_line_start": 10006,
-      "source_ocr_line_end": 10006
+      "headword_raw": "Vuechcrbe",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10278,
+      "source_ocr_line_end": 10278
     },
     {
-      "record_id": "RHD-S1809-02404",
+      "record_id": "RHD-S1809-02495",
       "direction": "RAR-DE",
-      "headword_raw": "Tofacameke Weiß",
-      "printed_page": 367,
-      "pdf_page": 77,
-      "source_ocr_line_start": 10033,
-      "source_ocr_line_end": 10033
+      "headword_raw": "Mörtel",
+      "printed_page": 369,
+      "pdf_page": 79,
+      "source_ocr_line_start": 10280,
+      "source_ocr_line_end": 10285
     }
   ]
 }
