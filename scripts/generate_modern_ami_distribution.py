@@ -62,7 +62,44 @@ def main():
     by_class=Counter(x['classification'] or '(blank)' for x in suffix_candidates)
     by_source=Counter(x['source_code'] or '(blank)' for x in suffix_candidates)
 
-    # Preserve a few transparent, reproducible examples from each major family.
+    pair_profiles=[]
+    transition_target_counts=Counter()
+    target_family_counts=Counter()
+    verbal_base_targets=0
+    nominal_base_targets=0
+    for x in base_pairs:
+        bases=all_keys[x['mechanical_base_key']]
+        bfams=sorted(set((b.get('classification_family') or '(blank)') for b in bases))
+        tfam=x['classification_family'] or '(blank)'
+        sigs=sorted(set(f'{bf}->{tfam}' for bf in bfams))
+        for s in sigs: transition_target_counts[s]+=1
+        target_family_counts[tfam]+=1
+        verbal=any(bf in {'Vi','Vt','Vr'} for bf in bfams)
+        nominal='S' in bfams
+        verbal_base_targets+=int(verbal); nominal_base_targets+=int(nominal)
+        pair_profiles.append({
+            'target_record_id':x['record_id'],'target_headword':x['headword'],'target_family':tfam,
+            'target_translation':x['translation_raw'],'mechanical_base_key':x['mechanical_base_key'],
+            'base_records':[{'record_id':b['record_id'],'headword':b['headword'],'classification':b.get('classification',''),'classification_family':b.get('classification_family',''),'translation_raw':b.get('translation_raw','')} for b in bases],
+            'base_family_candidates':bfams,'candidate_transition_signatures':sigs,
+            'has_verbal_base_candidate':verbal,'has_nominal_base_candidate':nominal,
+            'status':'documentary_exact_graphic_base_pair','semantic_relation_judgment':'not_performed',
+            'automatic_morpheme_assignment':False,'human_reviewed':False
+        })
+
+    transition_summary={
+        'dataset':'raramuri-historico-steffel-1809','layer':'pinned_modern_exact_base_ami_transition_profiles_v1','generated':'2026-08-13',
+        'modern_repository':'fersandovalgtz/raramuri-digital','modern_commit':PIN,
+        'exact_base_plus_ami_target_count':len(pair_profiles),
+        'target_family_counts':dict(target_family_counts),
+        'targets_with_any_verbal_base_candidate':verbal_base_targets,
+        'targets_with_any_nominal_base_candidate':nominal_base_targets,
+        'candidate_transition_target_counts':dict(transition_target_counts),
+        'transparent_examples':pair_profiles[:25],
+        'semantic_relation_judgment':'not_performed','automatic_morpheme_assignment':False,'human_reviewed':False,
+        'interpretive_scope':'POS-family transitions for exact graphic X~X+ami pairs. Homonymous bases are retained as candidates. Counts do not establish derivation or morpheme assignment.'
+    }
+
     examples={}
     for fam in ('Adj','Pp','S'):
         z=[x for x in suffix_candidates if x['classification_family']==fam]
@@ -91,5 +128,7 @@ def main():
     dump('modern_final_ami_distribution.json',{'dataset':summary['dataset'],'count':len(ami),'records':ami,'human_reviewed':False})
     dump('modern_final_ami_distribution_summary.json',summary)
     dump('modern_exact_base_ami_pairs.json',{'dataset':summary['dataset'],'count':len(base_pairs),'records':base_pairs,'human_reviewed':False,'automatic_morpheme_assignment':False})
-    print(json.dumps(summary,ensure_ascii=False))
+    dump('modern_exact_base_ami_transition_profiles.json',{'dataset':summary['dataset'],'count':len(pair_profiles),'records':pair_profiles,'human_reviewed':False,'automatic_morpheme_assignment':False})
+    dump('modern_exact_base_ami_transition_summary.json',transition_summary)
+    print(json.dumps({'distribution':summary,'transitions':transition_summary},ensure_ascii=False))
 if __name__=='__main__': main()
