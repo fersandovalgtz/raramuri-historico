@@ -1,0 +1,32 @@
+name: ameke-ami-cross-base
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_ameke_ami_cross_base_candidates.py'
+      - '.github/workflows/ameke-ami-cross-base.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: fersandovalgtz/raramuri-digital
+          ref: 156921f4edfe27d784edc1e6444867eaa368f2e5
+          path: .tmp-raramuri-digital
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/generate_ameke_ami_cross_base_candidates.py
+      - name: Save crosswalk
+        run: |
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add data/research/ameke_ami_cross_base_candidates.json data/research/ameke_ami_cross_base_candidates_summary.json
+          git diff --cached --quiet || git commit -m 'Generate ameke ami exact-base crosswalk candidates'
+          git pull --rebase origin main
+          git push
