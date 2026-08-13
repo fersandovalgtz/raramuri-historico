@@ -22,6 +22,7 @@ on:
       - 'scripts/generate_human_review_priority.py'
       - 'scripts/generate_diachronic_correspondences.py'
       - 'scripts/generate_probable_graphic_correspondences.py'
+      - 'scripts/generate_diachronic_adjudication_queue.py'
       - 'scripts/sync_project_metadata.py'
       - 'scripts/generate_exports.py'
       - 'tests/validate.py'
@@ -65,6 +66,7 @@ jobs:
           python3 scripts/generate_human_review_priority.py
           python3 scripts/generate_diachronic_correspondences.py
           python3 scripts/generate_probable_graphic_correspondences.py
+          python3 scripts/generate_diachronic_adjudication_queue.py
           python3 scripts/sync_project_metadata.py
           python3 scripts/generate_exports.py
       - name: Validate corpus, layout, diplomatic layer and exports
@@ -80,6 +82,8 @@ jobs:
           exact_summary=json.load((d/'exact_graphic_candidates_summary.json').open(encoding='utf-8'))
           probable=json.load((d/'probable_graphic_candidates.json').open(encoding='utf-8'))
           probable_summary=json.load((d/'probable_graphic_candidates_summary.json').open(encoding='utf-8'))
+          adjudication=json.load((d/'adjudication_queue.json').open(encoding='utf-8'))
+          adjudication_summary=json.load((d/'adjudication_queue_summary.json').open(encoding='utf-8'))
           registry=json.load((d/'source_registry.json').open(encoding='utf-8'))
           pm=json.load((root/'project-metadata.json').open(encoding='utf-8'))
           modern=next(x for x in registry['sources'] if x['role']=='contemporary')
@@ -139,9 +143,40 @@ jobs:
           assert probable_summary['historical_components_with_candidates']==len(component_counts)
           assert probable_summary['human_reviewed'] is False
           assert probable_summary['modern_commit']==commit
+
+          adj=adjudication['records']
+          source_ids={x['correspondence_id'] for x in exact_records}|{x['correspondence_id'] for x in probable_records}
+          assert adjudication['count']==len(adj)==len(source_ids)
+          assert adjudication['human_reviewed'] is False
+          assert adjudication['automatic_semantic_judgment'] is False
+          assert adjudication['automatic_etymological_judgment'] is False
+          assert adjudication['automatic_historical_continuity_judgment'] is False
+          seen=set(); tier_counts={}; semantic_ready=0
+          previous=(0,10**9)
+          for i,x in enumerate(adj,1):
+              assert x['adjudication_id']==f'RHD-ADJ-{i:06d}'
+              assert x['source_candidate_id'] in source_ids and x['source_candidate_id'] not in seen
+              seen.add(x['source_candidate_id'])
+              assert x['source_cohort'] in ('exact','probable')
+              assert x['priority_tier'] in (1,2,3,4)
+              assert x['review_evidence']['automatic_semantic_judgment']=='not_performed'
+              assert x['review_evidence']['automatic_etymological_judgment']=='not_performed'
+              assert x['review_evidence']['automatic_historical_continuity_judgment']=='not_performed'
+              assert x['independent_adjudication']['human_reviewed'] is False
+              assert x['independent_adjudication']['decision']=='not_assessed'
+              key=(x['priority_tier'],-x['priority_score'])
+              assert key>=previous
+              previous=key
+              tier_counts[str(x['priority_tier'])]=tier_counts.get(str(x['priority_tier']),0)+1
+              semantic_ready+=int(x['review_evidence']['semantic_evidence_available'])
+          assert seen==source_ids
+          assert adjudication_summary['candidate_count']==len(adj)
+          assert adjudication_summary['priority_tier_counts']==tier_counts
+          assert adjudication_summary['semantic_evidence_available_count']==semantic_ready
+          assert adjudication_summary['human_reviewed_count']==0
           assert pm['editorial_pipeline']['diachronic_modern_source_commit']==commit
           assert pm['editorial_pipeline']['diachronic_human_reviewed_candidates']==0
-          print(f"OK diachronic cohorts: exact={len(exact_records)} probable={len(probable_records)}; human reviewed=0")
+          print(f"OK diachronic cohorts: exact={len(exact_records)} probable={len(probable_records)} adjudication={len(adj)}; human reviewed=0")
           PY
       - name: Commit regenerated artifacts
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
