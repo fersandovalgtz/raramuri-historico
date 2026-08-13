@@ -1,0 +1,34 @@
+name: ameke-source-stratified
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_ameke_source_stratified_robustness.py'
+      - 'data/research/ameke_local_function_contexts.json'
+      - '.github/workflows/ameke-source-stratified.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/generate_ameke_source_stratified_robustness.py
+      - run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path('data/research/ameke_source_stratified_robustness_summary.json').read_text(encoding='utf-8'))
+          assert s['human_reviewed'] is False
+          assert 'direct_rar_de_only' in s['strata'] and 'de_rar_low_risk_only' in s['strata']
+          PY
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add data/research/ameke_source_stratified_robustness_summary.json data/research/ameke_source_stratified_robustness_tests.json data/research/ameke_source_stratified_robustness_tests.csv
+          git diff --cached --quiet || git commit -m 'Generate source-stratified ameke robustness tests'
+          git pull --rebase origin main
+          git push
