@@ -1,0 +1,108 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "historical_modern_affricate_environment_comparison_v1",
+  "generated": "2026-08-13",
+  "purpose": "Represent source-explicit historical and modern affricate environments without automatically inferring persistence of a phonological rule.",
+  "historical_source": {
+    "citation": "Merrill et al. 2020, El Diccionario Tarahumara–Alemán de Matthäus Steffel, §7.5.2 and Appendix 5",
+    "analysis": "<tsch> is associated with voiceless palatoalveolar [č], <ts> with a voiceless probably dentoalveolar affricate; the two are analyzed as allophones of one phoneme /č/.",
+    "phonetic_appendix_examples": [
+      {"diplomatic": "tschá", "phonetic": "čá"},
+      {"diplomatic": "tschaá", "phonetic": "čá:"},
+      {"diplomatic": "tscháca", "phonetic": "čáka"},
+      {"diplomatic": "tschapí", "phonetic": "čapí"},
+      {"diplomatic": "tschicúli", "phonetic": "čikúli"},
+      {"diplomatic": "tschipú", "phonetic": "čipú"},
+      {"diplomatic": "tschócameke", "phonetic": "čókameke"},
+      {"diplomatic": "tschutá", "phonetic": "čutá"}
+    ]
+  },
+  "modern_source": {
+    "citation": "Caballero 2022, A grammar of Choguita Rarámuri, Chapter 2 Phonology",
+    "analysis": "Choguita has phonemic alveo-palatal /tʃ/. Alveopalatal affricates may optionally depalatalize to alveolar [ts] before low central vowels; further deaffrication may occur in fast speech.",
+    "examples": [
+      {"underlying": "/aˈkâtʃa-la/", "surface_variants": ["[aˈkâtʃa-la]", "[aˈkâtsa-la]"], "environment": "before low central a"},
+      {"underlying": "/aˈtʃâ-sa/", "surface_variants": ["[aˈtʃâ-sa]", "[aˈtsâ-sa]"], "environment": "before low central a"},
+      {"underlying": "/tʃaˈpí/", "gloss": "grab", "environment": "initial before a"}
+    ]
+  },
+  "historical_environment_profiles": [
+    {
+      "environment_id": "RHD-AFF-ENV-H01",
+      "position": "initial",
+      "following_vowels": ["a"],
+      "historical_distribution": "free_variation_tsch_ts",
+      "source_examples": ["tschapí", "tsaní"],
+      "modern_structural_parallel": "optional_tsh_to_ts_before_low_central_vowel",
+      "parallel_strength": "high_structural",
+      "shared_environment": true
+    },
+    {
+      "environment_id": "RHD-AFF-ENV-H02",
+      "position": "initial",
+      "following_vowels": ["e"],
+      "historical_distribution": "ts_only_in_reported_distribution",
+      "source_examples": ["tselé", "tsetí"],
+      "modern_structural_parallel": "not_directly_tested_by_current_caballero_examples",
+      "parallel_strength": "not_assessed",
+      "shared_environment": false
+    },
+    {
+      "environment_id": "RHD-AFF-ENV-H03",
+      "position": "initial",
+      "following_vowels": ["i", "o", "u"],
+      "historical_distribution": "tsch_only_in_reported_distribution",
+      "source_examples": ["tschicúli", "tschipú", "tschócameke", "tschouguá", "tschumíla", "tschutá"],
+      "modern_structural_parallel": "modern_underlying_tsh_is_compatible_but_conditioning_not_equated",
+      "parallel_strength": "descriptive_only",
+      "shared_environment": false
+    },
+    {
+      "environment_id": "RHD-AFF-ENV-H04",
+      "position": "medial",
+      "following_vowels": ["a", "e", "i", "o", "u"],
+      "historical_distribution": "free_variation_tsch_ts_before_all_vowels",
+      "source_examples": ["echtschá", "batsá", "otschérameke", "étse", "cútschigua", "petsíki", "guatschó", "guitsóco", "etschubú", "natsúmela"],
+      "modern_structural_parallel": "modern_optional_depalatalization_exists_but_current_source_does_not_support_equating_all_medial_environments",
+      "parallel_strength": "under_supported",
+      "shared_environment": false
+    }
+  ],
+  "cross_source_hypotheses": [
+    {
+      "hypothesis_id": "RHD-AFF-HYP-001",
+      "label": "low_central_environment_parallel",
+      "historical_evidence": "Initial <tsch> and <ts> are reported in free variation before a.",
+      "modern_evidence": "Choguita /tʃ/ optionally depalatalizes to [ts] before low central vowels, with a-examples.",
+      "status": "source_supported_structural_parallel",
+      "rule_identity_judgment": "not_performed",
+      "historical_persistence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "hypothesis_id": "RHD-AFF-HYP-002",
+      "label": "grasp_lexeme_three_source_alignment",
+      "historical_evidence": "Steffel/Merrill tschapí, phonetic čapí, gloss agarrar.",
+      "modern_phonological_evidence": "Caballero /tʃaˈpí/ 'grab'.",
+      "modern_lexicographic_evidence": "Rarámuri Digital RD-000656 Chapí 'Coger, agarrar; tomar; elegir'.",
+      "status": "high_priority_three_source_comparative_candidate",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    }
+  ],
+  "next_tests": [
+    "Expand historical <tsch>/<ts> inventory by following-vowel and word-position counts.",
+    "Search independent modern descriptions for /tʃ/ ~ [ts] conditioning in additional Rarámuri varieties.",
+    "Test historical initial-before-e <ts> against modern cognate candidates without selecting by modern affricate spelling.",
+    "Retain negative semantic controls to prevent graphic-pattern circularity."
+  ],
+  "historical_allophonic_pattern_source_supported": true,
+  "modern_depalatalization_pattern_source_supported": true,
+  "shared_low_central_environment": true,
+  "automatic_rule_equation": false,
+  "automatic_sound_correspondence_inference": false,
+  "historical_rule_continuity_judgment": "not_performed",
+  "cognacy_judgment": "not_performed",
+  "human_reviewed": false
+}
