@@ -1,0 +1,27 @@
+name: generate-german-context-audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/generate-german-context-audit.yml'
+      - 'scripts/generate_german_context_audit_queue.py'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/generate_german_context_audit_queue.py
+      - name: Save generated queue
+        run: |
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add data/research/ameke_german_context_audit_queue.json data/research/ameke_german_context_audit_queue.csv data/research/ameke_german_context_audit_queue_summary.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'Generate German context audit queue'
+          git pull --rebase origin main
+          git push
