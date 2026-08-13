@@ -1,7 +1,7 @@
 {
   "stage": "independent_human_review",
   "selection_rule": "records already AI-recollated that retain an explicit residual human/linguistic route",
-  "count": 250,
+  "count": 300,
   "human_verified": false,
   "records": [
     {
@@ -60,6 +60,17 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00240",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 308,
+      "ai_recollation_disposition": "unresolved_after_ai_recollation",
+      "residual_route": "human_philological_and_linguistic_review",
+      "ai_recollation_note": "High-resolution enlargement narrows the reading but does not justify a unique character-level choice in the compact medial sibilant sequence.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-00241",
       "source_batch": "RHD-PHIL-001",
       "printed_page": 308,
@@ -93,12 +104,34 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00331",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 312,
+      "ai_recollation_disposition": "unresolved_after_ai_recollation",
+      "residual_route": "human_philological_and_linguistic_review",
+      "ai_recollation_note": "Article extent is clear, but several compact demonstrative forms remain too close typographically for a stronger character-level claim.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-00349",
       "source_batch": "RHD-PHIL-001",
       "printed_page": 313,
       "ai_recollation_disposition": "unresolved_after_ai_recollation",
       "residual_route": "human_philological_and_linguistic_review",
       "ai_recollation_note": "The compact numeral expression remains too dense to close every diacritic with sufficient confidence.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00366",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 313,
+      "ai_recollation_disposition": "unresolved_after_ai_recollation",
+      "residual_route": "human_philological_and_linguistic_review",
+      "ai_recollation_note": "The first compact consonant/vowel sequence remains non-unique even after enlargement; no forced repair is introduced.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -1424,6 +1457,17 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-01926",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 359,
+      "ai_recollation_disposition": "corrected_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "Direct enlargement of printed p. 359 clearly shows an acute accent: `Iguéruje, Feſt machen. Befeſtigen. ſ. ajóruje.` The diplomatic layer is not overwritten by this manifest.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-02353",
       "source_batch": "RHD-PHIL-005",
       "printed_page": 366,
@@ -1457,6 +1501,28 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00001",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 301,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_morphological_review",
+      "ai_recollation_note": "Direct high-resolution recollation sustains the compact final verbal forms; morphology remains for independent linguistic assessment.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00003",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 301,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_variant_review",
+      "ai_recollation_note": "Historical variants, acute accents and derived forms are graphically supported.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-00009",
       "source_batch": "RHD-PHIL-001",
       "printed_page": 301,
@@ -1468,12 +1534,89 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00014",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 301,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_numeral_review",
+      "ai_recollation_note": "The numeral-series sibilants and visible accents are sustained by direct enlargement.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00019",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 301,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "Both Rarámuri forms and their visible accents are supported.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-00065",
       "source_batch": "RHD-PHIL-005",
       "printed_page": 301,
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_review",
       "ai_recollation_note": "The article boundary is clear; Rarámuri diacritics remain a separate human linguistic check.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00074",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 301,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_philological_linguistic_and_botanical_review",
+      "ai_recollation_note": "Cross-page article extent and the historical name `Mescali` are confirmed. Botanical identification and linguistic interpretation remain independent.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00081",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 302,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "The article boundary, historical German headword and final compact Rarámuri example are visually sustained.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00116",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 304,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_variant_review",
+      "ai_recollation_note": "Initial letters, historical sibilant and accents are supported by the facsimile.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00129",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 304,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_morphological_review",
+      "ai_recollation_note": "The article structure and printed grammatical comparison are stable; linguistic analysis remains independent.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00145",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 304,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "Historical long-s spellings and article boundary are visually clear.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -1523,6 +1666,28 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00189",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 307,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_philological_linguistic_and_botanical_review",
+      "ai_recollation_note": "The long article structure is stable; historical tree-name forms and botanical correspondences remain for domain review.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00192",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 307,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_botanical_review",
+      "ai_recollation_note": "The second historical plant-name form `Potſchoe` is supported by direct enlargement.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-00196",
       "source_batch": "RHD-PHIL-001",
       "printed_page": 308,
@@ -1545,12 +1710,78 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00230",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 308,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "The compact final sequence is sufficiently supported graphically for the current AI-assisted reading.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00255",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 309,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "The historical long-s sequence and article boundary are graphically sustained.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00256",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 309,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "Direct enlargement supports the historical long-s sequence.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-00265",
       "source_batch": "RHD-PHIL-001",
       "printed_page": 309,
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_review",
       "ai_recollation_note": "High-resolution facsimile supports `Natejui`.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00277",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 309,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_morphological_review",
+      "ai_recollation_note": "The compact `tſchi` sequence and acute accent are graphically supported.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00280",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 309,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_kinship_review",
+      "ai_recollation_note": "The paradigm structure and printed accents are sustained by the facsimile.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00299",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 310,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_variant_review",
+      "ai_recollation_note": "Direct enlargement supports the imperative sequence and visible accents.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -1578,6 +1809,61 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00337",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 312,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_philological_linguistic_and_cultural_review",
+      "ai_recollation_note": "The documentary article extent is stable; linguistic and cultural interpretation remain independent.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00360",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 313,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "The compact historical long-s sequence is sustained.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00362",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 313,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_morphological_review",
+      "ai_recollation_note": "Article structure is clear; grammatical interpretation remains independent.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00370",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 313,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_morphological_review",
+      "ai_recollation_note": "The article is structurally stable; linguistic grouping remains for independent review.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00382",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 313,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_philological_linguistic_and_zoological_review",
+      "ai_recollation_note": "Article extent is stable; historical animal-name forms and zoological identification remain separate tasks.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-00390",
       "source_batch": "RHD-PHIL-001",
       "printed_page": 313,
@@ -1589,12 +1875,45 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00431",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 315,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_morphological_review",
+      "ai_recollation_note": "The article structure and visible accents are sustained by direct enlargement.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00443",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 315,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "The compact Rarámuri form and acute accent are graphically supported.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-00448",
       "source_batch": "RHD-PHIL-001",
       "printed_page": 315,
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_review",
       "ai_recollation_note": "Direct image supports the supplied accents and historical long-s forms.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00459",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 315,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_contact_lexicon_review",
+      "ai_recollation_note": "The Rarámuri form, loanword and source wording are visually supported; historical contact interpretation remains separate.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -1666,6 +1985,17 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00488",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 316,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "The headword, equivalent and acute accent are clear in the facsimile.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-00495",
       "source_batch": "RHD-PHIL-001",
       "printed_page": 317,
@@ -1710,6 +2040,17 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00517",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 318,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "Article structure and principal forms are graphically sustained; linguistic analysis remains independent.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-00524",
       "source_batch": "RHD-PHIL-001",
       "printed_page": 318,
@@ -1738,6 +2079,28 @@
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_review",
       "ai_recollation_note": "The direct facsimile supports the documentary accents and phrase spacing.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00547",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 319,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_numeral_review",
+      "ai_recollation_note": "The printed numeral construction is stable at high resolution.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00548",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 319,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_semantic_review",
+      "ai_recollation_note": "The examples are documentary evidence; semantic interpretation remains independent.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -1787,12 +2150,45 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00586",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 320,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "Direct enlargement supports the article structure and principal forms.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-00595",
       "source_batch": "RHD-PHIL-001",
       "printed_page": 320,
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_review",
       "ai_recollation_note": "High-resolution facsimile supports the current phrase at the documentary level.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00596",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 320,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_morphological_review",
+      "ai_recollation_note": "The printed forms are stable at high resolution.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00599",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 320,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "No stronger correction is warranted; the current diplomatic reading is sustained.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -1809,6 +2205,17 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00604",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 320,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_philological_and_linguistic_review",
+      "ai_recollation_note": "Cross-page continuity is confirmed; Rarámuri question/answer forms remain for linguistic review.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-00608",
       "source_batch": "RHD-PHIL-005",
       "printed_page": 321,
@@ -1820,12 +2227,67 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00627",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 322,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "Direct facsimile reading strongly supports `Mallisi`; supplied OCR was substantially corrupted.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00628",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 322,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "The consonant sequence is graphically supported.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-00630",
       "source_batch": "RHD-PHIL-002",
       "printed_page": 322,
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_review",
       "ai_recollation_note": "The comparative forms are graphically supported at high resolution.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00634",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 322,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "Visible accents and article boundary are sustained.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00637",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 322,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_philological_linguistic_semantic_and_cultural_review",
+      "ai_recollation_note": "The historical source wording is preserved as documentary evidence; neither linguistic nor cultural framing is endorsed or treated as independently verified.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-00639",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 322,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_morphological_review",
+      "ai_recollation_note": "The acute accents and two forms are graphically clear.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -2447,6 +2909,39 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-00027",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 353,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_philological_and_linguistic_review",
+      "ai_recollation_note": "Direct high-resolution recollation confirms article extent, left-column placement and explanatory prose; linguistic interpretation remains independent.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-01647",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 353,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_morphological_review",
+      "ai_recollation_note": "The article begins in the left column and continues at the top of the right column; the cross-column structure and printed grammatical explanation are confirmed.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-01651",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 353,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_morphological_review",
+      "ai_recollation_note": "Article boundary and explanatory structure are graphically stable; grammatical interpretation remains independent.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-01668",
       "source_batch": "RHD-PHIL-004",
       "printed_page": 354,
@@ -2469,12 +2964,34 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-01676",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 354,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_morphological_review",
+      "ai_recollation_note": "High-resolution facsimile supports the article extent, examples and printed grammatical explanation.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-01678",
       "source_batch": "RHD-PHIL-004",
       "printed_page": 354,
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_and_morphological_review",
       "ai_recollation_note": "The headword sequence and acute accent are supported; interpretation of the morphology remains independent.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-01687",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 355,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_variant_review",
+      "ai_recollation_note": "The accented headword and cross-reference are graphically supported.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -2568,6 +3085,17 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-02029",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 361,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_variant_review",
+      "ai_recollation_note": "The small bracket-like printer mark before `Jungfrau` is confirmed as typographic rather than lexical punctuation; the Rarámuri variant remains for linguistic review.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-02100",
       "source_batch": "RHD-PHIL-005",
       "printed_page": 362,
@@ -2601,12 +3129,34 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-02261",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 365,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "High-resolution recollation confirms the paired German glosses; `Verſucher` is split typographically across lines in the source.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-02284",
       "source_batch": "RHD-PHIL-005",
       "printed_page": 365,
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_review",
       "ai_recollation_note": "The medial letter is graphically supported as m.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-02316",
+      "source_batch": "RHD-PHIL-006",
+      "printed_page": 366,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_variant_review",
+      "ai_recollation_note": "The variant pair and cross-reference are directly supported by the facsimile.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false

@@ -890,13 +890,13 @@
     },
     {
       "path": "data/entries.csv",
-      "bytes": 2166679,
-      "sha256": "0ec15dee2e7ed48c023c4114a7bd43a998bab888fe335bffe0a81cd33d33a97a"
+      "bytes": 2177269,
+      "sha256": "8f8c8720c98bc746c1976700d45677606c5ee42b92f4832fd87b52bd025873aa"
     },
     {
       "path": "data/entries_curated.csv",
-      "bytes": 206856,
-      "sha256": "746199c87325779e94a65ce3061ce5ddb45c2865cd864a826771918fa39e5445"
+      "bytes": 217446,
+      "sha256": "20d6424e07664264316ef50f568d7e23a17e2e675993969ed88aa52ad166bbf9"
     },
     {
       "path": "data/facsimile/README.md",
@@ -935,8 +935,8 @@
     },
     {
       "path": "data/json/entries.json",
-      "bytes": 4132223,
-      "sha256": "fb2cc6b1bc1c7e53c0286446d61ddb99e366cfcd58e8e6c0d92025714cc9b4ef"
+      "bytes": 4142813,
+      "sha256": "f0b38637abe7649e651ad107b191b201685405978b8ee5d6e6c734c6a8edb39e"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -945,8 +945,8 @@
     },
     {
       "path": "data/raramuri_historico.sqlite",
-      "bytes": 2748416,
-      "sha256": "63f44d0b3b81df64d3a2972eafd904d8f8b70c2aa5375fbd2b22e884d4929a76"
+      "bytes": 2764800,
+      "sha256": "c41aa0eb9613b077a66a36e7bcfa3f29effa76d0ca6c72a3e2b0f6ef4e8fbf30"
     },
     {
       "path": "data/review/README.md",
@@ -1120,23 +1120,23 @@
     },
     {
       "path": "data/validation/human_review_queue.json",
-      "bytes": 119490,
-      "sha256": "9781c4c4484a27b114e1efd55839b67076406c7ed991969d9f5457b025937f88"
+      "bytes": 143886,
+      "sha256": "2f2823253c0b83d98fbc1eb1698a05dd134927dc798db4f85165f6841355351a"
     },
     {
       "path": "data/validation/next_philological_batch.json",
-      "bytes": 44686,
-      "sha256": "9c1bca5f9c15a2d543ca478f7c4eb2f143d4ec86f6a47c3a72002673963fa4dc"
+      "bytes": 49872,
+      "sha256": "e0c974ac9c97bfeef7ab5a27a9a06e247ecf1071d6d699df568b7e40e9bc9e47"
     },
     {
       "path": "data/validation/next_philological_batch_compact.json",
-      "bytes": 2221,
-      "sha256": "0ec688590356eb0890bc2bbcc424e20b2d8ae36ca872c4046a013f548e8c87e5"
+      "bytes": 2125,
+      "sha256": "4a7933975f04dcae3df766800c326498455193f38dc951d13e24d4ac19354879"
     },
     {
       "path": "data/validation/next_philological_batch_notes_compact.json",
-      "bytes": 8472,
-      "sha256": "7d389b64b389f1ebd76a2e802bf4faea9167f00857286d12a3728f607bfe42c4"
+      "bytes": 8513,
+      "sha256": "953dfc45f23e673c022006d7f7e0cef5e31845244f533179a23db877dd7fd5fd"
     },
     {
       "path": "data/validation/review/philological_review_batch_001.json",
@@ -1164,6 +1164,11 @@
       "sha256": "728c11a0e5221c2aca71c41e2ff6c88adc4177c2c88edb1b5b9d48a0c467a97c"
     },
     {
+      "path": "data/validation/review/philological_review_batch_006.json",
+      "bytes": 18437,
+      "sha256": "27ae37a414958cd19aa3058fcac7920f9c80c227b982053192c8a0db3a430e63"
+    },
+    {
       "path": "data/validation/uncertainty_queue.json",
       "bytes": 435583,
       "sha256": "5f136fdc3a0017a123f34a9992bbd2c7fbd9b0ea43388b0680828e401ee8bb76"
@@ -1180,13 +1185,13 @@
     },
     {
       "path": "data/validation/validation_progress.json",
-      "bytes": 524,
-      "sha256": "edf893be80a8cbc6a74e66530a79269dfb49f88559f86d705442ba6ac4d2537a"
+      "bytes": 544,
+      "sha256": "ca2b10da6f438052955c34ca54170e1063a2ec80db95d20777feee8761c189fe"
     },
     {
       "path": "data/xml/entries.xml",
-      "bytes": 4846999,
-      "sha256": "009464d1fcbea1b996ea6ab2566a047e77575f4d756d4364b5783cf03b0f5074"
+      "bytes": 4857589,
+      "sha256": "539097e51faa37fba0a4369a2b506664414175a320ebc812e6b3812a839ff259"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
@@ -1215,8 +1220,8 @@
     },
     {
       "path": "public/data/entries.json",
-      "bytes": 3668152,
-      "sha256": "6381d56410eec0dbe7d522ff560ecb6a000888675a797440736536f8b6434b29"
+      "bytes": 3678742,
+      "sha256": "42b33a0625681ebfdf0abae778cf4423f00fd4d1ac7eb9ddff1db1910fddb4b7"
     },
     {
       "path": "public/data/metadata.json",
