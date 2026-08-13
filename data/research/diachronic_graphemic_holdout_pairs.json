@@ -1,9 +1,9 @@
 {
   "dataset": "raramuri-historico-steffel-1809",
-  "layer": "diachronic_graphemic_semantic_holdout_pairs_v1",
+  "layer": "diachronic_graphemic_semantic_holdout_pairs_v2",
   "generated": "2026-08-13",
   "purpose": "Independent out-of-seed test of graphemic hypotheses discovered in the priority ameke/ame/ami matrix.",
-  "selection_policy": "Historical forms were taken from the published Steffel orthography analysis in Merrill et al. 2020 §7.5.2; contemporary matches were sought by independent meaning in the pinned Rarámuri Digital lexicon rather than by requiring the tested historical-modern graphic motif. A graphic near-match with contradictory meaning is retained as a negative control.",
+  "selection_policy": "Historical forms were taken from the published Steffel orthography analysis in Merrill et al. 2020 §7.5.2; contemporary matches were sought by independent meaning in the pinned Rarámuri Digital lexicon rather than by requiring the tested historical-modern graphic motif. Graphic near-matches with contradictory meaning and semantic domains with unresolved multiple modern candidates are retained instead of discarded.",
   "historical_reference": {
     "citation": "Merrill, William L. et al. 2020. El Diccionario Tarahumara–Alemán de Matthäus Steffel: Lengua y Cultura Rarámuri en el Siglo XVIII. Universidad de Sonora.",
     "section": "7.5.2 Africadas: <ts>, <tsch>",
@@ -35,6 +35,7 @@
       "selection_basis": "semantic_equivalence_independent_of_tested_graphic_pattern",
       "tests_tsch_to_ch": true,
       "tests_ameke_to_ami": false,
+      "count_toward_positive": true,
       "independent_phonological_support": "Caballero 2022 phonemic tʃaˈpí 'grab'",
       "negative_control": false
     },
@@ -51,6 +52,7 @@
       "selection_basis": "semantic_equivalence_independent_of_tested_graphic_pattern",
       "tests_tsch_to_ch": true,
       "tests_ameke_to_ami": false,
+      "count_toward_positive": true,
       "additional_difference": "historical l ~ modern r remains unadjudicated",
       "negative_control": false
     },
@@ -67,6 +69,7 @@
       "selection_basis": "semantic_equivalence_independent_of_tested_graphic_pattern",
       "tests_tsch_to_ch": true,
       "tests_ameke_to_ami": true,
+      "count_toward_positive": true,
       "negative_control": false
     },
     {
@@ -82,6 +85,7 @@
       "selection_basis": "semantic_equivalence_independent_of_tested_graphic_pattern",
       "tests_tsch_to_ch": true,
       "tests_ameke_to_ami": false,
+      "count_toward_positive": true,
       "negative_control": false
     },
     {
@@ -97,11 +101,45 @@
       "selection_basis": "semantic_equivalence_independent_of_tested_graphic_pattern",
       "tests_tsch_to_ch": true,
       "tests_ameke_to_ami": false,
+      "count_toward_positive": true,
       "additional_difference": "historical initial e ~ modern i remains unadjudicated",
       "negative_control": false
     },
     {
       "holdout_id": "RHD-GRAPH-HOLD-006",
+      "family_id": "extinguish",
+      "historical_surface": "tschouguá",
+      "historical_meaning": "extinguir",
+      "modern_surface": "Cho’huá",
+      "modern_record_id": "RD-000750",
+      "modern_meaning": "Apagar, extinguir (lumbre)",
+      "modern_classification_family": "Vt",
+      "semantic_match": "strong",
+      "selection_basis": "semantic_equivalence_independent_of_tested_graphic_pattern",
+      "tests_tsch_to_ch": true,
+      "tests_ameke_to_ami": false,
+      "count_toward_positive": true,
+      "additional_difference": "historical ougu ~ modern o’hu requires independent analysis; no automatic segment correspondence is assigned",
+      "negative_control": false
+    },
+    {
+      "holdout_id": "RHD-GRAPH-HOLD-007",
+      "family_id": "mouth_muzzle_unresolved",
+      "historical_surface": "tschumíla",
+      "historical_meaning": "boca, hocico",
+      "modern_surface_candidates": ["Riní", "Cho’ó"],
+      "modern_record_ids": ["RD-002052", "RD-000762"],
+      "modern_meanings": ["Boca", "Hocico"],
+      "semantic_match": "domain_match_with_multiple_modern_lexemes",
+      "selection_basis": "semantic_domain_retrieval_retained_without_forcing_single_graphic_match",
+      "tests_tsch_to_ch": false,
+      "tests_ameke_to_ami": false,
+      "count_toward_positive": false,
+      "status": "unresolved_multiple_modern_candidates",
+      "negative_control": false
+    },
+    {
+      "holdout_id": "RHD-GRAPH-HOLD-008",
       "family_id": "stink_vs_bitter_control",
       "historical_surface": "tschipú",
       "historical_meaning": "apestar",
@@ -113,12 +151,14 @@
       "selection_basis": "graphic_near_match_retained_as_negative_holdout_control",
       "tests_tsch_to_ch": true,
       "tests_ameke_to_ami": false,
+      "count_toward_positive": false,
       "negative_control": true
     }
   ],
-  "positive_holdout_count": 5,
+  "positive_holdout_count": 6,
+  "unresolved_holdout_count": 1,
   "negative_control_count": 1,
-  "positive_tsch_to_ch_family_count": 5,
+  "positive_tsch_to_ch_family_count": 6,
   "positive_ameke_to_ami_family_count": 1,
   "human_reviewed": false,
   "automatic_sound_correspondence_inference": false,
