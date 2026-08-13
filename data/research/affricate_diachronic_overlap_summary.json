@@ -1,0 +1,47 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "historical_affricate_existing_diachronic_candidate_overlap_v1",
+  "generated": "2026-08-13",
+  "affricate_inventory_occurrence_count": 157,
+  "affricate_inventory_historical_record_count": 139,
+  "diachronic_semantic_queue_candidate_count": 298,
+  "diachronic_semantic_queue_signal_counts": {
+    "cross_corpus_context_only": 68,
+    "internal_form_attestation_only": 77,
+    "internal_reciprocal_documentary_support": 153
+  },
+  "overlap_candidate_count": 9,
+  "overlap_historical_record_count": 6,
+  "overlap_modern_record_count": 7,
+  "overlap_affricate_occurrence_count": 8,
+  "affricate_historical_record_coverage_rate": 0.043165,
+  "candidate_method_counts": {
+    "probable_graphic_correspondence": 9
+  },
+  "machine_context_signal_counts": {
+    "cross_corpus_context_only": 2,
+    "internal_form_attestation_only": 3,
+    "internal_reciprocal_documentary_support": 4
+  },
+  "priority_tier_counts": {
+    "2": 1,
+    "3": 8
+  },
+  "environment_candidate_counts": {
+    "initial_a": 4,
+    "medial_vowel": 5
+  },
+  "environment_historical_record_counts": {
+    "initial_a": 4,
+    "medial_vowel": 2
+  },
+  "candidates_with_internal_reciprocal_documentary_support": 4,
+  "exact_graphic_candidate_count": 0,
+  "probable_graphic_candidate_count": 9,
+  "human_reviewed": false,
+  "automatic_semantic_judgment": false,
+  "automatic_sound_correspondence_inference": false,
+  "cognacy_judgment": "not_performed",
+  "historical_continuity_judgment": "not_performed",
+  "interpretive_scope": "Join of pre-existing affricate inventory and pre-existing diachronic candidate queue by historical record_id only. No new correspondence is generated."
+}

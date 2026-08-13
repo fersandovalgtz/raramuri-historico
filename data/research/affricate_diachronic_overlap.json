@@ -1,0 +1,604 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "historical_affricate_existing_diachronic_candidate_overlap_v1",
+  "generated": "2026-08-13",
+  "count": 9,
+  "records": [
+    {
+      "overlap_id": "RHD-AFF-DIA-00001",
+      "semantic_context_id": "RHD-SEMC-000029",
+      "adjudication_id": "RHD-ADJ-000035",
+      "source_candidate_id": "RHD-PCORR-000247",
+      "candidate_method": "probable_graphic_correspondence",
+      "priority_tier": 2,
+      "historical": {
+        "record_id": "RHD-S1809-02416",
+        "form_diplomatic": "Tschapi",
+        "matched_component": "Tschapi",
+        "german_gloss_local": "Nehmen",
+        "article_diplomatic": "Tschapi, Nehmen. Ergreifen.",
+        "printed_page": 367
+      },
+      "modern": {
+        "record_id": "RD-002493",
+        "headword": "Tochapi",
+        "translation_raw": "Pajarito (con pico fino; andan en muchos juntos; vienen en el tiempo de frío)",
+        "classification": "S",
+        "source_code": "SRC-02"
+      },
+      "affricate_occurrences": [
+        {
+          "occurrence_id": "RHD-AFF-OCC-00104",
+          "record_id": "RHD-S1809-02416",
+          "printed_page": 367,
+          "headword_component_diplomatic": "Tschapi",
+          "graphic_key": "tschapi",
+          "occurrence_within_component": 1,
+          "grapheme": "tsch",
+          "start_index": 0,
+          "position": "initial",
+          "preceding_character": "",
+          "following_character": "a",
+          "following_class": "vowel_a",
+          "eligible_for_reported_vowel_distribution": true,
+          "merrill_distribution_check": "compatible_with_reported_initial_free_variation",
+          "status": "machine_graphemic_inventory_only",
+          "automatic_phonological_interpretation": false,
+          "automatic_sound_correspondence_inference": false,
+          "human_reviewed": false,
+          "environment_bucket": "initial_a"
+        }
+      ],
+      "affricate_graphemes": [
+        "tsch"
+      ],
+      "affricate_environment_buckets": [
+        "initial_a"
+      ],
+      "machine_context_signal_type": "internal_form_attestation_only",
+      "internal_attestation_count": 7,
+      "internal_reciprocal_support_count": 0,
+      "cross_language_semantic_similarity_computed": false,
+      "semantic_judgment": "not_performed",
+      "etymological_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "human_reviewed": false
+    },
+    {
+      "overlap_id": "RHD-AFF-DIA-00002",
+      "semantic_context_id": "RHD-SEMC-000080",
+      "adjudication_id": "RHD-ADJ-000077",
+      "source_candidate_id": "RHD-PCORR-000244",
+      "candidate_method": "probable_graphic_correspondence",
+      "priority_tier": 3,
+      "historical": {
+        "record_id": "RHD-S1809-02408",
+        "form_diplomatic": "Tſani",
+        "matched_component": "Tſani",
+        "german_gloss_local": "Sagen",
+        "article_diplomatic": "Tſani, Sagen. Sprechen. Reden.",
+        "printed_page": 367
+      },
+      "modern": {
+        "record_id": "RD-002451",
+        "headword": "Tani",
+        "translation_raw": "Rogar",
+        "classification": "Vt",
+        "source_code": "SRC-02"
+      },
+      "affricate_occurrences": [
+        {
+          "occurrence_id": "RHD-AFF-OCC-00092",
+          "record_id": "RHD-S1809-02408",
+          "printed_page": 367,
+          "headword_component_diplomatic": "Tſani",
+          "graphic_key": "tsani",
+          "occurrence_within_component": 1,
+          "grapheme": "ts",
+          "start_index": 0,
+          "position": "initial",
+          "preceding_character": "",
+          "following_character": "a",
+          "following_class": "vowel_a",
+          "eligible_for_reported_vowel_distribution": true,
+          "merrill_distribution_check": "compatible_with_reported_initial_free_variation",
+          "status": "machine_graphemic_inventory_only",
+          "automatic_phonological_interpretation": false,
+          "automatic_sound_correspondence_inference": false,
+          "human_reviewed": false,
+          "environment_bucket": "initial_a"
+        }
+      ],
+      "affricate_graphemes": [
+        "ts"
+      ],
+      "affricate_environment_buckets": [
+        "initial_a"
+      ],
+      "machine_context_signal_type": "internal_reciprocal_documentary_support",
+      "internal_attestation_count": 4,
+      "internal_reciprocal_support_count": 1,
+      "cross_language_semantic_similarity_computed": false,
+      "semantic_judgment": "not_performed",
+      "etymological_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "human_reviewed": false
+    },
+    {
+      "overlap_id": "RHD-AFF-DIA-00003",
+      "semantic_context_id": "RHD-SEMC-000160",
+      "adjudication_id": "RHD-ADJ-000157",
+      "source_candidate_id": "RHD-PCORR-000061",
+      "candidate_method": "probable_graphic_correspondence",
+      "priority_tier": 3,
+      "historical": {
+        "record_id": "RHD-S1809-01764",
+        "form_diplomatic": "Cutsi",
+        "matched_component": "Cutsi",
+        "german_gloss_local": "Kurz",
+        "article_diplomatic": "Cutsi, Kurz.",
+        "printed_page": 356
+      },
+      "modern": {
+        "record_id": "RD-000601",
+        "headword": "Cursi",
+        "translation_raw": "Cruz",
+        "classification": "S",
+        "source_code": "SRC-02"
+      },
+      "affricate_occurrences": [
+        {
+          "occurrence_id": "RHD-AFF-OCC-00020",
+          "record_id": "RHD-S1809-01764",
+          "printed_page": 356,
+          "headword_component_diplomatic": "Cutsi",
+          "graphic_key": "cutsi",
+          "occurrence_within_component": 1,
+          "grapheme": "ts",
+          "start_index": 2,
+          "position": "medial",
+          "preceding_character": "u",
+          "following_character": "i",
+          "following_class": "vowel_i",
+          "eligible_for_reported_vowel_distribution": true,
+          "merrill_distribution_check": "compatible_with_reported_medial_free_variation",
+          "status": "machine_graphemic_inventory_only",
+          "automatic_phonological_interpretation": false,
+          "automatic_sound_correspondence_inference": false,
+          "human_reviewed": false,
+          "environment_bucket": "medial_vowel"
+        }
+      ],
+      "affricate_graphemes": [
+        "ts"
+      ],
+      "affricate_environment_buckets": [
+        "medial_vowel"
+      ],
+      "machine_context_signal_type": "internal_reciprocal_documentary_support",
+      "internal_attestation_count": 1,
+      "internal_reciprocal_support_count": 1,
+      "cross_language_semantic_similarity_computed": false,
+      "semantic_judgment": "not_performed",
+      "etymological_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "human_reviewed": false
+    },
+    {
+      "overlap_id": "RHD-AFF-DIA-00004",
+      "semantic_context_id": "RHD-SEMC-000161",
+      "adjudication_id": "RHD-ADJ-000158",
+      "source_candidate_id": "RHD-PCORR-000062",
+      "candidate_method": "probable_graphic_correspondence",
+      "priority_tier": 3,
+      "historical": {
+        "record_id": "RHD-S1809-01764",
+        "form_diplomatic": "Cutsi",
+        "matched_component": "Cutsi",
+        "german_gloss_local": "Kurz",
+        "article_diplomatic": "Cutsi, Kurz.",
+        "printed_page": 356
+      },
+      "modern": {
+        "record_id": "RD-000614",
+        "headword": "Cusí",
+        "translation_raw": "Palo",
+        "classification": "S",
+        "source_code": "SRC-02"
+      },
+      "affricate_occurrences": [
+        {
+          "occurrence_id": "RHD-AFF-OCC-00020",
+          "record_id": "RHD-S1809-01764",
+          "printed_page": 356,
+          "headword_component_diplomatic": "Cutsi",
+          "graphic_key": "cutsi",
+          "occurrence_within_component": 1,
+          "grapheme": "ts",
+          "start_index": 2,
+          "position": "medial",
+          "preceding_character": "u",
+          "following_character": "i",
+          "following_class": "vowel_i",
+          "eligible_for_reported_vowel_distribution": true,
+          "merrill_distribution_check": "compatible_with_reported_medial_free_variation",
+          "status": "machine_graphemic_inventory_only",
+          "automatic_phonological_interpretation": false,
+          "automatic_sound_correspondence_inference": false,
+          "human_reviewed": false,
+          "environment_bucket": "medial_vowel"
+        }
+      ],
+      "affricate_graphemes": [
+        "ts"
+      ],
+      "affricate_environment_buckets": [
+        "medial_vowel"
+      ],
+      "machine_context_signal_type": "internal_reciprocal_documentary_support",
+      "internal_attestation_count": 1,
+      "internal_reciprocal_support_count": 1,
+      "cross_language_semantic_similarity_computed": false,
+      "semantic_judgment": "not_performed",
+      "etymological_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "human_reviewed": false
+    },
+    {
+      "overlap_id": "RHD-AFF-DIA-00005",
+      "semantic_context_id": "RHD-SEMC-000162",
+      "adjudication_id": "RHD-ADJ-000159",
+      "source_candidate_id": "RHD-PCORR-000063",
+      "candidate_method": "probable_graphic_correspondence",
+      "priority_tier": 3,
+      "historical": {
+        "record_id": "RHD-S1809-01764",
+        "form_diplomatic": "Cutsi",
+        "matched_component": "Cutsi",
+        "german_gloss_local": "Kurz",
+        "article_diplomatic": "Cutsi, Kurz.",
+        "printed_page": 356
+      },
+      "modern": {
+        "record_id": "RD-000615",
+        "headword": "Cusí",
+        "translation_raw": "Tostar (los elotes o las mazorcas)",
+        "classification": "Vt",
+        "source_code": "SRC-02"
+      },
+      "affricate_occurrences": [
+        {
+          "occurrence_id": "RHD-AFF-OCC-00020",
+          "record_id": "RHD-S1809-01764",
+          "printed_page": 356,
+          "headword_component_diplomatic": "Cutsi",
+          "graphic_key": "cutsi",
+          "occurrence_within_component": 1,
+          "grapheme": "ts",
+          "start_index": 2,
+          "position": "medial",
+          "preceding_character": "u",
+          "following_character": "i",
+          "following_class": "vowel_i",
+          "eligible_for_reported_vowel_distribution": true,
+          "merrill_distribution_check": "compatible_with_reported_medial_free_variation",
+          "status": "machine_graphemic_inventory_only",
+          "automatic_phonological_interpretation": false,
+          "automatic_sound_correspondence_inference": false,
+          "human_reviewed": false,
+          "environment_bucket": "medial_vowel"
+        }
+      ],
+      "affricate_graphemes": [
+        "ts"
+      ],
+      "affricate_environment_buckets": [
+        "medial_vowel"
+      ],
+      "machine_context_signal_type": "internal_reciprocal_documentary_support",
+      "internal_attestation_count": 1,
+      "internal_reciprocal_support_count": 1,
+      "cross_language_semantic_similarity_computed": false,
+      "semantic_judgment": "not_performed",
+      "etymological_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "human_reviewed": false
+    },
+    {
+      "overlap_id": "RHD-AFF-DIA-00006",
+      "semantic_context_id": "RHD-SEMC-000188",
+      "adjudication_id": "RHD-ADJ-000078",
+      "source_candidate_id": "RHD-PCORR-000245",
+      "candidate_method": "probable_graphic_correspondence",
+      "priority_tier": 3,
+      "historical": {
+        "record_id": "RHD-S1809-02410",
+        "form_diplomatic": "Tſani- oder tſainijolájameke",
+        "matched_component": "Tſani-",
+        "german_gloss_local": "Der Böſes thut",
+        "article_diplomatic": "Tſani- oder tſainijolájameke, Der Böſes thut. Uebelthäter.",
+        "printed_page": 367
+      },
+      "modern": {
+        "record_id": "RD-002451",
+        "headword": "Tani",
+        "translation_raw": "Rogar",
+        "classification": "Vt",
+        "source_code": "SRC-02"
+      },
+      "affricate_occurrences": [
+        {
+          "occurrence_id": "RHD-AFF-OCC-00096",
+          "record_id": "RHD-S1809-02410",
+          "printed_page": 367,
+          "headword_component_diplomatic": "Tſani-",
+          "graphic_key": "tsani",
+          "occurrence_within_component": 1,
+          "grapheme": "ts",
+          "start_index": 0,
+          "position": "initial",
+          "preceding_character": "",
+          "following_character": "a",
+          "following_class": "vowel_a",
+          "eligible_for_reported_vowel_distribution": true,
+          "merrill_distribution_check": "compatible_with_reported_initial_free_variation",
+          "status": "machine_graphemic_inventory_only",
+          "automatic_phonological_interpretation": false,
+          "automatic_sound_correspondence_inference": false,
+          "human_reviewed": false,
+          "environment_bucket": "initial_a"
+        },
+        {
+          "occurrence_id": "RHD-AFF-OCC-00097",
+          "record_id": "RHD-S1809-02410",
+          "printed_page": 367,
+          "headword_component_diplomatic": "tſainijolájameke",
+          "graphic_key": "tsainijolajameke",
+          "occurrence_within_component": 1,
+          "grapheme": "ts",
+          "start_index": 0,
+          "position": "initial",
+          "preceding_character": "",
+          "following_character": "a",
+          "following_class": "vowel_a",
+          "eligible_for_reported_vowel_distribution": true,
+          "merrill_distribution_check": "compatible_with_reported_initial_free_variation",
+          "status": "machine_graphemic_inventory_only",
+          "automatic_phonological_interpretation": false,
+          "automatic_sound_correspondence_inference": false,
+          "human_reviewed": false,
+          "environment_bucket": "initial_a"
+        }
+      ],
+      "affricate_graphemes": [
+        "ts"
+      ],
+      "affricate_environment_buckets": [
+        "initial_a"
+      ],
+      "machine_context_signal_type": "internal_form_attestation_only",
+      "internal_attestation_count": 4,
+      "internal_reciprocal_support_count": 0,
+      "cross_language_semantic_similarity_computed": false,
+      "semantic_judgment": "not_performed",
+      "etymological_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "human_reviewed": false
+    },
+    {
+      "overlap_id": "RHD-AFF-DIA-00007",
+      "semantic_context_id": "RHD-SEMC-000189",
+      "adjudication_id": "RHD-ADJ-000079",
+      "source_candidate_id": "RHD-PCORR-000246",
+      "candidate_method": "probable_graphic_correspondence",
+      "priority_tier": 3,
+      "historical": {
+        "record_id": "RHD-S1809-02411",
+        "form_diplomatic": "Tſani- oder tſainijoliki",
+        "matched_component": "Tſani-",
+        "german_gloss_local": "Uebelthat",
+        "article_diplomatic": "Tſani- oder tſainijoliki, Uebelthat. Sünde.",
+        "printed_page": 367
+      },
+      "modern": {
+        "record_id": "RD-002451",
+        "headword": "Tani",
+        "translation_raw": "Rogar",
+        "classification": "Vt",
+        "source_code": "SRC-02"
+      },
+      "affricate_occurrences": [
+        {
+          "occurrence_id": "RHD-AFF-OCC-00098",
+          "record_id": "RHD-S1809-02411",
+          "printed_page": 367,
+          "headword_component_diplomatic": "Tſani-",
+          "graphic_key": "tsani",
+          "occurrence_within_component": 1,
+          "grapheme": "ts",
+          "start_index": 0,
+          "position": "initial",
+          "preceding_character": "",
+          "following_character": "a",
+          "following_class": "vowel_a",
+          "eligible_for_reported_vowel_distribution": true,
+          "merrill_distribution_check": "compatible_with_reported_initial_free_variation",
+          "status": "machine_graphemic_inventory_only",
+          "automatic_phonological_interpretation": false,
+          "automatic_sound_correspondence_inference": false,
+          "human_reviewed": false,
+          "environment_bucket": "initial_a"
+        },
+        {
+          "occurrence_id": "RHD-AFF-OCC-00099",
+          "record_id": "RHD-S1809-02411",
+          "printed_page": 367,
+          "headword_component_diplomatic": "tſainijoliki",
+          "graphic_key": "tsainijoliki",
+          "occurrence_within_component": 1,
+          "grapheme": "ts",
+          "start_index": 0,
+          "position": "initial",
+          "preceding_character": "",
+          "following_character": "a",
+          "following_class": "vowel_a",
+          "eligible_for_reported_vowel_distribution": true,
+          "merrill_distribution_check": "compatible_with_reported_initial_free_variation",
+          "status": "machine_graphemic_inventory_only",
+          "automatic_phonological_interpretation": false,
+          "automatic_sound_correspondence_inference": false,
+          "human_reviewed": false,
+          "environment_bucket": "initial_a"
+        }
+      ],
+      "affricate_graphemes": [
+        "ts"
+      ],
+      "affricate_environment_buckets": [
+        "initial_a"
+      ],
+      "machine_context_signal_type": "internal_form_attestation_only",
+      "internal_attestation_count": 4,
+      "internal_reciprocal_support_count": 0,
+      "cross_language_semantic_similarity_computed": false,
+      "semantic_judgment": "not_performed",
+      "etymological_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "human_reviewed": false
+    },
+    {
+      "overlap_id": "RHD-AFF-DIA-00008",
+      "semantic_context_id": "RHD-SEMC-000266",
+      "adjudication_id": "RHD-ADJ-000109",
+      "source_candidate_id": "RHD-PCORR-000031",
+      "candidate_method": "probable_graphic_correspondence",
+      "priority_tier": 3,
+      "historical": {
+        "record_id": "RHD-S1809-01681",
+        "form_diplomatic": "Batſá",
+        "matched_component": "Batſá",
+        "german_gloss_local": "Vorher, voraus",
+        "article_diplomatic": "Batſá, Vorher, voraus.",
+        "printed_page": 354
+      },
+      "modern": {
+        "record_id": "RD-000155",
+        "headword": "Baisá",
+        "translation_raw": "Tercero",
+        "classification": "Adv",
+        "source_code": "SRC-02"
+      },
+      "affricate_occurrences": [
+        {
+          "occurrence_id": "RHD-AFF-OCC-00007",
+          "record_id": "RHD-S1809-01681",
+          "printed_page": 354,
+          "headword_component_diplomatic": "Batſá",
+          "graphic_key": "batsa",
+          "occurrence_within_component": 1,
+          "grapheme": "ts",
+          "start_index": 2,
+          "position": "medial",
+          "preceding_character": "a",
+          "following_character": "a",
+          "following_class": "vowel_a",
+          "eligible_for_reported_vowel_distribution": true,
+          "merrill_distribution_check": "compatible_with_reported_medial_free_variation",
+          "status": "machine_graphemic_inventory_only",
+          "automatic_phonological_interpretation": false,
+          "automatic_sound_correspondence_inference": false,
+          "human_reviewed": false,
+          "environment_bucket": "medial_vowel"
+        }
+      ],
+      "affricate_graphemes": [
+        "ts"
+      ],
+      "affricate_environment_buckets": [
+        "medial_vowel"
+      ],
+      "machine_context_signal_type": "cross_corpus_context_only",
+      "internal_attestation_count": 0,
+      "internal_reciprocal_support_count": 0,
+      "cross_language_semantic_similarity_computed": false,
+      "semantic_judgment": "not_performed",
+      "etymological_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "human_reviewed": false
+    },
+    {
+      "overlap_id": "RHD-AFF-DIA-00009",
+      "semantic_context_id": "RHD-SEMC-000267",
+      "adjudication_id": "RHD-ADJ-000110",
+      "source_candidate_id": "RHD-PCORR-000032",
+      "candidate_method": "probable_graphic_correspondence",
+      "priority_tier": 3,
+      "historical": {
+        "record_id": "RHD-S1809-01681",
+        "form_diplomatic": "Batſá",
+        "matched_component": "Batſá",
+        "german_gloss_local": "Vorher, voraus",
+        "article_diplomatic": "Batſá, Vorher, voraus.",
+        "printed_page": 354
+      },
+      "modern": {
+        "record_id": "RD-000195",
+        "headword": "Basá",
+        "translation_raw": "Apedrear",
+        "classification": "Vt",
+        "source_code": "SRC-02"
+      },
+      "affricate_occurrences": [
+        {
+          "occurrence_id": "RHD-AFF-OCC-00007",
+          "record_id": "RHD-S1809-01681",
+          "printed_page": 354,
+          "headword_component_diplomatic": "Batſá",
+          "graphic_key": "batsa",
+          "occurrence_within_component": 1,
+          "grapheme": "ts",
+          "start_index": 2,
+          "position": "medial",
+          "preceding_character": "a",
+          "following_character": "a",
+          "following_class": "vowel_a",
+          "eligible_for_reported_vowel_distribution": true,
+          "merrill_distribution_check": "compatible_with_reported_medial_free_variation",
+          "status": "machine_graphemic_inventory_only",
+          "automatic_phonological_interpretation": false,
+          "automatic_sound_correspondence_inference": false,
+          "human_reviewed": false,
+          "environment_bucket": "medial_vowel"
+        }
+      ],
+      "affricate_graphemes": [
+        "ts"
+      ],
+      "affricate_environment_buckets": [
+        "medial_vowel"
+      ],
+      "machine_context_signal_type": "cross_corpus_context_only",
+      "internal_attestation_count": 0,
+      "internal_reciprocal_support_count": 0,
+      "cross_language_semantic_similarity_computed": false,
+      "semantic_judgment": "not_performed",
+      "etymological_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "human_reviewed": false
+    }
+  ],
+  "human_reviewed": false,
+  "automatic_semantic_judgment": false,
+  "automatic_sound_correspondence_inference": false,
+  "cognacy_judgment": "not_performed",
+  "historical_continuity_judgment": "not_performed"
+}
