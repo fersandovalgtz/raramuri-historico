@@ -1,18 +1,19 @@
 {
   "open_validation_records_total": 482,
-  "ai_philological_recollation_reviewed": 300,
-  "ai_philological_recollation_remaining": 182,
+  "ai_philological_recollation_reviewed": 350,
+  "ai_philological_recollation_remaining": 132,
   "completed_ai_recollation_batches": [
     "RHD-PHIL-001",
     "RHD-PHIL-002",
     "RHD-PHIL-003",
     "RHD-PHIL-004",
     "RHD-PHIL-005",
-    "RHD-PHIL-006"
+    "RHD-PHIL-006",
+    "RHD-PHIL-007"
   ],
-  "next_ai_recollation_batch": "RHD-PHIL-007",
+  "next_ai_recollation_batch": "RHD-PHIL-008",
   "next_ai_recollation_batch_size": 50,
-  "human_review_queue_count": 300,
+  "human_review_queue_count": 350,
   "human_verified_records": 0,
   "philologically_verified_by_human_records": 0,
   "linguistically_verified_records": 0

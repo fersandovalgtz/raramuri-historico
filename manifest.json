@@ -890,13 +890,13 @@
     },
     {
       "path": "data/entries.csv",
-      "bytes": 2177269,
-      "sha256": "8f8c8720c98bc746c1976700d45677606c5ee42b92f4832fd87b52bd025873aa"
+      "bytes": 2187859,
+      "sha256": "06f87edb0d16d285c6515e027b1e7549720296a1a32c1e7a368cb7976ccc706f"
     },
     {
       "path": "data/entries_curated.csv",
-      "bytes": 217446,
-      "sha256": "20d6424e07664264316ef50f568d7e23a17e2e675993969ed88aa52ad166bbf9"
+      "bytes": 228036,
+      "sha256": "8123da1adc84062cdb8d322b95e73435aacaf02482704cf08c05faae23fc4069"
     },
     {
       "path": "data/facsimile/README.md",
@@ -935,8 +935,8 @@
     },
     {
       "path": "data/json/entries.json",
-      "bytes": 4142813,
-      "sha256": "f0b38637abe7649e651ad107b191b201685405978b8ee5d6e6c734c6a8edb39e"
+      "bytes": 4153403,
+      "sha256": "627841d686bacfefa7cc061a5b182bcb382c84cd779819ff506b8a23d31b4cc9"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -946,7 +946,7 @@
     {
       "path": "data/raramuri_historico.sqlite",
       "bytes": 2764800,
-      "sha256": "c41aa0eb9613b077a66a36e7bcfa3f29effa76d0ca6c72a3e2b0f6ef4e8fbf30"
+      "sha256": "0987c7f4583565ac3749f3011606da3cb2f66480f9882f0ce61433bdf9860ff2"
     },
     {
       "path": "data/review/README.md",
@@ -1120,23 +1120,23 @@
     },
     {
       "path": "data/validation/human_review_queue.json",
-      "bytes": 143886,
-      "sha256": "2f2823253c0b83d98fbc1eb1698a05dd134927dc798db4f85165f6841355351a"
+      "bytes": 169122,
+      "sha256": "79648dedfb2917c0292de8dfcfefe8c8439239a952b4798d39fab7ce56ecbe7a"
     },
     {
       "path": "data/validation/next_philological_batch.json",
-      "bytes": 49872,
-      "sha256": "e0c974ac9c97bfeef7ab5a27a9a06e247ecf1071d6d699df568b7e40e9bc9e47"
+      "bytes": 41275,
+      "sha256": "a0b5d6fd1f90dc460e31b9d7e390b07c17df1b2a0a71d2270205bf74c5b46557"
     },
     {
       "path": "data/validation/next_philological_batch_compact.json",
-      "bytes": 2125,
-      "sha256": "4a7933975f04dcae3df766800c326498455193f38dc951d13e24d4ac19354879"
+      "bytes": 2252,
+      "sha256": "65e0dee817d8c1bb36449a966bbed1122c85451012f515accad071148dbde2a1"
     },
     {
       "path": "data/validation/next_philological_batch_notes_compact.json",
-      "bytes": 8513,
-      "sha256": "953dfc45f23e673c022006d7f7e0cef5e31845244f533179a23db877dd7fd5fd"
+      "bytes": 7888,
+      "sha256": "cdf29fed95a2e092792c623f0e00b4184b941d0ffd89079698849b1a73e05eb4"
     },
     {
       "path": "data/validation/review/philological_review_batch_001.json",
@@ -1165,8 +1165,13 @@
     },
     {
       "path": "data/validation/review/philological_review_batch_006.json",
-      "bytes": 18437,
-      "sha256": "27ae37a414958cd19aa3058fcac7920f9c80c227b982053192c8a0db3a430e63"
+      "bytes": 19243,
+      "sha256": "b5e3eceaadb4b9e28a8de1f837874c5f5c8852721ef003fc9e80043d997520c7"
+    },
+    {
+      "path": "data/validation/review/philological_review_batch_007.json",
+      "bytes": 22199,
+      "sha256": "b5187b643ce0d6dd01d0988646c960138f90a3b04da6a750adb86f710d3ce69b"
     },
     {
       "path": "data/validation/uncertainty_queue.json",
@@ -1185,13 +1190,13 @@
     },
     {
       "path": "data/validation/validation_progress.json",
-      "bytes": 544,
-      "sha256": "ca2b10da6f438052955c34ca54170e1063a2ec80db95d20777feee8761c189fe"
+      "bytes": 564,
+      "sha256": "11196c57bb2c55c12f0e0ea847353b2fb6fd918beab582b9de1099812e13a6ed"
     },
     {
       "path": "data/xml/entries.xml",
-      "bytes": 4857589,
-      "sha256": "539097e51faa37fba0a4369a2b506664414175a320ebc812e6b3812a839ff259"
+      "bytes": 4868179,
+      "sha256": "c3a1b40135b7214dec19805782bf044b827f880a747e0176d84d57ac9e84a756"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
@@ -1220,8 +1225,8 @@
     },
     {
       "path": "public/data/entries.json",
-      "bytes": 3678742,
-      "sha256": "42b33a0625681ebfdf0abae778cf4423f00fd4d1ac7eb9ddff1db1910fddb4b7"
+      "bytes": 3689332,
+      "sha256": "34adbf508f5ab5c6c17f04751501c7ad358d15a512623ba7ae8da3f0c6d9a297"
     },
     {
       "path": "public/data/metadata.json",
