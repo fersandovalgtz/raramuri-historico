@@ -5,8 +5,8 @@
   "count": 482,
   "priority_counts": {
     "unresolved_after_ai_recollation": 47,
-    "corrected_ai_assisted": 149,
-    "confirmed_ai_assisted": 286
+    "corrected_ai_assisted": 150,
+    "confirmed_ai_assisted": 285
   },
   "human_verified": false,
   "records": [
@@ -2332,7 +2332,7 @@
       "printed_page": 358,
       "ai_recollation_disposition": "corrected_ai_assisted",
       "residual_route": "human_linguistic_review",
-      "ai_recollation_note": "High-resolution right column of p. 358 clearly reads `Hutſine`.",
+      "ai_recollation_note": "600-dpi right-column inspection clearly reads Hutſine; no additional accent is introduced.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -2346,19 +2346,6 @@
       "ai_recollation_disposition": "corrected_ai_assisted",
       "residual_route": "human_linguistic_and_pronominal_review",
       "ai_recollation_note": "Direct enlargement clearly reads final a.",
-      "human_verified": false,
-      "philologically_verified_by_human": false,
-      "linguistically_verified": false
-    },
-    {
-      "priority_rank": 2,
-      "priority_reason": "AI recollation proposed a documentary correction requiring adjudication",
-      "record_id": "RHD-S1809-01918",
-      "source_batch": "RHD-PHIL-009",
-      "printed_page": 358,
-      "ai_recollation_disposition": "corrected_ai_assisted",
-      "residual_route": "human_linguistic_and_pronominal_review",
-      "ai_recollation_note": "The source shows an acute mark over o.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -2384,7 +2371,7 @@
       "printed_page": 359,
       "ai_recollation_disposition": "corrected_ai_assisted",
       "residual_route": "human_linguistic_review",
-      "ai_recollation_note": "No grave mark is visible in the enlarged source.",
+      "ai_recollation_note": "600-dpi enlargement shows no grave mark in Kake.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -2397,7 +2384,7 @@
       "printed_page": 359,
       "ai_recollation_disposition": "corrected_ai_assisted",
       "residual_route": "human_linguistic_review",
-      "ai_recollation_note": "High-resolution p. 359 shows no acute mark in the headword.",
+      "ai_recollation_note": "600-dpi p. 359 shows no acute mark in Kepaliki.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -2410,7 +2397,7 @@
       "printed_page": 361,
       "ai_recollation_disposition": "corrected_ai_assisted",
       "residual_route": "human_linguistic_and_morphological_review",
-      "ai_recollation_note": "Direct high-resolution p. 361 clearly supports `Mukiaſtiameke`.",
+      "ai_recollation_note": "600-dpi p. 361 supports Mukiaſtiameke.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -2431,12 +2418,25 @@
     {
       "priority_rank": 2,
       "priority_reason": "AI recollation proposed a documentary correction requiring adjudication",
+      "record_id": "RHD-S1809-02049",
+      "source_batch": "RHD-PHIL-009",
+      "printed_page": 361,
+      "ai_recollation_disposition": "corrected_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "600-dpi p. 361 unambiguously reads Nachcatule.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "priority_rank": 2,
+      "priority_reason": "AI recollation proposed a documentary correction requiring adjudication",
       "record_id": "RHD-S1809-02053",
       "source_batch": "RHD-PHIL-009",
       "printed_page": 362,
       "ai_recollation_disposition": "corrected_ai_assisted",
       "residual_route": "human_linguistic_review",
-      "ai_recollation_note": "High-resolution p. 362 unambiguously shows ú.",
+      "ai_recollation_note": "600-dpi p. 362 unambiguously shows ú.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -2449,7 +2449,7 @@
       "printed_page": 362,
       "ai_recollation_disposition": "corrected_ai_assisted",
       "residual_route": "human_linguistic_review",
-      "ai_recollation_note": "The enlarged source shows unaccented `Netejameke`.",
+      "ai_recollation_note": "600-dpi p. 362 shows unaccented Netejameke.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -2462,7 +2462,7 @@
       "printed_page": 363,
       "ai_recollation_disposition": "corrected_ai_assisted",
       "residual_route": "human_linguistic_review",
-      "ai_recollation_note": "High-resolution p. 363 clearly shows `Pámaguéameke`.",
+      "ai_recollation_note": "600-dpi p. 363 clearly reads Painaguéameke.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -2475,7 +2475,7 @@
       "printed_page": 365,
       "ai_recollation_disposition": "corrected_ai_assisted",
       "residual_route": "human_linguistic_and_variant_review",
-      "ai_recollation_note": "High-resolution lower right p. 365 clearly supports both final acute marks.",
+      "ai_recollation_note": "600-dpi lower right p. 365 clearly supports both final acute marks.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -2488,7 +2488,20 @@
       "printed_page": 365,
       "ai_recollation_disposition": "corrected_ai_assisted",
       "residual_route": "human_linguistic_and_pragmatic_review",
-      "ai_recollation_note": "The source unambiguously reads `Sonúca!`.",
+      "ai_recollation_note": "600-dpi p. 365 unambiguously reads Somúca!",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "priority_rank": 2,
+      "priority_reason": "AI recollation proposed a documentary correction requiring adjudication",
+      "record_id": "RHD-S1809-02326",
+      "source_batch": "RHD-PHIL-009",
+      "printed_page": 366,
+      "ai_recollation_disposition": "corrected_ai_assisted",
+      "residual_route": "human_linguistic_review",
+      "ai_recollation_note": "600-dpi p. 366 and the German→Rarámuri cross-entry on p. 313 support Tamatsiame.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -5439,7 +5452,20 @@
       "printed_page": 358,
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_review",
-      "ai_recollation_note": "The phrase and accent are supported.",
+      "ai_recollation_note": "The phrase and acute accent are supported.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "priority_rank": 3,
+      "priority_reason": "AI recollation confirmed the reading but residual linguistic/semantic/disciplinary review remains",
+      "record_id": "RHD-S1809-01918",
+      "source_batch": "RHD-PHIL-009",
+      "printed_page": 358,
+      "ai_recollation_disposition": "confirmed_ai_assisted",
+      "residual_route": "human_linguistic_and_pronominal_review",
+      "ai_recollation_note": "600-dpi enlargement supports the printed umlaut-like ö; the prior proposed acute replacement is withdrawn.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -5517,7 +5543,7 @@
       "printed_page": 359,
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_and_morphological_review",
-      "ai_recollation_note": "The article and its examples are structurally supported.",
+      "ai_recollation_note": "The article and its examples are structurally supported at 600 dpi.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -5642,19 +5668,6 @@
     {
       "priority_rank": 3,
       "priority_reason": "AI recollation confirmed the reading but residual linguistic/semantic/disciplinary review remains",
-      "record_id": "RHD-S1809-02049",
-      "source_batch": "RHD-PHIL-009",
-      "printed_page": 361,
-      "ai_recollation_disposition": "confirmed_ai_assisted",
-      "residual_route": "human_linguistic_review",
-      "ai_recollation_note": "The inverse entry gives direct corroboration for the historical form.",
-      "human_verified": false,
-      "philologically_verified_by_human": false,
-      "linguistically_verified": false
-    },
-    {
-      "priority_rank": 3,
-      "priority_reason": "AI recollation confirmed the reading but residual linguistic/semantic/disciplinary review remains",
       "record_id": "RHD-S1809-02063",
       "source_batch": "RHD-PHIL-009",
       "printed_page": 362,
@@ -5673,7 +5686,7 @@
       "printed_page": 362,
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_and_numeral_review",
-      "ai_recollation_note": "High-resolution enlargement sustains the existing headword without forcing a different sibilant interpretation.",
+      "ai_recollation_note": "High-resolution enlargement sustains the existing headword.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -5855,7 +5868,7 @@
       "printed_page": 365,
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_review",
-      "ai_recollation_note": "The accent is sustained.",
+      "ai_recollation_note": "600-dpi p. 365 confirms the acute accent.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -5934,19 +5947,6 @@
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_and_variant_review",
       "ai_recollation_note": "The cross-reference structure is clear; exact historical diacritic interpretation of the variant pair remains an independent linguistic matter.",
-      "human_verified": false,
-      "philologically_verified_by_human": false,
-      "linguistically_verified": false
-    },
-    {
-      "priority_rank": 3,
-      "priority_reason": "AI recollation confirmed the reading but residual linguistic/semantic/disciplinary review remains",
-      "record_id": "RHD-S1809-02326",
-      "source_batch": "RHD-PHIL-009",
-      "printed_page": 366,
-      "ai_recollation_disposition": "confirmed_ai_assisted",
-      "residual_route": "human_linguistic_review",
-      "ai_recollation_note": "The internal sequence and accent are supported at high resolution.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
