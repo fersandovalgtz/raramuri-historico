@@ -1,0 +1,1013 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "source_supported_affricate_candidate_retrieval_v1",
+  "generated": "2026-08-13",
+  "count": 25,
+  "records": [
+    {
+      "candidate_id": "RHD-AFFSRC-000001",
+      "historical": {
+        "record_id": "RHD-S1809-00038",
+        "printed_page": 354,
+        "form_diplomatic": "Atſchi",
+        "graphic_key": "atschi",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00003",
+            "grapheme": "tsch",
+            "position": "medial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000030",
+        "headword": "Achí",
+        "component": "Achí",
+        "component_index": 1,
+        "translation_raw": "Reír, sonreír",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "atschi",
+      "projected_comparison_key": "achi",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000002",
+      "historical": {
+        "record_id": "RHD-S1809-01681",
+        "printed_page": 354,
+        "form_diplomatic": "Batſá",
+        "graphic_key": "batsa",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00007",
+            "grapheme": "ts",
+            "position": "medial",
+            "following_character": "a",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000137",
+        "headword": "Bacha",
+        "component": "Bacha",
+        "component_index": 1,
+        "translation_raw": "Primeramente, adelante, enfrente",
+        "classification": "Adv",
+        "classification_family": "Adv",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "batsa",
+      "projected_comparison_key": "bacha",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000003",
+      "historical": {
+        "record_id": "RHD-S1809-01681",
+        "printed_page": 354,
+        "form_diplomatic": "Batſá",
+        "graphic_key": "batsa",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00007",
+            "grapheme": "ts",
+            "position": "medial",
+            "following_character": "a",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000138",
+        "headword": "Bachá",
+        "component": "Bachá",
+        "component_index": 1,
+        "translation_raw": "Meter (a la cárcel), poner (adentro)",
+        "classification": "Vipl",
+        "classification_family": "Vi",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "batsa",
+      "projected_comparison_key": "bacha",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000004",
+      "historical": {
+        "record_id": "RHD-S1809-01744",
+        "printed_page": 355,
+        "form_diplomatic": "Cotſchi",
+        "graphic_key": "cotschi",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00015",
+            "grapheme": "tsch",
+            "position": "medial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000481",
+        "headword": "Cochí",
+        "component": "Cochí",
+        "component_index": 1,
+        "translation_raw": "Perro",
+        "classification": "S",
+        "classification_family": "S",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "cotschi",
+      "projected_comparison_key": "cochi",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000005",
+      "historical": {
+        "record_id": "RHD-S1809-01744",
+        "printed_page": 355,
+        "form_diplomatic": "Cotſchi",
+        "graphic_key": "cotschi",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00015",
+            "grapheme": "tsch",
+            "position": "medial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000482",
+        "headword": "Cochí",
+        "component": "Cochí",
+        "component_index": 1,
+        "translation_raw": "Hermana mayor",
+        "classification": "S",
+        "classification_family": "S",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "cotschi",
+      "projected_comparison_key": "cochi",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000006",
+      "historical": {
+        "record_id": "RHD-S1809-01744",
+        "printed_page": 355,
+        "form_diplomatic": "Cotſchi",
+        "graphic_key": "cotschi",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00015",
+            "grapheme": "tsch",
+            "position": "medial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000483",
+        "headword": "Cochí",
+        "component": "Cochí",
+        "component_index": 1,
+        "translation_raw": "Dormir",
+        "classification": "Vi sing",
+        "classification_family": "Vi",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "cotschi",
+      "projected_comparison_key": "cochi",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000007",
+      "historical": {
+        "record_id": "RHD-S1809-01744",
+        "printed_page": 355,
+        "form_diplomatic": "Cotſchi",
+        "graphic_key": "cotschi",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00015",
+            "grapheme": "tsch",
+            "position": "medial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000484",
+        "headword": "Cochi, cohuí",
+        "component": "Cochi",
+        "component_index": 1,
+        "translation_raw": "Marrano",
+        "classification": "S esp",
+        "classification_family": "S",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "cotschi",
+      "projected_comparison_key": "cochi",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000008",
+      "historical": {
+        "record_id": "RHD-S1809-01764",
+        "printed_page": 356,
+        "form_diplomatic": "Cutsi",
+        "graphic_key": "cutsi",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00020",
+            "grapheme": "ts",
+            "position": "medial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000560",
+        "headword": "Cuchi",
+        "component": "Cuchi",
+        "component_index": 1,
+        "translation_raw": "Chiquitos",
+        "classification": "Adj pl",
+        "classification_family": "Adj",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "cutsi",
+      "projected_comparison_key": "cuchi",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000009",
+      "historical": {
+        "record_id": "RHD-S1809-02006",
+        "printed_page": 361,
+        "form_diplomatic": "Matſchi",
+        "graphic_key": "matschi",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00057",
+            "grapheme": "tsch",
+            "position": "medial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-001232",
+        "headword": "Machí",
+        "component": "Machí",
+        "component_index": 1,
+        "translation_raw": "1. Saber, conocer 2. Hay luz 3. Verse bien",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "matschi",
+      "projected_comparison_key": "machi",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000010",
+      "historical": {
+        "record_id": "RHD-S1809-02006",
+        "printed_page": 361,
+        "form_diplomatic": "Matſchi",
+        "graphic_key": "matschi",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00057",
+            "grapheme": "tsch",
+            "position": "medial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-001233",
+        "headword": "Machí, machíami",
+        "component": "Machí",
+        "component_index": 1,
+        "translation_raw": "Afuera",
+        "classification": "Adv",
+        "classification_family": "Adv",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "matschi",
+      "projected_comparison_key": "machi",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000011",
+      "historical": {
+        "record_id": "RHD-S1809-02007",
+        "printed_page": 361,
+        "form_diplomatic": "Matſchi",
+        "graphic_key": "matschi",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00058",
+            "grapheme": "tsch",
+            "position": "medial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-001232",
+        "headword": "Machí",
+        "component": "Machí",
+        "component_index": 1,
+        "translation_raw": "1. Saber, conocer 2. Hay luz 3. Verse bien",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "matschi",
+      "projected_comparison_key": "machi",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000012",
+      "historical": {
+        "record_id": "RHD-S1809-02007",
+        "printed_page": 361,
+        "form_diplomatic": "Matſchi",
+        "graphic_key": "matschi",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00058",
+            "grapheme": "tsch",
+            "position": "medial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-001233",
+        "headword": "Machí, machíami",
+        "component": "Machí",
+        "component_index": 1,
+        "translation_raw": "Afuera",
+        "classification": "Adv",
+        "classification_family": "Adv",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "matschi",
+      "projected_comparison_key": "machi",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000013",
+      "historical": {
+        "record_id": "RHD-S1809-02190",
+        "printed_page": 364,
+        "form_diplomatic": "Potschí",
+        "graphic_key": "potschi",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00073",
+            "grapheme": "tsch",
+            "position": "medial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-001848",
+        "headword": "Pochí",
+        "component": "Pochí",
+        "component_index": 1,
+        "translation_raw": "Brincar",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "potschi",
+      "projected_comparison_key": "pochi",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000014",
+      "historical": {
+        "record_id": "RHD-S1809-02212",
+        "printed_page": 364,
+        "form_diplomatic": "Putschá",
+        "graphic_key": "putscha",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00077",
+            "grapheme": "tsch",
+            "position": "medial",
+            "following_character": "a",
+            "merrill_distribution_check": "compatible_with_reported_medial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-001856",
+        "headword": "Pucha",
+        "component": "Pucha",
+        "component_index": 1,
+        "translation_raw": "Soplar",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "putscha",
+      "projected_comparison_key": "pucha",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000015",
+      "historical": {
+        "record_id": "RHD-S1809-02402",
+        "printed_page": 367,
+        "form_diplomatic": "Tſchigó",
+        "graphic_key": "tschigo",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00090",
+            "grapheme": "tsch",
+            "position": "initial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_initial_distribution"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000680",
+        "headword": "Chigó",
+        "component": "Chigó",
+        "component_index": 1,
+        "translation_raw": "Robar",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "tschigo",
+      "projected_comparison_key": "chigo",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000016",
+      "historical": {
+        "record_id": "RHD-S1809-02412",
+        "printed_page": 367,
+        "form_diplomatic": "Tschá",
+        "graphic_key": "tscha",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00100",
+            "grapheme": "tsch",
+            "position": "initial",
+            "following_character": "a",
+            "merrill_distribution_check": "compatible_with_reported_initial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000627",
+        "headword": "Chá",
+        "component": "Chá",
+        "component_index": 1,
+        "translation_raw": "Feo",
+        "classification": "Adj",
+        "classification_family": "Adj",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "tscha",
+      "projected_comparison_key": "cha",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000017",
+      "historical": {
+        "record_id": "RHD-S1809-02412",
+        "printed_page": 367,
+        "form_diplomatic": "Tschá",
+        "graphic_key": "tscha",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00100",
+            "grapheme": "tsch",
+            "position": "initial",
+            "following_character": "a",
+            "merrill_distribution_check": "compatible_with_reported_initial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000628",
+        "headword": "Chá, cháa",
+        "component": "Chá",
+        "component_index": 1,
+        "translation_raw": "Tener granos o llagas",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "tscha",
+      "projected_comparison_key": "cha",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000018",
+      "historical": {
+        "record_id": "RHD-S1809-02413",
+        "printed_page": 367,
+        "form_diplomatic": "Tscháa",
+        "graphic_key": "tschaa",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00101",
+            "grapheme": "tsch",
+            "position": "initial",
+            "following_character": "a",
+            "merrill_distribution_check": "compatible_with_reported_initial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000628",
+        "headword": "Chá, cháa",
+        "component": "cháa",
+        "component_index": 2,
+        "translation_raw": "Tener granos o llagas",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "tschaa",
+      "projected_comparison_key": "chaa",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000019",
+      "historical": {
+        "record_id": "RHD-S1809-02414",
+        "printed_page": 367,
+        "form_diplomatic": "Tscháca",
+        "graphic_key": "tschaca",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00102",
+            "grapheme": "tsch",
+            "position": "initial",
+            "following_character": "a",
+            "merrill_distribution_check": "compatible_with_reported_initial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000635",
+        "headword": "Chacá",
+        "component": "Chacá",
+        "component_index": 1,
+        "translation_raw": "Chanate (ave; zanate)",
+        "classification": "S",
+        "classification_family": "S",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "tschaca",
+      "projected_comparison_key": "chaca",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000020",
+      "historical": {
+        "record_id": "RHD-S1809-02416",
+        "printed_page": 367,
+        "form_diplomatic": "Tschapi",
+        "graphic_key": "tschapi",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00104",
+            "grapheme": "tsch",
+            "position": "initial",
+            "following_character": "a",
+            "merrill_distribution_check": "compatible_with_reported_initial_free_variation"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000656",
+        "headword": "Chapí",
+        "component": "Chapí",
+        "component_index": 1,
+        "translation_raw": "1. vt Coger, agarrar (una persona 2. Tomar (coger) 3. Elegir 4. imper ¡Escójalo! [fut.: chapiméa]",
+        "classification": "",
+        "classification_family": "Sin clasificar",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "tschapi",
+      "projected_comparison_key": "chapi",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000021",
+      "historical": {
+        "record_id": "RHD-S1809-02425",
+        "printed_page": 367,
+        "form_diplomatic": "Tſchiní",
+        "graphic_key": "tschini",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00113",
+            "grapheme": "tsch",
+            "position": "initial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_initial_distribution"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000708",
+        "headword": "Chiní",
+        "component": "Chiní",
+        "component_index": 1,
+        "translation_raw": "Manta, ropa",
+        "classification": "S",
+        "classification_family": "S",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "tschini",
+      "projected_comparison_key": "chini",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000022",
+      "historical": {
+        "record_id": "RHD-S1809-02426",
+        "printed_page": 367,
+        "form_diplomatic": "Tſchiperameke",
+        "graphic_key": "tschiperameke",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00114",
+            "grapheme": "tsch",
+            "position": "initial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_initial_distribution"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000711",
+        "headword": "Chipérami",
+        "component": "Chipérami",
+        "component_index": 1,
+        "translation_raw": "Plano",
+        "classification": "Pp",
+        "classification_family": "Pp",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "tschiperameke",
+      "projected_comparison_key": "chiperami",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key",
+        "terminal_ameke_to_ami_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000023",
+      "historical": {
+        "record_id": "RHD-S1809-02431",
+        "printed_page": 368,
+        "form_diplomatic": "Tschipú",
+        "graphic_key": "tschipu",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00115",
+            "grapheme": "tsch",
+            "position": "initial",
+            "following_character": "i",
+            "merrill_distribution_check": "compatible_with_reported_initial_distribution"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000714",
+        "headword": "Chipú",
+        "component": "Chipú",
+        "component_index": 1,
+        "translation_raw": "Estar amargo (p. ej.: café)",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "tschipu",
+      "projected_comparison_key": "chipu",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000024",
+      "historical": {
+        "record_id": "RHD-S1809-02451",
+        "printed_page": 368,
+        "form_diplomatic": "Tschucú",
+        "graphic_key": "tschucu",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00137",
+            "grapheme": "tsch",
+            "position": "initial",
+            "following_character": "u",
+            "merrill_distribution_check": "compatible_with_reported_initial_distribution"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000791",
+        "headword": "Chucú",
+        "component": "Chucú",
+        "component_index": 1,
+        "translation_raw": "Estar parado (animal, barco, camión de carga, persona agachada)",
+        "classification": "Vi sing",
+        "classification_family": "Vi",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "tschucu",
+      "projected_comparison_key": "chucu",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "candidate_id": "RHD-AFFSRC-000025",
+      "historical": {
+        "record_id": "RHD-S1809-02457",
+        "printed_page": 368,
+        "form_diplomatic": "Tſchutá",
+        "graphic_key": "tschuta",
+        "affricate_occurrences": [
+          {
+            "occurrence_id": "RHD-AFF-OCC-00144",
+            "grapheme": "tsch",
+            "position": "initial",
+            "following_character": "u",
+            "merrill_distribution_check": "compatible_with_reported_initial_distribution"
+          }
+        ]
+      },
+      "modern": {
+        "record_id": "RD-000829",
+        "headword": "Chutá",
+        "component": "Chutá",
+        "component_index": 1,
+        "translation_raw": "Afilar",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "source_code": "SRC-02"
+      },
+      "historical_comparison_key": "tschuta",
+      "projected_comparison_key": "chuta",
+      "projection_operations": [
+        "historical_affricate_spelling_to_modern_ch_candidate_key"
+      ],
+      "match_type": "exact_match_after_source_supported_candidate_projection",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "automatic_sound_correspondence_inference": false,
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    }
+  ],
+  "human_reviewed": false,
+  "automatic_sound_correspondence_inference": false,
+  "cognacy_judgment": "not_performed",
+  "historical_continuity_judgment": "not_performed"
+}
