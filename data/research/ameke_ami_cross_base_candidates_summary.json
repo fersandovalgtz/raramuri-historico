@@ -1,0 +1,48 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "historical_ameke_modern_ami_exact_base_crosswalk_v1",
+  "generated": "2026-08-13",
+  "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+  "historical_exact_pair_count": 10,
+  "modern_exact_base_ami_pair_count": 59,
+  "candidate_count": 9,
+  "high_graphic_similarity_candidate_count": 1,
+  "high_graphic_similarity_candidates": [
+    {
+      "historical_pair_id": "RHD-AMEKE-BASE-001",
+      "historical_base_key": "baje",
+      "historical_ameke_key": "bajeameke",
+      "historical_base_glosses": [
+        "Rufen"
+      ],
+      "historical_ameke_glosses": [
+        "der Rufende"
+      ],
+      "modern_target_record_id": "RD-000159",
+      "modern_base_key": "baji",
+      "modern_ami_headword": "Bajíami",
+      "modern_ami_classification_family": "S",
+      "modern_ami_translation": "Curandero (que toma tesgüino)",
+      "modern_base_records": [
+        {
+          "record_id": "RD-000158",
+          "headword": "Bají",
+          "classification_family": "Vi",
+          "translation_raw": "Tomar, beber (tesgüino, agua)"
+        }
+      ],
+      "base_graphic_similarity": 0.75,
+      "rank_within_historical_base": 1,
+      "relation_status": "graphic_cross_corpus_candidate",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    }
+  ],
+  "ranking_method": "normalized Levenshtein similarity on base strings only; same initial character; similarity >=0.50; top five per historical base",
+  "semantic_equivalence_judgment": "not_performed",
+  "cognacy_judgment": "not_performed",
+  "historical_continuity_judgment": "not_performed",
+  "human_reviewed": false
+}

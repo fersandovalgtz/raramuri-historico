@@ -1,0 +1,304 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "count": 9,
+  "records": [
+    {
+      "historical_pair_id": "RHD-AMEKE-BASE-001",
+      "historical_base_key": "baje",
+      "historical_ameke_key": "bajeameke",
+      "historical_base_glosses": [
+        "Rufen"
+      ],
+      "historical_ameke_glosses": [
+        "der Rufende"
+      ],
+      "modern_target_record_id": "RD-000159",
+      "modern_base_key": "baji",
+      "modern_ami_headword": "Bajíami",
+      "modern_ami_classification_family": "S",
+      "modern_ami_translation": "Curandero (que toma tesgüino)",
+      "modern_base_records": [
+        {
+          "record_id": "RD-000158",
+          "headword": "Bají",
+          "classification_family": "Vi",
+          "translation_raw": "Tomar, beber (tesgüino, agua)"
+        }
+      ],
+      "base_graphic_similarity": 0.75,
+      "rank_within_historical_base": 1,
+      "relation_status": "graphic_cross_corpus_candidate",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "historical_pair_id": "RHD-AMEKE-BASE-001",
+      "historical_base_key": "baje",
+      "historical_ameke_key": "bajeameke",
+      "historical_base_glosses": [
+        "Rufen"
+      ],
+      "historical_ameke_glosses": [
+        "der Rufende"
+      ],
+      "modern_target_record_id": "RD-000219",
+      "modern_base_key": "ba'yo",
+      "modern_ami_headword": "Ba'yóami",
+      "modern_ami_classification_family": "Adj",
+      "modern_ami_translation": "Bello, chulo, hermoso, lindo, bonito",
+      "modern_base_records": [
+        {
+          "record_id": "RD-000218",
+          "headword": "Ba'yó",
+          "classification_family": "Vi",
+          "translation_raw": "Parecer bonito, estar bonito"
+        }
+      ],
+      "base_graphic_similarity": 0.5,
+      "rank_within_historical_base": 2,
+      "relation_status": "graphic_cross_corpus_candidate",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "historical_pair_id": "RHD-AMEKE-BASE-001",
+      "historical_base_key": "baje",
+      "historical_ameke_key": "bajeameke",
+      "historical_base_glosses": [
+        "Rufen"
+      ],
+      "historical_ameke_glosses": [
+        "der Rufende"
+      ],
+      "modern_target_record_id": "RD-000255",
+      "modern_base_key": "bine",
+      "modern_ami_headword": "Binéami",
+      "modern_ami_classification_family": "S",
+      "modern_ami_translation": "El que aprende, discípulo",
+      "modern_base_records": [
+        {
+          "record_id": "RD-000254",
+          "headword": "Biné",
+          "classification_family": "Vi",
+          "translation_raw": "Aprender, estudiar"
+        }
+      ],
+      "base_graphic_similarity": 0.5,
+      "rank_within_historical_base": 3,
+      "relation_status": "graphic_cross_corpus_candidate",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "historical_pair_id": "RHD-AMEKE-BASE-001",
+      "historical_base_key": "baje",
+      "historical_ameke_key": "bajeameke",
+      "historical_base_glosses": [
+        "Rufen"
+      ],
+      "historical_ameke_glosses": [
+        "der Rufende"
+      ],
+      "modern_target_record_id": "RD-000282",
+      "modern_base_key": "bite",
+      "modern_ami_headword": "Bitéami",
+      "modern_ami_classification_family": "Adj",
+      "modern_ami_translation": "Morador, que vive",
+      "modern_base_records": [
+        {
+          "record_id": "RD-000280",
+          "headword": "Bité",
+          "classification_family": "Vi",
+          "translation_raw": "Sing habitar, morar, vivir"
+        },
+        {
+          "record_id": "RD-000281",
+          "headword": "Bité",
+          "classification_family": "Vi",
+          "translation_raw": "Estar pesado"
+        }
+      ],
+      "base_graphic_similarity": 0.5,
+      "rank_within_historical_base": 4,
+      "relation_status": "graphic_cross_corpus_candidate",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "historical_pair_id": "RHD-AMEKE-BASE-003",
+      "historical_base_key": "cugui",
+      "historical_ameke_key": "cuguiameke",
+      "historical_base_glosses": [
+        "Helfen"
+      ],
+      "historical_ameke_glosses": [
+        "Helfer"
+      ],
+      "modern_target_record_id": "RD-000384",
+      "modern_base_key": "cahui",
+      "modern_ami_headword": "Cahuíami",
+      "modern_ami_classification_family": "Adj",
+      "modern_ami_translation": "Claro, limpio, sereno (el cielo)",
+      "modern_base_records": [
+        {
+          "record_id": "RD-000382",
+          "headword": "cahuí",
+          "classification_family": "S",
+          "translation_raw": "Monte, terreno, tierra, campo, mundo"
+        },
+        {
+          "record_id": "RD-000383",
+          "headword": "cahuí",
+          "classification_family": "Vi",
+          "translation_raw": "Aclarar (desaparecer las nubes)"
+        }
+      ],
+      "base_graphic_similarity": 0.6,
+      "rank_within_historical_base": 1,
+      "relation_status": "graphic_cross_corpus_candidate",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "historical_pair_id": "RHD-AMEKE-BASE-004",
+      "historical_base_key": "igue",
+      "historical_ameke_key": "igueameke",
+      "historical_base_glosses": [
+        "Sehr"
+      ],
+      "historical_ameke_glosses": [
+        "Ein Starker, der Kräfte hat"
+      ],
+      "modern_target_record_id": "RD-001123",
+      "modern_base_key": "iye",
+      "modern_ami_headword": "Iyéami",
+      "modern_ami_classification_family": "Adv",
+      "modern_ami_translation": "Que tiene mamá",
+      "modern_base_records": [
+        {
+          "record_id": "RD-001122",
+          "headword": "Iyé",
+          "classification_family": "S",
+          "translation_raw": "Madre, mamá"
+        }
+      ],
+      "base_graphic_similarity": 0.5,
+      "rank_within_historical_base": 1,
+      "relation_status": "graphic_cross_corpus_candidate",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "historical_pair_id": "RHD-AMEKE-BASE-007",
+      "historical_base_key": "nesse",
+      "historical_ameke_key": "nesseameke",
+      "historical_base_glosses": [
+        "Bewahren"
+      ],
+      "historical_ameke_glosses": [
+        "Hüter"
+      ],
+      "modern_target_record_id": "RD-001636",
+      "modern_base_key": "nise",
+      "modern_ami_headword": "Niséami",
+      "modern_ami_classification_family": "S",
+      "modern_ami_translation": "Pastor",
+      "modern_base_records": [
+        {
+          "record_id": "RD-001635",
+          "headword": "Nisé",
+          "classification_family": "Vt",
+          "translation_raw": "Cuidar, pastorear"
+        }
+      ],
+      "base_graphic_similarity": 0.6,
+      "rank_within_historical_base": 1,
+      "relation_status": "graphic_cross_corpus_candidate",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "historical_pair_id": "RHD-AMEKE-BASE-009",
+      "historical_base_key": "seli",
+      "historical_ameke_key": "seliameke",
+      "historical_base_glosses": [
+        "Befehlen"
+      ],
+      "historical_ameke_glosses": [
+        "So nennen ſie ihren Dorfrichter"
+      ],
+      "modern_target_record_id": "RD-002341",
+      "modern_base_key": "siri",
+      "modern_ami_headword": "Siríami",
+      "modern_ami_classification_family": "S",
+      "modern_ami_translation": "Gobernador tradicional",
+      "modern_base_records": [
+        {
+          "record_id": "RD-002339",
+          "headword": "Siri",
+          "classification_family": "S",
+          "translation_raw": "Tijera"
+        },
+        {
+          "record_id": "RD-002340",
+          "headword": "Siri",
+          "classification_family": "Sin clasificar",
+          "translation_raw": "Llegaron"
+        }
+      ],
+      "base_graphic_similarity": 0.5,
+      "rank_within_historical_base": 1,
+      "relation_status": "graphic_cross_corpus_candidate",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "historical_pair_id": "RHD-AMEKE-BASE-009",
+      "historical_base_key": "seli",
+      "historical_ameke_key": "seliameke",
+      "historical_base_glosses": [
+        "Befehlen"
+      ],
+      "historical_ameke_glosses": [
+        "So nennen ſie ihren Dorfrichter"
+      ],
+      "modern_target_record_id": "RD-002417",
+      "modern_base_key": "suni",
+      "modern_ami_headword": "Suníami",
+      "modern_ami_classification_family": "Adv",
+      "modern_ami_translation": "En todas partes",
+      "modern_base_records": [
+        {
+          "record_id": "RD-002416",
+          "headword": "Suní",
+          "classification_family": "Vt",
+          "translation_raw": "Terminar, acabar, cumplir"
+        }
+      ],
+      "base_graphic_similarity": 0.5,
+      "rank_within_historical_base": 2,
+      "relation_status": "graphic_cross_corpus_candidate",
+      "semantic_equivalence_judgment": "not_performed",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    }
+  ],
+  "human_reviewed": false
+}
