@@ -1,0 +1,2680 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "steffel_graphic_family_german_context_associations",
+  "generated": "2026-08-13",
+  "count": 47,
+  "human_reviewed": false,
+  "automatic_semantic_classification": false,
+  "automatic_part_of_speech_tagging": false,
+  "records": [
+    {
+      "association_id": "RHD-GCTX-F-00001",
+      "family_hypothesis_id": "RHD-GFAM-00001",
+      "seed_recovery_id": "RHD-RREC-000043",
+      "seed_graphic_key": "thulameke",
+      "family_key_count": 152,
+      "context_covered_key_count": 152,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 179,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 34,
+        "multiword_or_ambiguous_proxy": 32,
+        "other_single_word_proxy": 87,
+        "property_ending_proxy": 26
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.19,
+        "multiword_or_ambiguous_proxy": 0.179,
+        "other_single_word_proxy": 0.486,
+        "property_ending_proxy": 0.145
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "kalt",
+          "member_key_document_frequency": 4,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.026,
+          "log_odds_enrichment": 4.0775
+        },
+        {
+          "token": "allwissend",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4764
+        },
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4764
+        },
+        {
+          "token": "getauft",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4764
+        },
+        {
+          "token": "kugelformig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4764
+        },
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4764
+        },
+        {
+          "token": "sandig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4764
+        },
+        {
+          "token": "sieden",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4764
+        },
+        {
+          "token": "stacameke",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4764
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4764
+        },
+        {
+          "token": "weiss",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4764
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.8649
+        },
+        {
+          "token": "sterblich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.8649
+        },
+        {
+          "token": "waizen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.8649
+        },
+        {
+          "token": "thun",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 7,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.0733
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00002",
+      "family_hypothesis_id": "RHD-GFAM-00002",
+      "seed_recovery_id": "RHD-RREC-000031",
+      "seed_graphic_key": "pahiameke",
+      "family_key_count": 151,
+      "context_covered_key_count": 151,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 178,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 35,
+        "multiword_or_ambiguous_proxy": 30,
+        "other_single_word_proxy": 87,
+        "property_ending_proxy": 26
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.197,
+        "multiword_or_ambiguous_proxy": 0.169,
+        "other_single_word_proxy": 0.489,
+        "property_ending_proxy": 0.146
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "allwissend",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "getauft",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "kugelformig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "sandig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "sieden",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "stacameke",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "weiss",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.8726
+        },
+        {
+          "token": "sterblich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.8726
+        },
+        {
+          "token": "waizen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.8726
+        },
+        {
+          "token": "thun",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 7,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.081
+        },
+        {
+          "token": "besser",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 11,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 0.5303
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00003",
+      "family_hypothesis_id": "RHD-GFAM-00003",
+      "seed_recovery_id": "RHD-RREC-000006",
+      "seed_graphic_key": "peguameke",
+      "family_key_count": 151,
+      "context_covered_key_count": 151,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 178,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 34,
+        "multiword_or_ambiguous_proxy": 31,
+        "other_single_word_proxy": 87,
+        "property_ending_proxy": 26
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.191,
+        "multiword_or_ambiguous_proxy": 0.174,
+        "other_single_word_proxy": 0.489,
+        "property_ending_proxy": 0.146
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "allwissend",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "getauft",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "hart",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "kugelformig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "sandig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "sieden",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "stacameke",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "weiss",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4841
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.8726
+        },
+        {
+          "token": "sterblich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.8726
+        },
+        {
+          "token": "waizen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.8726
+        },
+        {
+          "token": "thun",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 7,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.081
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00004",
+      "family_hypothesis_id": "RHD-GFAM-00004",
+      "seed_recovery_id": "RHD-RREC-000004",
+      "seed_graphic_key": "repagameke",
+      "family_key_count": 80,
+      "context_covered_key_count": 80,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 96,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 23,
+        "multiword_or_ambiguous_proxy": 16,
+        "other_single_word_proxy": 48,
+        "property_ending_proxy": 9
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.24,
+        "multiword_or_ambiguous_proxy": 0.167,
+        "other_single_word_proxy": 0.5,
+        "property_ending_proxy": 0.094
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "allwissend",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.025,
+          "log_odds_enrichment": 4.1986
+        },
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.025,
+          "log_odds_enrichment": 4.1986
+        },
+        {
+          "token": "getauft",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.025,
+          "log_odds_enrichment": 4.1986
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.025,
+          "log_odds_enrichment": 4.1986
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.025,
+          "log_odds_enrichment": 2.5872
+        },
+        {
+          "token": "waizen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.025,
+          "log_odds_enrichment": 2.5872
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00005",
+      "family_hypothesis_id": "RHD-GFAM-00005",
+      "seed_recovery_id": "RHD-RREC-000028",
+      "seed_graphic_key": "jolarugameke",
+      "family_key_count": 72,
+      "context_covered_key_count": 72,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 83,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 25,
+        "multiword_or_ambiguous_proxy": 14,
+        "other_single_word_proxy": 39,
+        "property_ending_proxy": 5
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.301,
+        "multiword_or_ambiguous_proxy": 0.169,
+        "other_single_word_proxy": 0.47,
+        "property_ending_proxy": 0.06
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.028,
+          "log_odds_enrichment": 4.3137
+        },
+        {
+          "token": "getauft",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.028,
+          "log_odds_enrichment": 4.3137
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.028,
+          "log_odds_enrichment": 4.3137
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.028,
+          "log_odds_enrichment": 2.7024
+        },
+        {
+          "token": "waizen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.028,
+          "log_odds_enrichment": 2.7024
+        },
+        {
+          "token": "machen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 7,
+          "member_coverage": 0.028,
+          "log_odds_enrichment": 1.911
+        },
+        {
+          "token": "thun",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 7,
+          "member_coverage": 0.028,
+          "log_odds_enrichment": 1.911
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00006",
+      "family_hypothesis_id": "RHD-GFAM-00006",
+      "seed_recovery_id": "RHD-RREC-000017",
+      "seed_graphic_key": "polirugameke",
+      "family_key_count": 68,
+      "context_covered_key_count": 68,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 79,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 22,
+        "multiword_or_ambiguous_proxy": 15,
+        "other_single_word_proxy": 37,
+        "property_ending_proxy": 5
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.278,
+        "multiword_or_ambiguous_proxy": 0.19,
+        "other_single_word_proxy": 0.468,
+        "property_ending_proxy": 0.063
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.029,
+          "log_odds_enrichment": 4.3759
+        },
+        {
+          "token": "getauft",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.029,
+          "log_odds_enrichment": 4.3759
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.029,
+          "log_odds_enrichment": 4.3759
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.029,
+          "log_odds_enrichment": 2.7646
+        },
+        {
+          "token": "waizen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.029,
+          "log_odds_enrichment": 2.7646
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00007",
+      "family_hypothesis_id": "RHD-GFAM-00007",
+      "seed_recovery_id": "RHD-RREC-000034",
+      "seed_graphic_key": "pagorugameke",
+      "family_key_count": 67,
+      "context_covered_key_count": 67,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 78,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 22,
+        "multiword_or_ambiguous_proxy": 14,
+        "other_single_word_proxy": 37,
+        "property_ending_proxy": 5
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.282,
+        "multiword_or_ambiguous_proxy": 0.179,
+        "other_single_word_proxy": 0.474,
+        "property_ending_proxy": 0.064
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.03,
+          "log_odds_enrichment": 4.392
+        },
+        {
+          "token": "getauft",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.03,
+          "log_odds_enrichment": 4.392
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.03,
+          "log_odds_enrichment": 4.392
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.03,
+          "log_odds_enrichment": 2.7807
+        },
+        {
+          "token": "waizen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.03,
+          "log_odds_enrichment": 2.7807
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00008",
+      "family_hypothesis_id": "RHD-GFAM-00008",
+      "seed_recovery_id": "RHD-RREC-000029",
+      "seed_graphic_key": "tschitulameke",
+      "family_key_count": 66,
+      "context_covered_key_count": 66,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 73,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 13,
+        "multiword_or_ambiguous_proxy": 19,
+        "other_single_word_proxy": 36,
+        "property_ending_proxy": 5
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.178,
+        "multiword_or_ambiguous_proxy": 0.26,
+        "other_single_word_proxy": 0.493,
+        "property_ending_proxy": 0.068
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.03,
+          "log_odds_enrichment": 4.4083
+        },
+        {
+          "token": "kreis",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.03,
+          "log_odds_enrichment": 4.4083
+        },
+        {
+          "token": "kugelformig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.03,
+          "log_odds_enrichment": 4.4083
+        },
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.03,
+          "log_odds_enrichment": 4.4083
+        },
+        {
+          "token": "stinken",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.03,
+          "log_odds_enrichment": 4.4083
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.03,
+          "log_odds_enrichment": 4.4083
+        },
+        {
+          "token": "ort",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.03,
+          "log_odds_enrichment": 3.3088
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.03,
+          "log_odds_enrichment": 2.797
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00009",
+      "family_hypothesis_id": "RHD-GFAM-00009",
+      "seed_recovery_id": "RHD-RREC-000035",
+      "seed_graphic_key": "bassujameke",
+      "family_key_count": 63,
+      "context_covered_key_count": 63,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 70,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 9,
+        "multiword_or_ambiguous_proxy": 18,
+        "other_single_word_proxy": 33,
+        "property_ending_proxy": 10
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.129,
+        "multiword_or_ambiguous_proxy": 0.257,
+        "other_single_word_proxy": 0.471,
+        "property_ending_proxy": 0.143
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4588
+        },
+        {
+          "token": "sieden",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4588
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4588
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 2.8475
+        },
+        {
+          "token": "besser",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 11,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 1.5058
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00010",
+      "family_hypothesis_id": "RHD-GFAM-00010",
+      "seed_recovery_id": "RHD-RREC-000044",
+      "seed_graphic_key": "tschepi",
+      "family_key_count": 62,
+      "context_covered_key_count": 62,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 68,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 22,
+        "multiword_or_ambiguous_proxy": 15,
+        "nominalization_ending_proxy": 1,
+        "other_single_word_proxy": 28,
+        "property_ending_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.324,
+        "multiword_or_ambiguous_proxy": 0.221,
+        "nominalization_ending_proxy": 0.015,
+        "other_single_word_proxy": 0.412,
+        "property_ending_proxy": 0.029
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "ergreifen",
+          "member_key_document_frequency": 3,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.048,
+          "log_odds_enrichment": 4.8293
+        },
+        {
+          "token": "eichhornchen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "kreis",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "kriechen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "maul",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "maus",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "salben",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "saugen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "schlagen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "stinken",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "feuer",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 3.3766
+        },
+        {
+          "token": "sich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 10,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 1.6354
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00011",
+      "family_hypothesis_id": "RHD-GFAM-00011",
+      "seed_recovery_id": "RHD-RREC-000023",
+      "seed_graphic_key": "mujajameke",
+      "family_key_count": 60,
+      "context_covered_key_count": 60,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 67,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 8,
+        "multiword_or_ambiguous_proxy": 17,
+        "other_single_word_proxy": 34,
+        "property_ending_proxy": 8
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.119,
+        "multiword_or_ambiguous_proxy": 0.254,
+        "other_single_word_proxy": 0.507,
+        "property_ending_proxy": 0.119
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.033,
+          "log_odds_enrichment": 4.5116
+        },
+        {
+          "token": "rost",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.033,
+          "log_odds_enrichment": 4.5116
+        },
+        {
+          "token": "sieden",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.033,
+          "log_odds_enrichment": 4.5116
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.033,
+          "log_odds_enrichment": 4.5116
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.033,
+          "log_odds_enrichment": 2.9003
+        },
+        {
+          "token": "besser",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 11,
+          "member_coverage": 0.033,
+          "log_odds_enrichment": 1.5587
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00012",
+      "family_hypothesis_id": "RHD-GFAM-00012",
+      "seed_recovery_id": "RHD-RREC-000016",
+      "seed_graphic_key": "cocojameke",
+      "family_key_count": 59,
+      "context_covered_key_count": 59,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 66,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 8,
+        "multiword_or_ambiguous_proxy": 18,
+        "other_single_word_proxy": 32,
+        "property_ending_proxy": 8
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.121,
+        "multiword_or_ambiguous_proxy": 0.273,
+        "other_single_word_proxy": 0.485,
+        "property_ending_proxy": 0.121
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.034,
+          "log_odds_enrichment": 4.5298
+        },
+        {
+          "token": "sieden",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.034,
+          "log_odds_enrichment": 4.5298
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.034,
+          "log_odds_enrichment": 4.5298
+        },
+        {
+          "token": "krank",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.034,
+          "log_odds_enrichment": 3.4302
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.034,
+          "log_odds_enrichment": 2.9185
+        },
+        {
+          "token": "besser",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 11,
+          "member_coverage": 0.034,
+          "log_odds_enrichment": 1.5769
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00013",
+      "family_hypothesis_id": "RHD-GFAM-00013",
+      "seed_recovery_id": "RHD-RREC-000033",
+      "seed_graphic_key": "ta pagotugameke",
+      "family_key_count": 58,
+      "context_covered_key_count": 58,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 69,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 17,
+        "multiword_or_ambiguous_proxy": 14,
+        "other_single_word_proxy": 34,
+        "property_ending_proxy": 4
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.246,
+        "multiword_or_ambiguous_proxy": 0.203,
+        "other_single_word_proxy": 0.493,
+        "property_ending_proxy": 0.058
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.034,
+          "log_odds_enrichment": 4.5483
+        },
+        {
+          "token": "getauft",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.034,
+          "log_odds_enrichment": 4.5483
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.034,
+          "log_odds_enrichment": 4.5483
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.034,
+          "log_odds_enrichment": 2.937
+        },
+        {
+          "token": "waizen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.034,
+          "log_odds_enrichment": 2.937
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00014",
+      "family_hypothesis_id": "RHD-GFAM-00014",
+      "seed_recovery_id": "RHD-RREC-000002",
+      "seed_graphic_key": "loguiameke",
+      "family_key_count": 57,
+      "context_covered_key_count": 57,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 67,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 8,
+        "multiword_or_ambiguous_proxy": 16,
+        "other_single_word_proxy": 30,
+        "property_ending_proxy": 13
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.119,
+        "multiword_or_ambiguous_proxy": 0.239,
+        "other_single_word_proxy": 0.448,
+        "property_ending_proxy": 0.194
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.035,
+          "log_odds_enrichment": 4.5671
+        },
+        {
+          "token": "rasen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.035,
+          "log_odds_enrichment": 4.5671
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.035,
+          "log_odds_enrichment": 4.5671
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.035,
+          "log_odds_enrichment": 2.9558
+        },
+        {
+          "token": "sterblich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.035,
+          "log_odds_enrichment": 2.9558
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00015",
+      "family_hypothesis_id": "RHD-GFAM-00015",
+      "seed_recovery_id": "RHD-RREC-000037",
+      "seed_graphic_key": "nalsiameke",
+      "family_key_count": 56,
+      "context_covered_key_count": 56,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 66,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 7,
+        "multiword_or_ambiguous_proxy": 16,
+        "other_single_word_proxy": 29,
+        "property_ending_proxy": 14
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.106,
+        "multiword_or_ambiguous_proxy": 0.242,
+        "other_single_word_proxy": 0.439,
+        "property_ending_proxy": 0.212
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.036,
+          "log_odds_enrichment": 4.5862
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.036,
+          "log_odds_enrichment": 4.5862
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.036,
+          "log_odds_enrichment": 2.9749
+        },
+        {
+          "token": "sterblich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.036,
+          "log_odds_enrichment": 2.9749
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00016",
+      "family_hypothesis_id": "RHD-GFAM-00016",
+      "seed_recovery_id": "RHD-RREC-000010",
+      "seed_graphic_key": "schuguiameke",
+      "family_key_count": 51,
+      "context_covered_key_count": 51,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 61,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 9,
+        "multiword_or_ambiguous_proxy": 17,
+        "other_single_word_proxy": 25,
+        "property_ending_proxy": 10
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.148,
+        "multiword_or_ambiguous_proxy": 0.279,
+        "other_single_word_proxy": 0.41,
+        "property_ending_proxy": 0.164
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.039,
+          "log_odds_enrichment": 4.6871
+        },
+        {
+          "token": "verzehren",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.039,
+          "log_odds_enrichment": 4.6871
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.039,
+          "log_odds_enrichment": 4.6871
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.039,
+          "log_odds_enrichment": 3.0758
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00017",
+      "family_hypothesis_id": "RHD-GFAM-00017",
+      "seed_recovery_id": "RHD-RREC-000024",
+      "seed_graphic_key": "paca",
+      "family_key_count": 38,
+      "context_covered_key_count": 38,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 41,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 11,
+        "multiword_or_ambiguous_proxy": 10,
+        "other_single_word_proxy": 18,
+        "property_ending_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.268,
+        "multiword_or_ambiguous_proxy": 0.244,
+        "other_single_word_proxy": 0.439,
+        "property_ending_proxy": 0.049
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "gebahren",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.053,
+          "log_odds_enrichment": 5.0038
+        },
+        {
+          "token": "rana",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.053,
+          "log_odds_enrichment": 5.0038
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00018",
+      "family_hypothesis_id": "RHD-GFAM-00018",
+      "seed_recovery_id": "RHD-RREC-000025",
+      "seed_graphic_key": "tschitula",
+      "family_key_count": 37,
+      "context_covered_key_count": 37,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 40,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 9,
+        "multiword_or_ambiguous_proxy": 10,
+        "other_single_word_proxy": 20,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.225,
+        "multiword_or_ambiguous_proxy": 0.25,
+        "other_single_word_proxy": 0.5,
+        "property_ending_proxy": 0.025
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "eichhornchen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.054,
+          "log_odds_enrichment": 5.0325
+        },
+        {
+          "token": "kreis",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.054,
+          "log_odds_enrichment": 5.0325
+        },
+        {
+          "token": "maus",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.054,
+          "log_odds_enrichment": 5.0325
+        },
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.054,
+          "log_odds_enrichment": 5.0325
+        },
+        {
+          "token": "stinken",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.054,
+          "log_odds_enrichment": 5.0325
+        },
+        {
+          "token": "feuer",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.054,
+          "log_odds_enrichment": 3.9329
+        },
+        {
+          "token": "sich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 10,
+          "member_coverage": 0.054,
+          "log_odds_enrichment": 2.1919
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00019",
+      "family_hypothesis_id": "RHD-GFAM-00019",
+      "seed_recovery_id": "RHD-RREC-000021",
+      "seed_graphic_key": "pepuliki",
+      "family_key_count": 31,
+      "context_covered_key_count": 31,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 35,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 5,
+        "multiword_or_ambiguous_proxy": 6,
+        "nominalization_ending_proxy": 3,
+        "other_single_word_proxy": 20,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.143,
+        "multiword_or_ambiguous_proxy": 0.171,
+        "nominalization_ending_proxy": 0.086,
+        "other_single_word_proxy": 0.571,
+        "property_ending_proxy": 0.029
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "abwaschung",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.065,
+          "log_odds_enrichment": 5.2231
+        },
+        {
+          "token": "fasttag",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.065,
+          "log_odds_enrichment": 5.2231
+        },
+        {
+          "token": "topf",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.065,
+          "log_odds_enrichment": 5.2231
+        },
+        {
+          "token": "jahr",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.065,
+          "log_odds_enrichment": 3.6118
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00020",
+      "family_hypothesis_id": "RHD-GFAM-00020",
+      "seed_recovery_id": "RHD-RREC-000020",
+      "seed_graphic_key": "naja",
+      "family_key_count": 29,
+      "context_covered_key_count": 29,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 33,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 12,
+        "multiword_or_ambiguous_proxy": 9,
+        "other_single_word_proxy": 10,
+        "property_ending_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.364,
+        "multiword_or_ambiguous_proxy": 0.273,
+        "other_single_word_proxy": 0.303,
+        "property_ending_proxy": 0.061
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "gebahren",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.069,
+          "log_odds_enrichment": 5.2951
+        },
+        {
+          "token": "rana",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.069,
+          "log_odds_enrichment": 5.2951
+        },
+        {
+          "token": "taje",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.069,
+          "log_odds_enrichment": 5.2951
+        },
+        {
+          "token": "lang",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.069,
+          "log_odds_enrichment": 3.6839
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00021",
+      "family_hypothesis_id": "RHD-GFAM-00021",
+      "seed_recovery_id": "RHD-RREC-000003",
+      "seed_graphic_key": "tschutscha",
+      "family_key_count": 28,
+      "context_covered_key_count": 28,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 32,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 17,
+        "multiword_or_ambiguous_proxy": 8,
+        "nominalization_ending_proxy": 1,
+        "other_single_word_proxy": 6
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.531,
+        "multiword_or_ambiguous_proxy": 0.25,
+        "nominalization_ending_proxy": 0.031,
+        "other_single_word_proxy": 0.188
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "maul",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.071,
+          "log_odds_enrichment": 5.3331
+        },
+        {
+          "token": "salben",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.071,
+          "log_odds_enrichment": 5.3331
+        },
+        {
+          "token": "saugen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.071,
+          "log_odds_enrichment": 5.3331
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00022",
+      "family_hypothesis_id": "RHD-GFAM-00022",
+      "seed_recovery_id": "RHD-RREC-000008",
+      "seed_graphic_key": "buila",
+      "family_key_count": 26,
+      "context_covered_key_count": 26,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 30,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 3,
+        "multiword_or_ambiguous_proxy": 7,
+        "other_single_word_proxy": 20
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.1,
+        "multiword_or_ambiguous_proxy": 0.233,
+        "other_single_word_proxy": 0.667
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "strick",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.077,
+          "log_odds_enrichment": 5.4134
+        },
+        {
+          "token": "suppe",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.077,
+          "log_odds_enrichment": 3.8021
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00023",
+      "family_hypothesis_id": "RHD-GFAM-00023",
+      "seed_recovery_id": "RHD-RREC-000014",
+      "seed_graphic_key": "tutschi",
+      "family_key_count": 25,
+      "context_covered_key_count": 25,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 29,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 13,
+        "multiword_or_ambiguous_proxy": 7,
+        "other_single_word_proxy": 8,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.448,
+        "multiword_or_ambiguous_proxy": 0.241,
+        "other_single_word_proxy": 0.276,
+        "property_ending_proxy": 0.034
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "anfullen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.08,
+          "log_odds_enrichment": 5.456
+        },
+        {
+          "token": "saugen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.08,
+          "log_odds_enrichment": 5.456
+        },
+        {
+          "token": "zerreiben",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.08,
+          "log_odds_enrichment": 5.456
+        },
+        {
+          "token": "pferd",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.08,
+          "log_odds_enrichment": 4.3564
+        },
+        {
+          "token": "ross",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.08,
+          "log_odds_enrichment": 3.8447
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00024",
+      "family_hypothesis_id": "RHD-GFAM-00024",
+      "seed_recovery_id": "RHD-RREC-000027",
+      "seed_graphic_key": "cajutschi",
+      "family_key_count": 21,
+      "context_covered_key_count": 21,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 25,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 9,
+        "multiword_or_ambiguous_proxy": 7,
+        "other_single_word_proxy": 8,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.36,
+        "multiword_or_ambiguous_proxy": 0.28,
+        "other_single_word_proxy": 0.32,
+        "property_ending_proxy": 0.04
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "saugen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.095,
+          "log_odds_enrichment": 5.6462
+        },
+        {
+          "token": "pferd",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.095,
+          "log_odds_enrichment": 4.5467
+        },
+        {
+          "token": "ross",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.095,
+          "log_odds_enrichment": 4.0349
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00025",
+      "family_hypothesis_id": "RHD-GFAM-00025",
+      "seed_recovery_id": "RHD-RREC-000015",
+      "seed_graphic_key": "jumagualiki",
+      "family_key_count": 19,
+      "context_covered_key_count": 19,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 21,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 4,
+        "multiword_or_ambiguous_proxy": 6,
+        "nominalization_ending_proxy": 1,
+        "other_single_word_proxy": 9,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.19,
+        "multiword_or_ambiguous_proxy": 0.286,
+        "nominalization_ending_proxy": 0.048,
+        "other_single_word_proxy": 0.429,
+        "property_ending_proxy": 0.048
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "fasttag",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.105,
+          "log_odds_enrichment": 5.7562
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00026",
+      "family_hypothesis_id": "RHD-GFAM-00026",
+      "seed_recovery_id": "RHD-RREC-000007",
+      "seed_graphic_key": "tsainajoliki",
+      "family_key_count": 18,
+      "context_covered_key_count": 18,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 21,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 4,
+        "multiword_or_ambiguous_proxy": 5,
+        "nominalization_ending_proxy": 2,
+        "other_single_word_proxy": 9,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.19,
+        "multiword_or_ambiguous_proxy": 0.238,
+        "nominalization_ending_proxy": 0.095,
+        "other_single_word_proxy": 0.429,
+        "property_ending_proxy": 0.048
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "abwaschung",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.111,
+          "log_odds_enrichment": 5.8159
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00027",
+      "family_hypothesis_id": "RHD-GFAM-00027",
+      "seed_recovery_id": "RHD-RREC-000046",
+      "seed_graphic_key": "batla",
+      "family_key_count": 17,
+      "context_covered_key_count": 17,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 20,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 3,
+        "multiword_or_ambiguous_proxy": 7,
+        "other_single_word_proxy": 8,
+        "property_ending_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.15,
+        "multiword_or_ambiguous_proxy": 0.35,
+        "other_single_word_proxy": 0.4,
+        "property_ending_proxy": 0.1
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "voraus",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.118,
+          "log_odds_enrichment": 5.8794
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00028",
+      "family_hypothesis_id": "RHD-GFAM-00028",
+      "seed_recovery_id": "RHD-RREC-000018",
+      "seed_graphic_key": "pigue",
+      "family_key_count": 16,
+      "context_covered_key_count": 16,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 18,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 7,
+        "multiword_or_ambiguous_proxy": 5,
+        "other_single_word_proxy": 6
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.389,
+        "multiword_or_ambiguous_proxy": 0.278,
+        "other_single_word_proxy": 0.333
+      },
+      "top_german_context_token_associations": [],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00029",
+      "family_hypothesis_id": "RHD-GFAM-00029",
+      "seed_recovery_id": "RHD-RREC-000047",
+      "seed_graphic_key": "teeke",
+      "family_key_count": 15,
+      "context_covered_key_count": 15,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 16,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 4,
+        "multiword_or_ambiguous_proxy": 4,
+        "other_single_word_proxy": 7,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.25,
+        "multiword_or_ambiguous_proxy": 0.25,
+        "other_single_word_proxy": 0.438,
+        "property_ending_proxy": 0.062
+      },
+      "top_german_context_token_associations": [],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00030",
+      "family_hypothesis_id": "RHD-GFAM-00031",
+      "seed_recovery_id": "RHD-RREC-000009",
+      "seed_graphic_key": "naguessa",
+      "family_key_count": 14,
+      "context_covered_key_count": 14,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 16,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 5,
+        "multiword_or_ambiguous_proxy": 2,
+        "other_single_word_proxy": 9
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.312,
+        "multiword_or_ambiguous_proxy": 0.125,
+        "other_single_word_proxy": 0.562
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "verkundigen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.143,
+          "log_odds_enrichment": 6.0972
+        },
+        {
+          "token": "vier",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.143,
+          "log_odds_enrichment": 6.0972
+        },
+        {
+          "token": "andeuten",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.143,
+          "log_odds_enrichment": 4.9977
+        },
+        {
+          "token": "vierter",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.143,
+          "log_odds_enrichment": 4.9977
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00031",
+      "family_hypothesis_id": "RHD-GFAM-00030",
+      "seed_recovery_id": "RHD-RREC-000011",
+      "seed_graphic_key": "jeki",
+      "family_key_count": 14,
+      "context_covered_key_count": 14,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 18,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 9,
+        "multiword_or_ambiguous_proxy": 4,
+        "other_single_word_proxy": 5
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.5,
+        "multiword_or_ambiguous_proxy": 0.222,
+        "other_single_word_proxy": 0.278
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "beissen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.143,
+          "log_odds_enrichment": 6.0972
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00032",
+      "family_hypothesis_id": "RHD-GFAM-00032",
+      "seed_recovery_id": "RHD-RREC-000022",
+      "seed_graphic_key": "nulalila",
+      "family_key_count": 13,
+      "context_covered_key_count": 13,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 15,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 1,
+        "multiword_or_ambiguous_proxy": 2,
+        "nominalization_ending_proxy": 1,
+        "other_single_word_proxy": 11
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.067,
+        "multiword_or_ambiguous_proxy": 0.133,
+        "nominalization_ending_proxy": 0.067,
+        "other_single_word_proxy": 0.733
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "befehl",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.154,
+          "log_odds_enrichment": 6.1815
+        },
+        {
+          "token": "bekenntniss",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.154,
+          "log_odds_enrichment": 6.1815
+        },
+        {
+          "token": "gebot",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.154,
+          "log_odds_enrichment": 6.1815
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00033",
+      "family_hypothesis_id": "RHD-GFAM-00033",
+      "seed_recovery_id": "RHD-RREC-000030",
+      "seed_graphic_key": "tessiguala",
+      "family_key_count": 13,
+      "context_covered_key_count": 13,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 18,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 3,
+        "multiword_or_ambiguous_proxy": 4,
+        "nominalization_ending_proxy": 1,
+        "other_single_word_proxy": 8,
+        "property_ending_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.167,
+        "multiword_or_ambiguous_proxy": 0.222,
+        "nominalization_ending_proxy": 0.056,
+        "other_single_word_proxy": 0.444,
+        "property_ending_proxy": 0.111
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "namen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.154,
+          "log_odds_enrichment": 6.1815
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00034",
+      "family_hypothesis_id": "RHD-GFAM-00036",
+      "seed_recovery_id": "RHD-RREC-000036",
+      "seed_graphic_key": "nachpisoco",
+      "family_key_count": 11,
+      "context_covered_key_count": 11,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 12,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 3,
+        "multiword_or_ambiguous_proxy": 3,
+        "other_single_word_proxy": 6
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.25,
+        "multiword_or_ambiguous_proxy": 0.25,
+        "other_single_word_proxy": 0.5
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "asche",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.182,
+          "log_odds_enrichment": 6.3743
+        },
+        {
+          "token": "jaten",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.182,
+          "log_odds_enrichment": 6.3743
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00035",
+      "family_hypothesis_id": "RHD-GFAM-00034",
+      "seed_recovery_id": "RHD-RREC-000026",
+      "seed_graphic_key": "cunala",
+      "family_key_count": 11,
+      "context_covered_key_count": 11,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 12,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 1,
+        "multiword_or_ambiguous_proxy": 1,
+        "other_single_word_proxy": 10
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.083,
+        "multiword_or_ambiguous_proxy": 0.083,
+        "other_single_word_proxy": 0.833
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.182,
+          "log_odds_enrichment": 4.7631
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00036",
+      "family_hypothesis_id": "RHD-GFAM-00037",
+      "seed_recovery_id": "RHD-RREC-000019",
+      "seed_graphic_key": "piguelila",
+      "family_key_count": 11,
+      "context_covered_key_count": 11,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 14,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 2,
+        "multiword_or_ambiguous_proxy": 2,
+        "nominalization_ending_proxy": 1,
+        "other_single_word_proxy": 9
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.143,
+        "multiword_or_ambiguous_proxy": 0.143,
+        "nominalization_ending_proxy": 0.071,
+        "other_single_word_proxy": 0.643
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "bekenntniss",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.182,
+          "log_odds_enrichment": 6.3743
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00037",
+      "family_hypothesis_id": "RHD-GFAM-00035",
+      "seed_recovery_id": "RHD-RREC-000039",
+      "seed_graphic_key": "hoco",
+      "family_key_count": 11,
+      "context_covered_key_count": 11,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 12,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 4,
+        "multiword_or_ambiguous_proxy": 6,
+        "other_single_word_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.333,
+        "multiword_or_ambiguous_proxy": 0.5,
+        "other_single_word_proxy": 0.167
+      },
+      "top_german_context_token_associations": [],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00038",
+      "family_hypothesis_id": "RHD-GFAM-00038",
+      "seed_recovery_id": "RHD-RREC-000005",
+      "seed_graphic_key": "cauguiki",
+      "family_key_count": 10,
+      "context_covered_key_count": 10,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 15,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 2,
+        "multiword_or_ambiguous_proxy": 1,
+        "other_single_word_proxy": 12
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.133,
+        "multiword_or_ambiguous_proxy": 0.067,
+        "other_single_word_proxy": 0.8
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "wuste",
+          "member_key_document_frequency": 3,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.3,
+          "log_odds_enrichment": 6.9481
+        },
+        {
+          "token": "einode",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.2,
+          "log_odds_enrichment": 6.4864
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00039",
+      "family_hypothesis_id": "RHD-GFAM-00039",
+      "seed_recovery_id": "RHD-RREC-000001",
+      "seed_graphic_key": "tseti",
+      "family_key_count": 9,
+      "context_covered_key_count": 9,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 15,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 2,
+        "multiword_or_ambiguous_proxy": 2,
+        "other_single_word_proxy": 10,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.133,
+        "multiword_or_ambiguous_proxy": 0.133,
+        "other_single_word_proxy": 0.667,
+        "property_ending_proxy": 0.067
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "tag",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.222,
+          "log_odds_enrichment": 5.0013
+        },
+        {
+          "token": "boses",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 6,
+          "member_coverage": 0.222,
+          "log_odds_enrichment": 4.4117
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00040",
+      "family_hypothesis_id": "RHD-GFAM-00041",
+      "seed_recovery_id": "RHD-RREC-000012",
+      "seed_graphic_key": "tessiguati",
+      "family_key_count": 8,
+      "context_covered_key_count": 8,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 13,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 1,
+        "multiword_or_ambiguous_proxy": 3,
+        "other_single_word_proxy": 5,
+        "property_ending_proxy": 4
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.077,
+        "multiword_or_ambiguous_proxy": 0.231,
+        "other_single_word_proxy": 0.385,
+        "property_ending_proxy": 0.308
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "bedrangt",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.25,
+          "log_odds_enrichment": 6.7565
+        },
+        {
+          "token": "verungluckt",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.25,
+          "log_odds_enrichment": 6.7565
+        },
+        {
+          "token": "arm",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.25,
+          "log_odds_enrichment": 5.657
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00041",
+      "family_hypothesis_id": "RHD-GFAM-00040",
+      "seed_recovery_id": "RHD-RREC-000042",
+      "seed_graphic_key": "sopoli",
+      "family_key_count": 8,
+      "context_covered_key_count": 8,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 9,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 3,
+        "multiword_or_ambiguous_proxy": 1,
+        "other_single_word_proxy": 5
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.333,
+        "multiword_or_ambiguous_proxy": 0.111,
+        "other_single_word_proxy": 0.556
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "huhn",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.25,
+          "log_odds_enrichment": 6.7565
+        },
+        {
+          "token": "stern",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.25,
+          "log_odds_enrichment": 6.7565
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00042",
+      "family_hypothesis_id": "RHD-GFAM-00042",
+      "seed_recovery_id": "RHD-RREC-000032",
+      "seed_graphic_key": "cassiniki",
+      "family_key_count": 7,
+      "context_covered_key_count": 7,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 8,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 5,
+        "multiword_or_ambiguous_proxy": 1,
+        "other_single_word_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.625,
+        "multiword_or_ambiguous_proxy": 0.125,
+        "other_single_word_proxy": 0.25
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "sechs",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.286,
+          "log_odds_enrichment": 6.9244
+        },
+        {
+          "token": "scherben",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.286,
+          "log_odds_enrichment": 5.8249
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00043",
+      "family_hypothesis_id": "RHD-GFAM-00044",
+      "seed_recovery_id": "RHD-RREC-000040",
+      "seed_graphic_key": "simiba",
+      "family_key_count": 6,
+      "context_covered_key_count": 6,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 7,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 4,
+        "multiword_or_ambiguous_proxy": 2,
+        "other_single_word_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.571,
+        "multiword_or_ambiguous_proxy": 0.286,
+        "other_single_word_proxy": 0.143
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "gehen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.333,
+          "log_odds_enrichment": 5.5148
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00044",
+      "family_hypothesis_id": "RHD-GFAM-00043",
+      "seed_recovery_id": "RHD-RREC-000045",
+      "seed_graphic_key": "pemole",
+      "family_key_count": 6,
+      "context_covered_key_count": 6,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 7,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 2,
+        "multiword_or_ambiguous_proxy": 1,
+        "other_single_word_proxy": 4
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.286,
+        "multiword_or_ambiguous_proxy": 0.143,
+        "other_single_word_proxy": 0.571
+      },
+      "top_german_context_token_associations": [],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00045",
+      "family_hypothesis_id": "RHD-GFAM-00045",
+      "seed_recovery_id": "RHD-RREC-000013",
+      "seed_graphic_key": "tajenaba",
+      "family_key_count": 5,
+      "context_covered_key_count": 5,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 8,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 1,
+        "multiword_or_ambiguous_proxy": 5,
+        "other_single_word_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.125,
+        "multiword_or_ambiguous_proxy": 0.625,
+        "other_single_word_proxy": 0.25
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "tag",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.4,
+          "log_odds_enrichment": 5.767
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00046",
+      "family_hypothesis_id": "RHD-GFAM-00046",
+      "seed_recovery_id": "RHD-RREC-000041",
+      "seed_graphic_key": "tapaco",
+      "family_key_count": 4,
+      "context_covered_key_count": 4,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 5,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 3,
+        "multiword_or_ambiguous_proxy": 1,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.6,
+        "multiword_or_ambiguous_proxy": 0.2,
+        "property_ending_proxy": 0.2
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "gestern",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.5,
+          "log_odds_enrichment": 7.7156
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    },
+    {
+      "association_id": "RHD-GCTX-F-00047",
+      "family_hypothesis_id": "RHD-GFAM-00047",
+      "seed_recovery_id": "RHD-RREC-000038",
+      "seed_graphic_key": "tepigaca",
+      "family_key_count": 2,
+      "context_covered_key_count": 2,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 3,
+      "german_word_shape_proxy_counts": {
+        "other_single_word_proxy": 3
+      },
+      "german_word_shape_proxy_rates": {
+        "other_single_word_proxy": 1.0
+      },
+      "top_german_context_token_associations": [],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a graphic neighborhood. Token enrichment and word-shape proxies do not establish meaning, grammatical category, morphology, lexical identity or historical continuity."
+    }
+  ]
+}

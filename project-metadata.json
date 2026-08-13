@@ -116,7 +116,12 @@
     "steffel_graphic_families_with_neighbors": 47,
     "steffel_graphic_family_neighbor_links": 1709,
     "steffel_recurrent_graphic_prefix_patterns": 7,
-    "steffel_recurrent_graphic_suffix_patterns": 20
+    "steffel_recurrent_graphic_suffix_patterns": 20,
+    "steffel_graphic_context_key_universe": 1125,
+    "steffel_graphic_context_pattern_associations": 27,
+    "steffel_graphic_context_family_associations": 47,
+    "steffel_graphic_context_patterns_with_enriched_tokens": 22,
+    "steffel_graphic_context_families_with_enriched_tokens": 42
   },
   "editorial_pipeline": {
     "review_queue": "data/review/next_review_queue.json",
@@ -216,6 +221,7 @@
       "scripts/generate_residual_span_triage.py",
       "scripts/generate_residual_recovery_queue.py",
       "scripts/generate_graphic_family_hypotheses.py",
+      "scripts/generate_graphic_context_associations.py",
       "scripts/generate_internal_concordance.py",
       "scripts/generate_historical_variants.py",
       "scripts/generate_semantic_context_queue.py",
@@ -234,7 +240,7 @@
     "de_rar_inventory_guided_attestations_csv": "data/research/de_rar_inventory_guided_attestations.csv",
     "steffel_internal_concordance_csv": "data/research/internal_concordance.csv",
     "diachronic_semantic_context_queue_csv": "data/research/diachronic_semantic_context_queue.csv",
-    "parallel_machine_research_stage": "Internal Steffel concordance, conservative residual recovery, seeded graphic-family hypotheses, documentary variant analysis, graphemic statistics and non-adjudicative diachronic context may advance while independent human validation remains unavailable.",
+    "parallel_machine_research_stage": "Internal Steffel concordance, conservative residual recovery, seeded graphic-family hypotheses, German-context association, documentary variant analysis, graphemic statistics and non-adjudicative diachronic context may advance while independent human validation remains unavailable.",
     "de_rar_residual_span_triage": "data/research/de_rar_residual_span_triage.json",
     "de_rar_residual_span_triage_csv": "data/research/de_rar_residual_span_triage.csv",
     "de_rar_residual_span_triage_summary": "data/research/de_rar_residual_span_triage_summary.json",
@@ -246,7 +252,13 @@
     "steffel_graphic_family_hypotheses_csv": "data/research/graphic_family_hypotheses.csv",
     "steffel_graphic_pattern_hypotheses": "data/research/graphic_pattern_hypotheses.json",
     "steffel_graphic_family_hypotheses_summary": "data/research/graphic_family_hypotheses_summary.json",
-    "graphic_family_policy": "Grade-A seeds, recurrent string patterns and bounded graphic neighborhoods are machine hypotheses only; no morphemes, paradigms, phonological rules, lexical identities or cognate relations are automatically asserted."
+    "graphic_family_policy": "Grade-A seeds, recurrent string patterns and bounded graphic neighborhoods are machine hypotheses only; no morphemes, paradigms, phonological rules, lexical identities or cognate relations are automatically asserted.",
+    "steffel_graphic_context_pattern_associations": "data/research/graphic_context_pattern_associations.json",
+    "steffel_graphic_context_pattern_associations_csv": "data/research/graphic_context_pattern_associations.csv",
+    "steffel_graphic_context_family_associations": "data/research/graphic_context_family_associations.json",
+    "steffel_graphic_context_family_associations_csv": "data/research/graphic_context_family_associations.csv",
+    "steffel_graphic_context_associations_summary": "data/research/graphic_context_associations_summary.json",
+    "graphic_context_policy": "German documentary contexts are associated by document-frequency log-odds and transparent word-shape proxies only; no automatic semantic classification, part-of-speech tagging, morpheme assignment, lexical acceptance or historical interpretation is performed."
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",

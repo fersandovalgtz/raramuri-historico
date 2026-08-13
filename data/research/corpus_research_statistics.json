@@ -92,6 +92,20 @@
   "recurrent_graphic_suffix_pattern_count": 20,
   "graphic_family_automatic_morphological_analysis": false,
   "graphic_family_automatic_morpheme_assignment": false,
+  "graphic_context_key_universe_count": 1125,
+  "graphic_context_pattern_association_count": 27,
+  "graphic_context_family_association_count": 47,
+  "graphic_context_patterns_with_enriched_tokens": 22,
+  "graphic_context_families_with_enriched_tokens": 42,
+  "graphic_context_global_word_shape_proxy_counts": {
+    "infinitive_ending_proxy": 296,
+    "multiword_or_ambiguous_proxy": 381,
+    "nominalization_ending_proxy": 10,
+    "other_single_word_proxy": 487,
+    "property_ending_proxy": 56
+  },
+  "graphic_context_automatic_semantic_classification": false,
+  "graphic_context_automatic_part_of_speech_tagging": false,
   "explicit_source_variant_groups": 24,
   "normalized_graphic_collision_groups": 7,
   "diachronic_semantic_context_candidates": 298,
@@ -102,5 +116,5 @@
   },
   "human_reviewed_internal_relations": 0,
   "human_reviewed_diachronic_relations": 0,
-  "scope_note": "Derived documentary/machine counts; no validated lexical, language-identification, morphological, semantic, etymological or historical relation is asserted."
+  "scope_note": "Derived documentary/machine counts; no validated lexical, language-identification, morphological, grammatical, semantic, etymological or historical relation is asserted."
 }

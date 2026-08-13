@@ -1,0 +1,1658 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "steffel_graphic_pattern_german_context_associations",
+  "generated": "2026-08-13",
+  "count": 27,
+  "human_reviewed": false,
+  "automatic_semantic_classification": false,
+  "automatic_part_of_speech_tagging": false,
+  "records": [
+    {
+      "association_id": "RHD-GCTX-P-00001",
+      "pattern_id": "RHD-GPAT-00008",
+      "pattern": "eke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 174,
+      "context_covered_member_count": 174,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 202,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 36,
+        "multiword_or_ambiguous_proxy": 40,
+        "other_single_word_proxy": 98,
+        "property_ending_proxy": 28
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.178,
+        "multiword_or_ambiguous_proxy": 0.198,
+        "other_single_word_proxy": 0.485,
+        "property_ending_proxy": 0.139
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "allwissend",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 3.3171
+        },
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 3.3171
+        },
+        {
+          "token": "getauft",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 3.3171
+        },
+        {
+          "token": "kugelformig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 3.3171
+        },
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 3.3171
+        },
+        {
+          "token": "sandig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 3.3171
+        },
+        {
+          "token": "sieden",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 3.3171
+        },
+        {
+          "token": "stacameke",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 3.3171
+        },
+        {
+          "token": "steig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 3.3171
+        },
+        {
+          "token": "stein",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 3.3171
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 3.3171
+        },
+        {
+          "token": "weiss",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 3.3171
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 1.7055
+        },
+        {
+          "token": "kalt",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 1.7055
+        },
+        {
+          "token": "sterblich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.011,
+          "log_odds_enrichment": 1.7055
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00002",
+      "pattern_id": "RHD-GPAT-00009",
+      "pattern": "meke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 149,
+      "context_covered_member_count": 149,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 176,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 34,
+        "multiword_or_ambiguous_proxy": 30,
+        "other_single_word_proxy": 86,
+        "property_ending_proxy": 26
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.193,
+        "multiword_or_ambiguous_proxy": 0.17,
+        "other_single_word_proxy": 0.489,
+        "property_ending_proxy": 0.148
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "allwissend",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4996
+        },
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4996
+        },
+        {
+          "token": "getauft",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4996
+        },
+        {
+          "token": "kugelformig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4996
+        },
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4996
+        },
+        {
+          "token": "sandig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4996
+        },
+        {
+          "token": "sieden",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4996
+        },
+        {
+          "token": "stacameke",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4996
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4996
+        },
+        {
+          "token": "weiss",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 3.4996
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.8881
+        },
+        {
+          "token": "sterblich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.8881
+        },
+        {
+          "token": "waizen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.8881
+        },
+        {
+          "token": "thun",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 7,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 1.0966
+        },
+        {
+          "token": "besser",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 11,
+          "member_coverage": 0.013,
+          "log_odds_enrichment": 0.5459
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00003",
+      "pattern_id": "RHD-GPAT-00010",
+      "pattern": "ameke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 147,
+      "context_covered_member_count": 147,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 174,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 34,
+        "multiword_or_ambiguous_proxy": 29,
+        "other_single_word_proxy": 85,
+        "property_ending_proxy": 26
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.195,
+        "multiword_or_ambiguous_proxy": 0.167,
+        "other_single_word_proxy": 0.489,
+        "property_ending_proxy": 0.149
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "allwissend",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 3.5153
+        },
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 3.5153
+        },
+        {
+          "token": "getauft",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 3.5153
+        },
+        {
+          "token": "kugelformig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 3.5153
+        },
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 3.5153
+        },
+        {
+          "token": "sandig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 3.5153
+        },
+        {
+          "token": "sieden",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 3.5153
+        },
+        {
+          "token": "stacameke",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 3.5153
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 3.5153
+        },
+        {
+          "token": "weiss",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 3.5153
+        },
+        {
+          "token": "ehemann",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 1.9038
+        },
+        {
+          "token": "sterblich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 1.9038
+        },
+        {
+          "token": "waizen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 1.9038
+        },
+        {
+          "token": "thun",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 7,
+          "member_coverage": 0.014,
+          "log_odds_enrichment": 1.1123
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00004",
+      "pattern_id": "RHD-GPAT-00011",
+      "pattern": "iki",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 78,
+      "context_covered_member_count": 78,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 90,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 19,
+        "multiword_or_ambiguous_proxy": 15,
+        "nominalization_ending_proxy": 3,
+        "other_single_word_proxy": 52,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.211,
+        "multiword_or_ambiguous_proxy": 0.167,
+        "nominalization_ending_proxy": 0.033,
+        "other_single_word_proxy": 0.578,
+        "property_ending_proxy": 0.011
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "abwaschung",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.026,
+          "log_odds_enrichment": 4.2263
+        },
+        {
+          "token": "fallen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.026,
+          "log_odds_enrichment": 4.2263
+        },
+        {
+          "token": "fasttag",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.026,
+          "log_odds_enrichment": 4.2263
+        },
+        {
+          "token": "festtag",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.026,
+          "log_odds_enrichment": 4.2263
+        },
+        {
+          "token": "schweif",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.026,
+          "log_odds_enrichment": 4.2263
+        },
+        {
+          "token": "sechs",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.026,
+          "log_odds_enrichment": 4.2263
+        },
+        {
+          "token": "topf",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.026,
+          "log_odds_enrichment": 4.2263
+        },
+        {
+          "token": "scherben",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.026,
+          "log_odds_enrichment": 3.1267
+        },
+        {
+          "token": "jahr",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.026,
+          "log_odds_enrichment": 2.615
+        },
+        {
+          "token": "waizen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.026,
+          "log_odds_enrichment": 2.615
+        },
+        {
+          "token": "sich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 10,
+          "member_coverage": 0.026,
+          "log_odds_enrichment": 1.3854
+        },
+        {
+          "token": "seyn",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 14,
+          "member_coverage": 0.026,
+          "log_odds_enrichment": 0.9959
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00005",
+      "pattern_id": "RHD-GPAT-00001",
+      "pattern": "tsc",
+      "pattern_type": "recurrent_prefix_candidate",
+      "pattern_member_count": 63,
+      "context_covered_member_count": 63,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 69,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 22,
+        "multiword_or_ambiguous_proxy": 15,
+        "nominalization_ending_proxy": 1,
+        "other_single_word_proxy": 29,
+        "property_ending_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.319,
+        "multiword_or_ambiguous_proxy": 0.217,
+        "nominalization_ending_proxy": 0.014,
+        "other_single_word_proxy": 0.42,
+        "property_ending_proxy": 0.029
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "ergreifen",
+          "member_key_document_frequency": 3,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.048,
+          "log_odds_enrichment": 4.8116
+        },
+        {
+          "token": "eichhornchen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4588
+        },
+        {
+          "token": "kreis",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4588
+        },
+        {
+          "token": "kriechen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4588
+        },
+        {
+          "token": "maul",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4588
+        },
+        {
+          "token": "maus",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4588
+        },
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4588
+        },
+        {
+          "token": "salben",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4588
+        },
+        {
+          "token": "saugen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4588
+        },
+        {
+          "token": "schlagen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4588
+        },
+        {
+          "token": "stinken",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4588
+        },
+        {
+          "token": "feuer",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 3.3592
+        },
+        {
+          "token": "sich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 10,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 1.618
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00006",
+      "pattern_id": "RHD-GPAT-00002",
+      "pattern": "tsch",
+      "pattern_type": "recurrent_prefix_candidate",
+      "pattern_member_count": 62,
+      "context_covered_member_count": 62,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 68,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 22,
+        "multiword_or_ambiguous_proxy": 15,
+        "nominalization_ending_proxy": 1,
+        "other_single_word_proxy": 28,
+        "property_ending_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.324,
+        "multiword_or_ambiguous_proxy": 0.221,
+        "nominalization_ending_proxy": 0.015,
+        "other_single_word_proxy": 0.412,
+        "property_ending_proxy": 0.029
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "ergreifen",
+          "member_key_document_frequency": 3,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.048,
+          "log_odds_enrichment": 4.8293
+        },
+        {
+          "token": "eichhornchen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "kreis",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "kriechen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "maul",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "maus",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "salben",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "saugen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "schlagen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "stinken",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 4.4761
+        },
+        {
+          "token": "feuer",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 3.3766
+        },
+        {
+          "token": "sich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 10,
+          "member_coverage": 0.032,
+          "log_odds_enrichment": 1.6354
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00007",
+      "pattern_id": "RHD-GPAT-00018",
+      "pattern": "aca",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 49,
+      "context_covered_member_count": 49,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 51,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 2,
+        "multiword_or_ambiguous_proxy": 10,
+        "other_single_word_proxy": 36,
+        "property_ending_proxy": 3
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.039,
+        "multiword_or_ambiguous_proxy": 0.196,
+        "other_single_word_proxy": 0.706,
+        "property_ending_proxy": 0.059
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "saite",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.041,
+          "log_odds_enrichment": 4.7302
+        },
+        {
+          "token": "ziegelerde",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.041,
+          "log_odds_enrichment": 3.6306
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00008",
+      "pattern_id": "RHD-GPAT-00012",
+      "pattern": "gameke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 44,
+      "context_covered_member_count": 44,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 56,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 20,
+        "multiword_or_ambiguous_proxy": 3,
+        "other_single_word_proxy": 28,
+        "property_ending_proxy": 5
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.357,
+        "multiword_or_ambiguous_proxy": 0.054,
+        "other_single_word_proxy": 0.5,
+        "property_ending_proxy": 0.089
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "allwissend",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.045,
+          "log_odds_enrichment": 4.846
+        },
+        {
+          "token": "getauft",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.045,
+          "log_odds_enrichment": 4.846
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00009",
+      "pattern_id": "RHD-GPAT-00019",
+      "pattern": "ala",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 39,
+      "context_covered_member_count": 39,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 43,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 3,
+        "multiword_or_ambiguous_proxy": 9,
+        "nominalization_ending_proxy": 2,
+        "other_single_word_proxy": 28,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.07,
+        "multiword_or_ambiguous_proxy": 0.209,
+        "nominalization_ending_proxy": 0.047,
+        "other_single_word_proxy": 0.651,
+        "property_ending_proxy": 0.023
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "korper",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.051,
+          "log_odds_enrichment": 4.9758
+        },
+        {
+          "token": "namen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.051,
+          "log_odds_enrichment": 4.9758
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00010",
+      "pattern_id": "RHD-GPAT-00015",
+      "pattern": "ila",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 37,
+      "context_covered_member_count": 37,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 43,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 1,
+        "multiword_or_ambiguous_proxy": 6,
+        "nominalization_ending_proxy": 1,
+        "other_single_word_proxy": 35
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.023,
+        "multiword_or_ambiguous_proxy": 0.14,
+        "nominalization_ending_proxy": 0.023,
+        "other_single_word_proxy": 0.814
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "bekenntniss",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.054,
+          "log_odds_enrichment": 5.0325
+        },
+        {
+          "token": "gebot",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.054,
+          "log_odds_enrichment": 5.0325
+        },
+        {
+          "token": "hulfe",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.054,
+          "log_odds_enrichment": 5.0325
+        },
+        {
+          "token": "strick",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.054,
+          "log_odds_enrichment": 5.0325
+        },
+        {
+          "token": "suppe",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.054,
+          "log_odds_enrichment": 3.4212
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00011",
+      "pattern_id": "RHD-GPAT-00016",
+      "pattern": "liki",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 31,
+      "context_covered_member_count": 31,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 35,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 5,
+        "multiword_or_ambiguous_proxy": 6,
+        "nominalization_ending_proxy": 3,
+        "other_single_word_proxy": 20,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.143,
+        "multiword_or_ambiguous_proxy": 0.171,
+        "nominalization_ending_proxy": 0.086,
+        "other_single_word_proxy": 0.571,
+        "property_ending_proxy": 0.029
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "abwaschung",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.065,
+          "log_odds_enrichment": 5.2231
+        },
+        {
+          "token": "fasttag",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.065,
+          "log_odds_enrichment": 5.2231
+        },
+        {
+          "token": "topf",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.065,
+          "log_odds_enrichment": 5.2231
+        },
+        {
+          "token": "jahr",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.065,
+          "log_odds_enrichment": 3.6118
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00012",
+      "pattern_id": "RHD-GPAT-00003",
+      "pattern": "tschi",
+      "pattern_type": "recurrent_prefix_candidate",
+      "pattern_member_count": 28,
+      "context_covered_member_count": 28,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 30,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 4,
+        "multiword_or_ambiguous_proxy": 8,
+        "other_single_word_proxy": 17,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.133,
+        "multiword_or_ambiguous_proxy": 0.267,
+        "other_single_word_proxy": 0.567,
+        "property_ending_proxy": 0.033
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "eichhornchen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.071,
+          "log_odds_enrichment": 5.3331
+        },
+        {
+          "token": "kreis",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.071,
+          "log_odds_enrichment": 5.3331
+        },
+        {
+          "token": "maus",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.071,
+          "log_odds_enrichment": 5.3331
+        },
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.071,
+          "log_odds_enrichment": 5.3331
+        },
+        {
+          "token": "stinken",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.071,
+          "log_odds_enrichment": 5.3331
+        },
+        {
+          "token": "feuer",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.071,
+          "log_odds_enrichment": 4.2336
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00013",
+      "pattern_id": "RHD-GPAT-00013",
+      "pattern": "iameke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 28,
+      "context_covered_member_count": 28,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 35,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 6,
+        "multiword_or_ambiguous_proxy": 4,
+        "other_single_word_proxy": 16,
+        "property_ending_proxy": 9
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.171,
+        "multiword_or_ambiguous_proxy": 0.114,
+        "other_single_word_proxy": 0.457,
+        "property_ending_proxy": 0.257
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "sterblich",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.071,
+          "log_odds_enrichment": 3.7218
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00014",
+      "pattern_id": "RHD-GPAT-00014",
+      "pattern": "ugameke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 27,
+      "context_covered_member_count": 27,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 31,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 16,
+        "multiword_or_ambiguous_proxy": 1,
+        "other_single_word_proxy": 13,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.516,
+        "multiword_or_ambiguous_proxy": 0.032,
+        "other_single_word_proxy": 0.419,
+        "property_ending_proxy": 0.032
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "getauft",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.074,
+          "log_odds_enrichment": 5.3725
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00015",
+      "pattern_id": "RHD-GPAT-00020",
+      "pattern": "chi",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 23,
+      "context_covered_member_count": 23,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 27,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 9,
+        "multiword_or_ambiguous_proxy": 7,
+        "other_single_word_proxy": 10,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.333,
+        "multiword_or_ambiguous_proxy": 0.259,
+        "other_single_word_proxy": 0.37,
+        "property_ending_proxy": 0.037
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "saugen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.087,
+          "log_odds_enrichment": 5.5467
+        },
+        {
+          "token": "pferd",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.087,
+          "log_odds_enrichment": 4.4472
+        },
+        {
+          "token": "ross",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.087,
+          "log_odds_enrichment": 3.9355
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00016",
+      "pattern_id": "RHD-GPAT-00017",
+      "pattern": "jameke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 22,
+      "context_covered_member_count": 22,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 25,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 4,
+        "multiword_or_ambiguous_proxy": 4,
+        "other_single_word_proxy": 13,
+        "property_ending_proxy": 4
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.16,
+        "multiword_or_ambiguous_proxy": 0.16,
+        "other_single_word_proxy": 0.52,
+        "property_ending_proxy": 0.16
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "sieden",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.091,
+          "log_odds_enrichment": 5.5953
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00017",
+      "pattern_id": "RHD-GPAT-00021",
+      "pattern": "tschi",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 21,
+      "context_covered_member_count": 21,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 25,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 9,
+        "multiword_or_ambiguous_proxy": 7,
+        "other_single_word_proxy": 8,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.36,
+        "multiword_or_ambiguous_proxy": 0.28,
+        "other_single_word_proxy": 0.32,
+        "property_ending_proxy": 0.04
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "saugen",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.095,
+          "log_odds_enrichment": 5.6462
+        },
+        {
+          "token": "pferd",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 3,
+          "member_coverage": 0.095,
+          "log_odds_enrichment": 4.5467
+        },
+        {
+          "token": "ross",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 4,
+          "member_coverage": 0.095,
+          "log_odds_enrichment": 4.0349
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00018",
+      "pattern_id": "RHD-GPAT-00022",
+      "pattern": "oco",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 18,
+      "context_covered_member_count": 18,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 20,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 6,
+        "multiword_or_ambiguous_proxy": 7,
+        "other_single_word_proxy": 7
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.3,
+        "multiword_or_ambiguous_proxy": 0.35,
+        "other_single_word_proxy": 0.35
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "asche",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.111,
+          "log_odds_enrichment": 5.8159
+        },
+        {
+          "token": "geisseln",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.111,
+          "log_odds_enrichment": 5.8159
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00019",
+      "pattern_id": "RHD-GPAT-00023",
+      "pattern": "lila",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 11,
+      "context_covered_member_count": 11,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 13,
+      "german_word_shape_proxy_counts": {
+        "multiword_or_ambiguous_proxy": 2,
+        "nominalization_ending_proxy": 1,
+        "other_single_word_proxy": 10
+      },
+      "german_word_shape_proxy_rates": {
+        "multiword_or_ambiguous_proxy": 0.154,
+        "nominalization_ending_proxy": 0.077,
+        "other_single_word_proxy": 0.769
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "bekenntniss",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.182,
+          "log_odds_enrichment": 6.3743
+        },
+        {
+          "token": "gebot",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.182,
+          "log_odds_enrichment": 6.3743
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00020",
+      "pattern_id": "RHD-GPAT-00024",
+      "pattern": "lameke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 7,
+      "context_covered_member_count": 7,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 9,
+      "german_word_shape_proxy_counts": {
+        "multiword_or_ambiguous_proxy": 3,
+        "other_single_word_proxy": 4,
+        "property_ending_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "multiword_or_ambiguous_proxy": 0.333,
+        "other_single_word_proxy": 0.444,
+        "property_ending_proxy": 0.222
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "altes",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.286,
+          "log_odds_enrichment": 6.9244
+        },
+        {
+          "token": "kugelformig",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.286,
+          "log_odds_enrichment": 6.9244
+        },
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.286,
+          "log_odds_enrichment": 6.9244
+        },
+        {
+          "token": "weib",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.286,
+          "log_odds_enrichment": 6.9244
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00021",
+      "pattern_id": "RHD-GPAT-00004",
+      "pattern": "tschit",
+      "pattern_type": "recurrent_prefix_candidate",
+      "pattern_member_count": 7,
+      "context_covered_member_count": 7,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 9,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 1,
+        "multiword_or_ambiguous_proxy": 2,
+        "other_single_word_proxy": 5,
+        "property_ending_proxy": 1
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.111,
+        "multiword_or_ambiguous_proxy": 0.222,
+        "other_single_word_proxy": 0.556,
+        "property_ending_proxy": 0.111
+      },
+      "top_german_context_token_associations": [],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00022",
+      "pattern_id": "RHD-GPAT-00006",
+      "pattern": "pig",
+      "pattern_type": "recurrent_prefix_candidate",
+      "pattern_member_count": 4,
+      "context_covered_member_count": 4,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 6,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 2,
+        "other_single_word_proxy": 4
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.333,
+        "other_single_word_proxy": 0.667
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "bekenntniss",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.5,
+          "log_odds_enrichment": 7.7156
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00023",
+      "pattern_id": "RHD-GPAT-00005",
+      "pattern": "tessigu",
+      "pattern_type": "recurrent_prefix_candidate",
+      "pattern_member_count": 4,
+      "context_covered_member_count": 4,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 9,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 1,
+        "multiword_or_ambiguous_proxy": 2,
+        "other_single_word_proxy": 4,
+        "property_ending_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.111,
+        "multiword_or_ambiguous_proxy": 0.222,
+        "other_single_word_proxy": 0.444,
+        "property_ending_proxy": 0.222
+      },
+      "top_german_context_token_associations": [],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00024",
+      "pattern_id": "RHD-GPAT-00025",
+      "pattern": "uiameke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 4,
+      "context_covered_member_count": 4,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 9,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 3,
+        "other_single_word_proxy": 2,
+        "property_ending_proxy": 4
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.333,
+        "other_single_word_proxy": 0.222,
+        "property_ending_proxy": 0.444
+      },
+      "top_german_context_token_associations": [],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00025",
+      "pattern_id": "RHD-GPAT-00026",
+      "pattern": "utschi",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 4,
+      "context_covered_member_count": 4,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 7,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 4,
+        "multiword_or_ambiguous_proxy": 1,
+        "other_single_word_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.571,
+        "multiword_or_ambiguous_proxy": 0.143,
+        "other_single_word_proxy": 0.286
+      },
+      "top_german_context_token_associations": [],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00026",
+      "pattern_id": "RHD-GPAT-00027",
+      "pattern": "ulameke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "pattern_member_count": 3,
+      "context_covered_member_count": 3,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 5,
+      "german_word_shape_proxy_counts": {
+        "other_single_word_proxy": 3,
+        "property_ending_proxy": 2
+      },
+      "german_word_shape_proxy_rates": {
+        "other_single_word_proxy": 0.6,
+        "property_ending_proxy": 0.4
+      },
+      "top_german_context_token_associations": [
+        {
+          "token": "rund",
+          "member_key_document_frequency": 2,
+          "global_key_document_frequency": 2,
+          "member_coverage": 0.667,
+          "log_odds_enrichment": 8.2273
+        }
+      ],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    },
+    {
+      "association_id": "RHD-GCTX-P-00027",
+      "pattern_id": "RHD-GPAT-00007",
+      "pattern": "pigu",
+      "pattern_type": "recurrent_prefix_candidate",
+      "pattern_member_count": 3,
+      "context_covered_member_count": 3,
+      "context_coverage_ratio": 1.0,
+      "german_context_string_count": 5,
+      "german_word_shape_proxy_counts": {
+        "infinitive_ending_proxy": 2,
+        "other_single_word_proxy": 3
+      },
+      "german_word_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.4,
+        "other_single_word_proxy": 0.6
+      },
+      "top_german_context_token_associations": [],
+      "status": "machine_documentary_context_association",
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_part_of_speech_tagging": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "German documentary-context association for a recurrent string pattern. Enrichment and word-shape proxies are not semantic categories, parts of speech, morphemes or validated linguistic functions."
+    }
+  ]
+}
