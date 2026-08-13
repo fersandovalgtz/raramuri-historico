@@ -7,6 +7,7 @@ on:
       - 'scripts/research_common.py'
       - 'scripts/generate_de_rar_attestations.py'
       - 'scripts/generate_residual_span_triage.py'
+      - 'scripts/generate_residual_recovery_queue.py'
       - 'scripts/generate_internal_concordance.py'
       - 'scripts/generate_historical_variants.py'
       - 'scripts/generate_semantic_context_queue.py'
@@ -34,6 +35,7 @@ jobs:
         run: |
           python3 scripts/generate_de_rar_attestations.py
           python3 scripts/generate_residual_span_triage.py
+          python3 scripts/generate_residual_recovery_queue.py
           python3 scripts/generate_internal_concordance.py
           python3 scripts/generate_historical_variants.py
           python3 scripts/generate_semantic_context_queue.py
@@ -52,31 +54,37 @@ jobs:
           r=json.load((d/'de_rar_residual_span_candidates.json').open(encoding='utf-8'))
           t=json.load((d/'de_rar_residual_span_triage.json').open(encoding='utf-8'))
           ts=json.load((d/'de_rar_residual_span_triage_summary.json').open(encoding='utf-8'))
+          rq=json.load((d/'de_rar_residual_recovery_queue.json').open(encoding='utf-8'))
+          rqs=json.load((d/'de_rar_residual_recovery_queue_summary.json').open(encoding='utf-8'))
           c=json.load((d/'internal_concordance.json').open(encoding='utf-8'))
           v=json.load((d/'historical_variant_index.json').open(encoding='utf-8'))
           s=json.load((d/'diachronic_semantic_context_queue.json').open(encoding='utf-8'))
           q=json.load(open('data/diachronic/adjudication_queue.json',encoding='utf-8'))
           st=json.load((d/'corpus_research_statistics.json').open(encoding='utf-8'))
           pm=json.load(open('project-metadata.json',encoding='utf-8'))
-          assert a['human_reviewed'] is False and r['human_reviewed'] is False and t['human_reviewed'] is False
+          assert a['human_reviewed'] is False and r['human_reviewed'] is False and t['human_reviewed'] is False and rq['human_reviewed'] is False
           assert c['human_reviewed'] is False and v['human_reviewed'] is False and s['human_reviewed'] is False
           assert t['count']==r['count']==ts['candidate_count']
+          assert rq['count']==rqs['unique_recovery_candidate_groups']
+          assert rq['automatic_language_identification'] is False and rq['automatic_lexeme_creation'] is False
           assert t['automatic_language_identification'] is False and t['automatic_lexeme_creation'] is False
           assert ts['automatic_language_identification'] is False and ts['automatic_lexeme_creation'] is False
           assert all(not x['human_reviewed'] and x['status']=='machine_triage_only' for x in t['records'])
+          assert all(not x['human_reviewed'] and x['status']=='machine_recovery_candidate' for x in rq['records'])
           assert set(x['review_priority_tier'] for x in t['records']) <= {1,2,3,4}
           assert c['count']==a['count'] and s['count']==q['count']
           assert s['automatic_semantic_judgment'] is False and s['cross_language_semantic_similarity_computed'] is False
           assert all(not x['human_reviewed'] for x in a['records']) and all(not x['human_reviewed'] for x in c['records'])
           assert all(not x['independent_review']['human_reviewed'] for x in s['records'])
           assert st['human_reviewed_internal_relations']==0 and st['human_reviewed_diachronic_relations']==0 and pm['scope']['research_layer_human_reviewed_relations']==0
-          assert st['residual_span_triage_candidates']==t['count']
+          assert st['residual_span_triage_candidates']==t['count'] and st['residual_recovery_candidate_groups']==rq['count']
           assert sum(1 for _ in csv.DictReader((d/'internal_concordance.csv').open(encoding='utf-8')))==c['count']
           assert sum(1 for _ in csv.DictReader((d/'diachronic_semantic_context_queue.csv').open(encoding='utf-8')))==s['count']
           assert sum(1 for _ in csv.DictReader((d/'de_rar_residual_span_triage.csv').open(encoding='utf-8')))==t['count']
+          assert sum(1 for _ in csv.DictReader((d/'de_rar_residual_recovery_queue.csv').open(encoding='utf-8')))==rq['count']
           assert Path('public/research.html').exists() and 'research.html' in Path('public/index.html').read_text(encoding='utf-8')
           assert 'Investigación interna de Steffel' in Path('README.md').read_text(encoding='utf-8')
-          print('OK research layers:',a['count'],c['count'],s['count'],'residual triage',t['count'])
+          print('OK research layers:',a['count'],c['count'],s['count'],'residual triage',t['count'],'recovery groups',rq['count'])
           PY
       - name: Commit generated research artifacts
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -87,5 +95,5 @@ jobs:
           if git diff --cached --quiet; then exit 0; fi
           git fetch origin main
           if [ "$(git rev-parse origin/main)" != "$GITHUB_SHA" ]; then exit 0; fi
-          git commit -m 'Regenerate residual triage and internal research layers'
+          git commit -m 'Regenerate residual recovery and internal research layers'
           git push
