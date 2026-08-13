@@ -11,6 +11,7 @@ on:
       - 'data/diplomatic/**'
       - 'data/facsimile/**'
       - 'data/validation/review/**'
+      - 'data/diachronic/source_registry.json'
       - 'project-metadata.json'
       - 'scripts/extract_full_corpus.py'
       - 'scripts/apply_review_overrides.py'
@@ -18,6 +19,8 @@ on:
       - 'scripts/generate_validation_queue.py'
       - 'scripts/generate_next_philological_batch.py'
       - 'scripts/generate_human_review_priority.py'
+      - 'scripts/generate_diachronic_correspondences.py'
+      - 'scripts/sync_project_metadata.py'
       - 'scripts/generate_exports.py'
       - 'tests/validate.py'
       - 'tests/validate_validation_phase.py'
@@ -35,6 +38,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Checkout pinned Rarámuri Digital comparison source
+        uses: actions/checkout@v4
+        with:
+          repository: fersandovalgtz/raramuri-digital
+          ref: 156921f4edfe27d784edc1e6444867eaa368f2e5
+          path: .tmp-raramuri-digital
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -44,7 +53,7 @@ jobs:
             curl -L --fail --retry 3 -o sources/steffel-1809-ocr-source.txt https://archive.org/download/tarahumarischesw00stef/tarahumarischesw00stef_djvu.txt
           fi
           echo "6df508cd8c63db030cfa0339f8fdd45980c01d1dc7f85b310059f233653c9fb8  sources/steffel-1809-ocr-source.txt" | sha256sum -c -
-      - name: Regenerate corpus and apply editorial overlays
+      - name: Regenerate corpus, validation state and diachronic candidates
         run: |
           python3 scripts/extract_full_corpus.py
           python3 scripts/apply_review_overrides.py
@@ -52,17 +61,60 @@ jobs:
           python3 scripts/generate_validation_queue.py
           python3 scripts/generate_next_philological_batch.py
           python3 scripts/generate_human_review_priority.py
+          python3 scripts/generate_diachronic_correspondences.py
+          python3 scripts/sync_project_metadata.py
           python3 scripts/generate_exports.py
       - name: Validate corpus, layout, diplomatic layer and exports
         run: |
           python3 tests/validate.py
           python3 tests/validate_validation_phase.py
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          root=Path('.')
+          d=root/'data/diachronic'
+          payload=json.load((d/'exact_graphic_candidates.json').open(encoding='utf-8'))
+          summary=json.load((d/'exact_graphic_candidates_summary.json').open(encoding='utf-8'))
+          registry=json.load((d/'source_registry.json').open(encoding='utf-8'))
+          pm=json.load((root/'project-metadata.json').open(encoding='utf-8'))
+          modern=next(x for x in registry['sources'] if x['role']=='contemporary')
+          commit=modern['commit']
+          assert re.fullmatch(r'[0-9a-f]{40}',commit)
+          records=payload['records']
+          assert payload['count']==len(records)
+          assert payload['human_reviewed'] is False
+          assert summary['candidate_count']==len(records)
+          ids=[]; pairs=[]; hids=set(); mids=set(); keys=set()
+          for i,x in enumerate(records,1):
+              assert x['correspondence_id']==f'RHD-CORR-{i:06d}'
+              ids.append(x['correspondence_id'])
+              h=x['historical']; m=x['modern']; rel=x['candidate_relation']; rv=x['independent_review']
+              assert h['direction']=='RAR-DE'
+              assert re.fullmatch(r'RHD-S1809-[0-9]{5}',h['record_id'])
+              assert re.fullmatch(r'RD-[0-9]{6}',m['record_id'])
+              assert h['match_key']==m['match_key']==rel['graphic_key']
+              assert rel['type']=='exact_normalized_graphic_match'
+              assert rel['status']=='machine_candidate'
+              assert x['derivation']['modern_commit']==commit
+              assert rv['human_reviewed'] is False and rv['decision']=='not_assessed'
+              pairs.append((h['record_id'],h['matched_component_index'],m['record_id'],m['matched_component_index']))
+              hids.add(h['record_id']); mids.add(m['record_id']); keys.add(rel['graphic_key'])
+          assert len(ids)==len(set(ids))
+          assert len(pairs)==len(set(pairs))
+          assert summary['historical_records_with_candidates']==len(hids)
+          assert summary['modern_records_matched']==len(mids)
+          assert summary['unique_graphic_keys']==len(keys)
+          assert pm['scope']['diachronic_exact_graphic_candidates']==len(records)
+          assert pm['editorial_pipeline']['diachronic_modern_source_commit']==commit
+          assert pm['editorial_pipeline']['diachronic_human_reviewed_candidates']==0
+          print(f"OK diachronic layer: {len(records)} machine candidates; human reviewed=0")
+          PY
       - name: Commit regenerated artifacts
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sources/steffel-1809-ocr-source.txt data public/data manifest.json
+          git add sources/steffel-1809-ocr-source.txt data public/data manifest.json project-metadata.json
           if git diff --cached --quiet; then
             echo "No generated changes"
           else
