@@ -1,0 +1,22 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "cohort": "exact_normalized_graphic_match_v1",
+  "generated": "2026-08-13",
+  "historical_direction": "RAR-DE",
+  "historical_eligible_records": 774,
+  "modern_eligible_records": 2581,
+  "candidate_count": 50,
+  "historical_records_with_candidates": 36,
+  "modern_records_matched": 48,
+  "unique_graphic_keys": 35,
+  "ambiguous_graphic_keys": 11,
+  "short_form_candidates": 23,
+  "relation_type": "exact_normalized_graphic_match",
+  "candidate_status": "machine_candidate",
+  "human_reviewed": false,
+  "modern_repository": "fersandovalgtz/raramuri-digital",
+  "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+  "modern_source": "data/lexicon-master.csv",
+  "method": "conservative_exact_graphic_match_v1",
+  "scope_note": "Counts describe documentary comparison candidates only. No candidate is a validated semantic, etymological, dialectal or historical-continuity relation."
+}

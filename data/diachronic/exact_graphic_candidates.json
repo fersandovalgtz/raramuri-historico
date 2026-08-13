@@ -1,0 +1,2912 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "diachronic_correspondence_candidates",
+  "cohort": "exact_normalized_graphic_match_v1",
+  "generated": "2026-08-13",
+  "human_reviewed": false,
+  "source_registry": "data/diachronic/source_registry.json",
+  "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+  "count": 50,
+  "records": [
+    {
+      "correspondence_id": "RHD-CORR-000001",
+      "historical": {
+        "record_id": "RHD-S1809-00026",
+        "form_diplomatic": "Abé",
+        "matched_component": "Abé",
+        "matched_component_index": 1,
+        "match_key": "abe",
+        "article_diplomatic": "Abé, dort.",
+        "printed_page": 353,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000002",
+        "headword": "Abé",
+        "headword_raw": "Abé",
+        "headword_normalized": "abe",
+        "matched_component": "Abé",
+        "matched_component_index": 1,
+        "match_key": "abe",
+        "homonym_number": "",
+        "classification": "Adv",
+        "classification_family": "Adv",
+        "translation_raw": "Hoy",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "3",
+        "page_end": "3",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "abe",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000002",
+      "historical": {
+        "record_id": "RHD-S1809-01649",
+        "form_diplomatic": "Ali oder ari",
+        "matched_component": "ari",
+        "matched_component_index": 2,
+        "match_key": "ari",
+        "article_diplomatic": "Ali oder ari, Aber, ſ. abiti.",
+        "printed_page": 353,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000091",
+        "headword": "Arí",
+        "headword_raw": "Arí",
+        "headword_normalized": "ari",
+        "matched_component": "Arí",
+        "matched_component_index": 1,
+        "match_key": "ari",
+        "homonym_number": "",
+        "classification": "Adv",
+        "classification_family": "Adv",
+        "translation_raw": "Tarde",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "7",
+        "page_end": "7",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "ari",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000003",
+      "historical": {
+        "record_id": "RHD-S1809-01655",
+        "form_diplomatic": "Ari",
+        "matched_component": "Ari",
+        "matched_component_index": 1,
+        "match_key": "ari",
+        "article_diplomatic": "Ari, ein Anruf, mit welchem man die belaſteten Maulthiere antreibt.",
+        "printed_page": 354,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000091",
+        "headword": "Arí",
+        "headword_raw": "Arí",
+        "headword_normalized": "ari",
+        "matched_component": "Arí",
+        "matched_component_index": 1,
+        "match_key": "ari",
+        "homonym_number": "",
+        "classification": "Adv",
+        "classification_family": "Adv",
+        "translation_raw": "Tarde",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "7",
+        "page_end": "7",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "ari",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000004",
+      "historical": {
+        "record_id": "RHD-S1809-01688",
+        "form_diplomatic": "Boní",
+        "matched_component": "Boní",
+        "matched_component_index": 1,
+        "match_key": "boni",
+        "article_diplomatic": "Boní, Schweſter.",
+        "printed_page": 355,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000301",
+        "headword": "Boní",
+        "headword_raw": "Boní",
+        "headword_normalized": "boni",
+        "matched_component": "Boní",
+        "matched_component_index": 1,
+        "match_key": "boni",
+        "homonym_number": "",
+        "classification": "S",
+        "classification_family": "S",
+        "translation_raw": "Hermano menor",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "19",
+        "page_end": "19",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "boni",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000005",
+      "historical": {
+        "record_id": "RHD-S1809-01700",
+        "form_diplomatic": "Búra",
+        "matched_component": "Búra",
+        "matched_component_index": 1,
+        "match_key": "bura",
+        "article_diplomatic": "Búra, Hirſch.",
+        "printed_page": 355,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000341",
+        "headword": "Burá",
+        "headword_raw": "Burá",
+        "headword_normalized": "bura",
+        "matched_component": "Burá",
+        "matched_component_index": 1,
+        "match_key": "bura",
+        "homonym_number": "",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Hacer camino",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "20",
+        "page_end": "20",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "bura",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000006",
+      "historical": {
+        "record_id": "RHD-S1809-01702",
+        "form_diplomatic": "Ca",
+        "matched_component": "Ca",
+        "matched_component_index": 1,
+        "match_key": "ca",
+        "article_diplomatic": "Ca, oder guacá, Daher. Her da.",
+        "printed_page": 355,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000357",
+        "headword": "ca",
+        "headword_raw": "1ca",
+        "headword_normalized": "ca",
+        "matched_component": "ca",
+        "matched_component_index": 1,
+        "match_key": "ca",
+        "homonym_number": "1",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "translation_raw": "Llevar (en la mano)",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "21",
+        "page_end": "21",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "ca",
+        "modern_candidates_for_key": 3,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000007",
+      "historical": {
+        "record_id": "RHD-S1809-01702",
+        "form_diplomatic": "Ca",
+        "matched_component": "Ca",
+        "matched_component_index": 1,
+        "match_key": "ca",
+        "article_diplomatic": "Ca, oder guacá, Daher. Her da.",
+        "printed_page": 355,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000358",
+        "headword": "ca",
+        "headword_raw": "1ca",
+        "headword_normalized": "ca",
+        "matched_component": "ca",
+        "matched_component_index": 1,
+        "match_key": "ca",
+        "homonym_number": "1",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "translation_raw": "Traer",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "21",
+        "page_end": "21",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "ca",
+        "modern_candidates_for_key": 3,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000008",
+      "historical": {
+        "record_id": "RHD-S1809-01702",
+        "form_diplomatic": "Ca",
+        "matched_component": "Ca",
+        "matched_component_index": 1,
+        "match_key": "ca",
+        "article_diplomatic": "Ca, oder guacá, Daher. Her da.",
+        "printed_page": 355,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000359",
+        "headword": "ca",
+        "headword_raw": "2ca",
+        "headword_normalized": "ca",
+        "matched_component": "ca",
+        "matched_component_index": 1,
+        "match_key": "ca",
+        "homonym_number": "2",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "translation_raw": "Hacer sombra",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "21",
+        "page_end": "21",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "ca",
+        "modern_candidates_for_key": 3,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000009",
+      "historical": {
+        "record_id": "RHD-S1809-01723",
+        "form_diplomatic": "Có oder gö",
+        "matched_component": "Có",
+        "matched_component_index": 1,
+        "match_key": "co",
+        "article_diplomatic": "Có oder gö, iſt eine Anhängsſylbe, welche der Bedeutung des Wortes, dem ſie beygeſetzt iſt, einen Nachdruck giebt, z. B. Simigó, ſo geh doch. Jolágo, mache doch.",
+        "printed_page": 355,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000472",
+        "headword": "co",
+        "headword_raw": "1co",
+        "headword_normalized": "co",
+        "matched_component": "co",
+        "matched_component_index": 1,
+        "match_key": "co",
+        "homonym_number": "1",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "translation_raw": "Ser (Cuando uno dice: Echirigá ju. Así es. El otro contesta: Echirigá co. Así es.)",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "26",
+        "page_end": "26",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "co",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000010",
+      "historical": {
+        "record_id": "RHD-S1809-01723",
+        "form_diplomatic": "Có oder gö",
+        "matched_component": "Có",
+        "matched_component_index": 1,
+        "match_key": "co",
+        "article_diplomatic": "Có oder gö, iſt eine Anhängsſylbe, welche der Bedeutung des Wortes, dem ſie beygeſetzt iſt, einen Nachdruck giebt, z. B. Simigó, ſo geh doch. Jolágo, mache doch.",
+        "printed_page": 355,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000473",
+        "headword": "co",
+        "headword_raw": "2co",
+        "headword_normalized": "co",
+        "matched_component": "co",
+        "matched_component_index": 1,
+        "match_key": "co",
+        "homonym_number": "2",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "translation_raw": "Picar (chile) Echi co'huáami huabé cóori. Ésa comida estaba muy picante. [pret: cóori; fut.: córama]",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "26",
+        "page_end": "26",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "co",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000011",
+      "historical": {
+        "record_id": "RHD-S1809-01756",
+        "form_diplomatic": "Cuná",
+        "matched_component": "Cuná",
+        "matched_component_index": 1,
+        "match_key": "cuna",
+        "article_diplomatic": "Cuná, Ehemann.",
+        "printed_page": 356,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000587",
+        "headword": "Cuná",
+        "headword_raw": "Cuná",
+        "headword_normalized": "cuna",
+        "matched_component": "Cuná",
+        "matched_component_index": 1,
+        "match_key": "cuna",
+        "homonym_number": "",
+        "classification": "S",
+        "classification_family": "S",
+        "translation_raw": "Marido, esposo",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "31",
+        "page_end": "31",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "cuna",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000012",
+      "historical": {
+        "record_id": "RHD-S1809-01763",
+        "form_diplomatic": "Cú",
+        "matched_component": "Cú",
+        "matched_component_index": 1,
+        "match_key": "cu",
+        "article_diplomatic": "Cú, oder hecú, Zurück.",
+        "printed_page": 356,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000555",
+        "headword": "Cu",
+        "headword_raw": "1Cu",
+        "headword_normalized": "cu",
+        "matched_component": "Cu",
+        "matched_component_index": 1,
+        "match_key": "cu",
+        "homonym_number": "1",
+        "classification": "Adv",
+        "classification_family": "Adv",
+        "translation_raw": "Otra vez",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "29",
+        "page_end": "30",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "cu",
+        "modern_candidates_for_key": 3,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000013",
+      "historical": {
+        "record_id": "RHD-S1809-01763",
+        "form_diplomatic": "Cú",
+        "matched_component": "Cú",
+        "matched_component_index": 1,
+        "match_key": "cu",
+        "article_diplomatic": "Cú, oder hecú, Zurück.",
+        "printed_page": 356,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000556",
+        "headword": "Cu",
+        "headword_raw": "2Cu",
+        "headword_normalized": "cu",
+        "matched_component": "Cu",
+        "matched_component_index": 1,
+        "match_key": "cu",
+        "homonym_number": "2",
+        "classification": "S",
+        "classification_family": "S",
+        "translation_raw": "Leña, madera",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "30",
+        "page_end": "30",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "cu",
+        "modern_candidates_for_key": 3,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000014",
+      "historical": {
+        "record_id": "RHD-S1809-01763",
+        "form_diplomatic": "Cú",
+        "matched_component": "Cú",
+        "matched_component_index": 1,
+        "match_key": "cu",
+        "article_diplomatic": "Cú, oder hecú, Zurück.",
+        "printed_page": 356,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000557",
+        "headword": "Cu",
+        "headword_raw": "3Cu",
+        "headword_normalized": "cu",
+        "matched_component": "Cu",
+        "matched_component_index": 1,
+        "match_key": "cu",
+        "homonym_number": "3",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "translation_raw": "1. Comer (esquite, granos enteros, fruta dura). Saquí cubo, vamos a comer esquite. 2. Morder. Ta tohuí biré corí cumiri. El niño mordió un chile.",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "30",
+        "page_end": "30",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "cu",
+        "modern_candidates_for_key": 3,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000015",
+      "historical": {
+        "record_id": "RHD-S1809-01914",
+        "form_diplomatic": "Iché",
+        "matched_component": "Iché",
+        "matched_component_index": 1,
+        "match_key": "iche",
+        "article_diplomatic": "Iché, Dieſer.",
+        "printed_page": 358,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001060",
+        "headword": "Iché",
+        "headword_raw": "1Iché",
+        "headword_normalized": "iche",
+        "matched_component": "Iché",
+        "matched_component_index": 1,
+        "match_key": "iche",
+        "homonym_number": "1",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "translation_raw": "Hay matas de maíz",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "50",
+        "page_end": "50",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "iche",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000016",
+      "historical": {
+        "record_id": "RHD-S1809-01914",
+        "form_diplomatic": "Iché",
+        "matched_component": "Iché",
+        "matched_component_index": 1,
+        "match_key": "iche",
+        "article_diplomatic": "Iché, Dieſer.",
+        "printed_page": 358,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001061",
+        "headword": "Iché",
+        "headword_raw": "2Iché",
+        "headword_normalized": "iche",
+        "matched_component": "Iché",
+        "matched_component_index": 1,
+        "match_key": "iche",
+        "homonym_number": "2",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Picar, punzar, inyectar",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "50",
+        "page_end": "50",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "iche",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000017",
+      "historical": {
+        "record_id": "RHD-S1809-01939",
+        "form_diplomatic": "Jumá",
+        "matched_component": "Jumá",
+        "matched_component_index": 1,
+        "match_key": "juma",
+        "article_diplomatic": "Jumá, oder Jomá, Alles.",
+        "printed_page": 359,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001183",
+        "headword": "Juma",
+        "headword_raw": "Juma",
+        "headword_normalized": "juma",
+        "matched_component": "Juma",
+        "matched_component_index": 1,
+        "match_key": "juma",
+        "homonym_number": "",
+        "classification": "Vi pl",
+        "classification_family": "Vi",
+        "translation_raw": "Correr",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "53",
+        "page_end": "53",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "juma",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000018",
+      "historical": {
+        "record_id": "RHD-S1809-01987",
+        "form_diplomatic": "Lá",
+        "matched_component": "Lá",
+        "matched_component_index": 1,
+        "match_key": "la",
+        "article_diplomatic": "Lá, Dahin. Hindurch.",
+        "printed_page": 360,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001189",
+        "headword": "La",
+        "headword_raw": "1La",
+        "headword_normalized": "la",
+        "matched_component": "La",
+        "matched_component_index": 1,
+        "match_key": "la",
+        "homonym_number": "1",
+        "classification": "S",
+        "classification_family": "S",
+        "translation_raw": "Sangre",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "53",
+        "page_end": "53",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "la",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000019",
+      "historical": {
+        "record_id": "RHD-S1809-01987",
+        "form_diplomatic": "Lá",
+        "matched_component": "Lá",
+        "matched_component_index": 1,
+        "match_key": "la",
+        "article_diplomatic": "Lá, Dahin. Hindurch.",
+        "printed_page": 360,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001190",
+        "headword": "La",
+        "headword_raw": "2La",
+        "headword_normalized": "la",
+        "matched_component": "La",
+        "matched_component_index": 1,
+        "match_key": "la",
+        "homonym_number": "2",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Hacer enramada",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "53",
+        "page_end": "53",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "la",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000020",
+      "historical": {
+        "record_id": "RHD-S1809-02042",
+        "form_diplomatic": "Muni",
+        "matched_component": "Muni",
+        "matched_component_index": 1,
+        "match_key": "muni",
+        "article_diplomatic": "Muni, ſ. Hülſenfrucht.",
+        "printed_page": 361,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001405",
+        "headword": "Muní",
+        "headword_raw": "Muní",
+        "headword_normalized": "muni",
+        "matched_component": "Muní",
+        "matched_component_index": 1,
+        "match_key": "muni",
+        "homonym_number": "",
+        "classification": "S",
+        "classification_family": "S",
+        "translation_raw": "Frijol",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "59",
+        "page_end": "59",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "muni",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000021",
+      "historical": {
+        "record_id": "RHD-S1809-02043",
+        "form_diplomatic": "Múra",
+        "matched_component": "Múra",
+        "matched_component_index": 1,
+        "match_key": "mura",
+        "article_diplomatic": "Múra, Maulthier.",
+        "printed_page": 361,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001408",
+        "headword": "Murá",
+        "headword_raw": "Murá",
+        "headword_normalized": "mura",
+        "matched_component": "Murá",
+        "matched_component_index": 1,
+        "match_key": "mura",
+        "homonym_number": "",
+        "classification": "S",
+        "classification_family": "S",
+        "translation_raw": "Espiga",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "59",
+        "page_end": "59",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "mura",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000022",
+      "historical": {
+        "record_id": "RHD-S1809-02045",
+        "form_diplomatic": "Musí",
+        "matched_component": "Musí",
+        "matched_component_index": 1,
+        "match_key": "musi",
+        "article_diplomatic": "Musí. Eine Gattung Fische, wie die Schleihen. Dieser Fisch hat keine Schuppen, und ist sehr schmackhaft. Die nicht über eine Elle lang sind, werden mitten aufgemacht, aber nicht ganz getheilet, ausgeweidet, eingesalzen, an der Luft gedörret, und auch durch ein ganzes Jahr an einem trocknem Orte aufbehalten.",
+        "printed_page": 361,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001420",
+        "headword": "Musí",
+        "headword_raw": "Musí",
+        "headword_normalized": "musi",
+        "matched_component": "Musí",
+        "matched_component_index": 1,
+        "match_key": "musi",
+        "homonym_number": "",
+        "classification": "S",
+        "classification_family": "S",
+        "translation_raw": "Tipo de pez negro, bargón",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "59",
+        "page_end": "59",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "musi",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000023",
+      "historical": {
+        "record_id": "RHD-S1809-02082",
+        "form_diplomatic": "Napé",
+        "matched_component": "Napé",
+        "matched_component_index": 1,
+        "match_key": "nape",
+        "article_diplomatic": "Napé, Nebeneinander.",
+        "printed_page": 362,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001505",
+        "headword": "Napé",
+        "headword_raw": "Napé",
+        "headword_normalized": "nape",
+        "matched_component": "Napé",
+        "matched_component_index": 1,
+        "match_key": "nape",
+        "homonym_number": "",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "translation_raw": "1. Juntarse 2. Juntarse (casar)",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "61",
+        "page_end": "61",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "nape",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000024",
+      "historical": {
+        "record_id": "RHD-S1809-02092",
+        "form_diplomatic": "Nateguí",
+        "matched_component": "Nateguí",
+        "matched_component_index": 1,
+        "match_key": "nategui",
+        "article_diplomatic": "Nateguí, Lohn. Vergeltung.",
+        "printed_page": 362,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001556",
+        "headword": "Nateguí",
+        "headword_raw": "Nateguí",
+        "headword_normalized": "nategui",
+        "matched_component": "Nateguí",
+        "matched_component_index": 1,
+        "match_key": "nategui",
+        "homonym_number": "",
+        "classification": "",
+        "classification_family": "Sin clasificar",
+        "translation_raw": "Cuesta",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "63",
+        "page_end": "63",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "nategui",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000025",
+      "historical": {
+        "record_id": "RHD-S1809-02092",
+        "form_diplomatic": "Nateguí",
+        "matched_component": "Nateguí",
+        "matched_component_index": 1,
+        "match_key": "nategui",
+        "article_diplomatic": "Nateguí, Lohn. Vergeltung.",
+        "printed_page": 362,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001563",
+        "headword": "Natiguí, nateguí",
+        "headword_raw": "Natiguí, nateguí",
+        "headword_normalized": "natigui, nategui",
+        "matched_component": "nateguí",
+        "matched_component_index": 2,
+        "match_key": "nategui",
+        "homonym_number": "",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "translation_raw": "Valer, costar",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "63",
+        "page_end": "63",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "nategui",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000026",
+      "historical": {
+        "record_id": "RHD-S1809-02093",
+        "form_diplomatic": "Natépa",
+        "matched_component": "Natépa",
+        "matched_component_index": 1,
+        "match_key": "natepa",
+        "article_diplomatic": "Natépa, Finden.",
+        "printed_page": 362,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001557",
+        "headword": "Natepa",
+        "headword_raw": "Natepa",
+        "headword_normalized": "natepa",
+        "matched_component": "Natepa",
+        "matched_component_index": 1,
+        "match_key": "natepa",
+        "homonym_number": "",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Encontrar",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "63",
+        "page_end": "63",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "natepa",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000027",
+      "historical": {
+        "record_id": "RHD-S1809-02101",
+        "form_diplomatic": "Né",
+        "matched_component": "Né",
+        "matched_component_index": 1,
+        "match_key": "ne",
+        "article_diplomatic": "Né, Ich. Nehé, negóſle, ne-megóſle, neheli, alles heißt Ich.",
+        "printed_page": 362,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001573",
+        "headword": "‘Né",
+        "headword_raw": "‘Né",
+        "headword_normalized": "'ne",
+        "matched_component": "‘Né",
+        "matched_component_index": 1,
+        "match_key": "ne",
+        "homonym_number": "",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Ver",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "63",
+        "page_end": "63",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "ne",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000028",
+      "historical": {
+        "record_id": "RHD-S1809-02101",
+        "form_diplomatic": "Né",
+        "matched_component": "Né",
+        "matched_component_index": 1,
+        "match_key": "ne",
+        "article_diplomatic": "Né, Ich. Nehé, negóſle, ne-megóſle, neheli, alles heißt Ich.",
+        "printed_page": 362,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001574",
+        "headword": "‘Ne",
+        "headword_raw": "‘Ne",
+        "headword_normalized": "'ne",
+        "matched_component": "‘Ne",
+        "matched_component_index": 1,
+        "match_key": "ne",
+        "homonym_number": "",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Mirar, observar",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "63",
+        "page_end": "63",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "ne",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000029",
+      "historical": {
+        "record_id": "RHD-S1809-02147",
+        "form_diplomatic": "Pá",
+        "matched_component": "Pá",
+        "matched_component_index": 1,
+        "match_key": "pa",
+        "article_diplomatic": "Pá, ſ. bá.",
+        "printed_page": 363,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001791",
+        "headword": "Pa",
+        "headword_raw": "1Pa",
+        "headword_normalized": "pa",
+        "matched_component": "Pa",
+        "matched_component_index": 1,
+        "match_key": "pa",
+        "homonym_number": "1",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Traer",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "68",
+        "page_end": "68",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "pa",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000030",
+      "historical": {
+        "record_id": "RHD-S1809-02147",
+        "form_diplomatic": "Pá",
+        "matched_component": "Pá",
+        "matched_component_index": 1,
+        "match_key": "pa",
+        "article_diplomatic": "Pá, ſ. bá.",
+        "printed_page": 363,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001792",
+        "headword": "Pa",
+        "headword_raw": "2Pa",
+        "headword_normalized": "pa",
+        "matched_component": "Pa",
+        "matched_component_index": 1,
+        "match_key": "pa",
+        "homonym_number": "2",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Tirar",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "68",
+        "page_end": "68",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "pa",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000031",
+      "historical": {
+        "record_id": "RHD-S1809-02151",
+        "form_diplomatic": "Báca",
+        "matched_component": "Báca",
+        "matched_component_index": 1,
+        "match_key": "baca",
+        "article_diplomatic": "Báca, ſ. Gras.",
+        "printed_page": 363,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-000127",
+        "headword": "Bacá",
+        "headword_raw": "Bacá",
+        "headword_normalized": "baca",
+        "matched_component": "Bacá",
+        "matched_component_index": 1,
+        "match_key": "baca",
+        "homonym_number": "",
+        "classification": "S",
+        "classification_family": "S",
+        "translation_raw": "Carrizo",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "9",
+        "page_end": "9",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "baca",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000032",
+      "historical": {
+        "record_id": "RHD-S1809-02179",
+        "form_diplomatic": "Piri?",
+        "matched_component": "Piri",
+        "matched_component_index": 1,
+        "match_key": "piri",
+        "article_diplomatic": "Piri? Was?",
+        "printed_page": 364,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001846",
+        "headword": "Piri",
+        "headword_raw": "Piri",
+        "headword_normalized": "piri",
+        "matched_component": "Piri",
+        "matched_component_index": 1,
+        "match_key": "piri",
+        "homonym_number": "",
+        "classification": "",
+        "classification_family": "Sin clasificar",
+        "translation_raw": "¿Qué?",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "70",
+        "page_end": "70",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "piri",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000033",
+      "historical": {
+        "record_id": "RHD-S1809-02202",
+        "form_diplomatic": "Pú",
+        "matched_component": "Pú",
+        "matched_component_index": 1,
+        "match_key": "pu",
+        "article_diplomatic": "Pú, puhé, Sein, das zueignende Fürwort.",
+        "printed_page": 364,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001854",
+        "headword": "Pu",
+        "headword_raw": "Pu",
+        "headword_normalized": "pu",
+        "matched_component": "Pu",
+        "matched_component_index": 1,
+        "match_key": "pu",
+        "homonym_number": "",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "translation_raw": "Ponerse una faja",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "70",
+        "page_end": "70",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "pu",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000034",
+      "historical": {
+        "record_id": "RHD-S1809-02202",
+        "form_diplomatic": "Pú",
+        "matched_component": "Pú",
+        "matched_component_index": 1,
+        "match_key": "pu",
+        "article_diplomatic": "Pú, puhé, Sein, das zueignende Fürwort.",
+        "printed_page": 364,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001855",
+        "headword": "Pu’",
+        "headword_raw": "Pu’",
+        "headword_normalized": "pu'",
+        "matched_component": "Pu’",
+        "matched_component_index": 1,
+        "match_key": "pu",
+        "homonym_number": "",
+        "classification": "S",
+        "classification_family": "S",
+        "translation_raw": "Faisán",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "70",
+        "page_end": "70",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "pu",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000035",
+      "historical": {
+        "record_id": "RHD-S1809-02203",
+        "form_diplomatic": "Pugué",
+        "matched_component": "Pugué",
+        "matched_component_index": 1,
+        "match_key": "pugue",
+        "article_diplomatic": "Pugué, Warten.",
+        "printed_page": 364,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001857",
+        "headword": "Pugué",
+        "headword_raw": "Pugué",
+        "headword_normalized": "pugue",
+        "matched_component": "Pugué",
+        "matched_component_index": 1,
+        "match_key": "pugue",
+        "homonym_number": "",
+        "classification": "Vt pl",
+        "classification_family": "Vt",
+        "translation_raw": "Tener, poseer (muchos animales)",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "70",
+        "page_end": "70",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "pugue",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000036",
+      "historical": {
+        "record_id": "RHD-S1809-02228",
+        "form_diplomatic": "Raná",
+        "matched_component": "Raná",
+        "matched_component_index": 1,
+        "match_key": "rana",
+        "article_diplomatic": "Raná, Gebähren.",
+        "printed_page": 364,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001932",
+        "headword": "Raná",
+        "headword_raw": "Raná",
+        "headword_normalized": "rana",
+        "matched_component": "Raná",
+        "matched_component_index": 1,
+        "match_key": "rana",
+        "homonym_number": "",
+        "classification": "",
+        "classification_family": "Sin clasificar",
+        "translation_raw": "1. vt Parir 2. s Hijo",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "72",
+        "page_end": "72",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "rana",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000037",
+      "historical": {
+        "record_id": "RHD-S1809-02229",
+        "form_diplomatic": "Ráje, oder táje",
+        "matched_component": "Ráje",
+        "matched_component_index": 1,
+        "match_key": "raje",
+        "article_diplomatic": "Ráje, oder táje, s. colaguítaje,",
+        "printed_page": 364,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001923",
+        "headword": "Rajé",
+        "headword_raw": "Rajé",
+        "headword_normalized": "raje",
+        "matched_component": "Rajé",
+        "matched_component_index": 1,
+        "match_key": "raje",
+        "homonym_number": "",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Encender ocote (para alumbrar)",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "71",
+        "page_end": "71",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "raje",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000038",
+      "historical": {
+        "record_id": "RHD-S1809-02248",
+        "form_diplomatic": "Róco",
+        "matched_component": "Róco",
+        "matched_component_index": 1,
+        "match_key": "roco",
+        "article_diplomatic": "Róco, Es mangelt, geht ab.",
+        "printed_page": 365,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-002110",
+        "headword": "Rocó",
+        "headword_raw": "Rocó",
+        "headword_normalized": "roco",
+        "matched_component": "Rocó",
+        "matched_component_index": 1,
+        "match_key": "roco",
+        "homonym_number": "",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "translation_raw": "Estar hondo",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "76",
+        "page_end": "76",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "roco",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000039",
+      "historical": {
+        "record_id": "RHD-S1809-02250",
+        "form_diplomatic": "Ropá",
+        "matched_component": "Ropá",
+        "matched_component_index": 1,
+        "match_key": "ropa",
+        "article_diplomatic": "Ropá, Verlassen.",
+        "printed_page": 365,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-002164",
+        "headword": "Ropá",
+        "headword_raw": "Ropá",
+        "headword_normalized": "ropa",
+        "matched_component": "Ropá",
+        "matched_component_index": 1,
+        "match_key": "ropa",
+        "homonym_number": "",
+        "classification": "S",
+        "classification_family": "S",
+        "translation_raw": "Estómago",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "77",
+        "page_end": "77",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "ropa",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000040",
+      "historical": {
+        "record_id": "RHD-S1809-02284",
+        "form_diplomatic": "Simi",
+        "matched_component": "Simi",
+        "matched_component_index": 1,
+        "match_key": "simi",
+        "article_diplomatic": "Simi, Gehen.",
+        "printed_page": 365,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-002301",
+        "headword": "Simí",
+        "headword_raw": "1Simí",
+        "headword_normalized": "simi",
+        "matched_component": "Simí",
+        "matched_component_index": 1,
+        "match_key": "simi",
+        "homonym_number": "1",
+        "classification": "Vi sg",
+        "classification_family": "Vi",
+        "translation_raw": "Irse",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "80",
+        "page_end": "80",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "simi",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000041",
+      "historical": {
+        "record_id": "RHD-S1809-02284",
+        "form_diplomatic": "Simi",
+        "matched_component": "Simi",
+        "matched_component_index": 1,
+        "match_key": "simi",
+        "article_diplomatic": "Simi, Gehen.",
+        "printed_page": 365,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-002302",
+        "headword": "Simí",
+        "headword_raw": "2Simí",
+        "headword_normalized": "simi",
+        "matched_component": "Simí",
+        "matched_component_index": 1,
+        "match_key": "simi",
+        "homonym_number": "2",
+        "classification": "Vi sg",
+        "classification_family": "Vi",
+        "translation_raw": "Caminar",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "80",
+        "page_end": "80",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "simi",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000042",
+      "historical": {
+        "record_id": "RHD-S1809-02290",
+        "form_diplomatic": "Sisí",
+        "matched_component": "Sisí",
+        "matched_component_index": 1,
+        "match_key": "sisi",
+        "article_diplomatic": "Sisí, Harnen.",
+        "printed_page": 365,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-002349",
+        "headword": "Sisí",
+        "headword_raw": "Sisí",
+        "headword_normalized": "sisi",
+        "matched_component": "Sisí",
+        "matched_component_index": 1,
+        "match_key": "sisi",
+        "homonym_number": "",
+        "classification": "Imper",
+        "classification_family": "Imper",
+        "translation_raw": "¡Vénganse!",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "82",
+        "page_end": "82",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "sisi",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000043",
+      "historical": {
+        "record_id": "RHD-S1809-02331",
+        "form_diplomatic": "Taná, oder raná",
+        "matched_component": "Taná",
+        "matched_component_index": 1,
+        "match_key": "tana",
+        "article_diplomatic": "Taná, oder raná, Gebähren.",
+        "printed_page": 366,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-002448",
+        "headword": "Tana",
+        "headword_raw": "Tana",
+        "headword_normalized": "tana",
+        "matched_component": "Tana",
+        "matched_component_index": 1,
+        "match_key": "tana",
+        "homonym_number": "",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Pedir",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "84",
+        "page_end": "84",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "tana",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000044",
+      "historical": {
+        "record_id": "RHD-S1809-02331",
+        "form_diplomatic": "Taná, oder raná",
+        "matched_component": "raná",
+        "matched_component_index": 2,
+        "match_key": "rana",
+        "article_diplomatic": "Taná, oder raná, Gebähren.",
+        "printed_page": 366,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-001932",
+        "headword": "Raná",
+        "headword_raw": "Raná",
+        "headword_normalized": "rana",
+        "matched_component": "Raná",
+        "matched_component_index": 1,
+        "match_key": "rana",
+        "homonym_number": "",
+        "classification": "",
+        "classification_family": "Sin clasificar",
+        "translation_raw": "1. vt Parir 2. s Hijo",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "72",
+        "page_end": "72",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "rana",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000045",
+      "historical": {
+        "record_id": "RHD-S1809-02333",
+        "form_diplomatic": "Taní",
+        "matched_component": "Taní",
+        "matched_component_index": 1,
+        "match_key": "tani",
+        "article_diplomatic": "Taní, Begehren. Fordern.",
+        "printed_page": 366,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-002451",
+        "headword": "Tani",
+        "headword_raw": "Tani",
+        "headword_normalized": "tani",
+        "matched_component": "Tani",
+        "matched_component_index": 1,
+        "match_key": "tani",
+        "homonym_number": "",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Rogar",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "84",
+        "page_end": "84",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "tani",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000046",
+      "historical": {
+        "record_id": "RHD-S1809-02335",
+        "form_diplomatic": "Tará",
+        "matched_component": "Tará",
+        "matched_component_index": 1,
+        "match_key": "tara",
+        "article_diplomatic": "Tará, Zählen.",
+        "printed_page": 366,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-002453",
+        "headword": "Tará",
+        "headword_raw": "Tará",
+        "headword_normalized": "tara",
+        "matched_component": "Tará",
+        "matched_component_index": 1,
+        "match_key": "tara",
+        "homonym_number": "",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Contar",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "84",
+        "page_end": "84",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "tara",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000047",
+      "historical": {
+        "record_id": "RHD-S1809-02350",
+        "form_diplomatic": "Té",
+        "matched_component": "Té",
+        "matched_component_index": 1,
+        "match_key": "te",
+        "article_diplomatic": "Té, Lauf.",
+        "printed_page": 366,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-002462",
+        "headword": "Te",
+        "headword_raw": "Te",
+        "headword_normalized": "te",
+        "matched_component": "Te",
+        "matched_component_index": 1,
+        "match_key": "te",
+        "homonym_number": "",
+        "classification": "Vi",
+        "classification_family": "Vi",
+        "translation_raw": "Tejer, extender (hilos para tejer)",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "84",
+        "page_end": "84",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "te",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000048",
+      "historical": {
+        "record_id": "RHD-S1809-02401",
+        "form_diplomatic": "Tó",
+        "matched_component": "Tó",
+        "matched_component_index": 1,
+        "match_key": "to",
+        "article_diplomatic": "Tó, Bringen. Hertragen. Cá tó oder guácató, bring es her.",
+        "printed_page": 367,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-002489",
+        "headword": "To",
+        "headword_raw": "1To",
+        "headword_normalized": "to",
+        "matched_component": "To",
+        "matched_component_index": 1,
+        "match_key": "to",
+        "homonym_number": "1",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Llevar, tomar",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "85",
+        "page_end": "85",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "to",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000049",
+      "historical": {
+        "record_id": "RHD-S1809-02401",
+        "form_diplomatic": "Tó",
+        "matched_component": "Tó",
+        "matched_component_index": 1,
+        "match_key": "to",
+        "article_diplomatic": "Tó, Bringen. Hertragen. Cá tó oder guácató, bring es her.",
+        "printed_page": 367,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-002490",
+        "headword": "To",
+        "headword_raw": "2To",
+        "headword_normalized": "to",
+        "matched_component": "To",
+        "matched_component_index": 1,
+        "match_key": "to",
+        "homonym_number": "2",
+        "classification": "Vt",
+        "classification_family": "Vt",
+        "translation_raw": "Enterrar",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "85",
+        "page_end": "85",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "to",
+        "modern_candidates_for_key": 2,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    },
+    {
+      "correspondence_id": "RHD-CORR-000050",
+      "historical": {
+        "record_id": "RHD-S1809-02491",
+        "form_diplomatic": "Upi",
+        "matched_component": "Upi",
+        "matched_component_index": 1,
+        "match_key": "upi",
+        "article_diplomatic": "Upi, Eheweib.",
+        "printed_page": 368,
+        "direction": "RAR-DE"
+      },
+      "modern": {
+        "record_id": "RD-002539",
+        "headword": "Upí",
+        "headword_raw": "Upí",
+        "headword_normalized": "upi",
+        "matched_component": "Upí",
+        "matched_component_index": 1,
+        "match_key": "upi",
+        "homonym_number": "",
+        "classification": "S sing",
+        "classification_family": "S",
+        "translation_raw": "Esposa",
+        "source_code": "SRC-02",
+        "source_document": "DICCIONARIO raramuri.pdf",
+        "page_start": "86",
+        "page_end": "86",
+        "status": "Transcrito"
+      },
+      "candidate_relation": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "upi",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": true,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "derivation": {
+        "method": "conservative_exact_graphic_match_v1",
+        "historical_source": "data/entries.csv",
+        "modern_repository": "fersandovalgtz/raramuri-digital",
+        "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+        "modern_source": "data/lexicon-master.csv",
+        "normalization": "Unicode NFKD; remove combining diacritics; ſ→s; ß→ss; casefold; unify apostrophe/dash glyphs; collapse whitespace; preserve spaces, apostrophes and hyphens.",
+        "component_split": "Historical: explicit 'oder'/'item', comma, semicolon or slash; modern: comma, semicolon or slash. No morphological segmentation."
+      },
+      "independent_review": {
+        "human_reviewed": false,
+        "reviewer": "",
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "confidence": "not_assessed",
+        "evidence": "",
+        "note": ""
+      }
+    }
+  ]
+}

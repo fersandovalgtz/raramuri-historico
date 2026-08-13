@@ -64,8 +64,12 @@
     "all_candidate_boundaries_facsimile_reviewed": true,
     "full_active_corpus_diplomatic_coverage": true,
     "all_open_validation_records_ai_recollated": true,
-    "status": "Complete AI-assisted documentary phase: all 2,495 segmented candidates reviewed against facsimile; 1,965 provisional article starts accepted and diplomatically transcribed; 530 false boundaries rejected; 781 headwords corrected. Scientific note audit identified 482 explicit open-validation records and RHD-PHIL-001–010 re-collated all 482 at high resolution. The independent human queue is prioritized as 46 unresolved, 152 proposed corrections and 284 AI-confirmed records with residual review routes. 46 reviewer-ready priority-1 evidence dossiers are generated. Human/philological and linguistic verification remains 0/482.",
-    "priority1_review_dossiers": 46
+    "status": "Complete AI-assisted documentary phase: all 2,495 segmented candidates reviewed against facsimile; 1,965 provisional article starts accepted and diplomatically transcribed; 530 false boundaries rejected; 781 headwords corrected. Scientific note audit identified 482 explicit open-validation records and RHD-PHIL-001–010 re-collated all 482 at high resolution. The independent human queue is prioritized as 46 unresolved, 152 proposed corrections and 284 AI-confirmed records with residual review routes. Human/philological and linguistic verification remains 0/482.",
+    "priority1_review_dossiers": 46,
+    "diachronic_exact_graphic_candidates": 50,
+    "diachronic_historical_records_with_candidates": 36,
+    "diachronic_modern_records_matched": 48,
+    "diachronic_unique_graphic_keys": 35
   },
   "editorial_pipeline": {
     "review_queue": "data/review/next_review_queue.json",
@@ -122,15 +126,22 @@
     "philologically_verified_by_human_records": 0,
     "linguistically_verified_records": 0,
     "validation_non_overwrite_policy": "RHD-PHIL confirmations and proposed corrections never overwrite headword_diplomatic or article_diplomatic; independent human decisions and later normalized/critical layers must remain separately traceable.",
-    "next_systematic_stage": "independent_human_philological_and_linguistic_validation",
-    "next_stage_priority": "Begin with the 46 reviewer-ready priority-1 unresolved dossiers, then adjudicate the 152 corrected_ai_assisted proposals, then complete residual linguistic, semantic, historical and disciplinary review of the 284 confirmed_ai_assisted records. Use HUMAN_REVIEW_PROTOCOL.md and human_review_template.json; no verification flag may be set without explicit independent reviewer evidence.",
+    "next_systematic_stage": "independent_human_philological_and_linguistic_validation_plus_diachronic_candidate_adjudication",
+    "next_stage_priority": "Begin with the 46 priority-1 unresolved records, then adjudicate the 152 corrected_ai_assisted proposals, then complete residual linguistic, semantic, historical and disciplinary review of the 284 confirmed_ai_assisted records. Diachronic machine candidates remain a separate derived layer and may not be promoted to validated correspondences without explicit independent review.",
     "validation_workflow_concurrency_guard": "Per-ref concurrency cancels obsolete runs; generated-artifact auto-push is skipped when main has advanced beyond the triggering SHA.",
     "priority1_review_dossiers": "data/validation/priority1_review_dossiers.json",
     "priority1_review_dossiers_compact": "data/validation/priority1_review_dossiers_compact.json",
     "priority1_review_index": "data/validation/PRIORITY1_REVIEW_INDEX.md",
     "priority1_review_dossier_directory": "data/validation/dossiers/priority1/",
     "priority1_review_dossier_generator": "scripts/generate_priority1_review_dossiers.py",
-    "priority1_review_dossier_count": 46
+    "priority1_review_dossier_count": 46,
+    "diachronic_correspondence_layer": "data/diachronic/exact_graphic_candidates.json",
+    "diachronic_correspondence_summary": "data/diachronic/exact_graphic_candidates_summary.json",
+    "diachronic_relation_type": "exact_normalized_graphic_match",
+    "diachronic_candidate_count": 50,
+    "diachronic_modern_source_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+    "diachronic_human_reviewed_candidates": 0,
+    "diachronic_policy": "Machine-generated exact graphic matches are documentary comparison candidates only; they do not assert semantic identity, cognacy, dialect identity or historical lexical continuity."
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",
