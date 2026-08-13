@@ -39,6 +39,16 @@
     "automatic_language_identification": false,
     "automatic_lexeme_creation": false
   },
+  "graphic_family_hypotheses": {
+    "grade_a_seed_count": 47,
+    "family_hypothesis_count": 47,
+    "families_with_neighbors": 47,
+    "total_neighbor_links": 819,
+    "prefix_pattern_count": 7,
+    "suffix_pattern_count": 20,
+    "automatic_morphological_analysis": false,
+    "automatic_morpheme_assignment": false
+  },
   "explicit_variant_groups": 24,
   "graphic_collision_groups": 7,
   "diachronic_semantic_context_signals": {
@@ -47,5 +57,5 @@
     "internal_reciprocal_documentary_support": 153
   },
   "human_reviewed_relations": 0,
-  "warning": "Machine/documentary candidates and profile signals, not validated linguistic relations or automatic language identifications."
+  "warning": "Machine/documentary candidates and graphic-pattern signals, not validated linguistic relations, language identifications or morphological analyses."
 }

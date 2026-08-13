@@ -1,0 +1,156 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "generated": "2026-08-13",
+  "grade_a_seed_count": 47,
+  "strong_profile_recovery_universe_count": 337,
+  "rar_de_graphic_key_count": 772,
+  "family_hypothesis_count": 47,
+  "families_with_neighbors": 47,
+  "total_neighbor_links": 819,
+  "recurrent_prefix_pattern_count": 7,
+  "recurrent_suffix_pattern_count": 20,
+  "top_prefix_patterns": [
+    {
+      "pattern": "tsc",
+      "member_count": 63,
+      "grade_a_seed_count": 4
+    },
+    {
+      "pattern": "tsch",
+      "member_count": 62,
+      "grade_a_seed_count": 4
+    },
+    {
+      "pattern": "tschi",
+      "member_count": 28,
+      "grade_a_seed_count": 2
+    },
+    {
+      "pattern": "tschit",
+      "member_count": 7,
+      "grade_a_seed_count": 2
+    },
+    {
+      "pattern": "tessigu",
+      "member_count": 4,
+      "grade_a_seed_count": 2
+    },
+    {
+      "pattern": "pig",
+      "member_count": 4,
+      "grade_a_seed_count": 2
+    },
+    {
+      "pattern": "pigu",
+      "member_count": 3,
+      "grade_a_seed_count": 2
+    }
+  ],
+  "top_suffix_patterns": [
+    {
+      "pattern": "eke",
+      "member_count": 174,
+      "grade_a_seed_count": 16
+    },
+    {
+      "pattern": "meke",
+      "member_count": 149,
+      "grade_a_seed_count": 15
+    },
+    {
+      "pattern": "ameke",
+      "member_count": 147,
+      "grade_a_seed_count": 15
+    },
+    {
+      "pattern": "iki",
+      "member_count": 78,
+      "grade_a_seed_count": 5
+    },
+    {
+      "pattern": "gameke",
+      "member_count": 44,
+      "grade_a_seed_count": 5
+    },
+    {
+      "pattern": "iameke",
+      "member_count": 28,
+      "grade_a_seed_count": 4
+    },
+    {
+      "pattern": "ugameke",
+      "member_count": 27,
+      "grade_a_seed_count": 4
+    },
+    {
+      "pattern": "ila",
+      "member_count": 37,
+      "grade_a_seed_count": 3
+    },
+    {
+      "pattern": "liki",
+      "member_count": 31,
+      "grade_a_seed_count": 3
+    },
+    {
+      "pattern": "jameke",
+      "member_count": 22,
+      "grade_a_seed_count": 3
+    },
+    {
+      "pattern": "aca",
+      "member_count": 49,
+      "grade_a_seed_count": 2
+    },
+    {
+      "pattern": "ala",
+      "member_count": 39,
+      "grade_a_seed_count": 2
+    },
+    {
+      "pattern": "chi",
+      "member_count": 23,
+      "grade_a_seed_count": 2
+    },
+    {
+      "pattern": "tschi",
+      "member_count": 21,
+      "grade_a_seed_count": 2
+    },
+    {
+      "pattern": "oco",
+      "member_count": 18,
+      "grade_a_seed_count": 2
+    },
+    {
+      "pattern": "lila",
+      "member_count": 11,
+      "grade_a_seed_count": 2
+    },
+    {
+      "pattern": "lameke",
+      "member_count": 7,
+      "grade_a_seed_count": 2
+    },
+    {
+      "pattern": "uiameke",
+      "member_count": 4,
+      "grade_a_seed_count": 2
+    },
+    {
+      "pattern": "utschi",
+      "member_count": 4,
+      "grade_a_seed_count": 2
+    },
+    {
+      "pattern": "ulameke",
+      "member_count": 3,
+      "grade_a_seed_count": 2
+    }
+  ],
+  "human_reviewed": false,
+  "automatic_morphological_analysis": false,
+  "automatic_morpheme_assignment": false,
+  "automatic_lexeme_creation": false,
+  "method": "grade_a_seeded_graphic_family_hypotheses_v1"
+}

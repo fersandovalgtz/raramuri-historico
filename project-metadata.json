@@ -102,7 +102,21 @@
       "2": 256,
       "3": 135,
       "4": 813
-    }
+    },
+    "steffel_residual_recovery_candidate_groups": 514,
+    "steffel_residual_recovery_evidence_grade_counts": {
+      "A_machine_documentary_signal": 47,
+      "B_machine_documentary_signal": 159,
+      "C_machine_profile_signal": 131,
+      "D_machine_possible_profile_signal": 177
+    },
+    "steffel_residual_recovery_cross_entry_recurrent_groups": 90,
+    "steffel_graphic_family_grade_a_seed_count": 47,
+    "steffel_graphic_family_hypotheses": 47,
+    "steffel_graphic_families_with_neighbors": 47,
+    "steffel_graphic_family_neighbor_links": 819,
+    "steffel_recurrent_graphic_prefix_patterns": 7,
+    "steffel_recurrent_graphic_suffix_patterns": 20
   },
   "editorial_pipeline": {
     "review_queue": "data/review/next_review_queue.json",
@@ -200,6 +214,8 @@
     "internal_research_layer_generators": [
       "scripts/generate_de_rar_attestations.py",
       "scripts/generate_residual_span_triage.py",
+      "scripts/generate_residual_recovery_queue.py",
+      "scripts/generate_graphic_family_hypotheses.py",
       "scripts/generate_internal_concordance.py",
       "scripts/generate_historical_variants.py",
       "scripts/generate_semantic_context_queue.py",
@@ -218,11 +234,19 @@
     "de_rar_inventory_guided_attestations_csv": "data/research/de_rar_inventory_guided_attestations.csv",
     "steffel_internal_concordance_csv": "data/research/internal_concordance.csv",
     "diachronic_semantic_context_queue_csv": "data/research/diachronic_semantic_context_queue.csv",
-    "parallel_machine_research_stage": "Internal Steffel concordance, conservative residual-span profile triage, documentary variant analysis, graphemic statistics and non-adjudicative diachronic context may advance while independent human validation remains unavailable.",
+    "parallel_machine_research_stage": "Internal Steffel concordance, conservative residual recovery, seeded graphic-family hypotheses, documentary variant analysis, graphemic statistics and non-adjudicative diachronic context may advance while independent human validation remains unavailable.",
     "de_rar_residual_span_triage": "data/research/de_rar_residual_span_triage.json",
     "de_rar_residual_span_triage_csv": "data/research/de_rar_residual_span_triage.csv",
     "de_rar_residual_span_triage_summary": "data/research/de_rar_residual_span_triage_summary.json",
-    "de_rar_residual_span_triage_policy": "Character n-gram profile classes prioritize inspection only; they are not automatic language identification, lexical acceptance, semantic interpretation or human validation."
+    "de_rar_residual_span_triage_policy": "Character n-gram profile classes prioritize inspection only; they are not automatic language identification, lexical acceptance, semantic interpretation or human validation.",
+    "de_rar_residual_recovery_queue": "data/research/de_rar_residual_recovery_queue.json",
+    "de_rar_residual_recovery_queue_csv": "data/research/de_rar_residual_recovery_queue.csv",
+    "de_rar_residual_recovery_queue_summary": "data/research/de_rar_residual_recovery_queue_summary.json",
+    "steffel_graphic_family_hypotheses": "data/research/graphic_family_hypotheses.json",
+    "steffel_graphic_family_hypotheses_csv": "data/research/graphic_family_hypotheses.csv",
+    "steffel_graphic_pattern_hypotheses": "data/research/graphic_pattern_hypotheses.json",
+    "steffel_graphic_family_hypotheses_summary": "data/research/graphic_family_hypotheses_summary.json",
+    "graphic_family_policy": "Grade-A seeds, recurrent string patterns and bounded graphic neighborhoods are machine hypotheses only; no morphemes, paradigms, phonological rules, lexical identities or cognate relations are automatically asserted."
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",
