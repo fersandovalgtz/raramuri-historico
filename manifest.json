@@ -1,7 +1,7 @@
 {
   "dataset": "raramuri-historico-steffel-1809",
   "version": "0.2.0",
-  "generated": "2026-08-12",
+  "generated": "2026-08-13",
   "files": [
     {
       "path": ".github/workflows/pages.yml",
@@ -95,8 +95,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8203,
-      "sha256": "6083701132c118334b908cc9e88f175fd429ce997f115825be19ef52233f907c"
+      "bytes": 8425,
+      "sha256": "1c40b96bf9ec69c7020011a6cb0f42da511eec3525ac2d061ca80bf125501ab3"
     },
     {
       "path": "RELEASE_NOTES_0.1.0.md",
@@ -890,13 +890,13 @@
     },
     {
       "path": "data/entries.csv",
-      "bytes": 2230219,
-      "sha256": "03a4c6e7a2ceb76518c8eefcd542cce2417ddacf14c0f8d49ae8b021c1a5c9e5"
+      "bytes": 2240809,
+      "sha256": "538ce347346aa31beb45792b3ce7598557263595f99f4a6b1d01d9208b381a71"
     },
     {
       "path": "data/entries_curated.csv",
-      "bytes": 270396,
-      "sha256": "65c81d3d6635d7f79397474a7d3f9b5f0180554427754dd06562ca43aad8749c"
+      "bytes": 280986,
+      "sha256": "8a8637712e5b842245903228ae65e7aeb20483fbdbfac3bb4da33a0c3c8cc5a3"
     },
     {
       "path": "data/facsimile/README.md",
@@ -935,8 +935,8 @@
     },
     {
       "path": "data/json/entries.json",
-      "bytes": 4195763,
-      "sha256": "15f2f03cce08367b755cf5b366b0da0396f1ea5314756eda6f6067d33ed9fc83"
+      "bytes": 4206353,
+      "sha256": "1776979697d0d110f3f887fed7bb198ad9b6b8081dc8cae5f94fe582618f23a5"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -945,8 +945,8 @@
     },
     {
       "path": "data/raramuri_historico.sqlite",
-      "bytes": 2822144,
-      "sha256": "202fd348471f6ded8c71a907506aca13ffb6c64e4751319aa7041a89f7a65ae5"
+      "bytes": 2834432,
+      "sha256": "15241cdc14f2ff51682aed88668600b69fc42f648a4c08012bb56fdeb2a08a5d"
     },
     {
       "path": "data/review/README.md",
@@ -1115,8 +1115,8 @@
     },
     {
       "path": "data/validation/README.md",
-      "bytes": 3902,
-      "sha256": "50da9ca9515d568c4761454d32b5e831d22b828295c5ba552aba8d33f0ddfb08"
+      "bytes": 4226,
+      "sha256": "169453634570ddf558b3669b822adea6333f16e048e5964aabf14d48a2d64edb"
     },
     {
       "path": "data/validation/human_review_queue.json",
@@ -1210,8 +1210,8 @@
     },
     {
       "path": "data/xml/entries.xml",
-      "bytes": 4910539,
-      "sha256": "6169fb8905beaae2d175e07f7457af4ed52b7705bced74fe08980afb2ec0dc49"
+      "bytes": 4921129,
+      "sha256": "050b4f317963d6b6970ee2049c56213184a7a1a4ed5521cd459e544e843af577"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
@@ -1230,8 +1230,8 @@
     },
     {
       "path": "project-metadata.json",
-      "bytes": 6942,
-      "sha256": "8924de949950eb8c4ccee50543f500a710e37bd1c26e85ff9a2aa91f7180b0cc"
+      "bytes": 6443,
+      "sha256": "fa2925dd579032e383fa72a567b41e46ee7008987bab279792487e1c390c41bc"
     },
     {
       "path": "public/app.js",
@@ -1240,13 +1240,13 @@
     },
     {
       "path": "public/data/entries.json",
-      "bytes": 3731692,
-      "sha256": "2be5e529c64f90639349f8faf929e6d2729ed7ea15d75fc094161e3f97f4f41b"
+      "bytes": 3742282,
+      "sha256": "96ccd17e484bc550da1b4c5eea21966d0ab1175c337b16d5a63455e9e9e5ea15"
     },
     {
       "path": "public/data/metadata.json",
-      "bytes": 6942,
-      "sha256": "8924de949950eb8c4ccee50543f500a710e37bd1c26e85ff9a2aa91f7180b0cc"
+      "bytes": 6443,
+      "sha256": "fa2925dd579032e383fa72a567b41e46ee7008987bab279792487e1c390c41bc"
     },
     {
       "path": "public/index.html",
