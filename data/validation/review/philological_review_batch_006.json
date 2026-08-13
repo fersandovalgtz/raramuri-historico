@@ -59,5 +59,12 @@
     {"record_id":"RHD-S1809-00634","printed_page":322,"disposition":"confirmed_ai_assisted","confirmed_reading":"Glückſeligmachen. Ganilérúje.","residual_route":"human_linguistic_and_morphological_review","note":"The historical form and two acute accents are graphically supported."},
     {"record_id":"RHD-S1809-00637","printed_page":322,"disposition":"confirmed_ai_assisted","confirmed_reading":"Gott. ... Tepagutigameke, oder Repagagameke ... Dóli, nach dem ſpaniſchen Dios.","residual_route":"human_linguistic_historical_and_semantic_review","note":"The source-period wording and listed forms are preserved as documentary evidence without endorsement; linguistic and historical interpretation remain independent."},
     {"record_id":"RHD-S1809-00639","printed_page":322,"disposition":"confirmed_ai_assisted","confirmed_reading":"Graben. Hóco. Man ſoll graben. Hómela.","residual_route":"human_linguistic_and_morphological_review","note":"Both historical forms and their visible acute accents are directly supported."}
-  ]
+  ],
+  "summary": {
+    "reviewed": 50,
+    "confirmed_ai_assisted": 43,
+    "corrected_ai_assisted": 6,
+    "unresolved_after_ai_recollation": 1,
+    "human_verified": 0
+  }
 }
