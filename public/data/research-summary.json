@@ -1,0 +1,21 @@
+{
+  "generated": "2026-08-13",
+  "active_articles_total": 1965,
+  "active_articles_by_direction": {
+    "DE-RAR": 1191,
+    "RAR-DE": 774
+  },
+  "rar_de_unique_graphic_keys": 788,
+  "inventory_guided_attestations": 989,
+  "internal_concordance_candidates": 989,
+  "reciprocal_german_support_candidates": 337,
+  "explicit_variant_groups": 24,
+  "graphic_collision_groups": 7,
+  "diachronic_semantic_context_signals": {
+    "cross_corpus_context_only": 68,
+    "internal_form_attestation_only": 77,
+    "internal_reciprocal_documentary_support": 153
+  },
+  "human_reviewed_relations": 0,
+  "warning": "Machine/documentary candidates, not validated linguistic relations."
+}

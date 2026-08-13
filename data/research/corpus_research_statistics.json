@@ -1,0 +1,71 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "generated": "2026-08-13",
+  "active_articles_total": 1965,
+  "active_articles_by_direction": {
+    "DE-RAR": 1191,
+    "RAR-DE": 774
+  },
+  "rar_de_component_attestations": 799,
+  "rar_de_unique_graphic_keys": 788,
+  "rar_de_unique_surface_forms": 795,
+  "repeated_graphic_keys_top": [
+    {
+      "graphic_key": "tsani",
+      "attestations": 3
+    },
+    {
+      "graphic_key": "caita",
+      "attestations": 2
+    },
+    {
+      "graphic_key": "ari",
+      "attestations": 2
+    },
+    {
+      "graphic_key": "eki",
+      "attestations": 2
+    },
+    {
+      "graphic_key": "huli",
+      "attestations": 2
+    },
+    {
+      "graphic_key": "kia",
+      "attestations": 2
+    },
+    {
+      "graphic_key": "matschi",
+      "attestations": 2
+    },
+    {
+      "graphic_key": "muki",
+      "attestations": 2
+    },
+    {
+      "graphic_key": "rana",
+      "attestations": 2
+    },
+    {
+      "graphic_key": "taje",
+      "attestations": 2
+    }
+  ],
+  "de_rar_inventory_guided_attestations": 989,
+  "de_rar_records_with_inventory_guided_attestations": 712,
+  "rar_de_records_attested_inside_de_rar": 502,
+  "internal_concordance_candidates": 989,
+  "internal_reciprocal_german_support_candidates": 337,
+  "residual_de_rar_span_candidates_low_machine": 1458,
+  "explicit_source_variant_groups": 24,
+  "normalized_graphic_collision_groups": 7,
+  "diachronic_semantic_context_candidates": 298,
+  "diachronic_semantic_context_signal_counts": {
+    "cross_corpus_context_only": 68,
+    "internal_form_attestation_only": 77,
+    "internal_reciprocal_documentary_support": 153
+  },
+  "human_reviewed_internal_relations": 0,
+  "human_reviewed_diachronic_relations": 0,
+  "scope_note": "Derived documentary/machine counts; no validated lexical, semantic, etymological or historical relation is asserted."
+}

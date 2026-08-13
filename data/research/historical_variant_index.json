@@ -1,0 +1,629 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "historical_documentary_variant_index",
+  "generated": "2026-08-13",
+  "human_reviewed": false,
+  "explicit_source_variant_group_count": 24,
+  "normalized_graphic_collision_group_count": 7,
+  "explicit_source_variant_groups": [
+    {
+      "group_id": "RHD-VAREXP-00001",
+      "record_id": "RHD-S1809-00027",
+      "printed_page": 353,
+      "headword_diplomatic": "Abiti oder Apiti",
+      "components": [
+        {
+          "form": "Abiti",
+          "graphic_key": "abiti"
+        },
+        {
+          "form": "Apiti",
+          "graphic_key": "apiti"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00002",
+      "record_id": "RHD-S1809-00034",
+      "printed_page": 353,
+      "headword_diplomatic": "Aitá, oder caitá",
+      "components": [
+        {
+          "form": "Aitá",
+          "graphic_key": "aita"
+        },
+        {
+          "form": "caitá",
+          "graphic_key": "caita"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00003",
+      "record_id": "RHD-S1809-01649",
+      "printed_page": 353,
+      "headword_diplomatic": "Ali oder ari",
+      "components": [
+        {
+          "form": "Ali",
+          "graphic_key": "ali"
+        },
+        {
+          "form": "ari",
+          "graphic_key": "ari"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00004",
+      "record_id": "RHD-S1809-01673",
+      "printed_page": 354,
+      "headword_diplomatic": "Atſác oder hatúca",
+      "components": [
+        {
+          "form": "Atſác",
+          "graphic_key": "atsac"
+        },
+        {
+          "form": "hatúca",
+          "graphic_key": "hatuca"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00005",
+      "record_id": "RHD-S1809-01676",
+      "printed_page": 354,
+      "headword_diplomatic": "Balſiba oder balſiſimi",
+      "components": [
+        {
+          "form": "Balſiba",
+          "graphic_key": "balsiba"
+        },
+        {
+          "form": "balſiſimi",
+          "graphic_key": "balsisimi"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00006",
+      "record_id": "RHD-S1809-01723",
+      "printed_page": 355,
+      "headword_diplomatic": "Có oder gö",
+      "components": [
+        {
+          "form": "Có",
+          "graphic_key": "co"
+        },
+        {
+          "form": "gö",
+          "graphic_key": "go"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00007",
+      "record_id": "RHD-S1809-01851",
+      "printed_page": 357,
+      "headword_diplomatic": "Guechpímela oder guechpúmela",
+      "components": [
+        {
+          "form": "Guechpímela",
+          "graphic_key": "guechpimela"
+        },
+        {
+          "form": "guechpúmela",
+          "graphic_key": "guechpumela"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00008",
+      "record_id": "RHD-S1809-01868",
+      "printed_page": 357,
+      "headword_diplomatic": "Haleséatschic, oder Hareséatschic",
+      "components": [
+        {
+          "form": "Haleséatschic",
+          "graphic_key": "haleseatschic"
+        },
+        {
+          "form": "Hareséatschic",
+          "graphic_key": "hareseatschic"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00009",
+      "record_id": "RHD-S1809-01871",
+      "printed_page": 358,
+      "headword_diplomatic": "Halí, oder harí",
+      "components": [
+        {
+          "form": "Halí",
+          "graphic_key": "hali"
+        },
+        {
+          "form": "harí",
+          "graphic_key": "hari"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00010",
+      "record_id": "RHD-S1809-01974",
+      "printed_page": 360,
+      "headword_diplomatic": "Kiná, oder vakiná",
+      "components": [
+        {
+          "form": "Kiná",
+          "graphic_key": "kina"
+        },
+        {
+          "form": "vakiná",
+          "graphic_key": "vakina"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00011",
+      "record_id": "RHD-S1809-01981",
+      "printed_page": 360,
+      "headword_diplomatic": "Kuepútsela, oder Kepútschela",
+      "components": [
+        {
+          "form": "Kuepútsela",
+          "graphic_key": "kueputsela"
+        },
+        {
+          "form": "Kepútschela",
+          "graphic_key": "keputschela"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00012",
+      "record_id": "RHD-S1809-01983",
+      "printed_page": 360,
+      "headword_diplomatic": "Kubírusi, oder Gubírusi",
+      "components": [
+        {
+          "form": "Kubírusi",
+          "graphic_key": "kubirusi"
+        },
+        {
+          "form": "Gubírusi",
+          "graphic_key": "gubirusi"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00013",
+      "record_id": "RHD-S1809-02139",
+      "printed_page": 363,
+      "headword_diplomatic": "Ossá oder guossá",
+      "components": [
+        {
+          "form": "Ossá",
+          "graphic_key": "ossa"
+        },
+        {
+          "form": "guossá",
+          "graphic_key": "guossa"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00014",
+      "record_id": "RHD-S1809-02223",
+      "printed_page": 364,
+      "headword_diplomatic": "Rachpé oder tacúpé",
+      "components": [
+        {
+          "form": "Rachpé",
+          "graphic_key": "rachpe"
+        },
+        {
+          "form": "tacúpé",
+          "graphic_key": "tacupe"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00015",
+      "record_id": "RHD-S1809-02229",
+      "printed_page": 364,
+      "headword_diplomatic": "Ráje, oder táje",
+      "components": [
+        {
+          "form": "Ráje",
+          "graphic_key": "raje"
+        },
+        {
+          "form": "táje",
+          "graphic_key": "taje"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00016",
+      "record_id": "RHD-S1809-02237",
+      "printed_page": 364,
+      "headword_diplomatic": "Regué oder aregué",
+      "components": [
+        {
+          "form": "Regué",
+          "graphic_key": "regue"
+        },
+        {
+          "form": "aregué",
+          "graphic_key": "aregue"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00017",
+      "record_id": "RHD-S1809-02287",
+      "printed_page": 365,
+      "headword_diplomatic": "Sini, oder Schine",
+      "components": [
+        {
+          "form": "Sini",
+          "graphic_key": "sini"
+        },
+        {
+          "form": "Schine",
+          "graphic_key": "schine"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00018",
+      "record_id": "RHD-S1809-02331",
+      "printed_page": 366,
+      "headword_diplomatic": "Taná, oder raná",
+      "components": [
+        {
+          "form": "Taná",
+          "graphic_key": "tana"
+        },
+        {
+          "form": "raná",
+          "graphic_key": "rana"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00019",
+      "record_id": "RHD-S1809-02360",
+      "printed_page": 366,
+      "headword_diplomatic": "Tehóje, oder rehóje",
+      "components": [
+        {
+          "form": "Tehóje",
+          "graphic_key": "tehoje"
+        },
+        {
+          "form": "rehóje",
+          "graphic_key": "rehoje"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00020",
+      "record_id": "RHD-S1809-02409",
+      "printed_page": 367,
+      "headword_diplomatic": "Tſanijolá, oder beſſer tſainijolá, oder tſenijolá",
+      "components": [
+        {
+          "form": "Tſanijolá",
+          "graphic_key": "tsanijola"
+        },
+        {
+          "form": "beſſer tſainijolá",
+          "graphic_key": "besser tsainijola"
+        },
+        {
+          "form": "tſenijolá",
+          "graphic_key": "tsenijola"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00021",
+      "record_id": "RHD-S1809-02410",
+      "printed_page": 367,
+      "headword_diplomatic": "Tſani- oder tſainijolájameke",
+      "components": [
+        {
+          "form": "Tſani-",
+          "graphic_key": "tsani"
+        },
+        {
+          "form": "tſainijolájameke",
+          "graphic_key": "tsainijolajameke"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00022",
+      "record_id": "RHD-S1809-02411",
+      "printed_page": 367,
+      "headword_diplomatic": "Tſani- oder tſainijoliki",
+      "components": [
+        {
+          "form": "Tſani-",
+          "graphic_key": "tsani"
+        },
+        {
+          "form": "tſainijoliki",
+          "graphic_key": "tsainijoliki"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00023",
+      "record_id": "RHD-S1809-02460",
+      "printed_page": 368,
+      "headword_diplomatic": "Tselé oder Tseli",
+      "components": [
+        {
+          "form": "Tselé",
+          "graphic_key": "tsele"
+        },
+        {
+          "form": "Tseli",
+          "graphic_key": "tseli"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VAREXP-00024",
+      "record_id": "RHD-S1809-02466",
+      "printed_page": 368,
+      "headword_diplomatic": "Tlestatáccameke, oder Stácameke",
+      "components": [
+        {
+          "form": "Tlestatáccameke",
+          "graphic_key": "tlestataccameke"
+        },
+        {
+          "form": "Stácameke",
+          "graphic_key": "stacameke"
+        }
+      ],
+      "relation_type": "explicit_source_variant_group",
+      "human_reviewed": false
+    }
+  ],
+  "normalized_graphic_collision_groups": [
+    {
+      "group_id": "RHD-VARCOL-00001",
+      "graphic_key": "ari",
+      "surface_forms": [
+        "Ari",
+        "ari"
+      ],
+      "attestations": [
+        {
+          "record_id": "RHD-S1809-01649",
+          "component_index": 2,
+          "form_diplomatic": "ari",
+          "printed_page": 353
+        },
+        {
+          "record_id": "RHD-S1809-01655",
+          "component_index": 1,
+          "form_diplomatic": "Ari",
+          "printed_page": 354
+        }
+      ],
+      "relation_type": "normalized_graphic_collision_group",
+      "interpretive_scope": "Shared conservative graphic key only; this does not prove linguistic variant status.",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VARCOL-00002",
+      "graphic_key": "caita",
+      "surface_forms": [
+        "Caitá",
+        "caitá"
+      ],
+      "attestations": [
+        {
+          "record_id": "RHD-S1809-00034",
+          "component_index": 2,
+          "form_diplomatic": "caitá",
+          "printed_page": 353
+        },
+        {
+          "record_id": "RHD-S1809-01706",
+          "component_index": 1,
+          "form_diplomatic": "Caitá",
+          "printed_page": 355
+        }
+      ],
+      "relation_type": "normalized_graphic_collision_group",
+      "interpretive_scope": "Shared conservative graphic key only; this does not prove linguistic variant status.",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VARCOL-00003",
+      "graphic_key": "huli",
+      "surface_forms": [
+        "Huli",
+        "Húli"
+      ],
+      "attestations": [
+        {
+          "record_id": "RHD-S1809-01902",
+          "component_index": 1,
+          "form_diplomatic": "Húli",
+          "printed_page": 358
+        },
+        {
+          "record_id": "RHD-S1809-01903",
+          "component_index": 1,
+          "form_diplomatic": "Huli",
+          "printed_page": 358
+        }
+      ],
+      "relation_type": "normalized_graphic_collision_group",
+      "interpretive_scope": "Shared conservative graphic key only; this does not prove linguistic variant status.",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VARCOL-00004",
+      "graphic_key": "muki",
+      "surface_forms": [
+        "Muki",
+        "Mukí"
+      ],
+      "attestations": [
+        {
+          "record_id": "RHD-S1809-02027",
+          "component_index": 1,
+          "form_diplomatic": "Mukí",
+          "printed_page": 361
+        },
+        {
+          "record_id": "RHD-S1809-02029",
+          "component_index": 1,
+          "form_diplomatic": "Muki",
+          "printed_page": 361
+        }
+      ],
+      "relation_type": "normalized_graphic_collision_group",
+      "interpretive_scope": "Shared conservative graphic key only; this does not prove linguistic variant status.",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VARCOL-00005",
+      "graphic_key": "rana",
+      "surface_forms": [
+        "Raná",
+        "raná"
+      ],
+      "attestations": [
+        {
+          "record_id": "RHD-S1809-02228",
+          "component_index": 1,
+          "form_diplomatic": "Raná",
+          "printed_page": 364
+        },
+        {
+          "record_id": "RHD-S1809-02331",
+          "component_index": 2,
+          "form_diplomatic": "raná",
+          "printed_page": 366
+        }
+      ],
+      "relation_type": "normalized_graphic_collision_group",
+      "interpretive_scope": "Shared conservative graphic key only; this does not prove linguistic variant status.",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VARCOL-00006",
+      "graphic_key": "taje",
+      "surface_forms": [
+        "Táje",
+        "táje"
+      ],
+      "attestations": [
+        {
+          "record_id": "RHD-S1809-02229",
+          "component_index": 2,
+          "form_diplomatic": "táje",
+          "printed_page": 364
+        },
+        {
+          "record_id": "RHD-S1809-02316",
+          "component_index": 1,
+          "form_diplomatic": "Táje",
+          "printed_page": 366
+        }
+      ],
+      "relation_type": "normalized_graphic_collision_group",
+      "interpretive_scope": "Shared conservative graphic key only; this does not prove linguistic variant status.",
+      "human_reviewed": false
+    },
+    {
+      "group_id": "RHD-VARCOL-00007",
+      "graphic_key": "tsani",
+      "surface_forms": [
+        "Tſani",
+        "Tſani-"
+      ],
+      "attestations": [
+        {
+          "record_id": "RHD-S1809-02408",
+          "component_index": 1,
+          "form_diplomatic": "Tſani",
+          "printed_page": 367
+        },
+        {
+          "record_id": "RHD-S1809-02410",
+          "component_index": 1,
+          "form_diplomatic": "Tſani-",
+          "printed_page": 367
+        },
+        {
+          "record_id": "RHD-S1809-02411",
+          "component_index": 1,
+          "form_diplomatic": "Tſani-",
+          "printed_page": 367
+        }
+      ],
+      "relation_type": "normalized_graphic_collision_group",
+      "interpretive_scope": "Shared conservative graphic key only; this does not prove linguistic variant status.",
+      "human_reviewed": false
+    }
+  ]
+}

@@ -80,7 +80,16 @@
     "diachronic_adjudication_historical_records": 137,
     "diachronic_adjudication_modern_records": 221,
     "diachronic_semantic_context_available_candidates": 298,
-    "diachronic_priority1_adjudication_dossiers": 21
+    "diachronic_priority1_adjudication_dossiers": 21,
+    "steffel_rar_de_unique_graphic_keys": 788,
+    "steffel_de_rar_inventory_guided_attestations": 989,
+    "steffel_internal_concordance_candidates": 989,
+    "steffel_internal_reciprocal_german_support_candidates": 337,
+    "steffel_de_rar_residual_span_candidates_low_machine": 1458,
+    "steffel_explicit_source_variant_groups": 24,
+    "steffel_normalized_graphic_collision_groups": 7,
+    "diachronic_semantic_context_candidates": 298,
+    "research_layer_human_reviewed_relations": 0
   },
   "editorial_pipeline": {
     "review_queue": "data/review/next_review_queue.json",
@@ -174,7 +183,24 @@
     "diachronic_priority1_dossier_generator": "scripts/generate_diachronic_priority1_dossiers.py",
     "diachronic_priority1_dossier_count": 21,
     "diachronic_priority1_dossiers_human_reviewed": false,
-    "diachronic_next_review_priority": "Review the 21 tier-1 diachronic dossiers first, then tier 2, while keeping all correspondence decisions independent from the documentary transcription layer."
+    "diachronic_next_review_priority": "Review the 21 tier-1 diachronic dossiers first, then tier 2, while keeping all correspondence decisions independent from the documentary transcription layer.",
+    "internal_research_layer_generators": [
+      "scripts/generate_de_rar_attestations.py",
+      "scripts/generate_internal_concordance.py",
+      "scripts/generate_historical_variants.py",
+      "scripts/generate_semantic_context_queue.py",
+      "scripts/generate_graphemic_statistics.py",
+      "scripts/generate_research_statistics.py"
+    ],
+    "de_rar_inventory_guided_attestations": "data/research/de_rar_inventory_guided_attestations.json",
+    "de_rar_residual_span_candidates": "data/research/de_rar_residual_span_candidates.json",
+    "steffel_internal_concordance": "data/research/internal_concordance.json",
+    "historical_variant_index": "data/research/historical_variant_index.json",
+    "diachronic_semantic_context_queue": "data/research/diachronic_semantic_context_queue.json",
+    "graphemic_statistics": "data/research/graphemic_statistics.json",
+    "corpus_research_statistics": "data/research/corpus_research_statistics.json",
+    "research_snapshot": "data/research/RESEARCH_SNAPSHOT.md",
+    "internal_research_non_overwrite_policy": "Derived research layers never overwrite facsimile, OCR, diplomatic transcription, PHIL history, Rarámuri Digital source records, or human-review flags."
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",

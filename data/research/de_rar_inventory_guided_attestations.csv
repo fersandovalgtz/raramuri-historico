@@ -1,0 +1,990 @@
+attestation_id,de_rar_record_id,de_rar_headword_diplomatic,de_rar_printed_page,rar_de_record_id,rar_de_component_index,rar_de_form_diplomatic,rar_de_german_gloss_local,rar_de_printed_page,graphic_key,short_form_warning,reciprocal_german_support,reciprocal_support_type,human_reviewed
+RHD-IATT-000001,RHD-S1809-00001,Abgehen,301,RHD-S1809-02248,1,Róco,"Es mangelt, geht ab",365,roco,False,False,none,False
+RHD-IATT-000002,RHD-S1809-00001,Abgehen,301,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000003,RHD-S1809-00001,Abgehen,301,RHD-S1809-02320,1,Taitéke,"taitéki, Es iſt nicht vorhanden",366,taiteke,False,False,none,False
+RHD-IATT-000004,RHD-S1809-00002,Abhalten,301,RHD-S1809-02306,1,Sulí,Verbieten,366,suli,False,False,none,False
+RHD-IATT-000005,RHD-S1809-00003,Abhauen,301,RHD-S1809-02282,1,Siká,"Hauen, zerſchneiden",365,sika,False,False,none,False
+RHD-IATT-000006,RHD-S1809-00003,Abhauen,301,RHD-S1809-02283,1,Sikirúgameke,Zerhauenes,365,sikirugameke,False,False,none,False
+RHD-IATT-000007,RHD-S1809-00003,Abhauen,301,RHD-S1809-02385,1,Tepulá,"oder tepurá, Hauen, hacken",367,tepula,False,False,none,False
+RHD-IATT-000008,RHD-S1809-00004,Abhäufen,301,RHD-S1809-02321,1,Talá,Fuß,366,tala,False,False,none,False
+RHD-IATT-000009,RHD-S1809-00005,Abmeſſen,301,RHD-S1809-02077,1,Nanaguá,Messen,362,nanagua,False,False,none,False
+RHD-IATT-000010,RHD-S1809-00006,Abnehmen,301,RHD-S1809-02267,1,Schugui,"Abnehmen, wenig werden",365,schugui,False,True,german_headword_gloss_containment,False
+RHD-IATT-000011,RHD-S1809-00007,Abſchicken,301,RHD-S1809-01901,1,Hulá,"Schicken, senden",358,hula,False,False,none,False
+RHD-IATT-000012,RHD-S1809-00008,Abſtehen,301,RHD-S1809-02237,1,Regué,Aufhören,364,regue,False,False,none,False
+RHD-IATT-000013,RHD-S1809-00008,Abſtehen,301,RHD-S1809-02237,2,aregué,Aufhören,364,aregue,False,False,none,False
+RHD-IATT-000014,RHD-S1809-00009,Abſteigen,301,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000015,RHD-S1809-00009,Abſteigen,301,RHD-S1809-02363,1,Tele,Unten,366,tele,False,False,none,False
+RHD-IATT-000016,RHD-S1809-00010,Abwärts,301,RHD-S1809-02368,1,Telegona,Abwärts,367,telegona,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000017,RHD-S1809-00013,Abzählen,301,RHD-S1809-02335,1,Tará,Zählen,366,tara,False,False,none,False
+RHD-IATT-000018,RHD-S1809-00014,Acht,301,RHD-S1809-02142,1,Oſſanaguóco,Acht,363,ossanaguoco,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000019,RHD-S1809-00014,Acht,301,RHD-S1809-02143,1,Ossanaguóameke,Der Achte,363,ossanaguoameke,False,False,none,False
+RHD-IATT-000020,RHD-S1809-00014,Acht,301,RHD-S1809-02144,1,Oſſanaguéſſa,Achtmal,363,ossanaguessa,False,False,none,False
+RHD-IATT-000021,RHD-S1809-00015,Acht haben,301,RHD-S1809-01802,1,Gané,Recht gut,357,gane,False,False,none,False
+RHD-IATT-000022,RHD-S1809-00015,Acht haben,301,RHD-S1809-01952,1,Kakè,Hören,359,kake,False,False,none,False
+RHD-IATT-000023,RHD-S1809-00016,Acker,301,RHD-S1809-01683,1,Báſſa,"Acker, Feld",354,bassa,False,True,german_headword_gloss_containment,False
+RHD-IATT-000024,RHD-S1809-00018,Aernten,301,RHD-S1809-02282,1,Siká,"Hauen, zerſchneiden",365,sika,False,False,none,False
+RHD-IATT-000025,RHD-S1809-00019,Allein,301,RHD-S1809-02177,1,Pinélipi,Alleinig,364,pinelipi,False,False,none,False
+RHD-IATT-000026,RHD-S1809-00020,Alles,301,RHD-S1809-01939,1,Jumá,"oder Jomá, Alles",359,juma,False,True,german_headword_gloss_containment,False
+RHD-IATT-000027,RHD-S1809-00021,Allenthalben,301,RHD-S1809-01939,1,Jumá,"oder Jomá, Alles",359,juma,False,False,none,False
+RHD-IATT-000028,RHD-S1809-00022,Allerdings,301,RHD-S1809-01907,1,Hune,ſ,358,hune,False,False,none,False
+RHD-IATT-000029,RHD-S1809-00023,Allzeit,301,RHD-S1809-02289,1,Sinévi,"oder linivi, Immer, allezeit",365,sinevi,False,False,none,False
+RHD-IATT-000030,RHD-S1809-00025,"Alſobald, alſogleich",302,RHD-S1809-01884,1,Hipeco,Alſogleich,358,hipeco,False,True,german_headword_gloss_containment,False
+RHD-IATT-000031,RHD-S1809-00025,"Alſobald, alſogleich",302,RHD-S1809-01886,1,Hípela,"Itzt gleich, dieſen Augenblick",358,hipela,False,False,none,False
+RHD-IATT-000032,RHD-S1809-00070,Ackern,301,RHD-S1809-01671,1,Baſſaráboa,es muß geackert werden,354,bassaraboa,False,False,none,False
+RHD-IATT-000033,RHD-S1809-00070,Ackern,301,RHD-S1809-01684,1,Baſſará,"Ackern, pflügen",354,bassara,False,True,german_headword_gloss_containment,False
+RHD-IATT-000034,RHD-S1809-00070,Ackern,301,RHD-S1809-01687,1,Bóa,ſ,355,boa,True,False,none,False
+RHD-IATT-000035,RHD-S1809-00072,Allmächtig,301,RHD-S1809-01942,1,Jumájumájameke,Allmächtig,359,jumajumajameke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000036,RHD-S1809-00074,Aloe,301,RHD-S1809-02022,1,Muhé,"muhéli, Du",361,muhe,False,False,none,False
+RHD-IATT-000037,RHD-S1809-00081,Alſo,302,RHD-S1809-02203,1,Pugué,Warten,364,pugue,False,False,none,False
+RHD-IATT-000038,RHD-S1809-00085,Alt,302,RHD-S1809-01843,1,Guelámeke,altes Weib,357,guelameke,False,False,none,False
+RHD-IATT-000039,RHD-S1809-00087,Ameiſe,302,RHD-S1809-02019,1,Motsáca,Ameise,361,motsaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000040,RHD-S1809-00089,Anderer,302,RHD-S1809-01902,1,Húli,s,358,huli,False,False,none,False
+RHD-IATT-000041,RHD-S1809-00089,Anderer,302,RHD-S1809-01903,1,Huli,"Ein anderer, anderes",358,huli,False,True,german_headword_gloss_containment,False
+RHD-IATT-000042,RHD-S1809-00089,Anderer,302,RHD-S1809-02276,1,Senú,Ein anderes,365,senu,False,False,none,False
+RHD-IATT-000043,RHD-S1809-00089,Anderer,302,RHD-S1809-02277,1,Senúla,Noch ein anderes,365,senula,False,False,none,False
+RHD-IATT-000044,RHD-S1809-00090,Anderſt,302,RHD-S1809-02273,1,Seguí,Auf eine andere Weise,365,segui,False,False,none,False
+RHD-IATT-000045,RHD-S1809-00093,Anfechten,302,RHD-S1809-02262,1,Satuje,Anfechten,365,satuje,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000046,RHD-S1809-00094,Anfechter,302,RHD-S1809-02261,1,Satiameke,Anfechter,365,satiameke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000047,RHD-S1809-00095,Anfüllen,302,RHD-S1809-02190,1,Potschí,Anfüllen,364,potschi,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000048,RHD-S1809-00095,Anfüllen,302,RHD-S1809-02192,1,Potſchiruc,"Es iſt voll, angefüllt",364,potschiruc,False,False,none,False
+RHD-IATT-000049,RHD-S1809-00096,Angeſicht,302,RHD-S1809-02245,1,Retéguala,Angeſicht,365,reteguala,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000050,RHD-S1809-00100,Annehmen,302,RHD-S1809-01855,1,Guiki,Annehmen,357,guiki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000051,RHD-S1809-00101,"Anſchauen, anſehen",302,RHD-S1809-02107,1,Nené,Sehen,362,nene,False,False,none,False
+RHD-IATT-000052,RHD-S1809-00101,"Anſchauen, anſehen",302,RHD-S1809-02244,1,Reteguá,Sehen,365,retegua,False,False,none,False
+RHD-IATT-000053,RHD-S1809-00103,Anſtreichen,302,RHD-S1809-02263,1,Sauguéra,Anſtreichen,365,sauguera,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000054,RHD-S1809-00104,Antworten,302,RHD-S1809-02104,1,Nehajámera,Antworten,362,nehajamera,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000055,RHD-S1809-00106,Anzünden,302,RHD-S1809-02067,1,Naïgé,Anzünden,362,naige,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000056,RHD-S1809-00106,Anzünden,302,RHD-S1809-02068,1,Näíruc,Es ist angezündet,362,nairuc,False,False,none,False
+RHD-IATT-000057,RHD-S1809-00107,Apatſchee,302,RHD-S1809-01654,1,Apatſche,ſ,354,apatsche,False,False,none,False
+RHD-IATT-000058,RHD-S1809-00116,Arbeit,304,RHD-S1809-01930,1,Inoitſánali,Arbeit,359,inoitsanali,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000059,RHD-S1809-00117,Arbeiten,304,RHD-S1809-00044,1,Inoitſá,Arbeiten,359,inoitsa,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000060,RHD-S1809-00117,Arbeiten,304,RHD-S1809-00045,1,Inoitſamela,"Man ſoll, oder muß arbeiten",359,inoitsamela,False,True,german_headword_gloss_containment,False
+RHD-IATT-000061,RHD-S1809-00129,Aufladen,304,RHD-S1809-01653,1,Balá,"Beladen, beſchweren, aufladen",354,bala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000062,RHD-S1809-00129,Aufladen,304,RHD-S1809-01670,1,Baláliruc,Was beladen worden,354,balaliruc,False,False,none,False
+RHD-IATT-000063,RHD-S1809-00136,Aufbehalten,304,RHD-S1809-02110,1,Neſſé,Bewahren,362,nesse,False,False,none,False
+RHD-IATT-000064,RHD-S1809-00138,Aufhören,304,RHD-S1809-02237,1,Regué,Aufhören,364,regue,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000065,RHD-S1809-00138,Aufhören,304,RHD-S1809-02237,2,aregué,Aufhören,364,aregue,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000066,RHD-S1809-00141,"Aufmachen, d. i. öffnen",304,RHD-S1809-01785,1,Epúaje,"oder epúje, Aufmachen",356,epuaje,False,False,none,False
+RHD-IATT-000067,RHD-S1809-00142,Aufmerken,304,RHD-S1809-01802,1,Gané,Recht gut,357,gane,False,False,none,False
+RHD-IATT-000068,RHD-S1809-00142,Aufmerken,304,RHD-S1809-01952,1,Kakè,Hören,359,kake,False,False,none,False
+RHD-IATT-000069,RHD-S1809-00144,Aufſpielen,304,RHD-S1809-02309,1,Tápoa,"Aufſpielen, Muſik machen",366,tapoa,False,True,german_headword_gloss_containment,False
+RHD-IATT-000070,RHD-S1809-00150,Backenſtreich,305,RHD-S1809-02448,1,Tſchotſchonála,Maulſchelle,368,tschotschonala,False,False,none,False
+RHD-IATT-000071,RHD-S1809-00152,Baden,305,RHD-S1809-02464,1,Uvánale,"Baden, s",368,uvanale,False,True,german_headword_gloss_containment,False
+RHD-IATT-000072,RHD-S1809-00163,Bahnen,306,RHD-S1809-02200,1,Póviruc,Ein guter gebahnter Weg,364,poviruc,False,False,none,False
+RHD-IATT-000073,RHD-S1809-00165,Bald,306,RHD-S1809-01886,1,Hípela,"Itzt gleich, dieſen Augenblick",358,hipela,False,False,none,False
+RHD-IATT-000074,RHD-S1809-00166,Balg,306,RHD-S1809-01858,1,Guitſchila,Haut,357,guitschila,False,False,none,False
+RHD-IATT-000075,RHD-S1809-00167,Balgen,306,RHD-S1809-02064,1,Nahirape,Ringen,362,nahirape,False,False,none,False
+RHD-IATT-000076,RHD-S1809-00169,Ball,306,RHD-S1809-02486,1,Ulé,Spielblatt,368,ule,True,False,none,False
+RHD-IATT-000077,RHD-S1809-00172,Bank,306,RHD-S1809-01910,1,Jaſſála,"Sitz, Stuhl, Bank",358,jassala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000078,RHD-S1809-00177,Bart,307,RHD-S1809-01777,1,Etſchaguala,Bart,356,etschaguala,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000079,RHD-S1809-00184,Bauchgrimmen haben,307,RHD-S1809-01725,1,Cocolá,Krank ſeyn,355,cocola,False,False,none,False
+RHD-IATT-000080,RHD-S1809-00185,Bauen,307,RHD-S1809-01709,1,Caliruje,"Bauen, ſ",355,caliruje,False,True,german_headword_gloss_containment,False
+RHD-IATT-000081,RHD-S1809-00189,Baum,307,RHD-S1809-01761,1,Cusíki,"Holz, Stab, Stecken, Prügel",356,cusiki,False,False,none,False
+RHD-IATT-000082,RHD-S1809-00189,Baum,307,RHD-S1809-01766,1,Cutſchiki,Baum,356,cutschiki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000083,RHD-S1809-00189,Baum,307,RHD-S1809-01888,1,Hochcóco,ſ,358,hochcoco,False,False,none,False
+RHD-IATT-000084,RHD-S1809-00192,Baumwolle,307,RHD-S1809-01742,1,Cosiki,Baumwolle,355,cosiki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000085,RHD-S1809-00194,Bedecken,308,RHD-S1809-02188,1,Polé,Bedecken,364,pole,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000086,RHD-S1809-00194,Bedecken,308,RHD-S1809-02189,1,Póliruc,Es ist bedeckt,364,poliruc,False,False,none,False
+RHD-IATT-000087,RHD-S1809-00197,Bedürftig,308,RHD-S1809-02389,1,Telsiguati,"Verunglückt, bedrängt, arm",367,telsiguati,False,False,none,False
+RHD-IATT-000088,RHD-S1809-00199,Befehlen,308,RHD-S1809-02129,1,Nulá,Befehlen,363,nula,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000089,RHD-S1809-00199,Befehlen,308,RHD-S1809-02131,1,Núliruc,"Was befohlen, geboten iſt",363,nuliruc,False,False,none,False
+RHD-IATT-000090,RHD-S1809-00200,Befruchten,308,RHD-S1809-02253,1,Rúje,Sprechen,365,ruje,False,False,none,False
+RHD-IATT-000091,RHD-S1809-00201,Beflecken,308,RHD-S1809-02204,1,Pujaniki,Beflecken,364,pujaniki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000092,RHD-S1809-00203,Begehren,308,RHD-S1809-01782,1,Elá,"Verlangen, begehren",356,ela,True,True,german_headword_gloss_containment,False
+RHD-IATT-000093,RHD-S1809-00203,Begehren,308,RHD-S1809-02333,1,Taní,Begehren,366,tani,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000094,RHD-S1809-00205,Begraben,308,RHD-S1809-02366,1,Tocó,Begraben,367,toco,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000095,RHD-S1809-00206,Begreifen,308,RHD-S1809-02006,1,Matſchi,Draußen,361,matschi,False,False,none,False
+RHD-IATT-000096,RHD-S1809-00206,Begreifen,308,RHD-S1809-02007,1,Matſchi,"als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr",361,matschi,False,False,none,False
+RHD-IATT-000097,RHD-S1809-00207,Behaglich,308,RHD-S1809-02136,1,Ogué,"Gedeihlich, zur Geſundheit dienlich",363,ogue,False,False,none,False
+RHD-IATT-000098,RHD-S1809-00208,Behalten,308,RHD-S1809-02110,1,Neſſé,Bewahren,362,nesse,False,False,none,False
+RHD-IATT-000099,RHD-S1809-00209,Behend,308,RHD-S1809-01824,1,Gualíneke,"Hurtig, ſchneller Läufer",357,gualineke,False,False,none,False
+RHD-IATT-000100,RHD-S1809-00211,Bejahen,308,RHD-S1809-02408,1,Tſani,Sagen,367,tsani,False,False,none,False
+RHD-IATT-000101,RHD-S1809-00211,Bejahen,308,RHD-S1809-02410,1,Tſani-,Der Böſes thut,367,tsani,False,False,none,False
+RHD-IATT-000102,RHD-S1809-00211,Bejahen,308,RHD-S1809-02411,1,Tſani-,Uebelthat,367,tsani,False,False,none,False
+RHD-IATT-000103,RHD-S1809-00219,Belebt,308,RHD-S1809-01865,1,Haagameke,Belebt,357,haagameke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000104,RHD-S1809-00220,Beleidigen,308,RHD-S1809-01644,1,Ajóruje,zornig machen,353,ajoruje,False,False,none,False
+RHD-IATT-000105,RHD-S1809-00221,Belieben,308,RHD-S1809-02050,1,Nachkí,Wollen,361,nachki,False,False,none,False
+RHD-IATT-000106,RHD-S1809-00223,Belohnen,308,RHD-S1809-02094,1,Natútuje,"besser nachtútuje, Belohnen",362,natutuje,False,True,german_headword_gloss_containment,False
+RHD-IATT-000107,RHD-S1809-00224,Belohnung,308,RHD-S1809-02092,1,Nateguí,Lohn,362,nategui,False,False,none,False
+RHD-IATT-000108,RHD-S1809-00227,Berauben,308,RHD-S1809-01933,1,Itschiguá,Stehlen,359,itschigua,False,False,none,False
+RHD-IATT-000109,RHD-S1809-00228,Berauſchen,308,RHD-S1809-02062,1,Naguábahí,Sich voll trinken,362,naguabahi,False,False,none,False
+RHD-IATT-000110,RHD-S1809-00228,Berauſchen,308,RHD-S1809-02353,1,Teculüameke,Berauſcht,366,teculuameke,False,False,none,False
+RHD-IATT-000111,RHD-S1809-00230,Bergwerk,308,RHD-S1809-01848,1,Guenomèatſi,"Bergwerk, Erzgrube",357,guenomeatsi,False,True,german_headword_gloss_containment,False
+RHD-IATT-000112,RHD-S1809-00232,Berufen,308,RHD-S1809-01665,1,Bajé,Rufen,354,baje,False,False,none,False
+RHD-IATT-000113,RHD-S1809-00235,Beſchauen,308,RHD-S1809-02107,1,Nené,Sehen,362,nene,False,False,none,False
+RHD-IATT-000114,RHD-S1809-00236,Beſchmieren,308,RHD-S1809-02204,1,Pujaniki,Beflecken,364,pujaniki,False,False,none,False
+RHD-IATT-000115,RHD-S1809-00237,Beſchweren,308,RHD-S1809-01653,1,Balá,"Beladen, beſchweren, aufladen",354,bala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000116,RHD-S1809-00238,Beſeelt,308,RHD-S1809-01865,1,Haagameke,Belebt,357,haagameke,False,False,none,False
+RHD-IATT-000117,RHD-S1809-00241,Beſitzen,308,RHD-S1809-01693,1,Buké,"Haben, beſitzen, ſ",355,buke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000118,RHD-S1809-00241,Beſitzen,308,RHD-S1809-01834,1,Gué,Erde,357,gue,True,False,none,False
+RHD-IATT-000119,RHD-S1809-00241,Beſitzen,308,RHD-S1809-02075,1,Naligué,"Haben, besitzen",362,naligue,False,True,german_headword_gloss_containment,False
+RHD-IATT-000120,RHD-S1809-00251,Beſudeln,309,RHD-S1809-02204,1,Pujaniki,Beflecken,364,pujaniki,False,False,none,False
+RHD-IATT-000121,RHD-S1809-00253,Betrunken,309,RHD-S1809-02353,1,Teculüameke,Berauſcht,366,teculuameke,False,False,none,False
+RHD-IATT-000122,RHD-S1809-00255,Betrübniß,309,RHD-S1809-02388,1,Telsiguála,Betrübniß,367,telsiguala,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000123,RHD-S1809-00256,Betrübt,309,RHD-S1809-02389,1,Telsiguati,"Verunglückt, bedrängt, arm",367,telsiguati,False,False,none,False
+RHD-IATT-000124,RHD-S1809-00258,Bewachen,309,RHD-S1809-02110,1,Neſſé,Bewahren,362,nesse,False,False,none,False
+RHD-IATT-000125,RHD-S1809-00259,Bewegen,309,RHD-S1809-02120,1,Nokí,Bewegen,362,noki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000126,RHD-S1809-00262,Beyde,309,RHD-S1809-02076,1,Nanáca,Von beyden Seiten,362,nanaca,False,False,none,False
+RHD-IATT-000127,RHD-S1809-00262,Beyde,309,RHD-S1809-02135,1,Ocánica,Beyde,363,ocanica,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000128,RHD-S1809-00263,Beyſammen,309,RHD-S1809-01936,1,Jújega,Mitsammen,359,jujega,False,False,none,False
+RHD-IATT-000129,RHD-S1809-00263,Beyſammen,309,RHD-S1809-02079,1,Napá,Beysammen,362,napa,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000130,RHD-S1809-00266,Binde,309,RHD-S1809-02085,1,Nassíbula,Binde,362,nassibula,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000131,RHD-S1809-00267,Binden,309,RHD-S1809-01697,1,Bulá,Binden,355,bula,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000132,RHD-S1809-00267,Binden,309,RHD-S1809-01698,1,Búliruc,es iſt gebunden,355,buliruc,False,False,none,False
+RHD-IATT-000133,RHD-S1809-00267,Binden,309,RHD-S1809-01699,1,Bulirúgameke,Gebundenes,355,bulirugameke,False,False,none,False
+RHD-IATT-000134,RHD-S1809-00268,Biſchen,309,RHD-S1809-02223,1,Rachpé,Wenig,364,rachpe,False,False,none,False
+RHD-IATT-000135,RHD-S1809-00268,Biſchen,309,RHD-S1809-02259,1,Sapáca,Fleisch,365,sapaca,False,False,none,False
+RHD-IATT-000136,RHD-S1809-00268,Biſchen,309,RHD-S1809-02312,1,Tachpé,Wenig,366,tachpe,False,False,none,False
+RHD-IATT-000137,RHD-S1809-00269,Bisweilen,309,RHD-S1809-02287,1,Sini,oder Schine,365,sini,False,False,none,False
+RHD-IATT-000138,RHD-S1809-00269,Bisweilen,309,RHD-S1809-02287,2,Schine,oder Schine,365,schine,False,False,none,False
+RHD-IATT-000139,RHD-S1809-00270,Bitten,309,RHD-S1809-02333,1,Taní,Begehren,366,tani,False,False,none,False
+RHD-IATT-000140,RHD-S1809-00271,Blaſen,309,RHD-S1809-02209,1,Putſché,Blaſen,364,putsche,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000141,RHD-S1809-00272,Blatt,309,RHD-S1809-01660,1,Bacaguáca,Blatt,354,bacaguaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000142,RHD-S1809-00272,Blatt,309,RHD-S1809-01897,1,Hoſſeliki,Pappier,358,hosseliki,False,False,none,False
+RHD-IATT-000143,RHD-S1809-00275,Blech,309,RHD-S1809-01849,1,Guenomi,ſ,357,guenomi,False,False,none,False
+RHD-IATT-000144,RHD-S1809-00275,Blech,309,RHD-S1809-02426,1,Tſchiperameke,Fein,367,tschiperameke,False,False,none,False
+RHD-IATT-000145,RHD-S1809-00279,Blut,309,RHD-S1809-01784,1,Eláca,Menschenblut,356,elaca,False,False,none,False
+RHD-IATT-000146,RHD-S1809-00279,Blut,309,RHD-S1809-01988,1,Láca,"Blut, s",360,laca,False,True,german_headword_gloss_containment,False
+RHD-IATT-000147,RHD-S1809-00280,Blutsfreund,309,RHD-S1809-02357,1,Tehimá,Blutsfreund,366,tehima,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000148,RHD-S1809-00280,Blutsfreund,309,RHD-S1809-02358,1,Tehimála,"Mein Blutsfreund, s",366,tehimala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000149,RHD-S1809-00280,Blutsfreund,309,RHD-S1809-02359,1,Tehiméameke,Verwandter,366,tehimeameke,False,False,none,False
+RHD-IATT-000150,RHD-S1809-00286,Borgen,310,RHD-S1809-02332,1,Tanegué,Leihen,366,tanegue,False,False,none,False
+RHD-IATT-000151,RHD-S1809-00287,Bös,310,RHD-S1809-02469,1,Tſetijolá,Böſes thun,368,tsetijola,False,False,none,False
+RHD-IATT-000152,RHD-S1809-00290,Braten,310,RHD-S1809-01818,1,Guauguéke,gebratenes Fleisch,357,guaugueke,False,False,none,False
+RHD-IATT-000153,RHD-S1809-00292,Brav,310,RHD-S1809-01922,1,Igue,Sehr,359,igue,False,False,none,False
+RHD-IATT-000154,RHD-S1809-00293,Brautpaar,310,RHD-S1809-02417,1,Tschapíboli,Die Brautleute,367,tschapiboli,False,False,none,False
+RHD-IATT-000155,RHD-S1809-00296,Brennen,310,RHD-S1809-02217,1,Rachá,"Es iſt heiß, es brennt",364,racha,False,False,none,False
+RHD-IATT-000156,RHD-S1809-00296,Brennen,310,RHD-S1809-02218,1,Rachába,"Es ist schon heiß, es brennt schon",364,rachaba,False,False,none,False
+RHD-IATT-000157,RHD-S1809-00297,Brennholz,310,RHD-S1809-01811,1,Gaſſó,Brennſchwamm,357,gasso,False,False,none,False
+RHD-IATT-000158,RHD-S1809-00298,Brief,310,RHD-S1809-01897,1,Hoſſeliki,Pappier,358,hosseliki,False,False,none,False
+RHD-IATT-000159,RHD-S1809-00300,Brod,310,RHD-S1809-02373,1,Teméke,"beſſer reméke, ſ",367,temeke,False,False,none,False
+RHD-IATT-000160,RHD-S1809-00311,Brut,311,RHD-S1809-02214,1,Putschíla,"Brust, uber",364,putschila,False,False,none,False
+RHD-IATT-000161,RHD-S1809-00312,Buckel,311,RHD-S1809-01690,1,Bucáligua,"Rücken, Buckel",355,bucaligua,False,True,german_headword_gloss_containment,False
+RHD-IATT-000162,RHD-S1809-00313,Buch,311,RHD-S1809-01897,1,Hoſſeliki,Pappier,358,hosseliki,False,False,none,False
+RHD-IATT-000163,RHD-S1809-00315,Da,311,RHD-S1809-01876,1,Hená íbe,Da,358,hena ibe,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000164,RHD-S1809-00315,Da,311,RHD-S1809-01912,1,Ibe,Da,358,ibe,True,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000165,RHD-S1809-00316,Da,311,RHD-S1809-01876,1,Hená íbe,Da,358,hena ibe,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000166,RHD-S1809-00316,Da,311,RHD-S1809-01912,1,Ibe,Da,358,ibe,True,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000167,RHD-S1809-00321,Decken,312,RHD-S1809-02188,1,Polé,Bedecken,364,pole,False,False,none,False
+RHD-IATT-000168,RHD-S1809-00324,Derswegen,312,RHD-S1809-01735,1,Colaguitaje,"Daher, deswegen, damit, darum, ſ",355,colaguitaje,False,False,none,False
+RHD-IATT-000169,RHD-S1809-00324,Derswegen,312,RHD-S1809-01970,1,Kibeláguitaje,"Darum, Deswegen",359,kibelaguitaje,False,False,none,False
+RHD-IATT-000170,RHD-S1809-00325,Derſelbe,312,RHD-S1809-01914,1,Iché,Dieſer,358,iche,False,False,none,False
+RHD-IATT-000171,RHD-S1809-00327,Dick,312,RHD-S1809-01754,1,Culúameke,"dick, fett, leibig, Schmeerbauch",356,culuameke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000172,RHD-S1809-00327,Dick,312,RHD-S1809-01844,1,Guelé,"Dick, fett",357,guele,False,True,german_headword_gloss_containment,False
+RHD-IATT-000173,RHD-S1809-00328,Dieb,312,RHD-S1809-01934,1,Itſchiguájameke,Dieb,359,itschiguajameke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000174,RHD-S1809-00331,Dieſer,312,RHD-S1809-01779,1,Eſſe,"Dieſer, dieſes",356,esse,False,True,german_headword_gloss_containment,False
+RHD-IATT-000175,RHD-S1809-00331,Dieſer,312,RHD-S1809-01914,1,Iché,Dieſer,358,iche,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000176,RHD-S1809-00333,Ding,312,RHD-S1809-02078,1,Nanamuti,Sache,362,nanamuti,False,False,none,False
+RHD-IATT-000177,RHD-S1809-00334,Donnern,312,RHD-S1809-02233,1,Rhaná,Es donnert,364,rhana,False,False,none,False
+RHD-IATT-000178,RHD-S1809-00335,Donnerſchlag,312,RHD-S1809-01937,1,Jukí,Donnerschlag,359,juki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000179,RHD-S1809-00336,Doppelt,312,RHD-S1809-01775,1,Eki,ſ,356,eki,True,False,none,False
+RHD-IATT-000180,RHD-S1809-00336,Doppelt,312,RHD-S1809-01927,1,Eki,Beißen,359,eki,True,False,none,False
+RHD-IATT-000181,RHD-S1809-00336,Doppelt,312,RHD-S1809-02139,1,Ossá,"oder guossá, Zweymal",363,ossa,False,False,none,False
+RHD-IATT-000182,RHD-S1809-00337,Dorfrichter,312,RHD-S1809-01760,1,Cusiguéameke,"Der einen Stab oder Stecken hat, ſ",356,cusigueameke,False,False,none,False
+RHD-IATT-000183,RHD-S1809-00337,Dorfrichter,312,RHD-S1809-01761,1,Cusíki,"Holz, Stab, Stecken, Prügel",356,cusiki,False,False,none,False
+RHD-IATT-000184,RHD-S1809-00337,Dorfrichter,312,RHD-S1809-01834,1,Gué,Erde,357,gue,True,False,none,False
+RHD-IATT-000185,RHD-S1809-00337,Dorfrichter,312,RHD-S1809-02075,1,Naligué,"Haben, besitzen",362,naligue,False,False,none,False
+RHD-IATT-000186,RHD-S1809-00342,Dörren,312,RHD-S1809-02476,1,Vakítsi,"Es trocknet, dürrt aus",368,vakitsi,False,False,none,False
+RHD-IATT-000187,RHD-S1809-00343,Drauſſen,313,RHD-S1809-02006,1,Matſchi,Draußen,361,matschi,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000188,RHD-S1809-00343,Drauſſen,313,RHD-S1809-02007,1,Matſchi,"als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr",361,matschi,False,False,none,False
+RHD-IATT-000189,RHD-S1809-00345,Drehen,313,RHD-S1809-02125,1,Nolíruje,Herumdrehen,363,noliruje,False,False,none,False
+RHD-IATT-000190,RHD-S1809-00346,Dreſchen,313,RHD-S1809-01887,1,Hóca,Dreſchen,358,hoca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000191,RHD-S1809-00347,Dreyzehn,313,RHD-S1809-01652,1,Amoba,Mehr,353,amoba,False,False,none,False
+RHD-IATT-000192,RHD-S1809-00347,Dreyzehn,313,RHD-S1809-01663,1,Baicá,Drey,354,baica,False,False,none,False
+RHD-IATT-000193,RHD-S1809-00347,Dreyzehn,313,RHD-S1809-01668,1,Baiſſá,dreymal,354,baissa,False,False,none,False
+RHD-IATT-000194,RHD-S1809-00348,Dreyſſig,313,RHD-S1809-01663,1,Baicá,Drey,354,baica,False,False,none,False
+RHD-IATT-000195,RHD-S1809-00349,Dreyſſigmal,313,RHD-S1809-01668,1,Baiſſá,dreymal,354,baissa,False,False,none,False
+RHD-IATT-000196,RHD-S1809-00355,Dünn,313,RHD-S1809-02426,1,Tſchiperameke,Fein,367,tschiperameke,False,False,none,False
+RHD-IATT-000197,RHD-S1809-00356,Dunſt,313,RHD-S1809-00059,1,Pemoliki,Rauch,363,pemoliki,False,False,none,False
+RHD-IATT-000198,RHD-S1809-00356,Dunſt,313,RHD-S1809-02123,1,Nolíki,"Nebel, Dunſt",363,noliki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000199,RHD-S1809-00359,Durchſuchen,313,RHD-S1809-00035,1,Amé,Suchen,353,ame,True,False,none,False
+RHD-IATT-000200,RHD-S1809-00360,Dürftig,313,RHD-S1809-02389,1,Telsiguati,"Verunglückt, bedrängt, arm",367,telsiguati,False,False,none,False
+RHD-IATT-000201,RHD-S1809-00362,Dürfen,313,RHD-S1809-00052,1,Pará,Dürſten,363,para,False,False,none,False
+RHD-IATT-000202,RHD-S1809-00362,Dürfen,313,RHD-S1809-01922,1,Igue,Sehr,359,igue,False,False,none,False
+RHD-IATT-000203,RHD-S1809-00362,Dürfen,313,RHD-S1809-02155,1,Parámugú,Durſt leiden,363,paramugu,False,False,none,False
+RHD-IATT-000204,RHD-S1809-00364,Eben,313,RHD-S1809-02200,1,Póviruc,Ein guter gebahnter Weg,364,poviruc,False,False,none,False
+RHD-IATT-000205,RHD-S1809-00369,Ehe,313,RHD-S1809-02027,1,Mukí,Weibsbild,361,muki,False,False,none,False
+RHD-IATT-000206,RHD-S1809-00369,Ehe,313,RHD-S1809-02029,1,Muki,"guguéke, Jungfrau",361,muki,False,False,none,False
+RHD-IATT-000207,RHD-S1809-00369,Ehe,313,RHD-S1809-02360,1,Tehóje,"oder rehóje, Mensch",366,tehoje,False,False,none,False
+RHD-IATT-000208,RHD-S1809-00370,Ehelos,313,RHD-S1809-01757,1,Cunéameke,Verheurathete Weibsperson,356,cuneameke,False,False,none,False
+RHD-IATT-000209,RHD-S1809-00370,Ehelos,313,RHD-S1809-02490,1,Upéameke,"Ein Verheyratheter, Ehemann",368,upeameke,False,False,none,False
+RHD-IATT-000210,RHD-S1809-00373,Ehemals,313,RHD-S1809-01967,1,Kiá,Geben,359,kia,True,False,none,False
+RHD-IATT-000211,RHD-S1809-00373,Ehemals,313,RHD-S1809-01968,1,Kiá,Sonſt,359,kia,True,False,none,False
+RHD-IATT-000212,RHD-S1809-00373,Ehemals,313,RHD-S1809-01969,1,Kiaca,Vor Zeiten,359,kiaca,False,False,none,False
+RHD-IATT-000213,RHD-S1809-00375,Ehemann,313,RHD-S1809-01756,1,Cuná,Ehemann,356,cuna,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000214,RHD-S1809-00378,Eheweib,313,RHD-S1809-01757,1,Cunéameke,Verheurathete Weibsperson,356,cuneameke,False,False,none,False
+RHD-IATT-000215,RHD-S1809-00378,Eheweib,313,RHD-S1809-02027,1,Mukí,Weibsbild,361,muki,False,False,none,False
+RHD-IATT-000216,RHD-S1809-00378,Eheweib,313,RHD-S1809-02029,1,Muki,"guguéke, Jungfrau",361,muki,False,False,none,False
+RHD-IATT-000217,RHD-S1809-00378,Eheweib,313,RHD-S1809-02491,1,Upi,Eheweib,368,upi,True,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000218,RHD-S1809-00381,Eiche,313,RHD-S1809-02246,1,Roháca,Eiche,365,rohaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000219,RHD-S1809-00382,Eichhorn,313,RHD-S1809-02423,1,Tschimolí,Eichhörnchen,367,tschimoli,False,False,none,False
+RHD-IATT-000220,RHD-S1809-00382,Eichhorn,313,RHD-S1809-02436,1,Tſchitſchimóco,"Ein gar kleines Eichhörnchen, wie eine Maus",368,tschitschimoco,False,False,none,False
+RHD-IATT-000221,RHD-S1809-00383,Eidechſe,313,RHD-S1809-01904,1,Huluguí,Eidechs,358,hulugui,False,False,none,False
+RHD-IATT-000222,RHD-S1809-00384,Eigen,313,RHD-S1809-01689,1,Bonóje,Ich ſelbſt,355,bonoje,False,False,none,False
+RHD-IATT-000223,RHD-S1809-00384,Eigen,313,RHD-S1809-02075,1,Naligué,"Haben, besitzen",362,naligue,False,False,none,False
+RHD-IATT-000224,RHD-S1809-00389,Eingebohrner,313,RHD-S1809-01912,1,Ibe,Da,358,ibe,True,False,none,False
+RHD-IATT-000225,RHD-S1809-00392,Eingedenk ſeyn,313,RHD-S1809-02103,1,Negualé,Sich erinnern,362,neguale,False,False,none,False
+RHD-IATT-000226,RHD-S1809-00394,Eingeſchläfert,314,RHD-S1809-01747,1,Cotſchimeameke,Ein Schlafender,355,cotschimeameke,False,False,none,False
+RHD-IATT-000227,RHD-S1809-00395,Eingeweide,314,RHD-S1809-02281,1,Siguáca,Eingeweide,365,siguaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000228,RHD-S1809-00396,Eingraben,314,RHD-S1809-02366,1,Tocó,Begraben,367,toco,False,False,none,False
+RHD-IATT-000229,RHD-S1809-00396,Eingraben,314,RHD-S1809-02407,1,Tóruke,Er ist begraben,367,toruke,False,False,none,False
+RHD-IATT-000230,RHD-S1809-00399,Einöde,314,RHD-S1809-01719,1,Cauguila,"Wüſte, Einöde",355,cauguila,False,True,german_headword_gloss_containment,False
+RHD-IATT-000231,RHD-S1809-00401,Einſam,314,RHD-S1809-02177,1,Pinélipi,Alleinig,364,pinelipi,False,False,none,False
+RHD-IATT-000232,RHD-S1809-00403,Einſchlafen,314,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000233,RHD-S1809-00404,Einſchließen,314,RHD-S1809-01774,1,Eke,"Zumachen, ſperren, ſchließen",356,eke,True,False,none,False
+RHD-IATT-000234,RHD-S1809-00406,Einſtens,314,RHD-S1809-01967,1,Kiá,Geben,359,kia,True,False,none,False
+RHD-IATT-000235,RHD-S1809-00406,Einſtens,314,RHD-S1809-01968,1,Kiá,Sonſt,359,kia,True,False,none,False
+RHD-IATT-000236,RHD-S1809-00406,Einſtens,314,RHD-S1809-01969,1,Kiaca,Vor Zeiten,359,kiaca,False,False,none,False
+RHD-IATT-000237,RHD-S1809-00411,Elend,314,RHD-S1809-02389,1,Telsiguati,"Verunglückt, bedrängt, arm",367,telsiguati,False,False,none,False
+RHD-IATT-000238,RHD-S1809-00412,Elle,314,RHD-S1809-01761,1,Cusíki,"Holz, Stab, Stecken, Prügel",356,cusiki,False,False,none,False
+RHD-IATT-000239,RHD-S1809-00413,Endigen,314,RHD-S1809-01704,1,Cajena,"Vollenden, verfertigen, ausmachen",355,cajena,False,False,none,False
+RHD-IATT-000240,RHD-S1809-00414,Ente,314,RHD-S1809-02158,1,Páſſonaca,Ente,363,passonaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000241,RHD-S1809-00432,Erinneren ſich,315,RHD-S1809-02103,1,Negualé,Sich erinnern,362,neguale,False,False,none,False
+RHD-IATT-000242,RHD-S1809-00433,Erkennen,315,RHD-S1809-02006,1,Matſchi,Draußen,361,matschi,False,False,none,False
+RHD-IATT-000243,RHD-S1809-00433,Erkennen,315,RHD-S1809-02007,1,Matſchi,"als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr",361,matschi,False,False,none,False
+RHD-IATT-000244,RHD-S1809-00434,Erlernen,315,RHD-S1809-02008,1,Matſchiſimi,"Lernen, ſ",361,matschisimi,False,False,none,False
+RHD-IATT-000245,RHD-S1809-00435,Erleuchten,315,RHD-S1809-02220,1,Rachelé,Leuchten,364,rachele,False,False,none,False
+RHD-IATT-000246,RHD-S1809-00437,Ermorden,315,RHD-S1809-02009,1,Meá,Tödten,361,mea,True,False,none,False
+RHD-IATT-000247,RHD-S1809-00441,Eröffnen,315,RHD-S1809-01785,1,Epúaje,"oder epúje, Aufmachen",356,epuaje,False,False,none,False
+RHD-IATT-000248,RHD-S1809-00442,Erreichen,315,RHD-S1809-02278,1,Sevá,Gelangen,365,seva,False,False,none,False
+RHD-IATT-000249,RHD-S1809-00445,Erſtarren,315,RHD-S1809-02397,1,Thuláne,Mir ist kalt,367,thulane,False,False,none,False
+RHD-IATT-000250,RHD-S1809-00447,Erwarten,315,RHD-S1809-02203,1,Pugué,Warten,364,pugue,False,False,none,False
+RHD-IATT-000251,RHD-S1809-00451,Erweitern,315,RHD-S1809-00046,1,Jolá,Machen,359,jola,False,False,none,False
+RHD-IATT-000252,RHD-S1809-00451,Erweitern,315,RHD-S1809-01847,1,Guelube,"Größer, länger",357,guelube,False,False,none,False
+RHD-IATT-000253,RHD-S1809-00453,Erz,315,RHD-S1809-01849,1,Guenomi,ſ,357,guenomi,False,False,none,False
+RHD-IATT-000254,RHD-S1809-00454,Erzeuger,315,RHD-S1809-02126,1,Nonó,"Vater, ſ",363,nono,False,False,none,False
+RHD-IATT-000255,RHD-S1809-00455,Erzgrube,315,RHD-S1809-01848,1,Guenomèatſi,"Bergwerk, Erzgrube",357,guenomeatsi,False,True,german_headword_gloss_containment,False
+RHD-IATT-000256,RHD-S1809-00456,"Erzörnen, ſich",315,RHD-S1809-00033,1,Ajónoco,zörnen,353,ajonoco,False,False,none,False
+RHD-IATT-000257,RHD-S1809-00456,"Erzörnen, ſich",315,RHD-S1809-01644,1,Ajóruje,zornig machen,353,ajoruje,False,False,none,False
+RHD-IATT-000258,RHD-S1809-00459,Eſeltreiber,315,RHD-S1809-01656,1,Ariero,Eſeltreiber,354,ariero,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000259,RHD-S1809-00459,Eſeltreiber,315,RHD-S1809-01872,1,Háliruc,"Maulthiertreiber, s",358,haliruc,False,False,none,False
+RHD-IATT-000260,RHD-S1809-00460,Eſſen,315,RHD-S1809-01695,1,Coá,Eſſen,355,coa,True,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000261,RHD-S1809-00460,Eſſen,315,RHD-S1809-01696,1,Coajameke,das Eſſen,355,coajameke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000262,RHD-S1809-00462,Etwann,315,RHD-S1809-01823,1,Gualéke,"Vielleicht, Etwan",357,gualeke,False,False,none,False
+RHD-IATT-000263,RHD-S1809-00463,Etwas,315,RHD-S1809-02078,1,Nanamuti,Sache,362,nanamuti,False,False,none,False
+RHD-IATT-000264,RHD-S1809-00463,Etwas,315,RHD-S1809-02170,1,Piléke,Einer,363,pileke,False,False,none,False
+RHD-IATT-000265,RHD-S1809-00463,Etwas,315,RHD-S1809-02225,1,Rachpébi,Gar wenig,364,rachpebi,False,False,none,False
+RHD-IATT-000266,RHD-S1809-00466,Ey,316,RHD-S1809-01953,1,Kauguáca,Ey,359,kauguaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000267,RHD-S1809-00467,Fakel,316,RHD-S1809-02221,1,Rachelíki,Licht,364,racheliki,False,False,none,False
+RHD-IATT-000268,RHD-S1809-00469,Fangen,316,RHD-S1809-02416,1,Tschapi,Nehmen,367,tschapi,False,False,none,False
+RHD-IATT-000269,RHD-S1809-00470,Faſſen,316,RHD-S1809-02416,1,Tschapi,Nehmen,367,tschapi,False,False,none,False
+RHD-IATT-000270,RHD-S1809-00471,Faſten,316,RHD-S1809-01940,1,Jumaguá,Faſten,359,jumagua,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000271,RHD-S1809-00472,Faſttag,316,RHD-S1809-01932,1,Jomeíki,"Festtag, Feyertag",359,jomeiki,False,False,none,False
+RHD-IATT-000272,RHD-S1809-00474,Faulenzen,316,RHD-S1809-02023,1,Mujá,Schimmeln,361,muja,False,False,none,False
+RHD-IATT-000273,RHD-S1809-00474,Faulenzen,316,RHD-S1809-02024,1,Mujába,"Es schimmelt, faulet schon",361,mujaba,False,False,none,False
+RHD-IATT-000274,RHD-S1809-00474,Faulenzen,316,RHD-S1809-02088,1,Nassínaë,Träg seyn,362,nassinae,False,False,none,False
+RHD-IATT-000275,RHD-S1809-00474,Faulenzen,316,RHD-S1809-02089,1,Nassínaja,"Faulenzend, Im Faulenzen begriffen seyn",362,nassinaja,False,True,german_headword_gloss_containment,False
+RHD-IATT-000276,RHD-S1809-00478,Fehlen,316,RHD-S1809-02248,1,Róco,"Es mangelt, geht ab",365,roco,False,False,none,False
+RHD-IATT-000277,RHD-S1809-00486,Feld,316,RHD-S1809-01683,1,Báſſa,"Acker, Feld",354,bassa,False,True,german_headword_gloss_containment,False
+RHD-IATT-000278,RHD-S1809-00490,Feſt,316,RHD-S1809-01923,1,Igueameke,"Ein Starker, der Kräfte hat",359,igueameke,False,False,none,False
+RHD-IATT-000279,RHD-S1809-00490,Feſt,316,RHD-S1809-01926,1,Igueruje,Feſt machen,359,igueruje,False,True,german_headword_gloss_containment,False
+RHD-IATT-000280,RHD-S1809-00491,Feſttag,316,RHD-S1809-01932,1,Jomeíki,"Festtag, Feyertag",359,jomeiki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000281,RHD-S1809-00492,Fett,316,RHD-S1809-01754,1,Culúameke,"dick, fett, leibig, Schmeerbauch",356,culuameke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000282,RHD-S1809-00492,Fett,316,RHD-S1809-01844,1,Guelé,"Dick, fett",357,guele,False,True,german_headword_gloss_containment,False
+RHD-IATT-000283,RHD-S1809-00493,Feucht,316,RHD-S1809-02258,1,Samiámeke,Feucht,365,samiameke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000284,RHD-S1809-00495,Feuer,317,RHD-S1809-02067,1,Naïgé,Anzünden,362,naige,False,False,none,False
+RHD-IATT-000285,RHD-S1809-00508,Flachs,317,RHD-S1809-02291,1,Sóco,"Zwirn, von Aloe",365,soco,False,False,none,False
+RHD-IATT-000286,RHD-S1809-00510,Fleiſch,318,RHD-S1809-01818,1,Guauguéke,gebratenes Fleisch,357,guaugueke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000287,RHD-S1809-00510,Fleiſch,318,RHD-S1809-02259,1,Sapáca,Fleisch,365,sapaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000288,RHD-S1809-00517,Fleiſch,318,RHD-S1809-01818,1,Guauguéke,gebratenes Fleisch,357,guaugueke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000289,RHD-S1809-00517,Fleiſch,318,RHD-S1809-02259,1,Sapáca,Fleisch,365,sapaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000290,RHD-S1809-00519,Flüchten,318,RHD-S1809-01905,1,Humá,"Laufen, fliehen, ſich flüchten",358,huma,False,True,german_headword_gloss_containment,False
+RHD-IATT-000291,RHD-S1809-00520,Flüchtig,318,RHD-S1809-01906,1,Humeameke,Flüchtling,358,humeameke,False,False,none,False
+RHD-IATT-000292,RHD-S1809-00522,Fluß,318,RHD-S1809-02161,1,Pauguó,Jenſeits des Fluſſes,363,pauguo,False,False,none,False
+RHD-IATT-000293,RHD-S1809-00525,Fordern,318,RHD-S1809-02333,1,Taní,Begehren,366,tani,False,False,none,False
+RHD-IATT-000294,RHD-S1809-00527,Fortgehen,318,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000295,RHD-S1809-00528,Fortſchreiten,318,RHD-S1809-01894,1,Hóje,"Fortſchreiten, gehen",358,hoje,False,True,german_headword_gloss_containment,False
+RHD-IATT-000296,RHD-S1809-00530,Fragen,318,RHD-S1809-00046,1,Jolá,Machen,359,jola,False,False,none,False
+RHD-IATT-000297,RHD-S1809-00530,Fragen,318,RHD-S1809-01871,1,Halí,oder harí,358,hali,False,False,none,False
+RHD-IATT-000298,RHD-S1809-00530,Fragen,318,RHD-S1809-02084,1,Náruje,Fragen,362,naruje,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000299,RHD-S1809-00534,Fremd,318,RHD-S1809-02277,1,Senúla,Noch ein anderes,365,senula,False,False,none,False
+RHD-IATT-000300,RHD-S1809-00535,Freſſen,318,RHD-S1809-01695,1,Coá,Eſſen,355,coa,True,False,none,False
+RHD-IATT-000301,RHD-S1809-00536,Fütterung,319,RHD-S1809-02132,1,Nutugála,Nahrung,363,nutugala,False,False,none,False
+RHD-IATT-000302,RHD-S1809-00541,Friſch,319,RHD-S1809-01881,1,Hiáſi,"vielfach, machet hurtig",358,hiasi,False,False,none,False
+RHD-IATT-000303,RHD-S1809-00544,Frucht,319,RHD-S1809-01965,1,Khutágála,Obst,359,khutagala,False,False,none,False
+RHD-IATT-000304,RHD-S1809-00545,Früh,319,RHD-S1809-02318,1,Tajenaságo,Nachdem es Tag geworden,366,tajenasago,False,False,none,False
+RHD-IATT-000305,RHD-S1809-00547,Fünfzehn,319,RHD-S1809-01652,1,Amoba,Mehr,353,amoba,False,False,none,False
+RHD-IATT-000306,RHD-S1809-00548,Für,319,RHD-S1809-01735,1,Colaguitaje,"Daher, deswegen, damit, darum, ſ",355,colaguitaje,False,False,none,False
+RHD-IATT-000307,RHD-S1809-00548,Für,319,RHD-S1809-01914,1,Iché,Dieſer,358,iche,False,False,none,False
+RHD-IATT-000308,RHD-S1809-00548,Für,319,RHD-S1809-02229,1,Ráje,"oder táje, s",364,raje,False,False,none,False
+RHD-IATT-000309,RHD-S1809-00548,Für,319,RHD-S1809-02229,2,táje,"oder táje, s",364,taje,False,False,none,False
+RHD-IATT-000310,RHD-S1809-00548,Für,319,RHD-S1809-02316,1,Táje,"oder ráje, ſ",366,taje,False,False,none,False
+RHD-IATT-000311,RHD-S1809-00551,Fuß,319,RHD-S1809-02321,1,Talá,Fuß,366,tala,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000312,RHD-S1809-00556,Gaffen,319,RHD-S1809-02244,1,Reteguá,Sehen,365,retegua,False,False,none,False
+RHD-IATT-000313,RHD-S1809-00558,Gallſüchtig,319,RHD-S1809-00032,1,Ajónameke,ein Zorniger,353,ajonameke,False,False,none,False
+RHD-IATT-000314,RHD-S1809-00559,Gans,319,RHD-S1809-02222,1,Rachó,Eine wilde Gans,364,racho,False,True,german_headword_gloss_containment,False
+RHD-IATT-000315,RHD-S1809-00560,Ganz,319,RHD-S1809-01945,1,Jumarúgameke,Vollkommen,359,jumarugameke,False,False,none,False
+RHD-IATT-000316,RHD-S1809-00561,Garn,319,RHD-S1809-02291,1,Sóco,"Zwirn, von Aloe",365,soco,False,False,none,False
+RHD-IATT-000317,RHD-S1809-00562,Gaul,319,RHD-S1809-01717,1,Caú,"Pferd, Roß",355,cau,True,False,none,False
+RHD-IATT-000318,RHD-S1809-00563,Gebähren,319,RHD-S1809-02228,1,Raná,Gebähren,364,rana,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000319,RHD-S1809-00563,Gebähren,319,RHD-S1809-02331,1,Taná,"oder raná, Gebähren",366,tana,False,True,german_headword_gloss_containment,False
+RHD-IATT-000320,RHD-S1809-00563,Gebähren,319,RHD-S1809-02331,2,raná,"oder raná, Gebähren",366,rana,False,True,german_headword_gloss_containment,False
+RHD-IATT-000321,RHD-S1809-00566,Gebieten,319,RHD-S1809-02129,1,Nulá,Befehlen,363,nula,False,False,none,False
+RHD-IATT-000322,RHD-S1809-00570,Geblüt,320,RHD-S1809-01784,1,Eláca,Menschenblut,356,elaca,False,False,none,False
+RHD-IATT-000323,RHD-S1809-00575,Gedeylich,320,RHD-S1809-02136,1,Ogué,"Gedeihlich, zur Geſundheit dienlich",363,ogue,False,False,none,False
+RHD-IATT-000324,RHD-S1809-00576,Gegenwart,320,RHD-S1809-01680,1,Batáni,In Gegenwart,354,batani,False,True,german_headword_gloss_containment,False
+RHD-IATT-000325,RHD-S1809-00578,Gehen,320,RHD-S1809-01884,1,Hipeco,Alſogleich,358,hipeco,False,False,none,False
+RHD-IATT-000326,RHD-S1809-00578,Gehen,320,RHD-S1809-01894,1,Hóje,"Fortſchreiten, gehen",358,hoje,False,True,german_headword_gloss_containment,False
+RHD-IATT-000327,RHD-S1809-00578,Gehen,320,RHD-S1809-02248,1,Róco,"Es mangelt, geht ab",365,roco,False,False,none,False
+RHD-IATT-000328,RHD-S1809-00578,Gehen,320,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000329,RHD-S1809-00578,Gehen,320,RHD-S1809-02286,1,Simigó,"So geh doch, ſ",365,simigo,False,False,none,False
+RHD-IATT-000330,RHD-S1809-00579,Gehör,320,RHD-S1809-02048,1,Nachcäla,Ohr,361,nachcala,False,False,none,False
+RHD-IATT-000331,RHD-S1809-00581,Geige,320,RHD-S1809-02230,1,Ravéli,"Geige, s",364,raveli,False,True,german_headword_gloss_containment,False
+RHD-IATT-000332,RHD-S1809-00584,Geiß,320,RHD-S1809-01890,1,Hoguila,Männchen,358,hoguila,False,False,none,False
+RHD-IATT-000333,RHD-S1809-00586,Geißeln,320,RHD-S1809-01835,1,Guéchpiruc,"Gepeitscht, gegeisselt",357,guechpiruc,False,False,none,False
+RHD-IATT-000334,RHD-S1809-00587,Gelächter,320,RHD-S1809-01658,1,Atſchilélila,"das Lachen, Gelächter",354,atschilelila,False,True,german_headword_gloss_containment,False
+RHD-IATT-000335,RHD-S1809-00588,Gelangen,320,RHD-S1809-02278,1,Sevá,Gelangen,365,seva,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000336,RHD-S1809-00589,Geld,320,RHD-S1809-01849,1,Guenomi,ſ,357,guenomi,False,False,none,False
+RHD-IATT-000337,RHD-S1809-00591,Gelind,320,RHD-S1809-01957,1,Kelíki,Sachte,359,keliki,False,False,none,False
+RHD-IATT-000338,RHD-S1809-00592,Gemach,320,RHD-S1809-01957,1,Kelíki,Sachte,359,keliki,False,False,none,False
+RHD-IATT-000339,RHD-S1809-00593,Gemahl,320,RHD-S1809-01756,1,Cuná,Ehemann,356,cuna,False,False,none,False
+RHD-IATT-000340,RHD-S1809-00594,Gemahlinn,320,RHD-S1809-02491,1,Upi,Eheweib,368,upi,True,False,none,False
+RHD-IATT-000341,RHD-S1809-00595,Geneſen,320,RHD-S1809-02223,1,Rachpé,Wenig,364,rachpe,False,False,none,False
+RHD-IATT-000342,RHD-S1809-00598,Geſchmack,320,RHD-S1809-01922,1,Igue,Sehr,359,igue,False,False,none,False
+RHD-IATT-000343,RHD-S1809-00599,Geſchwind,320,RHD-S1809-01824,1,Gualíneke,"Hurtig, ſchneller Läufer",357,gualineke,False,False,none,False
+RHD-IATT-000344,RHD-S1809-00599,Geſchwind,320,RHD-S1809-01880,1,Hiága,"anstatt hiágo, Mache geschwind, mache doch",358,hiaga,False,True,german_headword_gloss_containment,False
+RHD-IATT-000345,RHD-S1809-00599,Geſchwind,320,RHD-S1809-01881,1,Hiáſi,"vielfach, machet hurtig",358,hiasi,False,False,none,False
+RHD-IATT-000346,RHD-S1809-00601,Geſicht,320,RHD-S1809-02245,1,Retéguala,Angeſicht,365,reteguala,False,False,none,False
+RHD-IATT-000347,RHD-S1809-00604,Geſund,320,RHD-S1809-01804,1,Ganeliameke,"Der geſund iſt, dem es gut geht",357,ganeliameke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000348,RHD-S1809-00606,Geſundheit,321,RHD-S1809-01805,1,Ganileliki,Glückſeligkeit,357,ganileliki,False,False,none,False
+RHD-IATT-000349,RHD-S1809-00608,Getränk,321,RHD-S1809-00054,1,Pataliki,ſ,363,pataliki,False,False,none,False
+RHD-IATT-000350,RHD-S1809-00608,Getränk,321,RHD-S1809-02205,1,Pulke,ſ,364,pulke,False,False,none,False
+RHD-IATT-000351,RHD-S1809-00617,Getreidemaaß,321,RHD-S1809-02441,1,Tſchivávoli,"Metze, ſ",368,tschivavoli,False,False,none,False
+RHD-IATT-000352,RHD-S1809-00619,Gewiß,322,RHD-S1809-01853,1,Guéva,"Fürwahr, s",357,gueva,False,False,none,False
+RHD-IATT-000353,RHD-S1809-00620,Geyer,322,RHD-S1809-02232,1,Rauguí,Habicht,364,raugui,False,False,none,False
+RHD-IATT-000354,RHD-S1809-00621,"Giebel, Gipfel",322,RHD-S1809-01767,1,Cuvála,"Gipfel, Spitze",356,cuvala,False,False,none,False
+RHD-IATT-000355,RHD-S1809-00625,Glaskorallen,322,RHD-S1809-01738,1,Cologuáca,ſ,355,cologuaca,False,False,none,False
+RHD-IATT-000356,RHD-S1809-00629,Glauben,322,RHD-S1809-02186,1,Pitſchigé,"Glauben, für wahr halten",364,pitschige,False,True,german_headword_gloss_containment,False
+RHD-IATT-000357,RHD-S1809-00631,Glocke,322,RHD-S1809-01851,1,Guechpímela,Die Glocke läuten sollen,357,guechpimela,False,True,german_headword_gloss_containment,False
+RHD-IATT-000358,RHD-S1809-00632,Glücklich,322,RHD-S1809-01804,1,Ganeliameke,"Der geſund iſt, dem es gut geht",357,ganeliameke,False,False,none,False
+RHD-IATT-000359,RHD-S1809-00633,Glückſeligkeit,322,RHD-S1809-01805,1,Ganileliki,Glückſeligkeit,357,ganileliki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000360,RHD-S1809-00634,Glückſeligmachen,322,RHD-S1809-01806,1,Ganileruje,Glückſelig machen,357,ganileruje,False,False,none,False
+RHD-IATT-000361,RHD-S1809-00641,Grauen,322,RHD-S1809-01928,1,Ikitsiki,"Haſſen, Verabſcheuen",359,ikitsiki,False,False,none,False
+RHD-IATT-000362,RHD-S1809-00642,Greifen,322,RHD-S1809-02416,1,Tschapi,Nehmen,367,tschapi,False,False,none,False
+RHD-IATT-000363,RHD-S1809-00644,Gries,322,RHD-S1809-01769,1,Cuviruſi,ſ,356,cuvirusi,False,False,none,False
+RHD-IATT-000364,RHD-S1809-00644,Gries,322,RHD-S1809-01983,2,Gubírusi,"oder Gubírusi, s",360,gubirusi,False,False,none,False
+RHD-IATT-000365,RHD-S1809-00652,Groß,323,RHD-S1809-01847,1,Guelube,"Größer, länger",357,guelube,False,False,none,False
+RHD-IATT-000366,RHD-S1809-00653,Großvater,323,RHD-S1809-02300,1,Suilá,"Großmutter, von Seiten der Mutter",365,suila,False,False,none,False
+RHD-IATT-000367,RHD-S1809-00661,Harnen,323,RHD-S1809-02290,1,Sisí,Harnen,365,sisi,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000368,RHD-S1809-00662,Hart,323,RHD-S1809-00058,1,Peguá,Es iſt hart,363,pegua,False,True,german_headword_gloss_containment,False
+RHD-IATT-000369,RHD-S1809-00662,Hart,323,RHD-S1809-01914,1,Iché,Dieſer,358,iche,False,False,none,False
+RHD-IATT-000370,RHD-S1809-00662,Hart,323,RHD-S1809-01922,1,Igue,Sehr,359,igue,False,False,none,False
+RHD-IATT-000371,RHD-S1809-00664,Härten,323,RHD-S1809-01926,1,Igueruje,Feſt machen,359,igueruje,False,False,none,False
+RHD-IATT-000372,RHD-S1809-00666,Hauen,323,RHD-S1809-02282,1,Siká,"Hauen, zerſchneiden",365,sika,False,True,german_headword_gloss_containment,False
+RHD-IATT-000373,RHD-S1809-00666,Hauen,323,RHD-S1809-02385,1,Tepulá,"oder tepurá, Hauen, hacken",367,tepula,False,True,german_headword_gloss_containment,False
+RHD-IATT-000374,RHD-S1809-00667,Gehauen,323,RHD-S1809-02283,1,Sikirúgameke,Zerhauenes,365,sikirugameke,False,False,none,False
+RHD-IATT-000375,RHD-S1809-00669,Heide,323,RHD-S1809-02152,1,Pagotúgameke,Ein Getaufter,363,pagotugameke,False,False,none,False
+RHD-IATT-000376,RHD-S1809-00672,Heil,324,RHD-S1809-01805,1,Ganileliki,Glückſeligkeit,357,ganileliki,False,False,none,False
+RHD-IATT-000377,RHD-S1809-00674,Heiß,324,RHD-S1809-01922,1,Igue,Sehr,359,igue,False,False,none,False
+RHD-IATT-000378,RHD-S1809-00674,Heiß,324,RHD-S1809-02217,1,Rachá,"Es iſt heiß, es brennt",364,racha,False,True,german_headword_gloss_containment,False
+RHD-IATT-000379,RHD-S1809-00677,Heitern,324,RHD-S1809-02317,1,Tajená,"Es kläret sich, wird Tag",366,tajena,False,False,none,False
+RHD-IATT-000380,RHD-S1809-00678,Helfen,324,RHD-S1809-01751,1,Cuguí,Helfen,356,cugui,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000381,RHD-S1809-00679,Helfer,324,RHD-S1809-01752,1,Cuguíameke,Helfer,356,cuguiameke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000382,RHD-S1809-00681,Henne,324,RHD-S1809-02405,1,Torolí,Huhn,367,toroli,False,False,none,False
+RHD-IATT-000383,RHD-S1809-00682,Her,324,RHD-S1809-01815,1,Guáca,"Pfeil, s",357,guaca,False,False,none,False
+RHD-IATT-000384,RHD-S1809-00682,Her,324,RHD-S1809-01974,1,Kiná,"oder vakiná, Daher",360,kina,False,False,none,False
+RHD-IATT-000385,RHD-S1809-00682,Her,324,RHD-S1809-01974,2,vakiná,"oder vakiná, Daher",360,vakina,False,False,none,False
+RHD-IATT-000386,RHD-S1809-00684,Herausgehen,324,RHD-S1809-02006,1,Matſchi,Draußen,361,matschi,False,False,none,False
+RHD-IATT-000387,RHD-S1809-00684,Herausgehen,324,RHD-S1809-02007,1,Matſchi,"als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr",361,matschi,False,False,none,False
+RHD-IATT-000388,RHD-S1809-00684,Herausgehen,324,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000389,RHD-S1809-00686,Herbeytreten,324,RHD-S1809-00036,1,Amulipi,Nahe,353,amulipi,False,False,none,False
+RHD-IATT-000390,RHD-S1809-00686,Herbeytreten,324,RHD-S1809-02061,1,Naguá,Kommen,362,nagua,False,False,none,False
+RHD-IATT-000391,RHD-S1809-00686,Herbeytreten,324,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000392,RHD-S1809-00689,Hernach,324,RHD-S1809-01850,1,Guerachpèco,Hernach,357,guerachpeco,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000393,RHD-S1809-00689,Hernach,324,RHD-S1809-01859,1,Guitlóco,"Hernach, demnach",357,guitloco,False,True,german_headword_gloss_containment,False
+RHD-IATT-000394,RHD-S1809-00689,Hernach,324,RHD-S1809-02203,1,Pugué,Warten,364,pugue,False,False,none,False
+RHD-IATT-000395,RHD-S1809-00694,Herrſchen,324,RHD-S1809-02269,1,Seli,Befehlen,365,seli,False,False,none,False
+RHD-IATT-000396,RHD-S1809-00695,Herrſcher,324,RHD-S1809-02275,1,Seliameke,So nennen ſie ihren Dorfrichter,365,seliameke,False,False,none,False
+RHD-IATT-000397,RHD-S1809-00699,Herüber,324,RHD-S1809-01974,2,vakiná,"oder vakiná, Daher",360,vakina,False,False,none,False
+RHD-IATT-000398,RHD-S1809-00700,Herumgehen,324,RHD-S1809-02124,1,Nolíre,Umgehen,363,nolire,False,False,none,False
+RHD-IATT-000399,RHD-S1809-00701,Herz,324,RHD-S1809-02302,1,Sulála,Herz,366,sulala,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000400,RHD-S1809-00701,Herz,324,RHD-S1809-02303,1,Sulatschíc,"im Herzen, s",366,sulatschic,False,False,none,False
+RHD-IATT-000401,RHD-S1809-00706,Heurathen,324,RHD-S1809-02027,1,Mukí,Weibsbild,361,muki,False,False,none,False
+RHD-IATT-000402,RHD-S1809-00706,Heurathen,324,RHD-S1809-02029,1,Muki,"guguéke, Jungfrau",361,muki,False,False,none,False
+RHD-IATT-000403,RHD-S1809-00706,Heurathen,324,RHD-S1809-02360,1,Tehóje,"oder rehóje, Mensch",366,tehoje,False,False,none,False
+RHD-IATT-000404,RHD-S1809-00706,Heurathen,324,RHD-S1809-02416,1,Tschapi,Nehmen,367,tschapi,False,False,none,False
+RHD-IATT-000405,RHD-S1809-00708,Heut,324,RHD-S1809-01882,1,Hipe,Itzt,358,hipe,False,False,none,False
+RHD-IATT-000406,RHD-S1809-00708,Heut,324,RHD-S1809-01883,1,Hipéba,Heute,358,hipeba,False,False,none,False
+RHD-IATT-000407,RHD-S1809-00712,Himmel,324,RHD-S1809-01825,1,Guamí,"Dort, weit, s",357,guami,False,False,none,False
+RHD-IATT-000408,RHD-S1809-00713,Hinab,324,RHD-S1809-02363,1,Tele,Unten,366,tele,False,False,none,False
+RHD-IATT-000409,RHD-S1809-00713,Hinab,324,RHD-S1809-02368,1,Telegona,Abwärts,367,telegona,False,False,none,False
+RHD-IATT-000410,RHD-S1809-00714,Hinabſchlingen,324,RHD-S1809-01816,1,Guaguá,"Schlingen, schlucken",357,guagua,False,False,none,False
+RHD-IATT-000411,RHD-S1809-00715,Hinabſteigen,324,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000412,RHD-S1809-00715,Hinabſteigen,324,RHD-S1809-02363,1,Tele,Unten,366,tele,False,False,none,False
+RHD-IATT-000413,RHD-S1809-00717,Hinaufſteigen,324,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000414,RHD-S1809-00717,Hinaufſteigen,324,RHD-S1809-02381,1,Tepá,"oder repá, Oben",367,tepa,False,False,none,False
+RHD-IATT-000415,RHD-S1809-00718,Hinaus,324,RHD-S1809-02006,1,Matſchi,Draußen,361,matschi,False,False,none,False
+RHD-IATT-000416,RHD-S1809-00718,Hinaus,324,RHD-S1809-02007,1,Matſchi,"als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr",361,matschi,False,False,none,False
+RHD-IATT-000417,RHD-S1809-00719,Hinausgehen,324,RHD-S1809-02006,1,Matſchi,Draußen,361,matschi,False,False,none,False
+RHD-IATT-000418,RHD-S1809-00719,Hinausgehen,324,RHD-S1809-02007,1,Matſchi,"als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr",361,matschi,False,False,none,False
+RHD-IATT-000419,RHD-S1809-00719,Hinausgehen,324,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000420,RHD-S1809-00725,Hinwegreiſſen,324,RHD-S1809-02416,1,Tschapi,Nehmen,367,tschapi,False,False,none,False
+RHD-IATT-000421,RHD-S1809-00726,Hinzugehen,325,RHD-S1809-00036,1,Amulipi,Nahe,353,amulipi,False,False,none,False
+RHD-IATT-000422,RHD-S1809-00726,Hinzugehen,325,RHD-S1809-02061,1,Naguá,Kommen,362,nagua,False,False,none,False
+RHD-IATT-000423,RHD-S1809-00726,Hinzugehen,325,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000424,RHD-S1809-00727,Hirſch,325,RHD-S1809-01700,1,Búra,Hirſch,355,bura,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000425,RHD-S1809-00729,Hoch,325,RHD-S1809-02381,1,Tepá,"oder repá, Oben",367,tepa,False,False,none,False
+RHD-IATT-000426,RHD-S1809-00735,Holz,325,RHD-S1809-01761,1,Cusíki,"Holz, Stab, Stecken, Prügel",356,cusiki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000427,RHD-S1809-00737,Hören,325,RHD-S1809-01952,1,Kakè,Hören,359,kake,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000428,RHD-S1809-00738,Horn,325,RHD-S1809-00039,1,Auguáca,Horn,354,auguaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000429,RHD-S1809-00742,Hülſenfrucht,325,RHD-S1809-01720,1,Cavólameke,"oder cavórameke, kugelförmig",355,cavolameke,False,False,none,False
+RHD-IATT-000430,RHD-S1809-00742,Hülſenfrucht,325,RHD-S1809-02042,1,Muni,ſ,361,muni,False,False,none,False
+RHD-IATT-000431,RHD-S1809-00742,Hülſenfrucht,325,RHD-S1809-02426,1,Tſchiperameke,Fein,367,tschiperameke,False,False,none,False
+RHD-IATT-000432,RHD-S1809-00749,Huſten,325,RHD-S1809-01809,1,Gassiníki,Husten,357,gassiniki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000433,RHD-S1809-00750,Hut,325,RHD-S1809-01731,1,Cojatſchi,Hut,355,cojatschi,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000434,RHD-S1809-00751,Hüten,325,RHD-S1809-02110,1,Neſſé,Bewahren,362,nesse,False,False,none,False
+RHD-IATT-000435,RHD-S1809-00752,Hüter,325,RHD-S1809-02111,1,Neſſéameke,Hüter,362,nesseameke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000436,RHD-S1809-00753,Hütte,325,RHD-S1809-01708,1,Caliki,"Häuschen, Hütte",355,caliki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000437,RHD-S1809-00754,Ja,325,RHD-S1809-00046,1,Jolá,Machen,359,jola,False,False,none,False
+RHD-IATT-000438,RHD-S1809-00754,Ja,325,RHD-S1809-01788,1,Erú,"Ja, ſ",356,eru,True,False,none,False
+RHD-IATT-000439,RHD-S1809-00754,Ja,325,RHD-S1809-01902,1,Húli,s,358,huli,False,False,none,False
+RHD-IATT-000440,RHD-S1809-00754,Ja,325,RHD-S1809-01903,1,Huli,"Ein anderer, anderes",358,huli,False,False,none,False
+RHD-IATT-000441,RHD-S1809-00754,Ja,325,RHD-S1809-01907,1,Hune,ſ,358,hune,False,False,none,False
+RHD-IATT-000442,RHD-S1809-00754,Ja,325,RHD-S1809-01914,1,Iché,Dieſer,358,iche,False,False,none,False
+RHD-IATT-000443,RHD-S1809-00756,Jahr,325,RHD-S1809-00050,1,Pamivalí,Jahre,363,pamivali,False,False,none,False
+RHD-IATT-000444,RHD-S1809-00756,Jahr,325,RHD-S1809-00051,1,Pamivalíki,Jahr,363,pamivaliki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000445,RHD-S1809-00756,Jahr,325,RHD-S1809-01663,1,Baicá,Drey,354,baica,False,False,none,False
+RHD-IATT-000446,RHD-S1809-00756,Jahr,325,RHD-S1809-02134,1,Ocá,"oder guocá, Zwey",363,oca,True,False,none,False
+RHD-IATT-000447,RHD-S1809-00756,Jahr,325,RHD-S1809-02139,1,Ossá,"oder guossá, Zweymal",363,ossa,False,False,none,False
+RHD-IATT-000448,RHD-S1809-00758,Ich,326,RHD-S1809-01680,1,Batáni,In Gegenwart,354,batani,False,False,none,False
+RHD-IATT-000449,RHD-S1809-00758,Ich,326,RHD-S1809-02113,1,Netſchí,Mir,362,netschi,False,False,none,False
+RHD-IATT-000450,RHD-S1809-00758,Ich,326,RHD-S1809-02327,1,Tamé,Wir,366,tame,False,False,none,False
+RHD-IATT-000451,RHD-S1809-00758,Ich,326,RHD-S1809-02328,1,Tamegótle,Wir ſelbſt,366,tamegotle,False,False,none,False
+RHD-IATT-000452,RHD-S1809-00761,Jeder,326,RHD-S1809-02178,1,Pipilé,Ein jeder,364,pipile,False,True,german_headword_gloss_containment,False
+RHD-IATT-000453,RHD-S1809-00762,Jemand,326,RHD-S1809-02170,1,Piléke,Einer,363,pileke,False,False,none,False
+RHD-IATT-000454,RHD-S1809-00763,Jenſeits des Fluſſes,326,RHD-S1809-02161,1,Pauguó,Jenſeits des Fluſſes,363,pauguo,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000455,RHD-S1809-00769,Klein,326,RHD-S1809-01963,1,Khutá,Klein,359,khuta,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000456,RHD-S1809-00769,Klein,326,RHD-S1809-01964,1,Khutabé,Kleiner,359,khutabe,False,False,none,False
+RHD-IATT-000457,RHD-S1809-00770,Kalt,326,RHD-S1809-02395,1,Thulaguá,Es ist kalt,367,thulagua,False,True,german_headword_gloss_containment,False
+RHD-IATT-000458,RHD-S1809-00770,Kalt,326,RHD-S1809-02397,1,Thuláne,Mir ist kalt,367,thulane,False,True,german_headword_gloss_containment,False
+RHD-IATT-000459,RHD-S1809-00774,Kämpfen,326,RHD-S1809-02064,1,Nahirape,Ringen,362,nahirape,False,False,none,False
+RHD-IATT-000460,RHD-S1809-00775,Kaninchen,326,RHD-S1809-02249,1,Roguí,Kaninchen,365,rogui,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000461,RHD-S1809-00776,Kapaun,326,RHD-S1809-02184,1,Pitschabúrameke,Verschnitten,364,pitschaburameke,False,False,none,False
+RHD-IATT-000462,RHD-S1809-00778,Katze,326,RHD-S1809-02044,1,Múla,"oder mila, Katze",361,mula,False,True,german_headword_gloss_containment,False
+RHD-IATT-000463,RHD-S1809-00781,Keiner,326,RHD-S1809-02287,2,Schine,oder Schine,365,schine,False,False,none,False
+RHD-IATT-000464,RHD-S1809-00782,Keineswegs,326,RHD-S1809-00034,2,caitá,"oder caitá, nein, nicht",353,caita,False,False,none,False
+RHD-IATT-000465,RHD-S1809-00782,Keineswegs,326,RHD-S1809-01706,1,Caitá,"Nein, nicht, ſ",355,caita,False,False,none,False
+RHD-IATT-000466,RHD-S1809-00782,Keineswegs,326,RHD-S1809-01961,1,Ketá,oder Kecota,359,keta,False,False,none,False
+RHD-IATT-000467,RHD-S1809-00784,Keimen,326,RHD-S1809-02006,1,Matſchi,Draußen,361,matschi,False,False,none,False
+RHD-IATT-000468,RHD-S1809-00784,Keimen,326,RHD-S1809-02007,1,Matſchi,"als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr",361,matschi,False,False,none,False
+RHD-IATT-000469,RHD-S1809-00785,Kerze,326,RHD-S1809-02221,1,Rachelíki,Licht,364,racheliki,False,False,none,False
+RHD-IATT-000470,RHD-S1809-00789,Kieſelſtein,326,RHD-S1809-02349,1,Tauguéke,Feuerſtein,366,taugueke,False,False,none,False
+RHD-IATT-000471,RHD-S1809-00790,Kind,326,RHD-S1809-00027,1,Abiti,ein kleines Kind,353,abiti,False,True,german_headword_gloss_containment,False
+RHD-IATT-000472,RHD-S1809-00790,Kind,326,RHD-S1809-00027,2,Apiti,ein kleines Kind,353,apiti,False,True,german_headword_gloss_containment,False
+RHD-IATT-000473,RHD-S1809-00792,Kirche,326,RHD-S1809-02380,1,Teópa,Kirche,367,teopa,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000474,RHD-S1809-00793,Kirren,326,RHD-S1809-02073,1,Nalaguí,Heulen,362,nalagui,False,False,none,False
+RHD-IATT-000475,RHD-S1809-00794,Klaue,326,RHD-S1809-02307,1,Sutúla,"Nagel, Klaue",366,sutula,False,True,german_headword_gloss_containment,False
+RHD-IATT-000476,RHD-S1809-00800,Knab,326,RHD-S1809-02403,1,Togui,Knab,367,togui,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000477,RHD-S1809-00803,Knüpfen,326,RHD-S1809-01697,1,Bulá,Binden,355,bula,False,False,none,False
+RHD-IATT-000478,RHD-S1809-00804,Knüttel,326,RHD-S1809-01761,1,Cusíki,"Holz, Stab, Stecken, Prügel",356,cusiki,False,False,none,False
+RHD-IATT-000479,RHD-S1809-00805,Kochen,326,RHD-S1809-01678,1,Baſſirúgameke,Gekochtes,354,bassirugameke,False,False,none,False
+RHD-IATT-000480,RHD-S1809-00805,Kochen,326,RHD-S1809-01683,1,Báſſa,"Acker, Feld",354,bassa,False,False,none,False
+RHD-IATT-000481,RHD-S1809-00806,Kommen,327,RHD-S1809-02061,1,Naguá,Kommen,362,nagua,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000482,RHD-S1809-00810,Koſt,327,RHD-S1809-02132,1,Nutugála,Nahrung,363,nutugala,False,False,none,False
+RHD-IATT-000483,RHD-S1809-00812,Koth,327,RHD-S1809-01842,1,Guéke,"Koth, Leim, s",357,gueke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000484,RHD-S1809-00813,Kotze,327,RHD-S1809-02398,1,Tilma,s,367,tilma,False,False,none,False
+RHD-IATT-000485,RHD-S1809-00817,Kräftig,327,RHD-S1809-01923,1,Igueameke,"Ein Starker, der Kräfte hat",359,igueameke,False,False,none,False
+RHD-IATT-000486,RHD-S1809-00818,Kragen,327,RHD-S1809-01966,1,Khutála,Hals,359,khutala,False,False,none,False
+RHD-IATT-000487,RHD-S1809-00819,Kranich,327,RHD-S1809-01737,1,Coló,"Kranich, ſ",355,colo,False,True,german_headword_gloss_containment,False
+RHD-IATT-000488,RHD-S1809-00826,Krank,327,RHD-S1809-02069,1,Najújameke,Ein Kranker,362,najujameke,False,False,none,False
+RHD-IATT-000489,RHD-S1809-00827,Krank ſeyn,327,RHD-S1809-01725,1,Cocolá,Krank ſeyn,355,cocola,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000490,RHD-S1809-00827,Krank ſeyn,327,RHD-S1809-02070,1,Najulú,Krank seyn,362,najulu,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000491,RHD-S1809-00828,Krätze,327,RHD-S1809-01939,1,Jumá,"oder Jomá, Alles",359,juma,False,False,none,False
+RHD-IATT-000492,RHD-S1809-00828,Krätze,327,RHD-S1809-02412,1,Tschá,Krätze,367,tscha,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000493,RHD-S1809-00830,Kraut,327,RHD-S1809-01971,1,Kilibáca,s,359,kilibaca,False,False,none,False
+RHD-IATT-000494,RHD-S1809-00830,Kraut,327,RHD-S1809-02163,1,Pejóte,ſ,363,pejote,False,False,none,False
+RHD-IATT-000495,RHD-S1809-00830,Kraut,327,RHD-S1809-02424,1,Tschináca,s,367,tschinaca,False,False,none,False
+RHD-IATT-000496,RHD-S1809-00836,Kröte,328,RHD-S1809-02376,1,Temóco,Kröte,367,temoco,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000497,RHD-S1809-00839,Kugel,328,RHD-S1809-01722,1,Cavóli,Kugel,355,cavoli,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000498,RHD-S1809-00840,Kugelförmig,328,RHD-S1809-01720,1,Cavólameke,"oder cavórameke, kugelförmig",355,cavolameke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000499,RHD-S1809-00841,Kuh,328,RHD-S1809-02435,1,Tſchitſchigua,"Eine zahme Kuh, die ſich melken läßt",368,tschitschigua,False,False,none,False
+RHD-IATT-000500,RHD-S1809-00846,Kürbis,328,RHD-S1809-01867,1,Halesí,wilder Kürbis,357,halesi,False,True,german_headword_gloss_containment,False
+RHD-IATT-000501,RHD-S1809-00847,Kurz,328,RHD-S1809-01764,1,Cutsi,Kurz,356,cutsi,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000502,RHD-S1809-00847,Kurz,328,RHD-S1809-01963,1,Khutá,Klein,359,khuta,False,False,none,False
+RHD-IATT-000503,RHD-S1809-00848,Küſſen,328,RHD-S1809-02127,1,Nothépá,Küſſen,363,nothepa,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000504,RHD-S1809-00850,Lachen,328,RHD-S1809-00038,1,Atſchi,Lachen,354,atschi,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000505,RHD-S1809-00851,Lachen,328,RHD-S1809-00038,1,Atſchi,Lachen,354,atschi,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000506,RHD-S1809-00853,Lamm,328,RHD-S1809-01890,1,Hoguila,Männchen,358,hoguila,False,False,none,False
+RHD-IATT-000507,RHD-S1809-00853,Lamm,328,RHD-S1809-02196,1,Pouguáca,"Schaar, Lamm, Schöpſe",364,pouguaca,False,True,german_headword_gloss_containment,False
+RHD-IATT-000508,RHD-S1809-00854,Lampe,328,RHD-S1809-02221,1,Rachelíki,Licht,364,racheliki,False,False,none,False
+RHD-IATT-000509,RHD-S1809-00855,Lang,328,RHD-S1809-01846,1,Guelú,"Groß, lang",357,guelu,False,True,german_headword_gloss_containment,False
+RHD-IATT-000510,RHD-S1809-00856,Lang,328,RHD-S1809-01967,1,Kiá,Geben,359,kia,True,False,none,False
+RHD-IATT-000511,RHD-S1809-00856,Lang,328,RHD-S1809-01968,1,Kiá,Sonſt,359,kia,True,False,none,False
+RHD-IATT-000512,RHD-S1809-00856,Lang,328,RHD-S1809-01969,1,Kiaca,Vor Zeiten,359,kiaca,False,False,none,False
+RHD-IATT-000513,RHD-S1809-00856,Lang,328,RHD-S1809-02066,1,Najási,Gar sehr lang,362,najasi,False,True,german_headword_gloss_containment,False
+RHD-IATT-000514,RHD-S1809-00859,Langſam,328,RHD-S1809-01957,1,Kelíki,Sachte,359,keliki,False,False,none,False
+RHD-IATT-000515,RHD-S1809-00860,Laſſen,328,RHD-S1809-02237,1,Regué,Aufhören,364,regue,False,False,none,False
+RHD-IATT-000516,RHD-S1809-00860,Laſſen,328,RHD-S1809-02237,2,aregué,Aufhören,364,aregue,False,False,none,False
+RHD-IATT-000517,RHD-S1809-00861,Laſter,328,RHD-S1809-02408,1,Tſani,Sagen,367,tsani,False,False,none,False
+RHD-IATT-000518,RHD-S1809-00861,Laſter,328,RHD-S1809-02410,1,Tſani-,Der Böſes thut,367,tsani,False,False,none,False
+RHD-IATT-000519,RHD-S1809-00861,Laſter,328,RHD-S1809-02411,1,Tſani-,Uebelthat,367,tsani,False,False,none,False
+RHD-IATT-000520,RHD-S1809-00861,Laſter,328,RHD-S1809-02411,2,tſainijoliki,Uebelthat,367,tsainijoliki,False,False,none,False
+RHD-IATT-000521,RHD-S1809-00862,Laſterhaft,328,RHD-S1809-02470,1,Tſetijolájameke,Uebelthäter,368,tsetijolajameke,False,False,none,False
+RHD-IATT-000522,RHD-S1809-00867,Lehm,329,RHD-S1809-01842,1,Guéke,"Koth, Leim, s",357,gueke,False,False,none,False
+RHD-IATT-000523,RHD-S1809-00868,Leinwand,329,RHD-S1809-02425,1,Tſchiní,ſ,367,tschini,False,False,none,False
+RHD-IATT-000524,RHD-S1809-00869,Leopard,329,RHD-S1809-02001,1,Magualí,ſ,360,maguali,False,False,none,False
+RHD-IATT-000525,RHD-S1809-00875,Mädchen,330,RHD-S1809-02356,1,Teguéke,"Mädchen, ſ",366,tegueke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000526,RHD-S1809-00876,Lernen,330,RHD-S1809-02006,1,Matſchi,Draußen,361,matschi,False,False,none,False
+RHD-IATT-000527,RHD-S1809-00876,Lernen,330,RHD-S1809-02007,1,Matſchi,"als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr",361,matschi,False,False,none,False
+RHD-IATT-000528,RHD-S1809-00876,Lernen,330,RHD-S1809-02008,1,Matſchiſimi,"Lernen, ſ",361,matschisimi,False,True,german_headword_gloss_containment,False
+RHD-IATT-000529,RHD-S1809-00876,Lernen,330,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000530,RHD-S1809-00879,Leuchten,330,RHD-S1809-02219,1,Raché,Es flammet,364,rache,False,False,none,False
+RHD-IATT-000531,RHD-S1809-00879,Leuchten,330,RHD-S1809-02220,1,Rachelé,Leuchten,364,rachele,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000532,RHD-S1809-00883,Licht,330,RHD-S1809-02221,1,Rachelíki,Licht,364,racheliki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000533,RHD-S1809-00883,Licht,330,RHD-S1809-02317,1,Tajená,"Es kläret sich, wird Tag",366,tajena,False,False,none,False
+RHD-IATT-000534,RHD-S1809-00885,Lieben,330,RHD-S1809-01796,1,Gaëlé,Lieben,356,gaele,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000535,RHD-S1809-00886,Liegen,330,RHD-S1809-01812,1,Gatiki,"oder gatiki, Wohnen, ſich wo befinden, ſeyn, ſ",357,gatiki,False,False,none,False
+RHD-IATT-000536,RHD-S1809-00886,Liegen,330,RHD-S1809-01912,1,Ibe,Da,358,ibe,True,False,none,False
+RHD-IATT-000537,RHD-S1809-00887,Links,330,RHD-S1809-01889,1,Hoguerána,"Links, linker Hand, linker Arm",358,hoguerana,False,True,german_headword_gloss_containment,False
+RHD-IATT-000538,RHD-S1809-00891,Lohn,330,RHD-S1809-02092,1,Nateguí,Lohn,362,nategui,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000539,RHD-S1809-00893,Luft,330,RHD-S1809-01875,1,Heicála,"Luft, Wind",358,heicala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000540,RHD-S1809-00895,Machen,330,RHD-S1809-00046,1,Jolá,Machen,359,jola,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000541,RHD-S1809-00907,Matt,331,RHD-S1809-01991,1,Lessí,"Ermatten, müde werden",360,lessi,False,False,none,False
+RHD-IATT-000542,RHD-S1809-00907,Matt,331,RHD-S1809-01992,1,Lessíameke,"Müde, matt",360,lessiameke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000543,RHD-S1809-00907,Matt,331,RHD-S1809-01993,1,Lessíba,Er wird schon matt,360,lessiba,False,True,german_headword_gloss_containment,False
+RHD-IATT-000544,RHD-S1809-00907,Matt,331,RHD-S1809-01994,1,Leſſiſimi,"Es, oder er verliert die Kräfte",360,lessisimi,False,False,none,False
+RHD-IATT-000545,RHD-S1809-00908,Matte,331,RHD-S1809-00060,1,Peráca,Decke,363,peraca,False,False,none,False
+RHD-IATT-000546,RHD-S1809-00909,Maul,331,RHD-S1809-02455,1,Tschumíla,"Mund, Maul",368,tschumila,False,True,german_headword_gloss_containment,False
+RHD-IATT-000547,RHD-S1809-00910,Mauleſel,331,RHD-S1809-02043,1,Múra,Maulthier,361,mura,False,False,none,False
+RHD-IATT-000548,RHD-S1809-00910,Mauleſel,331,RHD-S1809-02044,1,Múla,"oder mila, Katze",361,mula,False,False,none,False
+RHD-IATT-000549,RHD-S1809-00911,Mauleſeltreiber,331,RHD-S1809-01649,2,ari,"Aber, ſ",353,ari,True,False,none,False
+RHD-IATT-000550,RHD-S1809-00911,Mauleſeltreiber,331,RHD-S1809-01655,1,Ari,"ein Anruf, mit welchem man die belaſteten Maulthiere antreibt",354,ari,True,False,none,False
+RHD-IATT-000551,RHD-S1809-00911,Mauleſeltreiber,331,RHD-S1809-01656,1,Ariero,Eſeltreiber,354,ariero,False,False,none,False
+RHD-IATT-000552,RHD-S1809-00911,Mauleſeltreiber,331,RHD-S1809-01872,1,Háliruc,"Maulthiertreiber, s",358,haliruc,False,False,none,False
+RHD-IATT-000553,RHD-S1809-00912,Maulſchelle,331,RHD-S1809-01914,1,Iché,Dieſer,358,iche,False,False,none,False
+RHD-IATT-000554,RHD-S1809-00912,Maulſchelle,331,RHD-S1809-02113,1,Netſchí,Mir,362,netschi,False,False,none,False
+RHD-IATT-000555,RHD-S1809-00912,Maulſchelle,331,RHD-S1809-02447,1,Tſchotſchoná,Ins Maul ſchlagen,368,tschotschona,False,False,none,False
+RHD-IATT-000556,RHD-S1809-00916,Maus,331,RHD-S1809-02422,1,Tschiculi,"Maus, s",367,tschiculi,False,True,german_headword_gloss_containment,False
+RHD-IATT-000557,RHD-S1809-00919,Meiden,331,RHD-S1809-02237,2,aregué,Aufhören,364,aregue,False,False,none,False
+RHD-IATT-000558,RHD-S1809-00922,Meinetwegen,331,RHD-S1809-02114,1,Netſchitaje,Meinetwegen,362,netschitaje,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000559,RHD-S1809-00924,Mengen,331,RHD-S1809-01895,1,Hologuá,"Miſchen, Umrühren",358,hologua,False,False,none,False
+RHD-IATT-000560,RHD-S1809-00925,Menſch,331,RHD-S1809-02360,1,Tehóje,"oder rehóje, Mensch",366,tehoje,False,True,german_headword_gloss_containment,False
+RHD-IATT-000561,RHD-S1809-00925,Menſch,331,RHD-S1809-02360,2,rehóje,"oder rehóje, Mensch",366,rehoje,False,True,german_headword_gloss_containment,False
+RHD-IATT-000562,RHD-S1809-00926,Merken,331,RHD-S1809-02103,1,Negualé,Sich erinnern,362,neguale,False,False,none,False
+RHD-IATT-000563,RHD-S1809-00927,Meſſen,331,RHD-S1809-02077,1,Nanaguá,Messen,362,nanagua,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000564,RHD-S1809-00929,Metall,331,RHD-S1809-01849,1,Guenomi,ſ,357,guenomi,False,False,none,False
+RHD-IATT-000565,RHD-S1809-00933,Metzeln,332,RHD-S1809-02009,1,Meá,Tödten,361,mea,True,False,none,False
+RHD-IATT-000566,RHD-S1809-00934,Metze,332,RHD-S1809-02441,1,Tſchivávoli,"Metze, ſ",368,tschivavoli,False,True,german_headword_gloss_containment,False
+RHD-IATT-000567,RHD-S1809-00935,Milbe,332,RHD-S1809-02257,1,Sáiki,Warm,365,saiki,False,False,none,False
+RHD-IATT-000568,RHD-S1809-00936,Milch,332,RHD-S1809-02168,1,Píguáca,Milch,363,piguaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000569,RHD-S1809-00937,Mild,332,RHD-S1809-01797,1,Galá,Gut,356,gala,False,False,none,False
+RHD-IATT-000570,RHD-S1809-00939,Miſchen,332,RHD-S1809-01895,1,Hologuá,"Miſchen, Umrühren",358,hologua,False,True,german_headword_gloss_containment,False
+RHD-IATT-000571,RHD-S1809-00941,Miteinander,332,RHD-S1809-01936,1,Jújega,Mitsammen,359,jujega,False,False,none,False
+RHD-IATT-000572,RHD-S1809-00941,Miteinander,332,RHD-S1809-02079,1,Napá,Beysammen,362,napa,False,False,none,False
+RHD-IATT-000573,RHD-S1809-00941,Miteinander,332,RHD-S1809-02082,1,Napé,Nebeneinander,362,nape,False,False,none,False
+RHD-IATT-000574,RHD-S1809-00943,Mittag,332,RHD-S1809-02231,1,Rauguelíki,Mittag,364,raugueliki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000575,RHD-S1809-00944,Mitte,332,RHD-S1809-02091,1,Nassípasic,In der Mitte,362,nassipasic,False,True,german_headword_gloss_containment,False
+RHD-IATT-000576,RHD-S1809-00949,Morgenſtern,332,RHD-S1809-02462,1,Tſeliſapoli,Morgenſtern,368,tselisapoli,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000577,RHD-S1809-00951,Motte,332,RHD-S1809-02257,1,Sáiki,Warm,365,saiki,False,False,none,False
+RHD-IATT-000578,RHD-S1809-00952,Mund,332,RHD-S1809-02455,1,Tschumíla,"Mund, Maul",368,tschumila,False,True,german_headword_gloss_containment,False
+RHD-IATT-000579,RHD-S1809-00953,Müſſen,332,RHD-S1809-01651,1,Amela,Man ſoll oder muß ſuchen,353,amela,False,False,none,False
+RHD-IATT-000580,RHD-S1809-00953,Müſſen,332,RHD-S1809-01671,1,Baſſaráboa,es muß geackert werden,354,bassaraboa,False,False,none,False
+RHD-IATT-000581,RHD-S1809-00953,Müſſen,332,RHD-S1809-01687,1,Bóa,ſ,355,boa,True,False,none,False
+RHD-IATT-000582,RHD-S1809-00953,Müſſen,332,RHD-S1809-02187,1,Poá,s,364,poa,True,False,none,False
+RHD-IATT-000583,RHD-S1809-00958,Mutter,332,RHD-S1809-00042,1,Jejé,Mutter,358,jeje,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000584,RHD-S1809-00962,Nachfolgen,333,RHD-S1809-02105,1,Nehéje,Nachfolgen,362,neheje,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000585,RHD-S1809-00966,Nacht,333,RHD-S1809-01750,1,Cugué,"Spät, Nacht",356,cugue,False,True,german_headword_gloss_containment,False
+RHD-IATT-000586,RHD-S1809-00971,Nahe,333,RHD-S1809-00036,1,Amulipi,Nahe,353,amulipi,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000587,RHD-S1809-00973,Nahrung,333,RHD-S1809-02132,1,Nutugála,Nahrung,363,nutugala,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000588,RHD-S1809-00978,Niemand,334,RHD-S1809-02341,1,Táschinê,Nirgend,366,taschine,False,False,none,False
+RHD-IATT-000589,RHD-S1809-00981,Nur,334,RHD-S1809-01783,1,Élabí,Nur das,356,elabi,False,False,none,False
+RHD-IATT-000590,RHD-S1809-00981,Nur,334,RHD-S1809-02022,1,Muhé,"muhéli, Du",361,muhe,False,False,none,False
+RHD-IATT-000591,RHD-S1809-00984,Oben,334,RHD-S1809-01652,1,Amoba,Mehr,353,amoba,False,False,none,False
+RHD-IATT-000592,RHD-S1809-00986,Obſt,334,RHD-S1809-01965,1,Khutágála,Obst,359,khutagala,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000593,RHD-S1809-00987,Oeffnen,334,RHD-S1809-01785,1,Epúaje,"oder epúje, Aufmachen",356,epuaje,False,False,none,False
+RHD-IATT-000594,RHD-S1809-00990,Ohr,334,RHD-S1809-02048,1,Nachcäla,Ohr,361,nachcala,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000595,RHD-S1809-00991,Ohrfeige,334,RHD-S1809-02448,1,Tſchotſchonála,Maulſchelle,368,tschotschonala,False,False,none,False
+RHD-IATT-000596,RHD-S1809-00994,Packen,334,RHD-S1809-02273,1,Seguí,Auf eine andere Weise,365,segui,False,False,none,False
+RHD-IATT-000597,RHD-S1809-00994,Packen,334,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000598,RHD-S1809-00995,Packſattel,334,RHD-S1809-00037,1,Aparécho,ſ,353,aparecho,False,False,none,False
+RHD-IATT-000599,RHD-S1809-00998,Papier,335,RHD-S1809-01897,1,Hoſſeliki,Pappier,358,hosseliki,False,False,none,False
+RHD-IATT-000600,RHD-S1809-01001,Pfeil,335,RHD-S1809-01814,1,Guá,"Schilf, Rohr",357,gua,True,False,none,False
+RHD-IATT-000601,RHD-S1809-01001,Pfeil,335,RHD-S1809-01815,1,Guáca,"Pfeil, s",357,guaca,False,True,german_headword_gloss_containment,False
+RHD-IATT-000602,RHD-S1809-01004,Pfennig,335,RHD-S1809-01849,1,Guenomi,ſ,357,guenomi,False,False,none,False
+RHD-IATT-000603,RHD-S1809-01005,Pferd,335,RHD-S1809-01717,1,Caú,"Pferd, Roß",355,cau,True,True,german_headword_gloss_containment,False
+RHD-IATT-000604,RHD-S1809-01006,Pflug,335,RHD-S1809-01672,1,Baſſaráleke,"Pflug, ſ",354,bassaraleke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000605,RHD-S1809-01014,Plündern,336,RHD-S1809-01933,1,Itschiguá,Stehlen,359,itschigua,False,False,none,False
+RHD-IATT-000606,RHD-S1809-01016,Prieſter,336,RHD-S1809-00049,1,Páli,Prieſter,363,pali,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000607,RHD-S1809-01017,Prügel,336,RHD-S1809-01761,1,Cusíki,"Holz, Stab, Stecken, Prügel",356,cusiki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000608,RHD-S1809-01018,Prügeln,336,RHD-S1809-01837,1,Guechpiſóco,"Peitſchen, geißeln",357,guechpisoco,False,False,none,False
+RHD-IATT-000609,RHD-S1809-01019,Rabe,336,RHD-S1809-01736,1,Colatſchi,der Rabe,355,colatschi,False,True,german_headword_gloss_containment,False
+RHD-IATT-000610,RHD-S1809-01020,Rächen,336,RHD-S1809-02106,1,Nemikí,Sich rächen,362,nemiki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000611,RHD-S1809-01021,Raſen,336,RHD-S1809-01995,1,Loguí,Rasen,360,logui,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000612,RHD-S1809-01022,Ratze,336,RHD-S1809-02422,1,Tschiculi,"Maus, s",367,tschiculi,False,False,none,False
+RHD-IATT-000613,RHD-S1809-01023,Rauben,336,RHD-S1809-01933,1,Itschiguá,Stehlen,359,itschigua,False,False,none,False
+RHD-IATT-000614,RHD-S1809-01023,Rauben,336,RHD-S1809-02416,1,Tschapi,Nehmen,367,tschapi,False,False,none,False
+RHD-IATT-000615,RHD-S1809-01024,Raubvogel,336,RHD-S1809-02232,1,Rauguí,Habicht,364,raugui,False,False,none,False
+RHD-IATT-000616,RHD-S1809-01025,Rauch,336,RHD-S1809-00059,1,Pemoliki,Rauch,363,pemoliki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000617,RHD-S1809-01027,Rauſchig,336,RHD-S1809-02353,1,Teculüameke,Berauſcht,366,teculuameke,False,False,none,False
+RHD-IATT-000618,RHD-S1809-01028,Recht,336,RHD-S1809-01802,1,Gané,Recht gut,357,gane,False,True,german_headword_gloss_containment,False
+RHD-IATT-000619,RHD-S1809-01030,Rede,336,RHD-S1809-02109,1,Neogála,"Wort, Rede",362,neogala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000620,RHD-S1809-01031,Rede,336,RHD-S1809-02109,1,Neogála,"Wort, Rede",362,neogala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000621,RHD-S1809-01032,Redlos,336,RHD-S1809-02108,1,Néóca,Reden,362,neoca,False,False,none,False
+RHD-IATT-000622,RHD-S1809-01034,Regnen,336,RHD-S1809-01938,1,Jukú,Es regnet,359,juku,False,False,none,False
+RHD-IATT-000623,RHD-S1809-01035,Reh,336,RHD-S1809-01700,1,Búra,Hirſch,355,bura,False,False,none,False
+RHD-IATT-000624,RHD-S1809-01035,Reh,336,RHD-S1809-02445,1,Tſchomáli,"Reh, ſ",368,tschomali,False,False,none,False
+RHD-IATT-000625,RHD-S1809-01041,Ringen,338,RHD-S1809-02064,1,Nahirape,Ringen,362,nahirape,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000626,RHD-S1809-01042,Rohr,338,RHD-S1809-01814,1,Guá,"Schilf, Rohr",357,gua,True,True,german_headword_gloss_containment,False
+RHD-IATT-000627,RHD-S1809-01047,Roth,338,RHD-S1809-02466,2,Stácameke,oder Stácameke,368,stacameke,False,False,none,False
+RHD-IATT-000628,RHD-S1809-01049,Rücken,338,RHD-S1809-01690,1,Bucáligua,"Rücken, Buckel",355,bucaligua,False,True,german_headword_gloss_containment,False
+RHD-IATT-000629,RHD-S1809-01051,Rufen,338,RHD-S1809-01665,1,Bajé,Rufen,354,baje,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000630,RHD-S1809-01051,Rufen,338,RHD-S1809-01666,1,Bajéameke,der Rufende,354,bajeameke,False,False,none,False
+RHD-IATT-000631,RHD-S1809-01051,Rufen,338,RHD-S1809-01667,1,Bajémela,"Rufen ſollen, oder müſſen, ſ",354,bajemela,False,True,german_headword_gloss_containment,False
+RHD-IATT-000632,RHD-S1809-01053,Rühren,338,RHD-S1809-01895,1,Hologuá,"Miſchen, Umrühren",358,hologua,False,False,none,False
+RHD-IATT-000633,RHD-S1809-01055,Rund,338,RHD-S1809-01720,1,Cavólameke,"oder cavórameke, kugelförmig",355,cavolameke,False,False,none,False
+RHD-IATT-000634,RHD-S1809-01057,Ruthe,338,RHD-S1809-01761,1,Cusíki,"Holz, Stab, Stecken, Prügel",356,cusiki,False,False,none,False
+RHD-IATT-000635,RHD-S1809-01059,Sache,338,RHD-S1809-02078,1,Nanamuti,Sache,362,nanamuti,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000636,RHD-S1809-01060,Sachte,338,RHD-S1809-01957,1,Kelíki,Sachte,359,keliki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000637,RHD-S1809-01061,Säen,338,RHD-S1809-01771,1,Echtſchá,Säen,356,echtscha,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000638,RHD-S1809-01062,Sagen,338,RHD-S1809-02253,1,Rúje,Sprechen,365,ruje,False,False,none,False
+RHD-IATT-000639,RHD-S1809-01062,Sagen,338,RHD-S1809-02408,1,Tſani,Sagen,367,tsani,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000640,RHD-S1809-01062,Sagen,338,RHD-S1809-02410,1,Tſani-,Der Böſes thut,367,tsani,False,False,none,False
+RHD-IATT-000641,RHD-S1809-01062,Sagen,338,RHD-S1809-02411,1,Tſani-,Uebelthat,367,tsani,False,False,none,False
+RHD-IATT-000642,RHD-S1809-01063,Saitenſpiel,338,RHD-S1809-02230,1,Ravéli,"Geige, s",364,raveli,False,False,none,False
+RHD-IATT-000643,RHD-S1809-01065,Salat,338,RHD-S1809-02424,1,Tschináca,s,367,tschinaca,False,False,none,False
+RHD-IATT-000644,RHD-S1809-01068,Salbung,338,RHD-S1809-02458,1,Tſchutſchelíla,Salbung,368,tschutschelila,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000645,RHD-S1809-01070,Saamen,338,RHD-S1809-02325,1,Talíki,Saamen,366,taliki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000646,RHD-S1809-01071,Sammeln,338,RHD-S1809-02080,1,Napabúmela,"Man soll, oder muß sammeln",362,napabumela,False,True,german_headword_gloss_containment,False
+RHD-IATT-000647,RHD-S1809-01072,Sammt,338,RHD-S1809-02079,1,Napá,Beysammen,362,napa,False,False,none,False
+RHD-IATT-000648,RHD-S1809-01072,Sammt,338,RHD-S1809-02082,1,Napé,Nebeneinander,362,nape,False,False,none,False
+RHD-IATT-000649,RHD-S1809-01073,Sand,338,RHD-S1809-02254,1,Saaté,Sand,365,saate,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000650,RHD-S1809-01075,Sanft,338,RHD-S1809-01957,1,Kelíki,Sachte,359,keliki,False,False,none,False
+RHD-IATT-000651,RHD-S1809-01077,Sattel,338,RHD-S1809-00060,1,Peráca,Decke,363,peraca,False,False,none,False
+RHD-IATT-000652,RHD-S1809-01078,Satteln,338,RHD-S1809-02165,1,Peré,"Satteln, aufbreiten, decken",363,pere,False,True,german_headword_gloss_containment,False
+RHD-IATT-000653,RHD-S1809-01079,Sau,338,RHD-S1809-01744,1,Cotſchi,Schwein,355,cotschi,False,False,none,False
+RHD-IATT-000654,RHD-S1809-01082,Säugling,338,RHD-S1809-02434,1,Tſchitſchiameke,Säugling,368,tschitschiameke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000655,RHD-S1809-01085,Schaf,338,RHD-S1809-02196,1,Pouguáca,"Schaar, Lamm, Schöpſe",364,pouguaca,False,False,none,False
+RHD-IATT-000656,RHD-S1809-01088,Schaffen,338,RHD-S1809-02129,1,Nulá,Befehlen,363,nula,False,False,none,False
+RHD-IATT-000657,RHD-S1809-01089,Schale,338,RHD-S1809-01948,1,Kachelá,"Rinde, Schaale",359,kachela,False,False,none,False
+RHD-IATT-000658,RHD-S1809-01093,Schärfen,338,RHD-S1809-02457,1,Tſchutá,Schleifen,368,tschuta,False,False,none,False
+RHD-IATT-000659,RHD-S1809-01094,Schätzen,338,RHD-S1809-02116,1,Noiné,"Ehren, verehren",362,noine,False,False,none,False
+RHD-IATT-000660,RHD-S1809-01095,Scheuen,338,RHD-S1809-02107,1,Nené,Sehen,362,nene,False,False,none,False
+RHD-IATT-000661,RHD-S1809-01095,Scheuen,338,RHD-S1809-02244,1,Reteguá,Sehen,365,retegua,False,False,none,False
+RHD-IATT-000662,RHD-S1809-01096,Schedel,338,RHD-S1809-02017,1,Moóla,"Haupt, Kopf",361,moola,False,False,none,False
+RHD-IATT-000663,RHD-S1809-01097,Scheere,338,RHD-S1809-02086,1,Nassíla,Scheere,362,nassila,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000664,RHD-S1809-01100,Scheinen,338,RHD-S1809-02220,1,Rachelé,Leuchten,364,rachele,False,False,none,False
+RHD-IATT-000665,RHD-S1809-01102,Schelle,338,RHD-S1809-02330,1,Tamulé,"Schelle, Klapper",366,tamule,False,True,german_headword_gloss_containment,False
+RHD-IATT-000666,RHD-S1809-01104,Schermaus,338,RHD-S1809-02384,1,Tepóli,Maulwurf,367,tepoli,False,False,none,False
+RHD-IATT-000667,RHD-S1809-01106,Scherzen,338,RHD-S1809-02354,1,Teeje,Scherzen,366,teeje,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000668,RHD-S1809-01109,Schicken,338,RHD-S1809-01901,1,Hulá,"Schicken, senden",358,hula,False,True,german_headword_gloss_containment,False
+RHD-IATT-000669,RHD-S1809-01110,Schienbein,338,RHD-S1809-02311,1,Tabeláca,Schienbein,366,tabelaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000670,RHD-S1809-01111,Schilf,338,RHD-S1809-01814,1,Guá,"Schilf, Rohr",357,gua,True,True,german_headword_gloss_containment,False
+RHD-IATT-000671,RHD-S1809-01112,Schimmeln,338,RHD-S1809-02023,1,Mujá,Schimmeln,361,muja,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000672,RHD-S1809-01112,Schimmeln,338,RHD-S1809-02024,1,Mujába,"Es schimmelt, faulet schon",361,mujaba,False,False,none,False
+RHD-IATT-000673,RHD-S1809-01117,Schlangen,339,RHD-S1809-01662,1,Bahumali,Eine andere Schlangenart,354,bahumali,False,False,none,False
+RHD-IATT-000674,RHD-S1809-01121,Schließen,339,RHD-S1809-01780,1,Euke,Es iſt zu,356,euke,False,False,none,False
+RHD-IATT-000675,RHD-S1809-01125,Schlingen,339,RHD-S1809-01816,1,Guaguá,"Schlingen, schlucken",357,guagua,False,True,german_headword_gloss_containment,False
+RHD-IATT-000676,RHD-S1809-01126,Schlüſſel,339,RHD-S1809-01786,1,Epuláca,Schlüſſel,356,epulaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000677,RHD-S1809-01127,Schmackhaft,339,RHD-S1809-01922,1,Igue,Sehr,359,igue,False,False,none,False
+RHD-IATT-000678,RHD-S1809-01128,Schrauben,339,RHD-S1809-02459,1,Tſchutſchú,"Taback ſchmauchen, ſ",368,tschutschu,False,False,none,False
+RHD-IATT-000679,RHD-S1809-01131,Schnee,339,RHD-S1809-01959,1,Kepalíki,Schnee,359,kepaliki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000680,RHD-S1809-01132,Schneiden,339,RHD-S1809-01819,1,Guakí,Sich schneiden,357,guaki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000681,RHD-S1809-01132,Schneiden,339,RHD-S1809-02282,1,Siká,"Hauen, zerſchneiden",365,sika,False,False,none,False
+RHD-IATT-000682,RHD-S1809-01132,Schneiden,339,RHD-S1809-02385,1,Tepulá,"oder tepurá, Hauen, hacken",367,tepula,False,False,none,False
+RHD-IATT-000683,RHD-S1809-01135,Schön,339,RHD-S1809-01797,1,Galá,Gut,356,gala,False,False,none,False
+RHD-IATT-000684,RHD-S1809-01137,Schöpfen,339,RHD-S1809-02149,1,Pabáhi,Schöpfen,363,pabahi,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000685,RHD-S1809-01142,Schreiten,340,RHD-S1809-01894,1,Hóje,"Fortſchreiten, gehen",358,hoje,False,False,none,False
+RHD-IATT-000686,RHD-S1809-01142,Schreiten,340,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000687,RHD-S1809-01144,Schrift,340,RHD-S1809-01897,1,Hoſſeliki,Pappier,358,hosseliki,False,False,none,False
+RHD-IATT-000688,RHD-S1809-01150,Schwalbe,340,RHD-S1809-02298,1,Souguépali,Schwalbe,365,souguepali,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000689,RHD-S1809-01151,Schwamm,340,RHD-S1809-02293,1,Soláca,Breunschwamm,365,solaca,False,False,none,False
+RHD-IATT-000690,RHD-S1809-01152,Schwanger,340,RHD-S1809-02193,1,Potſchirúgameke,Schwanger,364,potschirugameke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000691,RHD-S1809-01156,Schwein,340,RHD-S1809-01744,1,Cotſchi,Schwein,355,cotschi,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000692,RHD-S1809-01159,Schweſter,340,RHD-S1809-01688,1,Boní,Schweſter,355,boni,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000693,RHD-S1809-01164,Schwören,340,RHD-S1809-01853,1,Guéva,"Fürwahr, s",357,gueva,False,False,none,False
+RHD-IATT-000694,RHD-S1809-01169,Sechzehn,340,RHD-S1809-01652,1,Amoba,Mehr,353,amoba,False,False,none,False
+RHD-IATT-000695,RHD-S1809-01171,Seele,340,RHD-S1809-01866,1,Halaguála,"das Leben, s",357,halaguala,False,False,none,False
+RHD-IATT-000696,RHD-S1809-01172,Sehen,340,RHD-S1809-02107,1,Nené,Sehen,362,nene,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000697,RHD-S1809-01172,Sehen,340,RHD-S1809-02244,1,Reteguá,Sehen,365,retegua,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000698,RHD-S1809-01173,Sehe,340,RHD-S1809-01922,1,Igue,Sehr,359,igue,False,False,none,False
+RHD-IATT-000699,RHD-S1809-01176,Seitenſtechen,340,RHD-S1809-01725,1,Cocolá,Krank ſeyn,355,cocola,False,False,none,False
+RHD-IATT-000700,RHD-S1809-01176,Seitenſtechen,340,RHD-S1809-02489,1,Volſiga,Seitenſtechen,368,volsiga,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000701,RHD-S1809-01187,Selig,341,RHD-S1809-01804,1,Ganeliameke,"Der geſund iſt, dem es gut geht",357,ganeliameke,False,False,none,False
+RHD-IATT-000702,RHD-S1809-01188,Seligkeit,341,RHD-S1809-01805,1,Ganileliki,Glückſeligkeit,357,ganileliki,False,False,none,False
+RHD-IATT-000703,RHD-S1809-01190,Senden,341,RHD-S1809-01901,1,Hulá,"Schicken, senden",358,hula,False,True,german_headword_gloss_containment,False
+RHD-IATT-000704,RHD-S1809-01191,Seyn,341,RHD-S1809-01812,1,Gatiki,"oder gatiki, Wohnen, ſich wo befinden, ſeyn, ſ",357,gatiki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000705,RHD-S1809-01191,Seyn,341,RHD-S1809-02451,1,Tschucú,"Der Ort, wo sich ein zahmes Thier befindet, s",368,tschucu,False,False,none,False
+RHD-IATT-000706,RHD-S1809-01192,Sieben,341,RHD-S1809-01977,1,Kitſaóco,Sieben,360,kitsaoco,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000707,RHD-S1809-01193,Siebenmal,341,RHD-S1809-01978,1,Kitsaóssa,Siebenmal,360,kitsaossa,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000708,RHD-S1809-01195,Siebenzehn,341,RHD-S1809-01652,1,Amoba,Mehr,353,amoba,False,False,none,False
+RHD-IATT-000709,RHD-S1809-01195,Siebenzehn,341,RHD-S1809-01977,1,Kitſaóco,Sieben,360,kitsaoco,False,False,none,False
+RHD-IATT-000710,RHD-S1809-01197,Siebenzig,341,RHD-S1809-01978,1,Kitsaóssa,Siebenmal,360,kitsaossa,False,False,none,False
+RHD-IATT-000711,RHD-S1809-01199,Sieden,341,RHD-S1809-01679,1,Baſſu,Kochen,354,bassu,False,False,none,False
+RHD-IATT-000712,RHD-S1809-01201,Singen,341,RHD-S1809-01854,1,Guicára,Singen,357,guicara,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000713,RHD-S1809-01202,Sitz,341,RHD-S1809-01910,1,Jaſſála,"Sitz, Stuhl, Bank",358,jassala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000714,RHD-S1809-01204,Skorpion,341,RHD-S1809-01832,1,Guatschíki,s,357,guatschiki,False,False,none,False
+RHD-IATT-000715,RHD-S1809-01206,Sohle,341,RHD-S1809-01949,1,Kacác,ſ,359,kacac,False,False,none,False
+RHD-IATT-000716,RHD-S1809-01206,Sohle,341,RHD-S1809-02022,1,Muhé,"muhéli, Du",361,muhe,False,False,none,False
+RHD-IATT-000717,RHD-S1809-01209,Sohn,341,RHD-S1809-02121,1,Nolá,Sohn,362,nola,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000718,RHD-S1809-01211,Sollen,342,RHD-S1809-01687,1,Bóa,ſ,355,boa,True,False,none,False
+RHD-IATT-000719,RHD-S1809-01211,Sollen,342,RHD-S1809-02187,1,Poá,s,364,poa,True,False,none,False
+RHD-IATT-000720,RHD-S1809-01213,Sonne,342,RHD-S1809-02315,1,Taicá,Sonne,366,taica,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000721,RHD-S1809-01214,Sonſt,342,RHD-S1809-01967,1,Kiá,Geben,359,kia,True,False,none,False
+RHD-IATT-000722,RHD-S1809-01214,Sonſt,342,RHD-S1809-01968,1,Kiá,Sonſt,359,kia,True,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000723,RHD-S1809-01214,Sonſt,342,RHD-S1809-01969,1,Kiaca,Vor Zeiten,359,kiaca,False,False,none,False
+RHD-IATT-000724,RHD-S1809-01215,Sonſt,342,RHD-S1809-02273,1,Seguí,Auf eine andere Weise,365,segui,False,False,none,False
+RHD-IATT-000725,RHD-S1809-01218,Spät,342,RHD-S1809-01750,1,Cugué,"Spät, Nacht",356,cugue,False,True,german_headword_gloss_containment,False
+RHD-IATT-000726,RHD-S1809-01219,Spatzieren,342,RHD-S1809-01674,1,Baſſeló,Spazieren,354,basselo,False,False,none,False
+RHD-IATT-000727,RHD-S1809-01220,Speichel,342,RHD-S1809-00029,1,Acáca,Speichel,353,acaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000728,RHD-S1809-01221,Speiſe,342,RHD-S1809-01696,1,Coajameke,das Eſſen,355,coajameke,False,False,none,False
+RHD-IATT-000729,RHD-S1809-01221,Speiſe,342,RHD-S1809-01733,1,Coiguala,gute ſchmackhafte Speiſe,355,coiguala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000730,RHD-S1809-01225,Sperren,342,RHD-S1809-01774,1,Eke,"Zumachen, ſperren, ſchließen",356,eke,True,True,german_headword_gloss_containment,False
+RHD-IATT-000731,RHD-S1809-01225,Sperren,342,RHD-S1809-01780,1,Euke,Es iſt zu,356,euke,False,False,none,False
+RHD-IATT-000732,RHD-S1809-01227,Spiel,342,RHD-S1809-01905,1,Humá,"Laufen, fliehen, ſich flüchten",358,huma,False,False,none,False
+RHD-IATT-000733,RHD-S1809-01227,Spiel,342,RHD-S1809-02159,1,Patólle,ſ,363,patolle,False,False,none,False
+RHD-IATT-000734,RHD-S1809-01227,Spiel,342,RHD-S1809-02321,1,Talá,Fuß,366,tala,False,False,none,False
+RHD-IATT-000735,RHD-S1809-01234,Spielplatz,343,RHD-S1809-02486,1,Ulé,Spielblatt,368,ule,True,False,none,False
+RHD-IATT-000736,RHD-S1809-01238,Spielplatz,343,RHD-S1809-02486,1,Ulé,Spielblatt,368,ule,True,False,none,False
+RHD-IATT-000737,RHD-S1809-01242,Spruch,343,RHD-S1809-02109,1,Neogála,"Wort, Rede",362,neogala,False,False,none,False
+RHD-IATT-000738,RHD-S1809-01248,Spitze,343,RHD-S1809-01767,1,Cuvála,"Gipfel, Spitze",356,cuvala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000739,RHD-S1809-01250,Sprechen,343,RHD-S1809-02408,1,Tſani,Sagen,367,tsani,False,False,none,False
+RHD-IATT-000740,RHD-S1809-01250,Sprechen,343,RHD-S1809-02410,1,Tſani-,Der Böſes thut,367,tsani,False,False,none,False
+RHD-IATT-000741,RHD-S1809-01250,Sprechen,343,RHD-S1809-02411,1,Tſani-,Uebelthat,367,tsani,False,False,none,False
+RHD-IATT-000742,RHD-S1809-01254,Stab,343,RHD-S1809-01761,1,Cusíki,"Holz, Stab, Stecken, Prügel",356,cusiki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000743,RHD-S1809-01255,Stachel,343,RHD-S1809-01767,1,Cuvála,"Gipfel, Spitze",356,cuvala,False,False,none,False
+RHD-IATT-000744,RHD-S1809-01258,Stange,343,RHD-S1809-01846,1,Guelú,"Groß, lang",357,guelu,False,False,none,False
+RHD-IATT-000745,RHD-S1809-01259,Stark,343,RHD-S1809-01923,1,Igueameke,"Ein Starker, der Kräfte hat",359,igueameke,False,False,none,False
+RHD-IATT-000746,RHD-S1809-01261,Stäupen,344,RHD-S1809-01837,1,Guechpiſóco,"Peitſchen, geißeln",357,guechpisoco,False,False,none,False
+RHD-IATT-000747,RHD-S1809-01262,Stecken,344,RHD-S1809-01761,1,Cusíki,"Holz, Stab, Stecken, Prügel",356,cusiki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000748,RHD-S1809-01263,Stehen,344,RHD-S1809-01812,1,Gatiki,"oder gatiki, Wohnen, ſich wo befinden, ſeyn, ſ",357,gatiki,False,False,none,False
+RHD-IATT-000749,RHD-S1809-01263,Stehen,344,RHD-S1809-01912,1,Ibe,Da,358,ibe,True,False,none,False
+RHD-IATT-000750,RHD-S1809-01263,Stehen,344,RHD-S1809-02482,1,Uilí,Stehen bleiben,368,uili,False,True,german_headword_gloss_containment,False
+RHD-IATT-000751,RHD-S1809-01264,Stehlen,344,RHD-S1809-01933,1,Itschiguá,Stehlen,359,itschigua,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000752,RHD-S1809-01265,Steig,344,RHD-S1809-02199,1,Poveke,"Steig, gebahnter Weg",364,poveke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000753,RHD-S1809-01266,Steigen,344,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000754,RHD-S1809-01266,Steigen,344,RHD-S1809-02381,1,Tepá,"oder repá, Oben",367,tepa,False,False,none,False
+RHD-IATT-000755,RHD-S1809-01267,Stein,344,RHD-S1809-02363,1,Tele,Unten,366,tele,False,False,none,False
+RHD-IATT-000756,RHD-S1809-01270,Steineiche,344,RHD-S1809-02246,1,Roháca,Eiche,365,rohaca,False,False,none,False
+RHD-IATT-000757,RHD-S1809-01271,Stempel,344,RHD-S1809-02028,1,Muliki,"Stempel, Stößel",361,muliki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000758,RHD-S1809-01273,Sterben,344,RHD-S1809-02036,1,Mukúameke,Todt,361,mukuameke,False,False,none,False
+RHD-IATT-000759,RHD-S1809-01273,Sterben,344,RHD-S1809-02037,1,Mukúku,Sterben,361,mukuku,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000760,RHD-S1809-01281,Stinken,344,RHD-S1809-02431,1,Tschipú,Stinken,368,tschipu,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000761,RHD-S1809-01284,Stößel,344,RHD-S1809-02028,1,Muliki,"Stempel, Stößel",361,muliki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000762,RHD-S1809-01286,Strafen,344,RHD-S1809-02022,1,Muhé,"muhéli, Du",361,muhe,False,False,none,False
+RHD-IATT-000763,RHD-S1809-01288,Straße,344,RHD-S1809-02199,1,Poveke,"Steig, gebahnter Weg",364,poveke,False,False,none,False
+RHD-IATT-000764,RHD-S1809-01294,Stuhl,344,RHD-S1809-01910,1,Jaſſála,"Sitz, Stuhl, Bank",358,jassala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000765,RHD-S1809-01295,Süd,344,RHD-S1809-02223,1,Rachpé,Wenig,364,rachpe,False,False,none,False
+RHD-IATT-000766,RHD-S1809-01297,Stute,345,RHD-S1809-01717,1,Caú,"Pferd, Roß",355,cau,True,False,none,False
+RHD-IATT-000767,RHD-S1809-01298,Suchen,345,RHD-S1809-00035,1,Amé,Suchen,353,ame,True,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000768,RHD-S1809-01298,Suchen,345,RHD-S1809-01651,1,Amela,Man ſoll oder muß ſuchen,353,amela,False,True,german_headword_gloss_containment,False
+RHD-IATT-000769,RHD-S1809-01301,Sünder,345,RHD-S1809-02470,1,Tſetijolájameke,Uebelthäter,368,tsetijolajameke,False,False,none,False
+RHD-IATT-000770,RHD-S1809-01302,Sündigen,345,RHD-S1809-02469,1,Tſetijolá,Böſes thun,368,tsetijola,False,False,none,False
+RHD-IATT-000771,RHD-S1809-01303,Suppe,345,RHD-S1809-00056,1,Pauguila,Suppe,363,pauguila,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000772,RHD-S1809-01303,Suppe,345,RHD-S1809-01790,1,Eskíate,Ist eine vom türkischen Waizengries dünn eingekochte Suppe,356,eskiate,False,True,german_headword_gloss_containment,False
+RHD-IATT-000773,RHD-S1809-01303,Suppe,345,RHD-S1809-01976,1,Kiolíki,Gekochte dünne Suppe von türkischem Weitzengries,360,kioliki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000774,RHD-S1809-01304,Süß,345,RHD-S1809-01950,1,Kachká,Es ist süß,359,kachka,False,True,german_headword_gloss_containment,False
+RHD-IATT-000775,RHD-S1809-01304,Süß,345,RHD-S1809-01951,1,Kachkágameke,Süß,359,kachkagameke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000776,RHD-S1809-01307,Taback,345,RHD-S1809-02483,1,Uipáca,Taback,368,uipaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000777,RHD-S1809-01310,Tanz,345,RHD-S1809-01911,1,Jauguila,Tanz,358,jauguila,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000778,RHD-S1809-01316,Thüre,346,RHD-S1809-01787,1,Éra,Thüre,356,era,True,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000779,RHD-S1809-01322,Taub,346,RHD-S1809-02049,1,Nacheatule,"Gehörlos, Taub",361,nacheatule,False,True,german_headword_gloss_containment,False
+RHD-IATT-000780,RHD-S1809-01323,Taufe,346,RHD-S1809-00057,1,Pauvoliki,Abwaſchung,363,pauvoliki,False,False,none,False
+RHD-IATT-000781,RHD-S1809-01324,Taufen,346,RHD-S1809-02152,1,Pagotúgameke,Ein Getaufter,363,pagotugameke,False,False,none,False
+RHD-IATT-000782,RHD-S1809-01325,Teppich,346,RHD-S1809-00060,1,Peráca,Decke,363,peraca,False,False,none,False
+RHD-IATT-000783,RHD-S1809-01327,Teufel,346,RHD-S1809-01647,1,Aitáruc,Teufel,353,aitaruc,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000784,RHD-S1809-01327,Teufel,346,RHD-S1809-02367,1,Telégatigámeke,"der unten iſt, ſ",367,telegatigameke,False,False,none,False
+RHD-IATT-000785,RHD-S1809-01330,Thun,346,RHD-S1809-00046,1,Jolá,Machen,359,jola,False,False,none,False
+RHD-IATT-000786,RHD-S1809-01331,Tief,346,RHD-S1809-02247,1,Rochcó,Es iſt tief,365,rochco,False,True,german_headword_gloss_containment,False
+RHD-IATT-000787,RHD-S1809-01332,Toben,346,RHD-S1809-01995,1,Loguí,Rasen,360,logui,False,False,none,False
+RHD-IATT-000788,RHD-S1809-01333,Tochter,346,RHD-S1809-00031,1,Aguila,Tochter,353,aguila,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000789,RHD-S1809-01334,Todt,346,RHD-S1809-02032,1,Mukiki,Tod,361,mukiki,False,False,none,False
+RHD-IATT-000790,RHD-S1809-01335,Todtſeyn,346,RHD-S1809-02036,1,Mukúameke,Todt,361,mukuameke,False,False,none,False
+RHD-IATT-000791,RHD-S1809-01336,Tödten,346,RHD-S1809-02009,1,Meá,Tödten,361,mea,True,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000792,RHD-S1809-01336,Tödten,346,RHD-S1809-02011,1,Melirúgameke,Geschlachtet,361,melirugameke,False,False,none,False
+RHD-IATT-000793,RHD-S1809-01337,Todtenkopf,346,RHD-S1809-02018,1,Moorápera,Todtenkopf,361,moorapera,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000794,RHD-S1809-01339,Trächtig,346,RHD-S1809-02193,1,Potſchirúgameke,Schwanger,364,potschirugameke,False,False,none,False
+RHD-IATT-000795,RHD-S1809-01341,Tragen,346,RHD-S1809-02148,1,Paâ,Forttragen,363,paa,True,False,none,False
+RHD-IATT-000796,RHD-S1809-01346,Trinken,346,RHD-S1809-00047,1,Pahí,Trinken,363,pahi,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000797,RHD-S1809-01349,Trocknen,346,RHD-S1809-02476,1,Vakítsi,"Es trocknet, dürrt aus",368,vakitsi,False,False,none,False
+RHD-IATT-000798,RHD-S1809-01350,Trüb,346,RHD-S1809-02122,1,Nolé,"Es überzieht ſich, wird trüb, wolkig",362,nole,False,True,german_headword_gloss_containment,False
+RHD-IATT-000799,RHD-S1809-01351,Trunk,346,RHD-S1809-00048,1,Pahíla,Trunk,363,pahila,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000800,RHD-S1809-01352,Trunken,346,RHD-S1809-02353,1,Teculüameke,Berauſcht,366,teculuameke,False,False,none,False
+RHD-IATT-000801,RHD-S1809-01354,Uebelthat,346,RHD-S1809-02411,2,tſainijoliki,Uebelthat,367,tsainijoliki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000802,RHD-S1809-01355,Uebelthäter,346,RHD-S1809-02410,2,tſainijolájameke,Der Böſes thut,367,tsainijolajameke,False,False,none,False
+RHD-IATT-000803,RHD-S1809-01356,Uebelthun,346,RHD-S1809-02469,1,Tſetijolá,Böſes thun,368,tsetijola,False,False,none,False
+RHD-IATT-000804,RHD-S1809-01357,Ueber,346,RHD-S1809-01652,1,Amoba,Mehr,353,amoba,False,False,none,False
+RHD-IATT-000805,RHD-S1809-01358,Ueberaus,346,RHD-S1809-01922,1,Igue,Sehr,359,igue,False,False,none,False
+RHD-IATT-000806,RHD-S1809-01359,Uebergeben,346,RHD-S1809-01967,1,Kiá,Geben,359,kia,True,False,none,False
+RHD-IATT-000807,RHD-S1809-01359,Uebergeben,346,RHD-S1809-01968,1,Kiá,Sonſt,359,kia,True,False,none,False
+RHD-IATT-000808,RHD-S1809-01360,Ueberläufer,346,RHD-S1809-01906,1,Humeameke,Flüchtling,358,humeameke,False,False,none,False
+RHD-IATT-000809,RHD-S1809-01364,Umbringen,346,RHD-S1809-02009,1,Meá,Tödten,361,mea,True,False,none,False
+RHD-IATT-000810,RHD-S1809-01365,Umdrehen,346,RHD-S1809-02125,1,Nolíruje,Herumdrehen,363,noliruje,False,False,none,False
+RHD-IATT-000811,RHD-S1809-01366,Umgehen,346,RHD-S1809-02124,1,Nolíre,Umgehen,363,nolire,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000812,RHD-S1809-01370,Umrühren,347,RHD-S1809-01895,1,Hologuá,"Miſchen, Umrühren",358,hologua,False,True,german_headword_gloss_containment,False
+RHD-IATT-000813,RHD-S1809-01372,Unabläßlich,347,RHD-S1809-02289,1,Sinévi,"oder linivi, Immer, allezeit",365,sinevi,False,False,none,False
+RHD-IATT-000814,RHD-S1809-01374,Unbeweibt,347,RHD-S1809-02490,1,Upéameke,"Ein Verheyratheter, Ehemann",368,upeameke,False,False,none,False
+RHD-IATT-000815,RHD-S1809-01381,Ungewaſchen,347,RHD-S1809-02152,1,Pagotúgameke,Ein Getaufter,363,pagotugameke,False,False,none,False
+RHD-IATT-000816,RHD-S1809-01385,Unlängst,347,RHD-S1809-01886,1,Hípela,"Itzt gleich, dieſen Augenblick",358,hipela,False,False,none,False
+RHD-IATT-000817,RHD-S1809-01390,Unten,347,RHD-S1809-02363,1,Tele,Unten,366,tele,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000818,RHD-S1809-01391,Unterlaſſen,347,RHD-S1809-02237,1,Regué,Aufhören,364,regue,False,False,none,False
+RHD-IATT-000819,RHD-S1809-01391,Unterlaſſen,347,RHD-S1809-02237,2,aregué,Aufhören,364,aregue,False,False,none,False
+RHD-IATT-000820,RHD-S1809-01392,Ohn Unterlaß,347,RHD-S1809-02289,1,Sinévi,"oder linivi, Immer, allezeit",365,sinevi,False,False,none,False
+RHD-IATT-000821,RHD-S1809-01396,Unverehelicht,347,RHD-S1809-02490,1,Upéameke,"Ein Verheyratheter, Ehemann",368,upeameke,False,False,none,False
+RHD-IATT-000822,RHD-S1809-01397,Unverletzt,347,RHD-S1809-01945,1,Jumarúgameke,Vollkommen,359,jumarugameke,False,False,none,False
+RHD-IATT-000823,RHD-S1809-01401,Unverzagt,347,RHD-S1809-01945,1,Jumarúgameke,Vollkommen,359,jumarugameke,False,False,none,False
+RHD-IATT-000824,RHD-S1809-01402,Unverzüglich,347,RHD-S1809-01886,1,Hípela,"Itzt gleich, dieſen Augenblick",358,hipela,False,False,none,False
+RHD-IATT-000825,RHD-S1809-01406,Unzahlbar,347,RHD-S1809-02340,1,Tarálati,Zählbar,366,taralati,False,False,none,False
+RHD-IATT-000826,RHD-S1809-01411,Vater,347,RHD-S1809-02126,1,Nonó,"Vater, ſ",363,nono,False,True,german_headword_gloss_containment,False
+RHD-IATT-000827,RHD-S1809-01412,Verabſcheuen,347,RHD-S1809-01928,1,Ikitsiki,"Haſſen, Verabſcheuen",359,ikitsiki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000828,RHD-S1809-01413,Verbergen,347,RHD-S1809-01935,1,Itschiná,Verbergen,359,itschina,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000829,RHD-S1809-01414,Verbieten,347,RHD-S1809-02305,1,Suleliruc,Es iſt verboten,366,suleliruc,False,False,none,False
+RHD-IATT-000830,RHD-S1809-01414,Verbieten,347,RHD-S1809-02306,1,Sulí,Verbieten,366,suli,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000831,RHD-S1809-01415,Verbunden,347,RHD-S1809-01697,1,Bulá,Binden,355,bula,False,False,none,False
+RHD-IATT-000832,RHD-S1809-01417,Verbleiben,347,RHD-S1809-00046,1,Jolá,Machen,359,jola,False,False,none,False
+RHD-IATT-000833,RHD-S1809-01418,Verbot,347,RHD-S1809-02304,1,Sulelíla,Verbot,366,sulelila,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000834,RHD-S1809-01422,Verehren,347,RHD-S1809-02116,1,Noiné,"Ehren, verehren",362,noine,False,True,german_headword_gloss_containment,False
+RHD-IATT-000835,RHD-S1809-01424,Verfertigen,347,RHD-S1809-01704,1,Cajena,"Vollenden, verfertigen, ausmachen",355,cajena,False,True,german_headword_gloss_containment,False
+RHD-IATT-000836,RHD-S1809-01425,Verfeſtigen,347,RHD-S1809-01926,1,Igueruje,Feſt machen,359,igueruje,False,False,none,False
+RHD-IATT-000837,RHD-S1809-01430,Vergelten,347,RHD-S1809-02058,1,Nachtétuje,"Erwiedern, Vergelten",362,nachtetuje,False,True,german_headword_gloss_containment,False
+RHD-IATT-000838,RHD-S1809-01434,Vergrößern,347,RHD-S1809-00046,1,Jolá,Machen,359,jola,False,False,none,False
+RHD-IATT-000839,RHD-S1809-01434,Vergrößern,347,RHD-S1809-01847,1,Guelube,"Größer, länger",357,guelube,False,False,none,False
+RHD-IATT-000840,RHD-S1809-01436,Verheyrathet,347,RHD-S1809-01757,1,Cunéameke,Verheurathete Weibsperson,356,cuneameke,False,False,none,False
+RHD-IATT-000841,RHD-S1809-01436,Verheyrathet,347,RHD-S1809-02490,1,Upéameke,"Ein Verheyratheter, Ehemann",368,upeameke,False,False,none,False
+RHD-IATT-000842,RHD-S1809-01440,Verhüllen,348,RHD-S1809-02188,1,Polé,Bedecken,364,pole,False,False,none,False
+RHD-IATT-000843,RHD-S1809-01441,Verlaufen,348,RHD-S1809-02324,1,Talí,Verkaufen,366,tali,False,False,none,False
+RHD-IATT-000844,RHD-S1809-01444,Verlaſſen,348,RHD-S1809-02237,1,Regué,Aufhören,364,regue,False,False,none,False
+RHD-IATT-000845,RHD-S1809-01444,Verlaſſen,348,RHD-S1809-02250,1,Ropá,Verlassen,365,ropa,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000846,RHD-S1809-01450,Vermengen,348,RHD-S1809-01895,1,Hologuá,"Miſchen, Umrühren",358,hologua,False,False,none,False
+RHD-IATT-000847,RHD-S1809-01451,Vernehmen,348,RHD-S1809-01952,1,Kakè,Hören,359,kake,False,False,none,False
+RHD-IATT-000848,RHD-S1809-01453,Verriegeln,348,RHD-S1809-01774,1,Eke,"Zumachen, ſperren, ſchließen",356,eke,True,False,none,False
+RHD-IATT-000849,RHD-S1809-01455,Verſammlung,348,RHD-S1809-02400,1,Tlatólle,Rottungen,367,tlatolle,False,False,none,False
+RHD-IATT-000850,RHD-S1809-01457,Verſchlieſſen,348,RHD-S1809-01774,1,Eke,"Zumachen, ſperren, ſchließen",356,eke,True,False,none,False
+RHD-IATT-000851,RHD-S1809-01457,Verſchlieſſen,348,RHD-S1809-01780,1,Euke,Es iſt zu,356,euke,False,False,none,False
+RHD-IATT-000852,RHD-S1809-01458,Verſchlingen,348,RHD-S1809-01816,1,Guaguá,"Schlingen, schlucken",357,guagua,False,False,none,False
+RHD-IATT-000853,RHD-S1809-01461,Verſperren,348,RHD-S1809-01774,1,Eke,"Zumachen, ſperren, ſchließen",356,eke,True,False,none,False
+RHD-IATT-000854,RHD-S1809-01464,Verſtorben,348,RHD-S1809-02036,1,Mukúameke,Todt,361,mukuameke,False,False,none,False
+RHD-IATT-000855,RHD-S1809-01466,Verſuchen,348,RHD-S1809-02262,1,Satuje,Anfechten,365,satuje,False,False,none,False
+RHD-IATT-000856,RHD-S1809-01467,Verſucher,348,RHD-S1809-02261,1,Satiameke,Anfechter,365,satiameke,False,False,none,False
+RHD-IATT-000857,RHD-S1809-01470,Verwandter,348,RHD-S1809-02357,1,Tehimá,Blutsfreund,366,tehima,False,False,none,False
+RHD-IATT-000858,RHD-S1809-01470,Verwandter,348,RHD-S1809-02359,1,Tehiméameke,Verwandter,366,tehimeameke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000859,RHD-S1809-01471,Verweilen,348,RHD-S1809-02203,1,Pugué,Warten,364,pugue,False,False,none,False
+RHD-IATT-000860,RHD-S1809-01472,Verwerfen,348,RHD-S1809-02413,1,Tscháa,Wegwerfen,367,tschaa,False,False,none,False
+RHD-IATT-000861,RHD-S1809-01475,Verzehren,348,RHD-S1809-02266,1,Schuguá,Verzehren,365,schugua,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000862,RHD-S1809-01477,Verziehen,348,RHD-S1809-02203,1,Pugué,Warten,364,pugue,False,False,none,False
+RHD-IATT-000863,RHD-S1809-01478,Vieh,348,RHD-S1809-01691,1,Bucú,iſt der allgemeine Name aller vierfüßigen zahmen Thiere,355,bucu,False,False,none,False
+RHD-IATT-000864,RHD-S1809-01480,Viel,348,RHD-S1809-01775,1,Eki,ſ,356,eki,True,False,none,False
+RHD-IATT-000865,RHD-S1809-01480,Viel,348,RHD-S1809-01776,1,Ekipi,Nicht viel,356,ekipi,False,True,german_headword_gloss_containment,False
+RHD-IATT-000866,RHD-S1809-01480,Viel,348,RHD-S1809-01781,1,Ekítschipí,Sehr wenig,356,ekitschipi,False,False,none,False
+RHD-IATT-000867,RHD-S1809-01480,Viel,348,RHD-S1809-01927,1,Eki,Beißen,359,eki,True,False,none,False
+RHD-IATT-000868,RHD-S1809-01480,Viel,348,RHD-S1809-02075,1,Naligué,"Haben, besitzen",362,naligue,False,False,none,False
+RHD-IATT-000869,RHD-S1809-01480,Viel,348,RHD-S1809-02492,1,Vuechcá,Viel,368,vuechca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000870,RHD-S1809-01480,Viel,348,RHD-S1809-02493,1,Vuechcabé,Mehr,368,vuechcabe,False,False,none,False
+RHD-IATT-000871,RHD-S1809-01481,Vielleicht,348,RHD-S1809-01823,1,Gualéke,"Vielleicht, Etwan",357,gualeke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000872,RHD-S1809-01482,Vier,348,RHD-S1809-00051,1,Pamivalíki,Jahr,363,pamivaliki,False,False,none,False
+RHD-IATT-000873,RHD-S1809-01482,Vier,348,RHD-S1809-02096,1,Naguóco,Vier,362,naguoco,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000874,RHD-S1809-01486,Vierteljährig,349,RHD-S1809-01663,1,Baicá,Drey,354,baica,False,False,none,False
+RHD-IATT-000875,RHD-S1809-01487,Vierter,349,RHD-S1809-02097,1,Navóaje,Vierter,362,navoaje,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000876,RHD-S1809-01488,Vierzehn,349,RHD-S1809-01652,1,Amoba,Mehr,353,amoba,False,False,none,False
+RHD-IATT-000877,RHD-S1809-01488,Vierzehn,349,RHD-S1809-01826,1,Guaminá,Weiter fort,357,guamina,False,False,none,False
+RHD-IATT-000878,RHD-S1809-01488,Vierzehn,349,RHD-S1809-02096,1,Naguóco,Vier,362,naguoco,False,False,none,False
+RHD-IATT-000879,RHD-S1809-01489,Vierzehnmal,349,RHD-S1809-01652,1,Amoba,Mehr,353,amoba,False,False,none,False
+RHD-IATT-000880,RHD-S1809-01489,Vierzehnmal,349,RHD-S1809-02096,1,Naguóco,Vier,362,naguoco,False,False,none,False
+RHD-IATT-000881,RHD-S1809-01492,Vogel,349,RHD-S1809-01800,1,Galándria,s,356,galandria,False,False,none,False
+RHD-IATT-000882,RHD-S1809-01496,Voll,349,RHD-S1809-02062,1,Naguábahí,Sich voll trinken,362,naguabahi,False,True,german_headword_gloss_containment,False
+RHD-IATT-000883,RHD-S1809-01497,Vollenden,349,RHD-S1809-01704,1,Cajena,"Vollenden, verfertigen, ausmachen",355,cajena,False,True,german_headword_gloss_containment,False
+RHD-IATT-000884,RHD-S1809-01499,Vor,349,RHD-S1809-01680,1,Batáni,In Gegenwart,354,batani,False,False,none,False
+RHD-IATT-000885,RHD-S1809-01499,Vor,349,RHD-S1809-01855,1,Guiki,Annehmen,357,guiki,False,False,none,False
+RHD-IATT-000886,RHD-S1809-01500,Vorangehen,349,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000887,RHD-S1809-01503,Vorgeſtern,349,RHD-S1809-01828,1,Guanoguí,Vorgestern,357,guanogui,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000888,RHD-S1809-01504,Vorkommen,349,RHD-S1809-02061,1,Naguá,Kommen,362,nagua,False,False,none,False
+RHD-IATT-000889,RHD-S1809-01505,Vorlängst,349,RHD-S1809-01969,1,Kiaca,Vor Zeiten,359,kiaca,False,False,none,False
+RHD-IATT-000890,RHD-S1809-01506,Vorſchicken,349,RHD-S1809-01901,1,Hulá,"Schicken, senden",358,hula,False,False,none,False
+RHD-IATT-000891,RHD-S1809-01508,Wachen,349,RHD-S1809-02110,1,Neſſé,Bewahren,362,nesse,False,False,none,False
+RHD-IATT-000892,RHD-S1809-01509,Wächter,349,RHD-S1809-02111,1,Neſſéameke,Hüter,362,nesseameke,False,False,none,False
+RHD-IATT-000893,RHD-S1809-01510,Wachtel,349,RHD-S1809-02460,1,Tselé,Tag,368,tsele,False,False,none,False
+RHD-IATT-000894,RHD-S1809-01512,Wahnſinnig ſeyn,349,RHD-S1809-01995,1,Loguí,Rasen,360,logui,False,False,none,False
+RHD-IATT-000895,RHD-S1809-01513,Wahrhaftig,349,RHD-S1809-01853,1,Guéva,"Fürwahr, s",357,gueva,False,False,none,False
+RHD-IATT-000896,RHD-S1809-01515,Für wahr halten,349,RHD-S1809-02186,1,Pitſchigé,"Glauben, für wahr halten",364,pitschige,False,True,german_headword_gloss_containment,False
+RHD-IATT-000897,RHD-S1809-01517,Wandern,349,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000898,RHD-S1809-01520,Warten,350,RHD-S1809-02203,1,Pugué,Warten,364,pugue,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000899,RHD-S1809-01520,Warten,350,RHD-S1809-02482,1,Uilí,Stehen bleiben,368,uili,False,False,none,False
+RHD-IATT-000900,RHD-S1809-01523,Waſſer,350,RHD-S1809-00055,1,Pauguiki,Waſſer,363,pauguiki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000901,RHD-S1809-01523,Waſſer,350,RHD-S1809-02149,1,Pabáhi,Schöpfen,363,pabahi,False,False,none,False
+RHD-IATT-000902,RHD-S1809-01525,Weben,350,RHD-S1809-01958,1,Kemáraje,Weben,359,kemaraje,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000903,RHD-S1809-01527,Weder,350,RHD-S1809-02402,1,Tſchigó,Noch,367,tschigo,False,False,none,False
+RHD-IATT-000904,RHD-S1809-01528,Weg,350,RHD-S1809-02199,1,Poveke,"Steig, gebahnter Weg",364,poveke,False,False,none,False
+RHD-IATT-000905,RHD-S1809-01529,Wegen,350,RHD-S1809-02229,1,Ráje,"oder táje, s",364,raje,False,False,none,False
+RHD-IATT-000906,RHD-S1809-01529,Wegen,350,RHD-S1809-02229,2,táje,"oder táje, s",364,taje,False,False,none,False
+RHD-IATT-000907,RHD-S1809-01529,Wegen,350,RHD-S1809-02316,1,Táje,"oder ráje, ſ",366,taje,False,False,none,False
+RHD-IATT-000908,RHD-S1809-01530,Wegnehmen,350,RHD-S1809-01933,1,Itschiguá,Stehlen,359,itschigua,False,False,none,False
+RHD-IATT-000909,RHD-S1809-01530,Wegnehmen,350,RHD-S1809-02416,1,Tschapi,Nehmen,367,tschapi,False,False,none,False
+RHD-IATT-000910,RHD-S1809-01531,Weich ſeyn,350,RHD-S1809-01998,1,Lomísimí,Es wird weich,360,lomisimi,False,False,none,False
+RHD-IATT-000911,RHD-S1809-01534,Weib,350,RHD-S1809-01843,1,Guelámeke,altes Weib,357,guelameke,False,True,german_headword_gloss_containment,False
+RHD-IATT-000912,RHD-S1809-01534,Weib,350,RHD-S1809-02027,1,Mukí,Weibsbild,361,muki,False,False,none,False
+RHD-IATT-000913,RHD-S1809-01534,Weib,350,RHD-S1809-02029,1,Muki,"guguéke, Jungfrau",361,muki,False,False,none,False
+RHD-IATT-000914,RHD-S1809-01534,Weib,350,RHD-S1809-02491,1,Upi,Eheweib,368,upi,True,False,none,False
+RHD-IATT-000915,RHD-S1809-01536,Weihrauch,350,RHD-S1809-02015,1,Molé,Weihrauch,361,mole,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000916,RHD-S1809-01536,Weihrauch,350,RHD-S1809-02016,1,Moléké,Weihrauch,361,moleke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000917,RHD-S1809-01537,Weinen,350,RHD-S1809-02072,1,Nalagá,Weinen,362,nalaga,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000918,RHD-S1809-01538,Weiß,350,RHD-S1809-02404,1,Toſácameke,Weiß,367,tosacameke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000919,RHD-S1809-01539,Weit,350,RHD-S1809-01825,1,Guamí,"Dort, weit, s",357,guami,False,True,german_headword_gloss_containment,False
+RHD-IATT-000920,RHD-S1809-01539,Weit,350,RHD-S1809-02010,1,Mechcá,entlegen,361,mechca,False,False,none,False
+RHD-IATT-000921,RHD-S1809-01540,Weiter,350,RHD-S1809-01826,1,Guaminá,Weiter fort,357,guamina,False,True,german_headword_gloss_containment,False
+RHD-IATT-000922,RHD-S1809-01541,Waizen,350,RHD-S1809-01769,1,Cuviruſi,ſ,356,cuvirusi,False,False,none,False
+RHD-IATT-000923,RHD-S1809-01541,Waizen,350,RHD-S1809-01790,1,Eskíate,Ist eine vom türkischen Waizengries dünn eingekochte Suppe,356,eskiate,False,False,none,False
+RHD-IATT-000924,RHD-S1809-01541,Waizen,350,RHD-S1809-01976,1,Kiolíki,Gekochte dünne Suppe von türkischem Weitzengries,360,kioliki,False,False,none,False
+RHD-IATT-000925,RHD-S1809-01543,Wenig,350,RHD-S1809-01781,1,Ekítschipí,Sehr wenig,356,ekitschipi,False,True,german_headword_gloss_containment,False
+RHD-IATT-000926,RHD-S1809-01543,Wenig,350,RHD-S1809-02223,1,Rachpé,Wenig,364,rachpe,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000927,RHD-S1809-01543,Wenig,350,RHD-S1809-02312,1,Tachpé,Wenig,366,tachpe,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000928,RHD-S1809-01544,Werfen,350,RHD-S1809-02412,1,Tschá,Krätze,367,tscha,False,False,none,False
+RHD-IATT-000929,RHD-S1809-01546,Widder,350,RHD-S1809-01945,1,Jumarúgameke,Vollkommen,359,jumarugameke,False,False,none,False
+RHD-IATT-000930,RHD-S1809-01546,Widder,350,RHD-S1809-02196,1,Pouguáca,"Schaar, Lamm, Schöpſe",364,pouguaca,False,False,none,False
+RHD-IATT-000931,RHD-S1809-01548,Wie immer,351,RHD-S1809-01989,1,Lála,So ziemlich,360,lala,False,False,none,False
+RHD-IATT-000932,RHD-S1809-01549,Wiederholen,351,RHD-S1809-00046,1,Jolá,Machen,359,jola,False,False,none,False
+RHD-IATT-000933,RHD-S1809-01549,Wiederholen,351,RHD-S1809-01902,1,Húli,s,358,huli,False,False,none,False
+RHD-IATT-000934,RHD-S1809-01549,Wiederholen,351,RHD-S1809-01903,1,Huli,"Ein anderer, anderes",358,huli,False,False,none,False
+RHD-IATT-000935,RHD-S1809-01551,Wind,351,RHD-S1809-01875,1,Heicála,"Luft, Wind",358,heicala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000936,RHD-S1809-01557,Wohnen,351,RHD-S1809-01812,1,Gatiki,"oder gatiki, Wohnen, ſich wo befinden, ſeyn, ſ",357,gatiki,False,True,german_headword_gloss_containment,False
+RHD-IATT-000937,RHD-S1809-01557,Wohnen,351,RHD-S1809-02020,1,Motschí,Wohnen,361,motschi,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000938,RHD-S1809-01562,Wort,351,RHD-S1809-02109,1,Neogála,"Wort, Rede",362,neogala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000939,RHD-S1809-01564,Würfel,351,RHD-S1809-02159,1,Patólle,ſ,363,patolle,False,False,none,False
+RHD-IATT-000940,RHD-S1809-01566,Wollen,351,RHD-S1809-00046,1,Jolá,Machen,359,jola,False,False,none,False
+RHD-IATT-000941,RHD-S1809-01566,Wollen,351,RHD-S1809-01782,1,Elá,"Verlangen, begehren",356,ela,True,False,none,False
+RHD-IATT-000942,RHD-S1809-01566,Wollen,351,RHD-S1809-01921,1,Jelá,Wollen,359,jela,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000943,RHD-S1809-01566,Wollen,351,RHD-S1809-02050,1,Nachkí,Wollen,361,nachki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000944,RHD-S1809-01567,Wunde,351,RHD-S1809-02414,1,Tscháca,Wunde,367,tschaca,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000945,RHD-S1809-01568,Wünſchen,351,RHD-S1809-01782,1,Elá,"Verlangen, begehren",356,ela,True,False,none,False
+RHD-IATT-000946,RHD-S1809-01568,Wünſchen,351,RHD-S1809-02050,1,Nachkí,Wollen,361,nachki,False,False,none,False
+RHD-IATT-000947,RHD-S1809-01571,Wurm,351,RHD-S1809-02257,1,Sáiki,Warm,365,saiki,False,False,none,False
+RHD-IATT-000948,RHD-S1809-01574,Würzen,351,RHD-S1809-01732,1,Coigua,Würzen,355,coigua,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000949,RHD-S1809-01576,Wüten,351,RHD-S1809-01995,1,Loguí,Rasen,360,logui,False,False,none,False
+RHD-IATT-000950,RHD-S1809-01578,Zahl,351,RHD-S1809-02339,1,Taralíki,Zahl,366,taraliki,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000951,RHD-S1809-01579,Zahlbar,351,RHD-S1809-02340,1,Tarálati,Zählbar,366,taralati,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000952,RHD-S1809-01580,Zählen,351,RHD-S1809-02335,1,Tará,Zählen,366,tara,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000953,RHD-S1809-01580,Zählen,351,RHD-S1809-02336,1,Taragameke,Zähler,366,taragameke,False,False,none,False
+RHD-IATT-000954,RHD-S1809-01580,Zählen,351,RHD-S1809-02338,1,Tarámela,"Man ſoll, oder muß zählen",366,taramela,False,True,german_headword_gloss_containment,False
+RHD-IATT-000955,RHD-S1809-01581,Zahm,351,RHD-S1809-02463,1,Veniruje,Zahm machen,368,veniruje,False,True,german_headword_gloss_containment,False
+RHD-IATT-000956,RHD-S1809-01581,Zahm,351,RHD-S1809-02481,1,Veníameke,Zahm,368,veniameke,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000957,RHD-S1809-01582,Zahn,351,RHD-S1809-02227,1,Raméla,Zahn,364,ramela,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000958,RHD-S1809-01585,Zaum,352,RHD-S1809-02378,1,Tenibátſala,Zaum,367,tenibatsala,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000959,RHD-S1809-01586,Zehn,352,RHD-S1809-00051,1,Pamivalíki,Jahr,363,pamivaliki,False,False,none,False
+RHD-IATT-000960,RHD-S1809-01590,Zeit,352,RHD-S1809-01969,1,Kiaca,Vor Zeiten,359,kiaca,False,False,none,False
+RHD-IATT-000961,RHD-S1809-01594,Zerhauen,352,RHD-S1809-02282,1,Siká,"Hauen, zerſchneiden",365,sika,False,False,none,False
+RHD-IATT-000962,RHD-S1809-01594,Zerhauen,352,RHD-S1809-02283,1,Sikirúgameke,Zerhauenes,365,sikirugameke,False,False,none,False
+RHD-IATT-000963,RHD-S1809-01598,Zerſchneiden,352,RHD-S1809-02282,1,Siká,"Hauen, zerſchneiden",365,sika,False,True,german_headword_gloss_containment,False
+RHD-IATT-000964,RHD-S1809-01600,Zeugen,352,RHD-S1809-02331,1,Taná,"oder raná, Gebähren",366,tana,False,False,none,False
+RHD-IATT-000965,RHD-S1809-01606,Ziemlich,352,RHD-S1809-01989,1,Lála,So ziemlich,360,lala,False,True,german_headword_gloss_containment,False
+RHD-IATT-000966,RHD-S1809-01608,Zinn,352,RHD-S1809-01849,1,Guenomi,ſ,357,guenomi,False,False,none,False
+RHD-IATT-000967,RHD-S1809-01611,Zörnen,352,RHD-S1809-00033,1,Ajónoco,zörnen,353,ajonoco,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000968,RHD-S1809-01612,Zornig,352,RHD-S1809-00032,1,Ajónameke,ein Zorniger,353,ajonameke,False,False,none,False
+RHD-IATT-000969,RHD-S1809-01612,Zornig,352,RHD-S1809-01644,1,Ajóruje,zornig machen,353,ajoruje,False,True,german_headword_gloss_containment,False
+RHD-IATT-000970,RHD-S1809-01614,Zugehören,352,RHD-S1809-01914,1,Iché,Dieſer,358,iche,False,False,none,False
+RHD-IATT-000971,RHD-S1809-01617,Zugleich,352,RHD-S1809-01936,1,Jújega,Mitsammen,359,jujega,False,False,none,False
+RHD-IATT-000972,RHD-S1809-01617,Zugleich,352,RHD-S1809-02079,1,Napá,Beysammen,362,napa,False,False,none,False
+RHD-IATT-000973,RHD-S1809-01617,Zugleich,352,RHD-S1809-02082,1,Napé,Nebeneinander,362,nape,False,False,none,False
+RHD-IATT-000974,RHD-S1809-01621,Zunge,352,RHD-S1809-02379,1,Teníla,Zunge,367,tenila,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000975,RHD-S1809-01622,Zurück,352,RHD-S1809-02061,1,Naguá,Kommen,362,nagua,False,False,none,False
+RHD-IATT-000976,RHD-S1809-01622,Zurück,352,RHD-S1809-02284,1,Simi,Gehen,365,simi,False,False,none,False
+RHD-IATT-000977,RHD-S1809-01623,Zuſammen,352,RHD-S1809-02079,1,Napá,Beysammen,362,napa,False,False,none,False
+RHD-IATT-000978,RHD-S1809-01623,Zuſammen,352,RHD-S1809-02082,1,Napé,Nebeneinander,362,nape,False,False,none,False
+RHD-IATT-000979,RHD-S1809-01626,Zuſammengefügt,352,RHD-S1809-02190,1,Potschí,Anfüllen,364,potschi,False,False,none,False
+RHD-IATT-000980,RHD-S1809-01627,Zuſammenhauen,352,RHD-S1809-02282,1,Siká,"Hauen, zerſchneiden",365,sika,False,False,none,False
+RHD-IATT-000981,RHD-S1809-01628,Zuſammengekoppelt,352,RHD-S1809-01877,1,Hereguguí,Zusammenrotten,358,heregugui,False,False,none,False
+RHD-IATT-000982,RHD-S1809-01631,Zuſammenrotten,352,RHD-S1809-01877,1,Hereguguí,Zusammenrotten,358,heregugui,False,True,exact_normalized_german_headword_gloss_match,False
+RHD-IATT-000983,RHD-S1809-01632,Zuſammenweben,352,RHD-S1809-01958,1,Kemáraje,Weben,359,kemaraje,False,False,none,False
+RHD-IATT-000984,RHD-S1809-01633,Zuſchließen,353,RHD-S1809-01774,1,Eke,"Zumachen, ſperren, ſchließen",356,eke,True,False,none,False
+RHD-IATT-000985,RHD-S1809-01635,Zwanzig,353,RHD-S1809-02139,1,Ossá,"oder guossá, Zweymal",363,ossa,False,False,none,False
+RHD-IATT-000986,RHD-S1809-01640,Zwirn,353,RHD-S1809-01858,1,Guitſchila,Haut,357,guitschila,False,False,none,False
+RHD-IATT-000987,RHD-S1809-01642,Zwölfmal,353,RHD-S1809-01652,1,Amoba,Mehr,353,amoba,False,False,none,False
+RHD-IATT-000988,RHD-S1809-01642,Zwölfmal,353,RHD-S1809-01826,1,Guaminá,Weiter fort,357,guamina,False,False,none,False
+RHD-IATT-000989,RHD-S1809-01642,Zwölfmal,353,RHD-S1809-02139,1,Ossá,"oder guossá, Zweymal",363,ossa,False,False,none,False
