@@ -1,0 +1,1800 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_token_aware_units_v1",
+  "generated": "2026-08-13",
+  "count": 137,
+  "human_reviewed": false,
+  "records": [
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "ajonameke",
+      "member_ids": [
+        "RHD-AMEKE-00001"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "bajeameke",
+      "member_ids": [
+        "RHD-AMEKE-00003"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "bucuameke",
+      "member_ids": [
+        "RHD-AMEKE-00009"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cavolameke",
+      "member_ids": [
+        "RHD-AMEKE-00011"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cotschimeameke",
+      "member_ids": [
+        "RHD-AMEKE-00014"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "culeameke",
+      "member_ids": [
+        "RHD-AMEKE-00016"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "culuameke",
+      "member_ids": [
+        "RHD-AMEKE-00017"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cuneameke",
+      "member_ids": [
+        "RHD-AMEKE-00018",
+        "RHD-AMEKE-00059"
+      ],
+      "member_count": 2,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 1,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cusigueameke",
+      "member_ids": [
+        "RHD-AMEKE-00020"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "etschagueameke",
+      "member_ids": [
+        "RHD-AMEKE-00021"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "etschaguoameke",
+      "member_ids": [
+        "RHD-AMEKE-00022"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "guelameke",
+      "member_ids": [
+        "RHD-AMEKE-00028"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "honeameke",
+      "member_ids": [
+        "RHD-AMEKE-00032"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "humeameke",
+      "member_ids": [
+        "RHD-AMEKE-00034"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "igueameke",
+      "member_ids": [
+        "RHD-AMEKE-00036"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "jauguirameke",
+      "member_ids": [
+        "RHD-AMEKE-00039"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "mukuameke",
+      "member_ids": [
+        "RHD-AMEKE-00063"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "nasseameke",
+      "member_ids": [
+        "RHD-AMEKE-00085"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "nesseameke",
+      "member_ids": [
+        "RHD-AMEKE-00067"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "ogueameke",
+      "member_ids": [
+        "RHD-AMEKE-00071"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "oguesameke",
+      "member_ids": [
+        "RHD-AMEKE-00072"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "ossanaguoameke",
+      "member_ids": [
+        "RHD-AMEKE-00073"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "otisherameke",
+      "member_ids": [
+        "RHD-AMEKE-00074"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "pamagueameke",
+      "member_ids": [
+        "RHD-AMEKE-00078"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "peguameke",
+      "member_ids": [
+        "RHD-AMEKE-00081"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "pitschaburameke",
+      "member_ids": [
+        "RHD-AMEKE-00082"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "pugueameke",
+      "member_ids": [
+        "RHD-AMEKE-00087"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "reguameke",
+      "member_ids": [
+        "RHD-AMEKE-00088"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "rolacameke",
+      "member_ids": [
+        "RHD-AMEKE-00091"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "rosacameke",
+      "member_ids": [
+        "RHD-AMEKE-00092"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "saaeameke",
+      "member_ids": [
+        "RHD-AMEKE-00093"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "saateameke",
+      "member_ids": [
+        "RHD-AMEKE-00094"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "sapeameke",
+      "member_ids": [
+        "RHD-AMEKE-00097",
+        "RHD-AMEKE-00112"
+      ],
+      "member_count": 2,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "stacameke",
+      "member_ids": [
+        "RHD-AMEKE-00106"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tameke",
+      "member_ids": [
+        "RHD-AMEKE-00115"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "teculuameke",
+      "member_ids": [
+        "RHD-AMEKE-00119"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tehimeameke",
+      "member_ids": [
+        "RHD-AMEKE-00120"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "thulameke",
+      "member_ids": [
+        "RHD-AMEKE-00126"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tlestatacameke",
+      "member_ids": [
+        "RHD-AMEKE-00127"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tlestataccameke",
+      "member_ids": [
+        "RHD-AMEKE-00128"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tosacameke",
+      "member_ids": [
+        "RHD-AMEKE-00129"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschiperameke",
+      "member_ids": [
+        "RHD-AMEKE-00029",
+        "RHD-AMEKE-00133"
+      ],
+      "member_count": 2,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 1,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschirulameke",
+      "member_ids": [
+        "RHD-AMEKE-00135"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschitulameke",
+      "member_ids": [
+        "RHD-AMEKE-00137"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschucuameke",
+      "member_ids": [
+        "RHD-AMEKE-00138"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschulugeameke",
+      "member_ids": [
+        "RHD-AMEKE-00139"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tsetijolameke",
+      "member_ids": [
+        "RHD-AMEKE-00143"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "uelameke",
+      "member_ids": [
+        "RHD-AMEKE-00145"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "upeameke",
+      "member_ids": [
+        "RHD-AMEKE-00118",
+        "RHD-AMEKE-00146"
+      ],
+      "member_count": 2,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 1,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "bassigameke",
+      "member_ids": [
+        "RHD-AMEKE-00107"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "cusigameke",
+      "member_ids": [
+        "RHD-AMEKE-00019"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "gatigameke",
+      "member_ids": [
+        "RHD-AMEKE-00042"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "haagameke",
+      "member_ids": [
+        "RHD-AMEKE-00030"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "jumamatsigameke",
+      "member_ids": [
+        "RHD-AMEKE-00044"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "jumanamatschigameke",
+      "member_ids": [
+        "RHD-AMEKE-00045"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "kachkagameke",
+      "member_ids": [
+        "RHD-AMEKE-00047"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matichirujegameke",
+      "member_ids": [
+        "RHD-AMEKE-00053"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "member_ids": [
+        "RHD-AMEKE-00054",
+        "RHD-AMEKE-00109"
+      ],
+      "member_count": 2,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschirujegameke",
+      "member_ids": [
+        "RHD-AMEKE-00055"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "repagameke",
+      "member_ids": [
+        "RHD-AMEKE-00089"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 2,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "repagatigameke",
+      "member_ids": [
+        "RHD-AMEKE-00090"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "tamatischigameke",
+      "member_ids": [
+        "RHD-AMEKE-00114"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "taragameke",
+      "member_ids": [
+        "RHD-AMEKE-00117"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "telegatigameke",
+      "member_ids": [
+        "RHD-AMEKE-00122"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "tepagatigameke",
+      "member_ids": [
+        "RHD-AMEKE-00123"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "bassatiameke",
+      "member_ids": [
+        "RHD-AMEKE-00004"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "bassiameke",
+      "member_ids": [
+        "RHD-AMEKE-00005"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "cuguiameke",
+      "member_ids": [
+        "RHD-AMEKE-00015"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "galatsaneliameke",
+      "member_ids": [
+        "RHD-AMEKE-00024"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "ganeliameke",
+      "member_ids": [
+        "RHD-AMEKE-00025"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "lesiameke",
+      "member_ids": [
+        "RHD-AMEKE-00048"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "lessiameke",
+      "member_ids": [
+        "RHD-AMEKE-00049"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "loguiameke",
+      "member_ids": [
+        "RHD-AMEKE-00050"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "motschiameke",
+      "member_ids": [
+        "RHD-AMEKE-00035"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "mukiameke",
+      "member_ids": [
+        "RHD-AMEKE-00060"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "mukiiatiameke",
+      "member_ids": [
+        "RHD-AMEKE-00061"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "mukilatiameke",
+      "member_ids": [
+        "RHD-AMEKE-00110"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "nalsiameke",
+      "member_ids": [
+        "RHD-AMEKE-00065"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "nassiameke",
+      "member_ids": [
+        "RHD-AMEKE-00066"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "pahiameke",
+      "member_ids": [
+        "RHD-AMEKE-00077"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "sakiameke",
+      "member_ids": [
+        "RHD-AMEKE-00095"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "samiameke",
+      "member_ids": [
+        "RHD-AMEKE-00096"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "satiameke",
+      "member_ids": [
+        "RHD-AMEKE-00098"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "schugiameke",
+      "member_ids": [
+        "RHD-AMEKE-00100"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "schuguiameke",
+      "member_ids": [
+        "RHD-AMEKE-00101",
+        "RHD-AMEKE-00113"
+      ],
+      "member_count": 2,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 2,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "seliameke",
+      "member_ids": [
+        "RHD-AMEKE-00102"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "simiameke",
+      "member_ids": [
+        "RHD-AMEKE-00104"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "sriameke",
+      "member_ids": [
+        "RHD-AMEKE-00105"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "tschitschiameke",
+      "member_ids": [
+        "RHD-AMEKE-00136"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "tschutscheliameke",
+      "member_ids": [
+        "RHD-AMEKE-00141"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "uliameke",
+      "member_ids": [
+        "RHD-AMEKE-00121"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "veniameke",
+      "member_ids": [
+        "RHD-AMEKE-00147"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "bassirujameke",
+      "member_ids": [
+        "RHD-AMEKE-00007"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "bassujameke",
+      "member_ids": [
+        "RHD-AMEKE-00008"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "coajameke",
+      "member_ids": [
+        "RHD-AMEKE-00012"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "cocojameke",
+      "member_ids": [
+        "RHD-AMEKE-00013"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "itschiguajameke",
+      "member_ids": [
+        "RHD-AMEKE-00038"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "jolajameke",
+      "member_ids": [
+        "RHD-AMEKE-00040"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "jumajumajameke",
+      "member_ids": [
+        "RHD-AMEKE-00043"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "loguijameke",
+      "member_ids": [
+        "RHD-AMEKE-00051"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mahajameke",
+      "member_ids": [
+        "RHD-AMEKE-00052",
+        "RHD-AMEKE-00108"
+      ],
+      "member_count": 2,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mujajameke",
+      "member_ids": [
+        "RHD-AMEKE-00057"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mujameke",
+      "member_ids": [
+        "RHD-AMEKE-00058"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mukijameke",
+      "member_ids": [
+        "RHD-AMEKE-00062"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "najujameke",
+      "member_ids": [
+        "RHD-AMEKE-00064"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "neteijameke",
+      "member_ids": [
+        "RHD-AMEKE-00068"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "netejameke",
+      "member_ids": [
+        "RHD-AMEKE-00069"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "ogajameke",
+      "member_ids": [
+        "RHD-AMEKE-00070"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "schiojameke",
+      "member_ids": [
+        "RHD-AMEKE-00099"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "tessiguajameke",
+      "member_ids": [
+        "RHD-AMEKE-00125"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "tsainijolajameke",
+      "member_ids": [
+        "RHD-AMEKE-00130"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "tsanijameke",
+      "member_ids": [
+        "RHD-AMEKE-00131"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "tsetijolajameke",
+      "member_ids": [
+        "RHD-AMEKE-00142"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "baicarugameke",
+      "member_ids": [
+        "RHD-AMEKE-00002"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "bassirugameke",
+      "member_ids": [
+        "RHD-AMEKE-00006",
+        "RHD-AMEKE-00023"
+      ],
+      "member_count": 2,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 1,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "bulirugameke",
+      "member_ids": [
+        "RHD-AMEKE-00010"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "gassirugameke",
+      "member_ids": [
+        "RHD-AMEKE-00026"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "guauguerugameke",
+      "member_ids": [
+        "RHD-AMEKE-00027"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "holirugameke",
+      "member_ids": [
+        "RHD-AMEKE-00031"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "hulirugameke",
+      "member_ids": [
+        "RHD-AMEKE-00033"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "ipagatugameke",
+      "member_ids": [
+        "RHD-AMEKE-00037"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "jolarugameke",
+      "member_ids": [
+        "RHD-AMEKE-00041"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "jumarugameke",
+      "member_ids": [
+        "RHD-AMEKE-00046",
+        "RHD-AMEKE-00086"
+      ],
+      "member_count": 2,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 1,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "melirugameke",
+      "member_ids": [
+        "RHD-AMEKE-00056"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pagorugameke",
+      "member_ids": [
+        "RHD-AMEKE-00075"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pagotugameke",
+      "member_ids": [
+        "RHD-AMEKE-00076",
+        "RHD-AMEKE-00111"
+      ],
+      "member_count": 2,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 1,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "parugameke",
+      "member_ids": [
+        "RHD-AMEKE-00079"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pauguirugameke",
+      "member_ids": [
+        "RHD-AMEKE-00080"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "polirugameke",
+      "member_ids": [
+        "RHD-AMEKE-00083"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 2,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "potschirugameke",
+      "member_ids": [
+        "RHD-AMEKE-00084"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "sikirugameke",
+      "member_ids": [
+        "RHD-AMEKE-00103"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": true,
+      "has_de_rar_recovery_member": false,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tanarugameke",
+      "member_ids": [
+        "RHD-AMEKE-00116"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tepulirugameke",
+      "member_ids": [
+        "RHD-AMEKE-00124"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tschapirugameke",
+      "member_ids": [
+        "RHD-AMEKE-00132"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tschipugameke",
+      "member_ids": [
+        "RHD-AMEKE-00134"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tschutarugameke",
+      "member_ids": [
+        "RHD-AMEKE-00140"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 0,
+      "human_reviewed": false
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tutschirugameke",
+      "member_ids": [
+        "RHD-AMEKE-00144"
+      ],
+      "member_count": 1,
+      "has_rar_de_member": false,
+      "has_de_rar_recovery_member": true,
+      "recovered_member_overlap_count": 0,
+      "target_infinitive_shape_proxy_context_count": 1,
+      "human_reviewed": false
+    }
+  ]
+}

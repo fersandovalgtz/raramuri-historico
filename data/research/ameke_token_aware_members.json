@@ -1,0 +1,3733 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_token_aware_analysis_v1",
+  "generated": "2026-08-13",
+  "count": 147,
+  "human_reviewed": false,
+  "records": [
+    {
+      "member_id": "RHD-AMEKE-00001",
+      "graphic_key": "ajonameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "ajonameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        353
+      ],
+      "german_contexts": [
+        "ein Zorniger"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00002",
+      "graphic_key": "baicarugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "baicarugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        354
+      ],
+      "german_contexts": [
+        "dreyfach"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00003",
+      "graphic_key": "bajeameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "bajeameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        354
+      ],
+      "german_contexts": [
+        "der Rufende"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00004",
+      "graphic_key": "bassatiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "bassatiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        347
+      ],
+      "german_contexts": [
+        "Urbar"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00005",
+      "graphic_key": "bassiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "bassiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        352
+      ],
+      "german_contexts": [
+        "Zeitig"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00006",
+      "graphic_key": "bassirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "bassirugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        354
+      ],
+      "german_contexts": [
+        "Gekochtes"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00007",
+      "graphic_key": "bassirujameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "bassirujameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        341
+      ],
+      "german_contexts": [
+        "Sieden"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00008",
+      "graphic_key": "bassujameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "bassujameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        324,
+        341
+      ],
+      "german_contexts": [
+        "Heiß",
+        "Sieden"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00009",
+      "graphic_key": "bucuameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "bucuameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        348
+      ],
+      "german_contexts": [
+        "Viehiſch"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00010",
+      "graphic_key": "bulirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "bulirugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        355
+      ],
+      "german_contexts": [
+        "Gebundenes"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00011",
+      "graphic_key": "cavolameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "cavolameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        355
+      ],
+      "german_contexts": [
+        "oder cavórameke, kugelförmig"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00012",
+      "graphic_key": "coajameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "coajameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        355
+      ],
+      "german_contexts": [
+        "das Eſſen"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00013",
+      "graphic_key": "cocojameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "cocojameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        327,
+        341
+      ],
+      "german_contexts": [
+        "Krank",
+        "Sieh"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00014",
+      "graphic_key": "cotschimeameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "cotschimeameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        355
+      ],
+      "german_contexts": [
+        "Ein Schlafender"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00015",
+      "graphic_key": "cuguiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "cuguiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        356
+      ],
+      "german_contexts": [
+        "Helfer"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00016",
+      "graphic_key": "culeameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "culeameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        356
+      ],
+      "german_contexts": [
+        "Ein Ort, oder Gegend, wo es Holz oder Bäume giebt"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00017",
+      "graphic_key": "culuameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "culuameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        356
+      ],
+      "german_contexts": [
+        "dick, fett, leibig, Schmeerbauch"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00018",
+      "graphic_key": "cuneameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "cuneameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        356
+      ],
+      "german_contexts": [
+        "Verheurathete Weibsperson"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00019",
+      "graphic_key": "cusigameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "cusigameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        325
+      ],
+      "german_contexts": [
+        "Hölzern"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00020",
+      "graphic_key": "cusigueameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "cusigueameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        356
+      ],
+      "german_contexts": [
+        "Der einen Stab oder Stecken hat, ſ"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00021",
+      "graphic_key": "etschagueameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "etschagueameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        307
+      ],
+      "german_contexts": [
+        "Bärtig"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00022",
+      "graphic_key": "etschaguoameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "etschaguoameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        356
+      ],
+      "german_contexts": [
+        "Der einen Bart hat, s"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00023",
+      "graphic_key": "gabassirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "bassirugameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": true,
+      "facsimile_unit_decision": "machine_concatenation_rejected_final_token_overlaps_direct_rar_de_bassirugameke",
+      "printed_pages": [
+        326
+      ],
+      "german_contexts": [
+        "Kochen"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00024",
+      "graphic_key": "galatsaneliameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "galatsaneliameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        320
+      ],
+      "german_contexts": [
+        "Geſegnet"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00025",
+      "graphic_key": "ganeliameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "ganeliameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        357
+      ],
+      "german_contexts": [
+        "Der geſund iſt, dem es gut geht"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00026",
+      "graphic_key": "gassirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "gassirugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        338
+      ],
+      "german_contexts": [
+        "Scherben"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00027",
+      "graphic_key": "guauguerugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "guauguerugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        320
+      ],
+      "german_contexts": [
+        "Gebraten"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00028",
+      "graphic_key": "guelameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "guelameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        357
+      ],
+      "german_contexts": [
+        "altes Weib"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00029",
+      "graphic_key": "guenomi tschiperameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tschiperameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": true,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        309
+      ],
+      "german_contexts": [
+        "Blech"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00030",
+      "graphic_key": "haagameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "haagameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        357
+      ],
+      "german_contexts": [
+        "Belebt"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00031",
+      "graphic_key": "holirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "holirugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        350
+      ],
+      "german_contexts": [
+        "Waizen"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00032",
+      "graphic_key": "honeameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "honeameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        350
+      ],
+      "german_contexts": [
+        "Waizen"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00033",
+      "graphic_key": "hulirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "hulirugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        301
+      ],
+      "german_contexts": [
+        "Abſchicken"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00034",
+      "graphic_key": "humeameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "humeameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        358
+      ],
+      "german_contexts": [
+        "Flüchtling"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00035",
+      "graphic_key": "ibe motschiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "motschiameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        313
+      ],
+      "german_contexts": [
+        "Eingebohrner"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00036",
+      "graphic_key": "igueameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "igueameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        359
+      ],
+      "german_contexts": [
+        "Ein Starker, der Kräfte hat"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00037",
+      "graphic_key": "ipagatugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "ipagatugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        321
+      ],
+      "german_contexts": [
+        "Getauft"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00038",
+      "graphic_key": "itschiguajameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "itschiguajameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        359
+      ],
+      "german_contexts": [
+        "Dieb"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00039",
+      "graphic_key": "jauguirameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "jauguirameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        346
+      ],
+      "german_contexts": [
+        "Tänzer"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00040",
+      "graphic_key": "jolajameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "jolajameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        346
+      ],
+      "german_contexts": [
+        "Thun"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00041",
+      "graphic_key": "jolarugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "jolarugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        330,
+        346
+      ],
+      "german_contexts": [
+        "Machen",
+        "Thun"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00042",
+      "graphic_key": "juma guetsi gatigameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "gatigameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        359
+      ],
+      "german_contexts": [
+        "Allgegenwärtig"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00043",
+      "graphic_key": "jumajumajameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "jumajumajameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        359
+      ],
+      "german_contexts": [
+        "Allmächtig"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00044",
+      "graphic_key": "jumamatsigameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "jumamatsigameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        301
+      ],
+      "german_contexts": [
+        "Allwiſſend"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00045",
+      "graphic_key": "jumanamatschigameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "jumanamatschigameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        359
+      ],
+      "german_contexts": [
+        "Allwissend"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00046",
+      "graphic_key": "jumarugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "jumarugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        359
+      ],
+      "german_contexts": [
+        "Vollkommen"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00047",
+      "graphic_key": "kachkagameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "kachkagameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        359
+      ],
+      "german_contexts": [
+        "Süß"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00048",
+      "graphic_key": "lesiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "lesiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        315
+      ],
+      "german_contexts": [
+        "Ermüden"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00049",
+      "graphic_key": "lessiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "lessiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        360
+      ],
+      "german_contexts": [
+        "Müde, matt"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00050",
+      "graphic_key": "loguiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "loguiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        336,
+        347,
+        349,
+        351
+      ],
+      "german_contexts": [
+        "Raſen",
+        "Unſinnig",
+        "Wahnſinnig",
+        "Wüthig"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00051",
+      "graphic_key": "loguijameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "loguijameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        360
+      ],
+      "german_contexts": [
+        "Raſend"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00052",
+      "graphic_key": "mahajameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "mahajameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        319
+      ],
+      "german_contexts": [
+        "Furchtſam"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00053",
+      "graphic_key": "matichirujegameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "matichirujegameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        340
+      ],
+      "german_contexts": [
+        "Schüler"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00054",
+      "graphic_key": "matschigameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "matschigameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        309,
+        315,
+        320,
+        326,
+        348
+      ],
+      "german_contexts": [
+        "Bewußt",
+        "Erfahren",
+        "Gelehrt",
+        "Klug",
+        "Verſtändig"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00055",
+      "graphic_key": "matschirujegameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "matschirujegameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        329
+      ],
+      "german_contexts": [
+        "Lehrling"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00056",
+      "graphic_key": "melirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "melirugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        361
+      ],
+      "german_contexts": [
+        "Geschlachtet"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00057",
+      "graphic_key": "mujajameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "mujajameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        338
+      ],
+      "german_contexts": [
+        "Roſt",
+        "Roſtig"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00058",
+      "graphic_key": "mujameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "mujameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        347
+      ],
+      "german_contexts": [
+        "Verfault"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00059",
+      "graphic_key": "muki cuneameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "cuneameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": true,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        313
+      ],
+      "german_contexts": [
+        "Eheweib"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00060",
+      "graphic_key": "mukiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "mukiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        313
+      ],
+      "german_contexts": [
+        "Ehemann"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00061",
+      "graphic_key": "mukiiatiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "mukiiatiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        361
+      ],
+      "german_contexts": [
+        "Sterblich"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00062",
+      "graphic_key": "mukijameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "mukijameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        361
+      ],
+      "german_contexts": [
+        "oder beſſer upiameke"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00063",
+      "graphic_key": "mukuameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "mukuameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        361
+      ],
+      "german_contexts": [
+        "Todt"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00064",
+      "graphic_key": "najujameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "najujameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        362
+      ],
+      "german_contexts": [
+        "Ein Kranker"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00065",
+      "graphic_key": "nalsiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "nalsiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        342,
+        346
+      ],
+      "german_contexts": [
+        "Sorglos",
+        "Trag"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00066",
+      "graphic_key": "nassiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "nassiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        316
+      ],
+      "german_contexts": [
+        "Faul"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00067",
+      "graphic_key": "nesseameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "nesseameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        362
+      ],
+      "german_contexts": [
+        "Hüter"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00068",
+      "graphic_key": "neteijameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "neteijameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        362
+      ],
+      "german_contexts": [
+        "Schöpfer"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00069",
+      "graphic_key": "netejameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "netejameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        315
+      ],
+      "german_contexts": [
+        "Erſchaffer"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00070",
+      "graphic_key": "ogajameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "ogajameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        324
+      ],
+      "german_contexts": [
+        "Heilend"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00071",
+      "graphic_key": "ogueameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "ogueameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        304
+      ],
+      "german_contexts": [
+        "Arzney"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00072",
+      "graphic_key": "oguesameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "oguesameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        325
+      ],
+      "german_contexts": [
+        "Hülfsmittel"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00073",
+      "graphic_key": "ossanaguoameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "ossanaguoameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        363
+      ],
+      "german_contexts": [
+        "Der Achte"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00074",
+      "graphic_key": "otisherameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "otisherameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        363
+      ],
+      "german_contexts": [
+        "Ein alter Mann"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00075",
+      "graphic_key": "pagorugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "pagorugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        301,
+        321
+      ],
+      "german_contexts": [
+        "Abwaſchen",
+        "Getauft"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00076",
+      "graphic_key": "pagotugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "pagotugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        363
+      ],
+      "german_contexts": [
+        "Ein Getaufter"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00077",
+      "graphic_key": "pahiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "pahiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        338,
+        346
+      ],
+      "german_contexts": [
+        "Saufer",
+        "Trinker"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00078",
+      "graphic_key": "pamagueameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "pamagueameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        363
+      ],
+      "german_contexts": [
+        "Grün"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00079",
+      "graphic_key": "parugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "parugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        363
+      ],
+      "german_contexts": [
+        "Fortgetragenes"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00080",
+      "graphic_key": "pauguirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "pauguirugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        350
+      ],
+      "german_contexts": [
+        "Wäſſerig"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00081",
+      "graphic_key": "peguameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "peguameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        316,
+        323,
+        347
+      ],
+      "german_contexts": [
+        "Feſt",
+        "Hart",
+        "Verhärtet"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00082",
+      "graphic_key": "pitschaburameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "pitschaburameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        364
+      ],
+      "german_contexts": [
+        "Verschnitten"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00083",
+      "graphic_key": "polirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "polirugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        308,
+        312
+      ],
+      "german_contexts": [
+        "Bedecken",
+        "Decken"
+      ],
+      "target_infinitive_shape_proxy_count": 2,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00084",
+      "graphic_key": "potschirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "potschirugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        364
+      ],
+      "german_contexts": [
+        "Schwanger"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00085",
+      "graphic_key": "pougua nasseameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "nasseameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        338
+      ],
+      "german_contexts": [
+        "Schafhirt"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00086",
+      "graphic_key": "pouguaca jumarugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "jumarugameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": true,
+      "facsimile_unit_decision": "multiword_expression_final_token_overlaps_direct_rar_de_jumarugameke",
+      "printed_pages": [
+        350
+      ],
+      "german_contexts": [
+        "Widder"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00087",
+      "graphic_key": "pugueameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "pugueameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        350
+      ],
+      "german_contexts": [
+        "Warten"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00088",
+      "graphic_key": "reguameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "reguameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        308
+      ],
+      "german_contexts": [
+        "Benennt"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00089",
+      "graphic_key": "repagameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "repagameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        309,
+        322,
+        330
+      ],
+      "german_contexts": [
+        "Blitzen",
+        "Glänzend",
+        "Leuchten",
+        "Leuchtend"
+      ],
+      "target_infinitive_shape_proxy_count": 2,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00090",
+      "graphic_key": "repagatigameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "repagatigameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        334
+      ],
+      "german_contexts": [
+        "Oberer"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00091",
+      "graphic_key": "rolacameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "rolacameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        350
+      ],
+      "german_contexts": [
+        "Weiß"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00092",
+      "graphic_key": "rosacameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "rosacameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        365
+      ],
+      "german_contexts": [
+        "oder toſácameke"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00093",
+      "graphic_key": "saaeameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "saaeameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        338
+      ],
+      "german_contexts": [
+        "Sandig"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00094",
+      "graphic_key": "saateameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "saateameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        365
+      ],
+      "german_contexts": [
+        "Sandig"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00095",
+      "graphic_key": "sakiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "sakiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        313
+      ],
+      "german_contexts": [
+        "Dürr"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00096",
+      "graphic_key": "samiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "samiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        365
+      ],
+      "german_contexts": [
+        "Feucht"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00097",
+      "graphic_key": "sapeameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "sapeameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        318
+      ],
+      "german_contexts": [
+        "Fleiſchig"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00098",
+      "graphic_key": "satiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "satiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        365
+      ],
+      "german_contexts": [
+        "Anfechter"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00099",
+      "graphic_key": "schiojameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "schiojameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        365
+      ],
+      "german_contexts": [
+        "Blau"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00100",
+      "graphic_key": "schugiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "schugiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        365
+      ],
+      "german_contexts": [
+        "Es ist ausgegangen, hat abgenommen"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00101",
+      "graphic_key": "schuguiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "schuguiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        346,
+        348
+      ],
+      "german_contexts": [
+        "Todtſeyn",
+        "Verzehren",
+        "Verſtorben"
+      ],
+      "target_infinitive_shape_proxy_count": 2,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00102",
+      "graphic_key": "seliameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "seliameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        365
+      ],
+      "german_contexts": [
+        "So nennen ſie ihren Dorfrichter"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00103",
+      "graphic_key": "sikirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "sikirugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        365
+      ],
+      "german_contexts": [
+        "Zerhauenes"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00104",
+      "graphic_key": "simiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "simiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        301
+      ],
+      "german_contexts": [
+        "Abgehen"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00105",
+      "graphic_key": "sriameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "sriameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        338
+      ],
+      "german_contexts": [
+        "Satan"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00106",
+      "graphic_key": "stacameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "stacameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        368
+      ],
+      "german_contexts": [
+        "oder Stácameke"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00107",
+      "graphic_key": "ta bassigameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "bassigameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        347
+      ],
+      "german_contexts": [
+        "Unzeitig"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00108",
+      "graphic_key": "ta mahajameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "mahajameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        347
+      ],
+      "german_contexts": [
+        "Unerſchrocken"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00109",
+      "graphic_key": "ta matschigameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "matschigameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        347
+      ],
+      "german_contexts": [
+        "Unkundig",
+        "Unwiſſend"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00110",
+      "graphic_key": "ta mukilatiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "mukilatiameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        344
+      ],
+      "german_contexts": [
+        "Sterblich"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00111",
+      "graphic_key": "ta pagotugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "pagotugameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": true,
+      "facsimile_unit_decision": "multiword_expression_final_token_overlaps_direct_rar_de_pagotugameke",
+      "printed_pages": [
+        323,
+        347
+      ],
+      "german_contexts": [
+        "Heide",
+        "Ungewaſchen"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00112",
+      "graphic_key": "ta sapeameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "sapeameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        331
+      ],
+      "german_contexts": [
+        "Mager"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00113",
+      "graphic_key": "ta schuguiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "schuguiameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        347
+      ],
+      "german_contexts": [
+        "Unendlich"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00114",
+      "graphic_key": "tamatischigameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tamatischigameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        309
+      ],
+      "german_contexts": [
+        "Blind"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00115",
+      "graphic_key": "tameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "tameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        366
+      ],
+      "german_contexts": [
+        "Wir"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00116",
+      "graphic_key": "tanarugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tanarugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        352
+      ],
+      "german_contexts": [
+        "Zeugen"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00117",
+      "graphic_key": "taragameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "taragameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        366
+      ],
+      "german_contexts": [
+        "Zähler"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00118",
+      "graphic_key": "taslo upeameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "upeameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": true,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        347
+      ],
+      "german_contexts": [
+        "Unbeweibt",
+        "Unverehelicht"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00119",
+      "graphic_key": "teculuameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "teculuameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        366
+      ],
+      "german_contexts": [
+        "Berauſcht"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00120",
+      "graphic_key": "tehimeameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "tehimeameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        366
+      ],
+      "german_contexts": [
+        "Verwandter"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00121",
+      "graphic_key": "tele uliameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "uliameke",
+      "analysis_token_differs_from_member_key": true,
+      "member_is_multiword_expression": true,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        344
+      ],
+      "german_contexts": [
+        "Stein"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00122",
+      "graphic_key": "telegatigameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "telegatigameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        367
+      ],
+      "german_contexts": [
+        "der unten iſt, ſ"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00123",
+      "graphic_key": "tepagatigameke",
+      "exclusive_suffix_class": "gameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "tepagatigameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        367
+      ],
+      "german_contexts": [
+        "ſ"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00124",
+      "graphic_key": "tepulirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tepulirugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        301
+      ],
+      "german_contexts": [
+        "Abhauen"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00125",
+      "graphic_key": "tessiguajameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tessiguajameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        340
+      ],
+      "german_contexts": [
+        "Schwermüthig"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00126",
+      "graphic_key": "thulameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "thulameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        319,
+        326
+      ],
+      "german_contexts": [
+        "Froſtig",
+        "Kalt"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00127",
+      "graphic_key": "tlestatacameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tlestatacameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        338
+      ],
+      "german_contexts": [
+        "Roth"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00128",
+      "graphic_key": "tlestataccameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "tlestataccameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        368
+      ],
+      "german_contexts": [
+        "oder Stácameke"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00129",
+      "graphic_key": "tosacameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "tosacameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        367
+      ],
+      "german_contexts": [
+        "Weiß"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00130",
+      "graphic_key": "tsainijolajameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "tsainijolajameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        367
+      ],
+      "german_contexts": [
+        "Der Böſes thut"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00131",
+      "graphic_key": "tsanijameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tsanijameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        308
+      ],
+      "german_contexts": [
+        "Bejahen"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00132",
+      "graphic_key": "tschapirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tschapirugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        315
+      ],
+      "german_contexts": [
+        "Ergreifen"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00133",
+      "graphic_key": "tschiperameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "tschiperameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        367
+      ],
+      "german_contexts": [
+        "Fein"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00134",
+      "graphic_key": "tschipugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tschipugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        344
+      ],
+      "german_contexts": [
+        "Stinken"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00135",
+      "graphic_key": "tschirulameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "tschirulameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        368
+      ],
+      "german_contexts": [
+        "Rund"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00136",
+      "graphic_key": "tschitschiameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "tschitschiameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        368
+      ],
+      "german_contexts": [
+        "Säugling"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00137",
+      "graphic_key": "tschitulameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tschitulameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        328,
+        338
+      ],
+      "german_contexts": [
+        "Kugelförmig",
+        "Rund"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00138",
+      "graphic_key": "tschucuameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tschucuameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        327
+      ],
+      "german_contexts": [
+        "Kriechen"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00139",
+      "graphic_key": "tschulugeameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "tschulugeameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        368
+      ],
+      "german_contexts": [
+        "Hungrig"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00140",
+      "graphic_key": "tschutarugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tschutarugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        338
+      ],
+      "german_contexts": [
+        "Scharf"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00141",
+      "graphic_key": "tschutscheliameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tschutscheliameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        338
+      ],
+      "german_contexts": [
+        "Salben"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00142",
+      "graphic_key": "tsetijolajameke",
+      "exclusive_suffix_class": "jameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "tsetijolajameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        368
+      ],
+      "german_contexts": [
+        "Uebelthäter"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00143",
+      "graphic_key": "tsetijolameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tsetijolameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        347
+      ],
+      "german_contexts": [
+        "Verbrecher"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00144",
+      "graphic_key": "tutschirugameke",
+      "exclusive_suffix_class": "ugameke",
+      "source_layers": [
+        "DE-RAR-residual-recovery"
+      ],
+      "member_level_provenance": "DE-RAR-recovery",
+      "analysis_token_key": "tutschirugameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": false,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "single_token_confirmed",
+      "printed_pages": [
+        352
+      ],
+      "german_contexts": [
+        "Zerreiben"
+      ],
+      "target_infinitive_shape_proxy_count": 1,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00145",
+      "graphic_key": "uelameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "uelameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        368
+      ],
+      "german_contexts": [
+        "Altes Weib"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00146",
+      "graphic_key": "upeameke",
+      "exclusive_suffix_class": "ameke_other",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "upeameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        368
+      ],
+      "german_contexts": [
+        "Ein Verheyratheter, Ehemann"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    },
+    {
+      "member_id": "RHD-AMEKE-00147",
+      "graphic_key": "veniameke",
+      "exclusive_suffix_class": "iameke",
+      "source_layers": [
+        "RAR-DE"
+      ],
+      "member_level_provenance": "RAR-DE",
+      "analysis_token_key": "veniameke",
+      "analysis_token_differs_from_member_key": false,
+      "member_is_multiword_expression": false,
+      "direct_rar_de_support_for_analysis_token": true,
+      "recovered_member_overlaps_direct_rar_de_token": false,
+      "facsimile_unit_decision": "not_in_ugameke_facsimile_audit",
+      "printed_pages": [
+        368
+      ],
+      "german_contexts": [
+        "Zahm"
+      ],
+      "target_infinitive_shape_proxy_count": 0,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "interpretive_scope": "Token-aware documentary analysis unit only. Multiword expressions remain preserved as expressions; the final-token key is used only to avoid double-counting suffix-bearing strings across provenance."
+    }
+  ]
+}

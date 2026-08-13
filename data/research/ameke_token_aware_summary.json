@@ -1,0 +1,35 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_token_aware_analysis_v1",
+  "generated": "2026-08-13",
+  "member_count": 147,
+  "unique_token_unit_count": 137,
+  "member_counts_by_exclusive_suffix_class": {
+    "ameke_other": 53,
+    "gameke": 17,
+    "iameke": 28,
+    "jameke": 22,
+    "ugameke": 27
+  },
+  "token_unit_counts_by_exclusive_suffix_class": {
+    "ameke_other": 49,
+    "gameke": 16,
+    "iameke": 27,
+    "jameke": 21,
+    "ugameke": 24
+  },
+  "multiword_member_count": 15,
+  "token_differs_from_member_key_count": 16,
+  "recovered_members_overlapping_direct_rar_de_token_count": 6,
+  "ugameke_member_count": 27,
+  "ugameke_unique_token_unit_count": 24,
+  "ugameke_recovered_only_member_count": 18,
+  "ugameke_recovered_members_overlapping_direct_rar_de_token_count": 3,
+  "ugameke_recovered_independent_token_member_count": 15,
+  "ugameke_signal_bearing_recovered_member_count": 14,
+  "ugameke_signal_bearing_independent_token_member_count": 12,
+  "human_reviewed": false,
+  "automatic_morphological_analysis": false,
+  "automatic_morpheme_assignment": false,
+  "interpretive_scope": "Component-aware counting correction for documentary units only; not a linguistic segmentation or morphological analysis."
+}
