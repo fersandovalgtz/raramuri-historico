@@ -1,0 +1,71 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_source_stratified_robustness_v1",
+  "generated": "2026-08-13",
+  "random_seed": 1809,
+  "permutation_iterations": 20000,
+  "strata": {
+    "direct_rar_de_only": {
+      "context_count": 67,
+      "token_unit_count": 67,
+      "context_counts_by_class": {
+        "ameke_other": 31,
+        "gameke": 7,
+        "iameke": 10,
+        "ugameke": 9,
+        "jameke": 10
+      },
+      "participle_counts_by_class": {
+        "ameke_other": 0,
+        "gameke": 1,
+        "iameke": 0,
+        "ugameke": 1,
+        "jameke": 1
+      },
+      "conservative_signal_count": 0,
+      "conservative_signals": []
+    },
+    "de_rar_low_risk_only": {
+      "context_count": 64,
+      "token_unit_count": 48,
+      "context_counts_by_class": {
+        "ameke_other": 15,
+        "gameke": 10,
+        "iameke": 15,
+        "ugameke": 16,
+        "jameke": 8
+      },
+      "participle_counts_by_class": {
+        "ameke_other": 2,
+        "gameke": 3,
+        "iameke": 5,
+        "ugameke": 10,
+        "jameke": 3
+      },
+      "conservative_signal_count": 1,
+      "conservative_signals": [
+        {
+          "stratum": "de_rar_low_risk_only",
+          "exclusive_suffix_class": "ugameke",
+          "outcome": "past_participle_surface_proxy",
+          "target_numerator": 9,
+          "target_denominator": 16,
+          "rest_numerator": 4,
+          "rest_denominator": 48,
+          "target_rate": 0.5625,
+          "rest_rate": 0.083333,
+          "rate_difference": 0.479167,
+          "empirical_two_sided_p": 0.0006,
+          "bh_fdr_q": 0.009,
+          "max_abs_rate_difference_fwer_p": 0.037998,
+          "conservative_signal": true,
+          "human_reviewed": false
+        }
+      ]
+    }
+  },
+  "human_reviewed": false,
+  "automatic_part_of_speech_tagging": false,
+  "automatic_morphological_analysis": false,
+  "interpretive_scope": "Source-stratified robustness of German local-label surface proxies. Separate strata test whether a signal is present in direct RAR-DE documentation and/or low-risk DE-RAR local alignments; no grammatical interpretation is assigned."
+}
