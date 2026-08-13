@@ -61,7 +61,11 @@ def rank_candidate(cohort,x,multiplicity):
         reasons.append('semantic_context_incomplete')
     if (m.get('status') or '').strip().lower()=='transcrito':
         score+=1; reasons.append('modern_record_transcribed')
-    if cohort=='exact' and multiplicity==1 and not r.get('short_form_warning',False) and score>=60:
+    # Tier 1 is reserved for the strongest documentary exact matches: not short
+    # and unique at the exact-key level. Nearby probable alternatives are still
+    # retained and lower the score through multiplicity, but do not erase the
+    # stronger evidentiary status of an exact normalized match.
+    if cohort=='exact' and not r.get('short_form_warning',False) and int(r.get('modern_candidates_for_key') or 1)==1 and score>=55:
         tier=1
     elif cohort=='exact':
         tier=2
