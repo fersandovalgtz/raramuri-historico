@@ -1,0 +1,22 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "affricate_exception_sensitivity_v1",
+  "generated": "2026-08-13",
+  "record_id": "RHD-S1809-02443",
+  "printed_page": 368,
+  "pdf_page": 78,
+  "baseline_diplomatic": "Tſchécemeke",
+  "baseline_environment": "initial <tsch> before e",
+  "baseline_potential_initial_exception_count": 1,
+  "facsimile_recollation_proposal": "Tſchócameke",
+  "facsimile_article_proposal": "Tſchócameke, Schwarz.",
+  "render_evidence": ["Poppler/pdftoppm 400 dpi", "PDFium 300 dpi"],
+  "sensitivity_environment": "initial <tsch> before o",
+  "sensitivity_potential_initial_exception_count": 0,
+  "distribution_interpretation": "Under the facsimile-based proposed reading, all initial <tsch>/<ts> occurrences in the current RAR-DE inventory are compatible with the simple Merrill 2020 §7.5.2 distribution model encoded by the project.",
+  "source_layer_modified": false,
+  "automatic_source_edit": false,
+  "human_reviewed": false,
+  "philologically_verified_by_human": false,
+  "historical_rule_continuity_judgment": "not_performed"
+}
