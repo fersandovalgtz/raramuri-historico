@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Freeze the first 50 open-validation records as the next philological work batch."""
 from pathlib import Path
 import json
 
