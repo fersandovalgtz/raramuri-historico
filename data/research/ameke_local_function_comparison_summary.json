@@ -1,0 +1,149 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_local_german_function_comparison_v1",
+  "generated": "2026-08-13",
+  "random_seed": 1809,
+  "permutation_iterations": 20000,
+  "context_count_total": 174,
+  "direct_rar_de_context_count": 67,
+  "de_rar_local_proposal_context_count": 107,
+  "de_rar_low_risk_context_count": 64,
+  "analyses": {
+    "all_machine_local": {
+      "context_count": 174,
+      "token_unit_count": 137,
+      "token_unit_counts_by_class": {
+        "ameke_other": 49,
+        "gameke": 16,
+        "iameke": 27,
+        "jameke": 21,
+        "ugameke": 24
+      },
+      "functional_proxy_counts": {
+        "multiword_or_ambiguous_proxy": 35,
+        "other_single_word_proxy": 80,
+        "property_surface_proxy": 24,
+        "present_participle_surface_proxy": 16,
+        "past_participle_surface_proxy": 19
+      },
+      "participle_surface_proxy_count": 35,
+      "class_context_counts": {
+        "ameke_other": 58,
+        "gameke": 25,
+        "iameke": 35,
+        "ugameke": 31,
+        "jameke": 25
+      },
+      "class_participle_counts": {
+        "ameke_other": 2,
+        "gameke": 7,
+        "iameke": 6,
+        "ugameke": 14,
+        "jameke": 6
+      },
+      "conservative_signal_count": 2,
+      "conservative_signals": [
+        {
+          "analysis": "all_machine_local",
+          "exclusive_suffix_class": "ugameke",
+          "outcome": "past_participle_surface_proxy",
+          "target_numerator": 13,
+          "target_denominator": 45,
+          "rest_numerator": 6,
+          "rest_denominator": 164,
+          "target_rate": 0.288889,
+          "rest_rate": 0.036585,
+          "rate_difference": 0.252304,
+          "empirical_two_sided_p": 5e-05,
+          "bh_fdr_q": 0.000375,
+          "max_abs_rate_difference_fwer_p": 0.00015,
+          "conservative_signal": true,
+          "human_reviewed": false,
+          "automatic_part_of_speech_tagging": false,
+          "automatic_morphological_analysis": false,
+          "review_rank": 1
+        },
+        {
+          "analysis": "all_machine_local",
+          "exclusive_suffix_class": "ugameke",
+          "outcome": "participle_surface_proxy",
+          "target_numerator": 14,
+          "target_denominator": 45,
+          "rest_numerator": 21,
+          "rest_denominator": 164,
+          "target_rate": 0.311111,
+          "rest_rate": 0.128049,
+          "rate_difference": 0.183062,
+          "empirical_two_sided_p": 0.00245,
+          "bh_fdr_q": 0.009187,
+          "max_abs_rate_difference_fwer_p": 0.026049,
+          "conservative_signal": true,
+          "human_reviewed": false,
+          "automatic_part_of_speech_tagging": false,
+          "automatic_morphological_analysis": false,
+          "review_rank": 2
+        }
+      ]
+    },
+    "conservative_alignment": {
+      "context_count": 131,
+      "token_unit_count": 111,
+      "token_unit_counts_by_class": {
+        "ameke_other": 43,
+        "gameke": 13,
+        "iameke": 20,
+        "jameke": 16,
+        "ugameke": 19
+      },
+      "functional_proxy_counts": {
+        "multiword_or_ambiguous_proxy": 34,
+        "other_single_word_proxy": 55,
+        "property_surface_proxy": 16,
+        "present_participle_surface_proxy": 12,
+        "past_participle_surface_proxy": 14
+      },
+      "participle_surface_proxy_count": 26,
+      "class_context_counts": {
+        "ameke_other": 46,
+        "gameke": 17,
+        "iameke": 25,
+        "ugameke": 25,
+        "jameke": 18
+      },
+      "class_participle_counts": {
+        "ameke_other": 2,
+        "gameke": 4,
+        "iameke": 5,
+        "ugameke": 11,
+        "jameke": 4
+      },
+      "conservative_signal_count": 1,
+      "conservative_signals": [
+        {
+          "analysis": "conservative_alignment",
+          "exclusive_suffix_class": "ugameke",
+          "outcome": "past_participle_surface_proxy",
+          "target_numerator": 10,
+          "target_denominator": 36,
+          "rest_numerator": 4,
+          "rest_denominator": 121,
+          "target_rate": 0.277778,
+          "rest_rate": 0.033058,
+          "rate_difference": 0.24472,
+          "empirical_two_sided_p": 0.0001,
+          "bh_fdr_q": 0.0015,
+          "max_abs_rate_difference_fwer_p": 0.0006,
+          "conservative_signal": true,
+          "human_reviewed": false,
+          "automatic_part_of_speech_tagging": false,
+          "automatic_morphological_analysis": false,
+          "review_rank": 1
+        }
+      ]
+    }
+  },
+  "human_reviewed": false,
+  "automatic_part_of_speech_tagging": false,
+  "automatic_morphological_analysis": false,
+  "interpretive_scope": "German local-label surface comparison across token-aware documentary classes. Participle proxies are conservative orthographic/morphographic heuristics, not POS tags; signals do not establish a Raramuri morpheme or grammatical function."
+}
