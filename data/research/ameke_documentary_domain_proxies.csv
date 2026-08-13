@@ -1,0 +1,175 @@
+member_id,record_id,exclusive_suffix_class,analysis_token_key,source_direction,gloss_evidence_tier,source_verified_german_gloss,machine_parsed_german_context,german_context_for_analysis,functional_surface_proxy,german_documentary_domain_proxies,human_reviewed
+RHD-AMEKE-00001,RHD-S1809-00032,ameke_other,ajonameke,RAR-DE,source_verified_rar_de_article_gloss,ein Zorniger,,ein Zorniger,multiword_or_ambiguous_proxy,state_condition_proxy | human_person_agent_proxy,False
+RHD-AMEKE-00002,RHD-S1809-01664,ugameke,baicarugameke,RAR-DE,source_verified_rar_de_article_gloss,dreyfach,,dreyfach,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00003,RHD-S1809-01666,ameke_other,bajeameke,RAR-DE,source_verified_rar_de_article_gloss,der Rufende,,der Rufende,multiword_or_ambiguous_proxy,human_person_agent_proxy,False
+RHD-AMEKE-00006,RHD-S1809-01678,ugameke,bassirugameke,RAR-DE,source_verified_rar_de_article_gloss,Gekochtes,,Gekochtes,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00010,RHD-S1809-01699,ugameke,bulirugameke,RAR-DE,source_verified_rar_de_article_gloss,Gebundenes,,Gebundenes,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00011,RHD-S1809-01720,ameke_other,cavolameke,RAR-DE,source_verified_rar_de_article_gloss,"oder cavórameke, kugelförmig",,"oder cavórameke, kugelförmig",multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00012,RHD-S1809-01696,jameke,coajameke,RAR-DE,source_verified_rar_de_article_gloss,das Eſſen,,das Eſſen,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00014,RHD-S1809-01747,ameke_other,cotschimeameke,RAR-DE,source_verified_rar_de_article_gloss,Ein Schlafender,,Ein Schlafender,multiword_or_ambiguous_proxy,human_person_agent_proxy,False
+RHD-AMEKE-00015,RHD-S1809-01752,iameke,cuguiameke,RAR-DE,source_verified_rar_de_article_gloss,Helfer,,Helfer,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00016,RHD-S1809-01759,ameke_other,culeameke,RAR-DE,source_verified_rar_de_article_gloss,"Ein Ort, oder Gegend, wo es Holz oder Bäume giebt",,"Ein Ort, oder Gegend, wo es Holz oder Bäume giebt",multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00017,RHD-S1809-01754,ameke_other,culuameke,RAR-DE,source_verified_rar_de_article_gloss,"dick, fett, leibig, Schmeerbauch",,"dick, fett, leibig, Schmeerbauch",multiword_or_ambiguous_proxy,physical_property_proxy,False
+RHD-AMEKE-00018,RHD-S1809-01757,ameke_other,cuneameke,RAR-DE,source_verified_rar_de_article_gloss,Verheurathete Weibsperson,,Verheurathete Weibsperson,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00020,RHD-S1809-01760,ameke_other,cusigueameke,RAR-DE,source_verified_rar_de_article_gloss,"Der einen Stab oder Stecken hat, ſ",,"Der einen Stab oder Stecken hat, ſ",multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00022,RHD-S1809-01778,ameke_other,etschaguoameke,RAR-DE,source_verified_rar_de_article_gloss,"Der einen Bart hat, s",,"Der einen Bart hat, s",multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00025,RHD-S1809-01804,iameke,ganeliameke,RAR-DE,source_verified_rar_de_article_gloss,"Der geſund iſt, dem es gut geht",,"Der geſund iſt, dem es gut geht",multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00028,RHD-S1809-01843,ameke_other,guelameke,RAR-DE,source_verified_rar_de_article_gloss,altes Weib,,altes Weib,multiword_or_ambiguous_proxy,human_person_agent_proxy,False
+RHD-AMEKE-00030,RHD-S1809-01865,gameke,haagameke,RAR-DE,source_verified_rar_de_article_gloss,Belebt,,Belebt,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00034,RHD-S1809-01906,ameke_other,humeameke,RAR-DE,source_verified_rar_de_article_gloss,Flüchtling,,Flüchtling,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00036,RHD-S1809-01923,ameke_other,igueameke,RAR-DE,source_verified_rar_de_article_gloss,"Ein Starker, der Kräfte hat",,"Ein Starker, der Kräfte hat",multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00038,RHD-S1809-01934,jameke,itschiguajameke,RAR-DE,source_verified_rar_de_article_gloss,Dieb,,Dieb,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00042,RHD-S1809-01943,gameke,gatigameke,RAR-DE,source_verified_rar_de_article_gloss,Allgegenwärtig,,Allgegenwärtig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00043,RHD-S1809-01942,jameke,jumajumajameke,RAR-DE,source_verified_rar_de_article_gloss,Allmächtig,,Allmächtig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00045,RHD-S1809-01944,gameke,jumanamatschigameke,RAR-DE,source_verified_rar_de_article_gloss,Allwissend,,Allwissend,present_participle_surface_proxy,state_condition_proxy | process_result_surface_proxy,False
+RHD-AMEKE-00046,RHD-S1809-01945,ugameke,jumarugameke,RAR-DE,source_verified_rar_de_article_gloss,Vollkommen,,Vollkommen,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00047,RHD-S1809-01951,gameke,kachkagameke,RAR-DE,source_verified_rar_de_article_gloss,Süß,,Süß,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00049,RHD-S1809-01992,iameke,lessiameke,RAR-DE,source_verified_rar_de_article_gloss,"Müde, matt",,"Müde, matt",multiword_or_ambiguous_proxy,state_condition_proxy,False
+RHD-AMEKE-00051,RHD-S1809-01996,jameke,loguijameke,RAR-DE,source_verified_rar_de_article_gloss,Raſend,,Raſend,present_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00056,RHD-S1809-02011,ugameke,melirugameke,RAR-DE,source_verified_rar_de_article_gloss,Geschlachtet,,Geschlachtet,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00061,RHD-S1809-02034,iameke,mukiiatiameke,RAR-DE,source_verified_rar_de_article_gloss,Sterblich,,Sterblich,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00062,RHD-S1809-02031,jameke,mukijameke,RAR-DE,source_verified_rar_de_article_gloss,oder beſſer upiameke,,oder beſſer upiameke,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00063,RHD-S1809-02036,ameke_other,mukuameke,RAR-DE,source_verified_rar_de_article_gloss,Todt,,Todt,other_single_word_proxy,state_condition_proxy,False
+RHD-AMEKE-00064,RHD-S1809-02069,jameke,najujameke,RAR-DE,source_verified_rar_de_article_gloss,Ein Kranker,,Ein Kranker,multiword_or_ambiguous_proxy,state_condition_proxy | human_person_agent_proxy,False
+RHD-AMEKE-00067,RHD-S1809-02111,ameke_other,nesseameke,RAR-DE,source_verified_rar_de_article_gloss,Hüter,,Hüter,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00068,RHD-S1809-02112,jameke,neteijameke,RAR-DE,source_verified_rar_de_article_gloss,Schöpfer,,Schöpfer,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00073,RHD-S1809-02143,ameke_other,ossanaguoameke,RAR-DE,source_verified_rar_de_article_gloss,Der Achte,,Der Achte,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00074,RHD-S1809-02145,ameke_other,otisherameke,RAR-DE,source_verified_rar_de_article_gloss,Ein alter Mann,,Ein alter Mann,multiword_or_ambiguous_proxy,human_person_agent_proxy,False
+RHD-AMEKE-00076,RHD-S1809-02152,ugameke,pagotugameke,RAR-DE,source_verified_rar_de_article_gloss,Ein Getaufter,,Ein Getaufter,multiword_or_ambiguous_proxy,human_person_agent_proxy,False
+RHD-AMEKE-00078,RHD-S1809-02154,ameke_other,pamagueameke,RAR-DE,source_verified_rar_de_article_gloss,Grün,,Grün,other_single_word_proxy,color_property_proxy,False
+RHD-AMEKE-00079,RHD-S1809-02157,ugameke,parugameke,RAR-DE,source_verified_rar_de_article_gloss,Fortgetragenes,,Fortgetragenes,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00082,RHD-S1809-02184,ameke_other,pitschaburameke,RAR-DE,source_verified_rar_de_article_gloss,Verschnitten,,Verschnitten,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00084,RHD-S1809-02193,ugameke,potschirugameke,RAR-DE,source_verified_rar_de_article_gloss,Schwanger,,Schwanger,other_single_word_proxy,state_condition_proxy,False
+RHD-AMEKE-00092,RHD-S1809-02251,ameke_other,rosacameke,RAR-DE,source_verified_rar_de_article_gloss,oder toſácameke,,oder toſácameke,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00094,RHD-S1809-02255,ameke_other,saateameke,RAR-DE,source_verified_rar_de_article_gloss,Sandig,,Sandig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00096,RHD-S1809-02258,iameke,samiameke,RAR-DE,source_verified_rar_de_article_gloss,Feucht,,Feucht,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00098,RHD-S1809-02261,iameke,satiameke,RAR-DE,source_verified_rar_de_article_gloss,Anfechter,,Anfechter,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00099,RHD-S1809-02265,jameke,schiojameke,RAR-DE,source_verified_rar_de_article_gloss,Blau,,Blau,other_single_word_proxy,color_property_proxy,False
+RHD-AMEKE-00100,RHD-S1809-02268,iameke,schugiameke,RAR-DE,source_verified_rar_de_article_gloss,"Es ist ausgegangen, hat abgenommen",,"Es ist ausgegangen, hat abgenommen",multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00102,RHD-S1809-02275,iameke,seliameke,RAR-DE,source_verified_rar_de_article_gloss,So nennen ſie ihren Dorfrichter,,So nennen ſie ihren Dorfrichter,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00103,RHD-S1809-02283,ugameke,sikirugameke,RAR-DE,source_verified_rar_de_article_gloss,Zerhauenes,,Zerhauenes,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00106,RHD-S1809-02466,ameke_other,stacameke,RAR-DE,source_verified_rar_de_article_gloss,oder Stácameke,,oder Stácameke,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00115,RHD-S1809-02329,ameke_other,tameke,RAR-DE,source_verified_rar_de_article_gloss,Wir,,Wir,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00117,RHD-S1809-02336,gameke,taragameke,RAR-DE,source_verified_rar_de_article_gloss,Zähler,,Zähler,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00119,RHD-S1809-02353,ameke_other,teculuameke,RAR-DE,source_verified_rar_de_article_gloss,Berauſcht,,Berauſcht,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00120,RHD-S1809-02359,ameke_other,tehimeameke,RAR-DE,source_verified_rar_de_article_gloss,Verwandter,,Verwandter,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00122,RHD-S1809-02367,gameke,telegatigameke,RAR-DE,source_verified_rar_de_article_gloss,"der unten iſt, ſ",,"der unten iſt, ſ",multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00123,RHD-S1809-02383,gameke,tepagatigameke,RAR-DE,source_verified_rar_de_article_gloss,ſ,,ſ,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00128,RHD-S1809-02466,ameke_other,tlestataccameke,RAR-DE,source_verified_rar_de_article_gloss,oder Stácameke,,oder Stácameke,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00129,RHD-S1809-02404,ameke_other,tosacameke,RAR-DE,source_verified_rar_de_article_gloss,Weiß,,Weiß,other_single_word_proxy,color_property_proxy,False
+RHD-AMEKE-00130,RHD-S1809-02410,jameke,tsainijolajameke,RAR-DE,source_verified_rar_de_article_gloss,Der Böſes thut,,Der Böſes thut,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00133,RHD-S1809-02426,ameke_other,tschiperameke,RAR-DE,source_verified_rar_de_article_gloss,Fein,,Fein,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00135,RHD-S1809-02440,ameke_other,tschirulameke,RAR-DE,source_verified_rar_de_article_gloss,Rund,,Rund,other_single_word_proxy,physical_property_proxy,False
+RHD-AMEKE-00136,RHD-S1809-02434,iameke,tschitschiameke,RAR-DE,source_verified_rar_de_article_gloss,Säugling,,Säugling,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00139,RHD-S1809-02453,ameke_other,tschulugeameke,RAR-DE,source_verified_rar_de_article_gloss,Hungrig,,Hungrig,property_surface_proxy,state_condition_proxy,False
+RHD-AMEKE-00142,RHD-S1809-02470,jameke,tsetijolajameke,RAR-DE,source_verified_rar_de_article_gloss,Uebelthäter,,Uebelthäter,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00145,RHD-S1809-02480,ameke_other,uelameke,RAR-DE,source_verified_rar_de_article_gloss,Altes Weib,,Altes Weib,multiword_or_ambiguous_proxy,human_person_agent_proxy,False
+RHD-AMEKE-00146,RHD-S1809-02490,ameke_other,upeameke,RAR-DE,source_verified_rar_de_article_gloss,"Ein Verheyratheter, Ehemann",,"Ein Verheyratheter, Ehemann",multiword_or_ambiguous_proxy,human_person_agent_proxy,False
+RHD-AMEKE-00147,RHD-S1809-02481,iameke,veniameke,RAR-DE,source_verified_rar_de_article_gloss,Zahm,,Zahm,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00104,RHD-S1809-00001,iameke,simiameke,DE-RAR,machine_local_de_rar_low_risk,,Abgehend,Abgehend,present_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00124,RHD-S1809-00003,ugameke,tepulirugameke,DE-RAR,machine_local_de_rar_high_risk,,Abgehauen,Abgehauen,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00075,RHD-S1809-00011,ugameke,pagorugameke,DE-RAR,machine_local_de_rar_low_risk,,Abgewaſchen,Abgewaſchen,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00033,RHD-S1809-00007,ugameke,hulirugameke,DE-RAR,machine_local_de_rar_low_risk,,Abgeſchickt,Abgeſchickt,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00044,RHD-S1809-00073,gameke,jumamatsigameke,DE-RAR,machine_local_de_rar_high_risk,,Allwiſſend,Allwiſſend,present_participle_surface_proxy,state_condition_proxy | process_result_surface_proxy,False
+RHD-AMEKE-00071,RHD-S1809-00133,ameke_other,ogueameke,DE-RAR,machine_local_de_rar_high_risk,,Arzney,Arzney,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00021,RHD-S1809-00178,ameke_other,etschagueameke,DE-RAR,machine_local_de_rar_high_risk,,Bärtig,Bärtig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00083,RHD-S1809-00194,ugameke,polirugameke,DE-RAR,machine_local_de_rar_low_risk,,Bedeckt,Bedeckt,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00131,RHD-S1809-00211,jameke,tsanijameke,DE-RAR,machine_local_de_rar_high_risk,,Bejahend,Bejahend,present_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00088,RHD-S1809-00225,ameke_other,reguameke,DE-RAR,machine_local_de_rar_high_risk,,Benennt,Benennt,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00054,RHD-S1809-00261,gameke,matschigameke,DE-RAR,machine_local_de_rar_high_risk,,Bewußt,Bewußt,other_single_word_proxy,state_condition_proxy,False
+RHD-AMEKE-00029,RHD-S1809-00275,ameke_other,tschiperameke,DE-RAR,machine_local_de_rar_high_risk,,Blech,Blech,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00114,RHD-S1809-00277,gameke,tamatischigameke,DE-RAR,machine_local_de_rar_high_risk,,Blind,Blind,other_single_word_proxy,state_condition_proxy,False
+RHD-AMEKE-00089,RHD-S1809-00278,gameke,repagameke,DE-RAR,machine_local_de_rar_high_risk,,Blitzen,Blitzen,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00083,RHD-S1809-00321,ugameke,polirugameke,DE-RAR,machine_local_de_rar_low_risk,,Gedeckt,Gedeckt,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00095,RHD-S1809-00361,iameke,sakiameke,DE-RAR,machine_local_de_rar_high_risk,,Dürr,Dürr,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00060,RHD-S1809-00375,iameke,mukiameke,DE-RAR,machine_local_de_rar_high_risk,,Upíameke,Upíameke,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00059,RHD-S1809-00378,ameke_other,cuneameke,DE-RAR,machine_local_de_rar_high_risk,,Eheweib,Eheweib,other_single_word_proxy,human_person_agent_proxy,False
+RHD-AMEKE-00035,RHD-S1809-00389,iameke,motschiameke,DE-RAR,machine_local_de_rar_low_risk,,Ibe jaſſameke,Ibe jaſſameke,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00054,RHD-S1809-00429,gameke,matschigameke,DE-RAR,machine_local_de_rar_high_risk,,Erfahren,Erfahren,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00132,RHD-S1809-00431,ugameke,tschapirugameke,DE-RAR,machine_local_de_rar_low_risk,,Ergriffen,Ergriffen,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00048,RHD-S1809-00438,iameke,lesiameke,DE-RAR,machine_local_de_rar_low_risk,,Ermüdet,Ermüdet,past_participle_surface_proxy,state_condition_proxy | process_result_surface_proxy,False
+RHD-AMEKE-00069,RHD-S1809-00443,jameke,netejameke,DE-RAR,machine_local_de_rar_high_risk,,Erſchaffer,Erſchaffer,other_single_word_proxy,human_person_agent_proxy,False
+RHD-AMEKE-00066,RHD-S1809-00473,iameke,nassiameke,DE-RAR,machine_local_de_rar_high_risk,,Faul,Faul,other_single_word_proxy,state_condition_proxy,False
+RHD-AMEKE-00081,RHD-S1809-00490,ameke_other,peguameke,DE-RAR,machine_local_de_rar_high_risk,,Feſt,Feſt,other_single_word_proxy,physical_property_proxy,False
+RHD-AMEKE-00097,RHD-S1809-00512,ameke_other,sapeameke,DE-RAR,machine_local_de_rar_high_risk,,Fleiſchig,Fleiſchig,property_surface_proxy,physical_property_proxy,False
+RHD-AMEKE-00126,RHD-S1809-00543,ameke_other,thulameke,DE-RAR,machine_local_de_rar_high_risk,,Froſtig,Froſtig,property_surface_proxy,physical_property_proxy,False
+RHD-AMEKE-00052,RHD-S1809-00550,jameke,mahajameke,DE-RAR,machine_local_de_rar_high_risk,,Furchtſam,Furchtſam,property_surface_proxy,state_condition_proxy,False
+RHD-AMEKE-00027,RHD-S1809-00573,ugameke,guauguerugameke,DE-RAR,machine_local_de_rar_high_risk,,Gebraten,Gebraten,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00054,RHD-S1809-00590,gameke,matschigameke,DE-RAR,machine_local_de_rar_high_risk,,Gelehrt,Gelehrt,past_participle_surface_proxy,state_condition_proxy | process_result_surface_proxy,False
+RHD-AMEKE-00024,RHD-S1809-00600,iameke,galatsaneliameke,DE-RAR,machine_local_de_rar_high_risk,,Geſegnet,Geſegnet,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00037,RHD-S1809-00607,ugameke,ipagatugameke,DE-RAR,machine_local_de_rar_high_risk,,Sie pflegen auch zu ſagen,Sie pflegen auch zu ſagen,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00075,RHD-S1809-00607,ugameke,pagorugameke,DE-RAR,machine_local_de_rar_high_risk,,Getauft,Getauft,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00089,RHD-S1809-00623,gameke,repagameke,DE-RAR,machine_local_de_rar_high_risk,,Glänzend,Glänzend,present_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00081,RHD-S1809-00662,ameke_other,peguameke,DE-RAR,machine_local_de_rar_low_risk,,Hart,Hart,other_single_word_proxy,physical_property_proxy,False
+RHD-AMEKE-00111,RHD-S1809-00669,ugameke,pagotugameke,DE-RAR,machine_local_de_rar_low_risk,,Heide,Heide,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00070,RHD-S1809-00673,jameke,ogajameke,DE-RAR,machine_local_de_rar_high_risk,,Heilend,Heilend,present_participle_surface_proxy,state_condition_proxy | process_result_surface_proxy,False
+RHD-AMEKE-00008,RHD-S1809-00674,jameke,bassujameke,DE-RAR,machine_local_de_rar_low_risk,,Heiß,Heiß,other_single_word_proxy,physical_property_proxy,False
+RHD-AMEKE-00019,RHD-S1809-00736,gameke,cusigameke,DE-RAR,machine_local_de_rar_low_risk,,Hölzern,Hölzern,property_surface_proxy,physical_property_proxy,False
+RHD-AMEKE-00072,RHD-S1809-00741,ameke_other,oguesameke,DE-RAR,machine_local_de_rar_low_risk,,Arzeney,Arzeney,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00126,RHD-S1809-00770,ameke_other,thulameke,DE-RAR,machine_local_de_rar_low_risk,,Kalt,Kalt,other_single_word_proxy,physical_property_proxy,False
+RHD-AMEKE-00054,RHD-S1809-00799,gameke,matschigameke,DE-RAR,machine_local_de_rar_low_risk,,Klug,Klug,other_single_word_proxy,state_condition_proxy,False
+RHD-AMEKE-00023,RHD-S1809-00805,ugameke,bassirugameke,DE-RAR,machine_local_de_rar_low_risk,,Ausgekocht,Ausgekocht,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00013,RHD-S1809-00826,jameke,cocojameke,DE-RAR,machine_local_de_rar_low_risk,,Krank,Krank,other_single_word_proxy,state_condition_proxy,False
+RHD-AMEKE-00138,RHD-S1809-00833,ameke_other,tschucuameke,DE-RAR,machine_local_de_rar_low_risk,,Kriechend,Kriechend,present_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00137,RHD-S1809-00840,ameke_other,tschitulameke,DE-RAR,machine_local_de_rar_high_risk,,cavorámeke,cavorámeke,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00055,RHD-S1809-00866,gameke,matschirujegameke,DE-RAR,machine_local_de_rar_low_risk,,Lehrling,Lehrling,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00089,RHD-S1809-00879,gameke,repagameke,DE-RAR,machine_local_de_rar_low_risk,,Leuchtend,Leuchtend,present_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00089,RHD-S1809-00880,gameke,repagameke,DE-RAR,machine_local_de_rar_low_risk,,Leuchtend,Leuchtend,present_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00041,RHD-S1809-00895,ugameke,jolarugameke,DE-RAR,machine_local_de_rar_low_risk,,Gemacht,Gemacht,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00112,RHD-S1809-00902,ameke_other,sapeameke,DE-RAR,machine_local_de_rar_high_risk,,Mager,Mager,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00090,RHD-S1809-00985,gameke,repagatigameke,DE-RAR,machine_local_de_rar_low_risk,,Oberer,Oberer,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00050,RHD-S1809-01021,iameke,loguiameke,DE-RAR,machine_local_de_rar_low_risk,,Raſend,Raſend,present_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00127,RHD-S1809-01047,ameke_other,tlestatacameke,DE-RAR,machine_local_de_rar_high_risk,,Roth,Roth,other_single_word_proxy,color_property_proxy,False
+RHD-AMEKE-00057,RHD-S1809-01045,jameke,mujajameke,DE-RAR,machine_local_de_rar_high_risk,,Mujála,Mujála,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00057,RHD-S1809-01046,jameke,mujajameke,DE-RAR,machine_local_de_rar_high_risk,,Roſtig,Roſtig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00137,RHD-S1809-01055,ameke_other,tschitulameke,DE-RAR,machine_local_de_rar_low_risk,,wie ein Kreis,wie ein Kreis,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00141,RHD-S1809-01066,iameke,tschutscheliameke,DE-RAR,machine_local_de_rar_low_risk,,Geſalbt,Geſalbt,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00093,RHD-S1809-01074,ameke_other,saaeameke,DE-RAR,machine_local_de_rar_low_risk,,Sandig,Sandig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00105,RHD-S1809-01076,iameke,sriameke,DE-RAR,machine_local_de_rar_high_risk,,Satan,Satan,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00077,RHD-S1809-01080,iameke,pahiameke,DE-RAR,machine_local_de_rar_low_risk,,Saufer,Saufer,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00085,RHD-S1809-01086,ameke_other,nasseameke,DE-RAR,machine_local_de_rar_high_risk,,Schafhirt,Schafhirt,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00140,RHD-S1809-01092,ugameke,tschutarugameke,DE-RAR,machine_local_de_rar_high_risk,,Scharf,Scharf,other_single_word_proxy,physical_property_proxy,False
+RHD-AMEKE-00026,RHD-S1809-01103,ugameke,gassirugameke,DE-RAR,machine_local_de_rar_high_risk,,Caſſiníki,Caſſiníki,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00125,RHD-S1809-01157,jameke,tessiguajameke,DE-RAR,machine_local_de_rar_high_risk,,Schwermüthig,Schwermüthig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00053,RHD-S1809-01147,gameke,matichirujegameke,DE-RAR,machine_local_de_rar_high_risk,,Schüler,Schüler,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00007,RHD-S1809-01199,jameke,bassirujameke,DE-RAR,machine_local_de_rar_low_risk,,Geſotten,Geſotten,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00008,RHD-S1809-01199,jameke,bassujameke,DE-RAR,machine_local_de_rar_low_risk,,Siedend,Siedend,present_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00013,RHD-S1809-01198,jameke,cocojameke,DE-RAR,machine_local_de_rar_low_risk,,Sieh,Sieh,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00065,RHD-S1809-01216,iameke,nalsiameke,DE-RAR,machine_local_de_rar_low_risk,,Sorglos,Sorglos,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00121,RHD-S1809-01267,iameke,uliameke,DE-RAR,machine_local_de_rar_low_risk,,Steinerne Säule,Steinerne Säule,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00110,RHD-S1809-01277,iameke,mukilatiameke,DE-RAR,machine_local_de_rar_high_risk,,B,B,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00134,RHD-S1809-01281,ugameke,tschipugameke,DE-RAR,machine_local_de_rar_low_risk,,Stinkend,Stinkend,present_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00040,RHD-S1809-01330,jameke,jolajameke,DE-RAR,machine_local_de_rar_low_risk,,Thuend,Thuend,present_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00041,RHD-S1809-01330,ugameke,jolarugameke,DE-RAR,machine_local_de_rar_low_risk,,Gethan,Gethan,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00101,RHD-S1809-01335,iameke,schuguiameke,DE-RAR,machine_local_de_rar_low_risk,,Todtſeyn,Todtſeyn,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00065,RHD-S1809-01340,iameke,nalsiameke,DE-RAR,machine_local_de_rar_high_risk,,Trag,Trag,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00077,RHD-S1809-01347,iameke,pahiameke,DE-RAR,machine_local_de_rar_low_risk,,Trinker,Trinker,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00039,RHD-S1809-01321,ameke_other,jauguirameke,DE-RAR,machine_local_de_rar_low_risk,,Tänzer,Tänzer,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00118,RHD-S1809-01374,ameke_other,upeameke,DE-RAR,machine_local_de_rar_low_risk,,Unbeweibt,Unbeweibt,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00113,RHD-S1809-01375,iameke,schuguiameke,DE-RAR,machine_local_de_rar_low_risk,,Unendlich,Unendlich,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00108,RHD-S1809-01376,jameke,mahajameke,DE-RAR,machine_local_de_rar_low_risk,,Unerſchrocken,Unerſchrocken,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00111,RHD-S1809-01381,ugameke,pagotugameke,DE-RAR,machine_local_de_rar_low_risk,,Ungewaſchen,Ungewaſchen,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00109,RHD-S1809-01384,gameke,matschigameke,DE-RAR,machine_local_de_rar_low_risk,,Unkundig,Unkundig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00118,RHD-S1809-01396,ameke_other,upeameke,DE-RAR,machine_local_de_rar_low_risk,,Unverehelicht,Unverehelicht,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00109,RHD-S1809-01405,gameke,matschigameke,DE-RAR,machine_local_de_rar_low_risk,,Unwiſſend,Unwiſſend,present_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00107,RHD-S1809-01407,gameke,bassigameke,DE-RAR,machine_local_de_rar_low_risk,,Unzeitig,Unzeitig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00050,RHD-S1809-01388,iameke,loguiameke,DE-RAR,machine_local_de_rar_low_risk,,Unſinnig,Unſinnig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00004,RHD-S1809-01408,iameke,bassatiameke,DE-RAR,machine_local_de_rar_low_risk,,das ſich pflügen läßt,das ſich pflügen läßt,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00143,RHD-S1809-01420,ameke_other,tsetijolameke,DE-RAR,machine_local_de_rar_low_risk,,Verbrecher,Verbrecher,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00058,RHD-S1809-01423,jameke,mujameke,DE-RAR,machine_local_de_rar_low_risk,,Verfault,Verfault,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00081,RHD-S1809-01435,ameke_other,peguameke,DE-RAR,machine_local_de_rar_low_risk,,Verhärtet,Verhärtet,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00101,RHD-S1809-01475,iameke,schuguiameke,DE-RAR,machine_local_de_rar_low_risk,,Verzehrt,Verzehrt,past_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00101,RHD-S1809-01464,iameke,schuguiameke,DE-RAR,machine_local_de_rar_high_risk,,Verſtorben,Verſtorben,other_single_word_proxy,state_condition_proxy,False
+RHD-AMEKE-00054,RHD-S1809-01462,gameke,matschigameke,DE-RAR,machine_local_de_rar_low_risk,,Verſtändig,Verſtändig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00009,RHD-S1809-01479,ameke_other,bucuameke,DE-RAR,machine_local_de_rar_low_risk,,Viehiſch,Viehiſch,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00050,RHD-S1809-01511,iameke,loguiameke,DE-RAR,machine_local_de_rar_high_risk,,Wahnſinnig,Wahnſinnig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00031,RHD-S1809-01541,ugameke,holirugameke,DE-RAR,machine_local_de_rar_low_risk,,Nach abgelöſten Körnern,Nach abgelöſten Körnern,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00032,RHD-S1809-01541,ameke_other,honeameke,DE-RAR,machine_local_de_rar_low_risk,,Noch nicht abgekörnt,Noch nicht abgekörnt,multiword_or_ambiguous_proxy,other_or_unclassified,False
+RHD-AMEKE-00087,RHD-S1809-01520,ameke_other,pugueameke,DE-RAR,machine_local_de_rar_low_risk,,Wartend,Wartend,present_participle_surface_proxy,process_result_surface_proxy,False
+RHD-AMEKE-00091,RHD-S1809-01538,ameke_other,rolacameke,DE-RAR,machine_local_de_rar_low_risk,,Weiß,Weiß,other_single_word_proxy,color_property_proxy,False
+RHD-AMEKE-00086,RHD-S1809-01546,ugameke,jumarugameke,DE-RAR,machine_local_de_rar_low_risk,,Widder,Widder,other_single_word_proxy,human_person_agent_proxy,False
+RHD-AMEKE-00080,RHD-S1809-01524,ugameke,pauguirugameke,DE-RAR,machine_local_de_rar_low_risk,,Wäſſerig,Wäſſerig,property_surface_proxy,physical_property_proxy,False
+RHD-AMEKE-00050,RHD-S1809-01577,iameke,loguiameke,DE-RAR,machine_local_de_rar_low_risk,,Wüthig,Wüthig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00005,RHD-S1809-01591,iameke,bassiameke,DE-RAR,machine_local_de_rar_high_risk,,Zeitig,Zeitig,property_surface_proxy,other_or_unclassified,False
+RHD-AMEKE-00144,RHD-S1809-01596,ugameke,tutschirugameke,DE-RAR,machine_local_de_rar_low_risk,,Zerrieben,Zerrieben,other_single_word_proxy,other_or_unclassified,False
+RHD-AMEKE-00116,RHD-S1809-01600,ugameke,tanarugameke,DE-RAR,machine_local_de_rar_low_risk,,Gezeugt,Gezeugt,past_participle_surface_proxy,process_result_surface_proxy,False

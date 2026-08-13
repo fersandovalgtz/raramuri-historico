@@ -1,0 +1,3321 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "count": 174,
+  "human_reviewed": false,
+  "automatic_semantic_classification": false,
+  "records": [
+    {
+      "member_id": "RHD-AMEKE-00001",
+      "record_id": "RHD-S1809-00032",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "ajonameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "ein Zorniger",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "ein Zorniger",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy",
+        "human_person_agent_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00002",
+      "record_id": "RHD-S1809-01664",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "baicarugameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "dreyfach",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "dreyfach",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00003",
+      "record_id": "RHD-S1809-01666",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "bajeameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "der Rufende",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "der Rufende",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "human_person_agent_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00006",
+      "record_id": "RHD-S1809-01678",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "bassirugameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Gekochtes",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Gekochtes",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00010",
+      "record_id": "RHD-S1809-01699",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "bulirugameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Gebundenes",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Gebundenes",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00011",
+      "record_id": "RHD-S1809-01720",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cavolameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "oder cavórameke, kugelförmig",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "oder cavórameke, kugelförmig",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00012",
+      "record_id": "RHD-S1809-01696",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "coajameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "das Eſſen",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "das Eſſen",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00014",
+      "record_id": "RHD-S1809-01747",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cotschimeameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Ein Schlafender",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Ein Schlafender",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "human_person_agent_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00015",
+      "record_id": "RHD-S1809-01752",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "cuguiameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Helfer",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Helfer",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00016",
+      "record_id": "RHD-S1809-01759",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "culeameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Ein Ort, oder Gegend, wo es Holz oder Bäume giebt",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Ein Ort, oder Gegend, wo es Holz oder Bäume giebt",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00017",
+      "record_id": "RHD-S1809-01754",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "culuameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "dick, fett, leibig, Schmeerbauch",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "dick, fett, leibig, Schmeerbauch",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "physical_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00018",
+      "record_id": "RHD-S1809-01757",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cuneameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Verheurathete Weibsperson",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Verheurathete Weibsperson",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00020",
+      "record_id": "RHD-S1809-01760",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cusigueameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Der einen Stab oder Stecken hat, ſ",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Der einen Stab oder Stecken hat, ſ",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00022",
+      "record_id": "RHD-S1809-01778",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "etschaguoameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Der einen Bart hat, s",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Der einen Bart hat, s",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00025",
+      "record_id": "RHD-S1809-01804",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "ganeliameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Der geſund iſt, dem es gut geht",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Der geſund iſt, dem es gut geht",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00028",
+      "record_id": "RHD-S1809-01843",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "guelameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "altes Weib",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "altes Weib",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "human_person_agent_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00030",
+      "record_id": "RHD-S1809-01865",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "haagameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Belebt",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Belebt",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00034",
+      "record_id": "RHD-S1809-01906",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "humeameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Flüchtling",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Flüchtling",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00036",
+      "record_id": "RHD-S1809-01923",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "igueameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Ein Starker, der Kräfte hat",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Ein Starker, der Kräfte hat",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00038",
+      "record_id": "RHD-S1809-01934",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "itschiguajameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Dieb",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Dieb",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00042",
+      "record_id": "RHD-S1809-01943",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "gatigameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Allgegenwärtig",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Allgegenwärtig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00043",
+      "record_id": "RHD-S1809-01942",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "jumajumajameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Allmächtig",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Allmächtig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00045",
+      "record_id": "RHD-S1809-01944",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "jumanamatschigameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Allwissend",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Allwissend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy",
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00046",
+      "record_id": "RHD-S1809-01945",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "jumarugameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Vollkommen",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Vollkommen",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00047",
+      "record_id": "RHD-S1809-01951",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "kachkagameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Süß",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Süß",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00049",
+      "record_id": "RHD-S1809-01992",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "lessiameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Müde, matt",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Müde, matt",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00051",
+      "record_id": "RHD-S1809-01996",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "loguijameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Raſend",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Raſend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00056",
+      "record_id": "RHD-S1809-02011",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "melirugameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Geschlachtet",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Geschlachtet",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00061",
+      "record_id": "RHD-S1809-02034",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "mukiiatiameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Sterblich",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Sterblich",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00062",
+      "record_id": "RHD-S1809-02031",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mukijameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "oder beſſer upiameke",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "oder beſſer upiameke",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00063",
+      "record_id": "RHD-S1809-02036",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "mukuameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Todt",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Todt",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00064",
+      "record_id": "RHD-S1809-02069",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "najujameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Ein Kranker",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Ein Kranker",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy",
+        "human_person_agent_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00067",
+      "record_id": "RHD-S1809-02111",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "nesseameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Hüter",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Hüter",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00068",
+      "record_id": "RHD-S1809-02112",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "neteijameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Schöpfer",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Schöpfer",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00073",
+      "record_id": "RHD-S1809-02143",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "ossanaguoameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Der Achte",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Der Achte",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00074",
+      "record_id": "RHD-S1809-02145",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "otisherameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Ein alter Mann",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Ein alter Mann",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "human_person_agent_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00076",
+      "record_id": "RHD-S1809-02152",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pagotugameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Ein Getaufter",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Ein Getaufter",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "human_person_agent_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00078",
+      "record_id": "RHD-S1809-02154",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "pamagueameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Grün",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Grün",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "color_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00079",
+      "record_id": "RHD-S1809-02157",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "parugameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Fortgetragenes",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Fortgetragenes",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00082",
+      "record_id": "RHD-S1809-02184",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "pitschaburameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Verschnitten",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Verschnitten",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00084",
+      "record_id": "RHD-S1809-02193",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "potschirugameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Schwanger",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Schwanger",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00092",
+      "record_id": "RHD-S1809-02251",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "rosacameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "oder toſácameke",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "oder toſácameke",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00094",
+      "record_id": "RHD-S1809-02255",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "saateameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Sandig",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Sandig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00096",
+      "record_id": "RHD-S1809-02258",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "samiameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Feucht",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Feucht",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00098",
+      "record_id": "RHD-S1809-02261",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "satiameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Anfechter",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Anfechter",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00099",
+      "record_id": "RHD-S1809-02265",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "schiojameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Blau",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Blau",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "color_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00100",
+      "record_id": "RHD-S1809-02268",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "schugiameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Es ist ausgegangen, hat abgenommen",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Es ist ausgegangen, hat abgenommen",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00102",
+      "record_id": "RHD-S1809-02275",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "seliameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "So nennen ſie ihren Dorfrichter",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "So nennen ſie ihren Dorfrichter",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00103",
+      "record_id": "RHD-S1809-02283",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "sikirugameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Zerhauenes",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Zerhauenes",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00106",
+      "record_id": "RHD-S1809-02466",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "stacameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "oder Stácameke",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "oder Stácameke",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00115",
+      "record_id": "RHD-S1809-02329",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Wir",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Wir",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00117",
+      "record_id": "RHD-S1809-02336",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "taragameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Zähler",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Zähler",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00119",
+      "record_id": "RHD-S1809-02353",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "teculuameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Berauſcht",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Berauſcht",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00120",
+      "record_id": "RHD-S1809-02359",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tehimeameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Verwandter",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Verwandter",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00122",
+      "record_id": "RHD-S1809-02367",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "telegatigameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "der unten iſt, ſ",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "der unten iſt, ſ",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00123",
+      "record_id": "RHD-S1809-02383",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "tepagatigameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "ſ",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "ſ",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00128",
+      "record_id": "RHD-S1809-02466",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tlestataccameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "oder Stácameke",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "oder Stácameke",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00129",
+      "record_id": "RHD-S1809-02404",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tosacameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Weiß",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Weiß",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "color_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00130",
+      "record_id": "RHD-S1809-02410",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "tsainijolajameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Der Böſes thut",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Der Böſes thut",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00133",
+      "record_id": "RHD-S1809-02426",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschiperameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Fein",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Fein",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00135",
+      "record_id": "RHD-S1809-02440",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschirulameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Rund",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Rund",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "physical_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00136",
+      "record_id": "RHD-S1809-02434",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "tschitschiameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Säugling",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Säugling",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00139",
+      "record_id": "RHD-S1809-02453",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschulugeameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Hungrig",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Hungrig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00142",
+      "record_id": "RHD-S1809-02470",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "tsetijolajameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Uebelthäter",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Uebelthäter",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00145",
+      "record_id": "RHD-S1809-02480",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "uelameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Altes Weib",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Altes Weib",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "human_person_agent_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00146",
+      "record_id": "RHD-S1809-02490",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "upeameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Ein Verheyratheter, Ehemann",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Ein Verheyratheter, Ehemann",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "human_person_agent_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00147",
+      "record_id": "RHD-S1809-02481",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "veniameke",
+      "source_direction": "RAR-DE",
+      "source_provenance": "direct_historical_entry",
+      "gloss_evidence_tier": "source_verified_rar_de_article_gloss",
+      "source_verified_german_gloss": "Zahm",
+      "machine_parsed_german_context": "",
+      "german_context_for_analysis": "Zahm",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00104",
+      "record_id": "RHD-S1809-00001",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "simiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Abgehend",
+      "german_context_for_analysis": "Abgehend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00124",
+      "record_id": "RHD-S1809-00003",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tepulirugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Abgehauen",
+      "german_context_for_analysis": "Abgehauen",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00075",
+      "record_id": "RHD-S1809-00011",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pagorugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Abgewaſchen",
+      "german_context_for_analysis": "Abgewaſchen",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00033",
+      "record_id": "RHD-S1809-00007",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "hulirugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Abgeſchickt",
+      "german_context_for_analysis": "Abgeſchickt",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00044",
+      "record_id": "RHD-S1809-00073",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "jumamatsigameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Allwiſſend",
+      "german_context_for_analysis": "Allwiſſend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy",
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00071",
+      "record_id": "RHD-S1809-00133",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "ogueameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Arzney",
+      "german_context_for_analysis": "Arzney",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00021",
+      "record_id": "RHD-S1809-00178",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "etschagueameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Bärtig",
+      "german_context_for_analysis": "Bärtig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00083",
+      "record_id": "RHD-S1809-00194",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "polirugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Bedeckt",
+      "german_context_for_analysis": "Bedeckt",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00131",
+      "record_id": "RHD-S1809-00211",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "tsanijameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Bejahend",
+      "german_context_for_analysis": "Bejahend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00088",
+      "record_id": "RHD-S1809-00225",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "reguameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Benennt",
+      "german_context_for_analysis": "Benennt",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00054",
+      "record_id": "RHD-S1809-00261",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Bewußt",
+      "german_context_for_analysis": "Bewußt",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00029",
+      "record_id": "RHD-S1809-00275",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschiperameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Blech",
+      "german_context_for_analysis": "Blech",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00114",
+      "record_id": "RHD-S1809-00277",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "tamatischigameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Blind",
+      "german_context_for_analysis": "Blind",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00089",
+      "record_id": "RHD-S1809-00278",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "repagameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Blitzen",
+      "german_context_for_analysis": "Blitzen",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00083",
+      "record_id": "RHD-S1809-00321",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "polirugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Gedeckt",
+      "german_context_for_analysis": "Gedeckt",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00095",
+      "record_id": "RHD-S1809-00361",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "sakiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Dürr",
+      "german_context_for_analysis": "Dürr",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00060",
+      "record_id": "RHD-S1809-00375",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "mukiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Upíameke",
+      "german_context_for_analysis": "Upíameke",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00059",
+      "record_id": "RHD-S1809-00378",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cuneameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Eheweib",
+      "german_context_for_analysis": "Eheweib",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "human_person_agent_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00035",
+      "record_id": "RHD-S1809-00389",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "motschiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Ibe jaſſameke",
+      "german_context_for_analysis": "Ibe jaſſameke",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00054",
+      "record_id": "RHD-S1809-00429",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Erfahren",
+      "german_context_for_analysis": "Erfahren",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00132",
+      "record_id": "RHD-S1809-00431",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tschapirugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Ergriffen",
+      "german_context_for_analysis": "Ergriffen",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00048",
+      "record_id": "RHD-S1809-00438",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "lesiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Ermüdet",
+      "german_context_for_analysis": "Ermüdet",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy",
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00069",
+      "record_id": "RHD-S1809-00443",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "netejameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Erſchaffer",
+      "german_context_for_analysis": "Erſchaffer",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "human_person_agent_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00066",
+      "record_id": "RHD-S1809-00473",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "nassiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Faul",
+      "german_context_for_analysis": "Faul",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00081",
+      "record_id": "RHD-S1809-00490",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "peguameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Feſt",
+      "german_context_for_analysis": "Feſt",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "physical_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00097",
+      "record_id": "RHD-S1809-00512",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "sapeameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Fleiſchig",
+      "german_context_for_analysis": "Fleiſchig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "physical_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00126",
+      "record_id": "RHD-S1809-00543",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "thulameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Froſtig",
+      "german_context_for_analysis": "Froſtig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "physical_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00052",
+      "record_id": "RHD-S1809-00550",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mahajameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Furchtſam",
+      "german_context_for_analysis": "Furchtſam",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00027",
+      "record_id": "RHD-S1809-00573",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "guauguerugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Gebraten",
+      "german_context_for_analysis": "Gebraten",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00054",
+      "record_id": "RHD-S1809-00590",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Gelehrt",
+      "german_context_for_analysis": "Gelehrt",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy",
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00024",
+      "record_id": "RHD-S1809-00600",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "galatsaneliameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Geſegnet",
+      "german_context_for_analysis": "Geſegnet",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00037",
+      "record_id": "RHD-S1809-00607",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "ipagatugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Sie pflegen auch zu ſagen",
+      "german_context_for_analysis": "Sie pflegen auch zu ſagen",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00075",
+      "record_id": "RHD-S1809-00607",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pagorugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Getauft",
+      "german_context_for_analysis": "Getauft",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00089",
+      "record_id": "RHD-S1809-00623",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "repagameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Glänzend",
+      "german_context_for_analysis": "Glänzend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00081",
+      "record_id": "RHD-S1809-00662",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "peguameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Hart",
+      "german_context_for_analysis": "Hart",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "physical_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00111",
+      "record_id": "RHD-S1809-00669",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pagotugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Heide",
+      "german_context_for_analysis": "Heide",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00070",
+      "record_id": "RHD-S1809-00673",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "ogajameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Heilend",
+      "german_context_for_analysis": "Heilend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy",
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00008",
+      "record_id": "RHD-S1809-00674",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "bassujameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Heiß",
+      "german_context_for_analysis": "Heiß",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "physical_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00019",
+      "record_id": "RHD-S1809-00736",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "cusigameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Hölzern",
+      "german_context_for_analysis": "Hölzern",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "physical_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00072",
+      "record_id": "RHD-S1809-00741",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "oguesameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Arzeney",
+      "german_context_for_analysis": "Arzeney",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00126",
+      "record_id": "RHD-S1809-00770",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "thulameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Kalt",
+      "german_context_for_analysis": "Kalt",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "physical_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00054",
+      "record_id": "RHD-S1809-00799",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Klug",
+      "german_context_for_analysis": "Klug",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00023",
+      "record_id": "RHD-S1809-00805",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "bassirugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Ausgekocht",
+      "german_context_for_analysis": "Ausgekocht",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00013",
+      "record_id": "RHD-S1809-00826",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "cocojameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Krank",
+      "german_context_for_analysis": "Krank",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00138",
+      "record_id": "RHD-S1809-00833",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschucuameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Kriechend",
+      "german_context_for_analysis": "Kriechend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00137",
+      "record_id": "RHD-S1809-00840",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschitulameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "cavorámeke",
+      "german_context_for_analysis": "cavorámeke",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00055",
+      "record_id": "RHD-S1809-00866",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschirujegameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Lehrling",
+      "german_context_for_analysis": "Lehrling",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00089",
+      "record_id": "RHD-S1809-00879",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "repagameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Leuchtend",
+      "german_context_for_analysis": "Leuchtend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00089",
+      "record_id": "RHD-S1809-00880",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "repagameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Leuchtend",
+      "german_context_for_analysis": "Leuchtend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00041",
+      "record_id": "RHD-S1809-00895",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "jolarugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Gemacht",
+      "german_context_for_analysis": "Gemacht",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00112",
+      "record_id": "RHD-S1809-00902",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "sapeameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Mager",
+      "german_context_for_analysis": "Mager",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00090",
+      "record_id": "RHD-S1809-00985",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "repagatigameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Oberer",
+      "german_context_for_analysis": "Oberer",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00050",
+      "record_id": "RHD-S1809-01021",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "loguiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Raſend",
+      "german_context_for_analysis": "Raſend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00127",
+      "record_id": "RHD-S1809-01047",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tlestatacameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Roth",
+      "german_context_for_analysis": "Roth",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "color_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00057",
+      "record_id": "RHD-S1809-01045",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mujajameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Mujála",
+      "german_context_for_analysis": "Mujála",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00057",
+      "record_id": "RHD-S1809-01046",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mujajameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Roſtig",
+      "german_context_for_analysis": "Roſtig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00137",
+      "record_id": "RHD-S1809-01055",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschitulameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "wie ein Kreis",
+      "german_context_for_analysis": "wie ein Kreis",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00141",
+      "record_id": "RHD-S1809-01066",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "tschutscheliameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Geſalbt",
+      "german_context_for_analysis": "Geſalbt",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00093",
+      "record_id": "RHD-S1809-01074",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "saaeameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Sandig",
+      "german_context_for_analysis": "Sandig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00105",
+      "record_id": "RHD-S1809-01076",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "sriameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Satan",
+      "german_context_for_analysis": "Satan",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00077",
+      "record_id": "RHD-S1809-01080",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "pahiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Saufer",
+      "german_context_for_analysis": "Saufer",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00085",
+      "record_id": "RHD-S1809-01086",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "nasseameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Schafhirt",
+      "german_context_for_analysis": "Schafhirt",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00140",
+      "record_id": "RHD-S1809-01092",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tschutarugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Scharf",
+      "german_context_for_analysis": "Scharf",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "physical_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00026",
+      "record_id": "RHD-S1809-01103",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "gassirugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Caſſiníki",
+      "german_context_for_analysis": "Caſſiníki",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00125",
+      "record_id": "RHD-S1809-01157",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "tessiguajameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Schwermüthig",
+      "german_context_for_analysis": "Schwermüthig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00053",
+      "record_id": "RHD-S1809-01147",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matichirujegameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Schüler",
+      "german_context_for_analysis": "Schüler",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00007",
+      "record_id": "RHD-S1809-01199",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "bassirujameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Geſotten",
+      "german_context_for_analysis": "Geſotten",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00008",
+      "record_id": "RHD-S1809-01199",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "bassujameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Siedend",
+      "german_context_for_analysis": "Siedend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00013",
+      "record_id": "RHD-S1809-01198",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "cocojameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Sieh",
+      "german_context_for_analysis": "Sieh",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00065",
+      "record_id": "RHD-S1809-01216",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "nalsiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Sorglos",
+      "german_context_for_analysis": "Sorglos",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00121",
+      "record_id": "RHD-S1809-01267",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "uliameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Steinerne Säule",
+      "german_context_for_analysis": "Steinerne Säule",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00110",
+      "record_id": "RHD-S1809-01277",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "mukilatiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "B",
+      "german_context_for_analysis": "B",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00134",
+      "record_id": "RHD-S1809-01281",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tschipugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Stinkend",
+      "german_context_for_analysis": "Stinkend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00040",
+      "record_id": "RHD-S1809-01330",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "jolajameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Thuend",
+      "german_context_for_analysis": "Thuend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00041",
+      "record_id": "RHD-S1809-01330",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "jolarugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Gethan",
+      "german_context_for_analysis": "Gethan",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00101",
+      "record_id": "RHD-S1809-01335",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "schuguiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Todtſeyn",
+      "german_context_for_analysis": "Todtſeyn",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00065",
+      "record_id": "RHD-S1809-01340",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "nalsiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Trag",
+      "german_context_for_analysis": "Trag",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00077",
+      "record_id": "RHD-S1809-01347",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "pahiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Trinker",
+      "german_context_for_analysis": "Trinker",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00039",
+      "record_id": "RHD-S1809-01321",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "jauguirameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Tänzer",
+      "german_context_for_analysis": "Tänzer",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00118",
+      "record_id": "RHD-S1809-01374",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "upeameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Unbeweibt",
+      "german_context_for_analysis": "Unbeweibt",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00113",
+      "record_id": "RHD-S1809-01375",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "schuguiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Unendlich",
+      "german_context_for_analysis": "Unendlich",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00108",
+      "record_id": "RHD-S1809-01376",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mahajameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Unerſchrocken",
+      "german_context_for_analysis": "Unerſchrocken",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00111",
+      "record_id": "RHD-S1809-01381",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pagotugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Ungewaſchen",
+      "german_context_for_analysis": "Ungewaſchen",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00109",
+      "record_id": "RHD-S1809-01384",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Unkundig",
+      "german_context_for_analysis": "Unkundig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00118",
+      "record_id": "RHD-S1809-01396",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "upeameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Unverehelicht",
+      "german_context_for_analysis": "Unverehelicht",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00109",
+      "record_id": "RHD-S1809-01405",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Unwiſſend",
+      "german_context_for_analysis": "Unwiſſend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00107",
+      "record_id": "RHD-S1809-01407",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "bassigameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Unzeitig",
+      "german_context_for_analysis": "Unzeitig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00050",
+      "record_id": "RHD-S1809-01388",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "loguiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Unſinnig",
+      "german_context_for_analysis": "Unſinnig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00004",
+      "record_id": "RHD-S1809-01408",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "bassatiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "das ſich pflügen läßt",
+      "german_context_for_analysis": "das ſich pflügen läßt",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00143",
+      "record_id": "RHD-S1809-01420",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tsetijolameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Verbrecher",
+      "german_context_for_analysis": "Verbrecher",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00058",
+      "record_id": "RHD-S1809-01423",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mujameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Verfault",
+      "german_context_for_analysis": "Verfault",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00081",
+      "record_id": "RHD-S1809-01435",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "peguameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Verhärtet",
+      "german_context_for_analysis": "Verhärtet",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00101",
+      "record_id": "RHD-S1809-01475",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "schuguiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Verzehrt",
+      "german_context_for_analysis": "Verzehrt",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00101",
+      "record_id": "RHD-S1809-01464",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "schuguiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Verſtorben",
+      "german_context_for_analysis": "Verſtorben",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "state_condition_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00054",
+      "record_id": "RHD-S1809-01462",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Verſtändig",
+      "german_context_for_analysis": "Verſtändig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00009",
+      "record_id": "RHD-S1809-01479",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "bucuameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Viehiſch",
+      "german_context_for_analysis": "Viehiſch",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00050",
+      "record_id": "RHD-S1809-01511",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "loguiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Wahnſinnig",
+      "german_context_for_analysis": "Wahnſinnig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00031",
+      "record_id": "RHD-S1809-01541",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "holirugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Nach abgelöſten Körnern",
+      "german_context_for_analysis": "Nach abgelöſten Körnern",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00032",
+      "record_id": "RHD-S1809-01541",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "honeameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Noch nicht abgekörnt",
+      "german_context_for_analysis": "Noch nicht abgekörnt",
+      "functional_surface_proxy": "multiword_or_ambiguous_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00087",
+      "record_id": "RHD-S1809-01520",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "pugueameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Wartend",
+      "german_context_for_analysis": "Wartend",
+      "functional_surface_proxy": "present_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00091",
+      "record_id": "RHD-S1809-01538",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "rolacameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Weiß",
+      "german_context_for_analysis": "Weiß",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "color_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00086",
+      "record_id": "RHD-S1809-01546",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "jumarugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Widder",
+      "german_context_for_analysis": "Widder",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "human_person_agent_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00080",
+      "record_id": "RHD-S1809-01524",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pauguirugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Wäſſerig",
+      "german_context_for_analysis": "Wäſſerig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "physical_property_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00050",
+      "record_id": "RHD-S1809-01577",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "loguiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Wüthig",
+      "german_context_for_analysis": "Wüthig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00005",
+      "record_id": "RHD-S1809-01591",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "bassiameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_high_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Zeitig",
+      "german_context_for_analysis": "Zeitig",
+      "functional_surface_proxy": "property_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00144",
+      "record_id": "RHD-S1809-01596",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tutschirugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Zerrieben",
+      "german_context_for_analysis": "Zerrieben",
+      "functional_surface_proxy": "other_single_word_proxy",
+      "german_documentary_domain_proxies": [
+        "other_or_unclassified"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    },
+    {
+      "member_id": "RHD-AMEKE-00116",
+      "record_id": "RHD-S1809-01600",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tanarugameke",
+      "source_direction": "DE-RAR",
+      "source_provenance": "local_alignment_proposal",
+      "gloss_evidence_tier": "machine_local_de_rar_low_risk",
+      "source_verified_german_gloss": "",
+      "machine_parsed_german_context": "Gezeugt",
+      "german_context_for_analysis": "Gezeugt",
+      "functional_surface_proxy": "past_participle_surface_proxy",
+      "german_documentary_domain_proxies": [
+        "process_result_surface_proxy"
+      ],
+      "human_reviewed": false,
+      "automatic_semantic_classification": false,
+      "automatic_morphological_analysis": false
+    }
+  ]
+}

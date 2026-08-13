@@ -1,0 +1,275 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_german_documentary_domain_proxies_v1",
+  "generated": "2026-08-13",
+  "context_count": 174,
+  "source_verified_rar_de_count": 67,
+  "de_rar_low_risk_count": 64,
+  "de_rar_high_risk_count": 43,
+  "random_seed": 1809,
+  "permutation_iterations": 20000,
+  "analyses": {
+    "all_documentary": {
+      "context_count": 174,
+      "token_unit_count": 137,
+      "contexts_by_class": {
+        "ameke_other": 58,
+        "ugameke": 31,
+        "jameke": 25,
+        "iameke": 35,
+        "gameke": 25
+      },
+      "domain_proxy_counts": {
+        "state_condition_proxy": 18,
+        "human_person_agent_proxy": 12,
+        "other_or_unclassified": 100,
+        "physical_property_proxy": 11,
+        "process_result_surface_proxy": 35,
+        "color_property_proxy": 5
+      },
+      "domain_proxy_counts_by_class": {
+        "ameke_other": {
+          "state_condition_proxy": 3,
+          "human_person_agent_proxy": 8,
+          "other_or_unclassified": 35,
+          "physical_property_proxy": 7,
+          "color_property_proxy": 4,
+          "process_result_surface_proxy": 2
+        },
+        "gameke": {
+          "other_or_unclassified": 14,
+          "state_condition_proxy": 6,
+          "process_result_surface_proxy": 7,
+          "physical_property_proxy": 1
+        },
+        "iameke": {
+          "other_or_unclassified": 26,
+          "state_condition_proxy": 4,
+          "process_result_surface_proxy": 6
+        },
+        "ugameke": {
+          "other_or_unclassified": 12,
+          "process_result_surface_proxy": 14,
+          "human_person_agent_proxy": 2,
+          "state_condition_proxy": 1,
+          "physical_property_proxy": 2
+        },
+        "jameke": {
+          "other_or_unclassified": 13,
+          "process_result_surface_proxy": 6,
+          "state_condition_proxy": 4,
+          "human_person_agent_proxy": 2,
+          "color_property_proxy": 1,
+          "physical_property_proxy": 1
+        }
+      },
+      "conservative_signal_count": 1,
+      "conservative_signals": [
+        {
+          "analysis": "all_documentary",
+          "exclusive_suffix_class": "ugameke",
+          "german_documentary_domain_proxy": "process_result_surface_proxy",
+          "target_numerator": 11,
+          "target_denominator": 24,
+          "rest_numerator": 18,
+          "rest_denominator": 113,
+          "target_rate": 0.458333,
+          "rest_rate": 0.159292,
+          "rate_difference": 0.299041,
+          "empirical_two_sided_p": 0.0023,
+          "bh_fdr_q": 0.028749,
+          "max_abs_rate_difference_fwer_p": 0.013299,
+          "conservative_signal": true,
+          "human_reviewed": false,
+          "automatic_semantic_classification": false,
+          "automatic_morphological_analysis": false
+        }
+      ]
+    },
+    "conservative_documentary": {
+      "context_count": 131,
+      "token_unit_count": 111,
+      "contexts_by_class": {
+        "ameke_other": 46,
+        "ugameke": 25,
+        "jameke": 18,
+        "iameke": 25,
+        "gameke": 17
+      },
+      "domain_proxy_counts": {
+        "state_condition_proxy": 10,
+        "human_person_agent_proxy": 10,
+        "other_or_unclassified": 78,
+        "physical_property_proxy": 7,
+        "process_result_surface_proxy": 26,
+        "color_property_proxy": 4
+      },
+      "domain_proxy_counts_by_class": {
+        "ameke_other": {
+          "state_condition_proxy": 3,
+          "human_person_agent_proxy": 7,
+          "other_or_unclassified": 28,
+          "physical_property_proxy": 4,
+          "color_property_proxy": 3,
+          "process_result_surface_proxy": 2
+        },
+        "gameke": {
+          "other_or_unclassified": 11,
+          "state_condition_proxy": 2,
+          "process_result_surface_proxy": 4,
+          "physical_property_proxy": 1
+        },
+        "iameke": {
+          "other_or_unclassified": 19,
+          "state_condition_proxy": 2,
+          "process_result_surface_proxy": 5
+        },
+        "ugameke": {
+          "other_or_unclassified": 10,
+          "process_result_surface_proxy": 11,
+          "human_person_agent_proxy": 2,
+          "state_condition_proxy": 1,
+          "physical_property_proxy": 1
+        },
+        "jameke": {
+          "other_or_unclassified": 10,
+          "process_result_surface_proxy": 4,
+          "state_condition_proxy": 2,
+          "human_person_agent_proxy": 1,
+          "color_property_proxy": 1,
+          "physical_property_proxy": 1
+        }
+      },
+      "conservative_signal_count": 1,
+      "conservative_signals": [
+        {
+          "analysis": "conservative_documentary",
+          "exclusive_suffix_class": "ugameke",
+          "german_documentary_domain_proxy": "process_result_surface_proxy",
+          "target_numerator": 9,
+          "target_denominator": 19,
+          "rest_numerator": 14,
+          "rest_denominator": 92,
+          "target_rate": 0.473684,
+          "rest_rate": 0.152174,
+          "rate_difference": 0.32151,
+          "empirical_two_sided_p": 0.00325,
+          "bh_fdr_q": 0.040623,
+          "max_abs_rate_difference_fwer_p": 0.020799,
+          "conservative_signal": true,
+          "human_reviewed": false,
+          "automatic_semantic_classification": false,
+          "automatic_morphological_analysis": false
+        }
+      ]
+    },
+    "direct_rar_de_only": {
+      "context_count": 67,
+      "token_unit_count": 67,
+      "contexts_by_class": {
+        "ameke_other": 31,
+        "ugameke": 9,
+        "jameke": 10,
+        "iameke": 10,
+        "gameke": 7
+      },
+      "domain_proxy_counts": {
+        "state_condition_proxy": 7,
+        "human_person_agent_proxy": 9,
+        "other_or_unclassified": 46,
+        "physical_property_proxy": 2,
+        "process_result_surface_proxy": 3,
+        "color_property_proxy": 3
+      },
+      "domain_proxy_counts_by_class": {
+        "ameke_other": {
+          "state_condition_proxy": 3,
+          "human_person_agent_proxy": 7,
+          "other_or_unclassified": 18,
+          "physical_property_proxy": 2,
+          "color_property_proxy": 2
+        },
+        "gameke": {
+          "other_or_unclassified": 6,
+          "state_condition_proxy": 1,
+          "process_result_surface_proxy": 1
+        },
+        "iameke": {
+          "other_or_unclassified": 9,
+          "state_condition_proxy": 1
+        },
+        "ugameke": {
+          "other_or_unclassified": 6,
+          "process_result_surface_proxy": 1,
+          "human_person_agent_proxy": 1,
+          "state_condition_proxy": 1
+        },
+        "jameke": {
+          "other_or_unclassified": 7,
+          "process_result_surface_proxy": 1,
+          "state_condition_proxy": 1,
+          "human_person_agent_proxy": 1,
+          "color_property_proxy": 1
+        }
+      },
+      "conservative_signal_count": 0,
+      "conservative_signals": []
+    },
+    "de_rar_low_risk_only": {
+      "context_count": 64,
+      "token_unit_count": 48,
+      "contexts_by_class": {
+        "iameke": 15,
+        "ugameke": 16,
+        "ameke_other": 15,
+        "jameke": 8,
+        "gameke": 10
+      },
+      "domain_proxy_counts": {
+        "process_result_surface_proxy": 23,
+        "other_or_unclassified": 32,
+        "state_condition_proxy": 3,
+        "physical_property_proxy": 5,
+        "color_property_proxy": 1,
+        "human_person_agent_proxy": 1
+      },
+      "domain_proxy_counts_by_class": {
+        "ameke_other": {
+          "physical_property_proxy": 2,
+          "other_or_unclassified": 10,
+          "process_result_surface_proxy": 2,
+          "color_property_proxy": 1
+        },
+        "gameke": {
+          "physical_property_proxy": 1,
+          "state_condition_proxy": 1,
+          "other_or_unclassified": 5,
+          "process_result_surface_proxy": 3
+        },
+        "iameke": {
+          "process_result_surface_proxy": 5,
+          "other_or_unclassified": 10,
+          "state_condition_proxy": 1
+        },
+        "ugameke": {
+          "process_result_surface_proxy": 10,
+          "other_or_unclassified": 4,
+          "human_person_agent_proxy": 1,
+          "physical_property_proxy": 1
+        },
+        "jameke": {
+          "physical_property_proxy": 1,
+          "state_condition_proxy": 1,
+          "process_result_surface_proxy": 3,
+          "other_or_unclassified": 3
+        }
+      },
+      "conservative_signal_count": 0,
+      "conservative_signals": []
+    }
+  },
+  "human_reviewed": false,
+  "automatic_semantic_classification": false,
+  "automatic_morphological_analysis": false,
+  "interpretive_scope": "Transparent rule-based domains assigned only to German documentary gloss/context strings. They are not Rarámuri semantic classes and do not establish historical morphology or grammatical function."
+}
