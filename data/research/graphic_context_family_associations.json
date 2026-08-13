@@ -28,113 +28,182 @@
         "other_single_word_proxy": 0.486,
         "property_ending_proxy": 0.145
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 26,
+          "local_rate": 0.145,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 3.19,
+          "log_odds_enrichment": 1.7547,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 87,
+          "local_rate": 0.486,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.228,
+          "log_odds_enrichment": 0.431,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 34,
+          "local_rate": 0.19,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.789,
+          "log_odds_enrichment": -0.3381,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 32,
+          "local_rate": 0.179,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.577,
+          "log_odds_enrichment": -0.8144,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -1.2863,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "kalt",
           "member_key_document_frequency": 4,
           "global_key_document_frequency": 4,
           "member_coverage": 0.026,
-          "log_odds_enrichment": 4.0775
+          "log_odds_enrichment": 4.0775,
+          "robust_under_method": false
         },
         {
           "token": "allwissend",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4764
+          "log_odds_enrichment": 3.4764,
+          "robust_under_method": false
         },
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4764
+          "log_odds_enrichment": 3.4764,
+          "robust_under_method": false
         },
         {
           "token": "getauft",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4764
+          "log_odds_enrichment": 3.4764,
+          "robust_under_method": false
         },
         {
           "token": "kugelformig",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4764
+          "log_odds_enrichment": 3.4764,
+          "robust_under_method": false
         },
         {
           "token": "rund",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4764
+          "log_odds_enrichment": 3.4764,
+          "robust_under_method": false
         },
         {
           "token": "sandig",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4764
+          "log_odds_enrichment": 3.4764,
+          "robust_under_method": false
         },
         {
           "token": "sieden",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4764
+          "log_odds_enrichment": 3.4764,
+          "robust_under_method": false
         },
         {
           "token": "stacameke",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4764
+          "log_odds_enrichment": 3.4764,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4764
+          "log_odds_enrichment": 3.4764,
+          "robust_under_method": false
         },
         {
           "token": "weiss",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4764
+          "log_odds_enrichment": 3.4764,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 1.8649
+          "log_odds_enrichment": 1.8649,
+          "robust_under_method": false
         },
         {
           "token": "sterblich",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 1.8649
+          "log_odds_enrichment": 1.8649,
+          "robust_under_method": false
         },
         {
           "token": "waizen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 1.8649
+          "log_odds_enrichment": 1.8649,
+          "robust_under_method": false
         },
         {
           "token": "thun",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 7,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 1.0733
+          "log_odds_enrichment": 1.0733,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -163,113 +232,182 @@
         "other_single_word_proxy": 0.489,
         "property_ending_proxy": 0.146
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 26,
+          "local_rate": 0.146,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 3.208,
+          "log_odds_enrichment": 1.7623,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 87,
+          "local_rate": 0.489,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.234,
+          "log_odds_enrichment": 0.4434,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 35,
+          "local_rate": 0.197,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.817,
+          "log_odds_enrichment": -0.2893,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 30,
+          "local_rate": 0.169,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.544,
+          "log_odds_enrichment": -0.8918,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -1.2797,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "allwissend",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "getauft",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "kugelformig",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "rund",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "sandig",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "sieden",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "stacameke",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "weiss",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 1.8726
+          "log_odds_enrichment": 1.8726,
+          "robust_under_method": false
         },
         {
           "token": "sterblich",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 1.8726
+          "log_odds_enrichment": 1.8726,
+          "robust_under_method": false
         },
         {
           "token": "waizen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 1.8726
+          "log_odds_enrichment": 1.8726,
+          "robust_under_method": false
         },
         {
           "token": "thun",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 7,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 1.081
+          "log_odds_enrichment": 1.081,
+          "robust_under_method": false
         },
         {
           "token": "besser",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 11,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 0.5303
+          "log_odds_enrichment": 0.5303,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -298,113 +436,182 @@
         "other_single_word_proxy": 0.489,
         "property_ending_proxy": 0.146
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 26,
+          "local_rate": 0.146,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 3.208,
+          "log_odds_enrichment": 1.7623,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 87,
+          "local_rate": 0.489,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.234,
+          "log_odds_enrichment": 0.4434,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 34,
+          "local_rate": 0.191,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.794,
+          "log_odds_enrichment": -0.3299,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 31,
+          "local_rate": 0.174,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.562,
+          "log_odds_enrichment": -0.8486,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -1.2797,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "allwissend",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "getauft",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "hart",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "kugelformig",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "rund",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "sandig",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "sieden",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "stacameke",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "weiss",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 3.4841
+          "log_odds_enrichment": 3.4841,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 1.8726
+          "log_odds_enrichment": 1.8726,
+          "robust_under_method": false
         },
         {
           "token": "sterblich",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 1.8726
+          "log_odds_enrichment": 1.8726,
+          "robust_under_method": false
         },
         {
           "token": "waizen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 1.8726
+          "log_odds_enrichment": 1.8726,
+          "robust_under_method": false
         },
         {
           "token": "thun",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 7,
           "member_coverage": 0.013,
-          "log_odds_enrichment": 1.081
+          "log_odds_enrichment": 1.081,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -433,50 +640,110 @@
         "other_single_word_proxy": 0.5,
         "property_ending_proxy": 0.094
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 9,
+          "local_rate": 0.094,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 2.059,
+          "log_odds_enrichment": 0.9106,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 48,
+          "local_rate": 0.5,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.263,
+          "log_odds_enrichment": 0.459,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 23,
+          "local_rate": 0.24,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.996,
+          "log_odds_enrichment": 0.0071,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.589,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 16,
+          "local_rate": 0.167,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.538,
+          "log_odds_enrichment": -0.8404,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "allwissend",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.025,
-          "log_odds_enrichment": 4.1986
+          "log_odds_enrichment": 4.1986,
+          "robust_under_method": false
         },
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.025,
-          "log_odds_enrichment": 4.1986
+          "log_odds_enrichment": 4.1986,
+          "robust_under_method": false
         },
         {
           "token": "getauft",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.025,
-          "log_odds_enrichment": 4.1986
+          "log_odds_enrichment": 4.1986,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.025,
-          "log_odds_enrichment": 4.1986
+          "log_odds_enrichment": 4.1986,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.025,
-          "log_odds_enrichment": 2.5872
+          "log_odds_enrichment": 2.5872,
+          "robust_under_method": false
         },
         {
           "token": "waizen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.025,
-          "log_odds_enrichment": 2.5872
+          "log_odds_enrichment": 2.5872,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -505,57 +772,118 @@
         "other_single_word_proxy": 0.47,
         "property_ending_proxy": 0.06
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 5,
+          "local_rate": 0.06,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 1.323,
+          "log_odds_enrichment": 0.3999,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 25,
+          "local_rate": 0.301,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.252,
+          "log_odds_enrichment": 0.3416,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 39,
+          "local_rate": 0.47,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.187,
+          "log_odds_enrichment": 0.3253,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.4328,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 14,
+          "local_rate": 0.169,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.545,
+          "log_odds_enrichment": -0.814,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.028,
-          "log_odds_enrichment": 4.3137
+          "log_odds_enrichment": 4.3137,
+          "robust_under_method": false
         },
         {
           "token": "getauft",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.028,
-          "log_odds_enrichment": 4.3137
+          "log_odds_enrichment": 4.3137,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.028,
-          "log_odds_enrichment": 4.3137
+          "log_odds_enrichment": 4.3137,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.028,
-          "log_odds_enrichment": 2.7024
+          "log_odds_enrichment": 2.7024,
+          "robust_under_method": false
         },
         {
           "token": "waizen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.028,
-          "log_odds_enrichment": 2.7024
+          "log_odds_enrichment": 2.7024,
+          "robust_under_method": false
         },
         {
           "token": "machen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 7,
           "member_coverage": 0.028,
-          "log_odds_enrichment": 1.911
+          "log_odds_enrichment": 1.911,
+          "robust_under_method": false
         },
         {
           "token": "thun",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 7,
           "member_coverage": 0.028,
-          "log_odds_enrichment": 1.911
+          "log_odds_enrichment": 1.911,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -584,43 +912,102 @@
         "other_single_word_proxy": 0.468,
         "property_ending_proxy": 0.063
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 5,
+          "local_rate": 0.063,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 1.39,
+          "log_odds_enrichment": 0.4559,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 37,
+          "local_rate": 0.468,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.183,
+          "log_odds_enrichment": 0.3177,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 22,
+          "local_rate": 0.278,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.157,
+          "log_odds_enrichment": 0.2239,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.3802,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 15,
+          "local_rate": 0.19,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.613,
+          "log_odds_enrichment": -0.6635,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.029,
-          "log_odds_enrichment": 4.3759
+          "log_odds_enrichment": 4.3759,
+          "robust_under_method": false
         },
         {
           "token": "getauft",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.029,
-          "log_odds_enrichment": 4.3759
+          "log_odds_enrichment": 4.3759,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.029,
-          "log_odds_enrichment": 4.3759
+          "log_odds_enrichment": 4.3759,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.029,
-          "log_odds_enrichment": 2.7646
+          "log_odds_enrichment": 2.7646,
+          "robust_under_method": false
         },
         {
           "token": "waizen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.029,
-          "log_odds_enrichment": 2.7646
+          "log_odds_enrichment": 2.7646,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -649,43 +1036,102 @@
         "other_single_word_proxy": 0.474,
         "property_ending_proxy": 0.064
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 5,
+          "local_rate": 0.064,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 1.408,
+          "log_odds_enrichment": 0.4703,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 37,
+          "local_rate": 0.474,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.198,
+          "log_odds_enrichment": 0.3429,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 22,
+          "local_rate": 0.282,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.172,
+          "log_odds_enrichment": 0.2425,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.3666,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 14,
+          "local_rate": 0.179,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.579,
+          "log_odds_enrichment": -0.7329,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.03,
-          "log_odds_enrichment": 4.392
+          "log_odds_enrichment": 4.392,
+          "robust_under_method": false
         },
         {
           "token": "getauft",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.03,
-          "log_odds_enrichment": 4.392
+          "log_odds_enrichment": 4.392,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.03,
-          "log_odds_enrichment": 4.392
+          "log_odds_enrichment": 4.392,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.03,
-          "log_odds_enrichment": 2.7807
+          "log_odds_enrichment": 2.7807,
+          "robust_under_method": false
         },
         {
           "token": "waizen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.03,
-          "log_odds_enrichment": 2.7807
+          "log_odds_enrichment": 2.7807,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -714,64 +1160,126 @@
         "other_single_word_proxy": 0.493,
         "property_ending_proxy": 0.068
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 5,
+          "local_rate": 0.068,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 1.504,
+          "log_odds_enrichment": 0.5453,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 36,
+          "local_rate": 0.493,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.246,
+          "log_odds_enrichment": 0.4207,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 19,
+          "local_rate": 0.26,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.84,
+          "log_odds_enrichment": -0.2418,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.2965,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 13,
+          "local_rate": 0.178,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.74,
+          "log_odds_enrichment": -0.3735,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.03,
-          "log_odds_enrichment": 4.4083
+          "log_odds_enrichment": 4.4083,
+          "robust_under_method": false
         },
         {
           "token": "kreis",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.03,
-          "log_odds_enrichment": 4.4083
+          "log_odds_enrichment": 4.4083,
+          "robust_under_method": false
         },
         {
           "token": "kugelformig",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.03,
-          "log_odds_enrichment": 4.4083
+          "log_odds_enrichment": 4.4083,
+          "robust_under_method": false
         },
         {
           "token": "rund",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.03,
-          "log_odds_enrichment": 4.4083
+          "log_odds_enrichment": 4.4083,
+          "robust_under_method": false
         },
         {
           "token": "stinken",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.03,
-          "log_odds_enrichment": 4.4083
+          "log_odds_enrichment": 4.4083,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.03,
-          "log_odds_enrichment": 4.4083
+          "log_odds_enrichment": 4.4083,
+          "robust_under_method": false
         },
         {
           "token": "ort",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 3,
           "member_coverage": 0.03,
-          "log_odds_enrichment": 3.3088
+          "log_odds_enrichment": 3.3088,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.03,
-          "log_odds_enrichment": 2.797
+          "log_odds_enrichment": 2.797,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -800,43 +1308,102 @@
         "other_single_word_proxy": 0.471,
         "property_ending_proxy": 0.143
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 10,
+          "local_rate": 0.143,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 3.138,
+          "log_odds_enrichment": 1.4254,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 33,
+          "local_rate": 0.471,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.191,
+          "log_odds_enrichment": 0.3283,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.2522,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 18,
+          "local_rate": 0.257,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.83,
+          "log_odds_enrichment": -0.2573,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 9,
+          "local_rate": 0.129,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.534,
+          "log_odds_enrichment": -0.7565,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 4.4588
+          "log_odds_enrichment": 4.4588,
+          "robust_under_method": false
         },
         {
           "token": "sieden",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 4.4588
+          "log_odds_enrichment": 4.4588,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 4.4588
+          "log_odds_enrichment": 4.4588,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 2.8475
+          "log_odds_enrichment": 2.8475,
+          "robust_under_method": false
         },
         {
           "token": "besser",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 11,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 1.5058
+          "log_odds_enrichment": 1.5058,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -867,99 +1434,166 @@
         "other_single_word_proxy": 0.412,
         "property_ending_proxy": 0.029
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.015,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 1.809,
+          "log_odds_enrichment": 0.9926,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 22,
+          "local_rate": 0.324,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.344,
+          "log_odds_enrichment": 0.4486,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 28,
+          "local_rate": 0.412,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.04,
+          "log_odds_enrichment": 0.0745,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 2,
+          "local_rate": 0.029,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.646,
+          "log_odds_enrichment": -0.2683,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 15,
+          "local_rate": 0.221,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.712,
+          "log_odds_enrichment": -0.4626,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "ergreifen",
           "member_key_document_frequency": 3,
           "global_key_document_frequency": 3,
           "member_coverage": 0.048,
-          "log_odds_enrichment": 4.8293
+          "log_odds_enrichment": 4.8293,
+          "robust_under_method": false
         },
         {
           "token": "eichhornchen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 4.4761
+          "log_odds_enrichment": 4.4761,
+          "robust_under_method": false
         },
         {
           "token": "kreis",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 4.4761
+          "log_odds_enrichment": 4.4761,
+          "robust_under_method": false
         },
         {
           "token": "kriechen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 4.4761
+          "log_odds_enrichment": 4.4761,
+          "robust_under_method": false
         },
         {
           "token": "maul",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 4.4761
+          "log_odds_enrichment": 4.4761,
+          "robust_under_method": false
         },
         {
           "token": "maus",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 4.4761
+          "log_odds_enrichment": 4.4761,
+          "robust_under_method": false
         },
         {
           "token": "rund",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 4.4761
+          "log_odds_enrichment": 4.4761,
+          "robust_under_method": false
         },
         {
           "token": "salben",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 4.4761
+          "log_odds_enrichment": 4.4761,
+          "robust_under_method": false
         },
         {
           "token": "saugen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 4.4761
+          "log_odds_enrichment": 4.4761,
+          "robust_under_method": false
         },
         {
           "token": "schlagen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 4.4761
+          "log_odds_enrichment": 4.4761,
+          "robust_under_method": false
         },
         {
           "token": "stinken",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 4.4761
+          "log_odds_enrichment": 4.4761,
+          "robust_under_method": false
         },
         {
           "token": "feuer",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 3,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 3.3766
+          "log_odds_enrichment": 3.3766,
+          "robust_under_method": false
         },
         {
           "token": "sich",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 10,
           "member_coverage": 0.032,
-          "log_odds_enrichment": 1.6354
+          "log_odds_enrichment": 1.6354,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -988,50 +1622,110 @@
         "other_single_word_proxy": 0.507,
         "property_ending_proxy": 0.119
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 8,
+          "local_rate": 0.119,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 2.623,
+          "log_odds_enrichment": 1.1896,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 34,
+          "local_rate": 0.507,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.282,
+          "log_odds_enrichment": 0.4784,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.2061,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 17,
+          "local_rate": 0.254,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.819,
+          "log_odds_enrichment": -0.2743,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 8,
+          "local_rate": 0.119,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.496,
+          "log_odds_enrichment": -0.8358,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.033,
-          "log_odds_enrichment": 4.5116
+          "log_odds_enrichment": 4.5116,
+          "robust_under_method": false
         },
         {
           "token": "rost",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.033,
-          "log_odds_enrichment": 4.5116
+          "log_odds_enrichment": 4.5116,
+          "robust_under_method": false
         },
         {
           "token": "sieden",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.033,
-          "log_odds_enrichment": 4.5116
+          "log_odds_enrichment": 4.5116,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.033,
-          "log_odds_enrichment": 4.5116
+          "log_odds_enrichment": 4.5116,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.033,
-          "log_odds_enrichment": 2.9003
+          "log_odds_enrichment": 2.9003,
+          "robust_under_method": false
         },
         {
           "token": "besser",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 11,
           "member_coverage": 0.033,
-          "log_odds_enrichment": 1.5587
+          "log_odds_enrichment": 1.5587,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1060,50 +1754,110 @@
         "other_single_word_proxy": 0.485,
         "property_ending_proxy": 0.121
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 8,
+          "local_rate": 0.121,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 2.662,
+          "log_odds_enrichment": 1.2074,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 32,
+          "local_rate": 0.485,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.225,
+          "log_odds_enrichment": 0.3834,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 18,
+          "local_rate": 0.273,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.88,
+          "log_odds_enrichment": -0.1731,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.1903,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 8,
+          "local_rate": 0.121,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.504,
+          "log_odds_enrichment": -0.8177,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.034,
-          "log_odds_enrichment": 4.5298
+          "log_odds_enrichment": 4.5298,
+          "robust_under_method": false
         },
         {
           "token": "sieden",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.034,
-          "log_odds_enrichment": 4.5298
+          "log_odds_enrichment": 4.5298,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.034,
-          "log_odds_enrichment": 4.5298
+          "log_odds_enrichment": 4.5298,
+          "robust_under_method": false
         },
         {
           "token": "krank",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 3,
           "member_coverage": 0.034,
-          "log_odds_enrichment": 3.4302
+          "log_odds_enrichment": 3.4302,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.034,
-          "log_odds_enrichment": 2.9185
+          "log_odds_enrichment": 2.9185,
+          "robust_under_method": false
         },
         {
           "token": "besser",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 11,
           "member_coverage": 0.034,
-          "log_odds_enrichment": 1.5769
+          "log_odds_enrichment": 1.5769,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1132,43 +1886,102 @@
         "other_single_word_proxy": 0.493,
         "property_ending_proxy": 0.058
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 34,
+          "local_rate": 0.493,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.245,
+          "log_odds_enrichment": 0.4176,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 4,
+          "local_rate": 0.058,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 1.273,
+          "log_odds_enrichment": 0.3729,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 17,
+          "local_rate": 0.246,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.024,
+          "log_odds_enrichment": 0.0511,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.237,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 14,
+          "local_rate": 0.203,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.655,
+          "log_odds_enrichment": -0.5712,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.034,
-          "log_odds_enrichment": 4.5483
+          "log_odds_enrichment": 4.5483,
+          "robust_under_method": false
         },
         {
           "token": "getauft",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.034,
-          "log_odds_enrichment": 4.5483
+          "log_odds_enrichment": 4.5483,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.034,
-          "log_odds_enrichment": 4.5483
+          "log_odds_enrichment": 4.5483,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.034,
-          "log_odds_enrichment": 2.937
+          "log_odds_enrichment": 2.937,
+          "robust_under_method": false
         },
         {
           "token": "waizen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.034,
-          "log_odds_enrichment": 2.937
+          "log_odds_enrichment": 2.937,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1197,43 +2010,102 @@
         "other_single_word_proxy": 0.448,
         "property_ending_proxy": 0.194
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 13,
+          "local_rate": 0.194,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 4.262,
+          "log_odds_enrichment": 1.8533,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 30,
+          "local_rate": 0.448,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.131,
+          "log_odds_enrichment": 0.2279,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.2061,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 16,
+          "local_rate": 0.239,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.771,
+          "log_odds_enrichment": -0.3568,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 8,
+          "local_rate": 0.119,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.496,
+          "log_odds_enrichment": -0.8358,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.035,
-          "log_odds_enrichment": 4.5671
+          "log_odds_enrichment": 4.5671,
+          "robust_under_method": false
         },
         {
           "token": "rasen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.035,
-          "log_odds_enrichment": 4.5671
+          "log_odds_enrichment": 4.5671,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.035,
-          "log_odds_enrichment": 4.5671
+          "log_odds_enrichment": 4.5671,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.035,
-          "log_odds_enrichment": 2.9558
+          "log_odds_enrichment": 2.9558,
+          "robust_under_method": false
         },
         {
           "token": "sterblich",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.035,
-          "log_odds_enrichment": 2.9558
+          "log_odds_enrichment": 2.9558,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1262,36 +2134,94 @@
         "other_single_word_proxy": 0.439,
         "property_ending_proxy": 0.212
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 14,
+          "local_rate": 0.212,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 4.659,
+          "log_odds_enrichment": 1.9871,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 29,
+          "local_rate": 0.439,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.11,
+          "log_odds_enrichment": 0.1924,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.1903,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 16,
+          "local_rate": 0.242,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.783,
+          "log_odds_enrichment": -0.3359,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 7,
+          "local_rate": 0.106,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.441,
+          "log_odds_enrichment": -0.9644,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.036,
-          "log_odds_enrichment": 4.5862
+          "log_odds_enrichment": 4.5862,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.036,
-          "log_odds_enrichment": 4.5862
+          "log_odds_enrichment": 4.5862,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.036,
-          "log_odds_enrichment": 2.9749
+          "log_odds_enrichment": 2.9749,
+          "robust_under_method": false
         },
         {
           "token": "sterblich",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.036,
-          "log_odds_enrichment": 2.9749
+          "log_odds_enrichment": 2.9749,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1320,36 +2250,94 @@
         "other_single_word_proxy": 0.41,
         "property_ending_proxy": 0.164
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 10,
+          "local_rate": 0.164,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 3.601,
+          "log_odds_enrichment": 1.5945,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 25,
+          "local_rate": 0.41,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.035,
+          "log_odds_enrichment": 0.0665,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.1078,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 17,
+          "local_rate": 0.279,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.9,
+          "log_odds_enrichment": -0.1404,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 9,
+          "local_rate": 0.148,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.613,
+          "log_odds_enrichment": -0.588,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "altes",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.039,
-          "log_odds_enrichment": 4.6871
+          "log_odds_enrichment": 4.6871,
+          "robust_under_method": false
         },
         {
           "token": "verzehren",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.039,
-          "log_odds_enrichment": 4.6871
+          "log_odds_enrichment": 4.6871,
+          "robust_under_method": false
         },
         {
           "token": "weib",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.039,
-          "log_odds_enrichment": 4.6871
+          "log_odds_enrichment": 4.6871,
+          "robust_under_method": false
         },
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.039,
-          "log_odds_enrichment": 3.0758
+          "log_odds_enrichment": 3.0758,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1378,22 +2366,78 @@
         "other_single_word_proxy": 0.439,
         "property_ending_proxy": 0.049
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 0.3026,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 2,
+          "local_rate": 0.049,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 1.071,
+          "log_odds_enrichment": 0.2766,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 18,
+          "local_rate": 0.439,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.109,
+          "log_odds_enrichment": 0.189,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 11,
+          "local_rate": 0.268,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.115,
+          "log_odds_enrichment": 0.1778,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 10,
+          "local_rate": 0.244,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.787,
+          "log_odds_enrichment": -0.3087,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "gebahren",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.053,
-          "log_odds_enrichment": 5.0038
+          "log_odds_enrichment": 5.0038,
+          "robust_under_method": false
         },
         {
           "token": "rana",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.053,
-          "log_odds_enrichment": 5.0038
+          "log_odds_enrichment": 5.0038,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1422,57 +2466,118 @@
         "other_single_word_proxy": 0.5,
         "property_ending_proxy": 0.025
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 20,
+          "local_rate": 0.5,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.263,
+          "log_odds_enrichment": 0.4367,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 0.3279,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 9,
+          "local_rate": 0.225,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.935,
+          "log_odds_enrichment": -0.0536,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.025,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.549,
+          "log_odds_enrichment": -0.2524,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 10,
+          "local_rate": 0.25,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.807,
+          "log_odds_enrichment": -0.2752,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "eichhornchen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.054,
-          "log_odds_enrichment": 5.0325
+          "log_odds_enrichment": 5.0325,
+          "robust_under_method": false
         },
         {
           "token": "kreis",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.054,
-          "log_odds_enrichment": 5.0325
+          "log_odds_enrichment": 5.0325,
+          "robust_under_method": false
         },
         {
           "token": "maus",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.054,
-          "log_odds_enrichment": 5.0325
+          "log_odds_enrichment": 5.0325,
+          "robust_under_method": false
         },
         {
           "token": "rund",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.054,
-          "log_odds_enrichment": 5.0325
+          "log_odds_enrichment": 5.0325,
+          "robust_under_method": false
         },
         {
           "token": "stinken",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.054,
-          "log_odds_enrichment": 5.0325
+          "log_odds_enrichment": 5.0325,
+          "robust_under_method": false
         },
         {
           "token": "feuer",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 3,
           "member_coverage": 0.054,
-          "log_odds_enrichment": 3.9329
+          "log_odds_enrichment": 3.9329,
+          "robust_under_method": false
         },
         {
           "token": "sich",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 10,
           "member_coverage": 0.054,
-          "log_odds_enrichment": 2.1919
+          "log_odds_enrichment": 2.1919,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1503,36 +2608,94 @@
         "other_single_word_proxy": 0.571,
         "property_ending_proxy": 0.029
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 3,
+          "local_rate": 0.086,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 10.543,
+          "log_odds_enrichment": 2.8371,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 20,
+          "local_rate": 0.571,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.443,
+          "log_odds_enrichment": 0.7232,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.029,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.628,
+          "log_odds_enrichment": -0.1127,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 5,
+          "local_rate": 0.143,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.594,
+          "log_odds_enrichment": -0.5806,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 6,
+          "local_rate": 0.171,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.553,
+          "log_odds_enrichment": -0.7309,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "abwaschung",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.065,
-          "log_odds_enrichment": 5.2231
+          "log_odds_enrichment": 5.2231,
+          "robust_under_method": false
         },
         {
           "token": "fasttag",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.065,
-          "log_odds_enrichment": 5.2231
+          "log_odds_enrichment": 5.2231,
+          "robust_under_method": false
         },
         {
           "token": "topf",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.065,
-          "log_odds_enrichment": 5.2231
+          "log_odds_enrichment": 5.2231,
+          "robust_under_method": false
         },
         {
           "token": "jahr",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.065,
-          "log_odds_enrichment": 3.6118
+          "log_odds_enrichment": 3.6118,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1561,36 +2724,94 @@
         "other_single_word_proxy": 0.303,
         "property_ending_proxy": 0.061
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 12,
+          "local_rate": 0.364,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.511,
+          "log_odds_enrichment": 0.6242,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 0.5235,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 2,
+          "local_rate": 0.061,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 1.331,
+          "log_odds_enrichment": 0.51,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 9,
+          "local_rate": 0.273,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.88,
+          "log_odds_enrichment": -0.1516,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 10,
+          "local_rate": 0.303,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 0.765,
+          "log_odds_enrichment": -0.3942,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "gebahren",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.069,
-          "log_odds_enrichment": 5.2951
+          "log_odds_enrichment": 5.2951,
+          "robust_under_method": false
         },
         {
           "token": "rana",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.069,
-          "log_odds_enrichment": 5.2951
+          "log_odds_enrichment": 5.2951,
+          "robust_under_method": false
         },
         {
           "token": "taje",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.069,
-          "log_odds_enrichment": 5.2951
+          "log_odds_enrichment": 5.2951,
+          "robust_under_method": false
         },
         {
           "token": "lang",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.069,
-          "log_odds_enrichment": 3.6839
+          "log_odds_enrichment": 3.6839,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1619,29 +2840,86 @@
         "nominalization_ending_proxy": 0.031,
         "other_single_word_proxy": 0.188
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.031,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 3.844,
+          "log_odds_enrichment": 1.7855,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 17,
+          "local_rate": 0.531,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 2.208,
+          "log_odds_enrichment": 1.3122,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 8,
+          "local_rate": 0.25,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.807,
+          "log_odds_enrichment": -0.2655,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 6,
+          "local_rate": 0.188,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 0.474,
+          "log_odds_enrichment": -1.0065,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -1.1677,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "maul",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.071,
-          "log_odds_enrichment": 5.3331
+          "log_odds_enrichment": 5.3331,
+          "robust_under_method": false
         },
         {
           "token": "salben",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.071,
-          "log_odds_enrichment": 5.3331
+          "log_odds_enrichment": 5.3331,
+          "robust_under_method": false
         },
         {
           "token": "saugen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.071,
-          "log_odds_enrichment": 5.3331
+          "log_odds_enrichment": 5.3331,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1668,22 +2946,78 @@
         "multiword_or_ambiguous_proxy": 0.233,
         "other_single_word_proxy": 0.667
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 20,
+          "local_rate": 0.667,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.684,
+          "log_odds_enrichment": 1.1195,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 0.6199,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 7,
+          "local_rate": 0.233,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.753,
+          "log_odds_enrichment": -0.3505,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 3,
+          "local_rate": 0.1,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.416,
+          "log_odds_enrichment": -0.9326,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -1.1024,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "strick",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.077,
-          "log_odds_enrichment": 5.4134
+          "log_odds_enrichment": 5.4134,
+          "robust_under_method": false
         },
         {
           "token": "suppe",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.077,
-          "log_odds_enrichment": 3.8021
+          "log_odds_enrichment": 3.8021,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1712,43 +3046,102 @@
         "other_single_word_proxy": 0.276,
         "property_ending_proxy": 0.034
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 13,
+          "local_rate": 0.448,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.863,
+          "log_odds_enrichment": 0.9749,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 0.6541,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.034,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.757,
+          "log_odds_enrichment": 0.0836,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 7,
+          "local_rate": 0.241,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.779,
+          "log_odds_enrichment": -0.3058,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 8,
+          "local_rate": 0.276,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 0.697,
+          "log_odds_enrichment": -0.518,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "anfullen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.08,
-          "log_odds_enrichment": 5.456
+          "log_odds_enrichment": 5.456,
+          "robust_under_method": false
         },
         {
           "token": "saugen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.08,
-          "log_odds_enrichment": 5.456
+          "log_odds_enrichment": 5.456,
+          "robust_under_method": false
         },
         {
           "token": "zerreiben",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.08,
-          "log_odds_enrichment": 5.456
+          "log_odds_enrichment": 5.456,
+          "robust_under_method": false
         },
         {
           "token": "pferd",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 3,
           "member_coverage": 0.08,
-          "log_odds_enrichment": 4.3564
+          "log_odds_enrichment": 4.3564,
+          "robust_under_method": false
         },
         {
           "token": "ross",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.08,
-          "log_odds_enrichment": 3.8447
+          "log_odds_enrichment": 3.8447,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1777,29 +3170,86 @@
         "other_single_word_proxy": 0.32,
         "property_ending_proxy": 0.04
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 0.8031,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 9,
+          "local_rate": 0.36,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.496,
+          "log_odds_enrichment": 0.6095,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.04,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.879,
+          "log_odds_enrichment": 0.2384,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 7,
+          "local_rate": 0.28,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.904,
+          "log_odds_enrichment": -0.1052,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 8,
+          "local_rate": 0.32,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 0.808,
+          "log_odds_enrichment": -0.3066,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "saugen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.095,
-          "log_odds_enrichment": 5.6462
+          "log_odds_enrichment": 5.6462,
+          "robust_under_method": false
         },
         {
           "token": "pferd",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 3,
           "member_coverage": 0.095,
-          "log_odds_enrichment": 4.5467
+          "log_odds_enrichment": 4.5467,
+          "robust_under_method": false
         },
         {
           "token": "ross",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.095,
-          "log_odds_enrichment": 4.0349
+          "log_odds_enrichment": 4.0349,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1830,15 +3280,70 @@
         "other_single_word_proxy": 0.429,
         "property_ending_proxy": 0.048
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.048,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 5.857,
+          "log_odds_enrichment": 2.2242,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.048,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 1.046,
+          "log_odds_enrichment": 0.4201,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 9,
+          "local_rate": 0.429,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.082,
+          "log_odds_enrichment": 0.15,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 6,
+          "local_rate": 0.286,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.922,
+          "log_odds_enrichment": -0.0705,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 4,
+          "local_rate": 0.19,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.792,
+          "log_odds_enrichment": -0.2149,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "fasttag",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.105,
-          "log_odds_enrichment": 5.7562
+          "log_odds_enrichment": 5.7562,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1869,15 +3374,70 @@
         "other_single_word_proxy": 0.429,
         "property_ending_proxy": 0.048
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 2,
+          "local_rate": 0.095,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 11.714,
+          "log_odds_enrichment": 2.8971,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.048,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 1.046,
+          "log_odds_enrichment": 0.4201,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 9,
+          "local_rate": 0.429,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.082,
+          "log_odds_enrichment": 0.15,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 4,
+          "local_rate": 0.19,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.792,
+          "log_odds_enrichment": -0.2149,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 5,
+          "local_rate": 0.238,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.769,
+          "log_odds_enrichment": -0.3039,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "abwaschung",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.111,
-          "log_odds_enrichment": 5.8159
+          "log_odds_enrichment": 5.8159,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1906,15 +3466,70 @@
         "other_single_word_proxy": 0.4,
         "property_ending_proxy": 0.1
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 2,
+          "local_rate": 0.1,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 2.196,
+          "log_odds_enrichment": 1.0535,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.0255,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 7,
+          "local_rate": 0.35,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 1.13,
+          "log_odds_enrichment": 0.2158,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 8,
+          "local_rate": 0.4,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.01,
+          "log_odds_enrichment": 0.0367,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 3,
+          "local_rate": 0.15,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.623,
+          "log_odds_enrichment": -0.4697,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "voraus",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.118,
-          "log_odds_enrichment": 5.8794
+          "log_odds_enrichment": 5.8794,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1941,7 +3556,61 @@
         "multiword_or_ambiguous_proxy": 0.278,
         "other_single_word_proxy": 0.333
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.1299,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 7,
+          "local_rate": 0.389,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.616,
+          "log_odds_enrichment": 0.7326,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 5,
+          "local_rate": 0.278,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.897,
+          "log_odds_enrichment": -0.0996,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 6,
+          "local_rate": 0.333,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 0.842,
+          "log_odds_enrichment": -0.2357,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.592,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1970,7 +3639,61 @@
         "other_single_word_proxy": 0.438,
         "property_ending_proxy": 0.062
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.2459,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.062,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 1.373,
+          "log_odds_enrichment": 0.704,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 7,
+          "local_rate": 0.438,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.105,
+          "log_odds_enrichment": 0.188,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 4,
+          "local_rate": 0.25,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.039,
+          "log_odds_enrichment": 0.127,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 4,
+          "local_rate": 0.25,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.807,
+          "log_odds_enrichment": -0.2248,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -1997,36 +3720,94 @@
         "multiword_or_ambiguous_proxy": 0.125,
         "other_single_word_proxy": 0.562
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.2459,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 9,
+          "local_rate": 0.562,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.421,
+          "log_odds_enrichment": 0.6676,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 5,
+          "local_rate": 0.312,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.299,
+          "log_odds_enrichment": 0.4155,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.4759,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 2,
+          "local_rate": 0.125,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.404,
+          "log_odds_enrichment": -0.9687,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "verkundigen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.143,
-          "log_odds_enrichment": 6.0972
+          "log_odds_enrichment": 6.0972,
+          "robust_under_method": false
         },
         {
           "token": "vier",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.143,
-          "log_odds_enrichment": 6.0972
+          "log_odds_enrichment": 6.0972,
+          "robust_under_method": false
         },
         {
           "token": "andeuten",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 3,
           "member_coverage": 0.143,
-          "log_odds_enrichment": 4.9977
+          "log_odds_enrichment": 4.9977,
+          "robust_under_method": false
         },
         {
           "token": "vierter",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 3,
           "member_coverage": 0.143,
-          "log_odds_enrichment": 4.9977
+          "log_odds_enrichment": 4.9977,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2053,15 +3834,70 @@
         "multiword_or_ambiguous_proxy": 0.222,
         "other_single_word_proxy": 0.278
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 9,
+          "local_rate": 0.5,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 2.078,
+          "log_odds_enrichment": 1.1691,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.1299,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 4,
+          "local_rate": 0.222,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.717,
+          "log_odds_enrichment": -0.3756,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 5,
+          "local_rate": 0.278,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 0.702,
+          "log_odds_enrichment": -0.4832,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.592,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "beissen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.143,
-          "log_odds_enrichment": 6.0972
+          "log_odds_enrichment": 6.0972,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2090,29 +3926,86 @@
         "nominalization_ending_proxy": 0.067,
         "other_single_word_proxy": 0.733
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.067,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 8.2,
+          "log_odds_enrichment": 2.5755,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 11,
+          "local_rate": 0.733,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.852,
+          "log_odds_enrichment": 1.3778,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.4125,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 2,
+          "local_rate": 0.133,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.43,
+          "log_odds_enrichment": -0.896,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.067,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.277,
+          "log_odds_enrichment": -1.1324,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "befehl",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.154,
-          "log_odds_enrichment": 6.1815
+          "log_odds_enrichment": 6.1815,
+          "robust_under_method": false
         },
         {
           "token": "bekenntniss",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.154,
-          "log_odds_enrichment": 6.1815
+          "log_odds_enrichment": 6.1815,
+          "robust_under_method": false
         },
         {
           "token": "gebot",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.154,
-          "log_odds_enrichment": 6.1815
+          "log_odds_enrichment": 6.1815,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2143,15 +4036,70 @@
         "other_single_word_proxy": 0.444,
         "property_ending_proxy": 0.111
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.056,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 6.833,
+          "log_odds_enrichment": 2.385,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 2,
+          "local_rate": 0.111,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 2.44,
+          "log_odds_enrichment": 1.1696,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 8,
+          "local_rate": 0.444,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.123,
+          "log_odds_enrichment": 0.2138,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 3,
+          "local_rate": 0.167,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.693,
+          "log_odds_enrichment": -0.3461,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 4,
+          "local_rate": 0.222,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.717,
+          "log_odds_enrichment": -0.3756,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "namen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.154,
-          "log_odds_enrichment": 6.1815
+          "log_odds_enrichment": 6.1815,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2178,22 +4126,78 @@
         "multiword_or_ambiguous_proxy": 0.25,
         "other_single_word_proxy": 0.5
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.5269,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 6,
+          "local_rate": 0.5,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.263,
+          "log_odds_enrichment": 0.4264,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 3,
+          "local_rate": 0.25,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.039,
+          "log_odds_enrichment": 0.1499,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.1948,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 3,
+          "local_rate": 0.25,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.807,
+          "log_odds_enrichment": -0.2007,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "asche",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.182,
-          "log_odds_enrichment": 6.3743
+          "log_odds_enrichment": 6.3743,
+          "robust_under_method": false
         },
         {
           "token": "jaten",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.182,
-          "log_odds_enrichment": 6.3743
+          "log_odds_enrichment": 6.3743,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2220,15 +4224,70 @@
         "multiword_or_ambiguous_proxy": 0.083,
         "other_single_word_proxy": 0.833
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 10,
+          "local_rate": 0.833,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 2.105,
+          "log_odds_enrichment": 1.8752,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.5269,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.1948,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.083,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.346,
+          "log_odds_enrichment": -0.8974,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 1,
+          "local_rate": 0.083,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.269,
+          "log_odds_enrichment": -1.2468,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "ehemann",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.182,
-          "log_odds_enrichment": 4.7631
+          "log_odds_enrichment": 4.7631,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2257,15 +4316,70 @@
         "nominalization_ending_proxy": 0.071,
         "other_single_word_proxy": 0.643
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.071,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 8.786,
+          "log_odds_enrichment": 2.6478,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 9,
+          "local_rate": 0.643,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.624,
+          "log_odds_enrichment": 0.9805,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.3449,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 2,
+          "local_rate": 0.143,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.594,
+          "log_odds_enrichment": -0.4676,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 2,
+          "local_rate": 0.143,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.461,
+          "log_odds_enrichment": -0.8179,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "bekenntniss",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.182,
-          "log_odds_enrichment": 6.3743
+          "log_odds_enrichment": 6.3743,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2292,7 +4406,61 @@
         "multiword_or_ambiguous_proxy": 0.5,
         "other_single_word_proxy": 0.167
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.5269,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 6,
+          "local_rate": 0.5,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 1.614,
+          "log_odds_enrichment": 0.8093,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 4,
+          "local_rate": 0.333,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.385,
+          "log_odds_enrichment": 0.517,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.1948,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 2,
+          "local_rate": 0.167,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 0.421,
+          "log_odds_enrichment": -1.0224,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2319,22 +4487,78 @@
         "multiword_or_ambiguous_proxy": 0.067,
         "other_single_word_proxy": 0.8
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 12,
+          "local_rate": 0.8,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 2.021,
+          "log_odds_enrichment": 1.7159,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.3093,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.4125,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 2,
+          "local_rate": 0.133,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.554,
+          "log_odds_enrichment": -0.5457,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 1,
+          "local_rate": 0.067,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.215,
+          "log_odds_enrichment": -1.4821,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "wuste",
           "member_key_document_frequency": 3,
           "global_key_document_frequency": 3,
           "member_coverage": 0.3,
-          "log_odds_enrichment": 6.9481
+          "log_odds_enrichment": 6.9481,
+          "robust_under_method": true
         },
         {
           "token": "einode",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.2,
-          "log_odds_enrichment": 6.4864
+          "log_odds_enrichment": 6.4864,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 1,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2363,22 +4587,78 @@
         "other_single_word_proxy": 0.667,
         "property_ending_proxy": 0.067
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.3093,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 10,
+          "local_rate": 0.667,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.684,
+          "log_odds_enrichment": 1.0827,
+          "robust_under_method": true
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.067,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 1.464,
+          "log_odds_enrichment": 0.7715,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 2,
+          "local_rate": 0.133,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.554,
+          "log_odds_enrichment": -0.5457,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 2,
+          "local_rate": 0.133,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.43,
+          "log_odds_enrichment": -0.896,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "tag",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.222,
-          "log_odds_enrichment": 5.0013
+          "log_odds_enrichment": 5.0013,
+          "robust_under_method": false
         },
         {
           "token": "boses",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 6,
           "member_coverage": 0.222,
-          "log_odds_enrichment": 4.4117
+          "log_odds_enrichment": 4.4117,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 1,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2407,29 +4687,86 @@
         "other_single_word_proxy": 0.385,
         "property_ending_proxy": 0.308
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 4,
+          "local_rate": 0.308,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 6.758,
+          "log_odds_enrichment": 2.3529,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.4491,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 5,
+          "local_rate": 0.385,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 0.971,
+          "log_odds_enrichment": -0.0137,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 3,
+          "local_rate": 0.231,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.745,
+          "log_odds_enrichment": -0.302,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.077,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.32,
+          "log_odds_enrichment": -0.9818,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "bedrangt",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.25,
-          "log_odds_enrichment": 6.7565
+          "log_odds_enrichment": 6.7565,
+          "robust_under_method": false
         },
         {
           "token": "verungluckt",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.25,
-          "log_odds_enrichment": 6.7565
+          "log_odds_enrichment": 6.7565,
+          "robust_under_method": false
         },
         {
           "token": "arm",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 3,
           "member_coverage": 0.25,
-          "log_odds_enrichment": 5.657
+          "log_odds_enrichment": 5.657,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2456,22 +4793,78 @@
         "multiword_or_ambiguous_proxy": 0.111,
         "other_single_word_proxy": 0.556
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.8038,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 5,
+          "local_rate": 0.556,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.403,
+          "log_odds_enrichment": 0.6277,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 3,
+          "local_rate": 0.333,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.385,
+          "log_odds_enrichment": 0.5327,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 0.0822,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 1,
+          "local_rate": 0.111,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.359,
+          "log_odds_enrichment": -0.9409,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "huhn",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.25,
-          "log_odds_enrichment": 6.7565
+          "log_odds_enrichment": 6.7565,
+          "robust_under_method": false
         },
         {
           "token": "stern",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.25,
-          "log_odds_enrichment": 6.7565
+          "log_odds_enrichment": 6.7565,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2498,22 +4891,78 @@
         "multiword_or_ambiguous_proxy": 0.125,
         "other_single_word_proxy": 0.25
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.9159,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 5,
+          "local_rate": 0.625,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 2.597,
+          "log_odds_enrichment": 1.6137,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 0.1943,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 2,
+          "local_rate": 0.25,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 0.631,
+          "log_odds_enrichment": -0.5374,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 1,
+          "local_rate": 0.125,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.404,
+          "log_odds_enrichment": -0.8146,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "sechs",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.286,
-          "log_odds_enrichment": 6.9244
+          "log_odds_enrichment": 6.9244,
+          "robust_under_method": false
         },
         {
           "token": "scherben",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 3,
           "member_coverage": 0.286,
-          "log_odds_enrichment": 5.8249
+          "log_odds_enrichment": 5.8249,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2540,15 +4989,70 @@
         "multiword_or_ambiguous_proxy": 0.286,
         "other_single_word_proxy": 0.143
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 2.0418,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 4,
+          "local_rate": 0.571,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 2.375,
+          "log_odds_enrichment": 1.4096,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 0.3203,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 2,
+          "local_rate": 0.286,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.922,
+          "log_odds_enrichment": 0.0114,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 1,
+          "local_rate": 0.143,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 0.361,
+          "log_odds_enrichment": -1.0503,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "gehen",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.333,
-          "log_odds_enrichment": 5.5148
+          "log_odds_enrichment": 5.5148,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2575,7 +5079,61 @@
         "multiword_or_ambiguous_proxy": 0.143,
         "other_single_word_proxy": 0.571
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 2.0418,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 4,
+          "local_rate": 0.571,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 1.443,
+          "log_odds_enrichment": 0.6776,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 2,
+          "local_rate": 0.286,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 1.187,
+          "log_odds_enrichment": 0.3609,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 0.3203,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 1,
+          "local_rate": 0.143,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.461,
+          "log_odds_enrichment": -0.6703,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2602,15 +5160,70 @@
         "multiword_or_ambiguous_proxy": 0.625,
         "other_single_word_proxy": 0.25
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.9159,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 5,
+          "local_rate": 0.625,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 2.018,
+          "log_odds_enrichment": 1.2622,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 0.1943,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.125,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.519,
+          "log_odds_enrichment": -0.4656,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 2,
+          "local_rate": 0.25,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 0.631,
+          "log_odds_enrichment": -0.5374,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "tag",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 4,
           "member_coverage": 0.4,
-          "log_odds_enrichment": 5.767
+          "log_odds_enrichment": 5.767,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2637,15 +5250,70 @@
         "multiword_or_ambiguous_proxy": 0.2,
         "property_ending_proxy": 0.2
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 2.3536,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 1,
+          "local_rate": 0.2,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 4.393,
+          "log_odds_enrichment": 1.9502,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 3,
+          "local_rate": 0.6,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 2.493,
+          "log_odds_enrichment": 1.4925,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 1,
+          "local_rate": 0.2,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.646,
+          "log_odds_enrichment": -0.3002,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -1.9826,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [
         {
           "token": "gestern",
           "member_key_document_frequency": 2,
           "global_key_document_frequency": 2,
           "member_coverage": 0.5,
-          "log_odds_enrichment": 7.7156
+          "log_odds_enrichment": 7.7156,
+          "robust_under_method": false
         }
       ],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,
@@ -2668,7 +5336,61 @@
       "german_word_shape_proxy_rates": {
         "other_single_word_proxy": 1.0
       },
+      "german_word_shape_proxy_enrichment": [
+        {
+          "proxy": "nominalization_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 10,
+          "global_rate": 0.008,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 2.8073,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "other_single_word_proxy",
+          "local_count": 3,
+          "local_rate": 1.0,
+          "global_count": 487,
+          "global_rate": 0.396,
+          "rate_ratio": 2.526,
+          "log_odds_enrichment": 2.3742,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "property_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 56,
+          "global_rate": 0.046,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": 1.0859,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "infinitive_ending_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 296,
+          "global_rate": 0.241,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -0.8012,
+          "robust_under_method": false
+        },
+        {
+          "proxy": "multiword_or_ambiguous_proxy",
+          "local_count": 0,
+          "local_rate": 0.0,
+          "global_count": 381,
+          "global_rate": 0.31,
+          "rate_ratio": 0.0,
+          "log_odds_enrichment": -1.1489,
+          "robust_under_method": false
+        }
+      ],
       "top_german_context_token_associations": [],
+      "robust_token_association_count": 0,
+      "robust_proxy_association_count": 0,
       "status": "machine_documentary_context_association",
       "human_reviewed": false,
       "automatic_semantic_classification": false,

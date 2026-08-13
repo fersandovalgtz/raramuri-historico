@@ -1,28 +1,28 @@
-association_id,pattern_id,pattern,pattern_type,pattern_member_count,context_covered_member_count,context_coverage_ratio,german_context_string_count,top_tokens,human_reviewed
-RHD-GCTX-P-00001,RHD-GPAT-00008,eke,recurrent_suffix_candidate,174,174,1.0,202,allwissend | altes | getauft | kugelformig | rund | sandig | sieden | stacameke | steig | stein | weib | weiss | ehemann | kalt | sterblich,False
-RHD-GCTX-P-00002,RHD-GPAT-00009,meke,recurrent_suffix_candidate,149,149,1.0,176,allwissend | altes | getauft | kugelformig | rund | sandig | sieden | stacameke | weib | weiss | ehemann | sterblich | waizen | thun | besser,False
-RHD-GCTX-P-00003,RHD-GPAT-00010,ameke,recurrent_suffix_candidate,147,147,1.0,174,allwissend | altes | getauft | kugelformig | rund | sandig | sieden | stacameke | weib | weiss | ehemann | sterblich | waizen | thun,False
-RHD-GCTX-P-00004,RHD-GPAT-00011,iki,recurrent_suffix_candidate,78,78,1.0,90,abwaschung | fallen | fasttag | festtag | schweif | sechs | topf | scherben | jahr | waizen | sich | seyn,False
-RHD-GCTX-P-00005,RHD-GPAT-00001,tsc,recurrent_prefix_candidate,63,63,1.0,69,ergreifen | eichhornchen | kreis | kriechen | maul | maus | rund | salben | saugen | schlagen | stinken | feuer | sich,False
-RHD-GCTX-P-00006,RHD-GPAT-00002,tsch,recurrent_prefix_candidate,62,62,1.0,68,ergreifen | eichhornchen | kreis | kriechen | maul | maus | rund | salben | saugen | schlagen | stinken | feuer | sich,False
-RHD-GCTX-P-00007,RHD-GPAT-00018,aca,recurrent_suffix_candidate,49,49,1.0,51,saite | ziegelerde,False
-RHD-GCTX-P-00008,RHD-GPAT-00012,gameke,recurrent_suffix_candidate,44,44,1.0,56,allwissend | getauft,False
-RHD-GCTX-P-00009,RHD-GPAT-00019,ala,recurrent_suffix_candidate,39,39,1.0,43,korper | namen,False
-RHD-GCTX-P-00010,RHD-GPAT-00015,ila,recurrent_suffix_candidate,37,37,1.0,43,bekenntniss | gebot | hulfe | strick | suppe,False
-RHD-GCTX-P-00011,RHD-GPAT-00016,liki,recurrent_suffix_candidate,31,31,1.0,35,abwaschung | fasttag | topf | jahr,False
-RHD-GCTX-P-00012,RHD-GPAT-00003,tschi,recurrent_prefix_candidate,28,28,1.0,30,eichhornchen | kreis | maus | rund | stinken | feuer,False
-RHD-GCTX-P-00013,RHD-GPAT-00013,iameke,recurrent_suffix_candidate,28,28,1.0,35,sterblich,False
-RHD-GCTX-P-00014,RHD-GPAT-00014,ugameke,recurrent_suffix_candidate,27,27,1.0,31,getauft,False
-RHD-GCTX-P-00015,RHD-GPAT-00020,chi,recurrent_suffix_candidate,23,23,1.0,27,saugen | pferd | ross,False
-RHD-GCTX-P-00016,RHD-GPAT-00017,jameke,recurrent_suffix_candidate,22,22,1.0,25,sieden,False
-RHD-GCTX-P-00017,RHD-GPAT-00021,tschi,recurrent_suffix_candidate,21,21,1.0,25,saugen | pferd | ross,False
-RHD-GCTX-P-00018,RHD-GPAT-00022,oco,recurrent_suffix_candidate,18,18,1.0,20,asche | geisseln,False
-RHD-GCTX-P-00019,RHD-GPAT-00023,lila,recurrent_suffix_candidate,11,11,1.0,13,bekenntniss | gebot,False
-RHD-GCTX-P-00020,RHD-GPAT-00024,lameke,recurrent_suffix_candidate,7,7,1.0,9,altes | kugelformig | rund | weib,False
-RHD-GCTX-P-00021,RHD-GPAT-00004,tschit,recurrent_prefix_candidate,7,7,1.0,9,,False
-RHD-GCTX-P-00022,RHD-GPAT-00006,pig,recurrent_prefix_candidate,4,4,1.0,6,bekenntniss,False
-RHD-GCTX-P-00023,RHD-GPAT-00005,tessigu,recurrent_prefix_candidate,4,4,1.0,9,,False
-RHD-GCTX-P-00024,RHD-GPAT-00025,uiameke,recurrent_suffix_candidate,4,4,1.0,9,,False
-RHD-GCTX-P-00025,RHD-GPAT-00026,utschi,recurrent_suffix_candidate,4,4,1.0,7,,False
-RHD-GCTX-P-00026,RHD-GPAT-00027,ulameke,recurrent_suffix_candidate,3,3,1.0,5,rund,False
-RHD-GCTX-P-00027,RHD-GPAT-00007,pigu,recurrent_prefix_candidate,3,3,1.0,5,,False
+association_id,pattern_id,pattern,pattern_type,pattern_member_count,context_covered_member_count,context_coverage_ratio,german_context_string_count,robust_token_association_count,robust_proxy_association_count,top_tokens,robust_proxies,human_reviewed
+RHD-GCTX-P-00001,RHD-GPAT-00008,eke,recurrent_suffix_candidate,174,174,1.0,202,0,1,allwissend | altes | getauft | kugelformig | rund | sandig | sieden | stacameke | steig | stein | weib | weiss | ehemann | kalt | sterblich,property_ending_proxy,False
+RHD-GCTX-P-00002,RHD-GPAT-00009,meke,recurrent_suffix_candidate,149,149,1.0,176,0,1,allwissend | altes | getauft | kugelformig | rund | sandig | sieden | stacameke | weib | weiss | ehemann | sterblich | waizen | thun | besser,property_ending_proxy,False
+RHD-GCTX-P-00003,RHD-GPAT-00010,ameke,recurrent_suffix_candidate,147,147,1.0,174,0,1,allwissend | altes | getauft | kugelformig | rund | sandig | sieden | stacameke | weib | weiss | ehemann | sterblich | waizen | thun,property_ending_proxy,False
+RHD-GCTX-P-00004,RHD-GPAT-00011,iki,recurrent_suffix_candidate,78,78,1.0,90,0,0,abwaschung | fallen | fasttag | festtag | schweif | sechs | topf | scherben | jahr | waizen | sich | seyn,,False
+RHD-GCTX-P-00005,RHD-GPAT-00001,tsc,recurrent_prefix_candidate,63,63,1.0,69,0,0,ergreifen | eichhornchen | kreis | kriechen | maul | maus | rund | salben | saugen | schlagen | stinken | feuer | sich,,False
+RHD-GCTX-P-00006,RHD-GPAT-00002,tsch,recurrent_prefix_candidate,62,62,1.0,68,0,0,ergreifen | eichhornchen | kreis | kriechen | maul | maus | rund | salben | saugen | schlagen | stinken | feuer | sich,,False
+RHD-GCTX-P-00007,RHD-GPAT-00018,aca,recurrent_suffix_candidate,49,49,1.0,51,0,1,saite | ziegelerde,other_single_word_proxy,False
+RHD-GCTX-P-00008,RHD-GPAT-00012,gameke,recurrent_suffix_candidate,44,44,1.0,56,0,0,allwissend | getauft,,False
+RHD-GCTX-P-00009,RHD-GPAT-00019,ala,recurrent_suffix_candidate,39,39,1.0,43,0,1,korper | namen,other_single_word_proxy,False
+RHD-GCTX-P-00010,RHD-GPAT-00015,ila,recurrent_suffix_candidate,37,37,1.0,43,0,1,bekenntniss | gebot | hulfe | strick | suppe,other_single_word_proxy,False
+RHD-GCTX-P-00011,RHD-GPAT-00016,liki,recurrent_suffix_candidate,31,31,1.0,35,0,0,abwaschung | fasttag | topf | jahr,,False
+RHD-GCTX-P-00012,RHD-GPAT-00003,tschi,recurrent_prefix_candidate,28,28,1.0,30,0,0,eichhornchen | kreis | maus | rund | stinken | feuer,,False
+RHD-GCTX-P-00013,RHD-GPAT-00013,iameke,recurrent_suffix_candidate,28,28,1.0,35,0,1,sterblich,property_ending_proxy,False
+RHD-GCTX-P-00014,RHD-GPAT-00014,ugameke,recurrent_suffix_candidate,27,27,1.0,31,0,1,getauft,infinitive_ending_proxy,False
+RHD-GCTX-P-00015,RHD-GPAT-00020,chi,recurrent_suffix_candidate,23,23,1.0,27,0,0,saugen | pferd | ross,,False
+RHD-GCTX-P-00016,RHD-GPAT-00017,jameke,recurrent_suffix_candidate,22,22,1.0,25,0,0,sieden,,False
+RHD-GCTX-P-00017,RHD-GPAT-00021,tschi,recurrent_suffix_candidate,21,21,1.0,25,0,0,saugen | pferd | ross,,False
+RHD-GCTX-P-00018,RHD-GPAT-00022,oco,recurrent_suffix_candidate,18,18,1.0,20,0,0,asche | geisseln,,False
+RHD-GCTX-P-00019,RHD-GPAT-00023,lila,recurrent_suffix_candidate,11,11,1.0,13,0,1,bekenntniss | gebot,other_single_word_proxy,False
+RHD-GCTX-P-00020,RHD-GPAT-00024,lameke,recurrent_suffix_candidate,7,7,1.0,9,0,0,altes | kugelformig | rund | weib,,False
+RHD-GCTX-P-00021,RHD-GPAT-00004,tschit,recurrent_prefix_candidate,7,7,1.0,9,0,0,,,False
+RHD-GCTX-P-00022,RHD-GPAT-00006,pig,recurrent_prefix_candidate,4,4,1.0,6,0,0,bekenntniss,,False
+RHD-GCTX-P-00023,RHD-GPAT-00005,tessigu,recurrent_prefix_candidate,4,4,1.0,9,0,0,,,False
+RHD-GCTX-P-00024,RHD-GPAT-00025,uiameke,recurrent_suffix_candidate,4,4,1.0,9,0,0,,,False
+RHD-GCTX-P-00025,RHD-GPAT-00026,utschi,recurrent_suffix_candidate,4,4,1.0,7,0,0,,,False
+RHD-GCTX-P-00026,RHD-GPAT-00027,ulameke,recurrent_suffix_candidate,3,3,1.0,5,0,0,rund,,False
+RHD-GCTX-P-00027,RHD-GPAT-00007,pigu,recurrent_prefix_candidate,3,3,1.0,5,0,0,,,False

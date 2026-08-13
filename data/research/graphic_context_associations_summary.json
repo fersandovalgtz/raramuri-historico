@@ -23,7 +23,9 @@
       "covered_members": 3,
       "top_token": "rund",
       "top_token_member_df": 2,
-      "top_token_log_odds": 8.2273
+      "top_token_member_coverage": 0.667,
+      "top_token_log_odds": 8.2273,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00006",
@@ -32,7 +34,9 @@
       "covered_members": 4,
       "top_token": "bekenntniss",
       "top_token_member_df": 2,
-      "top_token_log_odds": 7.7156
+      "top_token_member_coverage": 0.5,
+      "top_token_log_odds": 7.7156,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00024",
@@ -41,7 +45,9 @@
       "covered_members": 7,
       "top_token": "altes",
       "top_token_member_df": 2,
-      "top_token_log_odds": 6.9244
+      "top_token_member_coverage": 0.286,
+      "top_token_log_odds": 6.9244,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00023",
@@ -50,7 +56,9 @@
       "covered_members": 11,
       "top_token": "bekenntniss",
       "top_token_member_df": 2,
-      "top_token_log_odds": 6.3743
+      "top_token_member_coverage": 0.182,
+      "top_token_log_odds": 6.3743,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00022",
@@ -59,7 +67,9 @@
       "covered_members": 18,
       "top_token": "asche",
       "top_token_member_df": 2,
-      "top_token_log_odds": 5.8159
+      "top_token_member_coverage": 0.111,
+      "top_token_log_odds": 5.8159,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00021",
@@ -68,7 +78,9 @@
       "covered_members": 21,
       "top_token": "saugen",
       "top_token_member_df": 2,
-      "top_token_log_odds": 5.6462
+      "top_token_member_coverage": 0.095,
+      "top_token_log_odds": 5.6462,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00017",
@@ -77,7 +89,9 @@
       "covered_members": 22,
       "top_token": "sieden",
       "top_token_member_df": 2,
-      "top_token_log_odds": 5.5953
+      "top_token_member_coverage": 0.091,
+      "top_token_log_odds": 5.5953,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00020",
@@ -86,7 +100,9 @@
       "covered_members": 23,
       "top_token": "saugen",
       "top_token_member_df": 2,
-      "top_token_log_odds": 5.5467
+      "top_token_member_coverage": 0.087,
+      "top_token_log_odds": 5.5467,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00014",
@@ -95,7 +111,9 @@
       "covered_members": 27,
       "top_token": "getauft",
       "top_token_member_df": 2,
-      "top_token_log_odds": 5.3725
+      "top_token_member_coverage": 0.074,
+      "top_token_log_odds": 5.3725,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00003",
@@ -104,7 +122,9 @@
       "covered_members": 28,
       "top_token": "eichhornchen",
       "top_token_member_df": 2,
-      "top_token_log_odds": 5.3331
+      "top_token_member_coverage": 0.071,
+      "top_token_log_odds": 5.3331,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00016",
@@ -113,7 +133,9 @@
       "covered_members": 31,
       "top_token": "abwaschung",
       "top_token_member_df": 2,
-      "top_token_log_odds": 5.2231
+      "top_token_member_coverage": 0.065,
+      "top_token_log_odds": 5.2231,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00015",
@@ -122,7 +144,9 @@
       "covered_members": 37,
       "top_token": "bekenntniss",
       "top_token_member_df": 2,
-      "top_token_log_odds": 5.0325
+      "top_token_member_coverage": 0.054,
+      "top_token_log_odds": 5.0325,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00019",
@@ -131,7 +155,9 @@
       "covered_members": 39,
       "top_token": "korper",
       "top_token_member_df": 2,
-      "top_token_log_odds": 4.9758
+      "top_token_member_coverage": 0.051,
+      "top_token_log_odds": 4.9758,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00012",
@@ -140,7 +166,9 @@
       "covered_members": 44,
       "top_token": "allwissend",
       "top_token_member_df": 2,
-      "top_token_log_odds": 4.846
+      "top_token_member_coverage": 0.045,
+      "top_token_log_odds": 4.846,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00002",
@@ -149,7 +177,9 @@
       "covered_members": 62,
       "top_token": "ergreifen",
       "top_token_member_df": 3,
-      "top_token_log_odds": 4.8293
+      "top_token_member_coverage": 0.048,
+      "top_token_log_odds": 4.8293,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00001",
@@ -158,7 +188,9 @@
       "covered_members": 63,
       "top_token": "ergreifen",
       "top_token_member_df": 3,
-      "top_token_log_odds": 4.8116
+      "top_token_member_coverage": 0.048,
+      "top_token_log_odds": 4.8116,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00018",
@@ -167,7 +199,9 @@
       "covered_members": 49,
       "top_token": "saite",
       "top_token_member_df": 2,
-      "top_token_log_odds": 4.7302
+      "top_token_member_coverage": 0.041,
+      "top_token_log_odds": 4.7302,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00011",
@@ -176,7 +210,9 @@
       "covered_members": 78,
       "top_token": "abwaschung",
       "top_token_member_df": 2,
-      "top_token_log_odds": 4.2263
+      "top_token_member_coverage": 0.026,
+      "top_token_log_odds": 4.2263,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00013",
@@ -185,7 +221,9 @@
       "covered_members": 28,
       "top_token": "sterblich",
       "top_token_member_df": 2,
-      "top_token_log_odds": 3.7218
+      "top_token_member_coverage": 0.071,
+      "top_token_log_odds": 3.7218,
+      "robust_under_method": false
     },
     {
       "pattern_id": "RHD-GPAT-00010",
@@ -194,13 +232,147 @@
       "covered_members": 147,
       "top_token": "allwissend",
       "top_token_member_df": 2,
-      "top_token_log_odds": 3.5153
+      "top_token_member_coverage": 0.014,
+      "top_token_log_odds": 3.5153,
+      "robust_under_method": false
     }
   ],
+  "robust_pattern_token_association_count": 0,
+  "robust_pattern_token_associations": [],
+  "robust_pattern_proxy_association_count": 9,
+  "robust_pattern_proxy_associations": [
+    {
+      "pattern_id": "RHD-GPAT-00013",
+      "pattern": "iameke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "context_count": 35,
+      "proxy": "property_ending_proxy",
+      "local_count": 9,
+      "local_rate": 0.257,
+      "global_count": 56,
+      "global_rate": 0.046,
+      "rate_ratio": 5.648,
+      "log_odds_enrichment": 2.1596,
+      "robust_under_method": true
+    },
+    {
+      "pattern_id": "RHD-GPAT-00015",
+      "pattern": "ila",
+      "pattern_type": "recurrent_suffix_candidate",
+      "context_count": 43,
+      "proxy": "other_single_word_proxy",
+      "local_count": 35,
+      "local_rate": 0.814,
+      "global_count": 487,
+      "global_rate": 0.396,
+      "rate_ratio": 2.056,
+      "log_odds_enrichment": 1.9152,
+      "robust_under_method": true
+    },
+    {
+      "pattern_id": "RHD-GPAT-00010",
+      "pattern": "ameke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "context_count": 174,
+      "proxy": "property_ending_proxy",
+      "local_count": 26,
+      "local_rate": 0.149,
+      "global_count": 56,
+      "global_rate": 0.046,
+      "rate_ratio": 3.282,
+      "log_odds_enrichment": 1.7927,
+      "robust_under_method": true
+    },
+    {
+      "pattern_id": "RHD-GPAT-00009",
+      "pattern": "meke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "context_count": 176,
+      "proxy": "property_ending_proxy",
+      "local_count": 26,
+      "local_rate": 0.148,
+      "global_count": 56,
+      "global_rate": 0.046,
+      "rate_ratio": 3.245,
+      "log_odds_enrichment": 1.7774,
+      "robust_under_method": true
+    },
+    {
+      "pattern_id": "RHD-GPAT-00008",
+      "pattern": "eke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "context_count": 202,
+      "proxy": "property_ending_proxy",
+      "local_count": 28,
+      "local_rate": 0.139,
+      "global_count": 56,
+      "global_rate": 0.046,
+      "rate_ratio": 3.045,
+      "log_odds_enrichment": 1.7463,
+      "robust_under_method": true
+    },
+    {
+      "pattern_id": "RHD-GPAT-00023",
+      "pattern": "lila",
+      "pattern_type": "recurrent_suffix_candidate",
+      "context_count": 13,
+      "proxy": "other_single_word_proxy",
+      "local_count": 10,
+      "local_rate": 0.769,
+      "global_count": 487,
+      "global_rate": 0.396,
+      "rate_ratio": 1.943,
+      "log_odds_enrichment": 1.5374,
+      "robust_under_method": true
+    },
+    {
+      "pattern_id": "RHD-GPAT-00018",
+      "pattern": "aca",
+      "pattern_type": "recurrent_suffix_candidate",
+      "context_count": 51,
+      "proxy": "other_single_word_proxy",
+      "local_count": 36,
+      "local_rate": 0.706,
+      "global_count": 487,
+      "global_rate": 0.396,
+      "rate_ratio": 1.783,
+      "log_odds_enrichment": 1.3349,
+      "robust_under_method": true
+    },
+    {
+      "pattern_id": "RHD-GPAT-00014",
+      "pattern": "ugameke",
+      "pattern_type": "recurrent_suffix_candidate",
+      "context_count": 31,
+      "proxy": "infinitive_ending_proxy",
+      "local_count": 16,
+      "local_rate": 0.516,
+      "global_count": 296,
+      "global_rate": 0.241,
+      "rate_ratio": 2.145,
+      "log_odds_enrichment": 1.2498,
+      "robust_under_method": true
+    },
+    {
+      "pattern_id": "RHD-GPAT-00019",
+      "pattern": "ala",
+      "pattern_type": "recurrent_suffix_candidate",
+      "context_count": 43,
+      "proxy": "other_single_word_proxy",
+      "local_count": 28,
+      "local_rate": 0.651,
+      "global_count": 487,
+      "global_rate": 0.396,
+      "rate_ratio": 1.645,
+      "log_odds_enrichment": 1.0699,
+      "robust_under_method": true
+    }
+  ],
+  "robustness_note": "Token robustness requires member_df>=3, member coverage>=0.10 and log-odds>=1.5. Proxy robustness requires >=10 context strings, local count>=5, local rate >=1.5x global and +0.05 absolute, and log-odds>=0.75. These remain machine signals, not semantic or grammatical classifications.",
   "human_reviewed": false,
   "automatic_semantic_classification": false,
   "automatic_part_of_speech_tagging": false,
   "automatic_morphological_analysis": false,
   "automatic_morpheme_assignment": false,
-  "method": "document_frequency_log_odds_context_association_v1"
+  "method": "document_frequency_log_odds_context_association_v2"
 }

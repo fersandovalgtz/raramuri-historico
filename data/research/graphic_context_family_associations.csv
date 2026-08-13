@@ -1,48 +1,48 @@
-association_id,family_hypothesis_id,seed_recovery_id,seed_graphic_key,family_key_count,context_covered_key_count,context_coverage_ratio,german_context_string_count,top_tokens,human_reviewed
-RHD-GCTX-F-00001,RHD-GFAM-00001,RHD-RREC-000043,thulameke,152,152,1.0,179,kalt | allwissend | altes | getauft | kugelformig | rund | sandig | sieden | stacameke | weib | weiss | ehemann | sterblich | waizen | thun,False
-RHD-GCTX-F-00002,RHD-GFAM-00002,RHD-RREC-000031,pahiameke,151,151,1.0,178,allwissend | altes | getauft | kugelformig | rund | sandig | sieden | stacameke | weib | weiss | ehemann | sterblich | waizen | thun | besser,False
-RHD-GCTX-F-00003,RHD-GFAM-00003,RHD-RREC-000006,peguameke,151,151,1.0,178,allwissend | altes | getauft | hart | kugelformig | rund | sandig | sieden | stacameke | weib | weiss | ehemann | sterblich | waizen | thun,False
-RHD-GCTX-F-00004,RHD-GFAM-00004,RHD-RREC-000004,repagameke,80,80,1.0,96,allwissend | altes | getauft | weib | ehemann | waizen,False
-RHD-GCTX-F-00005,RHD-GFAM-00005,RHD-RREC-000028,jolarugameke,72,72,1.0,83,altes | getauft | weib | ehemann | waizen | machen | thun,False
-RHD-GCTX-F-00006,RHD-GFAM-00006,RHD-RREC-000017,polirugameke,68,68,1.0,79,altes | getauft | weib | ehemann | waizen,False
-RHD-GCTX-F-00007,RHD-GFAM-00007,RHD-RREC-000034,pagorugameke,67,67,1.0,78,altes | getauft | weib | ehemann | waizen,False
-RHD-GCTX-F-00008,RHD-GFAM-00008,RHD-RREC-000029,tschitulameke,66,66,1.0,73,altes | kreis | kugelformig | rund | stinken | weib | ort | ehemann,False
-RHD-GCTX-F-00009,RHD-GFAM-00009,RHD-RREC-000035,bassujameke,63,63,1.0,70,altes | sieden | weib | ehemann | besser,False
-RHD-GCTX-F-00010,RHD-GFAM-00010,RHD-RREC-000044,tschepi,62,62,1.0,68,ergreifen | eichhornchen | kreis | kriechen | maul | maus | rund | salben | saugen | schlagen | stinken | feuer | sich,False
-RHD-GCTX-F-00011,RHD-GFAM-00011,RHD-RREC-000023,mujajameke,60,60,1.0,67,altes | rost | sieden | weib | ehemann | besser,False
-RHD-GCTX-F-00012,RHD-GFAM-00012,RHD-RREC-000016,cocojameke,59,59,1.0,66,altes | sieden | weib | krank | ehemann | besser,False
-RHD-GCTX-F-00013,RHD-GFAM-00013,RHD-RREC-000033,ta pagotugameke,58,58,1.0,69,altes | getauft | weib | ehemann | waizen,False
-RHD-GCTX-F-00014,RHD-GFAM-00014,RHD-RREC-000002,loguiameke,57,57,1.0,67,altes | rasen | weib | ehemann | sterblich,False
-RHD-GCTX-F-00015,RHD-GFAM-00015,RHD-RREC-000037,nalsiameke,56,56,1.0,66,altes | weib | ehemann | sterblich,False
-RHD-GCTX-F-00016,RHD-GFAM-00016,RHD-RREC-000010,schuguiameke,51,51,1.0,61,altes | verzehren | weib | ehemann,False
-RHD-GCTX-F-00017,RHD-GFAM-00017,RHD-RREC-000024,paca,38,38,1.0,41,gebahren | rana,False
-RHD-GCTX-F-00018,RHD-GFAM-00018,RHD-RREC-000025,tschitula,37,37,1.0,40,eichhornchen | kreis | maus | rund | stinken | feuer | sich,False
-RHD-GCTX-F-00019,RHD-GFAM-00019,RHD-RREC-000021,pepuliki,31,31,1.0,35,abwaschung | fasttag | topf | jahr,False
-RHD-GCTX-F-00020,RHD-GFAM-00020,RHD-RREC-000020,naja,29,29,1.0,33,gebahren | rana | taje | lang,False
-RHD-GCTX-F-00021,RHD-GFAM-00021,RHD-RREC-000003,tschutscha,28,28,1.0,32,maul | salben | saugen,False
-RHD-GCTX-F-00022,RHD-GFAM-00022,RHD-RREC-000008,buila,26,26,1.0,30,strick | suppe,False
-RHD-GCTX-F-00023,RHD-GFAM-00023,RHD-RREC-000014,tutschi,25,25,1.0,29,anfullen | saugen | zerreiben | pferd | ross,False
-RHD-GCTX-F-00024,RHD-GFAM-00024,RHD-RREC-000027,cajutschi,21,21,1.0,25,saugen | pferd | ross,False
-RHD-GCTX-F-00025,RHD-GFAM-00025,RHD-RREC-000015,jumagualiki,19,19,1.0,21,fasttag,False
-RHD-GCTX-F-00026,RHD-GFAM-00026,RHD-RREC-000007,tsainajoliki,18,18,1.0,21,abwaschung,False
-RHD-GCTX-F-00027,RHD-GFAM-00027,RHD-RREC-000046,batla,17,17,1.0,20,voraus,False
-RHD-GCTX-F-00028,RHD-GFAM-00028,RHD-RREC-000018,pigue,16,16,1.0,18,,False
-RHD-GCTX-F-00029,RHD-GFAM-00029,RHD-RREC-000047,teeke,15,15,1.0,16,,False
-RHD-GCTX-F-00030,RHD-GFAM-00031,RHD-RREC-000009,naguessa,14,14,1.0,16,verkundigen | vier | andeuten | vierter,False
-RHD-GCTX-F-00031,RHD-GFAM-00030,RHD-RREC-000011,jeki,14,14,1.0,18,beissen,False
-RHD-GCTX-F-00032,RHD-GFAM-00032,RHD-RREC-000022,nulalila,13,13,1.0,15,befehl | bekenntniss | gebot,False
-RHD-GCTX-F-00033,RHD-GFAM-00033,RHD-RREC-000030,tessiguala,13,13,1.0,18,namen,False
-RHD-GCTX-F-00034,RHD-GFAM-00036,RHD-RREC-000036,nachpisoco,11,11,1.0,12,asche | jaten,False
-RHD-GCTX-F-00035,RHD-GFAM-00034,RHD-RREC-000026,cunala,11,11,1.0,12,ehemann,False
-RHD-GCTX-F-00036,RHD-GFAM-00037,RHD-RREC-000019,piguelila,11,11,1.0,14,bekenntniss,False
-RHD-GCTX-F-00037,RHD-GFAM-00035,RHD-RREC-000039,hoco,11,11,1.0,12,,False
-RHD-GCTX-F-00038,RHD-GFAM-00038,RHD-RREC-000005,cauguiki,10,10,1.0,15,wuste | einode,False
-RHD-GCTX-F-00039,RHD-GFAM-00039,RHD-RREC-000001,tseti,9,9,1.0,15,tag | boses,False
-RHD-GCTX-F-00040,RHD-GFAM-00041,RHD-RREC-000012,tessiguati,8,8,1.0,13,bedrangt | verungluckt | arm,False
-RHD-GCTX-F-00041,RHD-GFAM-00040,RHD-RREC-000042,sopoli,8,8,1.0,9,huhn | stern,False
-RHD-GCTX-F-00042,RHD-GFAM-00042,RHD-RREC-000032,cassiniki,7,7,1.0,8,sechs | scherben,False
-RHD-GCTX-F-00043,RHD-GFAM-00044,RHD-RREC-000040,simiba,6,6,1.0,7,gehen,False
-RHD-GCTX-F-00044,RHD-GFAM-00043,RHD-RREC-000045,pemole,6,6,1.0,7,,False
-RHD-GCTX-F-00045,RHD-GFAM-00045,RHD-RREC-000013,tajenaba,5,5,1.0,8,tag,False
-RHD-GCTX-F-00046,RHD-GFAM-00046,RHD-RREC-000041,tapaco,4,4,1.0,5,gestern,False
-RHD-GCTX-F-00047,RHD-GFAM-00047,RHD-RREC-000038,tepigaca,2,2,1.0,3,,False
+association_id,family_hypothesis_id,seed_recovery_id,seed_graphic_key,family_key_count,context_covered_key_count,context_coverage_ratio,german_context_string_count,robust_token_association_count,robust_proxy_association_count,top_tokens,robust_proxies,human_reviewed
+RHD-GCTX-F-00001,RHD-GFAM-00001,RHD-RREC-000043,thulameke,152,152,1.0,179,0,1,kalt | allwissend | altes | getauft | kugelformig | rund | sandig | sieden | stacameke | weib | weiss | ehemann | sterblich | waizen | thun,property_ending_proxy,False
+RHD-GCTX-F-00002,RHD-GFAM-00002,RHD-RREC-000031,pahiameke,151,151,1.0,178,0,1,allwissend | altes | getauft | kugelformig | rund | sandig | sieden | stacameke | weib | weiss | ehemann | sterblich | waizen | thun | besser,property_ending_proxy,False
+RHD-GCTX-F-00003,RHD-GFAM-00003,RHD-RREC-000006,peguameke,151,151,1.0,178,0,1,allwissend | altes | getauft | hart | kugelformig | rund | sandig | sieden | stacameke | weib | weiss | ehemann | sterblich | waizen | thun,property_ending_proxy,False
+RHD-GCTX-F-00004,RHD-GFAM-00004,RHD-RREC-000004,repagameke,80,80,1.0,96,0,0,allwissend | altes | getauft | weib | ehemann | waizen,,False
+RHD-GCTX-F-00005,RHD-GFAM-00005,RHD-RREC-000028,jolarugameke,72,72,1.0,83,0,0,altes | getauft | weib | ehemann | waizen | machen | thun,,False
+RHD-GCTX-F-00006,RHD-GFAM-00006,RHD-RREC-000017,polirugameke,68,68,1.0,79,0,0,altes | getauft | weib | ehemann | waizen,,False
+RHD-GCTX-F-00007,RHD-GFAM-00007,RHD-RREC-000034,pagorugameke,67,67,1.0,78,0,0,altes | getauft | weib | ehemann | waizen,,False
+RHD-GCTX-F-00008,RHD-GFAM-00008,RHD-RREC-000029,tschitulameke,66,66,1.0,73,0,0,altes | kreis | kugelformig | rund | stinken | weib | ort | ehemann,,False
+RHD-GCTX-F-00009,RHD-GFAM-00009,RHD-RREC-000035,bassujameke,63,63,1.0,70,0,1,altes | sieden | weib | ehemann | besser,property_ending_proxy,False
+RHD-GCTX-F-00010,RHD-GFAM-00010,RHD-RREC-000044,tschepi,62,62,1.0,68,0,0,ergreifen | eichhornchen | kreis | kriechen | maul | maus | rund | salben | saugen | schlagen | stinken | feuer | sich,,False
+RHD-GCTX-F-00011,RHD-GFAM-00011,RHD-RREC-000023,mujajameke,60,60,1.0,67,0,1,altes | rost | sieden | weib | ehemann | besser,property_ending_proxy,False
+RHD-GCTX-F-00012,RHD-GFAM-00012,RHD-RREC-000016,cocojameke,59,59,1.0,66,0,1,altes | sieden | weib | krank | ehemann | besser,property_ending_proxy,False
+RHD-GCTX-F-00013,RHD-GFAM-00013,RHD-RREC-000033,ta pagotugameke,58,58,1.0,69,0,0,altes | getauft | weib | ehemann | waizen,,False
+RHD-GCTX-F-00014,RHD-GFAM-00014,RHD-RREC-000002,loguiameke,57,57,1.0,67,0,1,altes | rasen | weib | ehemann | sterblich,property_ending_proxy,False
+RHD-GCTX-F-00015,RHD-GFAM-00015,RHD-RREC-000037,nalsiameke,56,56,1.0,66,0,1,altes | weib | ehemann | sterblich,property_ending_proxy,False
+RHD-GCTX-F-00016,RHD-GFAM-00016,RHD-RREC-000010,schuguiameke,51,51,1.0,61,0,1,altes | verzehren | weib | ehemann,property_ending_proxy,False
+RHD-GCTX-F-00017,RHD-GFAM-00017,RHD-RREC-000024,paca,38,38,1.0,41,0,0,gebahren | rana,,False
+RHD-GCTX-F-00018,RHD-GFAM-00018,RHD-RREC-000025,tschitula,37,37,1.0,40,0,0,eichhornchen | kreis | maus | rund | stinken | feuer | sich,,False
+RHD-GCTX-F-00019,RHD-GFAM-00019,RHD-RREC-000021,pepuliki,31,31,1.0,35,0,0,abwaschung | fasttag | topf | jahr,,False
+RHD-GCTX-F-00020,RHD-GFAM-00020,RHD-RREC-000020,naja,29,29,1.0,33,0,0,gebahren | rana | taje | lang,,False
+RHD-GCTX-F-00021,RHD-GFAM-00021,RHD-RREC-000003,tschutscha,28,28,1.0,32,0,1,maul | salben | saugen,infinitive_ending_proxy,False
+RHD-GCTX-F-00022,RHD-GFAM-00022,RHD-RREC-000008,buila,26,26,1.0,30,0,1,strick | suppe,other_single_word_proxy,False
+RHD-GCTX-F-00023,RHD-GFAM-00023,RHD-RREC-000014,tutschi,25,25,1.0,29,0,1,anfullen | saugen | zerreiben | pferd | ross,infinitive_ending_proxy,False
+RHD-GCTX-F-00024,RHD-GFAM-00024,RHD-RREC-000027,cajutschi,21,21,1.0,25,0,0,saugen | pferd | ross,,False
+RHD-GCTX-F-00025,RHD-GFAM-00025,RHD-RREC-000015,jumagualiki,19,19,1.0,21,0,0,fasttag,,False
+RHD-GCTX-F-00026,RHD-GFAM-00026,RHD-RREC-000007,tsainajoliki,18,18,1.0,21,0,0,abwaschung,,False
+RHD-GCTX-F-00027,RHD-GFAM-00027,RHD-RREC-000046,batla,17,17,1.0,20,0,0,voraus,,False
+RHD-GCTX-F-00028,RHD-GFAM-00028,RHD-RREC-000018,pigue,16,16,1.0,18,0,0,,,False
+RHD-GCTX-F-00029,RHD-GFAM-00029,RHD-RREC-000047,teeke,15,15,1.0,16,0,0,,,False
+RHD-GCTX-F-00030,RHD-GFAM-00031,RHD-RREC-000009,naguessa,14,14,1.0,16,0,0,verkundigen | vier | andeuten | vierter,,False
+RHD-GCTX-F-00031,RHD-GFAM-00030,RHD-RREC-000011,jeki,14,14,1.0,18,0,1,beissen,infinitive_ending_proxy,False
+RHD-GCTX-F-00032,RHD-GFAM-00032,RHD-RREC-000022,nulalila,13,13,1.0,15,0,1,befehl | bekenntniss | gebot,other_single_word_proxy,False
+RHD-GCTX-F-00033,RHD-GFAM-00033,RHD-RREC-000030,tessiguala,13,13,1.0,18,0,0,namen,,False
+RHD-GCTX-F-00034,RHD-GFAM-00036,RHD-RREC-000036,nachpisoco,11,11,1.0,12,0,0,asche | jaten,,False
+RHD-GCTX-F-00035,RHD-GFAM-00034,RHD-RREC-000026,cunala,11,11,1.0,12,0,1,ehemann,other_single_word_proxy,False
+RHD-GCTX-F-00036,RHD-GFAM-00037,RHD-RREC-000019,piguelila,11,11,1.0,14,0,1,bekenntniss,other_single_word_proxy,False
+RHD-GCTX-F-00037,RHD-GFAM-00035,RHD-RREC-000039,hoco,11,11,1.0,12,0,1,,multiword_or_ambiguous_proxy,False
+RHD-GCTX-F-00038,RHD-GFAM-00038,RHD-RREC-000005,cauguiki,10,10,1.0,15,1,1,wuste | einode,other_single_word_proxy,False
+RHD-GCTX-F-00039,RHD-GFAM-00039,RHD-RREC-000001,tseti,9,9,1.0,15,0,1,tag | boses,other_single_word_proxy,False
+RHD-GCTX-F-00040,RHD-GFAM-00041,RHD-RREC-000012,tessiguati,8,8,1.0,13,0,0,bedrangt | verungluckt | arm,,False
+RHD-GCTX-F-00041,RHD-GFAM-00040,RHD-RREC-000042,sopoli,8,8,1.0,9,0,0,huhn | stern,,False
+RHD-GCTX-F-00042,RHD-GFAM-00042,RHD-RREC-000032,cassiniki,7,7,1.0,8,0,0,sechs | scherben,,False
+RHD-GCTX-F-00043,RHD-GFAM-00044,RHD-RREC-000040,simiba,6,6,1.0,7,0,0,gehen,,False
+RHD-GCTX-F-00044,RHD-GFAM-00043,RHD-RREC-000045,pemole,6,6,1.0,7,0,0,,,False
+RHD-GCTX-F-00045,RHD-GFAM-00045,RHD-RREC-000013,tajenaba,5,5,1.0,8,0,0,tag,,False
+RHD-GCTX-F-00046,RHD-GFAM-00046,RHD-RREC-000041,tapaco,4,4,1.0,5,0,0,gestern,,False
+RHD-GCTX-F-00047,RHD-GFAM-00047,RHD-RREC-000038,tepigaca,2,2,1.0,3,0,0,,,False
