@@ -1,0 +1,308 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_exact_base_pair_contexts_v1",
+  "generated": "2026-08-13",
+  "pair_count": 10,
+  "pairs_with_any_exact_german_token_overlap": 2,
+  "pairs_with_zero_exact_german_token_overlap": 8,
+  "records": [
+    {
+      "pair_id": "RHD-AMEKE-BASE-001",
+      "mechanical_base_key": "baje",
+      "ameke_key": "bajeameke",
+      "base_attestations": [
+        {
+          "record_id": "RHD-S1809-01665",
+          "surface": "Bajé",
+          "page": "354",
+          "article": "Bajé, Rufen.",
+          "german_gloss": "Rufen"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-01666",
+          "surface": "Bajéameke",
+          "page": "354",
+          "article": "Bajéameke, der Rufende.",
+          "german_gloss": "der Rufende"
+        }
+      ],
+      "exact_german_token_overlap": [],
+      "german_token_jaccard": 0.0,
+      "status": "documentary_pair_only",
+      "semantic_judgment": "not_performed",
+      "morphological_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-002",
+      "mechanical_base_key": "cotschime",
+      "ameke_key": "cotschimeameke",
+      "base_attestations": [
+        {
+          "record_id": "RHD-S1809-01746",
+          "surface": "Cotſchimé",
+          "page": "355",
+          "article": "Cotſchimé, Schlafen.",
+          "german_gloss": "Schlafen"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-01747",
+          "surface": "Cotſchimeameke",
+          "page": "355",
+          "article": "Cotſchimeameke, Ein Schlafender.",
+          "german_gloss": "Ein Schlafender"
+        }
+      ],
+      "exact_german_token_overlap": [],
+      "german_token_jaccard": 0.0,
+      "status": "documentary_pair_only",
+      "semantic_judgment": "not_performed",
+      "morphological_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-003",
+      "mechanical_base_key": "cugui",
+      "ameke_key": "cuguiameke",
+      "base_attestations": [
+        {
+          "record_id": "RHD-S1809-01751",
+          "surface": "Cuguí",
+          "page": "356",
+          "article": "Cuguí, Helfen.",
+          "german_gloss": "Helfen"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-01752",
+          "surface": "Cuguíameke",
+          "page": "356",
+          "article": "Cuguíameke, Helfer.",
+          "german_gloss": "Helfer"
+        }
+      ],
+      "exact_german_token_overlap": [],
+      "german_token_jaccard": 0.0,
+      "status": "documentary_pair_only",
+      "semantic_judgment": "not_performed",
+      "morphological_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-004",
+      "mechanical_base_key": "igue",
+      "ameke_key": "igueameke",
+      "base_attestations": [
+        {
+          "record_id": "RHD-S1809-01922",
+          "surface": "Igue",
+          "page": "359",
+          "article": "Igue, Sehr.",
+          "german_gloss": "Sehr"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-01923",
+          "surface": "Igueameke",
+          "page": "359",
+          "article": "Igueameke, Ein Starker, der Kräfte hat.",
+          "german_gloss": "Ein Starker, der Kräfte hat"
+        }
+      ],
+      "exact_german_token_overlap": [],
+      "german_token_jaccard": 0.0,
+      "status": "documentary_pair_only",
+      "semantic_judgment": "not_performed",
+      "morphological_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-005",
+      "mechanical_base_key": "lessi",
+      "ameke_key": "lessiameke",
+      "base_attestations": [
+        {
+          "record_id": "RHD-S1809-01991",
+          "surface": "Lessí",
+          "page": "360",
+          "article": "Lessí, Ermatten, müde werden.",
+          "german_gloss": "Ermatten, müde werden"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-01992",
+          "surface": "Lessíameke",
+          "page": "360",
+          "article": "Lessíameke, Müde, matt.",
+          "german_gloss": "Müde, matt"
+        }
+      ],
+      "exact_german_token_overlap": [
+        "mude"
+      ],
+      "german_token_jaccard": 0.25,
+      "status": "documentary_pair_only",
+      "semantic_judgment": "not_performed",
+      "morphological_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-006",
+      "mechanical_base_key": "mukiiati",
+      "ameke_key": "mukiiatiameke",
+      "base_attestations": [
+        {
+          "record_id": "RHD-S1809-02033",
+          "surface": "Mukiiati",
+          "page": "361",
+          "article": "Mukiiati, Sterblich. Vergänglich, ſ. ſterblich.",
+          "german_gloss": "Sterblich"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-02034",
+          "surface": "Mukiiatiameke",
+          "page": "361",
+          "article": "Mukiiatiameke, Sterblich. Vergänglich.",
+          "german_gloss": "Sterblich"
+        }
+      ],
+      "exact_german_token_overlap": [
+        "sterblich"
+      ],
+      "german_token_jaccard": 1.0,
+      "status": "documentary_pair_only",
+      "semantic_judgment": "not_performed",
+      "morphological_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-007",
+      "mechanical_base_key": "nesse",
+      "ameke_key": "nesseameke",
+      "base_attestations": [
+        {
+          "record_id": "RHD-S1809-02110",
+          "surface": "Neſſé",
+          "page": "362",
+          "article": "Neſſé, Bewahren. Hüten.",
+          "german_gloss": "Bewahren"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-02111",
+          "surface": "Neſſéameke",
+          "page": "362",
+          "article": "Neſſéameke, Hüter.",
+          "german_gloss": "Hüter"
+        }
+      ],
+      "exact_german_token_overlap": [],
+      "german_token_jaccard": 0.0,
+      "status": "documentary_pair_only",
+      "semantic_judgment": "not_performed",
+      "morphological_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-008",
+      "mechanical_base_key": "saate",
+      "ameke_key": "saateameke",
+      "base_attestations": [
+        {
+          "record_id": "RHD-S1809-02254",
+          "surface": "Saaté",
+          "page": "365",
+          "article": "Saaté, Sand.",
+          "german_gloss": "Sand"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-02255",
+          "surface": "Saatéameke",
+          "page": "365",
+          "article": "Saatéameke, Sandig.",
+          "german_gloss": "Sandig"
+        }
+      ],
+      "exact_german_token_overlap": [],
+      "german_token_jaccard": 0.0,
+      "status": "documentary_pair_only",
+      "semantic_judgment": "not_performed",
+      "morphological_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-009",
+      "mechanical_base_key": "seli",
+      "ameke_key": "seliameke",
+      "base_attestations": [
+        {
+          "record_id": "RHD-S1809-02269",
+          "surface": "Seli",
+          "page": "365",
+          "article": "Seli, Befehlen. Die Gewalt zu ſchaffen haben.",
+          "german_gloss": "Befehlen"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-02275",
+          "surface": "Seliameke",
+          "page": "365",
+          "article": "Seliameke, So nennen ſie ihren Dorfrichter.",
+          "german_gloss": "So nennen ſie ihren Dorfrichter"
+        }
+      ],
+      "exact_german_token_overlap": [],
+      "german_token_jaccard": 0.0,
+      "status": "documentary_pair_only",
+      "semantic_judgment": "not_performed",
+      "morphological_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-010",
+      "mechanical_base_key": "tschitschi",
+      "ameke_key": "tschitschiameke",
+      "base_attestations": [
+        {
+          "record_id": "RHD-S1809-02433",
+          "surface": "Tſchitſchi",
+          "page": "368",
+          "article": "Tſchitſchi, Saugen.",
+          "german_gloss": "Saugen"
+        }
+      ],
+      "ameke_attestations": [
+        {
+          "record_id": "RHD-S1809-02434",
+          "surface": "Tſchitſchiameke",
+          "page": "368",
+          "article": "Tſchitſchiameke, Säugling.",
+          "german_gloss": "Säugling"
+        }
+      ],
+      "exact_german_token_overlap": [],
+      "german_token_jaccard": 0.0,
+      "status": "documentary_pair_only",
+      "semantic_judgment": "not_performed",
+      "morphological_judgment": "not_performed",
+      "human_reviewed": false
+    }
+  ],
+  "human_reviewed": false,
+  "semantic_judgment": "not_performed",
+  "morphological_judgment": "not_performed",
+  "interpretive_scope": "German gloss/context juxtaposition for exact X ~ X+ameke graphic pairs. Token overlap is descriptive only and is not semantic equivalence."
+}

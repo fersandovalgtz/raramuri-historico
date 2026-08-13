@@ -1,0 +1,12 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_exact_base_pair_contexts_v1",
+  "generated": "2026-08-13",
+  "pair_count": 10,
+  "pairs_with_any_exact_german_token_overlap": 2,
+  "pairs_with_zero_exact_german_token_overlap": 8,
+  "human_reviewed": false,
+  "semantic_judgment": "not_performed",
+  "morphological_judgment": "not_performed",
+  "interpretive_scope": "German gloss/context juxtaposition for exact X ~ X+ameke graphic pairs. Token overlap is descriptive only and is not semantic equivalence."
+}
