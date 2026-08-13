@@ -1,0 +1,22 @@
+{
+  "stage": "scientific_validation_preparation",
+  "active_diplomatic_records_with_explicit_uncertainty": 676,
+  "category_counts": {
+    "graphic_reading": 304,
+    "article_structure": 35,
+    "historical_raramuri_form": 253,
+    "semantic_or_gloss": 1,
+    "general_editorial_uncertainty": 83
+  },
+  "priority_order": [
+    "graphic_reading",
+    "article_structure",
+    "historical_raramuri_form",
+    "semantic_or_gloss",
+    "general_editorial_uncertainty"
+  ],
+  "human_verified_records": 0,
+  "philologically_verified_records": 0,
+  "linguistically_verified_records": 0,
+  "normalization_overwrites_diplomatic_layer": false
+}
