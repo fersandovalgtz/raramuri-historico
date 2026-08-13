@@ -1,26 +1,27 @@
-candidate_id,historical_record_id,historical_form,printed_page,historical_key,projected_key,projection_operations,modern_record_id,modern_headword,modern_translation,modern_classification,human_reviewed
-RHD-AFFSRC-000001,RHD-S1809-00038,Atſchi,354,atschi,achi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000030,Achí,"Reír, sonreír",Vt,False
-RHD-AFFSRC-000002,RHD-S1809-01681,Batſá,354,batsa,bacha,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000137,Bacha,"Primeramente, adelante, enfrente",Adv,False
-RHD-AFFSRC-000003,RHD-S1809-01681,Batſá,354,batsa,bacha,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000138,Bachá,"Meter (a la cárcel), poner (adentro)",Vipl,False
-RHD-AFFSRC-000004,RHD-S1809-01744,Cotſchi,355,cotschi,cochi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000481,Cochí,Perro,S,False
-RHD-AFFSRC-000005,RHD-S1809-01744,Cotſchi,355,cotschi,cochi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000482,Cochí,Hermana mayor,S,False
-RHD-AFFSRC-000006,RHD-S1809-01744,Cotſchi,355,cotschi,cochi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000483,Cochí,Dormir,Vi sing,False
-RHD-AFFSRC-000007,RHD-S1809-01744,Cotſchi,355,cotschi,cochi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000484,"Cochi, cohuí",Marrano,S esp,False
-RHD-AFFSRC-000008,RHD-S1809-01764,Cutsi,356,cutsi,cuchi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000560,Cuchi,Chiquitos,Adj pl,False
-RHD-AFFSRC-000009,RHD-S1809-02006,Matſchi,361,matschi,machi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-001232,Machí,"1. Saber, conocer 2. Hay luz 3. Verse bien",Vi,False
-RHD-AFFSRC-000010,RHD-S1809-02006,Matſchi,361,matschi,machi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-001233,"Machí, machíami",Afuera,Adv,False
-RHD-AFFSRC-000011,RHD-S1809-02007,Matſchi,361,matschi,machi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-001232,Machí,"1. Saber, conocer 2. Hay luz 3. Verse bien",Vi,False
-RHD-AFFSRC-000012,RHD-S1809-02007,Matſchi,361,matschi,machi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-001233,"Machí, machíami",Afuera,Adv,False
-RHD-AFFSRC-000013,RHD-S1809-02190,Potschí,364,potschi,pochi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-001848,Pochí,Brincar,Vi,False
-RHD-AFFSRC-000014,RHD-S1809-02212,Putschá,364,putscha,pucha,historical_affricate_spelling_to_modern_ch_candidate_key,RD-001856,Pucha,Soplar,Vt,False
-RHD-AFFSRC-000015,RHD-S1809-02402,Tſchigó,367,tschigo,chigo,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000680,Chigó,Robar,Vt,False
-RHD-AFFSRC-000016,RHD-S1809-02412,Tschá,367,tscha,cha,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000627,Chá,Feo,Adj,False
-RHD-AFFSRC-000017,RHD-S1809-02412,Tschá,367,tscha,cha,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000628,"Chá, cháa",Tener granos o llagas,Vi,False
-RHD-AFFSRC-000018,RHD-S1809-02413,Tscháa,367,tschaa,chaa,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000628,"Chá, cháa",Tener granos o llagas,Vi,False
-RHD-AFFSRC-000019,RHD-S1809-02414,Tscháca,367,tschaca,chaca,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000635,Chacá,Chanate (ave; zanate),S,False
-RHD-AFFSRC-000020,RHD-S1809-02416,Tschapi,367,tschapi,chapi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000656,Chapí,"1. vt Coger, agarrar (una persona 2. Tomar (coger) 3. Elegir 4. imper ¡Escójalo! [fut.: chapiméa]",,False
-RHD-AFFSRC-000021,RHD-S1809-02425,Tſchiní,367,tschini,chini,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000708,Chiní,"Manta, ropa",S,False
-RHD-AFFSRC-000022,RHD-S1809-02426,Tſchiperameke,367,tschiperameke,chiperami,historical_affricate_spelling_to_modern_ch_candidate_key|terminal_ameke_to_ami_candidate_key,RD-000711,Chipérami,Plano,Pp,False
-RHD-AFFSRC-000023,RHD-S1809-02431,Tschipú,368,tschipu,chipu,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000714,Chipú,Estar amargo (p. ej.: café),Vi,False
-RHD-AFFSRC-000024,RHD-S1809-02451,Tschucú,368,tschucu,chucu,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000791,Chucú,"Estar parado (animal, barco, camión de carga, persona agachada)",Vi sing,False
-RHD-AFFSRC-000025,RHD-S1809-02457,Tſchutá,368,tschuta,chuta,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000829,Chutá,Afilar,Vt,False
+candidate_id,reading_layer,historical_record_id,historical_source_headword,historical_comparison_surface,historical_article_diplomatic,printed_page,historical_key,projected_key,projection_operations,modern_record_id,modern_headword,modern_translation,modern_classification,human_reviewed
+RHD-AFFSRC-000001,diplomatic,RHD-S1809-00038,Atſchi,Atſchi,"Atſchi, Lachen.",354,atschi,achi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000030,Achí,"Reír, sonreír",Vt,False
+RHD-AFFSRC-000002,diplomatic,RHD-S1809-01681,Batſá,Batſá,"Batſá, Vorher, voraus.",354,batsa,bacha,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000137,Bacha,"Primeramente, adelante, enfrente",Adv,False
+RHD-AFFSRC-000003,diplomatic,RHD-S1809-01681,Batſá,Batſá,"Batſá, Vorher, voraus.",354,batsa,bacha,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000138,Bachá,"Meter (a la cárcel), poner (adentro)",Vipl,False
+RHD-AFFSRC-000004,diplomatic,RHD-S1809-01744,Cotſchi,Cotſchi,"Cotſchi, Schwein.",355,cotschi,cochi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000481,Cochí,Perro,S,False
+RHD-AFFSRC-000005,diplomatic,RHD-S1809-01744,Cotſchi,Cotſchi,"Cotſchi, Schwein.",355,cotschi,cochi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000482,Cochí,Hermana mayor,S,False
+RHD-AFFSRC-000006,diplomatic,RHD-S1809-01744,Cotſchi,Cotſchi,"Cotſchi, Schwein.",355,cotschi,cochi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000483,Cochí,Dormir,Vi sing,False
+RHD-AFFSRC-000007,diplomatic,RHD-S1809-01744,Cotſchi,Cotſchi,"Cotſchi, Schwein.",355,cotschi,cochi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000484,"Cochi, cohuí",Marrano,S esp,False
+RHD-AFFSRC-000008,diplomatic,RHD-S1809-01764,Cutsi,Cutsi,"Cutsi, Kurz.",356,cutsi,cuchi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000560,Cuchi,Chiquitos,Adj pl,False
+RHD-AFFSRC-000009,diplomatic,RHD-S1809-02006,Matſchi,Matſchi,"Matſchi, Draußen.",361,matschi,machi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-001232,Machí,"1. Saber, conocer 2. Hay luz 3. Verse bien",Vi,False
+RHD-AFFSRC-000010,diplomatic,RHD-S1809-02006,Matſchi,Matſchi,"Matſchi, Draußen.",361,matschi,machi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-001233,"Machí, machíami",Afuera,Adv,False
+RHD-AFFSRC-000011,diplomatic,RHD-S1809-02007,Matſchi,Matſchi,"Matſchi, als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr; als: tané matſchi, ich ſehe, oder ich weiß es nicht. Matſchijena, es keimt, kömmt hervor, wächſt.",361,matschi,machi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-001232,Machí,"1. Saber, conocer 2. Hay luz 3. Verse bien",Vi,False
+RHD-AFFSRC-000012,diplomatic,RHD-S1809-02007,Matſchi,Matſchi,"Matſchi, als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr; als: tané matſchi, ich ſehe, oder ich weiß es nicht. Matſchijena, es keimt, kömmt hervor, wächſt.",361,matschi,machi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-001233,"Machí, machíami",Afuera,Adv,False
+RHD-AFFSRC-000013,diplomatic,RHD-S1809-02190,Potschí,Potschí,"Potschí, Anfüllen.",364,potschi,pochi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-001848,Pochí,Brincar,Vi,False
+RHD-AFFSRC-000014,diplomatic,RHD-S1809-02212,Putschá,Putschá,"Putschá, Anfüllen.",364,putscha,pucha,historical_affricate_spelling_to_modern_ch_candidate_key,RD-001856,Pucha,Soplar,Vt,False
+RHD-AFFSRC-000015,diplomatic,RHD-S1809-02402,Tſchigó,Tſchigó,"Tſchigó, Noch.",367,tschigo,chigo,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000680,Chigó,Robar,Vt,False
+RHD-AFFSRC-000016,diplomatic,RHD-S1809-02412,Tschá,Tschá,"Tschá, Krätze.",367,tscha,cha,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000627,Chá,Feo,Adj,False
+RHD-AFFSRC-000017,diplomatic,RHD-S1809-02412,Tschá,Tschá,"Tschá, Krätze.",367,tscha,cha,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000628,"Chá, cháa",Tener granos o llagas,Vi,False
+RHD-AFFSRC-000018,diplomatic,RHD-S1809-02413,Tscháa,Tscháa,"Tscháa, Wegwerfen.",367,tschaa,chaa,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000628,"Chá, cháa",Tener granos o llagas,Vi,False
+RHD-AFFSRC-000019,diplomatic,RHD-S1809-02414,Tscháca,Tscháca,"Tscháca, Wunde.",367,tschaca,chaca,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000635,Chacá,Chanate (ave; zanate),S,False
+RHD-AFFSRC-000020,diplomatic,RHD-S1809-02416,Tschapi,Tschapi,"Tschapi, Nehmen. Ergreifen.",367,tschapi,chapi,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000656,Chapí,"1. vt Coger, agarrar (una persona 2. Tomar (coger) 3. Elegir 4. imper ¡Escójalo! [fut.: chapiméa]",,False
+RHD-AFFSRC-000021,diplomatic,RHD-S1809-02425,Tſchiní,Tſchiní,"Tſchiní, ſ. Gewebe.",367,tschini,chini,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000708,Chiní,"Manta, ropa",S,False
+RHD-AFFSRC-000022,diplomatic,RHD-S1809-02426,Tſchiperameke,Tſchiperameke,"Tſchiperameke, Fein. Dünn. Flach.",367,tschiperameke,chiperami,historical_affricate_spelling_to_modern_ch_candidate_key|terminal_ameke_to_ami_candidate_key,RD-000711,Chipérami,Plano,Pp,False
+RHD-AFFSRC-000023,diplomatic,RHD-S1809-02431,Tschipú,Tschipú,"Tschipú, Stinken.",368,tschipu,chipu,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000714,Chipú,Estar amargo (p. ej.: café),Vi,False
+RHD-AFFSRC-000024,diplomatic,RHD-S1809-02451,Tschucú,Tschucú,"Tschucú, Der Ort, wo sich ein zahmes Thier befindet, s. Seyn.",368,tschucu,chucu,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000791,Chucú,"Estar parado (animal, barco, camión de carga, persona agachada)",Vi sing,False
+RHD-AFFSRC-000025,diplomatic,RHD-S1809-02457,Tſchutá,Tſchutá,"Tſchutá, Schleifen. Schärfen.",368,tschuta,chuta,historical_affricate_spelling_to_modern_ch_candidate_key,RD-000829,Chutá,Afilar,Vt,False
+RHD-AFFSRC-000026,ai_facsimile_correction_proposal,RHD-S1809-02443,Tſchécemeke,Tſchócameke,"Tſchécemeke, Schwarz.",368,tschocameke,chocami,historical_affricate_spelling_to_modern_ch_candidate_key|terminal_ameke_to_ami_candidate_key,RD-000743,Chócami,Negro,Adj,False

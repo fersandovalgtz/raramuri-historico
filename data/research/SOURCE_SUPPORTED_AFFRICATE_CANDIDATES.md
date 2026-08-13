@@ -2,10 +2,10 @@
 
 **Corte:** 2026-08-13. **Estatus:** recuperación de candidatos; no adjudica cognación ni cambio fonológico.
 
-Se proyectaron **146 componentes históricos** con `<tsch>/<ts>` hacia una clave moderna candidata `ch`. Los empates exactos contra el lexicón moderno fijado producen **25 candidatos**, correspondientes a **18 registros históricos** y **22 registros modernos**.
+La capa diplomática produce **25 candidatos exactos proyectados**. Una lectura facsimilar IA-asistida ya registrada y no adoptada añade **1 candidato(s) de sensibilidad**, sin modificar la fuente.
 
-La transformación es deliberadamente distinta de una normalización lingüística: sólo habilita búsqueda a partir del análisis publicado de Merrill y mantiene visibles tanto la forma diplomática como cada operación aplicada.
+En el holdout semántico se recuperan por coincidencia exacta proyectada **3/6** positivos: 2 desde la capa diplomática y 1 únicamente desde la sensibilidad facsimilar.
 
-En el pequeño holdout semántico previamente construido se recuperan por coincidencia exacta proyectada **2/6** positivos; los restantes requieren otras diferencias gráficas y no se fuerzan.
+Cada candidato incluye ahora el `article_diplomatic` histórico completo para que la inspección semántica posterior no dependa de reconstrucciones ni de una traducción automática.
 
 `semantic_equivalence_judgment=not_performed`; `automatic_sound_correspondence_inference=false`; `cognacy_judgment=not_performed`; `historical_continuity_judgment=not_performed`; `human_reviewed=false`.

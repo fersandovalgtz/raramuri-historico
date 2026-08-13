@@ -1,17 +1,20 @@
 {
   "dataset": "raramuri-historico-steffel-1809",
-  "layer": "source_supported_affricate_candidate_retrieval_v1",
+  "layer": "source_supported_affricate_candidate_retrieval_v2",
   "generated": "2026-08-13",
   "modern_repository": "fersandovalgtz/raramuri-digital",
   "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
   "historical_affricate_component_count": 146,
-  "historical_components_with_projection": 146,
-  "candidate_count": 25,
-  "historical_record_count": 18,
-  "modern_record_count": 22,
+  "facsimile_proposal_component_count": 1,
+  "historical_components_with_projection_including_sensitivity": 147,
+  "candidate_count": 26,
+  "diplomatic_candidate_count": 25,
+  "facsimile_sensitivity_candidate_count": 1,
+  "historical_record_count": 19,
+  "modern_record_count": 23,
   "projection_operation_counts": {
     "historical_affricate_spelling_to_modern_ch_candidate_key": 24,
-    "historical_affricate_spelling_to_modern_ch_candidate_key|terminal_ameke_to_ami_candidate_key": 1
+    "historical_affricate_spelling_to_modern_ch_candidate_key|terminal_ameke_to_ami_candidate_key": 2
   },
   "positive_holdout_projection_recovery": [
     {
@@ -19,51 +22,59 @@
       "historical_surface": "tschapí",
       "modern_record_id": "RD-000656",
       "recovered_by_exact_projection": true,
-      "candidate_id": "RHD-AFFSRC-000020"
+      "candidate_id": "RHD-AFFSRC-000020",
+      "reading_layer": "diplomatic"
     },
     {
       "holdout_id": "RHD-GRAPH-HOLD-002",
       "historical_surface": "tschicúli",
       "modern_record_id": "RD-000676",
       "recovered_by_exact_projection": false,
-      "candidate_id": null
+      "candidate_id": null,
+      "reading_layer": null
     },
     {
       "holdout_id": "RHD-GRAPH-HOLD-003",
       "historical_surface": "tschócameke",
       "modern_record_id": "RD-000743",
-      "recovered_by_exact_projection": false,
-      "candidate_id": null
+      "recovered_by_exact_projection": true,
+      "candidate_id": "RHD-AFFSRC-000026",
+      "reading_layer": "ai_facsimile_correction_proposal"
     },
     {
       "holdout_id": "RHD-GRAPH-HOLD-004",
       "historical_surface": "tschutá",
       "modern_record_id": "RD-000829",
       "recovered_by_exact_projection": true,
-      "candidate_id": "RHD-AFFSRC-000025"
+      "candidate_id": "RHD-AFFSRC-000025",
+      "reading_layer": "diplomatic"
     },
     {
       "holdout_id": "RHD-GRAPH-HOLD-005",
       "historical_surface": "echtschá",
       "modern_record_id": "RD-001058",
       "recovered_by_exact_projection": false,
-      "candidate_id": null
+      "candidate_id": null,
+      "reading_layer": null
     },
     {
       "holdout_id": "RHD-GRAPH-HOLD-006",
       "historical_surface": "tschouguá",
       "modern_record_id": "RD-000750",
       "recovered_by_exact_projection": false,
-      "candidate_id": null
+      "candidate_id": null,
+      "reading_layer": null
     }
   ],
-  "positive_holdout_exact_projection_recovered_count": 2,
+  "positive_holdout_exact_projection_recovered_count": 3,
   "positive_holdout_tested_count": 6,
+  "positive_holdout_recovered_from_diplomatic_count": 2,
+  "positive_holdout_recovered_from_facsimile_sensitivity_count": 1,
   "semantic_equivalence_judgment": "not_performed",
   "cognacy_judgment": "not_performed",
   "historical_continuity_judgment": "not_performed",
   "automatic_sound_correspondence_inference": false,
   "automatic_morpheme_assignment": false,
   "human_reviewed": false,
-  "interpretive_scope": "Exact modern-key retrieval after source-supported documentary comparison projections. Projection is a search operation only, not a sound law, phonological normalization, or cognacy claim."
+  "interpretive_scope": "Exact modern-key retrieval after source-supported documentary comparison projections. Facsimile correction proposals are a separate sensitivity stratum and never overwrite diplomatic data."
 }
