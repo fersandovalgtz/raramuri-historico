@@ -1,0 +1,1464 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "count": 59,
+  "records": [
+    {
+      "record_id": "RD-000013",
+      "headword": "Acáami",
+      "normalized_key": "acaami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "1. Salado 2. Dulce",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "3",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "aca",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000006",
+        "RD-000007",
+        "RD-000008",
+        "RD-000012"
+      ],
+      "exact_base_headwords": [
+        "Acá",
+        "Acá",
+        "Acá",
+        "Acá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000031",
+      "headword": "Achíami",
+      "normalized_key": "achiami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Risueño",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "4",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "achi",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000030"
+      ],
+      "exact_base_headwords": [
+        "Achí"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000046",
+      "headword": "Amarúami",
+      "normalized_key": "amaruami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Entero",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "5",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "amaru",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000045"
+      ],
+      "exact_base_headwords": [
+        "Amarú"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000081",
+      "headword": "Aparúami",
+      "normalized_key": "aparuami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Bravo, cruel, feroz, malvado, valiente, violento",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "7",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "aparu",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000080"
+      ],
+      "exact_base_headwords": [
+        "Aparú"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000139",
+      "headword": "Bacháami",
+      "normalized_key": "bachaami",
+      "classification": "Adv",
+      "classification_family": "Adv",
+      "translation_raw": "Ante, delante, por delante, enfrente de",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "10",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "bacha",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000137",
+        "RD-000138"
+      ],
+      "exact_base_headwords": [
+        "Bacha",
+        "Bachá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000159",
+      "headword": "Bajíami",
+      "normalized_key": "bajiami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Curandero (que toma tesgüino)",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "11",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "baji",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000158"
+      ],
+      "exact_base_headwords": [
+        "Bají"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000219",
+      "headword": "Ba'yóami",
+      "normalized_key": "ba'yoami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Bello, chulo, hermoso, lindo, bonito",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "15",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "ba'yo",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000218"
+      ],
+      "exact_base_headwords": [
+        "Ba'yó"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000224",
+      "headword": "Bicáami",
+      "normalized_key": "bicaami",
+      "classification": "",
+      "classification_family": "Sin clasificar",
+      "translation_raw": "Podrido",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "15",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "bica",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000223"
+      ],
+      "exact_base_headwords": [
+        "Bicá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000248",
+      "headword": "Bi’huíami",
+      "normalized_key": "bi'huiami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Claro, limpio",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "16",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "bi'hui",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000247"
+      ],
+      "exact_base_headwords": [
+        "Bi'huí"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000255",
+      "headword": "Binéami",
+      "normalized_key": "bineami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "El que aprende, discípulo",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "16",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "bine",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000254"
+      ],
+      "exact_base_headwords": [
+        "Biné"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000282",
+      "headword": "Bitéami",
+      "normalized_key": "biteami",
+      "classification": "Adj sin",
+      "classification_family": "Adj",
+      "translation_raw": "Morador, que vive",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "18",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "bite",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000280",
+        "RD-000281"
+      ],
+      "exact_base_headwords": [
+        "Bité",
+        "Bité"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000324",
+      "headword": "Buchíami",
+      "normalized_key": "buchiami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Lleno",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "20",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "buchi",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000323"
+      ],
+      "exact_base_headwords": [
+        "Buchí"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000384",
+      "headword": "Cahuíami",
+      "normalized_key": "cahuiami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Claro, limpio, sereno (el cielo)",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "23",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "cahui",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000382",
+        "RD-000383"
+      ],
+      "exact_base_headwords": [
+        "cahuí",
+        "cahuí"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000434",
+      "headword": "Caréami",
+      "normalized_key": "careami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Amable",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "25",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "care",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000432",
+        "RD-000433"
+      ],
+      "exact_base_headwords": [
+        "Caré",
+        "Caré"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000474",
+      "headword": "Cóami",
+      "normalized_key": "coami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Picante",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "26",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "co",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000472",
+        "RD-000473"
+      ],
+      "exact_base_headwords": [
+        "co",
+        "co"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000490",
+      "headword": "Co'huáami",
+      "normalized_key": "co'huaami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Alimento, comida",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "27",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "co'hua",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000489"
+      ],
+      "exact_base_headwords": [
+        "Co'huá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000505",
+      "headword": "Comíami",
+      "normalized_key": "comiami",
+      "classification": "Pp",
+      "classification_family": "Pp",
+      "translation_raw": "Cóncavo, alabeado",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "28",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "comi",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000504"
+      ],
+      "exact_base_headwords": [
+        "Comí"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000692",
+      "headword": "Chi’íami",
+      "normalized_key": "chi'iami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Mamador",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "35",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "chi'i",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000691"
+      ],
+      "exact_base_headwords": [
+        "Chi’í"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000877",
+      "headword": "Huachíami",
+      "normalized_key": "huachiami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Derecho (recto)",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "42",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "huachi",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000876"
+      ],
+      "exact_base_headwords": [
+        "Huachí"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000902",
+      "headword": "Huaquichéami",
+      "normalized_key": "huaquicheami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Seco",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "43",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "huaquiche",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000900"
+      ],
+      "exact_base_headwords": [
+        "Huaquiché"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000932",
+      "headword": "Huatóami",
+      "normalized_key": "huatoami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Elástico",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "44",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "huato",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000931"
+      ],
+      "exact_base_headwords": [
+        "Huató"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000966",
+      "headword": "Huicúami",
+      "normalized_key": "huicuami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Turbio",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "46",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "huicu",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000965"
+      ],
+      "exact_base_headwords": [
+        "Huicú"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-000993",
+      "headword": "Hui’íami",
+      "normalized_key": "hui'iami",
+      "classification": "Adj sing",
+      "classification_family": "Adj",
+      "translation_raw": "Que tiene mucha manteca (un marrano)",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "47",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "hui'i",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-000992"
+      ],
+      "exact_base_headwords": [
+        "Hui’í"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001011",
+      "headword": "Huiráami",
+      "normalized_key": "huiraami",
+      "classification": "S sing",
+      "classification_family": "S",
+      "translation_raw": "Vieja, anciana",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "48",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "huira",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001010"
+      ],
+      "exact_base_headwords": [
+        "Huirá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001018",
+      "headword": "Huiríami",
+      "normalized_key": "huiriami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Parado, nacido",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "48",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "huiri",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001017"
+      ],
+      "exact_base_headwords": [
+        "Huirí"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001059",
+      "headword": "Icháami",
+      "normalized_key": "ichaami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Sembrador",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "50",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "icha",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001058"
+      ],
+      "exact_base_headwords": [
+        "Ichá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001123",
+      "headword": "Iyéami",
+      "normalized_key": "iyeami",
+      "classification": "Adv",
+      "classification_family": "Adv",
+      "translation_raw": "Que tiene mamá",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "52",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "iye",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001122"
+      ],
+      "exact_base_headwords": [
+        "Iyé"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001174",
+      "headword": "Jubáami",
+      "normalized_key": "jubaami",
+      "classification": "Adv",
+      "classification_family": "Adv",
+      "translation_raw": "Al fin, finalmente, último",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "53",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "juba",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001171",
+        "RD-001172",
+        "RD-001173"
+      ],
+      "exact_base_headwords": [
+        "Jubá",
+        "Jubá",
+        "Jubá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001240",
+      "headword": "Machíriami",
+      "normalized_key": "machiriami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Que puede ver",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "55",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "machiri",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001239"
+      ],
+      "exact_base_headwords": [
+        "Machiri"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001384",
+      "headword": "Mucúami",
+      "normalized_key": "mucuami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Muerto, difunto",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "58",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "mucu",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001383"
+      ],
+      "exact_base_headwords": [
+        "Mucú"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001398",
+      "headword": "Muhuéami",
+      "normalized_key": "muhueami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Aumentado",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "59",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "muhue",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001397"
+      ],
+      "exact_base_headwords": [
+        "Muhué"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001514",
+      "headword": "Napóami",
+      "normalized_key": "napoami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Clueca",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "61",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "napo",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001512",
+        "RD-001513"
+      ],
+      "exact_base_headwords": [
+        "Napó",
+        "Napó"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001547",
+      "headword": "Nasóami",
+      "normalized_key": "nasoami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Revuelto",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "62",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "naso",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001545",
+        "RD-001546"
+      ],
+      "exact_base_headwords": [
+        "Nasó",
+        "Nasó"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001570",
+      "headword": "Nayúami",
+      "normalized_key": "nayuami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Enfermo",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "63",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "nayu",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001569"
+      ],
+      "exact_base_headwords": [
+        "Nayú"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001619",
+      "headword": "Ni’mayéami",
+      "normalized_key": "ni'mayeami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Celoso",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "64",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "ni'maye",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001618"
+      ],
+      "exact_base_headwords": [
+        "Ni’mayé"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001624",
+      "headword": "Nipáami",
+      "normalized_key": "nipaami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Cobrador",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "64",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "nipa",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001623"
+      ],
+      "exact_base_headwords": [
+        "Nipá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001626",
+      "headword": "Niquíami",
+      "normalized_key": "niquiami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Picador",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "64",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "niqui",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001625"
+      ],
+      "exact_base_headwords": [
+        "Niquí"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001636",
+      "headword": "Niséami",
+      "normalized_key": "niseami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Pastor",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "64",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "nise",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001635"
+      ],
+      "exact_base_headwords": [
+        "Nisé"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001650",
+      "headword": "Nocuáami",
+      "normalized_key": "nocuaami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Que se puede mover",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "65",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "nocua",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001649"
+      ],
+      "exact_base_headwords": [
+        "Nocuá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001691",
+      "headword": "Nuréami",
+      "normalized_key": "nureami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "El que manda (a otro)",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "66",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "nure",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001690"
+      ],
+      "exact_base_headwords": [
+        "Nuré"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001716",
+      "headword": "Ohuáami",
+      "normalized_key": "ohuaami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Medicina, remedio",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "66",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "ohua",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001715"
+      ],
+      "exact_base_headwords": [
+        "Ohuá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001758",
+      "headword": "Oráami",
+      "normalized_key": "oraami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Afilado",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "67",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "ora",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001755",
+        "RD-001756",
+        "RD-001757"
+      ],
+      "exact_base_headwords": [
+        "Orá",
+        "Orá",
+        "Orá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001783",
+      "headword": "Otohuéami",
+      "normalized_key": "otohueami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Enramada",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "68",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "otohue",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001782"
+      ],
+      "exact_base_headwords": [
+        "Otohué"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001803",
+      "headword": "Pagóami",
+      "normalized_key": "pagoami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "El que bautiza",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "69",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "pago",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001802"
+      ],
+      "exact_base_headwords": [
+        "Pagó"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001845",
+      "headword": "Piréami",
+      "normalized_key": "pireami",
+      "classification": "S pl",
+      "classification_family": "S",
+      "translation_raw": "Moradores, los que viven",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "70",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "pire",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001844"
+      ],
+      "exact_base_headwords": [
+        "Piré"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001921",
+      "headword": "Rajáami",
+      "normalized_key": "rajaami",
+      "classification": "",
+      "classification_family": "Sin clasificar",
+      "translation_raw": "Ardiente",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "71",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "raja",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001920"
+      ],
+      "exact_base_headwords": [
+        "Rajá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-001961",
+      "headword": "Rasáami",
+      "normalized_key": "rasaami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Blando",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "72",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "rasa",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-001960"
+      ],
+      "exact_base_headwords": [
+        "Rasá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-002044",
+      "headword": "Ri’náami",
+      "normalized_key": "ri'naami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Parejo",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "74",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "ri'na",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-002040",
+        "RD-002041",
+        "RD-002042"
+      ],
+      "exact_base_headwords": [
+        "Ri’ná",
+        "Ri’ná",
+        "Ri’ná"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-002098",
+      "headword": "Ritéami",
+      "normalized_key": "riteami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "El que ve",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "76",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "rite",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-002096",
+        "RD-002097"
+      ],
+      "exact_base_headwords": [
+        "Rité",
+        "Rité"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-002111",
+      "headword": "Rocóami",
+      "normalized_key": "rocoami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Hondo",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "76",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "roco",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-002110"
+      ],
+      "exact_base_headwords": [
+        "Rocó"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-002168",
+      "headword": "Ropéami",
+      "normalized_key": "ropeami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Panzón",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "77",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "rope",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-002167"
+      ],
+      "exact_base_headwords": [
+        "Ropé"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-002203",
+      "headword": "Ru’náami",
+      "normalized_key": "ru'naami",
+      "classification": "Adj",
+      "classification_family": "Adj",
+      "translation_raw": "Grueso",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "78",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "ru'na",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-002202"
+      ],
+      "exact_base_headwords": [
+        "Ru’ná"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-002318",
+      "headword": "Sipáami",
+      "normalized_key": "sipaami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Curandero, hechicero (que raspa una hueja o jícara con un palito y canta)",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "81",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "sipa",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-002317"
+      ],
+      "exact_base_headwords": [
+        "Sipá"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-002341",
+      "headword": "Siríami",
+      "normalized_key": "siriami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Gobernador tradicional",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "82",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "siri",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-002339",
+        "RD-002340"
+      ],
+      "exact_base_headwords": [
+        "Siri",
+        "Siri"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-002345",
+      "headword": "Sirúami",
+      "normalized_key": "siruami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Cazador",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "82",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "siru",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-002344"
+      ],
+      "exact_base_headwords": [
+        "Sirú"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-002402",
+      "headword": "Sucurúami",
+      "normalized_key": "sucuruami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Hechicero, brujo",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "83",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "sucuru",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-002401"
+      ],
+      "exact_base_headwords": [
+        "Sucurú"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-002412",
+      "headword": "Suhuíami",
+      "normalized_key": "suhuiami",
+      "classification": "S pl",
+      "classification_family": "S",
+      "translation_raw": "Cadáveres",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "83",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "suhui",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-002411"
+      ],
+      "exact_base_headwords": [
+        "Suhuí"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-002417",
+      "headword": "Suníami",
+      "normalized_key": "suniami",
+      "classification": "Adv",
+      "classification_family": "Adv",
+      "translation_raw": "En todas partes",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "83",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "suni",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-002416"
+      ],
+      "exact_base_headwords": [
+        "Suní"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    },
+    {
+      "record_id": "RD-002434",
+      "headword": "Táami",
+      "normalized_key": "taami",
+      "classification": "S",
+      "classification_family": "S",
+      "translation_raw": "Músico, tocador",
+      "source_code": "SRC-02",
+      "source_document": "DICCIONARIO raramuri.pdf",
+      "page_start": "84",
+      "simple_single_token": true,
+      "bare_ami_lexeme": false,
+      "mechanical_base_key": "ta",
+      "exact_base_key_attested": true,
+      "exact_base_record_ids": [
+        "RD-002430",
+        "RD-002431",
+        "RD-002432"
+      ],
+      "exact_base_headwords": [
+        "Ta",
+        "Ta",
+        "Ta"
+      ],
+      "status": "documentary_final_ami_string",
+      "automatic_morpheme_assignment": false,
+      "human_reviewed": false
+    }
+  ],
+  "human_reviewed": false,
+  "automatic_morpheme_assignment": false
+}
