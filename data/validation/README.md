@@ -16,17 +16,17 @@ La serie `RHD-PHIL-001`–`RHD-PHIL-010` agotó la segunda recollación filológ
 
 Cada manifiesto es append-only y usa sólo tres disposiciones: `confirmed_ai_assisted`, `corrected_ai_assisted` y `unresolved_after_ai_recollation`. Ninguna sobrescribe automáticamente la transcripción diplomática.
 
-Las propuestas PHIL produjeron reparaciones documentales útiles —por ejemplo `Caú. Cajuſchi.`, `Talahipoa`, `Talahúmali`, `Sonúca!`, `Techtéke`, `Atác, oder hatúca`, la restitución de `Mir, netſchi` y `jujega` en `Ich`, además de numerosas correcciones de diacríticos— y conservaron abiertos los casos donde la evidencia no permite una decisión única.
+La reinspección de alta resolución y, en los últimos casos, a **600 dpi**, produjo reparaciones documentales como `Caú. Cajútſchi.`, `Talahipoa`, `Talahúmali`, `Somúca!`, `Painaguéameke`, `Nachcatule`, `Tamatsiame`, `Tepágatigameke`, `Techtéke`, `Atác, oder hatúca` y `Tſeſtarácameke, oder Stácameke`. También corrigió falsos diacríticos y conservó abiertos sólo los casos donde la evidencia sigue sin permitir una decisión documental única.
 
 Ninguno de los 482 casos ha sido convertido en validación humana: `human_verified=false`, `philologically_verified_by_human=false` y `linguistically_verified=false` siguen siendo la regla.
 
 ## Prioridad para revisión independiente
 
-`human_review_priority.json` y su vista compacta se generan determinísticamente a partir de `human_review_queue.json`. El orden validado por CI es:
+`human_review_priority.json` y su vista compacta se generan determinísticamente a partir de `human_review_queue.json`. Después de la recollación final a alta resolución, la cola queda así:
 
-- **Prioridad 1 — 47 registros:** `unresolved_after_ai_recollation`; la segunda inspección IA no logró cerrar el problema documental.
-- **Prioridad 2 — 149 registros:** `corrected_ai_assisted`; existe una reparación propuesta que debe ser aceptada, modificada o rechazada por una persona.
-- **Prioridad 3 — 286 registros:** `confirmed_ai_assisted`; la lectura documental se sostiene, pero permanece juicio lingüístico, semántico, histórico o disciplinar independiente.
+- **Prioridad 1 — 46 registros:** `unresolved_after_ai_recollation`; la segunda inspección IA no logró cerrar el problema documental.
+- **Prioridad 2 — 152 registros:** `corrected_ai_assisted`; existe una reparación propuesta que debe ser aceptada, modificada o rechazada por una persona.
+- **Prioridad 3 — 284 registros:** `confirmed_ai_assisted`; la lectura documental se sostiene, pero permanece juicio lingüístico, semántico, histórico o disciplinar independiente.
 
 Dentro de cada prioridad, los registros se ordenan por página impresa y después por `record_id` persistente. La prioridad organiza trabajo y no modifica ninguna bandera de verificación.
 
@@ -38,16 +38,18 @@ Dentro de cada prioridad, los registros se ordenan por página impresa y despué
 - `review/philological_review_batch_001.json`–`philological_review_batch_010.json`: segunda inspección IA-asistida de los 482 casos.
 - `next_philological_batch.json`: sin cohorte pendiente una vez agotados los 482 registros.
 - `human_review_queue.json`: 482 registros recotejados por IA y preparados para juicio humano independiente.
-- `human_review_priority.json` / `human_review_priority_compact.json`: prioridad reproducible 47 / 149 / 286.
+- `human_review_priority.json` / `human_review_priority_compact.json`: prioridad reproducible **46 / 152 / 284**.
 - `HUMAN_REVIEW_PROTOCOL.md`: procedimiento y semántica de la revisión independiente.
 - `human_review_template.json`: plantilla de decisión que separa filología, lingüística, semántica/historia y revisión disciplinar.
 - `validation_progress.json`: 482/482 recotejados, 0 pendientes automáticos y 0 verificaciones humanas declaradas.
 
 ## Ruta humana
 
-La siguiente fase no debe ser otra recollación automática. La revisión independiente deberá registrar identidad del revisor, fecha, competencia relevante, decisión, evidencia y alcance de la decisión. Conviene distinguir cuatro planos: lectura filológica, análisis lingüístico rarámuri, interpretación semántica/histórica y anotación disciplinar especializada.
+La siguiente fase no debe ser otra recollación automática general. La revisión independiente deberá registrar identidad del revisor, fecha, competencia relevante, decisión, evidencia y alcance de la decisión. Conviene distinguir cuatro planos: lectura filológica, análisis lingüístico rarámuri, interpretación semántica/histórica y anotación disciplinar especializada.
 
-Los **47 casos de prioridad 1** deben revisarse primero. Después deben adjudicarse las **149 correcciones propuestas**. Las 286 confirmaciones IA-asistidas pueden requerir todavía análisis lingüístico o disciplinar aunque su lectura gráfica sea estable.
+Los **46 casos de prioridad 1** deben revisarse primero. Después deben adjudicarse las **152 correcciones propuestas**. Las **284 confirmaciones IA-asistidas** pueden requerir todavía análisis lingüístico o disciplinar aunque su lectura gráfica sea estable.
+
+Una nueva reinspección automática sólo se justifica de manera puntual si aparece una imagen fuente mejor o un indicio documental concreto; no debe usarse para convertir mecánicamente incertidumbre legítima en falsa certeza.
 
 ## Capas posteriores
 
