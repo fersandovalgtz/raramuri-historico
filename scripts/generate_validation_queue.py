@@ -2,8 +2,8 @@
 """Generate a deterministic queue for post-diplomatic scientific validation.
 
 This stage does not claim human, philological, or linguistic verification. It
-prioritizes active diplomatic records that already carry an explicit uncertainty
-note, preserving the diplomatic layer as immutable evidence.
+prioritizes active diplomatic records explicitly marked `open_validation`, while
+preserving the diplomatic layer as immutable evidence.
 """
 from pathlib import Path
 import csv, json, re
@@ -19,7 +19,7 @@ RULES = [
     (
         1,
         "graphic_reading",
-        re.compile(r"uncertain|unclear|ambiguous|illegible|difficult|reading|read as|glyph|letter|blur|damage|obscur|faint|print(?:ed)? form|facsimile", re.I),
+        re.compile(r"uncertain|unclear|ambiguous|illegible|difficult|provisional|glyph|letter|blur|damage|obscur|faint|could (?:be|read)|may (?:be|read)|not certain|exact [^.]{0,80}remain", re.I),
         "Reinspect the printed form at high resolution; resolve characters only when the image supports a unique reading."
     ),
     (
@@ -37,8 +37,8 @@ RULES = [
     (
         4,
         "semantic_or_gloss",
-        re.compile(r"gloss|meaning|semantic|translation|german gloss|spanish|sense", re.I),
-        "Keep source wording separate from editorial interpretation; verify gloss/sense independently."
+        re.compile(r"gloss|meaning|semantic|translation|german gloss|spanish|sense|botanical|zoological|cultural identification", re.I),
+        "Keep source wording separate from editorial interpretation; verify gloss, sense, or domain identification independently."
     ),
 ]
 
@@ -46,16 +46,24 @@ def classify(note: str):
     for priority, category, rx, action in RULES:
         if rx.search(note):
             return priority, category, action
-    return 5, "general_editorial_uncertainty", "Independent philological and linguistic review required; do not normalize over the diplomatic layer."
+    return 5, "general_open_validation", "Independent philological and/or linguistic review required; do not normalize over the diplomatic layer."
 
 records = []
+resolved_note_count = 0
+nonempty_note_count = 0
 for r in rows:
     if r.get("status") == "rejected_false_positive":
         continue
     if r.get("diplomatic_status") != "complete_ai_assisted":
         continue
     note = (r.get("diplomatic_note") or "").strip()
-    if not note:
+    if note:
+        nonempty_note_count += 1
+    state = (r.get("diplomatic_note_state") or "").strip()
+    if state == "resolved_editorial_note":
+        resolved_note_count += 1
+        continue
+    if state != "open_validation":
         continue
     priority, category, action = classify(note)
     records.append({
@@ -68,9 +76,11 @@ for r in rows:
         "facsimile_column": r.get("facsimile_column", ""),
         "headword_diplomatic": r.get("headword_diplomatic", ""),
         "article_diplomatic": r.get("article_diplomatic", ""),
-        "uncertainty_note": note,
+        "open_validation_note": note,
         "recommended_action": action,
         "human_verified": False,
+        "philologically_verified": False,
+        "linguistically_verified": False,
         "validation_state": "pending_independent_review"
     })
 
@@ -83,10 +93,12 @@ for x in records:
 full = {
     "dataset": "raramuri-historico-steffel-1809",
     "stage": "post_diplomatic_scientific_validation",
-    "selection_rule": "active complete_ai_assisted diplomatic records with non-empty diplomatic_note",
-    "classification_method": "deterministic regex heuristic over editorial uncertainty notes",
+    "selection_rule": "active complete_ai_assisted diplomatic records with diplomatic_note_state=open_validation",
+    "classification_method": "deterministic regex triage over explicit open-validation notes",
     "classification_is_linguistic_validation": False,
     "human_verified": False,
+    "nonempty_diplomatic_notes_total": nonempty_note_count,
+    "resolved_editorial_notes_excluded": resolved_note_count,
     "count": len(records),
     "category_counts": counts,
     "records": records,
@@ -98,6 +110,8 @@ compact_records = [
     for x in records
 ]
 compact = {
+    "nonempty_diplomatic_notes_total": nonempty_note_count,
+    "resolved_editorial_notes_excluded": resolved_note_count,
     "count": len(records),
     "category_counts": counts,
     "first_batch_size": min(50, len(records)),
@@ -107,14 +121,16 @@ compact = {
 
 inventory = {
     "stage": "scientific_validation_preparation",
-    "active_diplomatic_records_with_explicit_uncertainty": len(records),
+    "diplomatic_records_with_any_editorial_note": nonempty_note_count,
+    "resolved_editorial_notes_excluded_from_open_queue": resolved_note_count,
+    "active_diplomatic_records_with_explicit_open_validation": len(records),
     "category_counts": counts,
     "priority_order": [
         "graphic_reading",
         "article_structure",
         "historical_raramuri_form",
         "semantic_or_gloss",
-        "general_editorial_uncertainty"
+        "general_open_validation"
     ],
     "human_verified_records": 0,
     "philologically_verified_records": 0,
@@ -123,4 +139,7 @@ inventory = {
 }
 (OUTDIR / "validation_inventory.json").write_text(json.dumps(inventory, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-print(f"Generated scientific-validation queue: {len(records)} uncertain diplomatic records; categories={counts}")
+print(
+    f"Generated scientific-validation queue: {len(records)} open records from "
+    f"{nonempty_note_count} non-empty diplomatic notes; resolved notes excluded={resolved_note_count}; categories={counts}"
+)
