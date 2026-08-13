@@ -186,9 +186,10 @@
       "RHD-DIP-026D",
       "RHD-DIP-026E",
       "RHD-DIP-026F",
-      "RHD-DIP-027A"
+      "RHD-DIP-027A",
+      "RHD-DIP-028A"
     ],
-    "complete_article_transcriptions_ai_assisted": 1905,
+    "complete_article_transcriptions_ai_assisted": 1915,
     "pages_represented": [
       301,
       302,
@@ -257,10 +258,11 @@
       367,
       368
     ],
-    "records_with_uncertainty_note": 655,
+    "records_with_uncertainty_note": 661,
     "method": "mixed_ai_assisted_diplomatic_transcription",
     "methods": [
       "visual_facsimile_transcription_ai_assisted",
+      "visual_facsimile_transcription_ai_assisted_curated_anchor_audit",
       "visual_facsimile_transcription_ai_assisted_direction_aware"
     ],
     "direct_facsimile_image_recheck_pending_batches": [],
