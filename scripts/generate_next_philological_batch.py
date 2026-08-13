@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the next AI recollation batch and a separate human-review queue."""
 from pathlib import Path
-import json, re
+import json
 
 ROOT = Path(__file__).resolve().parents[1]
 VALIDATION = ROOT / "data" / "validation"
@@ -47,6 +47,18 @@ next_batch = {
 }
 (VALIDATION / "next_philological_batch.json").write_text(
     json.dumps(next_batch, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+)
+compact = {
+    "batch_id": next_id,
+    "remaining_before_batch": len(remaining),
+    "count": len(next_records),
+    "records": [
+        [x["record_id"], x["printed_page"], x.get("facsimile_column", ""), x.get("headword_diplomatic", "")]
+        for x in next_records
+    ],
+}
+(VALIDATION / "next_philological_batch_compact.json").write_text(
+    json.dumps(compact, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8"
 )
 
 # Human queue prioritizes records still unresolved after AI recollation, then
