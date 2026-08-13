@@ -1,0 +1,44 @@
+{
+  "correspondence_id": "RHD-CORR-000001",
+  "historical": {
+    "record_id": "RHD-S1809-00000",
+    "form_diplomatic": "",
+    "article_diplomatic": "",
+    "printed_page": null,
+    "direction": ""
+  },
+  "modern": {
+    "record_id": "RD-000000",
+    "headword": "",
+    "headword_raw": "",
+    "headword_normalized": "",
+    "homonym_number": null,
+    "classification": "",
+    "translation_raw": "",
+    "source_code": ""
+  },
+  "candidate_relation": {
+    "type": "uncertain",
+    "status": "machine_candidate",
+    "similarity_score": null,
+    "evidence": ""
+  },
+  "derivation": {
+    "method": "",
+    "historical_normalization_key": "",
+    "modern_normalization_key": "",
+    "modern_source_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+    "notes": ""
+  },
+  "independent_review": {
+    "human_reviewed": false,
+    "decision": "not_assessed",
+    "reviewer_name": "",
+    "reviewer_affiliation": "",
+    "reviewer_orcid": "",
+    "review_date": "",
+    "relation_type_adopted": "not_assessed",
+    "evidence": "",
+    "confidence": "not_assessed"
+  }
+}
