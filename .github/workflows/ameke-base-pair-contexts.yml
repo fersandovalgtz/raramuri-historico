@@ -1,0 +1,38 @@
+name: ameke-base-pair-contexts
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_ameke_base_pair_contexts.py'
+      - 'data/research/ameke_ke_segmentation_evidence_summary.json'
+      - 'data/entries.csv'
+      - '.github/workflows/ameke-base-pair-contexts.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/generate_ameke_base_pair_contexts.py
+      - name: Save generated pair contexts
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path('data/research/ameke_exact_base_pair_contexts_summary.json').read_text(encoding='utf-8'))
+          assert s['pair_count'] == 10
+          assert s['human_reviewed'] is False
+          assert s['semantic_judgment'] == 'not_performed'
+          assert s['morphological_judgment'] == 'not_performed'
+          PY
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add data/research/ameke_exact_base_pair_contexts.json data/research/ameke_exact_base_pair_contexts_summary.json
+          git diff --cached --quiet || git commit -m 'Generate exact base ameke context pairs'
+          git pull --rebase origin main
+          git push
