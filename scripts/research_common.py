@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Shared deterministic helpers for non-adjudicative research layers.
 from pathlib import Path
 import csv,re,unicodedata,json
 ROOT=Path(__file__).resolve().parents[1]
