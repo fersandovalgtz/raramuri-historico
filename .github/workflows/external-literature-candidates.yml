@@ -10,11 +10,30 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python3 scripts/generate_external_literature_candidates.py
-      - run: |
+      - name: Generate external literature candidates
+        run: python3 scripts/generate_external_literature_candidates.py
+      - name: Generate full historical affricate inventory
+        run: python3 scripts/generate_historical_affricate_inventory.py
+      - name: Validate affricate safeguards
+        run: |
+          python3 - <<'PY'
+          import csv,json
+          from pathlib import Path
+          d=Path('data/research')
+          inv=json.load((d/'historical_affricate_graphemic_inventory.json').open(encoding='utf-8'))
+          s=json.load((d/'historical_affricate_graphemic_inventory_summary.json').open(encoding='utf-8'))
+          assert inv['human_reviewed'] is False
+          assert inv['automatic_phonological_interpretation'] is False
+          assert inv['automatic_sound_correspondence_inference'] is False
+          assert s['occurrence_count']==inv['occurrence_count']
+          assert sum(1 for _ in csv.DictReader((d/'historical_affricate_graphemic_inventory.csv').open(encoding='utf-8')))==inv['occurrence_count']
+          print('OK affricate inventory', inv['occurrence_count'], 'potential exceptions', s['potential_initial_exception_count'])
+          PY
+      - name: Commit generated research artifacts
+        run: |
           git config user.name github-actions
           git config user.email actions@github.com
-          git add data/research/external_literature_comparison_candidates*.json
-          git diff --cached --quiet || git commit -m 'Generate external literature comparison candidates'
+          git add data/research/external_literature_comparison_candidates*.json data/research/historical_affricate_graphemic_inventory.json data/research/historical_affricate_graphemic_inventory.csv data/research/historical_affricate_graphemic_inventory_summary.json data/research/HISTORICAL_AFFRICATE_INVENTORY_REPORT.md
+          git diff --cached --quiet || git commit -m 'Generate external comparisons and historical affricate inventory'
           git pull --rebase origin main
           git push
