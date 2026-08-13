@@ -1,1 +1,61 @@
-{}
+{
+  "schema_version": "1.0",
+  "entity": "diachronic_correspondence",
+  "identifier_pattern": "RHD-CORR-######",
+  "required_sections": [
+    "historical",
+    "modern",
+    "candidate_relation",
+    "derivation",
+    "independent_review"
+  ],
+  "historical_fields": [
+    "record_id",
+    "form_diplomatic",
+    "article_diplomatic",
+    "printed_page",
+    "direction"
+  ],
+  "modern_fields": [
+    "record_id",
+    "headword",
+    "headword_raw",
+    "headword_normalized",
+    "homonym_number",
+    "classification",
+    "translation_raw",
+    "source_code"
+  ],
+  "candidate_relation_types": [
+    "exact_normalized_graphic_match",
+    "probable_graphic_correspondence",
+    "semantic_correspondence_candidate",
+    "historical_variant_candidate",
+    "no_supported_match",
+    "uncertain"
+  ],
+  "candidate_statuses": [
+    "machine_candidate",
+    "awaiting_review",
+    "reviewed"
+  ],
+  "review_decisions": [
+    "not_assessed",
+    "accept",
+    "modify",
+    "reject",
+    "remain_uncertain"
+  ],
+  "adopted_relation_types": [
+    "not_assessed",
+    "graphic_continuity",
+    "historical_variant",
+    "probable_lexical_continuity",
+    "semantic_continuity",
+    "semantic_change",
+    "no_supported_relation",
+    "uncertain"
+  ],
+  "confidence_values": ["not_assessed", "low", "medium", "high"],
+  "non_overwrite_policy": "Correspondence records are derived relations and never overwrite either corpus. Machine candidates do not constitute linguistic validation."
+}
