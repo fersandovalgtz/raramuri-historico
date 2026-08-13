@@ -10,8 +10,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "bytes": 2684,
-      "sha256": "47a6de16c971801f33b20441ed5f54aaea03fd1937f74178fc39b25d82017e32"
+      "bytes": 2794,
+      "sha256": "09e8cf55a27db29b28ef7a308824c4c9afb415d492a14bacc497f12773fcb396"
     },
     {
       "path": ".gitignore",
@@ -65,8 +65,8 @@
     },
     {
       "path": "EDITORIAL_POLICY.md",
-      "bytes": 1464,
-      "sha256": "8ee80cb07d417db9c6878b47d3b7a3aceda3a715e9cc1e2529b79f1dada73653"
+      "bytes": 3424,
+      "sha256": "9cb4329fa3a84a33f9f09e2b74945b3fb9188fd9cc54e033b66542da78afd34a"
     },
     {
       "path": "FACSIMILE_REVIEW_STATUS.md",
@@ -95,8 +95,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6801,
-      "sha256": "a64427b79734c4e3b257e4d1ed692b7fd10f74a58123fbb87d5f7b67e981f0d4"
+      "bytes": 8203,
+      "sha256": "6083701132c118334b908cc9e88f175fd429ce997f115825be19ef52233f907c"
     },
     {
       "path": "RELEASE_NOTES_0.1.0.md",
@@ -115,8 +115,8 @@
     },
     {
       "path": "SCHEMA.md",
-      "bytes": 2161,
-      "sha256": "d6dc8a119a654920dc21406f5b6a11f3c5443bdb6dacf46577cfb1d93c82510e"
+      "bytes": 4679,
+      "sha256": "0b55092a90ad8b313ff19714ca7cba76ad9980805e47a53ff4f9a90a6e05fe18"
     },
     {
       "path": "SOURCES.md",
@@ -890,13 +890,13 @@
     },
     {
       "path": "data/entries.csv",
-      "bytes": 2092549,
-      "sha256": "9b0f1cb012fcf1469c3bcca1edbe148010461d774e6b07e53e8512882bcfe5e3"
+      "bytes": 2103139,
+      "sha256": "5bd11ec8c73ca42c317e394bb740778e8d2fcf3ea05e6e5652d8ca5d44dbe7f7"
     },
     {
       "path": "data/entries_curated.csv",
-      "bytes": 132726,
-      "sha256": "03723f2f6c36ec3dbc68baffa15ab3c0ecd12cc4a155342ef81d9dfe860273fe"
+      "bytes": 143316,
+      "sha256": "96a8933842860edbe9e25a1504e2a427d62a6ee3ab4ebf127b65a6d77fbc24c4"
     },
     {
       "path": "data/facsimile/README.md",
@@ -935,8 +935,8 @@
     },
     {
       "path": "data/json/entries.json",
-      "bytes": 4058093,
-      "sha256": "d468968250ce69144067bb13f787e937e8f4df44be28d247e5fa377a4201fac7"
+      "bytes": 4068683,
+      "sha256": "eb2e5f6801bea0d2d026bb028b5229c85a89429e61508c0f15e733b340299af7"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -945,8 +945,8 @@
     },
     {
       "path": "data/raramuri_historico.sqlite",
-      "bytes": 2699264,
-      "sha256": "ee417e57a433a6bd3964088f145b2bba9a1550c232ed144640500a3dadea4875"
+      "bytes": 2715648,
+      "sha256": "394e4f12423d27d89eee10b8f04edafd1ec14d51ff68ab3f2b5ca8ff1619045c"
     },
     {
       "path": "data/review/README.md",
@@ -1115,8 +1115,8 @@
     },
     {
       "path": "data/validation/README.md",
-      "bytes": 2196,
-      "sha256": "1ca993d2bf2df75d8b19b7bfe57bcbbd21c23660211f180e450b85799b2f3a90"
+      "bytes": 3902,
+      "sha256": "50da9ca9515d568c4761454d32b5e831d22b828295c5ba552aba8d33f0ddfb08"
     },
     {
       "path": "data/validation/human_review_queue.json",
@@ -1155,8 +1155,8 @@
     },
     {
       "path": "data/xml/entries.xml",
-      "bytes": 4772869,
-      "sha256": "85b751164abb10ce18e02c3e1bdd1e4741f2670a4ea7178e7ee9b2b5fec05b07"
+      "bytes": 4783459,
+      "sha256": "c81ac8c95067d3b5e0f089fe6893f289212784eb53702ad5e1514bb9afbe9afb"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
@@ -1175,8 +1175,8 @@
     },
     {
       "path": "project-metadata.json",
-      "bytes": 5537,
-      "sha256": "40858993b4501cacb9dd658778a59361ddec263a79734d6b3aa38cb5b44037e5"
+      "bytes": 6942,
+      "sha256": "8924de949950eb8c4ccee50543f500a710e37bd1c26e85ff9a2aa91f7180b0cc"
     },
     {
       "path": "public/app.js",
@@ -1185,13 +1185,13 @@
     },
     {
       "path": "public/data/entries.json",
-      "bytes": 3594022,
-      "sha256": "56e1bfc9d21f598593a30f02210080c1a3279698a28b4fb5c94cd16cfa32e9a0"
+      "bytes": 3604612,
+      "sha256": "f0305ec68b20bc78f9e34bd5ed6b30782409358729ea910ed9b192c699027b14"
     },
     {
       "path": "public/data/metadata.json",
-      "bytes": 5537,
-      "sha256": "40858993b4501cacb9dd658778a59361ddec263a79734d6b3aa38cb5b44037e5"
+      "bytes": 6942,
+      "sha256": "8924de949950eb8c4ccee50543f500a710e37bd1c26e85ff9a2aa91f7180b0cc"
     },
     {
       "path": "public/index.html",
@@ -1267,6 +1267,11 @@
       "path": "tests/validate.py",
       "bytes": 11399,
       "sha256": "979abbda6138cbaa5d76491c72d92bf662619c5087fdbc2a1408e87e434062ec"
+    },
+    {
+      "path": "tests/validate_validation_phase.py",
+      "bytes": 4299,
+      "sha256": "7413af52d0a5f0ee875605efda06a540e0a54480462ff66d19410deae81ed60e"
     }
   ]
 }
