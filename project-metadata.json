@@ -121,7 +121,28 @@
     "steffel_graphic_context_pattern_associations": 27,
     "steffel_graphic_context_family_associations": 47,
     "steffel_graphic_context_patterns_with_enriched_tokens": 22,
-    "steffel_graphic_context_families_with_enriched_tokens": 42
+    "steffel_graphic_context_families_with_enriched_tokens": 42,
+    "steffel_ameke_constellation_members": 147,
+    "steffel_ameke_inclusive_suffix_member_counts": {
+      "ameke": 147,
+      "gameke": 44,
+      "iameke": 28,
+      "ugameke": 27,
+      "jameke": 22
+    },
+    "steffel_ameke_exclusive_suffix_member_counts": {
+      "ameke_other": 53,
+      "gameke": 17,
+      "iameke": 28,
+      "jameke": 22,
+      "ugameke": 27
+    },
+    "steffel_ameke_members_internally_reattested": 45,
+    "steffel_ameke_members_with_internal_reciprocal_support": 19,
+    "steffel_ameke_exact_shared_stripped_base_groups": 0,
+    "steffel_ameke_base_contrast_candidates": 12,
+    "steffel_ameke_exact_base_contrast_pairs": 0,
+    "steffel_ameke_edit_distance_one_base_contrast_pairs": 12
   },
   "editorial_pipeline": {
     "review_queue": "data/review/next_review_queue.json",
@@ -223,6 +244,7 @@
       "scripts/generate_graphic_family_hypotheses.py",
       "scripts/generate_graphic_context_associations.py",
       "scripts/generate_internal_concordance.py",
+      "scripts/generate_ameke_constellation.py",
       "scripts/generate_historical_variants.py",
       "scripts/generate_semantic_context_queue.py",
       "scripts/generate_graphemic_statistics.py",
@@ -240,7 +262,7 @@
     "de_rar_inventory_guided_attestations_csv": "data/research/de_rar_inventory_guided_attestations.csv",
     "steffel_internal_concordance_csv": "data/research/internal_concordance.csv",
     "diachronic_semantic_context_queue_csv": "data/research/diachronic_semantic_context_queue.csv",
-    "parallel_machine_research_stage": "Internal Steffel concordance, conservative residual recovery, seeded graphic-family hypotheses, German-context association, documentary variant analysis, graphemic statistics and non-adjudicative diachronic context may advance while independent human validation remains unavailable.",
+    "parallel_machine_research_stage": "Internal Steffel concordance, conservative residual recovery, seeded graphic-family hypotheses, German-context association, nested -ameke string contrasts, documentary variant analysis, graphemic statistics and non-adjudicative diachronic context may advance while independent human validation remains unavailable.",
     "de_rar_residual_span_triage": "data/research/de_rar_residual_span_triage.json",
     "de_rar_residual_span_triage_csv": "data/research/de_rar_residual_span_triage.csv",
     "de_rar_residual_span_triage_summary": "data/research/de_rar_residual_span_triage_summary.json",
@@ -258,7 +280,13 @@
     "steffel_graphic_context_family_associations": "data/research/graphic_context_family_associations.json",
     "steffel_graphic_context_family_associations_csv": "data/research/graphic_context_family_associations.csv",
     "steffel_graphic_context_associations_summary": "data/research/graphic_context_associations_summary.json",
-    "graphic_context_policy": "German documentary contexts are associated by document-frequency log-odds and transparent word-shape proxies only; no automatic semantic classification, part-of-speech tagging, morpheme assignment, lexical acceptance or historical interpretation is performed."
+    "graphic_context_policy": "German documentary contexts are associated by document-frequency log-odds and transparent word-shape proxies only; no automatic semantic classification, part-of-speech tagging, morpheme assignment, lexical acceptance or historical interpretation is performed.",
+    "steffel_ameke_constellation_members": "data/research/ameke_constellation_members.json",
+    "steffel_ameke_constellation_members_csv": "data/research/ameke_constellation_members.csv",
+    "steffel_ameke_base_contrast_candidates": "data/research/ameke_base_contrast_candidates.json",
+    "steffel_ameke_base_contrast_candidates_csv": "data/research/ameke_base_contrast_candidates.csv",
+    "steffel_ameke_constellation_summary": "data/research/ameke_constellation_summary.json",
+    "ameke_constellation_policy": "Nested -ameke strings are mechanically stripped for documentary comparison only; the resulting bases and suffix classes are not morphemes, roots, paradigms, grammatical categories, lexical identities or semantic functions unless independently reviewed."
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",

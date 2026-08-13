@@ -109,6 +109,34 @@
   "graphic_context_method": "document_frequency_log_odds_context_association_v2",
   "graphic_context_automatic_semantic_classification": false,
   "graphic_context_automatic_part_of_speech_tagging": false,
+  "ameke_constellation_member_count": 147,
+  "ameke_inclusive_suffix_member_counts": {
+    "ameke": 147,
+    "gameke": 44,
+    "iameke": 28,
+    "ugameke": 27,
+    "jameke": 22
+  },
+  "ameke_exclusive_suffix_member_counts": {
+    "ameke_other": 53,
+    "gameke": 17,
+    "iameke": 28,
+    "jameke": 22,
+    "ugameke": 27
+  },
+  "ameke_members_internally_reattested": 45,
+  "ameke_members_with_internal_reciprocal_support": 19,
+  "ameke_exact_shared_stripped_base_group_count": 0,
+  "ameke_base_contrast_candidate_count": 12,
+  "ameke_exact_base_contrast_pair_count": 0,
+  "ameke_edit_distance_one_base_contrast_pair_count": 12,
+  "ameke_contrast_review_priority_tier_counts": {
+    "4": 12
+  },
+  "ameke_automatic_morphological_analysis": false,
+  "ameke_automatic_morpheme_assignment": false,
+  "ameke_automatic_semantic_classification": false,
+  "ameke_automatic_paradigm_inference": false,
   "explicit_source_variant_groups": 24,
   "normalized_graphic_collision_groups": 7,
   "diachronic_semantic_context_candidates": 298,

@@ -1,0 +1,13 @@
+contrast_id,contrast_type,review_priority_tier,member_a_key,member_a_suffix_class,member_a_base,member_b_key,member_b_suffix_class,member_b_base,base_edit_distance,shared_german_context_tokens,both_internally_reattested,either_internal_reciprocal_support,human_reviewed
+RHD-AMEKE-C-00001,edit_distance_one_stripped_base_neighbor,4,jolajameke,jameke,jola,jolarugameke,ugameke,jolar,1,thun,False,False,False
+RHD-AMEKE-C-00002,edit_distance_one_stripped_base_neighbor,4,bassiameke,iameke,bass,bassujameke,jameke,bassu,1,,False,False,False
+RHD-AMEKE-C-00003,edit_distance_one_stripped_base_neighbor,4,bassirugameke,ugameke,bassir,bassirujameke,jameke,bassiru,1,,False,False,False
+RHD-AMEKE-C-00004,edit_distance_one_stripped_base_neighbor,4,cuguiameke,iameke,cugu,culuameke,ameke_other,culu,1,,True,True,False
+RHD-AMEKE-C-00005,edit_distance_one_stripped_base_neighbor,4,jauguirameke,ameke_other,jauguir,pauguirugameke,ugameke,pauguir,1,,False,False,False
+RHD-AMEKE-C-00006,edit_distance_one_stripped_base_neighbor,4,loguiameke,iameke,logu,loguijameke,jameke,logui,1,,False,False,False
+RHD-AMEKE-C-00007,edit_distance_one_stripped_base_neighbor,4,mukiameke,iameke,muk,mukijameke,jameke,muki,1,,False,False,False
+RHD-AMEKE-C-00008,edit_distance_one_stripped_base_neighbor,4,mukiameke,iameke,muk,mukuameke,ameke_other,muku,1,,False,False,False
+RHD-AMEKE-C-00009,edit_distance_one_stripped_base_neighbor,4,mukijameke,jameke,muki,mukuameke,ameke_other,muku,1,,False,False,False
+RHD-AMEKE-C-00010,edit_distance_one_stripped_base_neighbor,4,pahiameke,iameke,pah,parugameke,ugameke,par,1,,False,False,False
+RHD-AMEKE-C-00011,edit_distance_one_stripped_base_neighbor,4,seliameke,iameke,sel,uelameke,ameke_other,uel,1,,False,False,False
+RHD-AMEKE-C-00012,edit_distance_one_stripped_base_neighbor,4,tsetijolajameke,jameke,tsetijola,tsetijolameke,ameke_other,tsetijol,1,,False,False,False

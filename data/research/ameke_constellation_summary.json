@@ -1,0 +1,441 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "generated": "2026-08-13",
+  "layer": "ameke_graphic_constellation_v1",
+  "member_count": 147,
+  "inclusive_suffix_member_counts": {
+    "ameke": 147,
+    "gameke": 44,
+    "iameke": 28,
+    "ugameke": 27,
+    "jameke": 22
+  },
+  "exclusive_suffix_member_counts": {
+    "ameke_other": 53,
+    "gameke": 17,
+    "iameke": 28,
+    "jameke": 22,
+    "ugameke": 27
+  },
+  "members_internally_reattested": 45,
+  "members_with_internal_reciprocal_support": 19,
+  "exact_shared_stripped_base_group_count": 0,
+  "exact_shared_stripped_base_groups": [],
+  "base_contrast_candidate_count": 12,
+  "exact_base_contrast_pair_count": 0,
+  "edit_distance_one_base_contrast_pair_count": 12,
+  "contrast_review_priority_tier_counts": {
+    "4": 12
+  },
+  "exclusive_suffix_profiles": [
+    {
+      "exclusive_suffix_class": "ameke_other",
+      "member_count": 53,
+      "german_context_count": 58,
+      "internally_reattested_member_count": 20,
+      "internal_reciprocal_support_member_count": 6,
+      "distinct_printed_page_count": 34,
+      "german_context_shape_proxy_counts": {
+        "infinitive_ending_proxy": 4,
+        "multiword_or_ambiguous_proxy": 18,
+        "other_single_word_proxy": 28,
+        "property_ending_proxy": 8
+      },
+      "german_context_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.069,
+        "multiword_or_ambiguous_proxy": 0.31,
+        "other_single_word_proxy": 0.483,
+        "property_ending_proxy": 0.138
+      }
+    },
+    {
+      "exclusive_suffix_class": "gameke",
+      "member_count": 17,
+      "german_context_count": 25,
+      "internally_reattested_member_count": 4,
+      "internal_reciprocal_support_member_count": 2,
+      "distinct_printed_page_count": 17,
+      "german_context_shape_proxy_counts": {
+        "infinitive_ending_proxy": 4,
+        "multiword_or_ambiguous_proxy": 2,
+        "other_single_word_proxy": 15,
+        "property_ending_proxy": 4
+      },
+      "german_context_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.16,
+        "multiword_or_ambiguous_proxy": 0.08,
+        "other_single_word_proxy": 0.6,
+        "property_ending_proxy": 0.16
+      }
+    },
+    {
+      "exclusive_suffix_class": "iameke",
+      "member_count": 28,
+      "german_context_count": 35,
+      "internally_reattested_member_count": 8,
+      "internal_reciprocal_support_member_count": 7,
+      "distinct_printed_page_count": 21,
+      "german_context_shape_proxy_counts": {
+        "infinitive_ending_proxy": 6,
+        "multiword_or_ambiguous_proxy": 4,
+        "other_single_word_proxy": 16,
+        "property_ending_proxy": 9
+      },
+      "german_context_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.171,
+        "multiword_or_ambiguous_proxy": 0.114,
+        "other_single_word_proxy": 0.457,
+        "property_ending_proxy": 0.257
+      }
+    },
+    {
+      "exclusive_suffix_class": "ugameke",
+      "member_count": 27,
+      "german_context_count": 31,
+      "internally_reattested_member_count": 7,
+      "internal_reciprocal_support_member_count": 1,
+      "distinct_printed_page_count": 22,
+      "german_context_shape_proxy_counts": {
+        "infinitive_ending_proxy": 16,
+        "multiword_or_ambiguous_proxy": 1,
+        "other_single_word_proxy": 13,
+        "property_ending_proxy": 1
+      },
+      "german_context_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.516,
+        "multiword_or_ambiguous_proxy": 0.032,
+        "other_single_word_proxy": 0.419,
+        "property_ending_proxy": 0.032
+      }
+    },
+    {
+      "exclusive_suffix_class": "jameke",
+      "member_count": 22,
+      "german_context_count": 25,
+      "internally_reattested_member_count": 6,
+      "internal_reciprocal_support_member_count": 3,
+      "distinct_printed_page_count": 18,
+      "german_context_shape_proxy_counts": {
+        "infinitive_ending_proxy": 4,
+        "multiword_or_ambiguous_proxy": 4,
+        "other_single_word_proxy": 13,
+        "property_ending_proxy": 4
+      },
+      "german_context_shape_proxy_rates": {
+        "infinitive_ending_proxy": 0.16,
+        "multiword_or_ambiguous_proxy": 0.16,
+        "other_single_word_proxy": 0.52,
+        "property_ending_proxy": 0.16
+      }
+    }
+  ],
+  "top_descriptive_proxy_rate_contrasts": [
+    {
+      "class_a": "ameke_other",
+      "class_b": "ugameke",
+      "proxy": "infinitive_ending_proxy",
+      "rate_a": 0.069,
+      "rate_b": 0.516,
+      "absolute_rate_difference": 0.447,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "gameke",
+      "class_b": "ugameke",
+      "proxy": "infinitive_ending_proxy",
+      "rate_a": 0.16,
+      "rate_b": 0.516,
+      "absolute_rate_difference": 0.356,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ugameke",
+      "class_b": "jameke",
+      "proxy": "infinitive_ending_proxy",
+      "rate_a": 0.516,
+      "rate_b": 0.16,
+      "absolute_rate_difference": 0.356,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "iameke",
+      "class_b": "ugameke",
+      "proxy": "infinitive_ending_proxy",
+      "rate_a": 0.171,
+      "rate_b": 0.516,
+      "absolute_rate_difference": 0.345,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ameke_other",
+      "class_b": "ugameke",
+      "proxy": "multiword_or_ambiguous_proxy",
+      "rate_a": 0.31,
+      "rate_b": 0.032,
+      "absolute_rate_difference": 0.278,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ameke_other",
+      "class_b": "gameke",
+      "proxy": "multiword_or_ambiguous_proxy",
+      "rate_a": 0.31,
+      "rate_b": 0.08,
+      "absolute_rate_difference": 0.23,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "iameke",
+      "class_b": "ugameke",
+      "proxy": "property_ending_proxy",
+      "rate_a": 0.257,
+      "rate_b": 0.032,
+      "absolute_rate_difference": 0.225,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ameke_other",
+      "class_b": "iameke",
+      "proxy": "multiword_or_ambiguous_proxy",
+      "rate_a": 0.31,
+      "rate_b": 0.114,
+      "absolute_rate_difference": 0.196,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "gameke",
+      "class_b": "ugameke",
+      "proxy": "other_single_word_proxy",
+      "rate_a": 0.6,
+      "rate_b": 0.419,
+      "absolute_rate_difference": 0.181,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ameke_other",
+      "class_b": "jameke",
+      "proxy": "multiword_or_ambiguous_proxy",
+      "rate_a": 0.31,
+      "rate_b": 0.16,
+      "absolute_rate_difference": 0.15,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "gameke",
+      "class_b": "iameke",
+      "proxy": "other_single_word_proxy",
+      "rate_a": 0.6,
+      "rate_b": 0.457,
+      "absolute_rate_difference": 0.143,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "gameke",
+      "class_b": "ugameke",
+      "proxy": "property_ending_proxy",
+      "rate_a": 0.16,
+      "rate_b": 0.032,
+      "absolute_rate_difference": 0.128,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ugameke",
+      "class_b": "jameke",
+      "proxy": "multiword_or_ambiguous_proxy",
+      "rate_a": 0.032,
+      "rate_b": 0.16,
+      "absolute_rate_difference": 0.128,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ugameke",
+      "class_b": "jameke",
+      "proxy": "property_ending_proxy",
+      "rate_a": 0.032,
+      "rate_b": 0.16,
+      "absolute_rate_difference": 0.128,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ameke_other",
+      "class_b": "iameke",
+      "proxy": "property_ending_proxy",
+      "rate_a": 0.138,
+      "rate_b": 0.257,
+      "absolute_rate_difference": 0.119,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ameke_other",
+      "class_b": "gameke",
+      "proxy": "other_single_word_proxy",
+      "rate_a": 0.483,
+      "rate_b": 0.6,
+      "absolute_rate_difference": 0.117,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ameke_other",
+      "class_b": "ugameke",
+      "proxy": "property_ending_proxy",
+      "rate_a": 0.138,
+      "rate_b": 0.032,
+      "absolute_rate_difference": 0.106,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ameke_other",
+      "class_b": "iameke",
+      "proxy": "infinitive_ending_proxy",
+      "rate_a": 0.069,
+      "rate_b": 0.171,
+      "absolute_rate_difference": 0.102,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ugameke",
+      "class_b": "jameke",
+      "proxy": "other_single_word_proxy",
+      "rate_a": 0.419,
+      "rate_b": 0.52,
+      "absolute_rate_difference": 0.101,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "gameke",
+      "class_b": "iameke",
+      "proxy": "property_ending_proxy",
+      "rate_a": 0.16,
+      "rate_b": 0.257,
+      "absolute_rate_difference": 0.097,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "iameke",
+      "class_b": "jameke",
+      "proxy": "property_ending_proxy",
+      "rate_a": 0.257,
+      "rate_b": 0.16,
+      "absolute_rate_difference": 0.097,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ameke_other",
+      "class_b": "gameke",
+      "proxy": "infinitive_ending_proxy",
+      "rate_a": 0.069,
+      "rate_b": 0.16,
+      "absolute_rate_difference": 0.091,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ameke_other",
+      "class_b": "jameke",
+      "proxy": "infinitive_ending_proxy",
+      "rate_a": 0.069,
+      "rate_b": 0.16,
+      "absolute_rate_difference": 0.091,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "iameke",
+      "class_b": "ugameke",
+      "proxy": "multiword_or_ambiguous_proxy",
+      "rate_a": 0.114,
+      "rate_b": 0.032,
+      "absolute_rate_difference": 0.082,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "gameke",
+      "class_b": "jameke",
+      "proxy": "multiword_or_ambiguous_proxy",
+      "rate_a": 0.08,
+      "rate_b": 0.16,
+      "absolute_rate_difference": 0.08,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "gameke",
+      "class_b": "jameke",
+      "proxy": "other_single_word_proxy",
+      "rate_a": 0.6,
+      "rate_b": 0.52,
+      "absolute_rate_difference": 0.08,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "ameke_other",
+      "class_b": "ugameke",
+      "proxy": "other_single_word_proxy",
+      "rate_a": 0.483,
+      "rate_b": 0.419,
+      "absolute_rate_difference": 0.064,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "iameke",
+      "class_b": "jameke",
+      "proxy": "other_single_word_proxy",
+      "rate_a": 0.457,
+      "rate_b": 0.52,
+      "absolute_rate_difference": 0.063,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "gameke",
+      "class_b": "ugameke",
+      "proxy": "multiword_or_ambiguous_proxy",
+      "rate_a": 0.08,
+      "rate_b": 0.032,
+      "absolute_rate_difference": 0.048,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    },
+    {
+      "class_a": "iameke",
+      "class_b": "jameke",
+      "proxy": "multiword_or_ambiguous_proxy",
+      "rate_a": 0.114,
+      "rate_b": 0.16,
+      "absolute_rate_difference": 0.046,
+      "status": "machine_descriptive_rate_contrast",
+      "human_reviewed": false
+    }
+  ],
+  "human_reviewed": false,
+  "automatic_morphological_analysis": false,
+  "automatic_morpheme_assignment": false,
+  "automatic_semantic_classification": false,
+  "automatic_paradigm_inference": false,
+  "method": "nested_suffix_string_decomposition_and_documentary_base_contrast_v1",
+  "interpretive_scope": "Descriptive machine analysis of nested -ameke strings, mechanically stripped bases, German source contexts, page recurrence and internal Steffel reattestation. No morphological, grammatical, lexical or semantic function is asserted."
+}

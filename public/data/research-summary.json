@@ -68,6 +68,33 @@
     "automatic_semantic_classification": false,
     "automatic_part_of_speech_tagging": false
   },
+  "ameke_constellation": {
+    "member_count": 147,
+    "inclusive_suffix_member_counts": {
+      "ameke": 147,
+      "gameke": 44,
+      "iameke": 28,
+      "ugameke": 27,
+      "jameke": 22
+    },
+    "exclusive_suffix_member_counts": {
+      "ameke_other": 53,
+      "gameke": 17,
+      "iameke": 28,
+      "jameke": 22,
+      "ugameke": 27
+    },
+    "members_internally_reattested": 45,
+    "members_with_internal_reciprocal_support": 19,
+    "exact_shared_stripped_base_group_count": 0,
+    "base_contrast_candidate_count": 12,
+    "exact_base_contrast_pair_count": 0,
+    "edit_distance_one_base_contrast_pair_count": 12,
+    "automatic_morphological_analysis": false,
+    "automatic_morpheme_assignment": false,
+    "automatic_semantic_classification": false,
+    "automatic_paradigm_inference": false
+  },
   "explicit_variant_groups": 24,
   "graphic_collision_groups": 7,
   "diachronic_semantic_context_signals": {
@@ -76,5 +103,5 @@
     "internal_reciprocal_documentary_support": 153
   },
   "human_reviewed_relations": 0,
-  "warning": "Machine/documentary candidates, graphic patterns and German-context associations; not validated linguistic relations, language identifications, grammatical categories, meanings or morphological analyses."
+  "warning": "Machine/documentary candidates, graphic patterns, German-context associations and mechanically stripped -ameke contrasts; not validated linguistic relations, grammatical categories, meanings or morphological analyses."
 }
