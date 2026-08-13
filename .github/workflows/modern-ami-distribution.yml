@@ -1,0 +1,44 @@
+name: modern-ami-distribution
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_modern_ami_distribution.py'
+      - '.github/workflows/modern-ami-distribution.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: fersandovalgtz/raramuri-digital
+          ref: 156921f4edfe27d784edc1e6444867eaa368f2e5
+          path: .tmp-raramuri-digital
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/generate_modern_ami_distribution.py
+      - name: Validate and save modern ami layer
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path('data/research/modern_final_ami_distribution_summary.json').read_text(encoding='utf-8'))
+          assert s['modern_commit']=='156921f4edfe27d784edc1e6444867eaa368f2e5'
+          assert s['modern_active_record_count']==2581
+          assert s['final_ami_record_count']>0
+          assert s['simple_nonbare_final_ami_candidate_count']>0
+          assert s['automatic_morpheme_assignment'] is False
+          assert s['human_reviewed'] is False
+          assert s['rosacami_record'] and s['rosacami_record']['record_id']=='RD-002179'
+          PY
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add data/research/modern_final_ami_distribution.json data/research/modern_final_ami_distribution_summary.json data/research/modern_exact_base_ami_pairs.json
+          git diff --cached --quiet || git commit -m 'Generate pinned modern final-ami distribution'
+          git pull --rebase origin main
+          git push
