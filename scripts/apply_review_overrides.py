@@ -11,6 +11,7 @@ import csv, json, re, unicodedata
 
 ROOT = Path(__file__).resolve().parents[1]
 ENTRIES = ROOT / "data" / "entries.csv"
+CURATED = ROOT / "data" / "entries_curated.csv"
 REVIEW_DIR = ROOT / "data" / "review"
 DIPLOMATIC_DIR = ROOT / "data" / "diplomatic"
 INVENTORY = ROOT / "data" / "corpus_inventory.json"
@@ -161,9 +162,40 @@ with ENTRIES.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(rows)
 
+# Keep the curated-seed projection synchronized with the reviewed master layer.
+if CURATED.exists():
+    curated_rows = list(csv.DictReader(CURATED.open(encoding="utf-8")))
+    if curated_rows:
+        curated_fields = list(curated_rows[0].keys())
+        for f in DIP_FIELDS:
+            if f not in curated_fields:
+                curated_fields.append(f)
+        sync_fields = [
+            "headword_raw","headword_search","printed_page","pdf_page",
+            "editorial_note","status","validation", *DIP_FIELDS
+        ]
+        for cr in curated_rows:
+            master = by_id.get(cr.get("record_id", ""))
+            if master is None:
+                continue
+            for f in sync_fields:
+                if f in curated_fields:
+                    cr[f] = master.get(f, cr.get(f, ""))
+        with CURATED.open("w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=curated_fields)
+            w.writeheader()
+            w.writerows(curated_rows)
+
 inv = json.load(INVENTORY.open(encoding="utf-8"))
 review_methods_sorted = sorted(review_methods)
 dip_methods_sorted = sorted(dip_methods)
+full_diplomatic_complete = (
+    reviewed == len(rows)
+    and accepted == len(rows) - rejected
+    and dip_count == accepted
+    and not review_direct_image_pending_batches
+    and not dip_direct_image_pending_batches
+)
 inv["facsimile_review"] = {
     "reviewed_candidate_boundaries": reviewed,
     "accepted_headword_starts": accepted,
@@ -174,7 +206,8 @@ inv["facsimile_review"] = {
     "method": review_methods_sorted[0] if len(review_methods_sorted) == 1 else "mixed_ai_assisted_editorial_collation",
     "methods": review_methods_sorted,
     "direct_facsimile_image_recheck_pending_batches": review_direct_image_pending_batches,
-    "full_diplomatic_transcription_completed": False
+    "all_candidate_boundaries_facsimile_reviewed": reviewed == len(rows),
+    "full_diplomatic_transcription_completed": full_diplomatic_complete
 }
 inv["diplomatic_transcription"] = {
     "batches": dip_batches,
@@ -184,6 +217,7 @@ inv["diplomatic_transcription"] = {
     "method": dip_methods_sorted[0] if len(dip_methods_sorted) == 1 else "mixed_ai_assisted_diplomatic_transcription",
     "methods": dip_methods_sorted,
     "direct_facsimile_image_recheck_pending_batches": dip_direct_image_pending_batches,
+    "full_active_corpus_coverage": full_diplomatic_complete,
     "human_verified": False,
     "scope_note": "Complete article text for accepted records; source spelling/punctuation retained where supported; typographic line wrapping not encoded. Batches without direct facsimile image reinspection are explicitly flagged for later re-collation."
 }
@@ -191,5 +225,6 @@ INVENTORY.write_text(json.dumps(inv, ensure_ascii=False, indent=2) + "\n", encod
 print(
     f"Applied {reviewed} boundary reviews: {accepted} accepted, {rejected} rejected, "
     f"{corrections} corrections; {dip_count} complete AI-assisted diplomatic articles; "
+    f"full_diplomatic_transcription_completed={full_diplomatic_complete}; "
     f"direct-image recheck pending review batches={review_direct_image_pending_batches}"
 )
