@@ -1,0 +1,46 @@
+{
+  "review_id": "RHD-HUM-###",
+  "review_date": "YYYY-MM-DD",
+  "reviewer": {
+    "name": "",
+    "affiliation": "",
+    "orcid": "",
+    "expertise": []
+  },
+  "source_authority": "Steffel 1809 facsimile",
+  "review_scope": "independent_human_review",
+  "records": [
+    {
+      "record_id": "RHD-S1809-#####",
+      "source_phil_batch": "RHD-PHIL-###",
+      "phil_relationship": "confirm | accept_proposed_correction | modify_proposed_correction | reject_proposed_correction | not_applicable",
+      "philological_decision": {
+        "status": "confirmed_diplomatic | accepted_ai_proposed_correction | human_corrected_reading | remain_unresolved | not_assessed",
+        "reading": "",
+        "evidence": "",
+        "confidence": "high | medium | low | not_assessed"
+      },
+      "linguistic_decision": {
+        "status": "confirmed | corrected | variant_identified | uncertain | not_assessed",
+        "analysis": "",
+        "evidence": ""
+      },
+      "semantic_historical_decision": {
+        "status": "confirmed_source_gloss | clarified_historical_sense | requires_contextual_annotation | uncertain | not_assessed",
+        "analysis": "",
+        "evidence": ""
+      },
+      "disciplinary_decision": {
+        "domain": "",
+        "status": "confirmed | corrected | requires_specialist | not_assessed",
+        "analysis": "",
+        "evidence": ""
+      },
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false,
+      "reviewer_note": ""
+    }
+  ],
+  "provenance_note": "Set verification booleans to true only when the corresponding independent human decision is explicitly completed and documented. Never overwrite the diplomatic layer."
+}
