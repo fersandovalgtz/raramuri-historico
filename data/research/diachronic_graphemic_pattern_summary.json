@@ -1,18 +1,20 @@
 {
   "dataset": "raramuri-historico-steffel-1809",
-  "layer": "seed_plus_holdout_diachronic_graphemic_pattern_summary_v2",
+  "layer": "seed_plus_holdout_diachronic_graphemic_pattern_summary_v3",
   "generated": "2026-08-13",
   "seed_registry": "data/research/diachronic_graphemic_seed_pairs.json",
   "holdout_registry": "data/research/diachronic_graphemic_holdout_pairs.json",
+  "environment_registry": "data/research/tsch_ts_environment_comparison.json",
   "seed_record_count": 11,
   "seed_positive_record_count": 9,
   "seed_positive_independent_family_count": 5,
   "seed_negative_control_record_count": 2,
-  "holdout_record_count": 6,
-  "holdout_positive_record_count": 5,
-  "holdout_positive_independent_family_count": 5,
+  "holdout_record_count": 8,
+  "holdout_positive_record_count": 6,
+  "holdout_positive_independent_family_count": 6,
+  "holdout_unresolved_record_count": 1,
   "holdout_negative_control_record_count": 1,
-  "selection_independence": "Holdouts were selected by semantic equivalence from published Steffel examples and then checked in the pinned modern lexicon; they were not required in advance to validate the tested graphic motif.",
+  "selection_independence": "Holdouts were retrieved by historical meaning/domain from published Steffel examples and then checked in the pinned modern lexicon; positive, negative, and unresolved outcomes are retained.",
   "patterns": [
     {
       "pattern_id": "ameke_to_ami",
@@ -48,17 +50,19 @@
       "modern_string": "ch",
       "seed_positive_family_count": 2,
       "seed_positive_family_ids": ["sleep", "suckle"],
-      "holdout_positive_family_count": 5,
-      "holdout_positive_family_ids": ["black", "grasp", "mouse", "sharpen", "sow"],
-      "total_positive_independent_family_count": 7,
+      "holdout_positive_family_count": 6,
+      "holdout_positive_family_ids": ["black", "extinguish", "grasp", "mouse", "sharpen", "sow"],
+      "total_positive_independent_family_count": 8,
       "seed_negative_control_count": 0,
       "holdout_negative_control_count": 1,
       "holdout_negative_control_family_ids": ["stink_vs_bitter_control"],
+      "holdout_unresolved_family_ids": ["mouth_muzzle_unresolved"],
       "status": "source_supported_recurrent_phonetic_compatibility_hypothesis",
       "published_historical_phonetic_interpretation": true,
       "independent_modern_phonemic_support": true,
+      "shared_low_central_environment": true,
       "specific_modern_phonemic_holdout": "Caballero 2022 tʃaˈpí 'grab' corresponding semantically to historical tschapí 'agarrar' and modern Chapí RD-000656",
-      "interpretation": "The multi-family graphic recurrence is now externally compatible with published historical and modern phonetic analyses. It is not yet a historical sound law."
+      "interpretation": "The multi-family graphic recurrence is externally compatible with published historical and modern phonetic analyses. Historical initial <tsch>/<ts> free variation before a parallels modern optional /tʃ/→[ts] before low central vowels. Rule identity and historical persistence are not adjudicated."
     },
     {
       "pattern_id": "ss_to_s",
@@ -97,14 +101,16 @@
     }
   ],
   "source_supported_interpretation": {
-    "steffel_tsch": "Merrill et al. 2020 §7.5.2 associates <tsch> with a voiceless palatoalveolar affricate [č] and analyzes <tsch>/<ts> as allophones of /č/.",
+    "steffel_tsch": "Merrill et al. 2020 §7.5.2 associates <tsch> with a voiceless palatoalveolar affricate [č] and analyzes <tsch>/<ts> as allophones of /č/; Appendix 5 transcribes tschapí as čapí and other <tsch> forms systematically with č.",
     "steffel_ss": "Merrill et al. 2020 §7.5.5 interprets intervocalic <ss> as voiceless [s], not phonological gemination.",
-    "modern_choguita": "Caballero 2022 includes phonemic /tʃ/ and /s/ and independently documents tʃaˈpí 'grab'.",
+    "modern_choguita": "Caballero 2022 includes phonemic /tʃ/ and /s/, optional /tʃ/→[ts] depalatalization before low central vowels, and independently documents tʃaˈpí 'grab'.",
+    "structural_parallel": "Historical initial <tsch>/<ts> free variation before a and modern optional /tʃ/→[ts] before low central vowels constitute a source-supported allophonic structural parallel, not proof that one historical conditioning rule persisted unchanged.",
     "variety_caution": "Choguita Rarámuri and the pinned SRC-02 lexicon are independent modern sources/varieties and are not collapsed into one variety."
   },
   "human_reviewed": false,
   "automatic_sound_correspondence_inference": false,
   "automatic_phonological_interpretation": false,
+  "historical_rule_continuity_judgment": "not_performed",
   "cognacy_judgment": "not_performed",
   "historical_continuity_judgment": "not_performed"
 }
