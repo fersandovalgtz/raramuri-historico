@@ -1,0 +1,112 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_ugameke_hostile_robustness_controls_v1",
+  "generated": "2026-08-13",
+  "target_graphic_class": "ugameke",
+  "target_german_context_proxy": "infinitive_ending_proxy",
+  "random_seed_base": 1810,
+  "permutation_iterations_per_test": 20000,
+  "member_count": 147,
+  "baseline_context_effect": {
+    "target_numerator": 16,
+    "target_denominator": 31,
+    "rest_numerator": 18,
+    "rest_denominator": 143,
+    "target_rate": 0.5161290322580645,
+    "rest_rate": 0.1258741258741259,
+    "rate_difference": 0.3902549063839386
+  },
+  "baseline_member_binary_effect": {
+    "target_numerator": 15,
+    "target_denominator": 27,
+    "rest_numerator": 16,
+    "rest_denominator": 120,
+    "target_rate": 0.5555555555555556,
+    "rest_rate": 0.13333333333333333,
+    "rate_difference": 0.4222222222222223
+  },
+  "target_signal_concentration": {
+    "target_member_count": 27,
+    "target_members_with_proxy": 15,
+    "target_proxy_context_count": 16,
+    "max_proxy_contexts_in_one_target_member": 2,
+    "share_of_target_proxy_contexts_in_largest_member": 0.125,
+    "target_members_with_proxy_ids": [
+      "RHD-AMEKE-00023",
+      "RHD-AMEKE-00026",
+      "RHD-AMEKE-00027",
+      "RHD-AMEKE-00031",
+      "RHD-AMEKE-00033",
+      "RHD-AMEKE-00041",
+      "RHD-AMEKE-00046",
+      "RHD-AMEKE-00075",
+      "RHD-AMEKE-00083",
+      "RHD-AMEKE-00111",
+      "RHD-AMEKE-00116",
+      "RHD-AMEKE-00124",
+      "RHD-AMEKE-00132",
+      "RHD-AMEKE-00134",
+      "RHD-AMEKE-00144"
+    ]
+  },
+  "permutation_scheme_count": 5,
+  "permutation_test_count": 10,
+  "positive_p_le_0_05_permutation_test_count": 10,
+  "all_primary_context_permutation_schemes_p_le_0_05": true,
+  "all_member_binary_permutation_schemes_p_le_0_05": true,
+  "leave_one_member_out": {
+    "case_count": 147,
+    "context_rate_difference_min": 0.3568844948155293,
+    "context_rate_difference_max": 0.40745920745920744,
+    "context_nonpositive_count": 0,
+    "member_binary_rate_difference_min": 0.40512820512820513,
+    "member_binary_rate_difference_max": 0.44358974358974357,
+    "member_binary_nonpositive_count": 0,
+    "worst_context_case": {
+      "removed_member_id": "RHD-AMEKE-00083",
+      "removed_graphic_key": "polirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 2,
+      "context_rate_difference": 0.3568844948155293,
+      "member_binary_rate_difference": 0.40512820512820513
+    }
+  },
+  "leave_one_target_member_out": {
+    "case_count": 27,
+    "context_rate_difference_min": 0.3568844948155293,
+    "context_rate_difference_max": 0.40745920745920744,
+    "context_nonpositive_count": 0,
+    "member_binary_rate_difference_min": 0.40512820512820513,
+    "member_binary_rate_difference_max": 0.44358974358974357,
+    "member_binary_nonpositive_count": 0,
+    "worst_context_case": {
+      "removed_member_id": "RHD-AMEKE-00083",
+      "removed_graphic_key": "polirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 2,
+      "context_rate_difference": 0.3568844948155293,
+      "member_binary_rate_difference": 0.40512820512820513
+    }
+  },
+  "leave_one_page10_block_out": {
+    "case_count": 7,
+    "context_rate_difference_min": 0.3346727898966705,
+    "context_nonpositive_count": 0
+  },
+  "leave_one_provenance_out": {
+    "case_count": 2,
+    "context_rate_difference_min": 0.09386973180076627,
+    "context_nonpositive_count": 0
+  },
+  "human_reviewed": false,
+  "automatic_morphological_analysis": false,
+  "automatic_morpheme_assignment": false,
+  "automatic_semantic_classification": false,
+  "automatic_part_of_speech_tagging": false,
+  "automatic_paradigm_inference": false,
+  "interpretive_scope": "Stress tests of one pre-specified documentary association. Robustness to provenance/page stratification or leave-one-out influence does not identify a linguistic function."
+}

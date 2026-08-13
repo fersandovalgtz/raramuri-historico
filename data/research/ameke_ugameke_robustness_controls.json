@@ -1,0 +1,2110 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_ugameke_hostile_robustness_controls_v1",
+  "generated": "2026-08-13",
+  "count": 10,
+  "permutation_tests": [
+    {
+      "scheme": "unstratified",
+      "outcome": "context_rate_infinitive_proxy",
+      "observed": {
+        "target_numerator": 16,
+        "target_denominator": 31,
+        "rest_numerator": 18,
+        "rest_denominator": 143,
+        "target_rate": 0.5161290322580645,
+        "rest_rate": 0.1258741258741259,
+        "rate_difference": 0.3902549063839386
+      },
+      "empirical_two_sided_p": 4.999750012499375e-05,
+      "null_mean_rate_difference": -0.0011403986910561773,
+      "null_sd_rate_difference": 0.07857757519462873,
+      "stratum_count": 1,
+      "informative_strata_count": 1,
+      "exchangeable_member_count": 147,
+      "permutation_iterations": 20000
+    },
+    {
+      "scheme": "unstratified",
+      "outcome": "member_binary_any_infinitive_proxy",
+      "observed": {
+        "target_numerator": 15,
+        "target_denominator": 27,
+        "rest_numerator": 16,
+        "rest_denominator": 120,
+        "target_rate": 0.5555555555555556,
+        "rest_rate": 0.13333333333333333,
+        "rate_difference": 0.4222222222222223
+      },
+      "empirical_two_sided_p": 4.999750012499375e-05,
+      "null_mean_rate_difference": 0.0002936574074074142,
+      "null_sd_rate_difference": 0.08726174139063543,
+      "stratum_count": 1,
+      "informative_strata_count": 1,
+      "exchangeable_member_count": 147,
+      "permutation_iterations": 20000
+    },
+    {
+      "scheme": "source_provenance_signature",
+      "outcome": "context_rate_infinitive_proxy",
+      "observed": {
+        "target_numerator": 16,
+        "target_denominator": 31,
+        "rest_numerator": 18,
+        "rest_denominator": 143,
+        "target_rate": 0.5161290322580645,
+        "rest_rate": 0.1258741258741259,
+        "rate_difference": 0.3902549063839386
+      },
+      "empirical_two_sided_p": 4.999750012499375e-05,
+      "null_mean_rate_difference": 0.03793644582975354,
+      "null_sd_rate_difference": 0.07673051798752753,
+      "stratum_count": 2,
+      "informative_strata_count": 2,
+      "exchangeable_member_count": 147,
+      "permutation_iterations": 20000
+    },
+    {
+      "scheme": "source_provenance_signature",
+      "outcome": "member_binary_any_infinitive_proxy",
+      "observed": {
+        "target_numerator": 15,
+        "target_denominator": 27,
+        "rest_numerator": 16,
+        "rest_denominator": 120,
+        "target_rate": 0.5555555555555556,
+        "rest_rate": 0.13333333333333333,
+        "rate_difference": 0.4222222222222223
+      },
+      "empirical_two_sided_p": 4.999750012499375e-05,
+      "null_mean_rate_difference": 0.049041851851854605,
+      "null_sd_rate_difference": 0.08486303057456163,
+      "stratum_count": 2,
+      "informative_strata_count": 2,
+      "exchangeable_member_count": 147,
+      "permutation_iterations": 20000
+    },
+    {
+      "scheme": "printed_page_10_block",
+      "outcome": "context_rate_infinitive_proxy",
+      "observed": {
+        "target_numerator": 16,
+        "target_denominator": 31,
+        "rest_numerator": 18,
+        "rest_denominator": 143,
+        "target_rate": 0.5161290322580645,
+        "rest_rate": 0.1258741258741259,
+        "rate_difference": 0.3902549063839386
+      },
+      "empirical_two_sided_p": 4.999750012499375e-05,
+      "null_mean_rate_difference": 0.02973613709274348,
+      "null_sd_rate_difference": 0.07733129270749911,
+      "stratum_count": 7,
+      "informative_strata_count": 7,
+      "exchangeable_member_count": 147,
+      "permutation_iterations": 20000
+    },
+    {
+      "scheme": "printed_page_10_block",
+      "outcome": "member_binary_any_infinitive_proxy",
+      "observed": {
+        "target_numerator": 15,
+        "target_denominator": 27,
+        "rest_numerator": 16,
+        "rest_denominator": 120,
+        "target_rate": 0.5555555555555556,
+        "rest_rate": 0.13333333333333333,
+        "rate_difference": 0.4222222222222223
+      },
+      "empirical_two_sided_p": 4.999750012499375e-05,
+      "null_mean_rate_difference": 0.03523111111111333,
+      "null_sd_rate_difference": 0.08581027867612727,
+      "stratum_count": 7,
+      "informative_strata_count": 7,
+      "exchangeable_member_count": 147,
+      "permutation_iterations": 20000
+    },
+    {
+      "scheme": "printed_page_5_block",
+      "outcome": "context_rate_infinitive_proxy",
+      "observed": {
+        "target_numerator": 16,
+        "target_denominator": 31,
+        "rest_numerator": 18,
+        "rest_denominator": 143,
+        "target_rate": 0.5161290322580645,
+        "rest_rate": 0.1258741258741259,
+        "rate_difference": 0.3902549063839386
+      },
+      "empirical_two_sided_p": 0.00034998250087495624,
+      "null_mean_rate_difference": 0.10964923333950241,
+      "null_sd_rate_difference": 0.07791174104482852,
+      "stratum_count": 14,
+      "informative_strata_count": 14,
+      "exchangeable_member_count": 147,
+      "permutation_iterations": 20000
+    },
+    {
+      "scheme": "printed_page_5_block",
+      "outcome": "member_binary_any_infinitive_proxy",
+      "observed": {
+        "target_numerator": 15,
+        "target_denominator": 27,
+        "rest_numerator": 16,
+        "rest_denominator": 120,
+        "target_rate": 0.5555555555555556,
+        "rest_rate": 0.13333333333333333,
+        "rate_difference": 0.4222222222222223
+      },
+      "empirical_two_sided_p": 0.0008999550022498875,
+      "null_mean_rate_difference": 0.12388254629631128,
+      "null_sd_rate_difference": 0.08493567304405136,
+      "stratum_count": 14,
+      "informative_strata_count": 14,
+      "exchangeable_member_count": 147,
+      "permutation_iterations": 20000
+    },
+    {
+      "scheme": "source_x_page10",
+      "outcome": "context_rate_infinitive_proxy",
+      "observed": {
+        "target_numerator": 16,
+        "target_denominator": 31,
+        "rest_numerator": 18,
+        "rest_denominator": 143,
+        "target_rate": 0.5161290322580645,
+        "rest_rate": 0.1258741258741259,
+        "rate_difference": 0.3902549063839386
+      },
+      "empirical_two_sided_p": 9.99950002499875e-05,
+      "null_mean_rate_difference": 0.08140363454186852,
+      "null_sd_rate_difference": 0.07544725125267016,
+      "stratum_count": 8,
+      "informative_strata_count": 8,
+      "exchangeable_member_count": 147,
+      "permutation_iterations": 20000
+    },
+    {
+      "scheme": "source_x_page10",
+      "outcome": "member_binary_any_infinitive_proxy",
+      "observed": {
+        "target_numerator": 15,
+        "target_denominator": 27,
+        "rest_numerator": 16,
+        "rest_denominator": 120,
+        "target_rate": 0.5555555555555556,
+        "rest_rate": 0.13333333333333333,
+        "rate_difference": 0.4222222222222223
+      },
+      "empirical_two_sided_p": 0.000199990000499975,
+      "null_mean_rate_difference": 0.0965378240740972,
+      "null_sd_rate_difference": 0.08330673704837914,
+      "stratum_count": 8,
+      "informative_strata_count": 8,
+      "exchangeable_member_count": 147,
+      "permutation_iterations": 20000
+    }
+  ],
+  "provenance_subgroups": [
+    {
+      "provenance": "DE-RAR-recovery_only",
+      "member_count": 80,
+      "target_member_count": 18,
+      "other_member_count": 62,
+      "status": "estimable",
+      "context_effect": {
+        "observed": {
+          "target_numerator": 15,
+          "target_denominator": 22,
+          "rest_numerator": 17,
+          "rest_denominator": 85,
+          "target_rate": 0.6818181818181818,
+          "rest_rate": 0.2,
+          "rate_difference": 0.48181818181818176
+        },
+        "empirical_two_sided_p": 4.999750012499375e-05,
+        "null_mean_rate_difference": -0.00032095013688961647,
+        "null_sd_rate_difference": 0.10657299447537036,
+        "stratum_count": 1,
+        "informative_strata_count": 1,
+        "exchangeable_member_count": 80,
+        "permutation_iterations": 20000
+      },
+      "member_binary_effect": {
+        "observed": {
+          "target_numerator": 14,
+          "target_denominator": 18,
+          "rest_numerator": 15,
+          "rest_denominator": 62,
+          "target_rate": 0.7777777777777778,
+          "rest_rate": 0.24193548387096775,
+          "rate_difference": 0.53584229390681
+        },
+        "empirical_two_sided_p": 0.00014999250037498125,
+        "null_mean_rate_difference": 0.0007311827956988263,
+        "null_sd_rate_difference": 0.1297324878962334,
+        "stratum_count": 1,
+        "informative_strata_count": 1,
+        "exchangeable_member_count": 80,
+        "permutation_iterations": 20000
+      }
+    },
+    {
+      "provenance": "RAR-DE_only",
+      "member_count": 67,
+      "target_member_count": 9,
+      "other_member_count": 58,
+      "status": "estimable",
+      "context_effect": {
+        "observed": {
+          "target_numerator": 1,
+          "target_denominator": 9,
+          "rest_numerator": 1,
+          "rest_denominator": 58,
+          "target_rate": 0.1111111111111111,
+          "rest_rate": 0.017241379310344827,
+          "rate_difference": 0.09386973180076627
+        },
+        "empirical_two_sided_p": 0.2513874306284686,
+        "null_mean_rate_difference": -0.00020622605363974938,
+        "null_sd_rate_difference": 0.061171011055975645,
+        "stratum_count": 1,
+        "informative_strata_count": 1,
+        "exchangeable_member_count": 67,
+        "permutation_iterations": 20000
+      },
+      "member_binary_effect": {
+        "observed": {
+          "target_numerator": 1,
+          "target_denominator": 9,
+          "rest_numerator": 1,
+          "rest_denominator": 58,
+          "target_rate": 0.1111111111111111,
+          "rest_rate": 0.017241379310344827,
+          "rate_difference": 0.09386973180076627
+        },
+        "empirical_two_sided_p": 0.2504874756262187,
+        "null_mean_rate_difference": -0.0002190613026818963,
+        "null_sd_rate_difference": 0.061379832740293,
+        "stratum_count": 1,
+        "informative_strata_count": 1,
+        "exchangeable_member_count": 67,
+        "permutation_iterations": 20000
+      }
+    }
+  ],
+  "leave_one_member_out": [
+    {
+      "removed_member_id": "RHD-AMEKE-00001",
+      "removed_graphic_key": "ajonameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00002",
+      "removed_graphic_key": "baicarugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00003",
+      "removed_graphic_key": "bajeameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00004",
+      "removed_graphic_key": "bassatiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00005",
+      "removed_graphic_key": "bassiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00006",
+      "removed_graphic_key": "bassirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00007",
+      "removed_graphic_key": "bassirujameke",
+      "removed_class": "jameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.39641072239890957,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00008",
+      "removed_graphic_key": "bassujameke",
+      "removed_class": "jameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.39556165637153967,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00009",
+      "removed_graphic_key": "bucuameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00010",
+      "removed_graphic_key": "bulirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00011",
+      "removed_graphic_key": "cavolameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00012",
+      "removed_graphic_key": "coajameke",
+      "removed_class": "jameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00013",
+      "removed_graphic_key": "cocojameke",
+      "removed_class": "jameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.38846945778997943,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00014",
+      "removed_graphic_key": "cotschimeameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00015",
+      "removed_graphic_key": "cuguiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00016",
+      "removed_graphic_key": "culeameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00017",
+      "removed_graphic_key": "culuameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00018",
+      "removed_graphic_key": "cuneameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00019",
+      "removed_graphic_key": "cusigameke",
+      "removed_class": "gameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.39641072239890957,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00020",
+      "removed_graphic_key": "cusigueameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00021",
+      "removed_graphic_key": "etschagueameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p300-309",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00022",
+      "removed_graphic_key": "etschaguoameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00023",
+      "removed_graphic_key": "gabassirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00024",
+      "removed_graphic_key": "galatsaneliameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00025",
+      "removed_graphic_key": "ganeliameke",
+      "removed_class": "iameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00026",
+      "removed_graphic_key": "gassirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00027",
+      "removed_graphic_key": "guauguerugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00028",
+      "removed_graphic_key": "guelameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00029",
+      "removed_graphic_key": "guenomi tschiperameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p300-309",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00030",
+      "removed_graphic_key": "haagameke",
+      "removed_class": "gameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00031",
+      "removed_graphic_key": "holirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00032",
+      "removed_graphic_key": "honeameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.39641072239890957,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00033",
+      "removed_graphic_key": "hulirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p300-309",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00034",
+      "removed_graphic_key": "humeameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00035",
+      "removed_graphic_key": "ibe motschiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00036",
+      "removed_graphic_key": "igueameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00037",
+      "removed_graphic_key": "ipagatugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00038",
+      "removed_graphic_key": "itschiguajameke",
+      "removed_class": "jameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00039",
+      "removed_graphic_key": "jauguirameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00040",
+      "removed_graphic_key": "jolajameke",
+      "removed_class": "jameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00041",
+      "removed_graphic_key": "jolarugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.391367253436219,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00042",
+      "removed_graphic_key": "juma guetsi gatigameke",
+      "removed_class": "gameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00043",
+      "removed_graphic_key": "jumajumajameke",
+      "removed_class": "jameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00044",
+      "removed_graphic_key": "jumamatsigameke",
+      "removed_class": "gameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p300-309",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00045",
+      "removed_graphic_key": "jumanamatschigameke",
+      "removed_class": "gameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00046",
+      "removed_graphic_key": "jumarugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00047",
+      "removed_graphic_key": "kachkagameke",
+      "removed_class": "gameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00048",
+      "removed_graphic_key": "lesiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.39641072239890957,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00049",
+      "removed_graphic_key": "lessiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00050",
+      "removed_graphic_key": "loguiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3938268739846832,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00051",
+      "removed_graphic_key": "loguijameke",
+      "removed_class": "jameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00052",
+      "removed_graphic_key": "mahajameke",
+      "removed_class": "jameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00053",
+      "removed_graphic_key": "matichirujegameke",
+      "removed_class": "gameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00054",
+      "removed_graphic_key": "matschigameke",
+      "removed_class": "gameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.39294062646096306,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00055",
+      "removed_graphic_key": "matschirujegameke",
+      "removed_class": "gameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00056",
+      "removed_graphic_key": "melirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00057",
+      "removed_graphic_key": "mujajameke",
+      "removed_class": "jameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.38846945778997943,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00058",
+      "removed_graphic_key": "mujameke",
+      "removed_class": "jameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00059",
+      "removed_graphic_key": "muki cuneameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00060",
+      "removed_graphic_key": "mukiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00061",
+      "removed_graphic_key": "mukiiatiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00062",
+      "removed_graphic_key": "mukijameke",
+      "removed_class": "jameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00063",
+      "removed_graphic_key": "mukuameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00064",
+      "removed_graphic_key": "najujameke",
+      "removed_class": "jameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00065",
+      "removed_graphic_key": "nalsiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.38846945778997943,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00066",
+      "removed_graphic_key": "nassiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00067",
+      "removed_graphic_key": "nesseameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00068",
+      "removed_graphic_key": "neteijameke",
+      "removed_class": "jameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00069",
+      "removed_graphic_key": "netejameke",
+      "removed_class": "jameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00070",
+      "removed_graphic_key": "ogajameke",
+      "removed_class": "jameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00071",
+      "removed_graphic_key": "ogueameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p300-309",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00072",
+      "removed_graphic_key": "oguesameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00073",
+      "removed_graphic_key": "ossanaguoameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00074",
+      "removed_graphic_key": "otisherameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00075",
+      "removed_graphic_key": "pagorugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.391367253436219,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00076",
+      "removed_graphic_key": "pagotugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00077",
+      "removed_graphic_key": "pahiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.38846945778997943,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00078",
+      "removed_graphic_key": "pamagueameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00079",
+      "removed_graphic_key": "parugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00080",
+      "removed_graphic_key": "pauguirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00081",
+      "removed_graphic_key": "peguameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.38755760368663594,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00082",
+      "removed_graphic_key": "pitschaburameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.39641072239890957,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00083",
+      "removed_graphic_key": "polirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 2,
+      "context_rate_difference": 0.3568844948155293,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00084",
+      "removed_graphic_key": "potschirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00085",
+      "removed_graphic_key": "pougua nasseameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00086",
+      "removed_graphic_key": "pouguaca jumarugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00087",
+      "removed_graphic_key": "pugueameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.39641072239890957,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00088",
+      "removed_graphic_key": "reguameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p300-309",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00089",
+      "removed_graphic_key": "repagameke",
+      "removed_class": "gameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 2,
+      "context_rate_difference": 0.40102111858899975,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00090",
+      "removed_graphic_key": "repagatigameke",
+      "removed_class": "gameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00091",
+      "removed_graphic_key": "rolacameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00092",
+      "removed_graphic_key": "rosacameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00093",
+      "removed_graphic_key": "saaeameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00094",
+      "removed_graphic_key": "saateameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00095",
+      "removed_graphic_key": "sakiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00096",
+      "removed_graphic_key": "samiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00097",
+      "removed_graphic_key": "sapeameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00098",
+      "removed_graphic_key": "satiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00099",
+      "removed_graphic_key": "schiojameke",
+      "removed_class": "jameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00100",
+      "removed_graphic_key": "schugiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00101",
+      "removed_graphic_key": "schuguiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 2,
+      "context_rate_difference": 0.40184331797235023,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00102",
+      "removed_graphic_key": "seliameke",
+      "removed_class": "iameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00103",
+      "removed_graphic_key": "sikirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00104",
+      "removed_graphic_key": "simiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p300-309",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.39641072239890957,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00105",
+      "removed_graphic_key": "sriameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00106",
+      "removed_graphic_key": "stacameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00107",
+      "removed_graphic_key": "ta bassigameke",
+      "removed_class": "gameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00108",
+      "removed_graphic_key": "ta mahajameke",
+      "removed_class": "jameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.39641072239890957,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00109",
+      "removed_graphic_key": "ta matschigameke",
+      "removed_class": "gameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.38846945778997943,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00110",
+      "removed_graphic_key": "ta mukilatiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00111",
+      "removed_graphic_key": "ta pagotugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.391367253436219,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00112",
+      "removed_graphic_key": "ta sapeameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00113",
+      "removed_graphic_key": "ta schuguiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00114",
+      "removed_graphic_key": "tamatischigameke",
+      "removed_class": "gameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p300-309",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00115",
+      "removed_graphic_key": "tameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00116",
+      "removed_graphic_key": "tanarugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00117",
+      "removed_graphic_key": "taragameke",
+      "removed_class": "gameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00118",
+      "removed_graphic_key": "taslo upeameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.38846945778997943,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00119",
+      "removed_graphic_key": "teculuameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00120",
+      "removed_graphic_key": "tehimeameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00121",
+      "removed_graphic_key": "tele uliameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00122",
+      "removed_graphic_key": "telegatigameke",
+      "removed_class": "gameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00123",
+      "removed_graphic_key": "tepagatigameke",
+      "removed_class": "gameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00124",
+      "removed_graphic_key": "tepulirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p300-309",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00125",
+      "removed_graphic_key": "tessiguajameke",
+      "removed_class": "jameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00126",
+      "removed_graphic_key": "thulameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.38846945778997943,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00127",
+      "removed_graphic_key": "tlestatacameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00128",
+      "removed_graphic_key": "tlestataccameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00129",
+      "removed_graphic_key": "tosacameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00130",
+      "removed_graphic_key": "tsainijolajameke",
+      "removed_class": "jameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00131",
+      "removed_graphic_key": "tsanijameke",
+      "removed_class": "jameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p300-309",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.39641072239890957,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00132",
+      "removed_graphic_key": "tschapirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00133",
+      "removed_graphic_key": "tschiperameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00134",
+      "removed_graphic_key": "tschipugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00135",
+      "removed_graphic_key": "tschirulameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00136",
+      "removed_graphic_key": "tschitschiameke",
+      "removed_class": "iameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00137",
+      "removed_graphic_key": "tschitulameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.38846945778997943,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00138",
+      "removed_graphic_key": "tschucuameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.39641072239890957,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00139",
+      "removed_graphic_key": "tschulugeameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00140",
+      "removed_graphic_key": "tschutarugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00141",
+      "removed_graphic_key": "tschutscheliameke",
+      "removed_class": "iameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.39641072239890957,
+      "member_binary_rate_difference": 0.42950513538748836
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00142",
+      "removed_graphic_key": "tsetijolajameke",
+      "removed_class": "jameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00143",
+      "removed_graphic_key": "tsetijolameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00144",
+      "removed_graphic_key": "tutschirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00145",
+      "removed_graphic_key": "uelameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00146",
+      "removed_graphic_key": "upeameke",
+      "removed_class": "ameke_other",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00147",
+      "removed_graphic_key": "veniameke",
+      "removed_class": "iameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.3893684688777828,
+      "member_binary_rate_difference": 0.42110177404295057
+    }
+  ],
+  "leave_one_target_member_out": [
+    {
+      "removed_member_id": "RHD-AMEKE-00002",
+      "removed_graphic_key": "baicarugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00006",
+      "removed_graphic_key": "bassirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00010",
+      "removed_graphic_key": "bulirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00023",
+      "removed_graphic_key": "gabassirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00026",
+      "removed_graphic_key": "gassirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00027",
+      "removed_graphic_key": "guauguerugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00031",
+      "removed_graphic_key": "holirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00033",
+      "removed_graphic_key": "hulirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p300-309",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00037",
+      "removed_graphic_key": "ipagatugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p320-329",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00041",
+      "removed_graphic_key": "jolarugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.391367253436219,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00046",
+      "removed_graphic_key": "jumarugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00056",
+      "removed_graphic_key": "melirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00075",
+      "removed_graphic_key": "pagorugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.391367253436219,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00076",
+      "removed_graphic_key": "pagotugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00079",
+      "removed_graphic_key": "parugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00080",
+      "removed_graphic_key": "pauguirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00083",
+      "removed_graphic_key": "polirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 2,
+      "context_rate_difference": 0.3568844948155293,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00084",
+      "removed_graphic_key": "potschirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00086",
+      "removed_graphic_key": "pouguaca jumarugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00103",
+      "removed_graphic_key": "sikirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "RAR-DE_only",
+      "removed_page10": "p360-369",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00111",
+      "removed_graphic_key": "ta pagotugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.391367253436219,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00116",
+      "removed_graphic_key": "tanarugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00124",
+      "removed_graphic_key": "tepulirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p300-309",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00132",
+      "removed_graphic_key": "tschapirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p310-319",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00134",
+      "removed_graphic_key": "tschipugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p340-349",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00140",
+      "removed_graphic_key": "tschutarugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p330-339",
+      "removed_target_proxy_count": 0,
+      "context_rate_difference": 0.40745920745920744,
+      "member_binary_rate_difference": 0.44358974358974357
+    },
+    {
+      "removed_member_id": "RHD-AMEKE-00144",
+      "removed_graphic_key": "tutschirugameke",
+      "removed_class": "ugameke",
+      "removed_provenance": "DE-RAR-recovery_only",
+      "removed_page10": "p350-359",
+      "removed_target_proxy_count": 1,
+      "context_rate_difference": 0.3741258741258741,
+      "member_binary_rate_difference": 0.40512820512820513
+    }
+  ],
+  "leave_one_page10_block_out": [
+    {
+      "grouping": "printed_page_10_block",
+      "removed_group": "p300-309",
+      "remaining_member_count": 137,
+      "context_rate_difference": 0.36424010217113667,
+      "member_binary_rate_difference": 0.395
+    },
+    {
+      "grouping": "printed_page_10_block",
+      "removed_group": "p310-319",
+      "remaining_member_count": 135,
+      "context_rate_difference": 0.3346727898966705,
+      "member_binary_rate_difference": 0.36486486486486486
+    },
+    {
+      "grouping": "printed_page_10_block",
+      "removed_group": "p320-329",
+      "remaining_member_count": 134,
+      "context_rate_difference": 0.3943089430894309,
+      "member_binary_rate_difference": 0.43257575757575756
+    },
+    {
+      "grouping": "printed_page_10_block",
+      "removed_group": "p330-339",
+      "remaining_member_count": 132,
+      "context_rate_difference": 0.395,
+      "member_binary_rate_difference": 0.3932987634623055
+    },
+    {
+      "grouping": "printed_page_10_block",
+      "removed_group": "p340-349",
+      "remaining_member_count": 126,
+      "context_rate_difference": 0.38596491228070173,
+      "member_binary_rate_difference": 0.41846153846153844
+    },
+    {
+      "grouping": "printed_page_10_block",
+      "removed_group": "p350-359",
+      "remaining_member_count": 113,
+      "context_rate_difference": 0.4098613251155624,
+      "member_binary_rate_difference": 0.46374269005847957
+    },
+    {
+      "grouping": "printed_page_10_block",
+      "removed_group": "p360-369",
+      "remaining_member_count": 105,
+      "context_rate_difference": 0.4550072568940494,
+      "member_binary_rate_difference": 0.5010952902519167
+    }
+  ],
+  "leave_one_provenance_out": [
+    {
+      "grouping": "source_provenance_signature",
+      "removed_group": "DE-RAR-recovery_only",
+      "remaining_member_count": 67,
+      "context_rate_difference": 0.09386973180076627,
+      "member_binary_rate_difference": 0.09386973180076627
+    },
+    {
+      "grouping": "source_provenance_signature",
+      "removed_group": "RAR-DE_only",
+      "remaining_member_count": 80,
+      "context_rate_difference": 0.48181818181818176,
+      "member_binary_rate_difference": 0.53584229390681
+    }
+  ],
+  "human_reviewed": false,
+  "automatic_morphological_analysis": false,
+  "automatic_semantic_classification": false
+}

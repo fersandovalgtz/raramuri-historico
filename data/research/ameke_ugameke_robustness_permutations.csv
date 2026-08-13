@@ -1,0 +1,11 @@
+scheme,outcome,empirical_two_sided_p,observed_rate_difference,observed_target_rate,observed_rest_rate,stratum_count,informative_strata_count,exchangeable_member_count,permutation_iterations
+unstratified,context_rate_infinitive_proxy,5e-05,0.390255,0.516129,0.125874,1,1,147,20000
+unstratified,member_binary_any_infinitive_proxy,5e-05,0.422222,0.555556,0.133333,1,1,147,20000
+source_provenance_signature,context_rate_infinitive_proxy,5e-05,0.390255,0.516129,0.125874,2,2,147,20000
+source_provenance_signature,member_binary_any_infinitive_proxy,5e-05,0.422222,0.555556,0.133333,2,2,147,20000
+printed_page_10_block,context_rate_infinitive_proxy,5e-05,0.390255,0.516129,0.125874,7,7,147,20000
+printed_page_10_block,member_binary_any_infinitive_proxy,5e-05,0.422222,0.555556,0.133333,7,7,147,20000
+printed_page_5_block,context_rate_infinitive_proxy,0.00035,0.390255,0.516129,0.125874,14,14,147,20000
+printed_page_5_block,member_binary_any_infinitive_proxy,0.0009,0.422222,0.555556,0.133333,14,14,147,20000
+source_x_page10,context_rate_infinitive_proxy,0.0001,0.390255,0.516129,0.125874,8,8,147,20000
+source_x_page10,member_binary_any_infinitive_proxy,0.0002,0.422222,0.555556,0.133333,8,8,147,20000
