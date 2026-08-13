@@ -1,19 +1,21 @@
 {
   "stage": "scientific_validation_preparation",
-  "active_diplomatic_records_with_explicit_uncertainty": 676,
+  "diplomatic_records_with_any_editorial_note": 676,
+  "resolved_editorial_notes_excluded_from_open_queue": 194,
+  "active_diplomatic_records_with_explicit_open_validation": 482,
   "category_counts": {
-    "graphic_reading": 304,
-    "article_structure": 35,
-    "historical_raramuri_form": 253,
-    "semantic_or_gloss": 1,
-    "general_editorial_uncertainty": 83
+    "graphic_reading": 230,
+    "article_structure": 29,
+    "historical_raramuri_form": 201,
+    "semantic_or_gloss": 2,
+    "general_open_validation": 20
   },
   "priority_order": [
     "graphic_reading",
     "article_structure",
     "historical_raramuri_form",
     "semantic_or_gloss",
-    "general_editorial_uncertainty"
+    "general_open_validation"
   ],
   "human_verified_records": 0,
   "philologically_verified_records": 0,
