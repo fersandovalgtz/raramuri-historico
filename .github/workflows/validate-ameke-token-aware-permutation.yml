@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths:
+      - '.github/workflows/validate-ameke-token-aware-permutation.yml'
       - 'scripts/generate_ameke_token_aware_permutation.py'
       - 'data/research/ameke_token_aware_members.json'
 permissions:
