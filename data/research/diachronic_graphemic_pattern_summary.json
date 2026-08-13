@@ -1,6 +1,6 @@
 {
   "dataset": "raramuri-historico-steffel-1809",
-  "layer": "seed_plus_holdout_diachronic_graphemic_pattern_summary_v3",
+  "layer": "seed_plus_holdout_diachronic_graphemic_pattern_summary_v4",
   "generated": "2026-08-13",
   "seed_registry": "data/research/diachronic_graphemic_seed_pairs.json",
   "holdout_registry": "data/research/diachronic_graphemic_holdout_pairs.json",
@@ -9,12 +9,17 @@
   "seed_positive_record_count": 9,
   "seed_positive_independent_family_count": 5,
   "seed_negative_control_record_count": 2,
-  "holdout_record_count": 8,
+  "holdout_record_count": 9,
   "holdout_positive_record_count": 6,
   "holdout_positive_independent_family_count": 6,
+  "holdout_semantic_non_graphic_counterevidence_count": 1,
   "holdout_unresolved_record_count": 1,
-  "holdout_negative_control_record_count": 1,
-  "selection_independence": "Holdouts were retrieved by historical meaning/domain from published Steffel examples and then checked in the pinned modern lexicon; positive, negative, and unresolved outcomes are retained.",
+  "holdout_graphic_decoy_negative_count": 1,
+  "historical_illustrative_lexeme_count": 8,
+  "historical_illustrative_lexemes_audited": 8,
+  "descriptive_graphic_semantic_recovery_ratio": 0.75,
+  "ratio_scope_caution": "The 6/8 ratio describes only Merrill's published illustrative <tsch> set, not the historical lexicon as a whole; the pinned modern lexicon is not a dialectally balanced sample.",
+  "selection_independence": "All eight illustrative historical <tsch> lexemes in Merrill §7.5.2 were audited by modern semantic/domain retrieval. Positive graphic-semantic, semantic non-graphic, unresolved, and graphic-decoy outcomes are retained.",
   "patterns": [
     {
       "pattern_id": "ameke_to_ami",
@@ -39,8 +44,6 @@
       "seed_positive_family_count": 1,
       "holdout_positive_family_count": 0,
       "total_positive_independent_family_count": 1,
-      "seed_negative_control_count": 0,
-      "holdout_negative_control_count": 0,
       "status": "single_family_observation"
     },
     {
@@ -53,16 +56,15 @@
       "holdout_positive_family_count": 6,
       "holdout_positive_family_ids": ["black", "extinguish", "grasp", "mouse", "sharpen", "sow"],
       "total_positive_independent_family_count": 8,
-      "seed_negative_control_count": 0,
-      "holdout_negative_control_count": 1,
-      "holdout_negative_control_family_ids": ["stink_vs_bitter_control"],
+      "holdout_semantic_non_graphic_counterevidence_family_ids": ["stink_semantic_non_graphic"],
       "holdout_unresolved_family_ids": ["mouth_muzzle_unresolved"],
+      "holdout_graphic_decoy_negative_family_ids": ["stink_graphic_decoy"],
       "status": "source_supported_recurrent_phonetic_compatibility_hypothesis",
       "published_historical_phonetic_interpretation": true,
       "independent_modern_phonemic_support": true,
       "shared_low_central_environment": true,
-      "specific_modern_phonemic_holdout": "Caballero 2022 tʃaˈpí 'grab' corresponding semantically to historical tschapí 'agarrar' and modern Chapí RD-000656",
-      "interpretation": "The multi-family graphic recurrence is externally compatible with published historical and modern phonetic analyses. Historical initial <tsch>/<ts> free variation before a parallels modern optional /tʃ/→[ts] before low central vowels. Rule identity and historical persistence are not adjudicated."
+      "specific_modern_phonemic_holdout": "Caballero 2022 /tʃaˈpí/ 'grab' corresponds semantically to historical tschapí 'agarrar' and modern Chapí RD-000656.",
+      "interpretation": "The full published illustrative <tsch> set yields six semantic-modern matches supporting ch, one semantic match without ch support, and one unresolved domain. The multi-family recurrence is compatible with published historical and modern phonetic analyses, but no sound law or cognacy is adjudicated."
     },
     {
       "pattern_id": "ss_to_s",
@@ -73,8 +75,7 @@
       "holdout_positive_family_count": 0,
       "total_positive_independent_family_count": 1,
       "status": "source_supported_but_single_family_comparison",
-      "published_historical_phonetic_interpretation": "Merrill et al. 2020 treats intervocalic <ss> as voiceless [s], not phonological gemination.",
-      "interpretation": "Do not analyze this as deletion of one s; test historical [s] against modern /s/ with variety control."
+      "published_historical_phonetic_interpretation": "Merrill et al. 2020 treats intervocalic <ss> as voiceless [s], not phonological gemination."
     },
     {
       "pattern_id": "aa_to_a",
@@ -95,15 +96,14 @@
       "holdout_positive_family_count": 0,
       "total_positive_independent_family_count": 1,
       "seed_negative_control_count": 1,
-      "holdout_negative_control_count": 0,
       "status": "non_discriminative_or_under_supported",
       "interpretation": "Observed in Cotſchimé~Cochí but also in semantically contradictory Bajé~Bají; cannot discriminate continuity."
     }
   ],
   "source_supported_interpretation": {
-    "steffel_tsch": "Merrill et al. 2020 §7.5.2 associates <tsch> with a voiceless palatoalveolar affricate [č] and analyzes <tsch>/<ts> as allophones of /č/; Appendix 5 transcribes tschapí as čapí and other <tsch> forms systematically with č.",
+    "steffel_tsch": "Merrill et al. 2020 §7.5.2 associates <tsch> with a voiceless palatoalveolar affricate [č] and analyzes <tsch>/<ts> as allophones of /č/; Appendix 5 systematically transcribes <tsch> with č.",
     "steffel_ss": "Merrill et al. 2020 §7.5.5 interprets intervocalic <ss> as voiceless [s], not phonological gemination.",
-    "modern_choguita": "Caballero 2022 includes phonemic /tʃ/ and /s/, optional /tʃ/→[ts] depalatalization before low central vowels, and independently documents tʃaˈpí 'grab'.",
+    "modern_choguita": "Caballero 2022 includes phonemic /tʃ/ and /s/, optional /tʃ/→[ts] depalatalization before low central vowels, and independently documents /tʃaˈpí/ 'grab'.",
     "structural_parallel": "Historical initial <tsch>/<ts> free variation before a and modern optional /tʃ/→[ts] before low central vowels constitute a source-supported allophonic structural parallel, not proof that one historical conditioning rule persisted unchanged.",
     "variety_caution": "Choguita Rarámuri and the pinned SRC-02 lexicon are independent modern sources/varieties and are not collapsed into one variety."
   },
