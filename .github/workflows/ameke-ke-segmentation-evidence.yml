@@ -1,0 +1,36 @@
+name: ameke-ke-segmentation-evidence
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_ameke_ke_segmentation_evidence.py'
+      - 'data/entries.csv'
+      - '.github/workflows/ameke-ke-segmentation-evidence.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/generate_ameke_ke_segmentation_evidence.py
+      - name: Save generated evidence
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path('data/research/ameke_ke_segmentation_evidence_summary.json').read_text(encoding='utf-8'))
+          assert s['human_reviewed'] is False
+          assert s['automatic_morpheme_segmentation'] is False
+          assert s['automatic_morphological_analysis'] is False
+          PY
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add data/research/ameke_ke_segmentation_evidence.json data/research/ameke_ke_segmentation_evidence_summary.json
+          git diff --cached --quiet || git commit -m 'Generate final ke documentary evidence'
+          git pull --rebase origin main
+          git push
