@@ -69,7 +69,18 @@
     "diachronic_exact_graphic_candidates": 50,
     "diachronic_historical_records_with_candidates": 36,
     "diachronic_modern_records_matched": 48,
-    "diachronic_unique_graphic_keys": 35
+    "diachronic_unique_graphic_keys": 35,
+    "diachronic_adjudication_candidates": 298,
+    "diachronic_adjudication_priority_tiers": {
+      "1": 21,
+      "2": 32,
+      "3": 244,
+      "4": 1
+    },
+    "diachronic_adjudication_historical_records": 137,
+    "diachronic_adjudication_modern_records": 221,
+    "diachronic_semantic_context_available_candidates": 298,
+    "diachronic_priority1_adjudication_dossiers": 21
   },
   "editorial_pipeline": {
     "review_queue": "data/review/next_review_queue.json",
@@ -141,7 +152,29 @@
     "diachronic_candidate_count": 50,
     "diachronic_modern_source_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
     "diachronic_human_reviewed_candidates": 0,
-    "diachronic_policy": "Machine-generated exact graphic matches are documentary comparison candidates only; they do not assert semantic identity, cognacy, dialect identity or historical lexical continuity."
+    "diachronic_policy": "Machine-generated exact graphic matches are documentary comparison candidates only; they do not assert semantic identity, cognacy, dialect identity or historical lexical continuity.",
+    "diachronic_adjudication_queue": "data/diachronic/adjudication_queue.json",
+    "diachronic_adjudication_csv": "data/diachronic/adjudication_queue.csv",
+    "diachronic_adjudication_summary": "data/diachronic/adjudication_queue_summary.json",
+    "diachronic_adjudication_index": "data/diachronic/ADJUDICATION_REVIEW_INDEX.md",
+    "diachronic_adjudication_generator": "scripts/generate_diachronic_adjudication_queue.py",
+    "diachronic_adjudication_candidate_count": 298,
+    "diachronic_adjudication_priority_tiers": {
+      "1": 21,
+      "2": 32,
+      "3": 244,
+      "4": 1
+    },
+    "diachronic_adjudication_human_reviewed_count": 0,
+    "diachronic_adjudication_policy": "The adjudication score orders human review only. No automatic semantic, etymological or historical-continuity judgment is performed; acceptance or rejection requires explicit independent review.",
+    "diachronic_priority1_dossier_layer": "data/diachronic/priority1_adjudication_dossiers.json",
+    "diachronic_priority1_dossier_compact": "data/diachronic/priority1_adjudication_dossiers_compact.json",
+    "diachronic_priority1_dossier_index": "data/diachronic/PRIORITY1_ADJUDICATION_INDEX.md",
+    "diachronic_priority1_dossier_directory": "data/diachronic/dossiers/priority1",
+    "diachronic_priority1_dossier_generator": "scripts/generate_diachronic_priority1_dossiers.py",
+    "diachronic_priority1_dossier_count": 21,
+    "diachronic_priority1_dossiers_human_reviewed": false,
+    "diachronic_next_review_priority": "Review the 21 tier-1 diachronic dossiers first, then tier 2, while keeping all correspondence decisions independent from the documentary transcription layer."
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",

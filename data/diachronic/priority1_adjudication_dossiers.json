@@ -1,0 +1,2133 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "stage": "diachronic_priority1_independent_adjudication_dossiers",
+  "selection_rule": "priority_tier=1 from data/diachronic/adjudication_queue.json, preserving deterministic queue order",
+  "count": 21,
+  "human_reviewed": false,
+  "automatic_semantic_judgment": false,
+  "automatic_etymological_judgment": false,
+  "automatic_historical_continuity_judgment": false,
+  "records": [
+    {
+      "dossier_id": "RHD-DIA-P1-001",
+      "review_order": 1,
+      "adjudication_id": "RHD-ADJ-000001",
+      "source_candidate_id": "RHD-CORR-000004",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 68,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "two_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-01688",
+        "form_diplomatic": "Boní",
+        "matched_component": "Boní",
+        "matched_component_index": 1,
+        "article_diplomatic": "Boní, Schweſter.",
+        "printed_page": 355,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-000301",
+        "headword": "Boní",
+        "matched_component": "Boní",
+        "translation_raw": "Hermano menor",
+        "classification": "S",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "boni",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 2,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-002",
+      "review_order": 2,
+      "adjudication_id": "RHD-ADJ-000002",
+      "source_candidate_id": "RHD-CORR-000035",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 68,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "two_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02203",
+        "form_diplomatic": "Pugué",
+        "matched_component": "Pugué",
+        "matched_component_index": 1,
+        "article_diplomatic": "Pugué, Warten.",
+        "printed_page": 364,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-001857",
+        "headword": "Pugué",
+        "matched_component": "Pugué",
+        "translation_raw": "Tener, poseer (muchos animales)",
+        "classification": "Vt pl",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "pugue",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 2,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-003",
+      "review_order": 3,
+      "adjudication_id": "RHD-ADJ-000003",
+      "source_candidate_id": "RHD-CORR-000005",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-01700",
+        "form_diplomatic": "Búra",
+        "matched_component": "Búra",
+        "matched_component_index": 1,
+        "article_diplomatic": "Búra, Hirſch.",
+        "printed_page": 355,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-000341",
+        "headword": "Burá",
+        "matched_component": "Burá",
+        "translation_raw": "Hacer camino",
+        "classification": "Vt",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "bura",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-004",
+      "review_order": 4,
+      "adjudication_id": "RHD-ADJ-000004",
+      "source_candidate_id": "RHD-CORR-000011",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-01756",
+        "form_diplomatic": "Cuná",
+        "matched_component": "Cuná",
+        "matched_component_index": 1,
+        "article_diplomatic": "Cuná, Ehemann.",
+        "printed_page": 356,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-000587",
+        "headword": "Cuná",
+        "matched_component": "Cuná",
+        "translation_raw": "Marido, esposo",
+        "classification": "S",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "cuna",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-005",
+      "review_order": 5,
+      "adjudication_id": "RHD-ADJ-000005",
+      "source_candidate_id": "RHD-CORR-000017",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-01939",
+        "form_diplomatic": "Jumá",
+        "matched_component": "Jumá",
+        "matched_component_index": 1,
+        "article_diplomatic": "Jumá, oder Jomá, Alles.",
+        "printed_page": 359,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-001183",
+        "headword": "Juma",
+        "matched_component": "Juma",
+        "translation_raw": "Correr",
+        "classification": "Vi pl",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "juma",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-006",
+      "review_order": 6,
+      "adjudication_id": "RHD-ADJ-000006",
+      "source_candidate_id": "RHD-CORR-000020",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02042",
+        "form_diplomatic": "Muni",
+        "matched_component": "Muni",
+        "matched_component_index": 1,
+        "article_diplomatic": "Muni, ſ. Hülſenfrucht.",
+        "printed_page": 361,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-001405",
+        "headword": "Muní",
+        "matched_component": "Muní",
+        "translation_raw": "Frijol",
+        "classification": "S",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "muni",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-007",
+      "review_order": 7,
+      "adjudication_id": "RHD-ADJ-000007",
+      "source_candidate_id": "RHD-CORR-000021",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02043",
+        "form_diplomatic": "Múra",
+        "matched_component": "Múra",
+        "matched_component_index": 1,
+        "article_diplomatic": "Múra, Maulthier.",
+        "printed_page": 361,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-001408",
+        "headword": "Murá",
+        "matched_component": "Murá",
+        "translation_raw": "Espiga",
+        "classification": "S",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "mura",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-008",
+      "review_order": 8,
+      "adjudication_id": "RHD-ADJ-000008",
+      "source_candidate_id": "RHD-CORR-000022",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02045",
+        "form_diplomatic": "Musí",
+        "matched_component": "Musí",
+        "matched_component_index": 1,
+        "article_diplomatic": "Musí. Eine Gattung Fische, wie die Schleihen. Dieser Fisch hat keine Schuppen, und ist sehr schmackhaft. Die nicht über eine Elle lang sind, werden mitten aufgemacht, aber nicht ganz getheilet, ausgeweidet, eingesalzen, an der Luft gedörret, und auch durch ein ganzes Jahr an einem trocknem Orte aufbehalten.",
+        "printed_page": 361,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-001420",
+        "headword": "Musí",
+        "matched_component": "Musí",
+        "translation_raw": "Tipo de pez negro, bargón",
+        "classification": "S",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "musi",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-009",
+      "review_order": 9,
+      "adjudication_id": "RHD-ADJ-000009",
+      "source_candidate_id": "RHD-CORR-000023",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02082",
+        "form_diplomatic": "Napé",
+        "matched_component": "Napé",
+        "matched_component_index": 1,
+        "article_diplomatic": "Napé, Nebeneinander.",
+        "printed_page": 362,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-001505",
+        "headword": "Napé",
+        "matched_component": "Napé",
+        "translation_raw": "1. Juntarse 2. Juntarse (casar)",
+        "classification": "Vi",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "nape",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-010",
+      "review_order": 10,
+      "adjudication_id": "RHD-ADJ-000010",
+      "source_candidate_id": "RHD-CORR-000026",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "3_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02093",
+        "form_diplomatic": "Natépa",
+        "matched_component": "Natépa",
+        "matched_component_index": 1,
+        "article_diplomatic": "Natépa, Finden.",
+        "printed_page": 362,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-001557",
+        "headword": "Natepa",
+        "matched_component": "Natepa",
+        "translation_raw": "Encontrar",
+        "classification": "Vt",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "natepa",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 3,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-011",
+      "review_order": 11,
+      "adjudication_id": "RHD-ADJ-000011",
+      "source_candidate_id": "RHD-CORR-000031",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02151",
+        "form_diplomatic": "Báca",
+        "matched_component": "Báca",
+        "matched_component_index": 1,
+        "article_diplomatic": "Báca, ſ. Gras.",
+        "printed_page": 363,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-000127",
+        "headword": "Bacá",
+        "matched_component": "Bacá",
+        "translation_raw": "Carrizo",
+        "classification": "S",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "baca",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-012",
+      "review_order": 12,
+      "adjudication_id": "RHD-ADJ-000012",
+      "source_candidate_id": "RHD-CORR-000032",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "3_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02179",
+        "form_diplomatic": "Piri?",
+        "matched_component": "Piri",
+        "matched_component_index": 1,
+        "article_diplomatic": "Piri? Was?",
+        "printed_page": 364,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-001846",
+        "headword": "Piri",
+        "matched_component": "Piri",
+        "translation_raw": "¿Qué?",
+        "classification": "",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "piri",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 3,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-013",
+      "review_order": 13,
+      "adjudication_id": "RHD-ADJ-000013",
+      "source_candidate_id": "RHD-CORR-000036",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02228",
+        "form_diplomatic": "Raná",
+        "matched_component": "Raná",
+        "matched_component_index": 1,
+        "article_diplomatic": "Raná, Gebähren.",
+        "printed_page": 364,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-001932",
+        "headword": "Raná",
+        "matched_component": "Raná",
+        "translation_raw": "1. vt Parir 2. s Hijo",
+        "classification": "",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "rana",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-014",
+      "review_order": 14,
+      "adjudication_id": "RHD-ADJ-000014",
+      "source_candidate_id": "RHD-CORR-000037",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02229",
+        "form_diplomatic": "Ráje, oder táje",
+        "matched_component": "Ráje",
+        "matched_component_index": 1,
+        "article_diplomatic": "Ráje, oder táje, s. colaguítaje,",
+        "printed_page": 364,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-001923",
+        "headword": "Rajé",
+        "matched_component": "Rajé",
+        "translation_raw": "Encender ocote (para alumbrar)",
+        "classification": "Vt",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "raje",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-015",
+      "review_order": 15,
+      "adjudication_id": "RHD-ADJ-000015",
+      "source_candidate_id": "RHD-CORR-000038",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02248",
+        "form_diplomatic": "Róco",
+        "matched_component": "Róco",
+        "matched_component_index": 1,
+        "article_diplomatic": "Róco, Es mangelt, geht ab.",
+        "printed_page": 365,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-002110",
+        "headword": "Rocó",
+        "matched_component": "Rocó",
+        "translation_raw": "Estar hondo",
+        "classification": "Vi",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "roco",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-016",
+      "review_order": 16,
+      "adjudication_id": "RHD-ADJ-000016",
+      "source_candidate_id": "RHD-CORR-000039",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02250",
+        "form_diplomatic": "Ropá",
+        "matched_component": "Ropá",
+        "matched_component_index": 1,
+        "article_diplomatic": "Ropá, Verlassen.",
+        "printed_page": 365,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-002164",
+        "headword": "Ropá",
+        "matched_component": "Ropá",
+        "translation_raw": "Estómago",
+        "classification": "S",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "ropa",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-017",
+      "review_order": 17,
+      "adjudication_id": "RHD-ADJ-000017",
+      "source_candidate_id": "RHD-CORR-000042",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02290",
+        "form_diplomatic": "Sisí",
+        "matched_component": "Sisí",
+        "matched_component_index": 1,
+        "article_diplomatic": "Sisí, Harnen.",
+        "printed_page": 365,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-002349",
+        "headword": "Sisí",
+        "matched_component": "Sisí",
+        "translation_raw": "¡Vénganse!",
+        "classification": "Imper",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "sisi",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-018",
+      "review_order": 18,
+      "adjudication_id": "RHD-ADJ-000018",
+      "source_candidate_id": "RHD-CORR-000044",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02331",
+        "form_diplomatic": "Taná, oder raná",
+        "matched_component": "raná",
+        "matched_component_index": 2,
+        "article_diplomatic": "Taná, oder raná, Gebähren.",
+        "printed_page": 366,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-001932",
+        "headword": "Raná",
+        "matched_component": "Raná",
+        "translation_raw": "1. vt Parir 2. s Hijo",
+        "classification": "",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "rana",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-019",
+      "review_order": 19,
+      "adjudication_id": "RHD-ADJ-000019",
+      "source_candidate_id": "RHD-CORR-000043",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02331",
+        "form_diplomatic": "Taná, oder raná",
+        "matched_component": "Taná",
+        "matched_component_index": 1,
+        "article_diplomatic": "Taná, oder raná, Gebähren.",
+        "printed_page": 366,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-002448",
+        "headword": "Tana",
+        "matched_component": "Tana",
+        "translation_raw": "Pedir",
+        "classification": "Vt",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "tana",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-020",
+      "review_order": 20,
+      "adjudication_id": "RHD-ADJ-000020",
+      "source_candidate_id": "RHD-CORR-000045",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02333",
+        "form_diplomatic": "Taní",
+        "matched_component": "Taní",
+        "matched_component_index": 1,
+        "article_diplomatic": "Taní, Begehren. Fordern.",
+        "printed_page": 366,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-002451",
+        "headword": "Tani",
+        "matched_component": "Tani",
+        "translation_raw": "Rogar",
+        "classification": "Vt",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "tani",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    },
+    {
+      "dossier_id": "RHD-DIA-P1-021",
+      "review_order": 21,
+      "adjudication_id": "RHD-ADJ-000021",
+      "source_candidate_id": "RHD-CORR-000046",
+      "source_cohort": "exact",
+      "status": "awaiting_independent_adjudication",
+      "priority": {
+        "tier": 1,
+        "score": 64,
+        "reasons": [
+          "exact_normalized_graphic_match",
+          "not_short_form",
+          "unique_modern_key_match",
+          "4_candidates_for_historical_component",
+          "semantic_context_available_for_human_review",
+          "modern_record_transcribed"
+        ],
+        "interpretation": "Review-order heuristic only; priority is not linguistic validation."
+      },
+      "historical_evidence": {
+        "record_id": "RHD-S1809-02335",
+        "form_diplomatic": "Tará",
+        "matched_component": "Tará",
+        "matched_component_index": 1,
+        "article_diplomatic": "Tará, Zählen.",
+        "printed_page": 366,
+        "preservation_note": "Diplomatic evidence is reproduced for comparison and must not be overwritten by this review."
+      },
+      "modern_evidence": {
+        "record_id": "RD-002453",
+        "headword": "Tará",
+        "matched_component": "Tará",
+        "translation_raw": "Contar",
+        "classification": "Vt",
+        "source_code": "SRC-02",
+        "status": "Transcrito"
+      },
+      "machine_candidate": {
+        "type": "exact_normalized_graphic_match",
+        "status": "machine_candidate",
+        "graphic_key": "tara",
+        "modern_candidates_for_key": 1,
+        "short_form_warning": false,
+        "interpretive_scope": "Exact match under conservative graphic normalization only; does not assert semantic identity, cognacy, lexical continuity, dialect identity or normative equivalence."
+      },
+      "review_evidence": {
+        "historical_component_candidate_count": 4,
+        "semantic_evidence_available": true,
+        "automatic_semantic_judgment": "not_performed",
+        "automatic_etymological_judgment": "not_performed",
+        "automatic_historical_continuity_judgment": "not_performed"
+      },
+      "independent_adjudication": {
+        "reviewer": {
+          "name": "",
+          "affiliation": "",
+          "orcid": "",
+          "expertise": []
+        },
+        "review_date": "",
+        "decision": "not_assessed",
+        "adopted_relation_type": "not_assessed",
+        "semantic_relation_note": "",
+        "historical_continuity_note": "",
+        "dialect_or_variant_note": "",
+        "evidence": "",
+        "confidence": "not_assessed",
+        "reviewer_note": ""
+      },
+      "allowed_values": {
+        "decision": [
+          "not_assessed",
+          "accept",
+          "modify",
+          "reject",
+          "remain_uncertain"
+        ],
+        "adopted_relation_type": [
+          "not_assessed",
+          "graphic_continuity",
+          "historical_variant",
+          "probable_lexical_continuity",
+          "semantic_continuity",
+          "semantic_change",
+          "no_supported_relation",
+          "uncertain"
+        ],
+        "confidence": [
+          "not_assessed",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "verification": {
+        "human_reviewed": false,
+        "semantic_relation_human_assessed": false,
+        "historical_continuity_human_assessed": false
+      }
+    }
+  ]
+}
