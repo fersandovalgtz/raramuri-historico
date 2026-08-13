@@ -6,9 +6,9 @@
 <p align="center">
   <img src="https://img.shields.io/badge/dataset-0.2.0-172033?style=flat-square" alt="Dataset 0.2.0">
   <img src="https://img.shields.io/badge/fuente-Steffel%201809-7a263a?style=flat-square" alt="Steffel 1809">
-  <img src="https://img.shields.io/badge/candidatos%20segmentados-2%2C495-2d6a4f?style=flat-square" alt="2,495 candidate entries">
-  <img src="https://img.shields.io/badge/l%C3%ADmites%20revisados-2%2C319-b7791f?style=flat-square" alt="2,319 boundaries reviewed">
-  <img src="https://img.shields.io/badge/art%C3%ADculos%20diplom%C3%A1ticos%20AI--asistidos-1%2C841-455B55?style=flat-square" alt="1,841 AI-assisted diplomatic articles">
+  <img src="https://img.shields.io/badge/candidatos%20cotejados-2%2C495%2F2%2C495-2d6a4f?style=flat-square" alt="2,495 of 2,495 candidates collated">
+  <img src="https://img.shields.io/badge/art%C3%ADculos%20activos-1%2C965-b7791f?style=flat-square" alt="1,965 active articles">
+  <img src="https://img.shields.io/badge/transcripci%C3%B3n%20diplom%C3%A1tica-1%2C965%2F1%2C965-455B55?style=flat-square" alt="1,965 of 1,965 active articles diplomatically transcribed">
   <img src="https://img.shields.io/badge/c%C3%B3digo-MIT-172033?style=flat-square" alt="MIT">
 </p>
 
@@ -18,35 +18,39 @@
 
 La primera colección es el **Corpus Steffel 1791/1809**, basado en el *Tarahumarisches Wörterbuch* de Matthäus Steffel. El cuerpo lexicográfico impreso ocupa pp. 301–368; el cambio alemán→rarámuri / rarámuri→alemán ocurre dentro de p. 353 y el apéndice comienza en p. 369.
 
-## Estado 0.2.0
+## Estado 0.2.0: primera pasada facsimilar integral
 
-La segmentación de alta cobertura contiene **2,495 candidatos**: 1,607 alemán→rarámuri y 888 rarámuri→alemán. A través de `RHD-FR-001`–`RHD-FR-025` se han revisado **2,319 límites candidatos**: **1,841 arranques aceptados**, **478 falsos límites** y **705 correcciones claras de lema**. La capa activa queda provisionalmente en **2,017 candidatos**.
+La segmentación de alta cobertura produjo **2,495 candidatos**: 60 anclas curatoriales, 609 `high_machine`, 1,110 `medium_machine` y 716 `low_machine`. **Los 2,495 han sido cotejados contra el facsímil** mediante revisión editorial IA-asistida. El resultado provisional es **1,965 arranques lexicográficos aceptados**, **530 falsos límites rechazados** y **781 correcciones de lema**.
 
-Los niveles `high_machine` y `medium_machine` están agotados. En `low_machine` se han revisado **600 de 716 candidatos**: **380 aceptados y 220 rechazados**. Quedan **116**.
+Los **1,965 artículos activos** tienen transcripción diplomática completa IA-asistida. El inventario registra **676 transcripciones con nota explícita de incertidumbre** y ningún lote pendiente de recotejo directo de imagen. `data/review/next_review_queue.json` y su versión compacta están agotados.
 
-## Recotejo y lotes recientes
+Este hito significa **cobertura editorial/facsimilar y diplomática completa de la fase IA-asistida**, no una edición crítica definitiva. Todos los registros conservan `human_verified=false`: la validación humana, filológica y lingüística independiente sigue pendiente. Asimismo, 2,495 es el universo de candidatos de la segmentación de alta cobertura, no un conteo filológico definitivo de entradas; **1,965** es el conteo activo provisional después de depurar falsos límites.
 
-`RHD-FR-022` y `RHD-DIP-022A`–`G` fueron recotejados directamente contra las imágenes originales; ya no existe ningún lote pendiente de recotejo de imagen. `RHD-FR-023`, pp. 333–343, produjo 58 aceptados / 42 rechazados. `RHD-FR-024`, pp. 343–347, produjo 86 / 14 y resolvió el catchword `Stute` de p. 344 junto con la recuperación del lema `Stroh`.
+## Cierre de la frontera documental
 
-`RHD-FR-025`, pp. **347–352**, revisó 100 candidatos: **86 aceptados, 14 rechazados, 10 correcciones de lema y 27 correcciones de página**. Entre las reparaciones figuran `Verfault`, `Verleihen`, `Verlobt`, `Vier`, `Vor`, `Vorlängst`, `Wie immer`, `Wiederholen`, `Wo` y `Ziegelerde`. Sus 86 artículos están completos en `RHD-DIP-025A`–`I`.
+`RHD-FR-026` fue revisado con criterio explícitamente **direction-aware**: comienza en p. 352, cruza la inversión dentro de p. 353 y continúa en rarámuri→alemán hasta p. 367. Produjo 54 aceptados y 46 falsos límites; después de la inversión, glosas alemanas como `Kind`, `Natter`, `Pfeffer`, `Speise` o `Bart` dejaron de ser tratadas como posibles headwords.
+
+`RHD-FR-027` resolvió los últimos 16 candidatos `low_machine`: 10 aceptados y 6 rechazados. El cotejo mostró que los candidatos asignados automáticamente a p. 369 pertenecían todavía a la columna derecha de p. 368. De este modo queda verificado que **p. 368 es la última página del diccionario y p. 369 inicia el apéndice**, sin candidatos lexicográficos residuales en el apéndice.
+
+`RHD-FR-028` auditó las 60 anclas curatoriales iniciales directamente contra el facsímil: las 60 son arranques reales, 31 lemas requirieron reparación documental y cuatro registros fueron reajustados de p. 358 a p. 359. `RHD-DIP-028A`–`F` completaron su capa diplomática.
 
 ## Capa diplomática
 
-Los **1,841 arranques aceptados** tienen transcripción diplomática completa IA-asistida. El inventario registra **620 transcripciones con nota explícita de incertidumbre**. El facsímil de 1809 es la autoridad; las lecturas difíciles se mantienen como provisionales cuando corresponde. Todos los registros permanecen `human_verified=false`.
+`data/diplomatic/` contiene una transcripción diplomática completa para cada uno de los **1,965 arranques activos aceptados**. La capa preserva grafía histórica, ſ larga, diacríticos, variantes, ejemplos y notas extensas cuando el facsímil los sustenta. Las lecturas que aún requieren juicio filológico o lingüístico conservan una nota de incertidumbre en vez de ser normalizadas silenciosamente.
 
 La regla editorial es:
 
-**facsímil → OCR bruto → segmentación de alta cobertura → cola editorial determinista → cotejo de límites y dirección → reconstrucción por columnas → transcripción diplomática → validación humana/lingüística → normalización → datos estructurados.**
+**facsímil → OCR bruto → segmentación de alta cobertura → cotejo de límites y dirección → reconstrucción por columnas → transcripción diplomática → validación humana/lingüística → normalización → datos estructurados.**
 
 ## Datos principales
 
 - `data/entries.csv`: capa maestra integral con overlays editoriales.
-- `data/entries_curated.csv`: 60 anclas iniciales con identificadores persistentes.
-- `data/review/`: manifiestos append-only (`RHD-FR-001`–`RHD-FR-025`).
-- `data/review/next_review_queue.json`: siguiente cohorte determinista.
+- `data/entries_curated.csv`: 60 anclas iniciales, ahora sincronizadas con el cotejo facsimilar y la capa diplomática.
+- `data/review/`: manifiestos append-only `RHD-FR-001`–`RHD-FR-028`.
+- `data/review/next_review_queue.json`: cola determinista actualmente vacía.
 - `data/facsimile/`: modelo de columnas para pp. 301–368.
-- `data/diplomatic/`: 1,841 transcripciones completas hasta `RHD-DIP-025I`.
-- `data/corpus_inventory.json`: inventario regenerado.
+- `data/diplomatic/`: **1,965** transcripciones completas hasta `RHD-DIP-028F`.
+- `data/corpus_inventory.json`: inventario regenerado y comprobación calculada de cobertura.
 - JSON, XML, TEI y SQLite: serializaciones derivadas.
 
 ## Reproducibilidad
@@ -59,13 +63,15 @@ python3 scripts/generate_exports.py
 python3 tests/validate.py
 ```
 
-## Siguiente etapa: RHD-FR-026
+`apply_review_overrides.py` calcula `all_candidate_boundaries_facsimile_reviewed`, `full_diplomatic_transcription_completed` y `full_active_corpus_coverage`; estas banderas sólo son verdaderas cuando los conteos y la proveniencia satisfacen las condiciones del pipeline.
 
-`RHD-FR-026` contiene 100 de los **116** candidatos `low_machine` restantes, desde `RHD-S1809-01609` (`Zinnen`) hasta `RHD-S1809-02404` (OCR `Tofacameke Weiß`). La cohorte comienza en p. 352 y **cruza el cambio de dirección dentro de p. 353**, extendiéndose automáticamente hasta aproximadamente p. 367. Por tanto deberá revisarse con gramática de lema sensible a la dirección: antes de la frontera el headword es alemán; después, el headword es rarámuri y el alemán funciona como glosa. Tras FR-026 quedarían sólo 16 candidatos bajos.
+## Siguiente etapa editorial
+
+Ya no existe una siguiente cohorte automática. La prioridad pasa a **validación humana/filológica y lingüística independiente**, comenzando por los **676 registros con nota de incertidumbre**. Después corresponde establecer normalizaciones explícitas, relaciones de variantes, correspondencias históricas con Rarámuri Digital y, cuando proceda, anotación crítica de los contenidos culturales e históricos de la fuente.
 
 ## Identificadores y relación diacrónica
 
-Las unidades usan `RHD-S1809-#####`; un ID nunca se reutiliza aunque su límite sea rechazado. El corpus histórico permanece separado de Rarámuri Digital. Las futuras correspondencias Steffel ↔ Rarámuri Digital serán relaciones explícitas con confianza, método y revisión.
+Las unidades usan `RHD-S1809-#####`; un ID nunca se reutiliza aunque su límite haya sido rechazado. El corpus histórico permanece separado de Rarámuri Digital. Las futuras correspondencias Steffel ↔ Rarámuri Digital serán relaciones explícitas con confianza, método y revisión.
 
 ## Responsable
 
