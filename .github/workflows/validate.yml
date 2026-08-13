@@ -19,6 +19,7 @@ on:
       - 'scripts/generate_next_philological_batch.py'
       - 'scripts/generate_exports.py'
       - 'tests/validate.py'
+      - 'tests/validate_validation_phase.py'
   pull_request:
 
 concurrency:
@@ -51,7 +52,9 @@ jobs:
           python3 scripts/generate_next_philological_batch.py
           python3 scripts/generate_exports.py
       - name: Validate corpus, layout, diplomatic layer and exports
-        run: python3 tests/validate.py
+        run: |
+          python3 tests/validate.py
+          python3 tests/validate_validation_phase.py
       - name: Commit regenerated artifacts
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
