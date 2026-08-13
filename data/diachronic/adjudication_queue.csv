@@ -1,0 +1,299 @@
+adjudication_id,priority_tier,priority_score,source_candidate_id,source_cohort,historical_record_id,historical_form,historical_component,historical_page,modern_record_id,modern_headword,modern_translation,relation_type,component_candidate_count,semantic_evidence_available,human_reviewed,decision
+RHD-ADJ-000001,2,68,RHD-CORR-000004,exact,RHD-S1809-01688,Boní,Boní,355,RD-000301,Boní,Hermano menor,exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000002,2,68,RHD-CORR-000035,exact,RHD-S1809-02203,Pugué,Pugué,364,RD-001857,Pugué,"Tener, poseer (muchos animales)",exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000003,2,64,RHD-CORR-000005,exact,RHD-S1809-01700,Búra,Búra,355,RD-000341,Burá,Hacer camino,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000004,2,64,RHD-CORR-000011,exact,RHD-S1809-01756,Cuná,Cuná,356,RD-000587,Cuná,"Marido, esposo",exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000005,2,64,RHD-CORR-000017,exact,RHD-S1809-01939,Jumá,Jumá,359,RD-001183,Juma,Correr,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000006,2,64,RHD-CORR-000020,exact,RHD-S1809-02042,Muni,Muni,361,RD-001405,Muní,Frijol,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000007,2,64,RHD-CORR-000021,exact,RHD-S1809-02043,Múra,Múra,361,RD-001408,Murá,Espiga,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000008,2,64,RHD-CORR-000022,exact,RHD-S1809-02045,Musí,Musí,361,RD-001420,Musí,"Tipo de pez negro, bargón",exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000009,2,64,RHD-CORR-000023,exact,RHD-S1809-02082,Napé,Napé,362,RD-001505,Napé,1. Juntarse 2. Juntarse (casar),exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000010,2,64,RHD-CORR-000026,exact,RHD-S1809-02093,Natépa,Natépa,362,RD-001557,Natepa,Encontrar,exact_normalized_graphic_match,3,true,false,not_assessed
+RHD-ADJ-000011,2,64,RHD-CORR-000031,exact,RHD-S1809-02151,Báca,Báca,363,RD-000127,Bacá,Carrizo,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000012,2,64,RHD-CORR-000032,exact,RHD-S1809-02179,Piri?,Piri,364,RD-001846,Piri,¿Qué?,exact_normalized_graphic_match,3,true,false,not_assessed
+RHD-ADJ-000013,2,64,RHD-CORR-000036,exact,RHD-S1809-02228,Raná,Raná,364,RD-001932,Raná,1. vt Parir 2. s Hijo,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000014,2,64,RHD-CORR-000037,exact,RHD-S1809-02229,"Ráje, oder táje",Ráje,364,RD-001923,Rajé,Encender ocote (para alumbrar),exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000015,2,64,RHD-CORR-000038,exact,RHD-S1809-02248,Róco,Róco,365,RD-002110,Rocó,Estar hondo,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000016,2,64,RHD-CORR-000039,exact,RHD-S1809-02250,Ropá,Ropá,365,RD-002164,Ropá,Estómago,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000017,2,64,RHD-CORR-000042,exact,RHD-S1809-02290,Sisí,Sisí,365,RD-002349,Sisí,¡Vénganse!,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000018,2,64,RHD-CORR-000044,exact,RHD-S1809-02331,"Taná, oder raná",raná,366,RD-001932,Raná,1. vt Parir 2. s Hijo,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000019,2,64,RHD-CORR-000043,exact,RHD-S1809-02331,"Taná, oder raná",Taná,366,RD-002448,Tana,Pedir,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000020,2,64,RHD-CORR-000045,exact,RHD-S1809-02333,Taní,Taní,366,RD-002451,Tani,Rogar,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000021,2,64,RHD-CORR-000046,exact,RHD-S1809-02335,Tará,Tará,366,RD-002453,Tará,Contar,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000022,2,59,RHD-CORR-000015,exact,RHD-S1809-01914,Iché,Iché,358,RD-001060,Iché,Hay matas de maíz,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000023,2,59,RHD-CORR-000016,exact,RHD-S1809-01914,Iché,Iché,358,RD-001061,Iché,"Picar, punzar, inyectar",exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000024,2,59,RHD-CORR-000024,exact,RHD-S1809-02092,Nateguí,Nateguí,362,RD-001556,Nateguí,Cuesta,exact_normalized_graphic_match,3,true,false,not_assessed
+RHD-ADJ-000025,2,59,RHD-CORR-000025,exact,RHD-S1809-02092,Nateguí,Nateguí,362,RD-001563,"Natiguí, nateguí","Valer, costar",exact_normalized_graphic_match,3,true,false,not_assessed
+RHD-ADJ-000026,2,59,RHD-CORR-000040,exact,RHD-S1809-02284,Simi,Simi,365,RD-002301,Simí,Irse,exact_normalized_graphic_match,5,true,false,not_assessed
+RHD-ADJ-000027,2,59,RHD-CORR-000041,exact,RHD-S1809-02284,Simi,Simi,365,RD-002302,Simí,Caminar,exact_normalized_graphic_match,5,true,false,not_assessed
+RHD-ADJ-000028,2,58,RHD-CORR-000001,exact,RHD-S1809-00026,Abé,Abé,353,RD-000002,Abé,Hoy,exact_normalized_graphic_match,1,true,false,not_assessed
+RHD-ADJ-000029,2,58,RHD-CORR-000002,exact,RHD-S1809-01649,Ali oder ari,ari,353,RD-000091,Arí,Tarde,exact_normalized_graphic_match,1,true,false,not_assessed
+RHD-ADJ-000030,2,58,RHD-CORR-000003,exact,RHD-S1809-01655,Ari,Ari,354,RD-000091,Arí,Tarde,exact_normalized_graphic_match,1,true,false,not_assessed
+RHD-ADJ-000031,2,58,RHD-CORR-000047,exact,RHD-S1809-02350,Té,Té,366,RD-002462,Te,"Tejer, extender (hilos para tejer)",exact_normalized_graphic_match,1,true,false,not_assessed
+RHD-ADJ-000032,2,58,RHD-CORR-000050,exact,RHD-S1809-02491,Upi,Upi,368,RD-002539,Upí,Esposa,exact_normalized_graphic_match,1,true,false,not_assessed
+RHD-ADJ-000033,2,49,RHD-PCORR-000207,probable,RHD-S1809-02295,Sopeichi,Sopeichi,365,RD-002386,"Sopichí, supuchí",Murciélago,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000034,2,48,RHD-PCORR-000170,probable,RHD-S1809-02232,Rauguí,Rauguí,364,RD-001968,Rasuguí,Fibra de maguey,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000035,2,48,RHD-PCORR-000247,probable,RHD-S1809-02416,Tschapi,Tschapi,367,RD-002493,Tochapi,Pajarito (con pico fino; andan en muchos juntos; vienen en el tiempo de frío),probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000036,2,47,RHD-CORR-000009,exact,RHD-S1809-01723,Có oder gö,Có,355,RD-000472,co,Ser (Cuando uno dice: Echirigá ju. Así es. El otro contesta: Echirigá co. Así es.),exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000037,2,47,RHD-CORR-000010,exact,RHD-S1809-01723,Có oder gö,Có,355,RD-000473,co,Picar (chile) Echi co'huáami huabé cóori. Ésa comida estaba muy picante. [pret: cóori; fut.: córama],exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000038,2,47,RHD-CORR-000018,exact,RHD-S1809-01987,Lá,Lá,360,RD-001189,La,Sangre,exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000039,2,47,RHD-CORR-000019,exact,RHD-S1809-01987,Lá,Lá,360,RD-001190,La,Hacer enramada,exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000040,2,47,RHD-CORR-000027,exact,RHD-S1809-02101,Né,Né,362,RD-001573,‘Né,Ver,exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000041,2,47,RHD-CORR-000028,exact,RHD-S1809-02101,Né,Né,362,RD-001574,‘Ne,"Mirar, observar",exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000042,2,47,RHD-CORR-000029,exact,RHD-S1809-02147,Pá,Pá,363,RD-001791,Pa,Traer,exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000043,2,47,RHD-CORR-000030,exact,RHD-S1809-02147,Pá,Pá,363,RD-001792,Pa,Tirar,exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000044,2,47,RHD-CORR-000033,exact,RHD-S1809-02202,Pú,Pú,364,RD-001854,Pu,Ponerse una faja,exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000045,2,47,RHD-CORR-000034,exact,RHD-S1809-02202,Pú,Pú,364,RD-001855,Pu’,Faisán,exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000046,2,47,RHD-CORR-000048,exact,RHD-S1809-02401,Tó,Tó,367,RD-002489,To,"Llevar, tomar",exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000047,2,47,RHD-CORR-000049,exact,RHD-S1809-02401,Tó,Tó,367,RD-002490,To,Enterrar,exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000048,2,43,RHD-CORR-000006,exact,RHD-S1809-01702,Ca,Ca,355,RD-000357,ca,Llevar (en la mano),exact_normalized_graphic_match,3,true,false,not_assessed
+RHD-ADJ-000049,2,43,RHD-CORR-000007,exact,RHD-S1809-01702,Ca,Ca,355,RD-000358,ca,Traer,exact_normalized_graphic_match,3,true,false,not_assessed
+RHD-ADJ-000050,2,43,RHD-CORR-000008,exact,RHD-S1809-01702,Ca,Ca,355,RD-000359,ca,Hacer sombra,exact_normalized_graphic_match,3,true,false,not_assessed
+RHD-ADJ-000051,2,43,RHD-CORR-000012,exact,RHD-S1809-01763,Cú,Cú,356,RD-000555,Cu,Otra vez,exact_normalized_graphic_match,3,true,false,not_assessed
+RHD-ADJ-000052,2,43,RHD-CORR-000013,exact,RHD-S1809-01763,Cú,Cú,356,RD-000556,Cu,"Leña, madera",exact_normalized_graphic_match,3,true,false,not_assessed
+RHD-ADJ-000053,2,43,RHD-CORR-000014,exact,RHD-S1809-01763,Cú,Cú,356,RD-000557,Cu,"1. Comer (esquite, granos enteros, fruta dura). Saquí cubo, vamos a comer esquite. 2. Morder. Ta tohuí biré corí cumiri. El niño mordió un chile.",exact_normalized_graphic_match,3,true,false,not_assessed
+RHD-ADJ-000054,3,47,RHD-PCORR-000026,probable,RHD-S1809-01668,Baiſſá,Baiſſá,354,RD-000155,Baisá,Tercero,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000055,3,47,RHD-PCORR-000030,probable,RHD-S1809-01680,Batáni,Batáni,354,RD-000210,Batari,Tesgüino,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000056,3,47,RHD-PCORR-000056,probable,RHD-S1809-01748,Cavára,Cavára,356,RD-000450,Casará,"Zacate, hierba del campo, pasto",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000057,3,47,RHD-PCORR-000065,probable,RHD-S1809-01798,Galabé,Galabé,356,RD-000851,Garabé,"Muy bien, muy bueno, fino, perfecto",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000058,3,47,RHD-PCORR-000122,probable,RHD-S1809-02066,Najási,Najási,362,RD-001529,Narasi,Naranja,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000059,3,47,RHD-PCORR-000186,probable,RHD-S1809-02259,Sapáca,Sapáca,365,RD-002240,Sapará,Engordarse,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000060,3,47,RHD-PCORR-000187,probable,RHD-S1809-02260,Sapála,Sapála,365,RD-002240,Sapará,Engordarse,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000061,3,47,RHD-PCORR-000198,probable,RHD-S1809-02286,Simigó,Simigó,365,RD-002303,Simigá,¡Vaya!,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000062,3,47,RHD-PCORR-000221,probable,RHD-S1809-02330,Tamulé,Tamulé,366,RD-002445,Tamujé,Nosotros,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000063,3,47,RHD-PCORR-000248,probable,RHD-S1809-02475,Takiná,Takiná,368,RD-002459,Tasina,Por el arroyo abajito,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000064,3,46,RHD-PCORR-000001,probable,RHD-S1809-00027,Abiti oder Apiti,Abiti,353,RD-000004,Abijí,"Todavía, aún",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000065,3,46,RHD-PCORR-000016,probable,RHD-S1809-00058,Peguá,Peguá,363,RD-001827,Pehua,Fumar,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000066,3,46,RHD-PCORR-000027,probable,RHD-S1809-01675,Balſi,Balſi,354,RD-000198,Basi,"Taza, vaso",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000067,3,46,RHD-PCORR-000057,probable,RHD-S1809-01750,Cugué,Cugué,356,RD-000569,Cuhué,El tiempo de calor (antes de las lluvias),probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000068,3,46,RHD-PCORR-000067,probable,RHD-S1809-01871,"Halí, oder harí",harí,358,RD-000907,Huari,"Huari (reg.), cesta, canasta",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000069,3,46,RHD-PCORR-000075,probable,RHD-S1809-01929,Imari,Imari,359,RD-001092,Imuri,"Canasta (con tapadera), petaca",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000070,3,46,RHD-PCORR-000084,probable,RHD-S1809-01995,Loguí,Loguí,360,RD-001213,Lohuí,"Tener rabia, estar loco (que anda corriendo)",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000071,3,46,RHD-PCORR-000136,probable,RHD-S1809-02108,Néóca,Néóca,362,RD-001647,Nocá,Moverse,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000072,3,46,RHD-PCORR-000159,probable,RHD-S1809-02219,Raché,Raché,364,RD-001904,Rachí,Aplastarse,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000073,3,46,RHD-PCORR-000171,probable,RHD-S1809-02233,Rhaná,Rhaná,364,RD-001932,Raná,1. vt Parir 2. s Hijo,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000074,3,46,RHD-PCORR-000210,probable,RHD-S1809-02309,Tápoa,Tápoa,366,RD-002452,Tapa,"Acarrear, traer (en las manos)",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000075,3,46,RHD-PCORR-000211,probable,RHD-S1809-02315,Taicá,Taicá,366,RD-002443,Taca,Tocar (instrumento musical),probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000076,3,46,RHD-PCORR-000243,probable,RHD-S1809-02403,Togui,Togui,367,RD-002494,Tohuí,"Muchacho, niño",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000077,3,46,RHD-PCORR-000244,probable,RHD-S1809-02408,Tſani,Tſani,367,RD-002451,Tani,Rogar,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000078,3,46,RHD-PCORR-000245,probable,RHD-S1809-02410,Tſani- oder tſainijolájameke,Tſani-,367,RD-002451,Tani,Rogar,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000079,3,46,RHD-PCORR-000246,probable,RHD-S1809-02411,Tſani- oder tſainijoliki,Tſani-,367,RD-002451,Tani,Rogar,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000080,3,44,RHD-PCORR-000007,probable,RHD-S1809-00042,Jejé,Jejé,358,RD-001141,Jeré,Así es,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000081,3,44,RHD-PCORR-000008,probable,RHD-S1809-00043,Iguá,Iguá,359,RD-001069,Ihuá,Tener agujero,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000082,3,44,RHD-PCORR-000009,probable,RHD-S1809-00046,Jolá,Jolá,359,RD-001169,Jora,Escarbar (un hoyo),probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000083,3,44,RHD-PCORR-000012,probable,RHD-S1809-00049,Páli,Páli,363,RD-001809,Paní,Arriba (en la falda),probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000084,3,44,RHD-PCORR-000036,probable,RHD-S1809-01691,Bucú,Bucú,355,RD-000346,Burú,Estar el camino (hacia e l lugar mencionado),probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000085,3,44,RHD-PCORR-000055,probable,RHD-S1809-01741,Colé,Colé,355,RD-000552,Coyé,Ponerse el paño de lienzo en la cabeza,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000086,3,44,RHD-PCORR-000064,probable,RHD-S1809-01797,Galá,Galá,356,RD-000849,Gará,1. bueno (sabroso) 2. bien (sano),probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000087,3,44,RHD-PCORR-000066,probable,RHD-S1809-01802,Gané,Gané,357,RD-000859,Garé,"Amar, querer (véase 2caré)",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000088,3,44,RHD-PCORR-000070,probable,RHD-S1809-01902,Húli,Húli,358,RD-000991,Huíi,"Lanzar, amarrar (un animal)",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000089,3,44,RHD-PCORR-000071,probable,RHD-S1809-01903,Huli,Huli,358,RD-000991,Huíi,"Lanzar, amarrar (un animal)",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000090,3,44,RHD-PCORR-000074,probable,RHD-S1809-01922,Igue,Igue,359,RD-001101,Iqué,Ventilar,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000091,3,44,RHD-PCORR-000083,probable,RHD-S1809-01989,Lála,Lála,360,RD-001191,Labá,"Hueja redonda (reg.), jícara",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000092,3,44,RHD-PCORR-000096,probable,RHD-S1809-02015,Molé,Molé,361,RD-001364,Moré,Sahumar,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000093,3,44,RHD-PCORR-000146,probable,RHD-S1809-02129,Nulá,Nulá,363,RD-001688,Nurá,"Mandar, ordenar",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000094,3,44,RHD-PCORR-000169,probable,RHD-S1809-02229,"Ráje, oder táje",táje,364,RD-002441,Tabé,Más chiquito,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000095,3,44,RHD-PCORR-000190,probable,RHD-S1809-02276,Senú,Senú,365,RD-002418,Sunú,Maíz,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000096,3,44,RHD-PCORR-000191,probable,RHD-S1809-02278,Sevá,Sevá,365,RD-002263,Seba,"1. Alcanzar, llegar 2. Lograr 3. Llegar a ser",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000097,3,44,RHD-PCORR-000212,probable,RHD-S1809-02316,Táje,Táje,366,RD-002441,Tabé,Más chiquito,probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000098,3,44,RHD-PCORR-000237,probable,RHD-S1809-02366,Tocó,Tocó,367,RD-002480,"Tigó, ticó","Cercar, hacer (con piedra)",probable_graphic_correspondence,1,true,false,not_assessed
+RHD-ADJ-000099,3,41,RHD-PCORR-000005,probable,RHD-S1809-00034,"Aitá, oder caitá",caitá,353,RD-000364,Cabita,Rodarse (una cosa larga),probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000100,3,41,RHD-PCORR-000046,probable,RHD-S1809-01704,Cajena,Cajena,355,RD-000388,Cajera,"Cáscara delgada, vaina",probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000101,3,41,RHD-PCORR-000047,probable,RHD-S1809-01704,Cajena,Cajena,355,RD-000470,Cayena,"1. terminar, levantar 2. cosechar",probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000102,3,41,RHD-PCORR-000048,probable,RHD-S1809-01706,Caitá,Caitá,355,RD-000364,Cabita,Rodarse (una cosa larga),probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000103,3,41,RHD-PCORR-000091,probable,RHD-S1809-02004,Matáca,Matáca,361,RD-001269,Maracá,Paleta,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000104,3,41,RHD-PCORR-000092,probable,RHD-S1809-02004,Matáca,Matáca,361,RD-001284,Matagá,Palma (de la mano),probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000105,3,40,RHD-PCORR-000006,probable,RHD-S1809-00034,"Aitá, oder caitá",caitá,353,RD-000464,Catá,s arco,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000106,3,40,RHD-PCORR-000010,probable,RHD-S1809-00047,Pahí,Pahí,363,RD-001799,Pachí,"1. s Elote, mazorca 2. vi Hay elotes",probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000107,3,40,RHD-PCORR-000028,probable,RHD-S1809-01679,Baſſu,Baſſu,354,RD-000206,Basú,"Cocer, hervir",probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000108,3,40,RHD-PCORR-000029,probable,RHD-S1809-01679,Baſſu,Baſſu,354,RD-000207,Basú,Derretir,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000109,3,40,RHD-PCORR-000031,probable,RHD-S1809-01681,Batſá,Batſá,354,RD-000155,Baisá,Tercero,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000110,3,40,RHD-PCORR-000032,probable,RHD-S1809-01681,Batſá,Batſá,354,RD-000195,Basá,Apedrear,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000111,3,40,RHD-PCORR-000033,probable,RHD-S1809-01683,Báſſa,Báſſa,354,RD-000155,Baisá,Tercero,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000112,3,40,RHD-PCORR-000034,probable,RHD-S1809-01683,Báſſa,Báſſa,354,RD-000195,Basá,Apedrear,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000113,3,40,RHD-PCORR-000049,probable,RHD-S1809-01706,Caitá,Caitá,355,RD-000464,Catá,s arco,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000114,3,40,RHD-PCORR-000068,probable,RHD-S1809-01881,Hiáſi,Hiáſi,358,RD-000923,Huasí,Cola,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000115,3,40,RHD-PCORR-000069,probable,RHD-S1809-01881,Hiáſi,Hiáſi,358,RD-000924,Huasí,Suegra,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000116,3,40,RHD-PCORR-000155,probable,RHD-S1809-02203,Pugué,Pugué,364,RD-001806,Pagué,Remojar,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000117,3,40,RHD-PCORR-000175,probable,RHD-S1809-02249,Roguí,Roguí,365,RD-002133,Rohuí,Conejo,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000118,3,40,RHD-PCORR-000176,probable,RHD-S1809-02249,Roguí,Roguí,365,RD-002146,Rojuí,Bellota,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000119,3,40,RHD-PCORR-000188,probable,RHD-S1809-02273,Seguí,Seguí,365,RD-002372,Soguí,Casi,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000120,3,40,RHD-PCORR-000189,probable,RHD-S1809-02273,Seguí,Seguí,365,RD-002403,Suguí,Tesgüino,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000121,3,38,RHD-PCORR-000011,probable,RHD-S1809-00047,Pahí,Pahí,363,RD-001809,Paní,Arriba (en la falda),probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000122,3,38,RHD-PCORR-000035,probable,RHD-S1809-01688,Boní,Boní,355,RD-000263,Biní,Hermana menor (de mujer),probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000123,3,38,RHD-PCORR-000053,probable,RHD-S1809-01737,Coló,Coló,355,RD-000536,Coró,"Zopilote pinto, rayado",probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000124,3,38,RHD-PCORR-000054,probable,RHD-S1809-01737,Coló,Coló,355,RD-000547,Cosó,Ahogarse (al tragar).,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000125,3,38,RHD-PCORR-000076,probable,RHD-S1809-01937,Jukí,Jukí,359,RD-001181,Jubí,Esposas,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000126,3,38,RHD-PCORR-000077,probable,RHD-S1809-01937,Jukí,Jukí,359,RD-001188,Juri,"Sí, seguro",probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000127,3,38,RHD-PCORR-000081,probable,RHD-S1809-01988,Láca,Láca,360,RD-001191,Labá,"Hueja redonda (reg.), jícara",probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000128,3,38,RHD-PCORR-000082,probable,RHD-S1809-01988,Láca,Láca,360,RD-001205,Loca,"Batir, mezclar (pinole en agua)",probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000129,3,38,RHD-PCORR-000103,probable,RHD-S1809-02027,Mukí,Mukí,361,RD-001405,Muní,Frijol,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000130,3,38,RHD-PCORR-000104,probable,RHD-S1809-02027,Mukí,Mukí,361,RD-001420,Musí,"Tipo de pez negro, bargón",probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000131,3,38,RHD-PCORR-000105,probable,RHD-S1809-02029,Muki,Muki,361,RD-001405,Muní,Frijol,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000132,3,38,RHD-PCORR-000106,probable,RHD-S1809-02029,Muki,Muki,361,RD-001420,Musí,"Tipo de pez negro, bargón",probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000133,3,38,RHD-PCORR-000130,probable,RHD-S1809-02092,Nateguí,Nateguí,362,RD-001563,"Natiguí, nateguí","Valer, costar",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000134,3,38,RHD-PCORR-000140,probable,RHD-S1809-02120,Nokí,Nokí,362,RD-001677,Norí,Nube,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000135,3,38,RHD-PCORR-000141,probable,RHD-S1809-02120,Nokí,Nokí,362,RD-001678,Norí,Vuelta,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000136,3,38,RHD-PCORR-000142,probable,RHD-S1809-02121,Nolá,Nolá,362,RD-001647,Nocá,Moverse,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000137,3,38,RHD-PCORR-000143,probable,RHD-S1809-02121,Nolá,Nolá,362,RD-001670,‘Nora,Traer,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000138,3,38,RHD-PCORR-000144,probable,RHD-S1809-02122,Nolé,Nolé,362,RD-001672,Noré,Rodear,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000139,3,38,RHD-PCORR-000145,probable,RHD-S1809-02122,Nolé,Nolé,362,RD-001673,Noré,Estar nublado,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000140,3,38,RHD-PCORR-000205,probable,RHD-S1809-02291,Sóco,Sóco,365,RD-002381,Sonó,Rastrojo,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000141,3,38,RHD-PCORR-000206,probable,RHD-S1809-02291,Sóco,Sóco,365,RD-002390,Soró,Tía (hermana mayor del padre),probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000142,3,38,RHD-PCORR-000208,probable,RHD-S1809-02306,Sulí,Sulí,366,RD-002416,Suní,"Terminar, acabar, cumplir",probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000143,3,38,RHD-PCORR-000209,probable,RHD-S1809-02306,Sulí,Sulí,366,RD-002425,Surí,1. No querer convidar 2. No querer dejarle ir,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000144,3,38,RHD-PCORR-000219,probable,RHD-S1809-02327,Tamé,Tamé,366,RD-002441,Tabé,Más chiquito,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000145,3,38,RHD-PCORR-000220,probable,RHD-S1809-02327,Tamé,Tamé,366,RD-002444,Tamí,"Me, a mi",probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000146,3,38,RHD-PCORR-000241,probable,RHD-S1809-02393,Terü,Terü,367,RD-002468,Tera,Telar,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000147,3,38,RHD-PCORR-000242,probable,RHD-S1809-02393,Terü,Terü,367,RD-002469,Teri,Corto,probable_graphic_correspondence,2,true,false,not_assessed
+RHD-ADJ-000148,3,37,RHD-PCORR-000131,probable,RHD-S1809-02093,Natépa,Natépa,362,RD-001531,Narepa,"Saludar (con la mano, tocando el hombro)",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000149,3,37,RHD-PCORR-000132,probable,RHD-S1809-02093,Natépa,Natépa,362,RD-001559,Nateta,Pagar,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000150,3,36,RHD-PCORR-000002,probable,RHD-S1809-00029,Acáca,Acáca,353,RD-000009,Acará,Poner (huaraches),probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000151,3,36,RHD-PCORR-000003,probable,RHD-S1809-00029,Acáca,Acáca,353,RD-000021,Acaná,Boca abajo,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000152,3,36,RHD-PCORR-000004,probable,RHD-S1809-00029,Acáca,Acáca,353,RD-000023,Acará,Herrar,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000153,3,36,RHD-PCORR-000020,probable,RHD-S1809-01663,Baicá,Baicá,354,RD-000127,Bacá,Carrizo,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000154,3,36,RHD-PCORR-000021,probable,RHD-S1809-01663,Baicá,Baicá,354,RD-000155,Baisá,Tercero,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000155,3,36,RHD-PCORR-000022,probable,RHD-S1809-01663,Baicá,Baicá,354,RD-000223,Bicá,Pudrir,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000156,3,36,RHD-PCORR-000058,probable,RHD-S1809-01756,Cuná,Cuná,356,RD-000807,Chuná,Higuera,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000157,3,36,RHD-PCORR-000061,probable,RHD-S1809-01764,Cutsi,Cutsi,356,RD-000601,Cursi,Cruz,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000158,3,36,RHD-PCORR-000062,probable,RHD-S1809-01764,Cutsi,Cutsi,356,RD-000614,Cusí,Palo,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000159,3,36,RHD-PCORR-000063,probable,RHD-S1809-01764,Cutsi,Cutsi,356,RD-000615,Cusí,Tostar (los elotes o las mazorcas),probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000160,3,36,RHD-PCORR-000078,probable,RHD-S1809-01939,Jumá,Jumá,359,RD-001184,Jumsa,Huir,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000161,3,36,RHD-PCORR-000079,probable,RHD-S1809-01939,Jumá,Jumá,359,RD-001185,Jumta,Echar a correr,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000162,3,36,RHD-PCORR-000088,probable,RHD-S1809-02002,Mahá,Mahá,360,RD-001231,Machá,Garrapata,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000163,3,36,RHD-PCORR-000089,probable,RHD-S1809-02002,Mahá,Mahá,360,RD-001245,‘Mahuá,Ir corriendo,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000164,3,36,RHD-PCORR-000097,probable,RHD-S1809-02022,Muhé,Muhé,361,RD-001397,Muhué,"Aumentarse, rendir mucho",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000165,3,36,RHD-PCORR-000119,probable,RHD-S1809-02061,Naguá,Naguá,362,RD-001461,‘Nagá,Mirando,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000166,3,36,RHD-PCORR-000120,probable,RHD-S1809-02061,Naguá,Naguá,362,RD-001462,Nahuá,Llegar,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000167,3,36,RHD-PCORR-000121,probable,RHD-S1809-02061,Naguá,Naguá,362,RD-001463,Nahuá,Raíz,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000168,3,36,RHD-PCORR-000123,probable,RHD-S1809-02079,Napá,Napá,362,RD-001432,Náapa,Alcanzar,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000169,3,36,RHD-PCORR-000124,probable,RHD-S1809-02079,Napá,Napá,362,RD-001506,Napéa,"También, con, juntos",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000170,3,36,RHD-PCORR-000126,probable,RHD-S1809-02082,Napé,Napé,362,RD-001506,Napéa,"También, con, juntos",probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000171,3,36,RHD-PCORR-000147,probable,RHD-S1809-02151,Báca,Báca,363,RD-000137,Bacha,"Primeramente, adelante, enfrente",probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000172,3,36,RHD-PCORR-000148,probable,RHD-S1809-02151,Báca,Báca,363,RD-000138,Bachá,"Meter (a la cárcel), poner (adentro)",probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000173,3,36,RHD-PCORR-000156,probable,RHD-S1809-02217,Rachá,Rachá,364,RD-001899,Racá,Semilla,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000174,3,36,RHD-PCORR-000157,probable,RHD-S1809-02217,Rachá,Rachá,364,RD-001904,Rachí,Aplastarse,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000175,3,36,RHD-PCORR-000158,probable,RHD-S1809-02217,Rachá,Rachá,364,RD-002120,Rochá,Lagartija negra,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000176,3,36,RHD-PCORR-000160,probable,RHD-S1809-02222,Rachó,Rachó,364,RD-001901,Racó,Lirio colorado,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000177,3,36,RHD-PCORR-000161,probable,RHD-S1809-02222,Rachó,Rachó,364,RD-001902,Racó,"Llevar (en un trapo), envolver",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000178,3,36,RHD-PCORR-000162,probable,RHD-S1809-02222,Rachó,Rachó,364,RD-001904,Rachí,Aplastarse,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000179,3,36,RHD-PCORR-000183,probable,RHD-S1809-02254,Saaté,Saaté,365,RD-002213,Sáata,Seguir olfateando,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000180,3,36,RHD-PCORR-000184,probable,RHD-S1809-02254,Saaté,Saaté,365,RD-002214,Sáata,Hacer brasas,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000181,3,36,RHD-PCORR-000185,probable,RHD-S1809-02254,Saaté,Saaté,365,RD-002253,Saté,Arena,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000182,3,34,RHD-PCORR-000013,probable,RHD-S1809-00052,Pará,Pará,363,RD-001796,Paca,"Colar (p. ej.: café, leche, agua)",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000183,3,34,RHD-PCORR-000014,probable,RHD-S1809-00052,Pará,Pará,363,RD-001812,Pasá,"Echar, tirar",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000184,3,34,RHD-PCORR-000015,probable,RHD-S1809-00052,Pará,Pará,363,RD-001830,Pera,1. vt Poner (carona a la bestia) 2. s Carona,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000185,3,34,RHD-PCORR-000017,probable,RHD-S1809-01653,Balá,Balá,354,RD-000127,Bacá,Carrizo,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000186,3,34,RHD-PCORR-000018,probable,RHD-S1809-01653,Balá,Balá,354,RD-000174,Baná,Mejilla,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000187,3,34,RHD-PCORR-000019,probable,RHD-S1809-01653,Balá,Balá,354,RD-000184,Bapá,Apedrear,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000188,3,34,RHD-PCORR-000023,probable,RHD-S1809-01665,Bajé,Bajé,354,RD-000158,Bají,"Tomar, beber (tesgüino, agua)",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000189,3,34,RHD-PCORR-000024,probable,RHD-S1809-01665,Bajé,Bajé,354,RD-000177,Bané,Tener mejillas.,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000190,3,34,RHD-PCORR-000025,probable,RHD-S1809-01665,Bajé,Bajé,354,RD-000192,Baré,Cura,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000191,3,34,RHD-PCORR-000037,probable,RHD-S1809-01693,Buké,Buké,355,RD-000337,Bujé,"Cobrar, quitar algo, multar",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000192,3,34,RHD-PCORR-000038,probable,RHD-S1809-01693,Buké,Buké,355,RD-000342,Buré,Amarrar,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000193,3,34,RHD-PCORR-000039,probable,RHD-S1809-01693,Buké,Buké,355,RD-000350,Busé,Tener ojos,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000194,3,34,RHD-PCORR-000040,probable,RHD-S1809-01697,Bulá,Bulá,355,RD-000338,Buná,1. Agacharse 2. Inclinarse,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000195,3,34,RHD-PCORR-000041,probable,RHD-S1809-01697,Bulá,Bulá,355,RD-000341,Burá,Hacer camino,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000196,3,34,RHD-PCORR-000042,probable,RHD-S1809-01697,Bulá,Bulá,355,RD-000349,Busá,Despertarse,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000197,3,34,RHD-PCORR-000043,probable,RHD-S1809-01700,Búra,Búra,355,RD-000187,Bará,El tiempo de lluvias,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000198,3,34,RHD-PCORR-000044,probable,RHD-S1809-01700,Búra,Búra,355,RD-000338,Buná,1. Agacharse 2. Inclinarse,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000199,3,34,RHD-PCORR-000045,probable,RHD-S1809-01700,Búra,Búra,355,RD-000342,Buré,Amarrar,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000200,3,34,RHD-PCORR-000050,probable,RHD-S1809-01712,Comó?,Comó,355,RD-000504,Comí,1. Estar bajo 2. Hacer arroyo,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000201,3,34,RHD-PCORR-000051,probable,RHD-S1809-01712,Comó?,Comó,355,RD-000536,Coró,"Zopilote pinto, rayado",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000202,3,34,RHD-PCORR-000052,probable,RHD-S1809-01712,Comó?,Comó,355,RD-000547,Cosó,Ahogarse (al tragar).,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000203,3,34,RHD-PCORR-000059,probable,RHD-S1809-01756,Cuná,Cuná,356,RD-000513,Coná,Tostar,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000204,3,34,RHD-PCORR-000060,probable,RHD-S1809-01756,Cuná,Cuná,356,RD-000514,Coná,Sal,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000205,3,34,RHD-PCORR-000072,probable,RHD-S1809-01914,Iché,Iché,358,RD-001058,Ichá,Sembrar,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000206,3,34,RHD-PCORR-000073,probable,RHD-S1809-01914,Iché,Iché,358,RD-001062,Ichí,Matas de maíz,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000207,3,34,RHD-PCORR-000080,probable,RHD-S1809-01939,Jumá,Jumá,359,RD-001152,Jima,Subir,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000208,3,34,RHD-PCORR-000085,probable,RHD-S1809-02000,Mága,Mága,360,RD-001222,Maba,Comer caña,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000209,3,34,RHD-PCORR-000086,probable,RHD-S1809-02000,Mága,Mága,360,RD-001223,Mabá,¡Vamos!,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000210,3,34,RHD-PCORR-000087,probable,RHD-S1809-02000,Mága,Mága,360,RD-001248,"Majá, majahuá",Tener miedo,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000211,3,34,RHD-PCORR-000090,probable,RHD-S1809-02002,Mahá,Mahá,360,RD-001222,Maba,Comer caña,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000212,3,34,RHD-PCORR-000093,probable,RHD-S1809-02013,Móla,Móla,361,RD-001343,Moba,"Sobre, encima",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000213,3,34,RHD-PCORR-000094,probable,RHD-S1809-02013,Móla,Móla,361,RD-001344,Mocá,"Cuero curtido, vaqueta",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000214,3,34,RHD-PCORR-000095,probable,RHD-S1809-02013,Móla,Móla,361,RD-001380,Moyá,Pudrirse (maíz desgranado),probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000215,3,34,RHD-PCORR-000098,probable,RHD-S1809-02022,Muhé,Muhé,361,RD-001401,Mujé,"Tú, usted",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000216,3,34,RHD-PCORR-000099,probable,RHD-S1809-02022,Muhé,Muhé,361,RD-001404,Muné,Sembrar frijol,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000217,3,34,RHD-PCORR-000100,probable,RHD-S1809-02023,Mujá,Mujá,361,RD-001248,"Majá, majahuá",Tener miedo,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000218,3,34,RHD-PCORR-000101,probable,RHD-S1809-02023,Mujá,Mujá,361,RD-001401,Mujé,"Tú, usted",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000219,3,34,RHD-PCORR-000102,probable,RHD-S1809-02023,Mujá,Mujá,361,RD-001403,Muná,Subir (de tierra baja),probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000220,3,34,RHD-PCORR-000107,probable,RHD-S1809-02042,Muni,Muni,361,RD-001258,Maní,Contener un líquido,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000221,3,34,RHD-PCORR-000108,probable,RHD-S1809-02042,Muni,Muni,361,RD-001403,Muná,Subir (de tierra baja),probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000222,3,34,RHD-PCORR-000109,probable,RHD-S1809-02042,Muni,Muni,361,RD-001404,Muné,Sembrar frijol,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000223,3,34,RHD-PCORR-000110,probable,RHD-S1809-02043,Múra,Múra,361,RD-001268,Mará,Hija (habla del padre),probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000224,3,34,RHD-PCORR-000111,probable,RHD-S1809-02043,Múra,Múra,361,RD-001298,Mera,Corretear los animales,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000225,3,34,RHD-PCORR-000112,probable,RHD-S1809-02043,Múra,Múra,361,RD-001403,Muná,Subir (de tierra baja),probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000226,3,34,RHD-PCORR-000113,probable,RHD-S1809-02044,Múla,Múla,361,RD-001403,Muná,Subir (de tierra baja),probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000227,3,34,RHD-PCORR-000114,probable,RHD-S1809-02044,Múla,Múla,361,RD-001408,Murá,Espiga,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000228,3,34,RHD-PCORR-000115,probable,RHD-S1809-02044,Múla,Múla,361,RD-001427,Muyá,"Pudrirse (maíz, trapo mojado, cosa enterrada, madera)",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000229,3,34,RHD-PCORR-000116,probable,RHD-S1809-02045,Musí,Musí,361,RD-001281,‘Masi,Huir,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000230,3,34,RHD-PCORR-000117,probable,RHD-S1809-02045,Musí,Musí,361,RD-001320,"Míisi, misi",Gato,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000231,3,34,RHD-PCORR-000118,probable,RHD-S1809-02045,Musí,Musí,361,RD-001373,Mosí,Desmenuzar (entre las manos),probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000232,3,34,RHD-PCORR-000125,probable,RHD-S1809-02079,Napá,Napá,362,RD-001437,‘Naca,"De lejos, de un lado",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000233,3,34,RHD-PCORR-000127,probable,RHD-S1809-02082,Napé,Napé,362,RD-001436,‘Nabé,Poco más allá,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000234,3,34,RHD-PCORR-000128,probable,RHD-S1809-02082,Napé,Napé,362,RD-001489,Nané,Sonar mucho,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000235,3,34,RHD-PCORR-000133,probable,RHD-S1809-02107,Nené,Nené,362,RD-001489,Nané,Sonar mucho,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000236,3,34,RHD-PCORR-000134,probable,RHD-S1809-02107,Nené,Nené,362,RD-001583,‘Nena,Estar mirando,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000237,3,34,RHD-PCORR-000135,probable,RHD-S1809-02107,Nené,Nené,362,RD-001584,‘Neni,Mirar,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000238,3,34,RHD-PCORR-000137,probable,RHD-S1809-02115,Nipí,Nipí,362,RD-001587,Nepi,Muchísimo,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000239,3,34,RHD-PCORR-000138,probable,RHD-S1809-02115,Nipí,Nipí,362,RD-001611,Nijí,"Dar, entregar, obsequiar",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000240,3,34,RHD-PCORR-000139,probable,RHD-S1809-02115,Nipí,Nipí,362,RD-001620,Nimí,Yo a ti,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000241,3,34,RHD-PCORR-000149,probable,RHD-S1809-02151,Báca,Báca,363,RD-000133,Bacó,Ponerse amarillo (las matas de maíz por haber llovido),probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000242,3,34,RHD-PCORR-000150,probable,RHD-S1809-02165,Peré,Peré,363,RD-001830,Pera,1. vt Poner (carona a la bestia) 2. s Carona,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000243,3,34,RHD-PCORR-000151,probable,RHD-S1809-02165,Peré,Peré,363,RD-001831,Perí,Petate,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000244,3,34,RHD-PCORR-000152,probable,RHD-S1809-02165,Peré,Peré,363,RD-001844,Piré,"Vivir, morar, habitar",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000245,3,34,RHD-PCORR-000153,probable,RHD-S1809-02179,Piri?,Piri,364,RD-001831,Perí,Petate,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000246,3,34,RHD-PCORR-000154,probable,RHD-S1809-02179,Piri?,Piri,364,RD-001844,Piré,"Vivir, morar, habitar",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000247,3,34,RHD-PCORR-000163,probable,RHD-S1809-02228,Raná,Raná,364,RD-001899,Racá,Semilla,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000248,3,34,RHD-PCORR-000164,probable,RHD-S1809-02228,Raná,Raná,364,RD-001920,Rajá,"Alumbrar, arder, quemar",probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000249,3,34,RHD-PCORR-000165,probable,RHD-S1809-02228,Raná,Raná,364,RD-001935,Rané,Tener hijo,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000250,3,34,RHD-PCORR-000166,probable,RHD-S1809-02229,"Ráje, oder táje",Ráje,364,RD-001920,Rajá,"Alumbrar, arder, quemar",probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000251,3,34,RHD-PCORR-000167,probable,RHD-S1809-02229,"Ráje, oder táje",Ráje,364,RD-001929,Ramé,Diente,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000252,3,34,RHD-PCORR-000168,probable,RHD-S1809-02229,"Ráje, oder táje",Ráje,364,RD-001935,Rané,Tener hijo,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000253,3,34,RHD-PCORR-000172,probable,RHD-S1809-02248,Róco,Róco,365,RD-001901,Racó,Lirio colorado,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000254,3,34,RHD-PCORR-000173,probable,RHD-S1809-02248,Róco,Róco,365,RD-001902,Racó,"Llevar (en un trapo), envolver",probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000255,3,34,RHD-PCORR-000174,probable,RHD-S1809-02248,Róco,Róco,365,RD-002152,Romó,Invierno,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000256,3,34,RHD-PCORR-000177,probable,RHD-S1809-02250,Ropá,Ropá,365,RD-001939,Rapá,"Rajarse, partirse",probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000257,3,34,RHD-PCORR-000178,probable,RHD-S1809-02250,Ropá,Ropá,365,RD-002057,Ripá,Arriba,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000258,3,34,RHD-PCORR-000179,probable,RHD-S1809-02250,Ropá,Ropá,365,RD-002058,Ripá,Rascar,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000259,3,34,RHD-PCORR-000180,probable,RHD-S1809-02253,Rúje,Rúje,365,RD-001923,Rajé,Encender ocote (para alumbrar),probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000260,3,34,RHD-PCORR-000181,probable,RHD-S1809-02253,Rúje,Rúje,365,RD-002022,Rijé,Granizo,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000261,3,34,RHD-PCORR-000182,probable,RHD-S1809-02253,Rúje,Rúje,365,RD-002211,Ruyé,"Avisar, aconsejar, informar",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000262,3,34,RHD-PCORR-000192,probable,RHD-S1809-02282,Siká,Siká,365,RD-002274,Sicá,Trasquilar,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000263,3,34,RHD-PCORR-000193,probable,RHD-S1809-02282,Siká,Siká,365,RD-002275,Sicá,Brazo,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000264,3,34,RHD-PCORR-000194,probable,RHD-S1809-02282,Siká,Siká,365,RD-002296,Simá,Irse,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000265,3,34,RHD-PCORR-000195,probable,RHD-S1809-02284,Simi,Simi,365,RD-002296,Simá,Irse,probable_graphic_correspondence,5,true,false,not_assessed
+RHD-ADJ-000266,3,34,RHD-PCORR-000196,probable,RHD-S1809-02284,Simi,Simi,365,RD-002299,Simé,Tocar (instrumento musical),probable_graphic_correspondence,5,true,false,not_assessed
+RHD-ADJ-000267,3,34,RHD-PCORR-000197,probable,RHD-S1809-02284,Simi,Simi,365,RD-002323,Sipí,"Enfriarse (p. ej.: comida, agua)",probable_graphic_correspondence,5,true,false,not_assessed
+RHD-ADJ-000268,3,34,RHD-PCORR-000199,probable,RHD-S1809-02287,"Sini, oder Schine",Sini,365,RD-002301,Simí,Irse,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000269,3,34,RHD-PCORR-000200,probable,RHD-S1809-02287,"Sini, oder Schine",Sini,365,RD-002302,Simí,Caminar,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000270,3,34,RHD-PCORR-000201,probable,RHD-S1809-02287,"Sini, oder Schine",Sini,365,RD-002308,Siná,Gritar,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000271,3,34,RHD-PCORR-000202,probable,RHD-S1809-02290,Sisí,Sisí,365,RD-002301,Simí,Irse,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000272,3,34,RHD-PCORR-000203,probable,RHD-S1809-02290,Sisí,Sisí,365,RD-002302,Simí,Caminar,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000273,3,34,RHD-PCORR-000204,probable,RHD-S1809-02290,Sisí,Sisí,365,RD-002323,Sipí,"Enfriarse (p. ej.: comida, agua)",probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000274,3,34,RHD-PCORR-000213,probable,RHD-S1809-02321,Talá,Talá,366,RD-002435,Tabá,Ponerse la zapeta (taparrabo que se lleva en lugar de pantalón),probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000275,3,34,RHD-PCORR-000214,probable,RHD-S1809-02321,Talá,Talá,366,RD-002436,Taba,Luchar,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000276,3,34,RHD-PCORR-000215,probable,RHD-S1809-02321,Talá,Talá,366,RD-002443,Taca,Tocar (instrumento musical),probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000277,3,34,RHD-PCORR-000216,probable,RHD-S1809-02324,Talí,Talí,366,RD-002444,Tamí,"Me, a mi",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000278,3,34,RHD-PCORR-000217,probable,RHD-S1809-02324,Talí,Talí,366,RD-002451,Tani,Rogar,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000279,3,34,RHD-PCORR-000218,probable,RHD-S1809-02324,Talí,Talí,366,RD-002456,Tarí,Semilla (para sembrar),probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000280,3,34,RHD-PCORR-000225,probable,RHD-S1809-02331,"Taná, oder raná",raná,366,RD-001899,Racá,Semilla,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000281,3,34,RHD-PCORR-000226,probable,RHD-S1809-02331,"Taná, oder raná",raná,366,RD-001920,Rajá,"Alumbrar, arder, quemar",probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000282,3,34,RHD-PCORR-000227,probable,RHD-S1809-02331,"Taná, oder raná",raná,366,RD-001935,Rané,Tener hijo,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000283,3,34,RHD-PCORR-000222,probable,RHD-S1809-02331,"Taná, oder raná",Taná,366,RD-002435,Tabá,Ponerse la zapeta (taparrabo que se lleva en lugar de pantalón),probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000284,3,34,RHD-PCORR-000223,probable,RHD-S1809-02331,"Taná, oder raná",Taná,366,RD-002436,Taba,Luchar,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000285,3,34,RHD-PCORR-000224,probable,RHD-S1809-02331,"Taná, oder raná",Taná,366,RD-002443,Taca,Tocar (instrumento musical),probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000286,3,34,RHD-PCORR-000228,probable,RHD-S1809-02333,Taní,Taní,366,RD-002444,Tamí,"Me, a mi",probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000287,3,34,RHD-PCORR-000229,probable,RHD-S1809-02333,Taní,Taní,366,RD-002448,Tana,Pedir,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000288,3,34,RHD-PCORR-000230,probable,RHD-S1809-02333,Taní,Taní,366,RD-002456,Tarí,Semilla (para sembrar),probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000289,3,34,RHD-PCORR-000231,probable,RHD-S1809-02335,Tará,Tará,366,RD-002435,Tabá,Ponerse la zapeta (taparrabo que se lleva en lugar de pantalón),probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000290,3,34,RHD-PCORR-000232,probable,RHD-S1809-02335,Tará,Tará,366,RD-002436,Taba,Luchar,probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000291,3,34,RHD-PCORR-000233,probable,RHD-S1809-02335,Tará,Tará,366,RD-002443,Taca,Tocar (instrumento musical),probable_graphic_correspondence,4,true,false,not_assessed
+RHD-ADJ-000292,3,34,RHD-PCORR-000234,probable,RHD-S1809-02351,Teéa,Teéa,366,RD-002463,Teca,Afinar el violín,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000293,3,34,RHD-PCORR-000235,probable,RHD-S1809-02351,Teéa,Teéa,366,RD-002468,Tera,Telar,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000294,3,34,RHD-PCORR-000236,probable,RHD-S1809-02351,Teéa,Teéa,366,RD-002471,Teta,Medir por comparación,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000295,3,34,RHD-PCORR-000238,probable,RHD-S1809-02381,Tepá,Tepá,367,RD-002452,Tapa,"Acarrear, traer (en las manos)",probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000296,3,34,RHD-PCORR-000239,probable,RHD-S1809-02381,Tepá,Tepá,367,RD-002463,Teca,Afinar el violín,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000297,3,34,RHD-PCORR-000240,probable,RHD-S1809-02381,Tepá,Tepá,367,RD-002468,Tera,Telar,probable_graphic_correspondence,3,true,false,not_assessed
+RHD-ADJ-000298,4,34,RHD-PCORR-000129,probable,RHD-S1809-02091,Nassípasic,Nassípasic,362,RD-001544,Nasipasí,Miércoles,probable_graphic_correspondence,1,true,false,not_assessed
