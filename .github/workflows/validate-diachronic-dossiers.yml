@@ -1,0 +1,113 @@
+name: validate-diachronic-dossiers
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/validate-diachronic-dossiers.yml'
+      - 'data/entries.csv'
+      - 'data/diachronic/source_registry.json'
+      - 'data/diachronic/correspondence_schema.json'
+      - 'scripts/generate_diachronic_correspondences.py'
+      - 'scripts/generate_probable_graphic_correspondences.py'
+      - 'scripts/generate_diachronic_adjudication_queue.py'
+      - 'scripts/generate_diachronic_priority1_dossiers.py'
+      - 'scripts/sync_project_metadata.py'
+      - 'scripts/sync_diachronic_adjudication_metadata.py'
+
+concurrency:
+  group: validate-diachronic-dossiers-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Checkout pinned Rarámuri Digital comparison source
+        uses: actions/checkout@v4
+        with:
+          repository: fersandovalgtz/raramuri-digital
+          ref: 156921f4edfe27d784edc1e6444867eaa368f2e5
+          path: .tmp-raramuri-digital
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Regenerate diachronic layers and dossiers
+        run: |
+          python3 scripts/generate_diachronic_correspondences.py
+          python3 scripts/generate_probable_graphic_correspondences.py
+          python3 scripts/generate_diachronic_adjudication_queue.py
+          python3 scripts/generate_diachronic_priority1_dossiers.py
+          python3 scripts/sync_project_metadata.py
+          python3 scripts/sync_diachronic_adjudication_metadata.py
+      - name: Validate tier-1 dossier coverage and non-adjudication
+        run: |
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          d=Path('data/diachronic')
+          q=json.load((d/'adjudication_queue.json').open(encoding='utf-8'))
+          s=json.load((d/'adjudication_queue_summary.json').open(encoding='utf-8'))
+          dossiers=json.load((d/'priority1_adjudication_dossiers.json').open(encoding='utf-8'))
+          compact=json.load((d/'priority1_adjudication_dossiers_compact.json').open(encoding='utf-8'))
+          schema=json.load((d/'correspondence_schema.json').open(encoding='utf-8'))
+          pm=json.load(open('project-metadata.json',encoding='utf-8'))
+          tier1=[x for x in q['records'] if x['priority_tier']==1]
+          by_id={x['adjudication_id']:x for x in tier1}
+          records=dossiers['records']
+          assert dossiers['count']==len(records)==len(tier1)==int(s['priority_tier_counts']['1'])
+          assert dossiers['human_reviewed'] is False
+          assert dossiers['automatic_semantic_judgment'] is False
+          assert dossiers['automatic_etymological_judgment'] is False
+          assert dossiers['automatic_historical_continuity_judgment'] is False
+          assert compact['count']==len(records) and compact['human_reviewed'] is False
+          seen=set(); dossier_ids=set(); dossier_dir=d/'dossiers'/'priority1'
+          for i,x in enumerate(records,1):
+              assert x['dossier_id']==f'RHD-DIA-P1-{i:03d}'
+              assert re.fullmatch(r'RHD-ADJ-[0-9]{6}',x['adjudication_id'])
+              assert x['adjudication_id'] in by_id and x['adjudication_id'] not in seen
+              src=by_id[x['adjudication_id']]
+              assert x['priority']['tier']==1
+              assert x['source_candidate_id']==src['source_candidate_id']
+              assert x['historical_evidence']['record_id']==src['historical']['record_id']
+              assert x['modern_evidence']['record_id']==src['modern']['record_id']
+              assert x['verification']['human_reviewed'] is False
+              assert x['verification']['semantic_relation_human_assessed'] is False
+              assert x['verification']['historical_continuity_human_assessed'] is False
+              assert x['independent_adjudication']['decision']=='not_assessed'
+              assert set(x['allowed_values']['decision'])==set(schema['review_decisions'])
+              assert set(x['allowed_values']['adopted_relation_type'])==set(schema['adopted_relation_types'])
+              assert set(x['allowed_values']['confidence'])==set(schema['confidence_values'])
+              assert (dossier_dir/f"{x['dossier_id']}_{x['adjudication_id']}.md").exists()
+              seen.add(x['adjudication_id']); dossier_ids.add(x['dossier_id'])
+          assert seen==set(by_id)
+          assert len(dossier_ids)==len(records)
+          assert len(list(dossier_dir.glob('RHD-DIA-P1-*_RHD-ADJ-*.md')))==len(records)
+          assert pm['scope']['diachronic_priority1_adjudication_dossiers']==len(records)
+          assert pm['editorial_pipeline']['diachronic_priority1_dossier_count']==len(records)
+          assert pm['editorial_pipeline']['diachronic_priority1_dossiers_human_reviewed'] is False
+          assert pm['editorial_pipeline']['diachronic_adjudication_human_reviewed_count']==0
+          print(f"OK tier-1 diachronic dossiers: {len(records)}; human reviewed=0")
+          PY
+      - name: Commit generated diachronic dossiers
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/diachronic project-metadata.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git fetch origin main
+            if [ "$(git rev-parse origin/main)" != "$GITHUB_SHA" ]; then
+              echo "main advanced; newer run will regenerate dossiers"
+              exit 0
+            fi
+            git commit -m "Regenerate diachronic adjudication dossiers"
+            git push
+          fi
