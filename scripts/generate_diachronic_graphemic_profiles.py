@@ -2,8 +2,9 @@
 """Generate conservative diachronic graphemic profiles.
 
 Seed evidence and out-of-seed semantic holdouts are kept separate. Positive,
-negative, and unresolved holdout cases are counted separately. No cognacy,
-sound change, phoneme identity, or historical continuity is adjudicated.
+semantic non-graphic counterevidence, unresolved, and graphic-decoy negative
+holdout cases are counted separately. No cognacy, sound change, phoneme
+identity, or historical continuity is adjudicated.
 """
 import json, unicodedata
 from pathlib import Path
@@ -99,15 +100,20 @@ for pid,scope,h,m,pos,levels,minfam in MOTIFS:
 by={x['pattern_id']:x for x in patterns}
 hold_pos=[r for r in hold_rows if r.get('count_toward_positive',False) and not r['negative_control']]
 hold_neg=[r for r in hold_rows if r['negative_control']]
-hold_unresolved=[r for r in hold_rows if not r.get('count_toward_positive',False) and not r['negative_control']]
+hold_counter=[r for r in hold_rows if r.get('evidence_class')=='semantic_match_without_tsch_ch_graphic_support']
+hold_unresolved=[r for r in hold_rows if r.get('evidence_class')=='unresolved_multiple_modern_candidates']
 summary={
- 'dataset':seed['dataset'],'layer':'seed_plus_holdout_diachronic_graphemic_pattern_summary_v3','generated':seed['generated'],
+ 'dataset':seed['dataset'],'layer':'seed_plus_holdout_diachronic_graphemic_pattern_summary_v4','generated':seed['generated'],
  'seed_record_count':len(seed_rows),'seed_positive_record_count':sum(not r['negative_control'] for r in seed_rows),
  'seed_positive_independent_family_count':len({r['family_id'] for r in seed_rows if not r['negative_control']}),
  'holdout_record_count':len(hold_rows),'holdout_positive_record_count':len(hold_pos),
  'holdout_positive_independent_family_count':len({r['family_id'] for r in hold_pos}),
- 'holdout_unresolved_record_count':len(hold_unresolved),'holdout_negative_control_record_count':len(hold_neg),
- 'selection_independence':'holdouts selected by semantic/domain retrieval from published Steffel examples, not by requiring the tested modern graphic pattern; unresolved and negative cases are retained',
+ 'holdout_semantic_non_graphic_counterevidence_count':len(hold_counter),
+ 'holdout_unresolved_record_count':len(hold_unresolved),'holdout_graphic_decoy_negative_count':len(hold_neg),
+ 'historical_illustrative_lexeme_count':hold.get('historical_illustrative_lexeme_count'),
+ 'historical_illustrative_lexemes_audited':hold.get('historical_illustrative_lexemes_audited'),
+ 'descriptive_graphic_semantic_recovery_ratio':hold.get('descriptive_graphic_semantic_recovery_ratio'),
+ 'selection_independence':'full Merrill illustrative <tsch> list audited by modern semantic/domain retrieval; positive, semantic non-graphic, unresolved, and graphic-decoy outcomes are retained',
  'seed_pair_alignments':seed_rows,'holdout_pair_alignments':hold_rows,'patterns':patterns,
  'source_supported_interpretation':{
   'steffel_tsch':'Merrill et al. 2020 §7.5.2 associates <tsch> with voiceless palatoalveolar affricate [č] and analyzes <tsch>/<ts> as allophones of /č/.',
@@ -123,13 +129,21 @@ md=f'''# Perfil de correspondencias gráficas histórico → moderno
 
 **Corte:** 2026-08-13. **Estatus:** exploratorio y reproducible; no constituye reconstrucción fonológica.
 
-La fase de descubrimiento usa la matriz prioritaria como **semilla** y la evaluación posterior usa un conjunto **holdout seleccionado por significado/dominio independiente**. Se conservan explícitamente resultados positivos, negativos y no resueltos.
+La fase de descubrimiento usa la matriz prioritaria como **semilla**. La evaluación posterior cubre **los ocho ejemplos `<tsch>` de la lista ilustrativa de Merrill §7.5.2** y recupera candidatos modernos por significado/dominio. No se eliminan los casos que contradicen o complican la hipótesis.
 
-## `tsch → ch`: regularidad con holdout independiente
+## `tsch → ch`: auditoría completa de la lista ilustrativa publicada
 
-En la semilla, `tsch → ch` estaba apoyado por **{by['tsch_to_ch']['seed_positive_family_count']} familias**. El holdout aporta **{by['tsch_to_ch']['holdout_positive_family_count']} familias positivas**, para **{by['tsch_to_ch']['total_positive_independent_family_count']} familias positivas totales**. Los positivos incluyen `tschapí ~ Chapí` «agarrar», `tschicúli ~ Chicuri` «ratón», `tschócameke ~ Chócami` «negro», `tschutá ~ Chutá` «afilar», `echtschá ~ Ichá` «sembrar» y `tschouguá ~ Cho’huá` «extinguir/apagar». Se conserva el control `tschipú` «apestar» ~ `Chipú` «estar amargo» y el caso no resuelto `tschumíla` «boca, hocico», cuyo dominio moderno tiene más de un candidato (`Riní`, `Cho’ó`) y no se fuerza a una única correspondencia.
+En la semilla, `tsch → ch` estaba apoyado por **{by['tsch_to_ch']['seed_positive_family_count']} familias**. En los ocho lexemas históricos ilustrativos de Merrill, la búsqueda semántica moderna produce **{len(hold_pos)} apoyos gráfico-semánticos**, **{len(hold_counter)} contraparte semántica sin apoyo gráfico**, y **{len(hold_unresolved)} caso no resuelto**. Además se conserva **{len(hold_neg)} señuelo gráfico semánticamente negativo**.
 
-Este resultado cuenta además con apoyo fonético independiente: Merrill et al. (2020, §7.5.2 y Apéndice 5) atribuyen a `<tsch>` el valor [č], mientras Caballero (2022) documenta /tʃ/ y su realización opcional [ts] antes de vocal baja central. La coincidencia de entorno `a` entre la variación histórica `<tsch> ~ <ts>` y la despalatalización moderna constituye un **paralelo alofónico estructural**, no una demostración de persistencia de la misma regla.
+Los seis apoyos son `tschapí ~ Chapí` «agarrar», `tschicúli ~ Chicuri` «ratón», `tschócameke ~ Chócami` «negro», `tschutá ~ Chutá` «afilar», `echtschá ~ Ichá` «sembrar» y `tschouguá ~ Cho’huá` «extinguir/apagar». Para `tschipú` «apestar», la contraparte semántica moderna recuperada es `Bicajuca` «oler mal», que **no** conserva el patrón `tsch ~ ch`; `Chipú` «estar amargo» queda separado como señuelo gráfico. `tschumíla` «boca, hocico» permanece no resuelto porque el dominio moderno ofrece `Riní` «Boca» y `Cho’ó` «Hocico`.
+
+Descriptivamente, **6/8 = 75%** de la lista ilustrativa histórica tiene una contraparte moderna recuperada por significado que apoya `tsch ~ ch`. Este 75% se limita estrictamente a la lista ilustrativa de Merrill y **no** se interpreta como tasa de retención del léxico histórico completo.
+
+El apoyo total de la hipótesis, sumando las dos familias semilla y las seis familias holdout positivas, es de **{by['tsch_to_ch']['total_positive_independent_family_count']} familias positivas independientes**.
+
+## Paralelo fonético y alofónico
+
+Merrill et al. (2020, §7.5.2 y Apéndice 5) atribuyen a `<tsch>` el valor [č] y analizan `<tsch>/<ts>` como alófonos de /č/. Caballero (2022) documenta /tʃ/ y su realización opcional [ts] antes de vocal baja central. La coincidencia de entorno `a` entre la variación histórica `<tsch> ~ <ts>` y la despalatalización moderna constituye un **paralelo alofónico estructural**, no una demostración de persistencia de la misma regla.
 
 ## `-ameke → -ami`
 
@@ -141,18 +155,18 @@ La semilla aporta **{by['ameke_to_ami']['seed_positive_family_count']} familias 
 
 ## Resumen cuantitativo
 
-| Patrón | Semilla + | Holdout + | Familias + totales | Controles negativos | Estatus |
+| Patrón | Semilla + | Holdout + | Familias + totales | Controles gráficos negativos | Estatus |
 |---|---:|---:|---:|---:|---|
 '''
 for x in patterns:
  md+=f"| `{x['historical_string']} → {x['modern_string']}` | {x['seed_positive_family_count']} | {x['holdout_positive_family_count']} | {x['total_positive_independent_family_count']} | {x['seed_negative_control_count']+x['holdout_negative_control_count']} | `{x['status']}` |\n"
 md+=f'''
 
-El holdout completo contiene **{len(hold_pos)} positivos, {len(hold_unresolved)} no resuelto y {len(hold_neg)} control negativo**. Retener los casos adversos es parte del diseño contra circularidad.
+La auditoría `<tsch>` contiene **{len(hold_pos)} positivos, {len(hold_counter)} contraparte semántica sin apoyo gráfico, {len(hold_unresolved)} no resuelto y {len(hold_neg)} señuelo gráfico negativo**. Retener estos resultados adversos es parte del diseño contra circularidad.
 
-Las formas diplomáticas permanecen intactas. Las semejanzas gráficas y la compatibilidad fonética no adjudican cognación. Para promover una regularidad a correspondencia histórica se requiere todavía control dialectal explícito, ampliación a más vocabulario no seleccionado, análisis de contexto segmental y revisión humana/comparativa independiente.
+Las formas diplomáticas permanecen intactas. Las semejanzas gráficas y la compatibilidad fonética no adjudican cognación. Para promover una regularidad a correspondencia histórica se requiere todavía control dialectal explícito, ampliación al inventario histórico completo, análisis de contexto segmental y revisión humana/comparativa independiente.
 
 `automatic_sound_correspondence_inference=false`; `automatic_phonological_interpretation=false`; `human_reviewed=false`; `cognacy_judgment=not_performed`; `historical_continuity_judgment=not_performed`.
 '''
 REPORT.write_text(md,encoding='utf-8')
-print(json.dumps({'tsch_total_families':by['tsch_to_ch']['total_positive_independent_family_count'],'ameke_total_families':by['ameke_to_ami']['total_positive_independent_family_count'],'holdout_positive':len(hold_pos),'holdout_unresolved':len(hold_unresolved),'holdout_negative':len(hold_neg),'human_reviewed':False},ensure_ascii=False))
+print(json.dumps({'tsch_total_families':by['tsch_to_ch']['total_positive_independent_family_count'],'ameke_total_families':by['ameke_to_ami']['total_positive_independent_family_count'],'published_tsch_examples_audited':hold.get('historical_illustrative_lexemes_audited'),'holdout_positive':len(hold_pos),'holdout_semantic_non_graphic':len(hold_counter),'holdout_unresolved':len(hold_unresolved),'holdout_graphic_decoy_negative':len(hold_neg),'human_reviewed':False},ensure_ascii=False))
