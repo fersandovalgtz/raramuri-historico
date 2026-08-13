@@ -5,6 +5,7 @@ on:
   push:
     branches: [main]
     paths:
+      - '.github/workflows/validate.yml'
       - 'sources/steffel-1809-ocr-source.txt'
       - 'data/entries_curated.csv'
       - 'data/review/**'
