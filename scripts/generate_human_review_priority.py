@@ -3,10 +3,12 @@
 
 This script does not perform or claim human validation. It only orders the
 already AI-recollated human_review_queue so independent reviewers can address
-residual uncertainty systematically.
+residual uncertainty systematically. It then generates reviewer-ready evidence
+packets for the priority-1 unresolved cohort.
 """
 from pathlib import Path
 import json
+import runpy
 
 ROOT = Path(__file__).resolve().parents[1]
 V = ROOT / "data" / "validation"
@@ -92,3 +94,7 @@ compact = {
 OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 COMPACT.write_text(json.dumps(compact, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 print(f"Generated human review priority: {len(full_records)} records; {priority_counts}")
+
+# Generate review packets only after the priority artifacts exist. The called
+# script is also non-adjudicative and leaves every verification flag false.
+runpy.run_path(str(ROOT / "scripts" / "generate_priority1_review_dossiers.py"), run_name="__main__")
