@@ -19,8 +19,21 @@ INVENTORY = ROOT / "data" / "corpus_inventory.json"
 DIP_FIELDS = [
     "facsimile_column","headword_diplomatic","article_diplomatic",
     "diplomatic_status","diplomatic_batch","diplomatic_note",
-    "human_verified","diplomatic_review_method"
+    "diplomatic_note_state","human_verified","diplomatic_review_method"
 ]
+
+# A non-empty diplomatic note may merely document a resolved correction. Only
+# notes containing an explicit unresolved/independent-review cue are classified
+# as open validation work.
+OPEN_VALIDATION_RX = re.compile(
+    r"uncertain|unclear|ambiguous|illegible|difficult|provisional|pending|"
+    r"suitable for independent|appropriate for independent|independent (?:human|linguistic|philological|verification|collation)|"
+    r"human verification|linguistic verification|philological (?:verification|collation|review)|"
+    r"requires? [^.]{0,80}verification|needs? [^.]{0,80}verification|"
+    r"could (?:be|read)|may (?:be|read)|not certain|exact [^.]{0,80}remain|"
+    r"remain(?:s|ed)? [^.]{0,80}(?:verification|collation|uncertain|difficult)",
+    re.I,
+)
 
 def search_key(s: str) -> str:
     s = (s.replace('ſ','s').replace('ß','ss').replace('⸗','-')
@@ -109,7 +122,9 @@ for path in sorted(REVIEW_DIR.glob("facsimile_review_batch_*.json")):
 dip_count = 0
 dip_batches = []
 dip_pages = set()
-dip_uncertain = 0
+dip_note_count = 0
+dip_open_validation = 0
+dip_resolved_notes = 0
 dip_seen = set()
 dip_methods = set()
 dip_direct_image_pending_batches = []
@@ -152,10 +167,19 @@ for path in sorted(DIPLOMATIC_DIR.glob("diplomatic_batch_*.json")):
         if manifest.get("direct_facsimile_image_reinspection") is False:
             extra = "Direct facsimile image re-collation pending for this diplomatic batch."
             r["diplomatic_note"] = " ".join(x for x in (r["diplomatic_note"], extra) if x)
+        note = r["diplomatic_note"]
+        if note:
+            dip_note_count += 1
+            if OPEN_VALIDATION_RX.search(note):
+                dip_open_validation += 1
+                r["diplomatic_note_state"] = "open_validation"
+            else:
+                dip_resolved_notes += 1
+                r["diplomatic_note_state"] = "resolved_editorial_note"
+        else:
+            r["diplomatic_note_state"] = "none"
         dip_count += 1
         dip_pages.add(page)
-        if r["diplomatic_note"]:
-            dip_uncertain += 1
 
 with ENTRIES.open("w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=fieldnames)
@@ -213,18 +237,22 @@ inv["diplomatic_transcription"] = {
     "batches": dip_batches,
     "complete_article_transcriptions_ai_assisted": dip_count,
     "pages_represented": sorted(dip_pages),
-    "records_with_uncertainty_note": dip_uncertain,
+    "records_with_editorial_note": dip_note_count,
+    "records_with_resolved_editorial_note": dip_resolved_notes,
+    "records_with_explicit_open_validation_note": dip_open_validation,
+    "records_with_uncertainty_note": dip_open_validation,
     "method": dip_methods_sorted[0] if len(dip_methods_sorted) == 1 else "mixed_ai_assisted_diplomatic_transcription",
     "methods": dip_methods_sorted,
     "direct_facsimile_image_recheck_pending_batches": dip_direct_image_pending_batches,
     "full_active_corpus_coverage": full_diplomatic_complete,
     "human_verified": False,
-    "scope_note": "Complete article text for accepted records; source spelling/punctuation retained where supported; typographic line wrapping not encoded. Batches without direct facsimile image reinspection are explicitly flagged for later re-collation."
+    "scope_note": "Complete article text for accepted records; source spelling/punctuation retained where supported; typographic line wrapping not encoded. Non-empty diplomatic notes are classified as resolved editorial notes or explicit open validation notes; only the latter enter the scientific validation queue."
 }
 INVENTORY.write_text(json.dumps(inv, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(
     f"Applied {reviewed} boundary reviews: {accepted} accepted, {rejected} rejected, "
     f"{corrections} corrections; {dip_count} complete AI-assisted diplomatic articles; "
+    f"editorial notes={dip_note_count}, open validation notes={dip_open_validation}; "
     f"full_diplomatic_transcription_completed={full_diplomatic_complete}; "
     f"direct-image recheck pending review batches={review_direct_image_pending_batches}"
 )
