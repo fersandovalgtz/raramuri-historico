@@ -1,0 +1,15 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "rugameke_txt_inventory_v1",
+  "generated": "2026-08-13",
+  "source": "Raramuri - tarahumarisches_steffel1809_o(3).txt",
+  "normalized_full_string_type_count": 18,
+  "raw_full_token_occurrence_count": 22,
+  "normalization": "NFKD; long-s to s; umlaut/diacritics stripped for matching; alphabetic token matching ending rugameke",
+  "notes": "Counts exclude three truncated OCR tokens such as standalone rügameke/lirügameke. Several full strings are OCR variants and remain candidates until facsimile recollation.",
+  "source_explicit_rule_context": "Steffel explicitly analyzes Bassirugameke as bassi + ruc + ameke with c changing to g in composition.",
+  "human_reviewed": false,
+  "facsimile_recollated_all_types": false,
+  "automatic_morphological_extension": false,
+  "historical_continuity_judgment": "not_performed"
+}
