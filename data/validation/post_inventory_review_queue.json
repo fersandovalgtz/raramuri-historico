@@ -1,0 +1,28 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "post_inventory_philological_review_queue_v1",
+  "generated": "2026-08-13",
+  "count": 1,
+  "records": [
+    {
+      "review_id": "RHD-POSTREV-0001",
+      "record_id": "RHD-S1809-02443",
+      "printed_page": 368,
+      "current_diplomatic": "Tſchécemeke",
+      "ai_facsimile_recollation": "Tſchócameke",
+      "source_article_visible": "Tſchócameke, Schwarz.",
+      "trigger": "sole potential initial <tsch>+e exception in historical affricate inventory",
+      "facsimile_render_check": "confirmed in Poppler 400 dpi and PDFium 300 dpi renders",
+      "proposed_critical_reading": "Tſchócameke",
+      "philological_decision": "not_assessed",
+      "relation_to_ai_proposal": "not_assessed",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false,
+      "human_reviewed": false,
+      "source_layer_modified": false
+    }
+  ],
+  "human_reviewed_count": 0,
+  "interpretive_scope": "New review item discovered by a downstream distributional audit. The source diplomatic layer remains unchanged; any adoption belongs in a future critical_reading or normalized_transcription layer after independent human review."
+}
