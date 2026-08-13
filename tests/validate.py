@@ -79,11 +79,21 @@ for p in dip_paths:
         if r.get('facsimile_column','') not in {'left','right'}: errors.append(f'missing facsimile column: {rid}')
         if r.get('human_verified','').lower()!='false': errors.append(f'diplomatic record incorrectly claims human verification: {rid}')
         if int(r['printed_page']) != int(item['printed_page']): errors.append(f'diplomatic page mismatch: {rid}')
+        note=(r.get('diplomatic_note') or '').strip()
+        state=r.get('diplomatic_note_state','')
+        if not note and state!='none': errors.append(f'empty diplomatic note must have state none: {rid}')
+        if note and state not in {'resolved_editorial_note','open_validation'}: errors.append(f'non-empty diplomatic note has invalid state: {rid}')
 if len(dip_ids)!=len(set(dip_ids)): errors.append('duplicate diplomatic record_id across batches')
 di=inv.get('diplomatic_transcription',{})
 if dip_ids:
     if di.get('complete_article_transcriptions_ai_assisted') != len(dip_ids): errors.append('inventory diplomatic count mismatch')
     if di.get('human_verified') is not False: errors.append('inventory diplomatic layer must state human_verified=false')
+    note_rows=[r for r in rows if r.get('status')!='rejected_false_positive' and r.get('diplomatic_status')=='complete_ai_assisted' and (r.get('diplomatic_note') or '').strip()]
+    open_rows=[r for r in note_rows if r.get('diplomatic_note_state')=='open_validation']
+    resolved_rows=[r for r in note_rows if r.get('diplomatic_note_state')=='resolved_editorial_note']
+    if di.get('records_with_editorial_note') != len(note_rows): errors.append('inventory editorial-note count mismatch')
+    if di.get('records_with_explicit_open_validation_note') != len(open_rows): errors.append('inventory open-validation count mismatch')
+    if di.get('records_with_resolved_editorial_note') != len(resolved_rows): errors.append('inventory resolved-note count mismatch')
 
 validation_queue_path=root/'data/validation/uncertainty_queue.json'
 validation_inventory_path=root/'data/validation/validation_inventory.json'
@@ -92,23 +102,25 @@ if not validation_queue_path.exists():
 else:
     vq=json.load(validation_queue_path.open(encoding='utf-8'))
     vrecs=vq.get('records',[])
-    expected_uncertain=[r for r in rows if r.get('status')!='rejected_false_positive' and r.get('diplomatic_status')=='complete_ai_assisted' and (r.get('diplomatic_note') or '').strip()]
+    expected_open=[r for r in rows if r.get('status')!='rejected_false_positive' and r.get('diplomatic_status')=='complete_ai_assisted' and r.get('diplomatic_note_state')=='open_validation']
     if vq.get('count') != len(vrecs): errors.append('validation queue count mismatch')
-    if len(vrecs) != len(expected_uncertain): errors.append(f'validation queue coverage mismatch: {len(vrecs)} != {len(expected_uncertain)}')
+    if len(vrecs) != len(expected_open): errors.append(f'validation queue coverage mismatch: {len(vrecs)} != {len(expected_open)}')
     vids=[x.get('record_id') for x in vrecs]
     if len(vids)!=len(set(vids)): errors.append('duplicate record_id in validation queue')
-    allowed_categories={'graphic_reading','article_structure','historical_raramuri_form','semantic_or_gloss','general_editorial_uncertainty'}
+    allowed_categories={'graphic_reading','article_structure','historical_raramuri_form','semantic_or_gloss','general_open_validation'}
     for x in vrecs:
         rid=x.get('record_id')
         if rid not in by_id: errors.append(f'validation queue id missing from entries: {rid}'); continue
         if x.get('category') not in allowed_categories: errors.append(f'bad validation category: {rid}')
         if x.get('priority') not in {1,2,3,4,5}: errors.append(f'bad validation priority: {rid}')
         if x.get('human_verified') is not False: errors.append(f'validation queue must not claim human verification: {rid}')
+        if x.get('philologically_verified') is not False: errors.append(f'validation queue must not claim philological verification: {rid}')
+        if x.get('linguistically_verified') is not False: errors.append(f'validation queue must not claim linguistic verification: {rid}')
         if x.get('validation_state')!='pending_independent_review': errors.append(f'bad validation state: {rid}')
-        if not (by_id[rid].get('diplomatic_note') or '').strip(): errors.append(f'validation queue record lacks uncertainty note: {rid}')
+        if by_id[rid].get('diplomatic_note_state')!='open_validation': errors.append(f'validation queue record is not open_validation: {rid}')
     if validation_inventory_path.exists():
         vi=json.load(validation_inventory_path.open(encoding='utf-8'))
-        if vi.get('active_diplomatic_records_with_explicit_uncertainty') != len(vrecs): errors.append('validation inventory count mismatch')
+        if vi.get('active_diplomatic_records_with_explicit_open_validation') != len(vrecs): errors.append('validation inventory count mismatch')
         if any(vi.get(k)!=0 for k in ('human_verified_records','philologically_verified_records','linguistically_verified_records')):
             errors.append('scientific validation inventory must begin with zero independent verified records')
     else:
@@ -134,4 +146,4 @@ if checks_path.exists():
             if got != item['sha256']: errors.append('checksum mismatch '+item['file'])
 if errors:
     print('\n'.join('ERROR: '+e for e in errors)); sys.exit(1)
-print(f"OK: {len(rows)} candidates; {len(reviewed_ids)} facsimile-reviewed boundaries; {len(rejected_ids)} rejected; {len(dip_ids)} complete AI-assisted diplomatic articles; scientific uncertainty queue validated; exports agree")
+print(f"OK: {len(rows)} candidates; {len(reviewed_ids)} facsimile-reviewed boundaries; {len(rejected_ids)} rejected; {len(dip_ids)} complete AI-assisted diplomatic articles; explicit open-validation queue validated; exports agree")
