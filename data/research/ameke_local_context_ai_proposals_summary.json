@@ -2,7 +2,17 @@
   "dataset": "raramuri-historico-steffel-1809",
   "generated": "2026-08-13",
   "count": 114,
+  "method_counts": {
+    "article_headword_fallback": 1,
+    "facsimile_correction": 3,
+    "previous_major_clause": 45,
+    "same_major_left": 2,
+    "same_minor_left": 63
+  },
+  "review_risk_counts": {
+    "high": 46,
+    "low": 68
+  },
   "facsimile_correction_count": 3,
-  "fallback_count": 1,
   "human_reviewed_count": 0
 }
