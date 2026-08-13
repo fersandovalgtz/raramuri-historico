@@ -73,6 +73,17 @@
   "residual_span_triage_method": "character_ngram_documentary_profile_triage_v1",
   "residual_span_triage_automatic_language_identification": false,
   "residual_span_triage_automatic_lexeme_creation": false,
+  "residual_recovery_candidate_groups": 514,
+  "residual_recovery_source_profile_signal_spans": 645,
+  "residual_recovery_evidence_grade_counts": {
+    "A_machine_documentary_signal": 47,
+    "B_machine_documentary_signal": 159,
+    "C_machine_profile_signal": 131,
+    "D_machine_possible_profile_signal": 177
+  },
+  "residual_recovery_cross_entry_recurrent_groups": 90,
+  "residual_recovery_automatic_language_identification": false,
+  "residual_recovery_automatic_lexeme_creation": false,
   "explicit_source_variant_groups": 24,
   "normalized_graphic_collision_groups": 7,
   "diachronic_semantic_context_candidates": 298,

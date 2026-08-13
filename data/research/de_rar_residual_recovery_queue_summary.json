@@ -1,0 +1,17 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "generated": "2026-08-13",
+  "unique_recovery_candidate_groups": 514,
+  "source_profile_signal_spans": 645,
+  "evidence_grade_counts": {
+    "A_machine_documentary_signal": 47,
+    "B_machine_documentary_signal": 159,
+    "C_machine_profile_signal": 131,
+    "D_machine_possible_profile_signal": 177
+  },
+  "cross_entry_recurrent_groups": 90,
+  "human_reviewed": false,
+  "automatic_language_identification": false,
+  "automatic_lexeme_creation": false,
+  "method": "deduplicated_residual_profile_recovery_queue_v1"
+}

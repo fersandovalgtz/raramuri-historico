@@ -1,0 +1,515 @@
+recovery_id,graphic_key,surface_forms,occurrence_count,distinct_de_rar_record_count,de_rar_headwords,printed_pages,best_profile_class,best_profile_log_likelihood_ratio,nearest_rar_de_graphic_key,nearest_rar_de_similarity,evidence_grade,human_reviewed,decision
+RHD-RREC-000001,tseti,Tſeti | Tſetí | tſetí,5,5,Bös | Laſter | Laſterhaft | Uebel | Unrecht,310 | 328 | 346 | 347,strong_raramuri_profile_signal,2.125,tleti,0.8,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000002,loguiameke,Loguiameke,4,4,Raſen | Unſinnig | Wahnſinnig | Wüthig,336 | 347 | 349 | 351,strong_raramuri_profile_signal,2.5038,loguijameke,0.909,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000003,tschutscha,Tſchutſchá | Tſchutſchä,4,4,Einſalben | Einſchmieren | Salben | Schmieren,314 | 338 | 339,strong_raramuri_profile_signal,1.917,tschutschu,0.9,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000004,repagameke,Repágameke | repágameke,4,4,Blitzen | Glänzend | Leuchten | Leuchtend,309 | 322 | 330,strong_raramuri_profile_signal,1.877,rosacameke,0.7,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000005,cauguiki,Cauguiki | Caugúiki | cauguiki,3,3,Einöde | Wald | Wüſte,314 | 349 | 351,strong_raramuri_profile_signal,3.1461,cauguliki,0.889,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000006,peguameke,Peguameke | Peguámeké | Peguämeke,3,3,Feſt | Hart | Verhärtet,316 | 323 | 347,strong_raramuri_profile_signal,2.7012,peguamecke,0.9,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000007,tsainajoliki,Tſainajolíki | Tſainájoliki | Tſainájolíki,3,3,Miſſethat | Schuld | Verbrechen,332 | 340 | 347,strong_raramuri_profile_signal,2.4237,tsainijoliki,0.917,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000008,buila,Buila,3,3,Schlinge | Strang | Strick,339 | 344,strong_raramuri_profile_signal,2.317,bula,0.8,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000009,naguessa,Nagueſſá,3,3,Andeuten | Ankündigen | Melden,302 | 331,strong_raramuri_profile_signal,2.1098,naguella,0.75,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000010,schuguiameke,Schuguiameke | ſchuguiameke,3,3,Todtſeyn | Verzehren | Verſtorben,346 | 348,strong_raramuri_profile_signal,2.0367,schugiameke,0.917,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000011,jeki,Jeki | Jekí,3,3,Begeben | Ereignen | Geſchehen,308 | 315 | 320,strong_raramuri_profile_signal,1.9314,juki,0.75,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000012,tessiguati,Teſſiguati,3,3,Arm | Kraftlos | Verunglückt,304 | 327 | 348,strong_raramuri_profile_signal,1.9192,telsiguati,0.9,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000013,tajenaba,Tajenaba | Tajénaba | tajenába,3,3,Hell | Licht | Morgen,324 | 330 | 332,strong_raramuri_profile_signal,1.7842,tajena,0.75,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000014,tutschi,Tutſchi,3,3,Zerquetſchen | Zerreiben | Zerſtoßen,352,strong_raramuri_profile_signal,1.78,totschi,0.857,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000015,jumagualiki,Jumaguáliki,2,2,Faſttag | Feſttag,316,strong_raramuri_profile_signal,3.1215,jumagaliki,0.909,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000016,cocojameke,Cocojameke | Cocojámeke,2,2,Krank | Sieh,327 | 341,strong_raramuri_profile_signal,2.7308,coajameke,0.8,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000017,polirugameke,Polirúgameke,2,2,Bedecken | Decken,308 | 312,strong_raramuri_profile_signal,2.6955,parugameke,0.75,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000018,pigue,Pigué,2,2,Beichten | Bekennen,308,strong_raramuri_profile_signal,2.6864,pugue,0.8,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000019,piguelila,Piguelilá,2,2,Beichte | Bekenntniß,308,strong_raramuri_profile_signal,2.6819,pignelila,0.889,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000020,naja,Najá | naja,2,2,Lang | Sonſt,328 | 342,strong_raramuri_profile_signal,2.6303,napa,0.75,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000021,pepuliki,pepuliki,2,2,Fleiſch,318,strong_raramuri_profile_signal,2.6285,pemoliki,0.75,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000022,nulalila,Nulálila,2,2,Befehl | Gebot,308 | 320,strong_raramuri_profile_signal,2.4808,nulalilla,0.889,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000023,mujajameke,Mujájameke,2,2,Roſt | Roſtig,338,strong_raramuri_profile_signal,2.3391,mukijameke,0.8,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000024,paca,Páca,2,2,Kraut | Stroh,327 | 344,strong_raramuri_profile_signal,2.3069,paa,0.75,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000025,tschitula,Tſchitúla,2,2,Kreis | Umkreis,327 | 346,strong_raramuri_profile_signal,2.2562,tschirula,0.889,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000026,cunala,Cunála,2,2,Ehemann | Gemahl,313 | 320,strong_raramuri_profile_signal,2.228,cuvala,0.833,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000027,cajutschi,Cajútschi,2,2,Pferd | Roß,335 | 338,strong_raramuri_profile_signal,2.2067,cajatschi,0.889,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000028,jolarugameke,Jolárugameke | jolarúgameke,2,2,Machen | Thun,330 | 346,strong_raramuri_profile_signal,2.1925,jumarugameke,0.833,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000029,tschitulameke,Tſchitulámeke | tſchitúlameke,2,2,Kugelförmig | Rund,328 | 338,strong_raramuri_profile_signal,2.181,tschirulameke,0.923,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000030,tessiguala,Teſſiguala | Teſſiguála,2,2,Kummer | Schmerz,328 | 339,strong_raramuri_profile_signal,2.1715,telsiguala,0.9,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000031,pahiameke,Pahiameke | Pahíameke,2,2,Saufer | Trinker,338 | 346,strong_raramuri_profile_signal,2.1575,parugameke,0.7,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000032,cassiniki,Caſſiniki | Caſſiníki,2,2,Scherben | Zerbrechen,338 | 352,strong_raramuri_profile_signal,2.1561,caisiniki,0.889,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000033,ta pagotugameke,Tà pagotúgameke | Tá pagótugameke,2,2,Heide | Ungewaſchen,323 | 347,strong_raramuri_profile_signal,2.0908,tepagatigameke,0.733,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000034,pagorugameke,Pagorúgameke,2,2,Abwaſchen | Getauft,301 | 321,strong_raramuri_profile_signal,2.0838,pagotugameke,0.917,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000035,bassujameke,Baſſujameke | baſſújameke,2,2,Heiß | Sieden,324 | 341,strong_raramuri_profile_signal,2.0617,bassaraleke,0.727,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000036,nachpisoco,Nachpiſóco,2,2,Aſche | Staub,304 | 343,strong_raramuri_profile_signal,2.0537,nachpiloco,0.9,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000037,nalsiameke,Nalſiameke,2,2,Sorglos | Trag,342 | 346,strong_raramuri_profile_signal,2.0449,najujameke,0.7,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000038,tepigaca,Tepigacá | Tepigáca,2,2,Meſſer | Schermeſſer,331 | 338,strong_raramuri_profile_signal,1.9962,tepulaca,0.75,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000039,hoco,Hóco,2,2,Bohren | Graben,310 | 322,strong_raramuri_profile_signal,1.9914,hoca,0.75,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000040,simiba,Simiba | ſimíba,2,2,Gehen | Zügen,320 | 352,strong_raramuri_profile_signal,1.9517,simibe,0.833,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000041,tapaco,Tapáco,2,2,Geſtern | Morgen,320 | 332,strong_raramuri_profile_signal,1.951,tapeco,0.833,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000042,sopoli,Sopoli | Sopóli,2,2,Geſtirn | Stern,320 | 344,strong_raramuri_profile_signal,1.9163,sapoli,0.833,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000043,thulameke,Thulämeke | Thúlameke,2,2,Froſtig | Kalt,319 | 326,strong_raramuri_profile_signal,1.8939,thulaneke,0.889,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000044,tschepi,Tſchepi,2,2,Anfaſſen | Ergreifen,302 | 315,strong_raramuri_profile_signal,1.767,tschapi,0.857,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000045,pemole,Pemolé,2,2,Dunſt | Dünſten,313,strong_raramuri_profile_signal,1.7415,peimole,0.857,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000046,batla,Batlá,2,2,Vor | Voraus,349,strong_raramuri_profile_signal,1.722,bala,0.8,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000047,teeke,Teéke,2,2,Klippe | Stein,326 | 344,strong_raramuri_profile_signal,1.6796,teeje,0.8,A_machine_documentary_signal,False,not_assessed
+RHD-RREC-000048,matschigameke,Matſchigameke,5,5,Bewußt | Erfahren | Gelehrt | Klug | Verſtändig,309 | 315 | 320 | 326 | 348,strong_raramuri_profile_signal,1.9891,massisipoa,0.615,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000049,napabu,Napabú,5,5,Anhäufen | Mehren | Sammeln | Vermehren | Verſammeln,302 | 331 | 338 | 348,strong_raramuri_profile_signal,1.8747,napa,0.667,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000050,reguiguiki,Reguiguiki | Reguiguíki | Reguigúiki,4,4,Anhöhe | Berg | Gebirg | Hügel,302 | 308 | 319 | 325,strong_raramuri_profile_signal,2.5418,r-guala,0.5,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000051,naiki,Naiki | Náiki,3,3,Brunſt | Feuer | Glut,311 | 317 | 322,strong_raramuri_profile_signal,2.6228,nachki,0.667,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000052,tessigua,Teſſiguá,3,3,Betheuren | Betrübt ſeyn | Wehe thun,309 | 350,strong_raramuri_profile_signal,2.0182,t-fligua,0.625,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000053,malagala,Malagála,3,3,Degen | Schwert | Säbel,312 | 338 | 340,strong_raramuri_profile_signal,1.958,maguali,0.5,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000054,matschiruje,Matſchiruje,3,3,Bothſchaft bringen | Unterrichten | Zeigen,310 | 347 | 352,strong_raramuri_profile_signal,1.8597,matschisimi,0.636,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000055,guitaje,guitaje,2,2,Für | Wegen,319 | 350,strong_raramuri_profile_signal,2.7581,guale,0.571,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000056,petsilaca,Petſilaca | Petſiláca,2,2,Beſen,308,strong_raramuri_profile_signal,2.2063,petsimela,0.667,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000057,bealiki,Bealíki | bealíki,2,2,Früh | Morgen,319 | 332,strong_raramuri_profile_signal,2.1834,balsi,0.571,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000058,pauguimanila,Pauguimaníla | Pauguímanila,2,2,Moraſt | See,332 | 340,strong_raramuri_profile_signal,2.143,pabahischie,0.583,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000059,igue ga,Igué ga | Igué gá,2,2,Geſchmack | Schmackhaft,320 | 339,strong_raramuri_profile_signal,2.1236,igua,0.571,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000060,pugue rachpeco,pugue rachpeco | pugué rachpéco,2,2,Alſo | Hernach,302 | 324,strong_raramuri_profile_signal,2.0725,pabahischie,0.643,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000061,ta matschigameke,Tá matſchigameke,2,2,Unkundig | Unwiſſend,347,strong_raramuri_profile_signal,2.0007,ta guetsi joma,0.688,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000062,ta matschiga,Ta matſchiga | Tá matſchiga,2,2,Unverſehens | Unverſehrt,347,strong_raramuri_profile_signal,1.8236,ta guetsi joma,0.643,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000063,upila,Upila | Upíla,2,2,Eheweib | Gemahlinn,313 | 320,strong_raramuri_profile_signal,1.7445,uili,0.6,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000064,sakiruje,Sakiruje | Sakíruje,2,2,Dörren | Trocknen,312 | 346,strong_raramuri_profile_signal,1.7428,satuje,0.625,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000065,taslo upeameke,Taſló upéameke,2,2,Unbeweibt | Unverehelicht,347,strong_raramuri_profile_signal,1.7093,ta guetsi joma,0.643,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000066,paugui,Paugui,1,1,Fluß,318,strong_raramuri_profile_signal,3.0969,pauguo,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000067,guitsoco,Guitſoco,1,1,Alsdann,302,strong_raramuri_profile_signal,2.8086,guitloco,0.875,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000068,soiguala,Soiguala,1,1,Dorn,312,strong_raramuri_profile_signal,2.7787,siguaca,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000069,uila,uíla,1,1,Seil,340,strong_raramuri_profile_signal,2.7598,uili,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000070,petsiki,Petſiki,1,1,Kehren,326,strong_raramuri_profile_signal,2.7267,pusiki,0.714,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000071,comigua,Comiguá,1,1,Gieſſen,322,strong_raramuri_profile_signal,2.6936,coigua,0.857,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000072,pugueameke,pugueameke,1,1,Warten,350,strong_raramuri_profile_signal,2.6567,pamagueameke,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000073,jejegaliki,Jejegalíki,1,1,Lüge,330,strong_raramuri_profile_signal,2.6284,jumagaliki,0.7,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000074,guechpiloco,Guechpilóco,1,1,Geißeln,320,strong_raramuri_profile_signal,2.5804,guechpisoco,0.909,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000075,pauguirugameke,Pauguirugameke,1,1,Wäſſerig,350,strong_raramuri_profile_signal,2.5718,pagotugameke,0.714,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000076,jolajameke,jolájameke,1,1,Thun,346,strong_raramuri_profile_signal,2.5662,jolajameka,0.9,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000077,pavoliki,Pavoliki,1,1,Abwaſchung,301,strong_raramuri_profile_signal,2.5573,pauvoliki,0.889,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000078,tselsiguala,Tſelſiguala,1,1,Traurigkeit,346,strong_raramuri_profile_signal,2.5267,telsiguala,0.909,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000079,pulaniki,Pulaniki,1,1,Sechs,340,strong_raramuri_profile_signal,2.5079,puaniki,0.875,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000080,cauguilu,Cauguilu,1,1,Wüſte,351,strong_raramuri_profile_signal,2.5022,cauguila,0.875,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000081,reguala,Reguála,1,1,Namen,333,strong_raramuri_profile_signal,2.4929,r-guala,0.857,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000082,tschipugameke,Tſchipúgameke,1,1,Stinken,344,strong_raramuri_profile_signal,2.4579,tschiperameke,0.846,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000083,tepulirugameke,Tepulirúgameke,1,1,Abhauen,301,strong_raramuri_profile_signal,2.4397,teculuameke,0.714,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000084,cusigameke,Cusigameke,1,1,Hölzern,325,strong_raramuri_profile_signal,2.4028,cusigueameke,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000085,segua,Seguá,1,1,Roſe,338,strong_raramuri_profile_signal,2.3953,segui,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000086,tseligua,Tſeliguá,1,1,Trauren,346,strong_raramuri_profile_signal,2.3894,t-fligua,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000087,jiki,Jiki,1,1,Zutragen,353,strong_raramuri_profile_signal,2.3888,juki,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000088,ikisiki,Ikisíki,1,1,Scheuen,338,strong_raramuri_profile_signal,2.3816,ikitsiki,0.875,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000089,mukiameke,Mukíameke,1,1,Ehemann,313,strong_raramuri_profile_signal,2.3807,mukijameke,0.9,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000090,regua,Reguá,1,1,Heiſſen,324,strong_raramuri_profile_signal,2.3762,r-gua,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000091,tschusigua,Tſchuſiguá,1,1,Nieſſen,334,strong_raramuri_profile_signal,2.3664,tirhutsigua,0.727,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000092,cato guila,cató guila,1,1,Strick,344,strong_raramuri_profile_signal,2.3477,cauguila,0.7,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000093,mujameke,Mujámeke,1,1,Verfault,347,strong_raramuri_profile_signal,2.3423,mukijameke,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000094,regui,Regui,1,1,Hinauf,324,strong_raramuri_profile_signal,2.341,regue,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000095,pauguina,Pauguína,1,1,Schwitzen,340,strong_raramuri_profile_signal,2.3398,pauguila,0.875,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000096,tschitsula,Tſchitſúla,1,1,Scheibe,338,strong_raramuri_profile_signal,2.3043,tschirula,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000097,tselsiguati,Tſelſiguati,1,1,Traurig,346,strong_raramuri_profile_signal,2.2973,telsiguati,0.909,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000098,gualireke,Gualiréke,1,1,Schleunig,339,strong_raramuri_profile_signal,2.2931,gualineke,0.889,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000099,tschapirugameke,tſchapirúgameke,1,1,Ergreifen,315,strong_raramuri_profile_signal,2.2892,tschirulameke,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000100,tschicula,Tſchicúla,1,1,Runde,338,strong_raramuri_profile_signal,2.2469,tschiculi,0.889,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000101,pouguaca s,Pouguáca ſ,1,1,Schaf,338,strong_raramuri_profile_signal,2.2456,pouguaca,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000102,natsila,Natſíla,1,1,Lichtputze,330,strong_raramuri_profile_signal,2.2401,nassila,0.857,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000103,canapa,canapa,1,1,Vollenden,349,strong_raramuri_profile_signal,2.2293,cajenapa,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000104,guitlona,Guitlóna,1,1,Waſchen,350,strong_raramuri_profile_signal,2.2228,guitloma,0.875,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000105,tschucuameke,tſchucúameke,1,1,Kriechen,327,strong_raramuri_profile_signal,2.2194,teculuameke,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000106,mujaca,Mujaca,1,1,Arſch,304,strong_raramuri_profile_signal,2.2171,mujaba,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000107,uli,Uli,1,1,Stillhalten,344,strong_raramuri_profile_signal,2.2142,uili,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000108,tschutarugameke,Tſchutárugameke,1,1,Scharf,338,strong_raramuri_profile_signal,2.2068,tschirulameke,0.733,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000109,naregui,Naregui,1,1,Vergeltung,347,strong_raramuri_profile_signal,2.1948,nategui,0.857,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000110,etschagueameke,Etſchaguéameke,1,1,Bärtig,307,strong_raramuri_profile_signal,2.1809,etschaguoameke,0.929,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000111,simiameke,Simiameke,1,1,Abgehen,301,strong_raramuri_profile_signal,2.1785,samiameke,0.889,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000112,bassirujameke,baſſirújameke,1,1,Sieden,341,strong_raramuri_profile_signal,2.1751,bassirugameke,0.923,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000113,ataca,Atáca,1,1,Armbruſt,304,strong_raramuri_profile_signal,2.1688,acaca,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000114,khutugala,Khutugála,1,1,Baumfrüchte,307,strong_raramuri_profile_signal,2.1512,khutagala,0.889,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000115,pougua nasseameke,Pouguá naſſéameke,1,1,Schafhirt,338,strong_raramuri_profile_signal,2.1469,pitschaburameke,0.706,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000116,sapeameke,Sapéameke,1,1,Fleiſchig,318,strong_raramuri_profile_signal,2.1449,saateameke,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000117,tsetijolameke,Tſetijolámeke,1,1,Verbrecher,347,strong_raramuri_profile_signal,2.1436,tsetijolajameke,0.867,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000118,tscuapiboli,Tſcuapiboli,1,1,Verlobt,348,strong_raramuri_profile_signal,2.1408,tschapiboli,0.909,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000119,nslagui,Nſlagui,1,1,Heulen,324,strong_raramuri_profile_signal,2.1375,nalagui,0.857,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000120,pilepilo,Pilépilo,1,1,Einzig,314,strong_raramuri_profile_signal,2.1345,pilepi,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000121,naguossa,Naguoſſa,1,1,Viermal,349,strong_raramuri_profile_signal,2.1276,naguossani,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000122,bajeliruc,Bajéliruc,1,1,Rufen,338,strong_raramuri_profile_signal,2.1092,balaliruc,0.778,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000123,tanarugameke,tanarúgameke,1,1,Zeugen,352,strong_raramuri_profile_signal,2.1036,taragameke,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000124,tschutschi,Tſchutſchí,1,1,Saugen,338,strong_raramuri_profile_signal,2.0981,tschitschi,0.9,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000125,cajenamela,cajenamela,1,1,Vollenden,349,strong_raramuri_profile_signal,2.0941,cajenapa,0.7,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000126,baicaraje,Baicáraje,1,1,Dritter,313,strong_raramuri_profile_signal,2.0913,baicataje,0.889,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000127,cuvessali,Cuveſſali,1,1,Sommer,342,strong_raramuri_profile_signal,2.0861,cuvesali,0.889,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000128,tutschirugameke,tutſchirúgameke,1,1,Zerreiben,352,strong_raramuri_profile_signal,2.086,tschirulameke,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000129,cugnila,Cugnila,1,1,Hülfe,325,strong_raramuri_profile_signal,2.0816,cuguila,0.857,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000130,bassiameke,Baſſiameke,1,1,Zeitig,352,strong_raramuri_profile_signal,2.0786,bajeameke,0.7,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000131,tschapiruc,Tſchapirúc,1,1,Ergreifen,315,strong_raramuri_profile_signal,2.0777,tschapi,0.7,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000132,bassatiameke,Baſſatiameke,1,1,Urbar,347,strong_raramuri_profile_signal,2.0773,bassaraleke,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000133,naguosani,Naguóſáni,1,1,Vierter,349,strong_raramuri_profile_signal,2.0765,naguossani,0.9,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000134,nassiameke,Naſsiameke,1,1,Faul,316,strong_raramuri_profile_signal,2.0761,nesseameke,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000135,calistschiki,Caliſtſchíki,1,1,Schweif,340,strong_raramuri_profile_signal,2.0747,calitschiki,0.917,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000136,mukilati,mukílati,1,1,Sterblich,344,strong_raramuri_profile_signal,2.0657,mukiiati,0.875,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000137,mujala,Mujála,1,1,Roſt,338,strong_raramuri_profile_signal,2.0593,mujaba,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000138,covara,Covára,1,1,Stirn,344,strong_raramuri_profile_signal,2.0544,cavara,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000139,tamatsiame,Tamatsiame,1,1,Dunkel,313,strong_raramuri_profile_signal,2.0354,tamateiame,0.9,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000140,vossaguaca,Voſſaguáca,1,1,Mörtel,332,strong_raramuri_profile_signal,2.0252,vuossaguaca,0.909,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000141,opiruc,ópiruc,1,1,Verhexen,347,strong_raramuri_profile_signal,2.0242,opirue,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000142,ekitschigo,ekitſchigo,1,1,Viel,348,strong_raramuri_profile_signal,2.0204,ekitschipi,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000143,pileliga,Pileliga,1,1,Stiefvater,344,strong_raramuri_profile_signal,2.0055,piseliga,0.875,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000144,pile,Pilé,1,1,Jemand,326,strong_raramuri_profile_signal,1.995,pole,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000145,pitschiguali huccu,pitſchiguali húccu,1,1,Wahrheit,349,strong_raramuri_profile_signal,1.993,pitschaburameke,0.722,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000146,ekipu,ekipu,1,1,Viel,348,strong_raramuri_profile_signal,1.988,ekipi,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000147,tschochco,Tſchochcò,1,1,Knie,326,strong_raramuri_profile_signal,1.9831,tschoche,0.778,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000148,pilepitsu,pilépitsu,1,1,Allein,301,strong_raramuri_profile_signal,1.9774,pilepitso,0.889,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000149,guessa,Gueſſá,1,1,Oft,334,strong_raramuri_profile_signal,1.9696,guossa,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000150,naguesla,Nagueſlá,1,1,Verkündigen,348,strong_raramuri_profile_signal,1.9631,naguella,0.875,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000151,ajaruje,Ajáruje,1,1,Verbittern,347,strong_raramuri_profile_signal,1.9613,ajoruje,0.857,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000152,mahajameke,Mahajámeke,1,1,Furchtſam,319,strong_raramuri_profile_signal,1.9523,mukijameke,0.7,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000153,tschucucu,Tſchucúcu,1,1,Kriechen,327,strong_raramuri_profile_signal,1.95,tschucu,0.778,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000154,cau mukila,Caú mukíla,1,1,Stute,345,strong_raramuri_profile_signal,1.9366,cauguila,0.7,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000155,tichulugui,Tichulugui,1,1,Vogel,349,strong_raramuri_profile_signal,1.9323,tschulugui,0.9,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000156,tschiri,Tſchirí,1,1,Seidenzeug,340,strong_raramuri_profile_signal,1.9238,tschini,0.857,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000157,sakiameke,Sakiameke,1,1,Dürr,313,strong_raramuri_profile_signal,1.9192,samiameke,0.889,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000158,ajo-noco,Ajo-nóco,1,1,Unwillig ſeyn,347,strong_raramuri_profile_signal,1.9187,ajonoco,0.875,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000159,te nalcali,Te nalcáli,1,1,Schwißſtube,340,strong_raramuri_profile_signal,1.9007,tomalcali,0.7,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000160,rolacameke,Rolácameke,1,1,Weiß,350,strong_raramuri_profile_signal,1.8999,rosacameke,0.9,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000161,sauguiba,Sauguiba,1,1,Geneſen,320,strong_raramuri_profile_signal,1.8869,sauguera,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000162,nalsinaja,Nalſinaja,1,1,Müßig,332,strong_raramuri_profile_signal,1.8811,nassinaja,0.889,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000163,tschachaca,Tſchacháca,1,1,Staar,343,strong_raramuri_profile_signal,1.88,tschacheaca,0.909,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000164,tschorike pauguila,Tſchorike Pauguila,1,1,Suppe,345,strong_raramuri_profile_signal,1.8785,tlestataccameke,0.722,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000165,natejui,Natejui,1,1,Bezahlung,309,strong_raramuri_profile_signal,1.8774,nategui,0.857,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000166,ta taralati,Tá tarálati,1,1,Unzahlbar,347,strong_raramuri_profile_signal,1.8683,taralati,0.727,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000167,tatlo,Tatló,1,1,Ehelos,313,strong_raramuri_profile_signal,1.8661,tat lo,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000168,cabu,Cabú,1,1,Wo,351,strong_raramuri_profile_signal,1.8654,cau,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000169,naguossaeki,Naguóſſaeki,1,1,Vierfach,348,strong_raramuri_profile_signal,1.8601,naguossani,0.818,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000170,cajeuopa,Cajéuopa,1,1,Fertig,316,strong_raramuri_profile_signal,1.8529,cajenapa,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000171,teculeke,Teculéke,1,1,Felſen,316,strong_raramuri_profile_signal,1.8411,tetuleke,0.875,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000172,netejameke,Netéjameke,1,1,Erſchaffer,315,strong_raramuri_profile_signal,1.8353,neteijameke,0.909,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000173,telsivuati,Telſivuati,1,1,Bedrängt,308,strong_raramuri_profile_signal,1.822,telsiguati,0.9,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000174,mukisati,Mukiſati,1,1,Vergänglich,347,strong_raramuri_profile_signal,1.8193,mukiiati,0.875,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000175,sriameke,Sriameke,1,1,Satan,338,strong_raramuri_profile_signal,1.8174,samiameke,0.778,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000176,acasi,Acaſí,1,1,Speyen,342,strong_raramuri_profile_signal,1.8085,acatsi,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000177,uilulu,Uilulú,1,1,Nachteule,333,strong_raramuri_profile_signal,1.8078,ululu,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000178,teisiguati,Teiſiguati,1,1,Unglücklich,347,strong_raramuri_profile_signal,1.8051,telsiguati,0.9,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000179,totoli,Totolí,1,1,Huhn,325,strong_raramuri_profile_signal,1.8008,toroli,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000180,hipe hoinela,Hipé hoinéla,1,1,Heut,324,strong_raramuri_profile_signal,1.7986,hipehoinela,0.917,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000181,lesiameke,Leſiameke,1,1,Ermüden,315,strong_raramuri_profile_signal,1.7939,lessiameke,0.9,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000182,jassa,Jaſſá,1,1,Sitzen,341,strong_raramuri_profile_signal,1.7921,jassala,0.714,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000183,kepa,Kepä,1,1,Schneyen,339,strong_raramuri_profile_signal,1.7907,keta,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000184,joje,Jojé,1,1,Gebährerin,319,strong_raramuri_profile_signal,1.7848,jeje,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000185,puguee,puguèe,1,1,Hoffen,325,strong_raramuri_profile_signal,1.7799,pugue,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000186,tschutscheliameke,Tſchutſcheliameke,1,1,Salben,338,strong_raramuri_profile_signal,1.7772,tschitschiameke,0.824,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000187,igue galala huccu,igué galála huccu,1,1,Brav,310,strong_raramuri_profile_signal,1.7622,itschiguajameke,0.706,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000188,teeja,Teejá,1,1,Scherzhaft,338,strong_raramuri_profile_signal,1.7607,teea,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000189,letsi,Letſi,1,1,Ermatten,315,strong_raramuri_profile_signal,1.7585,lessi,0.8,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000190,pabahitschic,Pabahitſchic,1,1,Sumpfig,345,strong_raramuri_profile_signal,1.7553,pabahischie,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000191,saaeameke,Saaéameke,1,1,Sandig,338,strong_raramuri_profile_signal,1.7539,saateameke,0.9,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000192,maitsaca,Maitſáca,1,1,Mond,332,strong_raramuri_profile_signal,1.7538,mataca,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000193,honeameke,honéameke,1,1,Waizen,350,strong_raramuri_profile_signal,1.748,humeameke,0.778,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000194,echutschiruc,echutſchiruc,1,1,Säen,338,strong_raramuri_profile_signal,1.7391,echtschiruc,0.917,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000195,siga,ſiga,1,1,Da,311,strong_raramuri_profile_signal,1.7326,sika,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000196,neligoli,Neligóli,1,1,Wolf,351,strong_raramuri_profile_signal,1.7304,naligoli,0.875,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000197,curschigua,Curſchigua,1,1,Kind,326,strong_raramuri_profile_signal,1.7272,cutschigua,0.9,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000198,tuschiki,Tuſchíki,1,1,Staub,343,strong_raramuri_profile_signal,1.7102,tschini,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000199,seguina,Seguiná,1,1,Packen,334,strong_raramuri_profile_signal,1.7054,segui,0.714,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000200,teposi,Tepóſi,1,1,Maulwurf,331,strong_raramuri_profile_signal,1.705,tepoli,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000201,tepuna,Tepuná,1,1,Zerreiſſen,352,strong_raramuri_profile_signal,1.704,tepula,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000202,guechtichiki,Guechtíchiki,1,1,Fallen,316,strong_raramuri_profile_signal,1.6951,guechtschic,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000203,vassutschi,Vaſſútſchi,1,1,"Bad, Warmbad",305,strong_raramuri_profile_signal,1.6891,vassuritschi,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000204,teca,Tecá,1,1,Begraben,308,strong_raramuri_profile_signal,1.6864,teea,0.75,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000205,sepala,Sepála,1,1,Körper,327,strong_raramuri_profile_signal,1.6863,sapala,0.833,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000206,tlestatacameke,Tleſtatäcameke,1,1,Roth,338,strong_raramuri_profile_signal,1.6782,tlestataccameke,0.933,B_machine_documentary_signal,False,not_assessed
+RHD-RREC-000207,iki,Iki,1,1,Beiſſen,308,strong_raramuri_profile_signal,3.0309,ibe,0.333,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000208,jukiki,Jukíki,1,1,Regen,336,strong_raramuri_profile_signal,2.846,juki,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000209,pitschiguali,Pitſchiguali,1,1,Wahrheit,349,strong_raramuri_profile_signal,2.6804,pitschige,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000210,jelaliki,Jelalíki,1,1,Willen,351,strong_raramuri_profile_signal,2.6122,jomeiki,0.5,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000211,ogueameke,Oguéameke,1,1,Arzney,304,strong_raramuri_profile_signal,2.5524,ocanica,0.444,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000212,tkitsiki,Tkitsiki,1,1,Ekel haben,313,strong_raramuri_profile_signal,2.5504,taiteke,0.5,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000213,pougua guitschia,Pouguá guitſchía,1,1,Schafpelz,338,strong_raramuri_profile_signal,2.5321,pitschaburameke,0.688,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000214,hipeguitaje,Hipéguitaje,1,1,Derswegen,312,strong_raramuri_profile_signal,2.5051,haagameke,0.545,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000215,elaguitaje,Elaguitaje,1,1,Derswegen,312,strong_raramuri_profile_signal,2.4913,echsamela,0.5,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000216,tsiaca,Tſiáca,1,1,Saite,338,strong_raramuri_profile_signal,2.4434,taica,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000217,jolali,Jolali,1,1,That,346,strong_raramuri_profile_signal,2.4142,jola,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000218,patschiki,patſchiki,1,1,Waizen,350,strong_raramuri_profile_signal,2.4134,pataliki,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000219,juma guetsi,Jumá guetſi,1,1,Allenthalben,301,strong_raramuri_profile_signal,2.4061,jachcala,0.545,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000220,naguo pamivaliki,naguó Pamivaliki,1,1,Vier,348,strong_raramuri_profile_signal,2.4052,nachpigualeke,0.688,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000221,guauguerugameke,Guauguérúgameke,1,1,Gebraten,320,strong_raramuri_profile_signal,2.3995,gala ta simega,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000222,ulala,Ulalä,1,1,Eule,316,strong_raramuri_profile_signal,2.3746,ululu,0.6,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000223,ogajameke,Ogájameke,1,1,Heilend,324,strong_raramuri_profile_signal,2.3556,ocanica,0.444,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000224,galala,galála,1,1,Recht,336,strong_raramuri_profile_signal,2.3531,gala,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000225,pouguaca jumarugameke,Pouguáca jumarúgameke,1,1,Widder,350,strong_raramuri_profile_signal,2.3529,,0.0,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000226,mukila,mukíla,1,1,Geiß,320,strong_raramuri_profile_signal,2.3508,muki,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000227,hulirugameke,Hulirúgameke,1,1,Abſchicken,301,strong_raramuri_profile_signal,2.3421,haagameke,0.583,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000228,tsanijameke,Tſaníjameke,1,1,Bejahen,308,strong_raramuri_profile_signal,2.3279,taragameke,0.636,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000229,piltchiguali,Piltchiguali,1,1,Glaube,322,strong_raramuri_profile_signal,2.296,pabahischie,0.583,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000230,reguameke,Reguámeke,1,1,Benennt,308,strong_raramuri_profile_signal,2.2951,rosacameke,0.6,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000231,lotschiki,Lótſchiki,1,1,Löffel,330,strong_raramuri_profile_signal,2.2708,lavaca,0.444,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000232,holirugameke,holirúgameke,1,1,Waizen,350,strong_raramuri_profile_signal,2.2694,haagameke,0.583,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000233,mahaguiki,Mahaguiki,1,1,Furcht,319,strong_raramuri_profile_signal,2.2659,maguali,0.556,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000234,kepunaguitaje,Kepunaguitaje,1,1,Derswegen,312,strong_raramuri_profile_signal,2.2475,kibelaguitaje,0.692,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000235,bucali,Bucali,1,1,Rückwärts,338,strong_raramuri_profile_signal,2.2381,babali,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000236,mapuguitaje,Mapuguitaje,1,1,Dieweil,312,strong_raramuri_profile_signal,2.2246,massisipoa,0.545,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000237,bouguapiki,Bouguapiki,1,1,Fell,316,strong_raramuri_profile_signal,2.224,bacaguaca,0.5,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000238,etseguitaje,Etſeguitaje,1,1,Derswegen,312,strong_raramuri_profile_signal,2.2198,echsamela,0.545,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000239,suguisimi,Suguíſimi,1,1,Lernen,330,strong_raramuri_profile_signal,2.2176,sauguiki,0.556,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000240,tessiguajameke,Teſſiguájameke,1,1,Schwermüthig,340,strong_raramuri_profile_signal,2.2085,ta guetsi joma,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000241,cusi guelu,Cuſi guelü,1,1,Stange,343,strong_raramuri_profile_signal,2.2047,cachcanali,0.5,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000242,napoami,Napoámi,1,1,Zuſammenkunft,352,strong_raramuri_profile_signal,2.1877,najasi,0.571,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000243,mamatsiki,Mamatsiki,1,1,Beten,309,strong_raramuri_profile_signal,2.1864,matschi,0.556,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000244,jumamatsigameke,Jumámatsigameke,1,1,Allwiſſend,301,strong_raramuri_profile_signal,2.1847,jumajumajameke,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000245,jauguirameke,Jauguirameke,1,1,Tänzer,346,strong_raramuri_profile_signal,2.1827,jolajameka,0.583,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000246,kitsaoaje,Kitſaóaje,1,1,Siebenter,341,strong_raramuri_profile_signal,2.1762,kitsaoco,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000247,tschichpipoa,Tſchichpipoa,1,1,Feuer ſchlagen,317,strong_raramuri_profile_signal,2.1649,ta guetsi joma,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000248,cugue simiba,Cugué ſimiba,1,1,Nacht,333,strong_raramuri_profile_signal,2.1602,cachcanali,0.583,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000249,kitaje,kitaje,1,1,Wegen,350,strong_raramuri_profile_signal,2.1569,kinabe,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000250,ipagatugameke,Ipagatúgameke,1,1,Getauft,321,strong_raramuri_profile_signal,2.1534,ibe hoinela,0.615,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000251,ekila,ekila,1,1,Viel,348,strong_raramuri_profile_signal,2.1494,eki,0.6,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000252,pichicoliki,Pichicoliki,1,1,Topf,346,strong_raramuri_profile_signal,2.1414,pabahischie,0.545,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000253,lomiki,Lomiki,1,1,Weich ſeyn,350,strong_raramuri_profile_signal,2.1336,logui,0.5,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000254,gassirugameke,Gaſſirúgameke,1,1,Scherben,338,strong_raramuri_profile_signal,2.1301,gala ta simega,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000255,guaconana,Guacónana,1,1,Rechts,336,strong_raramuri_profile_signal,2.1222,guakina,0.556,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000256,ta schuguiameke,Tá ſchuguiameke,1,1,Unendlich,347,strong_raramuri_profile_signal,2.1014,ta guetsi joma,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000257,pile cusiki,Pilé cusíki,1,1,Elle,314,strong_raramuri_profile_signal,2.0959,pabahischie,0.545,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000258,ta sapeameke,Tá ſapéameke,1,1,Mager,331,strong_raramuri_profile_signal,2.0719,taragameke,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000259,oca pamivali,ocá pamivali,1,1,Jahr,325,strong_raramuri_profile_signal,2.0676,ossanaguessa,0.583,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000260,caio,caió,1,1,Bringen,310,strong_raramuri_profile_signal,2.055,caita,0.6,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000261,ta mukilatiameke,tá mukílatiameke,1,1,Sterblich,344,strong_raramuri_profile_signal,2.0494,ta guetsi joma,0.688,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000262,matschirujegameke,Matſchirujegámeke,1,1,Lehrling,329,strong_raramuri_profile_signal,2.0486,,0.0,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000263,lakiki,lakiki,1,1,Waizen,350,strong_raramuri_profile_signal,2.042,laca,0.333,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000264,bucuameke,Bucúameke,1,1,Viehiſch,348,strong_raramuri_profile_signal,2.037,bajeameke,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000265,galatsaneliameke,Galatſaneliameke,1,1,Geſegnet,320,strong_raramuri_profile_signal,2.0353,gala ta simega,0.688,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000266,gabassirugameke,gabaſſirúgameke,1,1,Kochen,326,strong_raramuri_profile_signal,2.0301,gala ta simega,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000267,jolaboa,Joláboa,1,1,Müſſen,332,strong_raramuri_profile_signal,1.9875,jola,0.571,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000268,khuta ta simega,Khuta ta ſimega,1,1,Klein,326,strong_raramuri_profile_signal,1.9772,kachkagameke,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000269,ta mahajameke,Tá mahajámeke,1,1,Unerſchrocken,347,strong_raramuri_profile_signal,1.9751,ta guetsi joma,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000270,tassuviki,Taſſuviki,1,1,Stricklein,344,strong_raramuri_profile_signal,1.9706,taliki,0.556,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000271,matschirujelila,Matſchirújelilá,1,1,Unterricht,347,strong_raramuri_profile_signal,1.9682,melirugameke,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000272,hassagua,Haſſaguá,1,1,"Aufſtehen, vom Tode",304,strong_raramuri_profile_signal,1.9613,halaguala,0.556,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000273,igue mugujola,igue mugújola,1,1,Dürfen,313,strong_raramuri_profile_signal,1.9509,ibe hoinela,0.615,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000274,muki cuneameke,Muki cunéameke,1,1,Eheweib,313,strong_raramuri_profile_signal,1.9498,matschisimi,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000275,cuu,Cuú,1,1,Roß,338,strong_raramuri_profile_signal,1.921,cau,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000276,oguesameke,Oguésameke,1,1,Hülfsmittel,325,strong_raramuri_profile_signal,1.9116,ocanica,0.5,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000277,ta bassigameke,Tá baſſigameke,1,1,Unzeitig,347,strong_raramuri_profile_signal,1.9058,ta guetsi joma,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000278,baica pami,baica pami,1,1,Jahr,325,strong_raramuri_profile_signal,1.9017,baicataje,0.6,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000279,guelsa,guelſa,1,1,Viel,348,strong_raramuri_profile_signal,1.901,guala,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000280,nacoja,Nacója,1,1,Streiten,344,strong_raramuri_profile_signal,1.8953,natoia,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000281,batla ne nagua,Batlá né naguá,1,1,Vorkommen,349,strong_raramuri_profile_signal,1.873,bacalatschi,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000282,vuollaguaca s,Vuóllaguáca ſ,1,1,Ziegelerde,352,strong_raramuri_profile_signal,1.8676,vuossaguaca,0.692,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000283,hallaguaruje,hallaguáruje,1,1,Erwecken,315,strong_raramuri_profile_signal,1.8633,haagameke,0.583,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000284,tacucu,Tacúcu,1,1,Palmbaum,334,strong_raramuri_profile_signal,1.8613,tacupe,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000285,vakisimi,vakiſimi,1,1,Lernen,330,strong_raramuri_profile_signal,1.8575,vakitsi,0.625,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000286,ibe motschiameke,Ibe motſchiameke,1,1,Eingebohrner,313,strong_raramuri_profile_signal,1.8572,itschiguajameke,0.688,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000287,etleeguitaje,etléeguitaje,1,1,Wegen,350,strong_raramuri_profile_signal,1.8554,echsamela,0.583,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000288,coanale,coánale,1,1,Wollen,351,strong_raramuri_profile_signal,1.8515,cole,0.571,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000289,baica maitsaca,Baica maitſáca,1,1,Vierteljährig,349,strong_raramuri_profile_signal,1.8486,bacalatschi,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000290,bea mu naguaca,bea mu naguáca,1,1,Zeitlich,352,strong_raramuri_profile_signal,1.8457,bacalatschi,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000291,tschapeke,Tſchapéke,1,1,Kienholz zum Brennen,326,strong_raramuri_profile_signal,1.8451,techteke,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000292,juma tscha,jumá tſcha,1,1,Krätze,327,strong_raramuri_profile_signal,1.8358,jachcala,0.5,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000293,cotschine simi,Cotſchiné ſimi,1,1,Einſchlafen,314,strong_raramuri_profile_signal,1.833,calitschiki,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000294,rui,ruí,1,1,Sagen,338,strong_raramuri_profile_signal,1.8283,rogui,0.6,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000295,repagatigameke,Repágatigameke,1,1,Oberer,334,strong_raramuri_profile_signal,1.8275,rachtabatsaboa,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000296,ta neoca,Tá néóca,1,1,Redlos,336,strong_raramuri_profile_signal,1.825,tabelaca,0.5,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000297,pauguiman ki,Pauguiman ki,1,1,See,340,strong_raramuri_profile_signal,1.8132,pabahischie,0.583,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000298,malala,Malála,1,1,Tochter,346,strong_raramuri_profile_signal,1.8104,mataca,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000299,ketegue,Ketegué,1,1,Beſchauen,308,strong_raramuri_profile_signal,1.8021,keke,0.429,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000300,teculu,Teculú,1,1,Berauſchen,308,strong_raramuri_profile_signal,1.7992,tepula,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000301,tschichi pilaca,Tſchichi piláca,1,1,Stahl,343,strong_raramuri_profile_signal,1.7971,ta guetsi joma,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000302,jolago,jolágo,1,1,Gehen,320,strong_raramuri_profile_signal,1.794,jola,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000303,cassini,Caſſini,1,1,Brechen,310,strong_raramuri_profile_signal,1.7892,caisiniki,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000304,eratschic guiki,eratſchic guiki,1,1,Vor,349,strong_raramuri_profile_signal,1.7804,etschaguoameke,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000305,honaca,Honáca,1,1,Salz,338,strong_raramuri_profile_signal,1.78,hoca,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000306,mapatsaca,Mapatſaca,1,1,Kamiſol,326,strong_raramuri_profile_signal,1.7775,mataca,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000307,rachpe sapaca,rachpé ſapáca,1,1,Biſchen,309,strong_raramuri_profile_signal,1.77,rachtabatsaboa,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000308,tele uliameke,telé ulíameke,1,1,Stein,344,strong_raramuri_profile_signal,1.7697,teculuameke,0.692,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000309,tehoje muki tschapirujelila,Tehoje muki tſchapirujelilá,1,1,Ehe,313,strong_raramuri_profile_signal,1.7667,,0.0,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000310,ta ne pigue,Tá né pigué,1,1,Leugnen,330,strong_raramuri_profile_signal,1.7634,t-fligua,0.545,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000311,sineyi pamivaliki,ſineyi pamivaliki,1,1,Jahr,325,strong_raramuri_profile_signal,1.7609,,0.0,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000312,macoeke nulalila,Macoéke nulálila,1,1,Gebot,320,strong_raramuri_profile_signal,1.7601,mukiiatiameke,0.688,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000313,guenomi tschiperameke,Guenomi tſchipérameke,1,1,Blech,309,strong_raramuri_profile_signal,1.7594,,0.0,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000314,meke,Méke,1,1,Aloe,301,strong_raramuri_profile_signal,1.7594,mea,0.5,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000315,ropala,Ropála,1,1,Schooß,339,strong_raramuri_profile_signal,1.7584,rohaca,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000316,matichirujegameke,Matichirujégameke,1,1,Schüler,340,strong_raramuri_profile_signal,1.7558,,0.0,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000317,tamatischigameke,Támatiſchigameke,1,1,Blind,309,strong_raramuri_profile_signal,1.7546,ta guetsi joma,0.688,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000318,ta leva,tá léva,1,1,Ungleich,347,strong_raramuri_profile_signal,1.7518,tajena,0.571,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000319,ta mukisati,Tá mukiſati,1,1,Unſterblich,347,strong_raramuri_profile_signal,1.7505,t-fligua,0.545,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000320,ossanaguessa macoek,Oſſanaguéſſa macóek,1,1,Acht,301,strong_raramuri_profile_signal,1.7476,,0.0,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000321,macoek nulalila,Macoëk nulálila,1,1,Zehn,352,strong_raramuri_profile_signal,1.7469,melirugameke,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000322,mu jolala,mú jolála,1,1,Für,319,strong_raramuri_profile_signal,1.7406,mujaba,0.556,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000323,coseke,coſéke,1,1,Lang,328,strong_raramuri_profile_signal,1.7397,cosiki,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000324,tschichpiopa,Tſchichpiopa,1,1,Feuer,317,strong_raramuri_profile_signal,1.7354,ta guetsi joma,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000325,massibula,Maſſibula,1,1,Band,306,strong_raramuri_profile_signal,1.7291,massisipoa,0.6,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000326,uame,Uáme,1,1,Spielplatz,343,strong_raramuri_profile_signal,1.7213,ule,0.5,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000327,hamu naliguetsa,hámú naliguetſá,1,1,Beſitzen,308,strong_raramuri_profile_signal,1.7208,haleseatschic,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000328,jolatsamu,jolátſamú,1,1,Fragen,318,strong_raramuri_profile_signal,1.7206,jachcala,0.444,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000329,maratsi,Marátſi,1,1,Zwillinge,353,strong_raramuri_profile_signal,1.7129,maga,0.429,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000330,cambalatschi mukila,Cambalátſchi mukíla,1,1,Ziege,352,strong_raramuri_profile_signal,1.7128,,0.0,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000331,guelube jola,Guelube jolá,1,1,Vergrößern,347,strong_raramuri_profile_signal,1.7111,gala ta simega,0.643,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000332,ossa eki,Oſſa eki,1,1,Doppelt,312,strong_raramuri_profile_signal,1.7043,ossanica,0.5,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000333,elataje,elátaje,1,1,Wegen,350,strong_raramuri_profile_signal,1.704,elaca,0.571,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000334,amulipi ne simi,Amulípi nè ſimí,1,1,Hinzugehen,325,strong_raramuri_profile_signal,1.6941,atschilelila,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000335,pile nanamuti,pilé nanamuti,1,1,Etwas,315,strong_raramuri_profile_signal,1.6917,pabahischie,0.615,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000336,ocassa,Ocáſſa,1,1,Zweymal,353,strong_raramuri_profile_signal,1.6879,ossa,0.667,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000337,ekipu pamipa,ekipu pamipa,1,1,Viel,348,strong_raramuri_profile_signal,1.6794,echsamela,0.583,C_machine_profile_signal,False,not_assessed
+RHD-RREC-000338,maje,Majé | Májé,6,6,"Denken | Einbilden, ſich | Gedenken | Meinen | Urtheilen | Vermeinen",312 | 313 | 320 | 331 | 347 | 348,possible_raramuri_profile_signal,1.4972,maga,0.5,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000339,tseliguei,Tſeliguei | Tſeliguéi,3,3,Nachſehen | Vergeben | Verzeihen,333 | 347 | 348,possible_raramuri_profile_signal,1.5873,tselixugi,0.778,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000340,pagota,Pagota | Pagóta,3,3,Abwaſchen | Taufen | Waſchen,301 | 346 | 350,possible_raramuri_profile_signal,1.5694,paa,0.5,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000341,samiruje,Samíruje,3,3,Befruchten | Begießen | Benetzen,308,possible_raramuri_profile_signal,1.4825,satuje,0.625,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000342,nakoja,Nakója,3,3,Balgen | Kriegen | Raufen,306 | 328 | 336,possible_raramuri_profile_signal,1.4721,natoia,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000343,hia,Hiá | hiá,3,3,Bald | Friſch | Geſchwind,306 | 319 | 320,possible_raramuri_profile_signal,1.4536,haa,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000344,jolarupa,Jolárupa | jolárupa,3,3,Geſchehen | Machen | Thun,320 | 330 | 346,possible_raramuri_profile_signal,1.4352,jumagua,0.5,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000345,ta elajo,Tá elájo | ta elájo,2,2,Ungern | Willen,347 | 351,possible_raramuri_profile_signal,1.663,tabelaca,0.625,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000346,ta poviruk,Tá povirúk | Tá póviruk,2,2,Ungebahnt | Unwegſam,347,possible_raramuri_profile_signal,1.6615,t-fligua,0.5,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000347,tapani,Tapaní,2,2,Verleihen | Verwunden,348,possible_raramuri_profile_signal,1.6572,tabano,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000348,touke,Tóuke,2,2,Vergraben | Verſcharrt,347 | 348,possible_raramuri_profile_signal,1.5769,toruke,0.833,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000349,tschapirugelila,Tſchapirügelilä | Tſchapirügélila,2,2,Heurath | Hochzeit,324 | 325,possible_raramuri_profile_signal,1.5597,ta guetsi joma,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000350,khutegaca,Khutegáca,2,2,Balke | Latte,306 | 328,possible_raramuri_profile_signal,1.5387,khutagala,0.778,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000351,cabuna,Cabúna,2,2,Wohin | Wozu,351,possible_raramuri_profile_signal,1.4964,cajena,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000352,mela,Mela | Méla,2,2,Müſſen | Sollen,332 | 342,possible_raramuri_profile_signal,1.4928,mea,0.75,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000353,mashaca,Masháca,2,2,Feder | Schwungfeder,316 | 340,possible_raramuri_profile_signal,1.4602,mataca,0.714,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000354,matschi ne simi,Matſchi nè ſimí,2,2,Herausgehen | Hinausgehen,324,possible_raramuri_profile_signal,1.4482,melirugameke,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000355,kemaca,Kemáca,2,2,Mantel | Teppich,331 | 346,possible_raramuri_profile_signal,1.4208,kiaca,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000356,hoschila,Hoſchila | Hoſchíla,2,2,Bein | Gebein,308 | 319,possible_raramuri_profile_signal,1.4034,hotschila,0.889,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000357,moba,Móba,2,2,Oben | Ueber,334 | 346,possible_raramuri_profile_signal,1.391,mola,0.75,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000358,macoek pami,macoék pami | macoëk pami,2,2,Jahr | Zehn,325 | 352,possible_raramuri_profile_signal,1.3787,massisipoa,0.545,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000359,nututuje,Nutútuje,2,2,Ernähren | Nähren,315 | 333,possible_raramuri_profile_signal,1.3596,natutuje,0.875,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000360,ne batani,ne batáni | né batáni,2,2,Gegenwart | Ich,320 | 326,possible_raramuri_profile_signal,1.3213,nachcala,0.444,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000361,cassinale,Caſſinale | caſſinale,2,2,Brechen | Zerbrechen,310 | 352,possible_raramuri_profile_signal,1.3024,caisinale,0.889,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000362,cosek,Coſék | coſék,2,2,Lang | Vorlängst,328 | 349,possible_raramuri_profile_signal,1.2951,cole,0.6,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000363,eksipi,Ekſipi,1,1,Wenig,350,possible_raramuri_profile_signal,1.6737,ekipi,0.833,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000364,hoje simi,Hoje Simi,1,1,Schreiten,340,possible_raramuri_profile_signal,1.6726,haagameke,0.444,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000365,ekipu mu taraca,ekipu mú taraca,1,1,Vierzehn,349,possible_raramuri_profile_signal,1.6723,etschaguoameke,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000366,hecatameke,hecátameke,1,1,Da,311,possible_raramuri_profile_signal,1.672,haagameke,0.7,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000367,teleti,Teléti,1,1,Kalb,326,possible_raramuri_profile_signal,1.6719,telesi,0.833,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000368,jumaguetsi gaiungake,Jumáguetſi gaiungake,1,1,Allgegenwärtig,301,possible_raramuri_profile_signal,1.6677,juma guetsi gatigameke,0.773,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000369,teetsa,Teétſa,1,1,Poſſen treiben,336,possible_raramuri_profile_signal,1.6629,teea,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000370,cocoruse,Cocórúſe,1,1,Schaden,338,possible_raramuri_profile_signal,1.6616,cocoruje,0.875,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000371,natsumela,Natſumela,1,1,Vertheilen,348,possible_raramuri_profile_signal,1.6576,natlum-la,0.778,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000372,mujaianeke,Mujáianeke,1,1,Faulenzen,316,possible_raramuri_profile_signal,1.6556,mukijameke,0.6,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000373,peisiki,Peisíki,1,1,Fegen,316,possible_raramuri_profile_signal,1.6556,pusiki,0.714,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000374,kitsaossa macoek,Kitſaóſſa macóék,1,1,Siebenzig,341,possible_raramuri_profile_signal,1.6549,kibelaguitaje,0.688,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000375,ulama,Uläma,1,1,Spielplatz,343,possible_raramuri_profile_signal,1.6518,uipaca,0.5,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000376,ta jekitsi huccu,ta jekitſi hüccu,1,1,Unmöglich,347,possible_raramuri_profile_signal,1.6488,ta guetsi joma,0.688,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000377,tschotschonaba,Tſchotſchonába,1,1,Maulſchelle,331,possible_raramuri_profile_signal,1.6451,tschotschonala,0.929,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000378,ami,Amí,1,1,Verlieren,348,possible_raramuri_profile_signal,1.6417,ali,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000379,metschiruje,Metſchíruje,1,1,Berichten,308,possible_raramuri_profile_signal,1.6405,massisipoa,0.545,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000380,hokiboa,Hokíboa,1,1,Müſſen,332,possible_raramuri_profile_signal,1.6392,hiaga,0.429,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000381,tsele oli,Tſele óli,1,1,Wachtel,349,possible_raramuri_profile_signal,1.6384,telegona,0.556,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000382,mukurejameke,Mukurejameke,1,1,Sterben,344,possible_raramuri_profile_signal,1.6382,mukijameke,0.75,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000383,rapatschi ne cocola,rapatſchi né cocolá,1,1,Bauchgrimmen haben,307,possible_raramuri_profile_signal,1.6334,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000384,rapa,Rapá,1,1,Mißbilligen,332,possible_raramuri_profile_signal,1.6279,rana,0.75,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000385,negotlela,negótlela,1,1,Ich,326,possible_raramuri_profile_signal,1.6253,nagotse,0.556,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000386,rachtagameke,Rachtágameke,1,1,Warm,350,possible_raramuri_profile_signal,1.6243,racheliki,0.583,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000387,talo tajenalago,taló tajenálago,1,1,Ehe als,313,possible_raramuri_profile_signal,1.6204,ta guetsi joma,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000388,segui simasi,Seguí ſimáſi,1,1,Packen,334,possible_raramuri_profile_signal,1.6196,saateameke,0.583,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000389,tele simi,Tele ſimí,1,1,Hinabſteigen,324,possible_raramuri_profile_signal,1.6182,telesi,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000390,baica macoek,Baicá macoëk,1,1,Dreyſſig,313,possible_raramuri_profile_signal,1.6181,bacaguaca,0.583,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000391,schiogameke,Schiógameke,1,1,Blau,309,possible_raramuri_profile_signal,1.6181,schiojameke,0.909,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000392,narigue,Nárigué,1,1,Spalten,342,possible_raramuri_profile_signal,1.6178,naligue,0.857,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000393,tehoje muki tschapirujehia,Tehöje muki tſchapirujehia,1,1,Heurathen,324,possible_raramuri_profile_signal,1.6098,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000394,tepa ne simi,Tepa nè ſimí,1,1,Hinaufſteigen,324,possible_raramuri_profile_signal,1.6072,ta guetsi joma,0.643,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000395,hataca,hatáca,1,1,Armbruſt,304,possible_raramuri_profile_signal,1.6053,hatsca,0.833,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000396,bulla,Bullá,1,1,Wecken,350,possible_raramuri_profile_signal,1.6046,balla,0.8,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000397,cambelatschi,Cambelátſchi,1,1,Geiß,320,possible_raramuri_profile_signal,1.6046,cambolatschi,0.917,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000398,tecavolatschic,Tecavolátſchic,1,1,Stein,344,possible_raramuri_profile_signal,1.6038,ta guetsi joma,0.643,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000399,tougua pitichaburameke,Touguá pitichabúrameke,1,1,Schöps,340,possible_raramuri_profile_signal,1.6005,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000400,ta nokisati,Tá nokiſati,1,1,Unbeweglich,347,possible_raramuri_profile_signal,1.5996,t-fligua,0.545,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000401,guaque,Guaqué,1,1,Adler,301,possible_raramuri_profile_signal,1.5982,guagua,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000402,bonaje,Bonaje,1,1,Ich,326,possible_raramuri_profile_signal,1.5971,bonoje,0.833,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000403,napearu,Napeáru,1,1,Zuſammenfallen,352,possible_raramuri_profile_signal,1.5967,napa,0.571,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000404,retschijega,retſchijega,1,1,Ich,326,possible_raramuri_profile_signal,1.5962,racheliki,0.545,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000405,neniameke,Neniameke,1,1,Bändigen,306,possible_raramuri_profile_signal,1.592,nesseameke,0.7,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000406,lihuala,Lihuála,1,1,Zuſammennähen,352,possible_raramuri_profile_signal,1.5911,lala,0.571,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000407,muni tschiperameke,Muni tſchiperámeke,1,1,Hülſenfrucht,325,possible_raramuri_profile_signal,1.5754,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000408,ca to,Ca tò,1,1,Hertragen,324,possible_raramuri_profile_signal,1.5738,caita,0.6,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000409,macoek amoba kitsaoco,Macóék ámoba kitſaóco,1,1,Siebenzehn,341,possible_raramuri_profile_signal,1.5725,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000410,macoek amoba maliki,Macoék ámoba malíki,1,1,Fünfzehn,319,possible_raramuri_profile_signal,1.5689,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000411,ibe jassameke,Ibe jaſſameke,1,1,Eingebohrner,313,possible_raramuri_profile_signal,1.568,ibe hoinela,0.615,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000412,kochkagameke,Kochkagámeke,1,1,Köſtlich,327,possible_raramuri_profile_signal,1.5674,kachkagameke,0.917,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000413,simi-go,simi-gó,1,1,Alſo,302,possible_raramuri_profile_signal,1.5631,simigo,0.857,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000414,homela,Hómela,1,1,Graben,322,possible_raramuri_profile_signal,1.56,hipela,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000415,tane matschi,Tanè matſchi,1,1,Hinaus,324,possible_raramuri_profile_signal,1.5562,ta guetsi joma,0.643,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000416,pusaniaje,Puſaniaje,1,1,Sechſter,340,possible_raramuri_profile_signal,1.5524,puaniki,0.556,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000417,guisma,Guíſma,1,1,Schürze,340,possible_raramuri_profile_signal,1.5477,guilma,0.833,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000418,nachkibu,Nachkibú,1,1,Stoßen,344,possible_raramuri_profile_signal,1.5429,nachkibi,0.875,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000419,becu ne nagua,becú ne naguá,1,1,Zurück,352,possible_raramuri_profile_signal,1.5371,bacalatschi,0.615,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000420,aatschi mu regueke,Aatſchi mü reguéke,1,1,Heiſſen,324,possible_raramuri_profile_signal,1.5355,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000421,ekisa,ékiſá,1,1,Oft,334,possible_raramuri_profile_signal,1.5338,eki,0.6,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000422,muni cavolameke,Muni cavolámeke,1,1,Hülſenfrucht,325,possible_raramuri_profile_signal,1.5321,melirugameke,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000423,casso,Caſſó,1,1,Schwamm,340,possible_raramuri_profile_signal,1.5312,caita,0.4,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000424,guarascha,Guaraſcha,1,1,Sohle,341,possible_raramuri_profile_signal,1.5304,guaratscha,0.9,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000425,taa,Taá,1,1,Aufſpielen,304,possible_raramuri_profile_signal,1.5304,tala,0.75,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000426,massisi,Maſſiſi,1,1,Hobeln,325,possible_raramuri_profile_signal,1.5238,massisipoa,0.7,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000427,ossa macoek pami,Oſſá macoék pami,1,1,Jahr,325,possible_raramuri_profile_signal,1.5225,ossanaguoameke,0.688,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000428,mali pami,mali pami,1,1,Jahr,325,possible_raramuri_profile_signal,1.521,maguali,0.444,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000429,igosela,igóſela,1,1,Dieſer,312,possible_raramuri_profile_signal,1.5108,igossela,0.875,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000430,naguo tlele,Naguó tlele,1,1,Vier,348,possible_raramuri_profile_signal,1.5108,nachcala,0.545,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000431,guelube ne jola,Guelubé né jolá,1,1,Erweitern,315,possible_raramuri_profile_signal,1.5102,gala ta simega,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000432,napaviruchi,Napaviruchi,1,1,Anhäufen,302,possible_raramuri_profile_signal,1.5044,nachcala,0.545,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000433,tecubirameke,tecubírameke,1,1,Stein,344,possible_raramuri_profile_signal,1.5011,teculuameke,0.75,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000434,batla ne hula,Batlá né hulá,1,1,Vorſchicken,349,possible_raramuri_profile_signal,1.5008,bacalatschi,0.615,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000435,potichirue,Potichirue,1,1,Voll,349,possible_raramuri_profile_signal,1.4945,potschiruc,0.8,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000436,ta neoka,Tá neóka,1,1,Sprachlos,343,possible_raramuri_profile_signal,1.4925,taiteke,0.5,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000437,batla ne simi,Batlá né ſimi,1,1,Vorangehen,349,possible_raramuri_profile_signal,1.4914,bacalatschi,0.615,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000438,teuilitschic,Teuílitſchic,1,1,Stein,344,possible_raramuri_profile_signal,1.4914,ta guetsi joma,0.643,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000439,neoka,Neóka,1,1,Sprechen,343,possible_raramuri_profile_signal,1.4864,neoca,0.8,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000440,macoeessa amoba naguoco,Macoëéſſa ámoba naguóco,1,1,Vierzehnmal,349,possible_raramuri_profile_signal,1.4853,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000441,tehoje tschapi,Tehöje tſchapi,1,1,Heurathen,324,possible_raramuri_profile_signal,1.482,ta guetsi joma,0.643,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000442,nassita,Naſſita,1,1,Zange,351,possible_raramuri_profile_signal,1.4768,nassila,0.857,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000443,maniameke,Maniameke,1,1,Flüßig,318,possible_raramuri_profile_signal,1.4758,mukijameke,0.7,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000444,pitichaburameke,Pitichabürameke,1,1,Verſchneiden,348,possible_raramuri_profile_signal,1.4741,pitschaburameke,0.933,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000445,hotuke,Hötuke,1,1,Hohl,325,possible_raramuri_profile_signal,1.4707,hatuca,0.5,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000446,temaseali,Temaſeali,1,1,Backſtube,306,possible_raramuri_profile_signal,1.4686,tomalcali,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000447,vacaschi,Vácaschi,1,1,Kuh,328,possible_raramuri_profile_signal,1.4683,vacalchi,0.875,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000448,sinepi,Sinépi,1,1,Einkehren,314,possible_raramuri_profile_signal,1.4611,sinevi,0.833,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000449,ke tschigo,Ke tſchigo,1,1,Weder,350,possible_raramuri_profile_signal,1.4579,kachela,0.5,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000450,juan ne regueke,Juán nè reguéke,1,1,Heiſſen,324,possible_raramuri_profile_signal,1.453,jumajumajameke,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000451,kupaca,Kupáca,1,1,Pinſel,336,possible_raramuri_profile_signal,1.4402,kiaca,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000452,mara,Mára,1,1,Eſel,315,possible_raramuri_profile_signal,1.4337,maga,0.75,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000453,hu jola colanego,Hü jolá colanego,1,1,Ja,325,possible_raramuri_profile_signal,1.4325,haleseatschic,0.688,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000454,corilucu,Corilúcu,1,1,Umarmen,346,possible_raramuri_profile_signal,1.4321,corilicu,0.875,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000455,ossa macoek,Oſſa macöek,1,1,Zwanzig,353,possible_raramuri_profile_signal,1.4286,ossanaguessa,0.583,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000456,otscherameke,Otſchérameke,1,1,Greis,322,possible_raramuri_profile_signal,1.4272,otisherameke,0.833,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000457,echtsamela,echtſámela,1,1,Säen,338,possible_raramuri_profile_signal,1.4251,echsamela,0.9,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000458,tessi uati,Teſſi uáti,1,1,Schwermüthig,340,possible_raramuri_profile_signal,1.4247,telsiguati,0.8,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000459,matschina,Matſchina,1,1,Hinaus jagen,324,possible_raramuri_profile_signal,1.4181,matschi,0.778,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000460,tschopeke,Tſchopéke,1,1,Fakel,316,possible_raramuri_profile_signal,1.4114,techteke,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000461,teteniki,Teteniki,1,1,Zinnen,352,possible_raramuri_profile_signal,1.4094,temaliki,0.625,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000462,bassuba,baſſúba,1,1,Sieden,341,possible_raramuri_profile_signal,1.4054,balsiba,0.714,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000463,hucu,Húcu,1,1,Seyn,341,possible_raramuri_profile_signal,1.4053,hoca,0.5,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000464,pusa,puſá,1,1,Erwecken,315,possible_raramuri_profile_signal,1.4052,pua,0.75,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000465,lupala,Lupála,1,1,Feder,316,possible_raramuri_profile_signal,1.3987,lala,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000466,mane eki naligue,mane eki naligue,1,1,Viel,348,possible_raramuri_profile_signal,1.3969,mukiiatiameke,0.688,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000467,netschi jusega,netſchi juſega,1,1,Ich,326,possible_raramuri_profile_signal,1.3895,nachpigualeke,0.643,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000468,navossa macoek,Navoſſa macóek,1,1,Vierzig,349,possible_raramuri_profile_signal,1.3892,nachpigualeke,0.643,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000469,neniruje,Neniruje,1,1,Bändigen,306,possible_raramuri_profile_signal,1.3888,noliruje,0.75,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000470,ne ga,né gá,1,1,Können,327,possible_raramuri_profile_signal,1.3866,neoca,0.6,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000471,boraneameke,Boranéameke,1,1,Aufbinden,304,possible_raramuri_profile_signal,1.3852,bajeameke,0.727,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000472,paugud,Paugud,1,1,Hinüber,324,possible_raramuri_profile_signal,1.385,pauguo,0.833,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000473,ganileraje,Ganileráje,1,1,Seligmachen,341,possible_raramuri_profile_signal,1.3847,ganileruje,0.9,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000474,hulieri reguala,Hulieri reguala,1,1,Zunamen,352,possible_raramuri_profile_signal,1.3828,haleseatschic,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000475,nerejameke,Nerejámeke,1,1,Schöpfer,339,possible_raramuri_profile_signal,1.3821,neteijameke,0.818,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000476,macoek amoba baica,Macoëk amoba baicá,1,1,Dreyzehn,313,possible_raramuri_profile_signal,1.3769,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000477,tokuke,Tókuke,1,1,Begraben,308,possible_raramuri_profile_signal,1.3766,toruke,0.833,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000478,tepane,Tepané,1,1,Steigen,344,possible_raramuri_profile_signal,1.3729,tepabe,0.833,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000479,huli ne jola,Huli né jolá,1,1,Wiederholen,351,possible_raramuri_profile_signal,1.3716,haagameke,0.583,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000480,kueputiela,kueputiela,1,1,Zugehören,352,possible_raramuri_profile_signal,1.3695,kueputsela,0.9,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000481,rhopala,Rhopala,1,1,Bauch,307,possible_raramuri_profile_signal,1.3662,r-guala,0.571,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000482,bealitso,bealítſo,1,1,Nur,334,possible_raramuri_profile_signal,1.3628,baissa,0.5,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000483,negotle,negótle,1,1,Ich,326,possible_raramuri_profile_signal,1.3628,nagotse,0.714,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000484,hamu buketsa,hámú buketſá,1,1,Beſitzen,308,possible_raramuri_profile_signal,1.3604,haagameke,0.583,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000485,macoek macoessa pami,Macöék macöéſſa pami,1,1,Jahrhundert,326,possible_raramuri_profile_signal,1.3587,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000486,te eja,te ejá,1,1,Scherzen,338,possible_raramuri_profile_signal,1.3578,teea,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000487,guessabe,gueſſabé,1,1,Oft,334,possible_raramuri_profile_signal,1.3573,guelube,0.625,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000488,rachpe ne ganile,rachpé ne ganíle,1,1,Geneſen,320,possible_raramuri_profile_signal,1.3572,rachtabatsaboa,0.688,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000489,nalsinae,Nalſinäe,1,1,Müßig,332,possible_raramuri_profile_signal,1.3562,nassinae,0.875,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000490,siminale,ſiminale,1,1,Wollen,351,possible_raramuri_profile_signal,1.3519,simibe,0.625,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000491,mutscna,Mutſcná,1,1,Schweigen,340,possible_raramuri_profile_signal,1.3486,mutscha,0.857,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000492,pavole,Pavolé,1,1,Melken,331,possible_raramuri_profile_signal,1.3478,patolle,0.714,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000493,nehe bonoje naligue,nehe bonoje naligué,1,1,Eigen,313,possible_raramuri_profile_signal,1.3475,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000494,nosa,Noſá,1,1,Berühren,308,possible_raramuri_profile_signal,1.3473,noisa,0.8,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000495,pulanissa,Pulaníſſa,1,1,Sechsmal,340,possible_raramuri_profile_signal,1.3437,pulauilla,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000496,nachitutuja,Nachitutuja,1,1,Bezahlen,309,possible_raramuri_profile_signal,1.3423,nachtetuje,0.727,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000497,taslo nakirue,Taſló nakirúe,1,1,Unverdorrt,347,possible_raramuri_profile_signal,1.3413,ta guetsi joma,0.643,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000498,mu i tschapi,mu í tſchapi,1,1,Heurathen,324,possible_raramuri_profile_signal,1.34,massisipoa,0.583,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000499,nemegotle,nemegótle,1,1,Ich,326,possible_raramuri_profile_signal,1.333,nagotse,0.556,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000500,tsani- oder tsaini-joliki,Tſani- oder Tſaini-joliki,1,1,Sünde,345,possible_raramuri_profile_signal,1.3319,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000501,lesi,Leſi,1,1,Ermüden,315,possible_raramuri_profile_signal,1.3287,lessi,0.8,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000502,tepatsa ne to,Tepatſá nè tò,1,1,Hineintragen,324,possible_raramuri_profile_signal,1.3256,ta guetsi joma,0.643,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000503,tsani- oder tsaini-jolagameke,Tſani- oder Tſaini-jolagameke,1,1,Sünder,345,possible_raramuri_profile_signal,1.3239,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000504,melirue oder melirugameke,melirúe oder melirúgameke,1,1,Tödten,346,possible_raramuri_profile_signal,1.3179,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000505,pedro jejela,Pedro jejéla,1,1,Mutter,332,possible_raramuri_profile_signal,1.3169,pabahischie,0.583,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000506,schupanali,Schupánali,1,1,Ziegel,352,possible_raramuri_profile_signal,1.3056,saateameke,0.5,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000507,taslo bassiruk,Taſló baſſirúk,1,1,Ungekocht,347,possible_raramuri_profile_signal,1.3021,ta guetsi joma,0.643,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000508,iche netschi tschotschonaca,iché nétſchi tſchotſchonáca,1,1,Maulſchelle,331,possible_raramuri_profile_signal,1.2998,,0.0,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000509,ichetaje mu jolala,ichétaje mú jolála,1,1,Für,319,possible_raramuri_profile_signal,1.2994,itschiguajameke,0.722,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000510,gu-lu,Gu-lu,1,1,Groß,323,possible_raramuri_profile_signal,1.2977,guelu,0.8,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000511,saniacale,Saniacále,1,1,Zimmer,352,possible_raramuri_profile_signal,1.2962,samiameke,0.556,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000512,putichaba,putichaba,1,1,Voll,349,possible_raramuri_profile_signal,1.288,putscha,0.667,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000513,nehe jolamela,Nehé jolámela,1,1,Müſſen,332,possible_raramuri_profile_signal,1.2863,nacheatule,0.615,D_machine_possible_profile_signal,False,not_assessed
+RHD-RREC-000514,lab tschutschu,Lab Tſchutſchú,1,1,Schrauben,339,possible_raramuri_profile_signal,1.2862,loguijameke,0.643,D_machine_possible_profile_signal,False,not_assessed

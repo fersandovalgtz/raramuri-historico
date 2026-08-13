@@ -26,6 +26,19 @@
     "automatic_language_identification": false,
     "automatic_lexeme_creation": false
   },
+  "residual_recovery_queue": {
+    "unique_candidate_groups": 514,
+    "source_profile_signal_spans": 645,
+    "evidence_grade_counts": {
+      "A_machine_documentary_signal": 47,
+      "B_machine_documentary_signal": 159,
+      "C_machine_profile_signal": 131,
+      "D_machine_possible_profile_signal": 177
+    },
+    "cross_entry_recurrent_groups": 90,
+    "automatic_language_identification": false,
+    "automatic_lexeme_creation": false
+  },
   "explicit_variant_groups": 24,
   "graphic_collision_groups": 7,
   "diachronic_semantic_context_signals": {
