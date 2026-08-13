@@ -39,9 +39,19 @@ La serie **`RHD-PHIL-001`–`RHD-PHIL-010` ha recotejado los 482/482 casos abier
 
 Los manifiestos PHIL son append-only y **nunca sobrescriben** `headword_diplomatic` ni `article_diplomatic`. `confirmed_ai_assisted` sostiene una lectura previa; `corrected_ai_assisted` propone una reparación documental; `unresolved_after_ai_recollation` conserva expresamente un problema que no debe cerrarse sin juicio independiente.
 
-Los últimos lotes permitieron, entre otras reparaciones documentales, proponer `Mir, netſchi` y `jujega` en el artículo `Ich`, `Talahipoa` / `Talahúmali` en `Spiel`, `Caú. Cajuſchi.` en `Roß`, `Sonúca!` donde una lectura anterior estaba severamente corrompida, `Techtéke` en p. 366 y `Atác, oder hatúca` en p. 354. También quedaron deliberadamente abiertos problemas como la estructura lexicográfica de `Lang`, la lectura compacta de `Verlobt`, ciertas secuencias gráficas de `Blind` y el primer variante largo del artículo rojo de p. 368.
+Los últimos lotes fueron reinspeccionados hasta **600 dpi** y permitieron, entre otras reparaciones documentales, proponer `Mir, netſchi` y `jujega` en el artículo `Ich`, `Talahipoa` / `Talahúmali` en `Spiel`, `Caú. Cajútſchi.` en `Roß`, `Painaguéameke`, `Nachcatule`, `Tamatsiame`, `Somúca!`, `Tepágatigameke`, `Techtéke`, `Atác, oder hatúca` y `Tſeſtarácameke, oder Stácameke`. También quedaron deliberadamente abiertos problemas donde la evidencia sigue sin permitir una decisión única, como la estructura lexicográfica de `Lang`, la lectura compacta de `Verlobt`, ciertas secuencias gráficas de `Blind` y `Tſelixugi`.
 
-**Ninguno de esos resultados es `human_verified`.** La fase automática termina aquí; la siguiente fase legítima es revisión independiente por personas con competencia filológica, lingüística, histórica o disciplinar.
+**Ninguno de esos resultados es `human_verified`.** La fase automática general termina aquí; la siguiente fase legítima es revisión independiente por personas con competencia filológica, lingüística, histórica o disciplinar.
+
+## Prioridad de revisión independiente
+
+Los 482 registros recotejados se ordenan ahora de manera reproducible en `human_review_priority.json`:
+
+- **46** `unresolved_after_ai_recollation` — prioridad 1;
+- **152** `corrected_ai_assisted` — prioridad 2;
+- **284** `confirmed_ai_assisted` — prioridad 3.
+
+La prioridad no transforma ninguna lectura en validación humana; sólo organiza el trabajo pendiente por página y `record_id`.
 
 ## Frontera documental
 
@@ -61,6 +71,9 @@ Los últimos lotes permitieron, entre otras reparaciones documentales, proponer 
 - `data/validation/review/`: manifiestos `RHD-PHIL-001`–`RHD-PHIL-010`, que cubren **482/482** casos.
 - `data/validation/next_philological_batch.json`: sin lote pendiente tras agotar la recollación IA-asistida.
 - `data/validation/human_review_queue.json`: **482** registros preparados para revisión humana independiente.
+- `data/validation/human_review_priority.json` y `human_review_priority_compact.json`: cola ordenada **46 / 152 / 284**.
+- `data/validation/HUMAN_REVIEW_PROTOCOL.md`: protocolo de adjudicación humana independiente.
+- `data/validation/human_review_template.json`: plantilla estructurada de decisión.
 - `data/validation/validation_progress.json`: avance cuantitativo de la fase científica.
 - `data/corpus_inventory.json`: inventario regenerado y comprobación calculada de cobertura.
 - JSON, XML, TEI y SQLite: serializaciones derivadas.
@@ -73,6 +86,7 @@ python3 scripts/apply_review_overrides.py
 python3 scripts/generate_review_queue.py
 python3 scripts/generate_validation_queue.py
 python3 scripts/generate_next_philological_batch.py
+python3 scripts/generate_human_review_priority.py
 python3 scripts/generate_exports.py
 python3 tests/validate.py
 python3 tests/validate_validation_phase.py
@@ -80,7 +94,7 @@ python3 tests/validate_validation_phase.py
 
 ## Siguiente etapa operativa
 
-La siguiente etapa es **revisión humana independiente** de `data/validation/human_review_queue.json`. Debe registrar revisor, fecha, competencia, decisión y evidencia, y distinguir confirmación filológica, decisión lingüística, interpretación semántica y anotación disciplinar. En el estado actual hay **482 casos preparados y 0 registros humanamente verificados**.
+La siguiente etapa es **revisión humana independiente** de `data/validation/human_review_priority.json`, comenzando por los **46 casos aún irresueltos** y siguiendo con las **152 correcciones propuestas**. Cada decisión debe registrar revisor, fecha, competencia, evidencia y alcance, y distinguir confirmación filológica, decisión lingüística, interpretación semántica y anotación disciplinar. En el estado actual hay **482 casos preparados y 0 registros humanamente verificados**.
 
 Sólo después corresponde adoptar lecturas críticas derivadas, construir normalizaciones explícitas, relaciones de variantes, correspondencias históricas con Rarámuri Digital y anotación crítica. Ninguna de esas capas deberá borrar la evidencia diplomática ni las propuestas PHIL anteriores.
 
