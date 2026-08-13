@@ -1,0 +1,25 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "cohort": "probable_graphic_correspondence_v1",
+  "generated": "2026-08-13",
+  "historical_direction": "RAR-DE",
+  "historical_eligible_records": 774,
+  "modern_eligible_records": 2581,
+  "candidate_count": 248,
+  "historical_records_with_candidates": 124,
+  "historical_components_with_candidates": 126,
+  "modern_records_matched": 185,
+  "edit_distance_counts": {
+    "1": 247,
+    "2": 1
+  },
+  "relation_type": "probable_graphic_correspondence",
+  "candidate_status": "machine_candidate",
+  "human_reviewed": false,
+  "modern_repository": "fersandovalgtz/raramuri-digital",
+  "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+  "modern_source": "data/lexicon-master.csv",
+  "method": "conservative_bounded_edit_distance_v1",
+  "max_candidates_per_historical_component": 3,
+  "scope_note": "Counts describe bounded graphic-similarity candidates only. No candidate is a validated semantic, etymological, phonological, dialectal or historical-continuity relation."
+}
