@@ -1,0 +1,33 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "rugameke_txt_inventory_v1",
+  "generated": "2026-08-13",
+  "count": 18,
+  "records": [
+    {"normalized_key":"tepulirugameke","occurrences":[{"line":460,"surface":"Tepulirügameke","direction":"DE-RAR"}],"ocr_review_priority":"normal"},
+    {"normalized_key":"pagorugameke","occurrences":[{"line":473,"surface":"Pagorügameke","direction":"DE-RAR"}],"ocr_review_priority":"high"},
+    {"normalized_key":"bulirugameke","occurrences":[{"line":1668,"surface":"Bulirügameke","direction":"DE-RAR"}],"ocr_review_priority":"normal"},
+    {"normalized_key":"neirugameke","occurrences":[{"line":2754,"surface":"Neirügameke","direction":"DE-RAR"}],"ocr_review_priority":"normal"},
+    {"normalized_key":"jumarugameke","occurrences":[{"line":3222,"surface":"Jumärügameke","direction":"DE-RAR"},{"line":8747,"surface":"Jumarùgameke","direction":"RAR-DE"}],"ocr_review_priority":"normal"},
+    {"normalized_key":"guauguerugameke","occurrences":[{"line":3318,"surface":"Guauguerügameke","direction":"DE-RAR"}],"ocr_review_priority":"normal"},
+    {"normalized_key":"sikirugameke","occurrences":[{"line":3827,"surface":"ſikirügameke","direction":"DE-RAR"},{"line":9713,"surface":"Sikirügameke","direction":"RAR-DE"}],"ocr_review_priority":"normal"},
+    {"normalized_key":"torugameke","occurrences":[{"line":3899,"surface":"Törugameke","direction":"DE-RAR"}],"ocr_review_priority":"normal"},
+    {"normalized_key":"bassirugameke","occurrences":[{"line":4290,"surface":"baſſirugameke","direction":"DE-RAR"}],"ocr_review_priority":"source_explicit_example"},
+    {"normalized_key":"tschutarugameke","occurrences":[{"line":5673,"surface":"Tfchutärugameke","direction":"DE-RAR"}],"ocr_review_priority":"normal"},
+    {"normalized_key":"melirugameke","occurrences":[{"line":5739,"surface":"Melirügameke","direction":"DE-RAR"},{"line":6849,"surface":"melirügameke","direction":"DE-RAR"}],"ocr_review_priority":"normal"},
+    {"normalized_key":"potschirugameke","occurrences":[{"line":6852,"surface":"Potlchirügameke","direction":"DE-RAR"}],"ocr_review_priority":"high"},
+    {"normalized_key":"pauguirugameke","occurrences":[{"line":7328,"surface":"Pauguirugameke","direction":"DE-RAR"}],"ocr_review_priority":"normal"},
+    {"normalized_key":"irkirugameke","occurrences":[{"line":7639,"surface":"Irkirügameke","direction":"DE-RAR"}],"ocr_review_priority":"high"},
+    {"normalized_key":"tanarugameke","occurrences":[{"line":7648,"surface":"tanarugameke","direction":"DE-RAR"}],"ocr_review_priority":"normal"},
+    {"normalized_key":"baicarugameke","occurrences":[{"line":7921,"surface":"Boicarügameke","direction":"RAR-DE"}],"ocr_review_priority":"high"},
+    {"normalized_key":"potschirugameke_rarde_ocr","occurrences":[{"line":9481,"surface":"Porichirügameke","direction":"RAR-DE"}],"ocr_review_priority":"high"},
+    {"normalized_key":"ticharugameke","occurrences":[{"line":10078,"surface":"Ticharügameke","direction":"RAR-DE"}],"ocr_review_priority":"high"}
+  ],
+  "raw_full_token_occurrence_count": 22,
+  "source_explicit_rule_example": "bassirugameke",
+  "human_reviewed": false,
+  "facsimile_recollated_all_types": false,
+  "automatic_morphological_extension": false,
+  "historical_continuity_judgment": "not_performed",
+  "interpretive_scope": "Preliminary normalized inventory of full TXT tokens ending in rugameke. It is a recollation queue, not a validated lexical or morphological inventory; high-priority OCR forms require facsimile checking."
+}
