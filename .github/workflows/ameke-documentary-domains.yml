@@ -1,0 +1,42 @@
+name: ameke-documentary-domains
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_ameke_documentary_domains.py'
+      - 'data/research/ameke_constellation_members.json'
+      - 'data/research/ameke_token_aware_members.json'
+      - 'data/research/ameke_local_function_contexts.json'
+      - 'data/entries.csv'
+      - '.github/workflows/ameke-documentary-domains.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/generate_ameke_documentary_domains.py
+      - name: Validate and save German documentary-domain layer
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path('data/research/ameke_documentary_domain_proxies_summary.json').read_text(encoding='utf-8'))
+          assert s['human_reviewed'] is False
+          assert s['automatic_semantic_classification'] is False
+          assert s['automatic_morphological_analysis'] is False
+          assert s['permutation_iterations']==20000
+          assert s['source_verified_rar_de_count']>0
+          assert s['de_rar_low_risk_count']>0
+          PY
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add data/research/ameke_documentary_domain_proxies.json data/research/ameke_documentary_domain_proxies.csv data/research/ameke_documentary_domain_proxies_summary.json data/research/ameke_documentary_domain_permutation_tests.json
+          git diff --cached --quiet || git commit -m 'Generate ameke German documentary-domain proxies'
+          git pull --rebase origin main
+          git push
