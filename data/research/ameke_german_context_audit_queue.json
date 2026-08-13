@@ -1,0 +1,2976 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "count": 174,
+  "human_reviewed": false,
+  "records": [
+    {
+      "audit_id": "RHD-GER-FUNC-0001",
+      "member_id": "RHD-AMEKE-00032",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "honeameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Waizen",
+      "printed_pages": [
+        350
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0002",
+      "member_id": "RHD-AMEKE-00082",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "pitschaburameke",
+      "provenance": "RAR-DE",
+      "german_context": "Verschnitten",
+      "printed_pages": [
+        364
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0003",
+      "member_id": "RHD-AMEKE-00087",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "pugueameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Warten",
+      "printed_pages": [
+        350
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0004",
+      "member_id": "RHD-AMEKE-00138",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschucuameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Kriechen",
+      "printed_pages": [
+        327
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0005",
+      "member_id": "RHD-AMEKE-00019",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "cusigameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Hölzern",
+      "printed_pages": [
+        325
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0006",
+      "member_id": "RHD-AMEKE-00054",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Erfahren",
+      "printed_pages": [
+        315
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0007",
+      "member_id": "RHD-AMEKE-00089",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "repagameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Blitzen",
+      "printed_pages": [
+        309,
+        322,
+        330
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0008",
+      "member_id": "RHD-AMEKE-00089",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "repagameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Leuchten",
+      "printed_pages": [
+        309,
+        322,
+        330
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0009",
+      "member_id": "RHD-AMEKE-00048",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "lesiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Ermüden",
+      "printed_pages": [
+        315
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0010",
+      "member_id": "RHD-AMEKE-00050",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "loguiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Raſen",
+      "printed_pages": [
+        336
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0011",
+      "member_id": "RHD-AMEKE-00101",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "schuguiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Verzehren",
+      "printed_pages": [
+        346,
+        348
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0012",
+      "member_id": "RHD-AMEKE-00101",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "schuguiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Verſtorben",
+      "printed_pages": [
+        346,
+        348
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0013",
+      "member_id": "RHD-AMEKE-00104",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "simiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Abgehen",
+      "printed_pages": [
+        301
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0014",
+      "member_id": "RHD-AMEKE-00141",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "tschutscheliameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Salben",
+      "printed_pages": [
+        338
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0015",
+      "member_id": "RHD-AMEKE-00007",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "bassirujameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Sieden",
+      "printed_pages": [
+        341
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0016",
+      "member_id": "RHD-AMEKE-00008",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "bassujameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Sieden",
+      "printed_pages": [
+        341
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0017",
+      "member_id": "RHD-AMEKE-00108",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mahajameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Unerſchrocken",
+      "printed_pages": [
+        347
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0018",
+      "member_id": "RHD-AMEKE-00131",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "tsanijameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Bejahen",
+      "printed_pages": [
+        308
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0019",
+      "member_id": "RHD-AMEKE-00023",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "bassirugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Kochen",
+      "printed_pages": [
+        326
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0020",
+      "member_id": "RHD-AMEKE-00026",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "gassirugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Scherben",
+      "printed_pages": [
+        338
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0021",
+      "member_id": "RHD-AMEKE-00027",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "guauguerugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Gebraten",
+      "printed_pages": [
+        320
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0022",
+      "member_id": "RHD-AMEKE-00031",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "holirugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Waizen",
+      "printed_pages": [
+        350
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0023",
+      "member_id": "RHD-AMEKE-00033",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "hulirugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Abſchicken",
+      "printed_pages": [
+        301
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0024",
+      "member_id": "RHD-AMEKE-00041",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "jolarugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Machen",
+      "printed_pages": [
+        330
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0025",
+      "member_id": "RHD-AMEKE-00046",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "jumarugameke",
+      "provenance": "RAR-DE",
+      "german_context": "Vollkommen",
+      "printed_pages": [
+        359
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0026",
+      "member_id": "RHD-AMEKE-00075",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pagorugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Abwaſchen",
+      "printed_pages": [
+        301
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0027",
+      "member_id": "RHD-AMEKE-00111",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pagotugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Ungewaſchen",
+      "printed_pages": [
+        347
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0028",
+      "member_id": "RHD-AMEKE-00083",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "polirugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Bedecken",
+      "printed_pages": [
+        308
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0029",
+      "member_id": "RHD-AMEKE-00083",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "polirugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Decken",
+      "printed_pages": [
+        312
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0030",
+      "member_id": "RHD-AMEKE-00116",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tanarugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Zeugen",
+      "printed_pages": [
+        352
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0031",
+      "member_id": "RHD-AMEKE-00124",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tepulirugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Abhauen",
+      "printed_pages": [
+        301
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0032",
+      "member_id": "RHD-AMEKE-00132",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tschapirugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Ergreifen",
+      "printed_pages": [
+        315
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0033",
+      "member_id": "RHD-AMEKE-00134",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tschipugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Stinken",
+      "printed_pages": [
+        344
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0034",
+      "member_id": "RHD-AMEKE-00144",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tutschirugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Zerreiben",
+      "printed_pages": [
+        352
+      ],
+      "surface_shape_proxy": "infinitive_ending_proxy",
+      "priority": 1,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0035",
+      "member_id": "RHD-AMEKE-00009",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "bucuameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Viehiſch",
+      "printed_pages": [
+        348
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0036",
+      "member_id": "RHD-AMEKE-00021",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "etschagueameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Bärtig",
+      "printed_pages": [
+        307
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0037",
+      "member_id": "RHD-AMEKE-00093",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "saaeameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Sandig",
+      "printed_pages": [
+        338
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0038",
+      "member_id": "RHD-AMEKE-00094",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "saateameke",
+      "provenance": "RAR-DE",
+      "german_context": "Sandig",
+      "printed_pages": [
+        365
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0039",
+      "member_id": "RHD-AMEKE-00097",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "sapeameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Fleiſchig",
+      "printed_pages": [
+        318
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0040",
+      "member_id": "RHD-AMEKE-00126",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "thulameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Froſtig",
+      "printed_pages": [
+        319
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0041",
+      "member_id": "RHD-AMEKE-00137",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschitulameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Kugelförmig",
+      "printed_pages": [
+        328
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0042",
+      "member_id": "RHD-AMEKE-00139",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschulugeameke",
+      "provenance": "RAR-DE",
+      "german_context": "Hungrig",
+      "printed_pages": [
+        368
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0043",
+      "member_id": "RHD-AMEKE-00107",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "bassigameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Unzeitig",
+      "printed_pages": [
+        347
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0044",
+      "member_id": "RHD-AMEKE-00042",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "gatigameke",
+      "provenance": "RAR-DE",
+      "german_context": "Allgegenwärtig",
+      "printed_pages": [
+        359
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0045",
+      "member_id": "RHD-AMEKE-00109",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Unkundig",
+      "printed_pages": [
+        347
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0046",
+      "member_id": "RHD-AMEKE-00054",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Verſtändig",
+      "printed_pages": [
+        348
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0047",
+      "member_id": "RHD-AMEKE-00004",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "bassatiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Urbar",
+      "printed_pages": [
+        347
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0048",
+      "member_id": "RHD-AMEKE-00005",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "bassiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Zeitig",
+      "printed_pages": [
+        352
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0049",
+      "member_id": "RHD-AMEKE-00050",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "loguiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Unſinnig",
+      "printed_pages": [
+        347
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0050",
+      "member_id": "RHD-AMEKE-00050",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "loguiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Wahnſinnig",
+      "printed_pages": [
+        349
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0051",
+      "member_id": "RHD-AMEKE-00050",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "loguiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Wüthig",
+      "printed_pages": [
+        351
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0052",
+      "member_id": "RHD-AMEKE-00061",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "mukiiatiameke",
+      "provenance": "RAR-DE",
+      "german_context": "Sterblich",
+      "printed_pages": [
+        361
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0053",
+      "member_id": "RHD-AMEKE-00110",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "mukilatiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Sterblich",
+      "printed_pages": [
+        344
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0054",
+      "member_id": "RHD-AMEKE-00065",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "nalsiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Sorglos",
+      "printed_pages": [
+        342
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0055",
+      "member_id": "RHD-AMEKE-00113",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "schuguiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Unendlich",
+      "printed_pages": [
+        347
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0056",
+      "member_id": "RHD-AMEKE-00043",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "jumajumajameke",
+      "provenance": "RAR-DE",
+      "german_context": "Allmächtig",
+      "printed_pages": [
+        359
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0057",
+      "member_id": "RHD-AMEKE-00052",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mahajameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Furchtſam",
+      "printed_pages": [
+        319
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0058",
+      "member_id": "RHD-AMEKE-00057",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mujajameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Roſtig",
+      "printed_pages": [
+        338
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0059",
+      "member_id": "RHD-AMEKE-00125",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "tessiguajameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Schwermüthig",
+      "printed_pages": [
+        340
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0060",
+      "member_id": "RHD-AMEKE-00080",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pauguirugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Wäſſerig",
+      "printed_pages": [
+        350
+      ],
+      "surface_shape_proxy": "property_ending_proxy",
+      "priority": 2,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0061",
+      "member_id": "RHD-AMEKE-00001",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "ajonameke",
+      "provenance": "RAR-DE",
+      "german_context": "ein Zorniger",
+      "printed_pages": [
+        353
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0062",
+      "member_id": "RHD-AMEKE-00003",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "bajeameke",
+      "provenance": "RAR-DE",
+      "german_context": "der Rufende",
+      "printed_pages": [
+        354
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0063",
+      "member_id": "RHD-AMEKE-00011",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cavolameke",
+      "provenance": "RAR-DE",
+      "german_context": "oder cavórameke, kugelförmig",
+      "printed_pages": [
+        355
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0064",
+      "member_id": "RHD-AMEKE-00014",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cotschimeameke",
+      "provenance": "RAR-DE",
+      "german_context": "Ein Schlafender",
+      "printed_pages": [
+        355
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0065",
+      "member_id": "RHD-AMEKE-00016",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "culeameke",
+      "provenance": "RAR-DE",
+      "german_context": "Ein Ort, oder Gegend, wo es Holz oder Bäume giebt",
+      "printed_pages": [
+        356
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0066",
+      "member_id": "RHD-AMEKE-00017",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "culuameke",
+      "provenance": "RAR-DE",
+      "german_context": "dick, fett, leibig, Schmeerbauch",
+      "printed_pages": [
+        356
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0067",
+      "member_id": "RHD-AMEKE-00059",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cuneameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Eheweib",
+      "printed_pages": [
+        313
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0068",
+      "member_id": "RHD-AMEKE-00018",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cuneameke",
+      "provenance": "RAR-DE",
+      "german_context": "Verheurathete Weibsperson",
+      "printed_pages": [
+        356
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0069",
+      "member_id": "RHD-AMEKE-00020",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "cusigueameke",
+      "provenance": "RAR-DE",
+      "german_context": "Der einen Stab oder Stecken hat, ſ",
+      "printed_pages": [
+        356
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0070",
+      "member_id": "RHD-AMEKE-00022",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "etschaguoameke",
+      "provenance": "RAR-DE",
+      "german_context": "Der einen Bart hat, s",
+      "printed_pages": [
+        356
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0071",
+      "member_id": "RHD-AMEKE-00028",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "guelameke",
+      "provenance": "RAR-DE",
+      "german_context": "altes Weib",
+      "printed_pages": [
+        357
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0072",
+      "member_id": "RHD-AMEKE-00034",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "humeameke",
+      "provenance": "RAR-DE",
+      "german_context": "Flüchtling",
+      "printed_pages": [
+        358
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0073",
+      "member_id": "RHD-AMEKE-00036",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "igueameke",
+      "provenance": "RAR-DE",
+      "german_context": "Ein Starker, der Kräfte hat",
+      "printed_pages": [
+        359
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0074",
+      "member_id": "RHD-AMEKE-00039",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "jauguirameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Tänzer",
+      "printed_pages": [
+        346
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0075",
+      "member_id": "RHD-AMEKE-00063",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "mukuameke",
+      "provenance": "RAR-DE",
+      "german_context": "Todt",
+      "printed_pages": [
+        361
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0076",
+      "member_id": "RHD-AMEKE-00085",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "nasseameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Schafhirt",
+      "printed_pages": [
+        338
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0077",
+      "member_id": "RHD-AMEKE-00067",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "nesseameke",
+      "provenance": "RAR-DE",
+      "german_context": "Hüter",
+      "printed_pages": [
+        362
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0078",
+      "member_id": "RHD-AMEKE-00071",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "ogueameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Arzney",
+      "printed_pages": [
+        304
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0079",
+      "member_id": "RHD-AMEKE-00072",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "oguesameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Hülfsmittel",
+      "printed_pages": [
+        325
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0080",
+      "member_id": "RHD-AMEKE-00073",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "ossanaguoameke",
+      "provenance": "RAR-DE",
+      "german_context": "Der Achte",
+      "printed_pages": [
+        363
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0081",
+      "member_id": "RHD-AMEKE-00074",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "otisherameke",
+      "provenance": "RAR-DE",
+      "german_context": "Ein alter Mann",
+      "printed_pages": [
+        363
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0082",
+      "member_id": "RHD-AMEKE-00078",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "pamagueameke",
+      "provenance": "RAR-DE",
+      "german_context": "Grün",
+      "printed_pages": [
+        363
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0083",
+      "member_id": "RHD-AMEKE-00081",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "peguameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Feſt",
+      "printed_pages": [
+        316
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0084",
+      "member_id": "RHD-AMEKE-00081",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "peguameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Hart",
+      "printed_pages": [
+        323
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0085",
+      "member_id": "RHD-AMEKE-00081",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "peguameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Verhärtet",
+      "printed_pages": [
+        347
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0086",
+      "member_id": "RHD-AMEKE-00088",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "reguameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Benennt",
+      "printed_pages": [
+        308
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0087",
+      "member_id": "RHD-AMEKE-00091",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "rolacameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Weiß",
+      "printed_pages": [
+        350
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0088",
+      "member_id": "RHD-AMEKE-00092",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "rosacameke",
+      "provenance": "RAR-DE",
+      "german_context": "oder toſácameke",
+      "printed_pages": [
+        365
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0089",
+      "member_id": "RHD-AMEKE-00112",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "sapeameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Mager",
+      "printed_pages": [
+        331
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0090",
+      "member_id": "RHD-AMEKE-00106",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "stacameke",
+      "provenance": "RAR-DE",
+      "german_context": "oder Stácameke",
+      "printed_pages": [
+        368
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0091",
+      "member_id": "RHD-AMEKE-00115",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tameke",
+      "provenance": "RAR-DE",
+      "german_context": "Wir",
+      "printed_pages": [
+        366
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0092",
+      "member_id": "RHD-AMEKE-00119",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "teculuameke",
+      "provenance": "RAR-DE",
+      "german_context": "Berauſcht",
+      "printed_pages": [
+        366
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0093",
+      "member_id": "RHD-AMEKE-00120",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tehimeameke",
+      "provenance": "RAR-DE",
+      "german_context": "Verwandter",
+      "printed_pages": [
+        366
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0094",
+      "member_id": "RHD-AMEKE-00126",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "thulameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Kalt",
+      "printed_pages": [
+        326
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0095",
+      "member_id": "RHD-AMEKE-00127",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tlestatacameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Roth",
+      "printed_pages": [
+        338
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0096",
+      "member_id": "RHD-AMEKE-00128",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tlestataccameke",
+      "provenance": "RAR-DE",
+      "german_context": "oder Stácameke",
+      "printed_pages": [
+        368
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0097",
+      "member_id": "RHD-AMEKE-00129",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tosacameke",
+      "provenance": "RAR-DE",
+      "german_context": "Weiß",
+      "printed_pages": [
+        367
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0098",
+      "member_id": "RHD-AMEKE-00029",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschiperameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Blech",
+      "printed_pages": [
+        309
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0099",
+      "member_id": "RHD-AMEKE-00133",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschiperameke",
+      "provenance": "RAR-DE",
+      "german_context": "Fein",
+      "printed_pages": [
+        367
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0100",
+      "member_id": "RHD-AMEKE-00135",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschirulameke",
+      "provenance": "RAR-DE",
+      "german_context": "Rund",
+      "printed_pages": [
+        368
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0101",
+      "member_id": "RHD-AMEKE-00137",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tschitulameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Rund",
+      "printed_pages": [
+        338
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0102",
+      "member_id": "RHD-AMEKE-00143",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "tsetijolameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Verbrecher",
+      "printed_pages": [
+        347
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0103",
+      "member_id": "RHD-AMEKE-00145",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "uelameke",
+      "provenance": "RAR-DE",
+      "german_context": "Altes Weib",
+      "printed_pages": [
+        368
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0104",
+      "member_id": "RHD-AMEKE-00146",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "upeameke",
+      "provenance": "RAR-DE",
+      "german_context": "Ein Verheyratheter, Ehemann",
+      "printed_pages": [
+        368
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0105",
+      "member_id": "RHD-AMEKE-00118",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "upeameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Unbeweibt",
+      "printed_pages": [
+        347
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0106",
+      "member_id": "RHD-AMEKE-00118",
+      "exclusive_suffix_class": "ameke_other",
+      "analysis_token_key": "upeameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Unverehelicht",
+      "printed_pages": [
+        347
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0107",
+      "member_id": "RHD-AMEKE-00030",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "haagameke",
+      "provenance": "RAR-DE",
+      "german_context": "Belebt",
+      "printed_pages": [
+        357
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0108",
+      "member_id": "RHD-AMEKE-00044",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "jumamatsigameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Allwiſſend",
+      "printed_pages": [
+        301
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0109",
+      "member_id": "RHD-AMEKE-00045",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "jumanamatschigameke",
+      "provenance": "RAR-DE",
+      "german_context": "Allwissend",
+      "printed_pages": [
+        359
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0110",
+      "member_id": "RHD-AMEKE-00047",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "kachkagameke",
+      "provenance": "RAR-DE",
+      "german_context": "Süß",
+      "printed_pages": [
+        359
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0111",
+      "member_id": "RHD-AMEKE-00053",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matichirujegameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Schüler",
+      "printed_pages": [
+        340
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0112",
+      "member_id": "RHD-AMEKE-00054",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Bewußt",
+      "printed_pages": [
+        309
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0113",
+      "member_id": "RHD-AMEKE-00054",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Gelehrt",
+      "printed_pages": [
+        320
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0114",
+      "member_id": "RHD-AMEKE-00054",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Klug",
+      "printed_pages": [
+        326
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0115",
+      "member_id": "RHD-AMEKE-00109",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschigameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Unwiſſend",
+      "printed_pages": [
+        347
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0116",
+      "member_id": "RHD-AMEKE-00055",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "matschirujegameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Lehrling",
+      "printed_pages": [
+        329
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0117",
+      "member_id": "RHD-AMEKE-00089",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "repagameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Glänzend",
+      "printed_pages": [
+        309,
+        322,
+        330
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0118",
+      "member_id": "RHD-AMEKE-00089",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "repagameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Leuchtend",
+      "printed_pages": [
+        309,
+        322,
+        330
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0119",
+      "member_id": "RHD-AMEKE-00090",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "repagatigameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Oberer",
+      "printed_pages": [
+        334
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0120",
+      "member_id": "RHD-AMEKE-00114",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "tamatischigameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Blind",
+      "printed_pages": [
+        309
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0121",
+      "member_id": "RHD-AMEKE-00117",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "taragameke",
+      "provenance": "RAR-DE",
+      "german_context": "Zähler",
+      "printed_pages": [
+        366
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0122",
+      "member_id": "RHD-AMEKE-00122",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "telegatigameke",
+      "provenance": "RAR-DE",
+      "german_context": "der unten iſt, ſ",
+      "printed_pages": [
+        367
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0123",
+      "member_id": "RHD-AMEKE-00123",
+      "exclusive_suffix_class": "gameke",
+      "analysis_token_key": "tepagatigameke",
+      "provenance": "RAR-DE",
+      "german_context": "ſ",
+      "printed_pages": [
+        367
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0124",
+      "member_id": "RHD-AMEKE-00015",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "cuguiameke",
+      "provenance": "RAR-DE",
+      "german_context": "Helfer",
+      "printed_pages": [
+        356
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0125",
+      "member_id": "RHD-AMEKE-00024",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "galatsaneliameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Geſegnet",
+      "printed_pages": [
+        320
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0126",
+      "member_id": "RHD-AMEKE-00025",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "ganeliameke",
+      "provenance": "RAR-DE",
+      "german_context": "Der geſund iſt, dem es gut geht",
+      "printed_pages": [
+        357
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0127",
+      "member_id": "RHD-AMEKE-00049",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "lessiameke",
+      "provenance": "RAR-DE",
+      "german_context": "Müde, matt",
+      "printed_pages": [
+        360
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0128",
+      "member_id": "RHD-AMEKE-00035",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "motschiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Eingebohrner",
+      "printed_pages": [
+        313
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0129",
+      "member_id": "RHD-AMEKE-00060",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "mukiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Ehemann",
+      "printed_pages": [
+        313
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0130",
+      "member_id": "RHD-AMEKE-00065",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "nalsiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Trag",
+      "printed_pages": [
+        346
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0131",
+      "member_id": "RHD-AMEKE-00066",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "nassiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Faul",
+      "printed_pages": [
+        316
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0132",
+      "member_id": "RHD-AMEKE-00077",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "pahiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Saufer",
+      "printed_pages": [
+        338
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0133",
+      "member_id": "RHD-AMEKE-00077",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "pahiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Trinker",
+      "printed_pages": [
+        346
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0134",
+      "member_id": "RHD-AMEKE-00095",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "sakiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Dürr",
+      "printed_pages": [
+        313
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0135",
+      "member_id": "RHD-AMEKE-00096",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "samiameke",
+      "provenance": "RAR-DE",
+      "german_context": "Feucht",
+      "printed_pages": [
+        365
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0136",
+      "member_id": "RHD-AMEKE-00098",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "satiameke",
+      "provenance": "RAR-DE",
+      "german_context": "Anfechter",
+      "printed_pages": [
+        365
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0137",
+      "member_id": "RHD-AMEKE-00100",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "schugiameke",
+      "provenance": "RAR-DE",
+      "german_context": "Es ist ausgegangen, hat abgenommen",
+      "printed_pages": [
+        365
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0138",
+      "member_id": "RHD-AMEKE-00101",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "schuguiameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Todtſeyn",
+      "printed_pages": [
+        346,
+        348
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0139",
+      "member_id": "RHD-AMEKE-00102",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "seliameke",
+      "provenance": "RAR-DE",
+      "german_context": "So nennen ſie ihren Dorfrichter",
+      "printed_pages": [
+        365
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0140",
+      "member_id": "RHD-AMEKE-00105",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "sriameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Satan",
+      "printed_pages": [
+        338
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0141",
+      "member_id": "RHD-AMEKE-00136",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "tschitschiameke",
+      "provenance": "RAR-DE",
+      "german_context": "Säugling",
+      "printed_pages": [
+        368
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0142",
+      "member_id": "RHD-AMEKE-00121",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "uliameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Stein",
+      "printed_pages": [
+        344
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0143",
+      "member_id": "RHD-AMEKE-00147",
+      "exclusive_suffix_class": "iameke",
+      "analysis_token_key": "veniameke",
+      "provenance": "RAR-DE",
+      "german_context": "Zahm",
+      "printed_pages": [
+        368
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0144",
+      "member_id": "RHD-AMEKE-00008",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "bassujameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Heiß",
+      "printed_pages": [
+        324
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0145",
+      "member_id": "RHD-AMEKE-00012",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "coajameke",
+      "provenance": "RAR-DE",
+      "german_context": "das Eſſen",
+      "printed_pages": [
+        355
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0146",
+      "member_id": "RHD-AMEKE-00013",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "cocojameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Krank",
+      "printed_pages": [
+        327
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0147",
+      "member_id": "RHD-AMEKE-00013",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "cocojameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Sieh",
+      "printed_pages": [
+        341
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0148",
+      "member_id": "RHD-AMEKE-00038",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "itschiguajameke",
+      "provenance": "RAR-DE",
+      "german_context": "Dieb",
+      "printed_pages": [
+        359
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0149",
+      "member_id": "RHD-AMEKE-00040",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "jolajameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Thun",
+      "printed_pages": [
+        346
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0150",
+      "member_id": "RHD-AMEKE-00051",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "loguijameke",
+      "provenance": "RAR-DE",
+      "german_context": "Raſend",
+      "printed_pages": [
+        360
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0151",
+      "member_id": "RHD-AMEKE-00057",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mujajameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Roſt",
+      "printed_pages": [
+        338
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0152",
+      "member_id": "RHD-AMEKE-00058",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mujameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Verfault",
+      "printed_pages": [
+        347
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0153",
+      "member_id": "RHD-AMEKE-00062",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "mukijameke",
+      "provenance": "RAR-DE",
+      "german_context": "oder beſſer upiameke",
+      "printed_pages": [
+        361
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0154",
+      "member_id": "RHD-AMEKE-00064",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "najujameke",
+      "provenance": "RAR-DE",
+      "german_context": "Ein Kranker",
+      "printed_pages": [
+        362
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0155",
+      "member_id": "RHD-AMEKE-00068",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "neteijameke",
+      "provenance": "RAR-DE",
+      "german_context": "Schöpfer",
+      "printed_pages": [
+        362
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0156",
+      "member_id": "RHD-AMEKE-00069",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "netejameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Erſchaffer",
+      "printed_pages": [
+        315
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0157",
+      "member_id": "RHD-AMEKE-00070",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "ogajameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Heilend",
+      "printed_pages": [
+        324
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0158",
+      "member_id": "RHD-AMEKE-00099",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "schiojameke",
+      "provenance": "RAR-DE",
+      "german_context": "Blau",
+      "printed_pages": [
+        365
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0159",
+      "member_id": "RHD-AMEKE-00130",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "tsainijolajameke",
+      "provenance": "RAR-DE",
+      "german_context": "Der Böſes thut",
+      "printed_pages": [
+        367
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0160",
+      "member_id": "RHD-AMEKE-00142",
+      "exclusive_suffix_class": "jameke",
+      "analysis_token_key": "tsetijolajameke",
+      "provenance": "RAR-DE",
+      "german_context": "Uebelthäter",
+      "printed_pages": [
+        368
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0161",
+      "member_id": "RHD-AMEKE-00002",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "baicarugameke",
+      "provenance": "RAR-DE",
+      "german_context": "dreyfach",
+      "printed_pages": [
+        354
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0162",
+      "member_id": "RHD-AMEKE-00006",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "bassirugameke",
+      "provenance": "RAR-DE",
+      "german_context": "Gekochtes",
+      "printed_pages": [
+        354
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0163",
+      "member_id": "RHD-AMEKE-00010",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "bulirugameke",
+      "provenance": "RAR-DE",
+      "german_context": "Gebundenes",
+      "printed_pages": [
+        355
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0164",
+      "member_id": "RHD-AMEKE-00037",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "ipagatugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Getauft",
+      "printed_pages": [
+        321
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0165",
+      "member_id": "RHD-AMEKE-00041",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "jolarugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Thun",
+      "printed_pages": [
+        346
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0166",
+      "member_id": "RHD-AMEKE-00086",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "jumarugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Widder",
+      "printed_pages": [
+        350
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0167",
+      "member_id": "RHD-AMEKE-00056",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "melirugameke",
+      "provenance": "RAR-DE",
+      "german_context": "Geschlachtet",
+      "printed_pages": [
+        361
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0168",
+      "member_id": "RHD-AMEKE-00075",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pagorugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Getauft",
+      "printed_pages": [
+        321
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0169",
+      "member_id": "RHD-AMEKE-00076",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pagotugameke",
+      "provenance": "RAR-DE",
+      "german_context": "Ein Getaufter",
+      "printed_pages": [
+        363
+      ],
+      "surface_shape_proxy": "multiword_or_ambiguous_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0170",
+      "member_id": "RHD-AMEKE-00111",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "pagotugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Heide",
+      "printed_pages": [
+        323
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0171",
+      "member_id": "RHD-AMEKE-00079",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "parugameke",
+      "provenance": "RAR-DE",
+      "german_context": "Fortgetragenes",
+      "printed_pages": [
+        363
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0172",
+      "member_id": "RHD-AMEKE-00084",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "potschirugameke",
+      "provenance": "RAR-DE",
+      "german_context": "Schwanger",
+      "printed_pages": [
+        364
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0173",
+      "member_id": "RHD-AMEKE-00103",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "sikirugameke",
+      "provenance": "RAR-DE",
+      "german_context": "Zerhauenes",
+      "printed_pages": [
+        365
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    },
+    {
+      "audit_id": "RHD-GER-FUNC-0174",
+      "member_id": "RHD-AMEKE-00140",
+      "exclusive_suffix_class": "ugameke",
+      "analysis_token_key": "tschutarugameke",
+      "provenance": "DE-RAR-recovery",
+      "german_context": "Scharf",
+      "printed_pages": [
+        338
+      ],
+      "surface_shape_proxy": "other_single_word_proxy",
+      "priority": 3,
+      "ai_function_reviewed": false,
+      "ai_function_class": "not_assessed",
+      "human_reviewed": false,
+      "human_function_decision": "not_assessed"
+    }
+  ]
+}
