@@ -1,0 +1,217 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "count": 10,
+  "records": [
+    {
+      "pair_id": "RHD-AMEKE-BASE-001",
+      "mechanical_base_key": "baje",
+      "ameke_key": "bajeameke",
+      "base_german_glosses": [
+        "Rufen"
+      ],
+      "ameke_german_glosses": [
+        "der Rufende"
+      ],
+      "german_documentary_relation_proxy": "event_process_to_person_participant_expression",
+      "ameke_target_expression_family": "person_participant",
+      "ai_coding_confidence": "high",
+      "coding_rationale": "Rufen -> der Rufende",
+      "coding_status": "ai_documentary_proxy_for_human_review",
+      "human_reviewed": false,
+      "automatic_raramuri_semantic_classification": false,
+      "automatic_morphological_analysis": false,
+      "historical_continuity_judgment": "not_performed",
+      "cognacy_judgment": "not_performed"
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-002",
+      "mechanical_base_key": "cotschime",
+      "ameke_key": "cotschimeameke",
+      "base_german_glosses": [
+        "Schlafen"
+      ],
+      "ameke_german_glosses": [
+        "Ein Schlafender"
+      ],
+      "german_documentary_relation_proxy": "event_process_to_person_participant_expression",
+      "ameke_target_expression_family": "person_participant",
+      "ai_coding_confidence": "high",
+      "coding_rationale": "Schlafen -> Ein Schlafender",
+      "coding_status": "ai_documentary_proxy_for_human_review",
+      "human_reviewed": false,
+      "automatic_raramuri_semantic_classification": false,
+      "automatic_morphological_analysis": false,
+      "historical_continuity_judgment": "not_performed",
+      "cognacy_judgment": "not_performed"
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-003",
+      "mechanical_base_key": "cugui",
+      "ameke_key": "cuguiameke",
+      "base_german_glosses": [
+        "Helfen"
+      ],
+      "ameke_german_glosses": [
+        "Helfer"
+      ],
+      "german_documentary_relation_proxy": "event_process_to_person_participant_expression",
+      "ameke_target_expression_family": "person_participant",
+      "ai_coding_confidence": "high",
+      "coding_rationale": "Helfen -> Helfer",
+      "coding_status": "ai_documentary_proxy_for_human_review",
+      "human_reviewed": false,
+      "automatic_raramuri_semantic_classification": false,
+      "automatic_morphological_analysis": false,
+      "historical_continuity_judgment": "not_performed",
+      "cognacy_judgment": "not_performed"
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-004",
+      "mechanical_base_key": "igue",
+      "ameke_key": "igueameke",
+      "base_german_glosses": [
+        "Sehr"
+      ],
+      "ameke_german_glosses": [
+        "Ein Starker, der Kräfte hat"
+      ],
+      "german_documentary_relation_proxy": "degree_property_to_person_property_expression",
+      "ameke_target_expression_family": "person_participant",
+      "ai_coding_confidence": "medium",
+      "coding_rationale": "Sehr -> Ein Starker, der Kräfte hat",
+      "coding_status": "ai_documentary_proxy_for_human_review",
+      "human_reviewed": false,
+      "automatic_raramuri_semantic_classification": false,
+      "automatic_morphological_analysis": false,
+      "historical_continuity_judgment": "not_performed",
+      "cognacy_judgment": "not_performed"
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-005",
+      "mechanical_base_key": "lessi",
+      "ameke_key": "lessiameke",
+      "base_german_glosses": [
+        "Ermatten, müde werden"
+      ],
+      "ameke_german_glosses": [
+        "Müde, matt"
+      ],
+      "german_documentary_relation_proxy": "event_change_state_to_state_property_expression",
+      "ameke_target_expression_family": "state_property",
+      "ai_coding_confidence": "high",
+      "coding_rationale": "Ermatten, müde werden -> Müde, matt",
+      "coding_status": "ai_documentary_proxy_for_human_review",
+      "human_reviewed": false,
+      "automatic_raramuri_semantic_classification": false,
+      "automatic_morphological_analysis": false,
+      "historical_continuity_judgment": "not_performed",
+      "cognacy_judgment": "not_performed"
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-006",
+      "mechanical_base_key": "mukiiati",
+      "ameke_key": "mukiiatiameke",
+      "base_german_glosses": [
+        "Sterblich"
+      ],
+      "ameke_german_glosses": [
+        "Sterblich"
+      ],
+      "german_documentary_relation_proxy": "property_to_property_expression",
+      "ameke_target_expression_family": "state_property",
+      "ai_coding_confidence": "high",
+      "coding_rationale": "Sterblich -> Sterblich",
+      "coding_status": "ai_documentary_proxy_for_human_review",
+      "human_reviewed": false,
+      "automatic_raramuri_semantic_classification": false,
+      "automatic_morphological_analysis": false,
+      "historical_continuity_judgment": "not_performed",
+      "cognacy_judgment": "not_performed"
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-007",
+      "mechanical_base_key": "nesse",
+      "ameke_key": "nesseameke",
+      "base_german_glosses": [
+        "Bewahren"
+      ],
+      "ameke_german_glosses": [
+        "Hüter"
+      ],
+      "german_documentary_relation_proxy": "event_process_to_person_participant_expression",
+      "ameke_target_expression_family": "person_participant",
+      "ai_coding_confidence": "high",
+      "coding_rationale": "Bewahren/Hüten -> Hüter",
+      "coding_status": "ai_documentary_proxy_for_human_review",
+      "human_reviewed": false,
+      "automatic_raramuri_semantic_classification": false,
+      "automatic_morphological_analysis": false,
+      "historical_continuity_judgment": "not_performed",
+      "cognacy_judgment": "not_performed"
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-008",
+      "mechanical_base_key": "saate",
+      "ameke_key": "saateameke",
+      "base_german_glosses": [
+        "Sand"
+      ],
+      "ameke_german_glosses": [
+        "Sandig"
+      ],
+      "german_documentary_relation_proxy": "entity_to_property_expression",
+      "ameke_target_expression_family": "state_property",
+      "ai_coding_confidence": "high",
+      "coding_rationale": "Sand -> Sandig",
+      "coding_status": "ai_documentary_proxy_for_human_review",
+      "human_reviewed": false,
+      "automatic_raramuri_semantic_classification": false,
+      "automatic_morphological_analysis": false,
+      "historical_continuity_judgment": "not_performed",
+      "cognacy_judgment": "not_performed"
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-009",
+      "mechanical_base_key": "seli",
+      "ameke_key": "seliameke",
+      "base_german_glosses": [
+        "Befehlen"
+      ],
+      "ameke_german_glosses": [
+        "So nennen ſie ihren Dorfrichter"
+      ],
+      "german_documentary_relation_proxy": "event_authority_to_institutional_person_expression",
+      "ameke_target_expression_family": "person_participant",
+      "ai_coding_confidence": "medium",
+      "coding_rationale": "Befehlen -> Dorfrichter",
+      "coding_status": "ai_documentary_proxy_for_human_review",
+      "human_reviewed": false,
+      "automatic_raramuri_semantic_classification": false,
+      "automatic_morphological_analysis": false,
+      "historical_continuity_judgment": "not_performed",
+      "cognacy_judgment": "not_performed"
+    },
+    {
+      "pair_id": "RHD-AMEKE-BASE-010",
+      "mechanical_base_key": "tschitschi",
+      "ameke_key": "tschitschiameke",
+      "base_german_glosses": [
+        "Saugen"
+      ],
+      "ameke_german_glosses": [
+        "Säugling"
+      ],
+      "german_documentary_relation_proxy": "event_process_to_person_participant_expression",
+      "ameke_target_expression_family": "person_participant",
+      "ai_coding_confidence": "medium",
+      "coding_rationale": "Saugen -> Säugling",
+      "coding_status": "ai_documentary_proxy_for_human_review",
+      "human_reviewed": false,
+      "automatic_raramuri_semantic_classification": false,
+      "automatic_morphological_analysis": false,
+      "historical_continuity_judgment": "not_performed",
+      "cognacy_judgment": "not_performed"
+    }
+  ],
+  "human_reviewed": false
+}

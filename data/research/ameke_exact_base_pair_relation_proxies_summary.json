@@ -1,0 +1,26 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_exact_base_pair_german_relation_proxies_v1",
+  "generated": "2026-08-13",
+  "pair_count": 10,
+  "relation_proxy_counts": {
+    "event_process_to_person_participant_expression": 5,
+    "degree_property_to_person_property_expression": 1,
+    "event_change_state_to_state_property_expression": 1,
+    "property_to_property_expression": 1,
+    "entity_to_property_expression": 1,
+    "event_authority_to_institutional_person_expression": 1
+  },
+  "target_expression_family_counts": {
+    "person_participant": 7,
+    "state_property": 3
+  },
+  "confidence_counts": {
+    "high": 7,
+    "medium": 3
+  },
+  "human_reviewed": false,
+  "automatic_raramuri_semantic_classification": false,
+  "automatic_morphological_analysis": false,
+  "interpretive_scope": "AI-assisted coding of relations between German gloss expressions in ten exact historical graphic pairs. It does not assign Rarámuri morphology or semantics and requires independent human review."
+}
