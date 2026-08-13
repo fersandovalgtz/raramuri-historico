@@ -95,6 +95,52 @@
     "automatic_semantic_classification": false,
     "automatic_paradigm_inference": false
   },
+  "ameke_permutation_controls": {
+    "iterations": 20000,
+    "random_seed": 1809,
+    "context_count": 174,
+    "cell_test_count": 20,
+    "omnibus_chi_square_observed": 40.461068,
+    "omnibus_cramers_v_descriptive": 0.278409,
+    "omnibus_empirical_permutation_p": 0.0001,
+    "raw_p_le_0_05_count": 4,
+    "bh_fdr_q_le_0_05_count": 3,
+    "maxT_fwer_p_le_0_05_count": 1,
+    "conservative_signal_count": 1,
+    "conservative_signals": [
+      {
+        "test_id": "RHD-AMEKE-PERM-013",
+        "exclusive_suffix_class": "ugameke",
+        "german_context_proxy": "infinitive_ending_proxy",
+        "class_member_count": 27,
+        "class_context_count": 31,
+        "observed_proxy_count": 16,
+        "observed_class_rate": 0.516129,
+        "observed_rest_rate": 0.125874,
+        "observed_rate_difference": 0.390255,
+        "absolute_rate_difference": 0.390255,
+        "permutation_null_mean_rate_difference": -0.000136,
+        "permutation_null_sd": 0.078208,
+        "permutation_z_score_descriptive": 4.9917,
+        "empirical_two_sided_p": 5e-05,
+        "bh_fdr_q": 0.001,
+        "max_abs_rate_difference_fwer_p": 0.0012,
+        "effect_direction": "enriched_in_class",
+        "conservative_permutation_signal": true,
+        "status": "machine_permutation_context_test",
+        "human_reviewed": false,
+        "automatic_morphological_analysis": false,
+        "automatic_morpheme_assignment": false,
+        "automatic_semantic_classification": false,
+        "automatic_part_of_speech_tagging": false,
+        "automatic_paradigm_inference": false,
+        "review_rank": 1
+      }
+    ],
+    "human_reviewed": false,
+    "automatic_morphological_analysis": false,
+    "automatic_semantic_classification": false
+  },
   "explicit_variant_groups": 24,
   "graphic_collision_groups": 7,
   "diachronic_semantic_context_signals": {
@@ -103,5 +149,5 @@
     "internal_reciprocal_documentary_support": 153
   },
   "human_reviewed_relations": 0,
-  "warning": "Machine/documentary candidates, graphic patterns, German-context associations and mechanically stripped -ameke contrasts; not validated linguistic relations, grammatical categories, meanings or morphological analyses."
+  "warning": "Machine/documentary candidates, graphic patterns, German-context associations, mechanically stripped -ameke contrasts and permutation-calibrated dependence tests; not validated linguistic relations, grammatical categories, meanings or morphological analyses."
 }
