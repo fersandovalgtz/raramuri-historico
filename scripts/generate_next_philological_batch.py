@@ -60,6 +60,20 @@ compact = {
 (VALIDATION / "next_philological_batch_compact.json").write_text(
     json.dumps(compact, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8"
 )
+notes_compact = {
+    "batch_id": next_id,
+    "count": len(next_records),
+    "records": [
+        [
+            x["record_id"], x["printed_page"], x.get("facsimile_column", ""),
+            x.get("headword_diplomatic", ""), x.get("open_validation_note", "")
+        ]
+        for x in next_records
+    ],
+}
+(VALIDATION / "next_philological_batch_notes_compact.json").write_text(
+    json.dumps(notes_compact, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8"
+)
 
 # Human queue prioritizes records still unresolved after AI recollation, then
 # records whose graphic reading is stable but whose linguistic/semantic judgment
