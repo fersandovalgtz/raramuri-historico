@@ -1,0 +1,75 @@
+name: validate-research-layers
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/research_common.py'
+      - 'scripts/generate_de_rar_attestations.py'
+      - 'scripts/generate_internal_concordance.py'
+      - 'scripts/generate_historical_variants.py'
+      - 'scripts/generate_semantic_context_queue.py'
+      - 'scripts/generate_graphemic_statistics.py'
+      - 'scripts/generate_research_statistics.py'
+      - 'scripts/generate_research_snapshot.py'
+      - 'scripts/sync_research_metadata.py'
+      - 'data/entries.csv'
+      - 'data/diachronic/**'
+permissions:
+  contents: write
+concurrency:
+  group: research-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate research layers
+        run: |
+          python3 scripts/generate_de_rar_attestations.py
+          python3 scripts/generate_internal_concordance.py
+          python3 scripts/generate_historical_variants.py
+          python3 scripts/generate_semantic_context_queue.py
+          python3 scripts/generate_graphemic_statistics.py
+          python3 scripts/generate_research_statistics.py
+          python3 scripts/generate_research_snapshot.py
+          python3 scripts/sync_research_metadata.py
+      - name: Validate non-adjudicative research state
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          d=Path('data/research')
+          a=json.load((d/'de_rar_inventory_guided_attestations.json').open(encoding='utf-8'))
+          c=json.load((d/'internal_concordance.json').open(encoding='utf-8'))
+          v=json.load((d/'historical_variant_index.json').open(encoding='utf-8'))
+          s=json.load((d/'diachronic_semantic_context_queue.json').open(encoding='utf-8'))
+          q=json.load(open('data/diachronic/adjudication_queue.json',encoding='utf-8'))
+          st=json.load((d/'corpus_research_statistics.json').open(encoding='utf-8'))
+          pm=json.load(open('project-metadata.json',encoding='utf-8'))
+          assert a['human_reviewed'] is False and c['human_reviewed'] is False and v['human_reviewed'] is False and s['human_reviewed'] is False
+          assert c['count']==a['count']
+          assert s['count']==q['count']
+          assert s['automatic_semantic_judgment'] is False and s['cross_language_semantic_similarity_computed'] is False
+          assert all(not x['human_reviewed'] for x in a['records'])
+          assert all(not x['human_reviewed'] for x in c['records'])
+          assert all(not x['independent_review']['human_reviewed'] for x in s['records'])
+          assert st['human_reviewed_internal_relations']==0 and st['human_reviewed_diachronic_relations']==0
+          assert pm['scope']['research_layer_human_reviewed_relations']==0
+          print('OK research layers:',a['count'],c['count'],s['count'])
+          PY
+      - name: Commit generated research artifacts
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/research public/data/research-summary.json project-metadata.json
+          if git diff --cached --quiet; then exit 0; fi
+          git fetch origin main
+          if [ "$(git rev-parse origin/main)" != "$GITHUB_SHA" ]; then exit 0; fi
+          git commit -m 'Regenerate internal research layers'
+          git push

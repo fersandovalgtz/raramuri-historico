@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+import json
+from research_common import OUT
+
+def main():
+    s=json.loads((OUT/'corpus_research_statistics.json').read_text(encoding='utf-8'))
+    text=f'''# Rarámuri Histórico Digital — corte de investigación interna\n\n**Generado:** 2026-08-13  \n**Revisión humana de relaciones:** **0**.\n\n## Resultados computacionales\n\n- artículos activos: **{s['active_articles_total']}** ({s['active_articles_by_direction']['DE-RAR']} DE–RAR; {s['active_articles_by_direction']['RAR-DE']} RAR–DE);\n- componentes RAR–DE: **{s['rar_de_component_attestations']}**; claves gráficas conservadoras únicas: **{s['rar_de_unique_graphic_keys']}**;\n- atestiguaciones DE–RAR guiadas por el inventario RAR–DE: **{s['de_rar_inventory_guided_attestations']}**;\n- candidatos de concordancia interna: **{s['internal_concordance_candidates']}**;\n- candidatos con apoyo alemán recíproco: **{s['internal_reciprocal_german_support_candidates']}**;\n- segmentos residuales DE–RAR de baja confianza: **{s['residual_de_rar_span_candidates_low_machine']}**;\n- grupos de variantes explícitas: **{s['explicit_source_variant_groups']}**; colisiones gráficas conservadoras: **{s['normalized_graphic_collision_groups']}**;\n- candidatos diacrónicos con contexto semántico empaquetado: **{s['diachronic_semantic_context_candidates']}**.\n\n## Límite interpretativo\n\nLa concordancia interna registra coaparición documental entre las dos direcciones de Steffel. El apoyo alemán recíproco sólo indica coincidencia/contención entre encabezado DE–RAR y glosa local RAR–DE. La cola semántica reúne glosa histórica, traducción contemporánea y señales internas, pero **no calcula similitud semántica alemán↔español**. Ninguna de estas capas afirma cognación, continuidad histórica, identidad dialectal ni validación humana.\n'''
+    (OUT/'RESEARCH_SNAPSHOT.md').write_text(text,encoding='utf-8')
+if __name__=='__main__': main()
