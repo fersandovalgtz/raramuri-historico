@@ -1,0 +1,48 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_token_aware_permutation_controls_v1",
+  "generated": "2026-08-13",
+  "random_seed": 1811,
+  "permutation_iterations": 20000,
+  "randomization_unit": "unique_exclusive_class_plus_analysis_token_unit",
+  "token_unit_count": 137,
+  "token_unit_counts_by_class": {
+    "ameke_other": 49,
+    "gameke": 16,
+    "iameke": 27,
+    "ugameke": 24,
+    "jameke": 21
+  },
+  "context_count": 174,
+  "tested_proxy_count": 4,
+  "cell_test_count": 20,
+  "raw_empirical_p_le_0_05_count": 5,
+  "bh_fdr_q_le_0_05_count": 3,
+  "maxT_fwer_p_le_0_05_count": 1,
+  "conservative_token_aware_signal_count": 1,
+  "conservative_token_aware_signals": [
+    {
+      "test_id": "RHD-AMEKE-TOKPERM-013",
+      "exclusive_suffix_class": "ugameke",
+      "german_context_proxy": "infinitive_ending_proxy",
+      "unit_count": 24,
+      "observed_target_count": 16,
+      "observed_target_context_count": 31,
+      "observed_target_rate": 0.516129,
+      "observed_rest_rate": 0.125874,
+      "observed_rate_difference": 0.390255,
+      "empirical_two_sided_p": 5e-05,
+      "bh_fdr_q": 0.001,
+      "max_abs_rate_difference_fwer_p": 0.0012,
+      "conservative_token_aware_signal": true,
+      "human_reviewed": false,
+      "automatic_morphological_analysis": false,
+      "automatic_semantic_classification": false,
+      "review_rank": 1
+    }
+  ],
+  "human_reviewed": false,
+  "automatic_morphological_analysis": false,
+  "automatic_semantic_classification": false,
+  "interpretive_scope": "Permutation-calibrated formal context dependence after correcting documentary token units. The German proxy remains surface-form based and is not part-of-speech annotation."
+}
