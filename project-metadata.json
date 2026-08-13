@@ -89,7 +89,20 @@
     "steffel_explicit_source_variant_groups": 24,
     "steffel_normalized_graphic_collision_groups": 7,
     "diachronic_semantic_context_candidates": 298,
-    "research_layer_human_reviewed_relations": 0
+    "research_layer_human_reviewed_relations": 0,
+    "steffel_de_rar_residual_span_triage_candidates": 1458,
+    "steffel_de_rar_residual_span_triage_profile_class_counts": {
+      "german_context_profile_signal": 395,
+      "mixed_or_uncertain_profile": 418,
+      "possible_raramuri_profile_signal": 212,
+      "strong_raramuri_profile_signal": 433
+    },
+    "steffel_de_rar_residual_span_triage_priority_tier_counts": {
+      "1": 254,
+      "2": 256,
+      "3": 135,
+      "4": 813
+    }
   },
   "editorial_pipeline": {
     "review_queue": "data/review/next_review_queue.json",
@@ -186,6 +199,7 @@
     "diachronic_next_review_priority": "Review the 21 tier-1 diachronic dossiers first, then tier 2, while keeping all correspondence decisions independent from the documentary transcription layer.",
     "internal_research_layer_generators": [
       "scripts/generate_de_rar_attestations.py",
+      "scripts/generate_residual_span_triage.py",
       "scripts/generate_internal_concordance.py",
       "scripts/generate_historical_variants.py",
       "scripts/generate_semantic_context_queue.py",
@@ -204,7 +218,11 @@
     "de_rar_inventory_guided_attestations_csv": "data/research/de_rar_inventory_guided_attestations.csv",
     "steffel_internal_concordance_csv": "data/research/internal_concordance.csv",
     "diachronic_semantic_context_queue_csv": "data/research/diachronic_semantic_context_queue.csv",
-    "parallel_machine_research_stage": "Internal Steffel concordance, documentary variant analysis, graphemic statistics and non-adjudicative diachronic context may advance while independent human validation remains unavailable."
+    "parallel_machine_research_stage": "Internal Steffel concordance, conservative residual-span profile triage, documentary variant analysis, graphemic statistics and non-adjudicative diachronic context may advance while independent human validation remains unavailable.",
+    "de_rar_residual_span_triage": "data/research/de_rar_residual_span_triage.json",
+    "de_rar_residual_span_triage_csv": "data/research/de_rar_residual_span_triage.csv",
+    "de_rar_residual_span_triage_summary": "data/research/de_rar_residual_span_triage_summary.json",
+    "de_rar_residual_span_triage_policy": "Character n-gram profile classes prioritize inspection only; they are not automatic language identification, lexical acceptance, semantic interpretation or human validation."
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",
