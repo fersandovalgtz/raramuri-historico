@@ -21,6 +21,7 @@ on:
       - 'scripts/generate_next_philological_batch.py'
       - 'scripts/generate_human_review_priority.py'
       - 'scripts/generate_diachronic_correspondences.py'
+      - 'scripts/generate_probable_graphic_correspondences.py'
       - 'scripts/sync_project_metadata.py'
       - 'scripts/generate_exports.py'
       - 'tests/validate.py'
@@ -63,6 +64,7 @@ jobs:
           python3 scripts/generate_next_philological_batch.py
           python3 scripts/generate_human_review_priority.py
           python3 scripts/generate_diachronic_correspondences.py
+          python3 scripts/generate_probable_graphic_correspondences.py
           python3 scripts/sync_project_metadata.py
           python3 scripts/generate_exports.py
       - name: Validate corpus, layout, diplomatic layer and exports
@@ -74,41 +76,72 @@ jobs:
           from pathlib import Path
           root=Path('.')
           d=root/'data/diachronic'
-          payload=json.load((d/'exact_graphic_candidates.json').open(encoding='utf-8'))
-          summary=json.load((d/'exact_graphic_candidates_summary.json').open(encoding='utf-8'))
+          exact=json.load((d/'exact_graphic_candidates.json').open(encoding='utf-8'))
+          exact_summary=json.load((d/'exact_graphic_candidates_summary.json').open(encoding='utf-8'))
+          probable=json.load((d/'probable_graphic_candidates.json').open(encoding='utf-8'))
+          probable_summary=json.load((d/'probable_graphic_candidates_summary.json').open(encoding='utf-8'))
           registry=json.load((d/'source_registry.json').open(encoding='utf-8'))
           pm=json.load((root/'project-metadata.json').open(encoding='utf-8'))
           modern=next(x for x in registry['sources'] if x['role']=='contemporary')
           commit=modern['commit']
           assert re.fullmatch(r'[0-9a-f]{40}',commit)
-          records=payload['records']
-          assert payload['count']==len(records)
-          assert payload['human_reviewed'] is False
-          assert summary['candidate_count']==len(records)
-          ids=[]; pairs=[]; hids=set(); mids=set(); keys=set()
-          for i,x in enumerate(records,1):
+
+          exact_records=exact['records']
+          assert exact['count']==len(exact_records)
+          assert exact['human_reviewed'] is False
+          assert exact_summary['candidate_count']==len(exact_records)
+          exact_pairs=set(); hids=set(); mids=set(); keys=set()
+          for i,x in enumerate(exact_records,1):
               assert x['correspondence_id']==f'RHD-CORR-{i:06d}'
-              ids.append(x['correspondence_id'])
               h=x['historical']; m=x['modern']; rel=x['candidate_relation']; rv=x['independent_review']
               assert h['direction']=='RAR-DE'
               assert re.fullmatch(r'RHD-S1809-[0-9]{5}',h['record_id'])
               assert re.fullmatch(r'RD-[0-9]{6}',m['record_id'])
               assert h['match_key']==m['match_key']==rel['graphic_key']
-              assert rel['type']=='exact_normalized_graphic_match'
-              assert rel['status']=='machine_candidate'
+              assert rel['type']=='exact_normalized_graphic_match' and rel['status']=='machine_candidate'
               assert x['derivation']['modern_commit']==commit
               assert rv['human_reviewed'] is False and rv['decision']=='not_assessed'
-              pairs.append((h['record_id'],h['matched_component_index'],m['record_id'],m['matched_component_index']))
-              hids.add(h['record_id']); mids.add(m['record_id']); keys.add(rel['graphic_key'])
-          assert len(ids)==len(set(ids))
-          assert len(pairs)==len(set(pairs))
-          assert summary['historical_records_with_candidates']==len(hids)
-          assert summary['modern_records_matched']==len(mids)
-          assert summary['unique_graphic_keys']==len(keys)
-          assert pm['scope']['diachronic_exact_graphic_candidates']==len(records)
+              pair=(h['record_id'],h['matched_component_index'],m['record_id'],m['matched_component_index'])
+              assert pair not in exact_pairs
+              exact_pairs.add(pair); hids.add(h['record_id']); mids.add(m['record_id']); keys.add(rel['graphic_key'])
+          assert exact_summary['historical_records_with_candidates']==len(hids)
+          assert exact_summary['modern_records_matched']==len(mids)
+          assert exact_summary['unique_graphic_keys']==len(keys)
+          assert pm['scope']['diachronic_exact_graphic_candidates']==len(exact_records)
+
+          probable_records=probable['records']
+          assert probable['count']==len(probable_records)
+          assert probable['human_reviewed'] is False
+          assert probable_summary['candidate_count']==len(probable_records)
+          probable_pairs=set(); phids=set(); pmids=set(); distance_counts={}
+          component_counts={}
+          for i,x in enumerate(probable_records,1):
+              assert x['correspondence_id']==f'RHD-PCORR-{i:06d}'
+              h=x['historical']; m=x['modern']; rel=x['candidate_relation']; rv=x['independent_review']
+              assert h['direction']=='RAR-DE'
+              assert re.fullmatch(r'RHD-S1809-[0-9]{5}',h['record_id'])
+              assert re.fullmatch(r'RD-[0-9]{6}',m['record_id'])
+              assert rel['type']=='probable_graphic_correspondence' and rel['status']=='machine_candidate'
+              assert rel['historical_graphic_key'] != rel['modern_graphic_key']
+              assert rel['edit_distance'] in (1,2)
+              assert x['derivation']['modern_commit']==commit
+              assert rv['human_reviewed'] is False and rv['decision']=='not_assessed'
+              pair=(h['record_id'],h['matched_component_index'],m['record_id'],m['matched_component_index'])
+              assert pair not in probable_pairs and pair not in exact_pairs
+              probable_pairs.add(pair); phids.add(h['record_id']); pmids.add(m['record_id'])
+              distance_counts[str(rel['edit_distance'])]=distance_counts.get(str(rel['edit_distance']),0)+1
+              comp=(h['record_id'],h['matched_component_index'])
+              component_counts[comp]=component_counts.get(comp,0)+1
+              assert component_counts[comp] <= 3
+          assert probable_summary['historical_records_with_candidates']==len(phids)
+          assert probable_summary['modern_records_matched']==len(pmids)
+          assert probable_summary['edit_distance_counts']==distance_counts
+          assert probable_summary['historical_components_with_candidates']==len(component_counts)
+          assert probable_summary['human_reviewed'] is False
+          assert probable_summary['modern_commit']==commit
           assert pm['editorial_pipeline']['diachronic_modern_source_commit']==commit
           assert pm['editorial_pipeline']['diachronic_human_reviewed_candidates']==0
-          print(f"OK diachronic layer: {len(records)} machine candidates; human reviewed=0")
+          print(f"OK diachronic cohorts: exact={len(exact_records)} probable={len(probable_records)}; human reviewed=0")
           PY
       - name: Commit regenerated artifacts
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
