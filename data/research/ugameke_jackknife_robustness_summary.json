@@ -1,0 +1,255 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ugameke_jackknife_robustness_v1",
+  "generated": "2026-08-13",
+  "analyses": {
+    "single_class_article_jackknife": {
+      "observation_count": 59,
+      "baseline": {
+        "target_numerator": 8,
+        "target_denominator": 14,
+        "rest_numerator": 4,
+        "rest_denominator": 45,
+        "target_rate": 0.571429,
+        "rest_rate": 0.088889,
+        "rate_difference": 0.48254
+      },
+      "leave_one_out_count": 59,
+      "minimum_rate_difference": 0.449573,
+      "maximum_rate_difference": 0.526496,
+      "median_rate_difference": 0.480519,
+      "all_leave_one_out_effects_positive": true,
+      "all_leave_one_out_effects_ge_0_20": true,
+      "target_unit_leave_one_out_minimum": 0.449573,
+      "target_unit_leave_one_out_maximum": 0.526496,
+      "most_influential_deletions": [
+        {
+          "analysis": "single_class_article_jackknife",
+          "removed_id": "RHD-S1809-00007",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.449573,
+          "target_rate": 0.538462,
+          "rest_rate": 0.088889,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "single_class_article_jackknife",
+          "removed_id": "RHD-S1809-00011",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.449573,
+          "target_rate": 0.538462,
+          "rest_rate": 0.088889,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "single_class_article_jackknife",
+          "removed_id": "RHD-S1809-00194",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.449573,
+          "target_rate": 0.538462,
+          "rest_rate": 0.088889,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "single_class_article_jackknife",
+          "removed_id": "RHD-S1809-00321",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.449573,
+          "target_rate": 0.538462,
+          "rest_rate": 0.088889,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "single_class_article_jackknife",
+          "removed_id": "RHD-S1809-00805",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.449573,
+          "target_rate": 0.538462,
+          "rest_rate": 0.088889,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "single_class_article_jackknife",
+          "removed_id": "RHD-S1809-00895",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.449573,
+          "target_rate": 0.538462,
+          "rest_rate": 0.088889,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "single_class_article_jackknife",
+          "removed_id": "RHD-S1809-01381",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.449573,
+          "target_rate": 0.538462,
+          "rest_rate": 0.088889,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "single_class_article_jackknife",
+          "removed_id": "RHD-S1809-01600",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.449573,
+          "target_rate": 0.538462,
+          "rest_rate": 0.088889,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "single_class_article_jackknife",
+          "removed_id": "RHD-S1809-00001",
+          "removed_class": "iameke",
+          "removed_past_participle": false,
+          "rate_difference": 0.480519,
+          "target_rate": 0.571429,
+          "rest_rate": 0.090909,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "single_class_article_jackknife",
+          "removed_id": "RHD-S1809-00389",
+          "removed_class": "iameke",
+          "removed_past_participle": false,
+          "rate_difference": 0.480519,
+          "target_rate": 0.571429,
+          "rest_rate": 0.090909,
+          "human_reviewed": false
+        }
+      ]
+    },
+    "token_unit_jackknife": {
+      "observation_count": 48,
+      "baseline": {
+        "target_numerator": 7,
+        "target_denominator": 13,
+        "rest_numerator": 4,
+        "rest_denominator": 35,
+        "target_rate": 0.538462,
+        "rest_rate": 0.114286,
+        "rate_difference": 0.424176
+      },
+      "leave_one_out_count": 48,
+      "minimum_rate_difference": 0.385714,
+      "maximum_rate_difference": 0.469048,
+      "median_rate_difference": 0.420814,
+      "all_leave_one_out_effects_positive": true,
+      "all_leave_one_out_effects_ge_0_20": true,
+      "target_unit_leave_one_out_minimum": 0.385714,
+      "target_unit_leave_one_out_maximum": 0.469048,
+      "most_influential_deletions": [
+        {
+          "analysis": "token_unit_jackknife",
+          "removed_id": "bassirugameke",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.385714,
+          "target_rate": 0.5,
+          "rest_rate": 0.114286,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "token_unit_jackknife",
+          "removed_id": "hulirugameke",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.385714,
+          "target_rate": 0.5,
+          "rest_rate": 0.114286,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "token_unit_jackknife",
+          "removed_id": "jolarugameke",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.385714,
+          "target_rate": 0.5,
+          "rest_rate": 0.114286,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "token_unit_jackknife",
+          "removed_id": "pagorugameke",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.385714,
+          "target_rate": 0.5,
+          "rest_rate": 0.114286,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "token_unit_jackknife",
+          "removed_id": "pagotugameke",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.385714,
+          "target_rate": 0.5,
+          "rest_rate": 0.114286,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "token_unit_jackknife",
+          "removed_id": "polirugameke",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.385714,
+          "target_rate": 0.5,
+          "rest_rate": 0.114286,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "token_unit_jackknife",
+          "removed_id": "tanarugameke",
+          "removed_class": "ugameke",
+          "removed_past_participle": true,
+          "rate_difference": 0.385714,
+          "target_rate": 0.5,
+          "rest_rate": 0.114286,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "token_unit_jackknife",
+          "removed_id": "bucuameke",
+          "removed_class": "ameke_other",
+          "removed_past_participle": false,
+          "rate_difference": 0.420814,
+          "target_rate": 0.538462,
+          "rest_rate": 0.117647,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "token_unit_jackknife",
+          "removed_id": "honeameke",
+          "removed_class": "ameke_other",
+          "removed_past_participle": false,
+          "rate_difference": 0.420814,
+          "target_rate": 0.538462,
+          "rest_rate": 0.117647,
+          "human_reviewed": false
+        },
+        {
+          "analysis": "token_unit_jackknife",
+          "removed_id": "jauguirameke",
+          "removed_class": "ameke_other",
+          "removed_past_participle": false,
+          "rate_difference": 0.420814,
+          "target_rate": 0.538462,
+          "rest_rate": 0.117647,
+          "human_reviewed": false
+        }
+      ]
+    }
+  },
+  "human_reviewed": false,
+  "automatic_part_of_speech_tagging": false,
+  "automatic_morphological_analysis": false,
+  "interpretive_scope": "Leave-one-out sensitivity of the low-risk DE-RAR past-participle surface association. Stability indicates the documentary effect is not driven by one retained article or token; it does not establish a Raramuri morpheme or grammatical category."
+}
