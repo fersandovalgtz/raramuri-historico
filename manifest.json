@@ -890,13 +890,13 @@
     },
     {
       "path": "data/entries.csv",
-      "bytes": 2219629,
-      "sha256": "39a7c645424c6c878052432ea3c4083c212307a3c892d05cf1ceac1aa744d83c"
+      "bytes": 2230219,
+      "sha256": "03a4c6e7a2ceb76518c8eefcd542cce2417ddacf14c0f8d49ae8b021c1a5c9e5"
     },
     {
       "path": "data/entries_curated.csv",
-      "bytes": 259806,
-      "sha256": "b80686fc29af5a257ef22eec9b0fab68df96d6aa12554d348f873c5cc9a7a5e8"
+      "bytes": 270396,
+      "sha256": "65c81d3d6635d7f79397474a7d3f9b5f0180554427754dd06562ca43aad8749c"
     },
     {
       "path": "data/facsimile/README.md",
@@ -935,8 +935,8 @@
     },
     {
       "path": "data/json/entries.json",
-      "bytes": 4185173,
-      "sha256": "bd926ef4f36ed0dbdf72fb59c7ad604c53e06c24d8f6e4d97dc38ab5454b166b"
+      "bytes": 4195763,
+      "sha256": "15f2f03cce08367b755cf5b366b0da0396f1ea5314756eda6f6067d33ed9fc83"
     },
     {
       "path": "data/ocr_dictionary_lines.csv",
@@ -945,8 +945,8 @@
     },
     {
       "path": "data/raramuri_historico.sqlite",
-      "bytes": 2801664,
-      "sha256": "8421ef840145c9c1e198504f598dd1cac175a24a8ca235203ddf8c876e7211f2"
+      "bytes": 2822144,
+      "sha256": "202fd348471f6ded8c71a907506aca13ffb6c64e4751319aa7041a89f7a65ae5"
     },
     {
       "path": "data/review/README.md",
@@ -1120,23 +1120,23 @@
     },
     {
       "path": "data/validation/human_review_queue.json",
-      "bytes": 213871,
-      "sha256": "b90be6261852cf60cbefd72e28005e581e95a7cdd30a0c124b979668bc4a68f9"
+      "bytes": 228873,
+      "sha256": "8480a228518fa05c63851592f19993c3805fb0e90982f1469eef7b5e71f17d42"
     },
     {
       "path": "data/validation/next_philological_batch.json",
-      "bytes": 32590,
-      "sha256": "e85690a483e7b3e61d3cbe3d783d19be16a708aeff18385a636317746d740450"
+      "bytes": 277,
+      "sha256": "dade52685583108661745aa97b66d35cea4426743dc133d205295038815d7c42"
     },
     {
       "path": "data/validation/next_philological_batch_compact.json",
-      "bytes": 1524,
-      "sha256": "99bc4bd576440319aea3f97a1601be2599a3492ac07c861e5fb4397776bb5801"
+      "bytes": 78,
+      "sha256": "55f7f420ee63243f59d511c50dc250a3d84f285110997afa5a75f934f4037740"
     },
     {
       "path": "data/validation/next_philological_batch_notes_compact.json",
-      "bytes": 5372,
-      "sha256": "d9735154244b72acf3e9acca79a2c57e4292358b37163d3e12d77005b265a315"
+      "bytes": 51,
+      "sha256": "e15d424163ddcb979f5717d85a7323cdeb6365b81ff63a5555fd183d3f2754fc"
     },
     {
       "path": "data/validation/review/philological_review_batch_001.json",
@@ -1184,6 +1184,11 @@
       "sha256": "6a35a5f05eb68453ab3a2e111787f3a69497a0a41fb1d239d130ed0e4dc78260"
     },
     {
+      "path": "data/validation/review/philological_review_batch_010.json",
+      "bytes": 10932,
+      "sha256": "878ec607fd878d9d084f4a6890c1d7354540309115a9e82a486a792a04cc45c2"
+    },
+    {
       "path": "data/validation/uncertainty_queue.json",
       "bytes": 435583,
       "sha256": "5f136fdc3a0017a123f34a9992bbd2c7fbd9b0ea43388b0680828e401ee8bb76"
@@ -1200,13 +1205,13 @@
     },
     {
       "path": "data/validation/validation_progress.json",
-      "bytes": 603,
-      "sha256": "6f6a6beef54c1a260a2d735eaf8012eca89220253d5296dde7bb00e20881f03b"
+      "bytes": 611,
+      "sha256": "55f4add831de4b2279a6e237c934e38cbf03c918276ce0b7707c9d16522c656a"
     },
     {
       "path": "data/xml/entries.xml",
-      "bytes": 4899949,
-      "sha256": "76b14521b1eb0bf71f7911153598b68eb42d9ae56fe8326f0fe0903fb70f5579"
+      "bytes": 4910539,
+      "sha256": "6169fb8905beaae2d175e07f7457af4ed52b7705bced74fe08980afb2ec0dc49"
     },
     {
       "path": "data/xml/steffel-1809-tei-machine.xml",
@@ -1235,8 +1240,8 @@
     },
     {
       "path": "public/data/entries.json",
-      "bytes": 3721102,
-      "sha256": "c417943dc7ffa41574d9d1097221de762510a5f74a413d8b706e38f9b3d57228"
+      "bytes": 3731692,
+      "sha256": "2be5e529c64f90639349f8faf929e6d2729ed7ea15d75fc094161e3f97f4f41b"
     },
     {
       "path": "public/data/metadata.json",
