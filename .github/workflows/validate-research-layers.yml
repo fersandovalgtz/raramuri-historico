@@ -13,6 +13,7 @@ on:
       - 'scripts/generate_research_statistics.py'
       - 'scripts/generate_research_snapshot.py'
       - 'scripts/sync_research_metadata.py'
+      - 'scripts/update_research_docs.py'
       - 'data/entries.csv'
       - 'data/diachronic/**'
 permissions:
@@ -38,10 +39,11 @@ jobs:
           python3 scripts/generate_research_statistics.py
           python3 scripts/generate_research_snapshot.py
           python3 scripts/sync_research_metadata.py
+          python3 scripts/update_research_docs.py
       - name: Validate non-adjudicative research state
         run: |
           python3 - <<'PY'
-          import json
+          import csv,json
           from pathlib import Path
           d=Path('data/research')
           a=json.load((d/'de_rar_inventory_guided_attestations.json').open(encoding='utf-8'))
@@ -52,14 +54,15 @@ jobs:
           st=json.load((d/'corpus_research_statistics.json').open(encoding='utf-8'))
           pm=json.load(open('project-metadata.json',encoding='utf-8'))
           assert a['human_reviewed'] is False and c['human_reviewed'] is False and v['human_reviewed'] is False and s['human_reviewed'] is False
-          assert c['count']==a['count']
-          assert s['count']==q['count']
+          assert c['count']==a['count'] and s['count']==q['count']
           assert s['automatic_semantic_judgment'] is False and s['cross_language_semantic_similarity_computed'] is False
-          assert all(not x['human_reviewed'] for x in a['records'])
-          assert all(not x['human_reviewed'] for x in c['records'])
+          assert all(not x['human_reviewed'] for x in a['records']) and all(not x['human_reviewed'] for x in c['records'])
           assert all(not x['independent_review']['human_reviewed'] for x in s['records'])
-          assert st['human_reviewed_internal_relations']==0 and st['human_reviewed_diachronic_relations']==0
-          assert pm['scope']['research_layer_human_reviewed_relations']==0
+          assert st['human_reviewed_internal_relations']==0 and st['human_reviewed_diachronic_relations']==0 and pm['scope']['research_layer_human_reviewed_relations']==0
+          assert sum(1 for _ in csv.DictReader((d/'internal_concordance.csv').open(encoding='utf-8')))==c['count']
+          assert sum(1 for _ in csv.DictReader((d/'diachronic_semantic_context_queue.csv').open(encoding='utf-8')))==s['count']
+          assert Path('public/research.html').exists() and 'research.html' in Path('public/index.html').read_text(encoding='utf-8')
+          assert 'Investigación interna de Steffel' in Path('README.md').read_text(encoding='utf-8')
           print('OK research layers:',a['count'],c['count'],s['count'])
           PY
       - name: Commit generated research artifacts
@@ -67,9 +70,9 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/research public/data/research-summary.json project-metadata.json
+          git add data/research public/data/research-summary.json public/index.html public/research.html project-metadata.json README.md CHANGELOG.md
           if git diff --cached --quiet; then exit 0; fi
           git fetch origin main
           if [ "$(git rev-parse origin/main)" != "$GITHUB_SHA" ]; then exit 0; fi
-          git commit -m 'Regenerate internal research layers'
+          git commit -m 'Regenerate internal research layers and portal'
           git push

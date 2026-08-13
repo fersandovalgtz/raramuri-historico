@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from collections import defaultdict,Counter
 from research_common import ROOT,OUT,norm,gloss,dump
-import json
+import json,csv
 
 def main():
     adj=json.loads((ROOT/'data/diachronic/adjudication_queue.json').read_text(encoding='utf-8'))
@@ -17,5 +17,12 @@ def main():
     for i,x in enumerate(records,1): x['semantic_context_id']=f'RHD-SEMC-{i:06d}'
     dump(OUT/'diachronic_semantic_context_queue.json',{'dataset':'raramuri-historico-steffel-1809','layer':'diachronic_semantic_context_triage','generated':'2026-08-13','count':len(records),'human_reviewed':False,'cross_language_semantic_similarity_computed':False,'automatic_semantic_judgment':False,'signal_counts':dict(sorted(counts.items())),'records':records})
     summary={'candidate_count':len(records),'signal_counts':dict(sorted(counts.items())),'internal_reciprocal_documentary_support_count':counts.get('internal_reciprocal_documentary_support',0),'internal_form_attestation_only_count':counts.get('internal_form_attestation_only',0),'cross_corpus_context_only_count':counts.get('cross_corpus_context_only',0),'human_reviewed':False,'automatic_semantic_judgment':False,'cross_language_semantic_similarity_computed':False}
-    dump(OUT/'diachronic_semantic_context_queue_summary.json',summary); print(json.dumps(summary,ensure_ascii=False))
+    dump(OUT/'diachronic_semantic_context_queue_summary.json',summary)
+    fields=['semantic_context_id','adjudication_id','source_candidate_id','priority_tier','signal_type','historical_record_id','historical_form','historical_component','historical_german_gloss','historical_page','modern_record_id','modern_headword','modern_translation','modern_classification','internal_attestation_count','internal_reciprocal_support_count','human_reviewed','semantic_decision']
+    with (OUT/'diachronic_semantic_context_queue.csv').open('w',encoding='utf-8',newline='') as f:
+        w=csv.DictWriter(f,fieldnames=fields); w.writeheader()
+        for x in records:
+            h=x['historical']; m=x['modern']; s=x['machine_context_signal']
+            w.writerow({'semantic_context_id':x['semantic_context_id'],'adjudication_id':x['adjudication_id'],'source_candidate_id':x['source_candidate_id'],'priority_tier':x['priority_tier'],'signal_type':s['type'],'historical_record_id':h['record_id'],'historical_form':h['form_diplomatic'],'historical_component':h['matched_component'],'historical_german_gloss':h['german_gloss_local'],'historical_page':h['printed_page'],'modern_record_id':m['record_id'],'modern_headword':m['headword'],'modern_translation':m['translation_raw'],'modern_classification':m['classification'],'internal_attestation_count':s['internal_attestation_count'],'internal_reciprocal_support_count':s['internal_reciprocal_support_count'],'human_reviewed':'false','semantic_decision':'not_assessed'})
+    print(json.dumps(summary,ensure_ascii=False))
 if __name__=='__main__': main()
