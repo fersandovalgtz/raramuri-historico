@@ -55,6 +55,8 @@
     "family_association_count": 47,
     "patterns_with_enriched_tokens": 22,
     "families_with_enriched_tokens": 42,
+    "robust_pattern_token_association_count": 0,
+    "robust_pattern_proxy_association_count": 9,
     "global_german_word_shape_proxy_counts": {
       "infinitive_ending_proxy": 296,
       "multiword_or_ambiguous_proxy": 381,
@@ -62,6 +64,7 @@
       "other_single_word_proxy": 487,
       "property_ending_proxy": 56
     },
+    "method": "document_frequency_log_odds_context_association_v2",
     "automatic_semantic_classification": false,
     "automatic_part_of_speech_tagging": false
   },
