@@ -13,7 +13,7 @@
 - candidatos de concordancia interna: **989**; con apoyo alemán recíproco: **337 (34.1%)**;
 - segmentos residuales DE–RAR triados: **1458** = 433 señal fuerte de perfil, 212 posible, 395 contexto alemán y 418 mixtos/inciertos;
 - cola deduplicada de recuperación: **514 grupos** a partir de 645 spans; grados A/B/C/D = **47/159/131/177**; grupos recurrentes en ≥2 artículos DE–RAR: **90**;
-- hipótesis de familias gráficas sembradas por los **47** grupos A: **47** familias, **47** con vecinos y **819** enlaces de vecindad; patrones recurrentes: **7** prefijos y **20** sufijos;
+- hipótesis de familias gráficas sembradas por los **47** grupos A: **47** familias, **47** con vecinos y **1709** enlaces de vecindad; patrones recurrentes: **7** prefijos y **20** sufijos;
 - grupos de variantes explícitas: **24**; colisiones gráficas conservadoras: **7**;
 - candidatos diacrónicos con alguna señal interna de Steffel: **230/298 (77.2%)**; con apoyo interno recíproco: **153/298 (51.3%)**.
 
