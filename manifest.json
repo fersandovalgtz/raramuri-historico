@@ -130,8 +130,8 @@
     },
     {
       "path": "data/corpus_inventory.json",
-      "bytes": 6297,
-      "sha256": "f65c3cf9de2d8cfd70870ed35dd8f8a35f59051fa41495ebea2061590c8b8442"
+      "bytes": 6394,
+      "sha256": "bb899df086968a0d0b2f57ed3e62d2d1617b8da1b7df9c7347b768a96f815ca2"
     },
     {
       "path": "data/correspondences_template.csv",
@@ -895,8 +895,8 @@
     },
     {
       "path": "data/entries_curated.csv",
-      "bytes": 11766,
-      "sha256": "2cd5f3982a91708c58839d7f73b7f88baf3b40f4abfea32f10219efe59b9acd5"
+      "bytes": 36751,
+      "sha256": "eaf4043095dd8b4f23cecf6103e117123e0f825bc990c4580601d91a61edc2fe"
     },
     {
       "path": "data/facsimile/README.md",
@@ -1165,8 +1165,8 @@
     },
     {
       "path": "scripts/apply_review_overrides.py",
-      "bytes": 8873,
-      "sha256": "2055af8c00e9c1cabacd89f1026db2cb345aea8d589343991716e52c596a59be"
+      "bytes": 10370,
+      "sha256": "f78557157bfa66fdf12dfdba187cbc69083f397ed82ef8ba6760f71ee352963f"
     },
     {
       "path": "scripts/build_exports.py",

@@ -40,7 +40,8 @@
       "visual_facsimile_recollation_ai_assisted"
     ],
     "direct_facsimile_image_recheck_pending_batches": [],
-    "full_diplomatic_transcription_completed": false
+    "all_candidate_boundaries_facsimile_reviewed": true,
+    "full_diplomatic_transcription_completed": true
   },
   "diplomatic_transcription": {
     "batches": [
@@ -271,6 +272,7 @@
       "visual_facsimile_transcription_ai_assisted_direction_aware"
     ],
     "direct_facsimile_image_recheck_pending_batches": [],
+    "full_active_corpus_coverage": true,
     "human_verified": false,
     "scope_note": "Complete article text for accepted records; source spelling/punctuation retained where supported; typographic line wrapping not encoded. Batches without direct facsimile image reinspection are explicitly flagged for later re-collation."
   }
