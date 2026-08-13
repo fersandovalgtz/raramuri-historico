@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/generate_ameke_local_function_comparison.py'
+      - 'scripts/generate_ameke_local_function_comparison_v2.py'
       - 'data/research/ameke_constellation_members.json'
       - 'data/research/ameke_token_aware_members.json'
       - 'data/research/ameke_local_context_ai_proposals.json'
@@ -19,21 +20,25 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python3 scripts/generate_ameke_local_function_comparison.py
+      - run: python3 scripts/generate_ameke_local_function_comparison_v2.py
       - name: Save generated comparison
         run: |
           python3 - <<'PY'
           import json
           from pathlib import Path
           s=json.loads(Path('data/research/ameke_local_function_comparison_summary.json').read_text(encoding='utf-8'))
+          assert s['layer']=='ameke_local_german_function_comparison_v2'
+          assert s['denominator_policy']=='actual_documentary_context_count_nonoverlapping'
           assert s['human_reviewed'] is False
           assert s['automatic_part_of_speech_tagging'] is False
           assert s['automatic_morphological_analysis'] is False
-          assert 'all_machine_local' in s['analyses'] and 'conservative_alignment' in s['analyses']
+          for name,a in s['analyses'].items():
+              for sig in a['conservative_signals']:
+                  assert sig['target_denominator']==a['class_context_counts'][sig['exclusive_suffix_class']]
           PY
           git config user.name github-actions
           git config user.email actions@github.com
           git add data/research/ameke_local_function_contexts.json data/research/ameke_local_function_contexts.csv data/research/ameke_local_function_permutation_tests.json data/research/ameke_local_function_permutation_tests.csv data/research/ameke_local_function_comparison_summary.json
-          git diff --cached --quiet || git commit -m 'Generate local ameke function comparison'
+          git diff --cached --quiet || git commit -m 'Generate corrected local ameke function comparison'
           git pull --rebase origin main
           git push
