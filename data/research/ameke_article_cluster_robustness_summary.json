@@ -1,0 +1,104 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_de_rar_article_cluster_robustness_v1",
+  "generated": "2026-08-13",
+  "low_risk_context_count": 64,
+  "unique_de_rar_record_count": 61,
+  "mixed_class_record_count": 2,
+  "analyses": {
+    "unique_record_class_cells": {
+      "observation_count": 63,
+      "counts_by_class": {
+        "iameke": 15,
+        "ugameke": 16,
+        "ameke_other": 15,
+        "jameke": 7,
+        "gameke": 10
+      },
+      "participle_counts_by_class": {
+        "ameke_other": 2,
+        "gameke": 3,
+        "iameke": 5,
+        "ugameke": 10,
+        "jameke": 2
+      },
+      "past_participle_counts_by_class": {
+        "ameke_other": 0,
+        "gameke": 0,
+        "iameke": 3,
+        "ugameke": 9,
+        "jameke": 1
+      },
+      "conservative_signal_count": 1,
+      "conservative_signals": [
+        {
+          "analysis": "unique_record_class_cells",
+          "exclusive_suffix_class": "ugameke",
+          "outcome": "past_participle_surface_proxy",
+          "target_numerator": 9,
+          "target_denominator": 16,
+          "rest_numerator": 4,
+          "rest_denominator": 47,
+          "target_rate": 0.5625,
+          "rest_rate": 0.085106,
+          "rate_difference": 0.477394,
+          "empirical_two_sided_p": 0.0004,
+          "bh_fdr_q": 0.004,
+          "max_abs_rate_difference_fwer_p": 0.012199,
+          "conservative_signal": true,
+          "human_reviewed": false
+        }
+      ]
+    },
+    "single_class_articles_only": {
+      "observation_count": 59,
+      "counts_by_class": {
+        "iameke": 15,
+        "ugameke": 14,
+        "ameke_other": 14,
+        "jameke": 6,
+        "gameke": 10
+      },
+      "participle_counts_by_class": {
+        "ameke_other": 2,
+        "gameke": 3,
+        "iameke": 5,
+        "ugameke": 9,
+        "jameke": 1
+      },
+      "past_participle_counts_by_class": {
+        "ameke_other": 0,
+        "gameke": 0,
+        "iameke": 3,
+        "ugameke": 8,
+        "jameke": 1
+      },
+      "conservative_signal_count": 1,
+      "conservative_signals": [
+        {
+          "analysis": "single_class_articles_only",
+          "exclusive_suffix_class": "ugameke",
+          "outcome": "past_participle_surface_proxy",
+          "target_numerator": 8,
+          "target_denominator": 14,
+          "rest_numerator": 4,
+          "rest_denominator": 45,
+          "target_rate": 0.571429,
+          "rest_rate": 0.088889,
+          "rate_difference": 0.48254,
+          "empirical_two_sided_p": 0.0005,
+          "bh_fdr_q": 0.005,
+          "max_abs_rate_difference_fwer_p": 0.026299,
+          "conservative_signal": true,
+          "human_reviewed": false
+        }
+      ]
+    }
+  },
+  "random_seed": 1809,
+  "permutation_iterations": 20000,
+  "human_reviewed": false,
+  "automatic_part_of_speech_tagging": false,
+  "automatic_morphological_analysis": false,
+  "interpretive_scope": "Article-collapsed control for low-risk DE-RAR local-label surface proxies. Collapsing prevents repeated recovered forms within one German article from inflating evidence; no grammatical category is assigned to Raramuri forms."
+}
