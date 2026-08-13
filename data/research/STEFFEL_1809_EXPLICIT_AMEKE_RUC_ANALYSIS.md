@@ -4,7 +4,9 @@
 
 La función histórica de `ameke` no depende sólo de una inferencia distribucional. En la p. impresa 353 (PDF 63), Steffel afirma expresamente que las terminaciones `ameke` designan el *Mittelwort* de tiempo presente y significado activo. Añade que los rarámuri suelen omitir en la pronunciación la última sílaba `ke`, aunque él la escribe en todas las palabras de este tipo. En terminología gramatical de la época, *Mittelwort* corresponde a participio.
 
-La conclusión documental mínima es, por tanto, que **Steffel analiza `ameke` como terminación participial presente de valor activo y registra una realización frecuente sin `ke` en el habla**. Esto no demuestra todavía que `ame` y `ke` sean dos morfemas independientes.
+La misma función aparece explicada de nuevo en otro punto independiente del diccionario. En la p. impresa 312 (PDF 22), al comentar `Cuſigusameke` «Dorfrichter», Steffel descompone la expresión mediante `Cusiki` «Holz, Stab oder Stecken» y `Gus`, que según él expresa «haben», y añade expresamente que **`ameke` forma el *Mittelwort* del tiempo presente**. Esta segunda explicación metalingüística confirma que el análisis de p. 353 no es una observación aislada.
+
+La conclusión documental mínima es, por tanto, que **Steffel analiza `ameke` como terminación participial presente, de valor activo en su descripción general, y registra una realización frecuente sin `ke` en el habla**. Esto no demuestra todavía que `ame` y `ke` sean dos morfemas independientes.
 
 En el *Vorbericht* (p. impresa 298; PDF 8), Steffel enumera auxiliares que se añaden a verbos y distingue los de sentido activo (`mela`, `ruje`) de los de sentido pasivo (`ruc`, `boa`, `poa`). Explica que `ruc` unido a un verbo indica que ya ocurrió aquello expresado por el verbo.
 
@@ -16,6 +18,6 @@ Esta evidencia obliga a revisar la etiqueta computacional `ugameke`: debe conser
 
 Caballero 2022 documenta `-ame` como participial en Choguita Rarámuri. La observación de Steffel de que el `ke` final de `ameke` suele omitirse hace más relevante esta comparación, pero no prueba por sí sola cognación o continuidad entre variedades y épocas.
 
-La formulación de trabajo pasa a ser: **Steffel describe explícitamente `ameke` como participial y documenta `ruc + ameke → rugameke` en al menos una construcción; la relación diacrónica con `-ame` moderno queda pendiente de demostración comparativa independiente.**
+La formulación de trabajo pasa a ser: **Steffel describe explícitamente `ameke` como participial en al menos dos comentarios metalingüísticos independientes y documenta `ruc + ameke → rugameke` en al menos una construcción; la relación diacrónica con `-ame` moderno queda pendiente de demostración comparativa independiente.**
 
 `source_explicit_historical_grammar=true`; `ai_facsimile_recollated=true`; `human_reviewed=false`; `automatic_cognacy_judgment=false`; `historical_continuity_judgment=not_performed`.
