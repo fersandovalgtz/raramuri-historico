@@ -12,6 +12,9 @@
   <img src="https://img.shields.io/badge/validaci%C3%B3n%20abierta-482-7a263a?style=flat-square" alt="482 explicit open validation records">
   <img src="https://img.shields.io/badge/recotejo%20PHIL-482%2F482-455B55?style=flat-square" alt="482 of 482 open records AI-recollated">
   <img src="https://img.shields.io/badge/revisi%C3%B3n%20humana-0%2F482-6b7280?style=flat-square" alt="0 of 482 independently human reviewed">
+  <img src="https://img.shields.io/badge/concordancia%20interna-989-2d6a4f?style=flat-square" alt="989 internal Steffel concordance candidates">
+  <img src="https://img.shields.io/badge/apoyo%20rec%C3%ADproco-337-9a6b1f?style=flat-square" alt="337 reciprocal German documentary support candidates">
+  <img src="https://img.shields.io/badge/diacron%C3%ADa%20candidata-298-7a263a?style=flat-square" alt="298 machine diachronic candidates">
   <img src="https://img.shields.io/badge/c%C3%B3digo-MIT-172033?style=flat-square" alt="MIT">
 </p>
 
@@ -53,6 +56,18 @@ Los 482 registros recotejados se ordenan ahora de manera reproducible en `human_
 
 La prioridad no transforma ninguna lectura en validación humana; sólo organiza el trabajo pendiente por página y `record_id`.
 
+## Investigación interna de Steffel sin adjudicación humana
+
+La indisponibilidad temporal de revisión humana no detiene las capas **documentales y computacionales no adjudicativas**. El proyecto explota ahora la estructura bidireccional del propio Steffel sin alterar la transcripción diplomática. En la sección RAR–DE se documentan **799 componentes**, **795 formas superficiales** y **788 claves gráficas conservadoras únicas**.
+
+La búsqueda guiada por ese inventario dentro de los artículos DE–RAR produjo **989 atestiguaciones candidatas**, distribuidas en **712 registros DE–RAR** y **502 registros RAR–DE**. De las **989 relaciones de concordancia interna**, **337** tienen además apoyo alemán recíproco entre el encabezado DE–RAR y la glosa local RAR–DE. Esta señal fortalece la trazabilidad documental de la lectura histórica, pero **no constituye identidad semántica ni validación lingüística**.
+
+En paralelo se conservan **1458 segmentos residuales de baja confianza**; no se contabilizan como nuevas palabras rarámuri. El índice histórico separa **24 grupos de variantes explícitas impresas** de **7 colisiones bajo normalización gráfica conservadora**.
+
+La cola diacrónica de 298 hipótesis incorpora ahora contexto interno de Steffel: **230/298 (77.2%)** tienen alguna atestiguación interna y **153/298 (51.3%)** cuentan con apoyo documental recíproco. Son proporciones de cobertura/señal, **no tasas de validación**. La comparación semántica alemán↔español no se automatiza.
+
+Artefactos: `data/research/de_rar_inventory_guided_attestations.*`, `internal_concordance.*`, `historical_variant_index.json`, `diachronic_semantic_context_queue.*`, `graphemic_statistics.json`, `corpus_research_statistics.json` y `RESEARCH_SNAPSHOT.md`.
+
 ## Frontera documental
 
 `RHD-FR-026` fue revisado con criterio **direction-aware** al cruzar la inversión dentro de p. 353. `RHD-FR-027` resolvió los últimos candidatos `low_machine` y verificó que p. 368 cierra el diccionario y p. 369 inicia el apéndice sin candidatos lexicográficos residuales. `RHD-FR-028` auditó directamente las 60 anclas curatoriales y completó su capa diplomática.
@@ -88,19 +103,27 @@ python3 scripts/generate_validation_queue.py
 python3 scripts/generate_next_philological_batch.py
 python3 scripts/generate_human_review_priority.py
 python3 scripts/generate_exports.py
+python3 scripts/generate_de_rar_attestations.py
+python3 scripts/generate_internal_concordance.py
+python3 scripts/generate_historical_variants.py
+python3 scripts/generate_semantic_context_queue.py
+python3 scripts/generate_graphemic_statistics.py
+python3 scripts/generate_research_statistics.py
+python3 scripts/generate_research_snapshot.py
+python3 scripts/sync_research_metadata.py
 python3 tests/validate.py
 python3 tests/validate_validation_phase.py
 ```
 
 ## Siguiente etapa operativa
 
-La siguiente etapa es **revisión humana independiente** de `data/validation/human_review_priority.json`, comenzando por los **46 casos aún irresueltos** y siguiendo con las **152 correcciones propuestas**. Cada decisión debe registrar revisor, fecha, competencia, evidencia y alcance, y distinguir confirmación filológica, decisión lingüística, interpretación semántica y anotación disciplinar. En el estado actual hay **482 casos preparados y 0 registros humanamente verificados**.
+La **siguiente etapa de validación** continúa siendo la revisión humana independiente de `data/validation/human_review_priority.json`, comenzando por los 46 casos aún irresueltos. Mientras esa adjudicación no esté disponible, el proyecto puede avanzar legítimamente en un carril paralelo de investigación documental: concordancia interna DE–RAR ↔ RAR–DE, estadística grafémica, variantes explícitas, cobertura, empaquetado de contexto diacrónico y mejora de herramientas de consulta.
 
-Sólo después corresponde adoptar lecturas críticas derivadas, construir normalizaciones explícitas, relaciones de variantes, correspondencias históricas con Rarámuri Digital y anotación crítica. Ninguna de esas capas deberá borrar la evidencia diplomática ni las propuestas PHIL anteriores.
+Estas capas permanecen separadas de la validación. Ningún candidato computacional puede activar `human_verified`, `philologically_verified_by_human`, `linguistically_verified` ni `human_reviewed`. La eventual revisión independiente podrá aceptar, modificar, rechazar o mantener inciertas las relaciones sin borrar la evidencia previa.
 
 ## Identificadores y relación diacrónica
 
-Las unidades usan `RHD-S1809-#####`; un ID nunca se reutiliza aunque su límite haya sido rechazado. El corpus histórico permanece separado de Rarámuri Digital. Las futuras correspondencias Steffel ↔ Rarámuri Digital serán relaciones explícitas con confianza, método y revisión.
+Las unidades usan `RHD-S1809-#####`; un ID nunca se reutiliza aunque su límite haya sido rechazado. El corpus histórico permanece separado de Rarámuri Digital. Existen ya 298 hipótesis diacrónicas de máquina y una cola de contexto documental; todas son relaciones derivadas con método y trazabilidad explícitos y ninguna se promueve a correspondencia validada sin revisión independiente.
 
 ## Responsable
 

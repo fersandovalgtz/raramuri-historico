@@ -8,12 +8,13 @@
 - artículos activos: **1965** (1191 DE–RAR; 774 RAR–DE);
 - componentes RAR–DE: **799**; claves gráficas conservadoras únicas: **788**;
 - atestiguaciones DE–RAR guiadas por el inventario RAR–DE: **989**;
-- candidatos de concordancia interna: **989**;
-- candidatos con apoyo alemán recíproco: **337**;
+- registros DE–RAR con alguna atestiguación guiada: **712/1191 (59.8%)**;
+- registros RAR–DE reatestiguados dentro de DE–RAR: **502/774 (64.9%)**;
+- candidatos de concordancia interna: **989**; con apoyo alemán recíproco: **337 (34.1%)**;
 - segmentos residuales DE–RAR de baja confianza: **1458**;
 - grupos de variantes explícitas: **24**; colisiones gráficas conservadoras: **7**;
-- candidatos diacrónicos con contexto semántico empaquetado: **298**.
+- candidatos diacrónicos con alguna señal interna de Steffel: **230/298 (77.2%)**; con apoyo interno recíproco: **153/298 (51.3%)**.
 
 ## Límite interpretativo
 
-La concordancia interna registra coaparición documental entre las dos direcciones de Steffel. El apoyo alemán recíproco sólo indica coincidencia/contención entre encabezado DE–RAR y glosa local RAR–DE. La cola semántica reúne glosa histórica, traducción contemporánea y señales internas, pero **no calcula similitud semántica alemán↔español**. Ninguna de estas capas afirma cognación, continuidad histórica, identidad dialectal ni validación humana.
+Las proporciones anteriores son **cobertura y señales computacionales**, no tasas de validación. La concordancia interna registra coaparición documental entre las dos direcciones de Steffel. El apoyo alemán recíproco sólo indica coincidencia/contención entre encabezado DE–RAR y glosa local RAR–DE. La cola semántica reúne glosa histórica, traducción contemporánea y señales internas, pero **no calcula similitud semántica alemán↔español**. Ninguna de estas capas afirma cognación, continuidad histórica, identidad dialectal ni validación humana.

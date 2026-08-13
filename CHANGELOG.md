@@ -1,5 +1,15 @@
 # Changelog
 
+## Investigación interna — 2026-08-13
+
+- Nueva extracción conservadora DE–RAR guiada por el inventario RAR–DE: 989 atestiguaciones candidatas; 1458 segmentos residuales quedan separados como baja confianza.
+- Concordancia interna Steffel DE–RAR ↔ RAR–DE: 989 relaciones candidatas, 337 con apoyo alemán recíproco.
+- Índice documental de variantes: 24 grupos explícitos y 7 colisiones gráficas conservadoras.
+- Contexto diacrónico enriquecido para los 298 candidatos: 153 con apoyo interno recíproco, 77 con atestiguación interna no recíproca y 68 sólo con contexto entre corpus.
+- Estadística grafémica y corte reproducible en `data/research/`; exportaciones CSV para concordancia y contexto semántico.
+- La revisión humana de relaciones permanece en 0; ninguna señal computacional se interpreta como validación lingüística.
+
+
 ## 0.2.0 — 2026-08-11
 
 - Cobertura integral de ambos rangos lexicográficos del OCR.

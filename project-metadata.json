@@ -200,7 +200,11 @@
     "graphemic_statistics": "data/research/graphemic_statistics.json",
     "corpus_research_statistics": "data/research/corpus_research_statistics.json",
     "research_snapshot": "data/research/RESEARCH_SNAPSHOT.md",
-    "internal_research_non_overwrite_policy": "Derived research layers never overwrite facsimile, OCR, diplomatic transcription, PHIL history, Rarámuri Digital source records, or human-review flags."
+    "internal_research_non_overwrite_policy": "Derived research layers never overwrite facsimile, OCR, diplomatic transcription, PHIL history, Rarámuri Digital source records, or human-review flags.",
+    "de_rar_inventory_guided_attestations_csv": "data/research/de_rar_inventory_guided_attestations.csv",
+    "steffel_internal_concordance_csv": "data/research/internal_concordance.csv",
+    "diachronic_semantic_context_queue_csv": "data/research/diachronic_semantic_context_queue.csv",
+    "parallel_machine_research_stage": "Internal Steffel concordance, documentary variant analysis, graphemic statistics and non-adjudicative diachronic context may advance while independent human validation remains unavailable."
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",

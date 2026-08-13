@@ -1,0 +1,299 @@
+semantic_context_id,adjudication_id,source_candidate_id,priority_tier,signal_type,historical_record_id,historical_form,historical_component,historical_german_gloss,historical_page,modern_record_id,modern_headword,modern_translation,modern_classification,internal_attestation_count,internal_reciprocal_support_count,human_reviewed,semantic_decision
+RHD-SEMC-000001,RHD-ADJ-000002,RHD-CORR-000035,1,internal_reciprocal_documentary_support,RHD-S1809-02203,Pugué,Pugué,Warten,364,RD-001857,Pugué,"Tener, poseer (muchos animales)",Vt pl,6,1,false,not_assessed
+RHD-SEMC-000002,RHD-ADJ-000005,RHD-CORR-000017,1,internal_reciprocal_documentary_support,RHD-S1809-01939,Jumá,Jumá,"oder Jomá, Alles",359,RD-001183,Juma,Correr,Vi pl,3,1,false,not_assessed
+RHD-SEMC-000003,RHD-ADJ-000020,RHD-CORR-000045,1,internal_reciprocal_documentary_support,RHD-S1809-02333,Taní,Taní,Begehren,366,RD-002451,Tani,Rogar,Vt,3,1,false,not_assessed
+RHD-SEMC-000004,RHD-ADJ-000003,RHD-CORR-000005,1,internal_reciprocal_documentary_support,RHD-S1809-01700,Búra,Búra,Hirſch,355,RD-000341,Burá,Hacer camino,Vt,2,1,false,not_assessed
+RHD-SEMC-000005,RHD-ADJ-000004,RHD-CORR-000011,1,internal_reciprocal_documentary_support,RHD-S1809-01756,Cuná,Cuná,Ehemann,356,RD-000587,Cuná,"Marido, esposo",S,2,1,false,not_assessed
+RHD-SEMC-000006,RHD-ADJ-000019,RHD-CORR-000043,1,internal_reciprocal_documentary_support,RHD-S1809-02331,"Taná, oder raná",Taná,"oder raná, Gebähren",366,RD-002448,Tana,Pedir,Vt,2,1,false,not_assessed
+RHD-SEMC-000007,RHD-ADJ-000021,RHD-CORR-000046,1,internal_reciprocal_documentary_support,RHD-S1809-02335,Tará,Tará,Zählen,366,RD-002453,Tará,Contar,Vt,2,1,false,not_assessed
+RHD-SEMC-000008,RHD-ADJ-000001,RHD-CORR-000004,1,internal_reciprocal_documentary_support,RHD-S1809-01688,Boní,Boní,Schweſter,355,RD-000301,Boní,Hermano menor,S,1,1,false,not_assessed
+RHD-SEMC-000009,RHD-ADJ-000013,RHD-CORR-000036,1,internal_reciprocal_documentary_support,RHD-S1809-02228,Raná,Raná,Gebähren,364,RD-001932,Raná,1. vt Parir 2. s Hijo,,1,1,false,not_assessed
+RHD-SEMC-000010,RHD-ADJ-000016,RHD-CORR-000039,1,internal_reciprocal_documentary_support,RHD-S1809-02250,Ropá,Ropá,Verlassen,365,RD-002164,Ropá,Estómago,S,1,1,false,not_assessed
+RHD-SEMC-000011,RHD-ADJ-000017,RHD-CORR-000042,1,internal_reciprocal_documentary_support,RHD-S1809-02290,Sisí,Sisí,Harnen,365,RD-002349,Sisí,¡Vénganse!,Imper,1,1,false,not_assessed
+RHD-SEMC-000012,RHD-ADJ-000018,RHD-CORR-000044,1,internal_reciprocal_documentary_support,RHD-S1809-02331,"Taná, oder raná",raná,"oder raná, Gebähren",366,RD-001932,Raná,1. vt Parir 2. s Hijo,,1,1,false,not_assessed
+RHD-SEMC-000013,RHD-ADJ-000009,RHD-CORR-000023,1,internal_form_attestation_only,RHD-S1809-02082,Napé,Napé,Nebeneinander,362,RD-001505,Napé,1. Juntarse 2. Juntarse (casar),Vi,4,0,false,not_assessed
+RHD-SEMC-000014,RHD-ADJ-000015,RHD-CORR-000038,1,internal_form_attestation_only,RHD-S1809-02248,Róco,Róco,"Es mangelt, geht ab",365,RD-002110,Rocó,Estar hondo,Vi,3,0,false,not_assessed
+RHD-SEMC-000015,RHD-ADJ-000014,RHD-CORR-000037,1,internal_form_attestation_only,RHD-S1809-02229,"Ráje, oder táje",Ráje,"oder táje, s",364,RD-001923,Rajé,Encender ocote (para alumbrar),Vt,2,0,false,not_assessed
+RHD-SEMC-000016,RHD-ADJ-000006,RHD-CORR-000020,1,internal_form_attestation_only,RHD-S1809-02042,Muni,Muni,ſ,361,RD-001405,Muní,Frijol,S,1,0,false,not_assessed
+RHD-SEMC-000017,RHD-ADJ-000007,RHD-CORR-000021,1,internal_form_attestation_only,RHD-S1809-02043,Múra,Múra,Maulthier,361,RD-001408,Murá,Espiga,S,1,0,false,not_assessed
+RHD-SEMC-000018,RHD-ADJ-000008,RHD-CORR-000022,1,cross_corpus_context_only,RHD-S1809-02045,Musí,Musí,wie die Schleihen,361,RD-001420,Musí,"Tipo de pez negro, bargón",S,0,0,false,not_assessed
+RHD-SEMC-000019,RHD-ADJ-000010,RHD-CORR-000026,1,cross_corpus_context_only,RHD-S1809-02093,Natépa,Natépa,Finden,362,RD-001557,Natepa,Encontrar,Vt,0,0,false,not_assessed
+RHD-SEMC-000020,RHD-ADJ-000011,RHD-CORR-000031,1,cross_corpus_context_only,RHD-S1809-02151,Báca,Báca,ſ,363,RD-000127,Bacá,Carrizo,S,0,0,false,not_assessed
+RHD-SEMC-000021,RHD-ADJ-000012,RHD-CORR-000032,1,cross_corpus_context_only,RHD-S1809-02179,Piri?,Piri,Was?,364,RD-001846,Piri,¿Qué?,,0,0,false,not_assessed
+RHD-SEMC-000022,RHD-ADJ-000026,RHD-CORR-000040,2,internal_reciprocal_documentary_support,RHD-S1809-02284,Simi,Simi,Gehen,365,RD-002301,Simí,Irse,Vi sg,18,1,false,not_assessed
+RHD-SEMC-000023,RHD-ADJ-000027,RHD-CORR-000041,2,internal_reciprocal_documentary_support,RHD-S1809-02284,Simi,Simi,Gehen,365,RD-002302,Simí,Caminar,Vi sg,18,1,false,not_assessed
+RHD-SEMC-000024,RHD-ADJ-000022,RHD-CORR-000015,2,internal_reciprocal_documentary_support,RHD-S1809-01914,Iché,Iché,Dieſer,358,RD-001060,Iché,Hay matas de maíz,Vi,7,1,false,not_assessed
+RHD-SEMC-000025,RHD-ADJ-000023,RHD-CORR-000016,2,internal_reciprocal_documentary_support,RHD-S1809-01914,Iché,Iché,Dieſer,358,RD-001061,Iché,"Picar, punzar, inyectar",Vt,7,1,false,not_assessed
+RHD-SEMC-000026,RHD-ADJ-000032,RHD-CORR-000050,2,internal_reciprocal_documentary_support,RHD-S1809-02491,Upi,Upi,Eheweib,368,RD-002539,Upí,Esposa,S sing,3,1,false,not_assessed
+RHD-SEMC-000027,RHD-ADJ-000024,RHD-CORR-000024,2,internal_reciprocal_documentary_support,RHD-S1809-02092,Nateguí,Nateguí,Lohn,362,RD-001556,Nateguí,Cuesta,,2,1,false,not_assessed
+RHD-SEMC-000028,RHD-ADJ-000025,RHD-CORR-000025,2,internal_reciprocal_documentary_support,RHD-S1809-02092,Nateguí,Nateguí,Lohn,362,RD-001563,"Natiguí, nateguí","Valer, costar",Vi,2,1,false,not_assessed
+RHD-SEMC-000029,RHD-ADJ-000035,RHD-PCORR-000247,2,internal_form_attestation_only,RHD-S1809-02416,Tschapi,Tschapi,Nehmen,367,RD-002493,Tochapi,Pajarito (con pico fino; andan en muchos juntos; vienen en el tiempo de frío),S,7,0,false,not_assessed
+RHD-SEMC-000030,RHD-ADJ-000034,RHD-PCORR-000170,2,internal_form_attestation_only,RHD-S1809-02232,Rauguí,Rauguí,Habicht,364,RD-001968,Rasuguí,Fibra de maguey,S,2,0,false,not_assessed
+RHD-SEMC-000031,RHD-ADJ-000029,RHD-CORR-000002,2,internal_form_attestation_only,RHD-S1809-01649,Ali oder ari,ari,"Aber, ſ",353,RD-000091,Arí,Tarde,Adv,1,0,false,not_assessed
+RHD-SEMC-000032,RHD-ADJ-000030,RHD-CORR-000003,2,internal_form_attestation_only,RHD-S1809-01655,Ari,Ari,"ein Anruf, mit welchem man die belaſteten Maulthiere antreibt",354,RD-000091,Arí,Tarde,Adv,1,0,false,not_assessed
+RHD-SEMC-000033,RHD-ADJ-000028,RHD-CORR-000001,2,cross_corpus_context_only,RHD-S1809-00026,Abé,Abé,dort,353,RD-000002,Abé,Hoy,Adv,0,0,false,not_assessed
+RHD-SEMC-000034,RHD-ADJ-000031,RHD-CORR-000047,2,cross_corpus_context_only,RHD-S1809-02350,Té,Té,Lauf,366,RD-002462,Te,"Tejer, extender (hilos para tejer)",Vi,0,0,false,not_assessed
+RHD-SEMC-000035,RHD-ADJ-000033,RHD-PCORR-000207,2,cross_corpus_context_only,RHD-S1809-02295,Sopeichi,Sopeichi,Fledermaus,365,RD-002386,"Sopichí, supuchí",Murciélago,S,0,0,false,not_assessed
+RHD-SEMC-000036,RHD-ADJ-000036,RHD-CORR-000009,2,cross_corpus_context_only,RHD-S1809-01723,Có oder gö,Có,"iſt eine Anhängsſylbe, welche der Bedeutung des Wortes, dem ſie beygeſetzt iſt, einen Nachdruck giebt, z",355,RD-000472,co,Ser (Cuando uno dice: Echirigá ju. Así es. El otro contesta: Echirigá co. Así es.),Vi,0,0,false,not_assessed
+RHD-SEMC-000037,RHD-ADJ-000037,RHD-CORR-000010,2,cross_corpus_context_only,RHD-S1809-01723,Có oder gö,Có,"iſt eine Anhängsſylbe, welche der Bedeutung des Wortes, dem ſie beygeſetzt iſt, einen Nachdruck giebt, z",355,RD-000473,co,Picar (chile) Echi co'huáami huabé cóori. Ésa comida estaba muy picante. [pret: cóori; fut.: córama],Vi,0,0,false,not_assessed
+RHD-SEMC-000038,RHD-ADJ-000038,RHD-CORR-000018,2,cross_corpus_context_only,RHD-S1809-01987,Lá,Lá,Dahin,360,RD-001189,La,Sangre,S,0,0,false,not_assessed
+RHD-SEMC-000039,RHD-ADJ-000039,RHD-CORR-000019,2,cross_corpus_context_only,RHD-S1809-01987,Lá,Lá,Dahin,360,RD-001190,La,Hacer enramada,Vt,0,0,false,not_assessed
+RHD-SEMC-000040,RHD-ADJ-000040,RHD-CORR-000027,2,cross_corpus_context_only,RHD-S1809-02101,Né,Né,Ich,362,RD-001573,‘Né,Ver,Vt,0,0,false,not_assessed
+RHD-SEMC-000041,RHD-ADJ-000041,RHD-CORR-000028,2,cross_corpus_context_only,RHD-S1809-02101,Né,Né,Ich,362,RD-001574,‘Ne,"Mirar, observar",Vt,0,0,false,not_assessed
+RHD-SEMC-000042,RHD-ADJ-000042,RHD-CORR-000029,2,cross_corpus_context_only,RHD-S1809-02147,Pá,Pá,ſ,363,RD-001791,Pa,Traer,Vt,0,0,false,not_assessed
+RHD-SEMC-000043,RHD-ADJ-000043,RHD-CORR-000030,2,cross_corpus_context_only,RHD-S1809-02147,Pá,Pá,ſ,363,RD-001792,Pa,Tirar,Vt,0,0,false,not_assessed
+RHD-SEMC-000044,RHD-ADJ-000044,RHD-CORR-000033,2,cross_corpus_context_only,RHD-S1809-02202,Pú,Pú,"puhé, Sein, das zueignende Fürwort",364,RD-001854,Pu,Ponerse una faja,Vi,0,0,false,not_assessed
+RHD-SEMC-000045,RHD-ADJ-000045,RHD-CORR-000034,2,cross_corpus_context_only,RHD-S1809-02202,Pú,Pú,"puhé, Sein, das zueignende Fürwort",364,RD-001855,Pu’,Faisán,S,0,0,false,not_assessed
+RHD-SEMC-000046,RHD-ADJ-000046,RHD-CORR-000048,2,cross_corpus_context_only,RHD-S1809-02401,Tó,Tó,Bringen,367,RD-002489,To,"Llevar, tomar",Vt,0,0,false,not_assessed
+RHD-SEMC-000047,RHD-ADJ-000047,RHD-CORR-000049,2,cross_corpus_context_only,RHD-S1809-02401,Tó,Tó,Bringen,367,RD-002490,To,Enterrar,Vt,0,0,false,not_assessed
+RHD-SEMC-000048,RHD-ADJ-000048,RHD-CORR-000006,2,cross_corpus_context_only,RHD-S1809-01702,Ca,Ca,"oder guacá, Daher",355,RD-000357,ca,Llevar (en la mano),Vi,0,0,false,not_assessed
+RHD-SEMC-000049,RHD-ADJ-000049,RHD-CORR-000007,2,cross_corpus_context_only,RHD-S1809-01702,Ca,Ca,"oder guacá, Daher",355,RD-000358,ca,Traer,Vi,0,0,false,not_assessed
+RHD-SEMC-000050,RHD-ADJ-000050,RHD-CORR-000008,2,cross_corpus_context_only,RHD-S1809-01702,Ca,Ca,"oder guacá, Daher",355,RD-000359,ca,Hacer sombra,Vi,0,0,false,not_assessed
+RHD-SEMC-000051,RHD-ADJ-000051,RHD-CORR-000012,2,cross_corpus_context_only,RHD-S1809-01763,Cú,Cú,"oder hecú, Zurück",356,RD-000555,Cu,Otra vez,Adv,0,0,false,not_assessed
+RHD-SEMC-000052,RHD-ADJ-000052,RHD-CORR-000013,2,cross_corpus_context_only,RHD-S1809-01763,Cú,Cú,"oder hecú, Zurück",356,RD-000556,Cu,"Leña, madera",S,0,0,false,not_assessed
+RHD-SEMC-000053,RHD-ADJ-000053,RHD-CORR-000014,2,cross_corpus_context_only,RHD-S1809-01763,Cú,Cú,"oder hecú, Zurück",356,RD-000557,Cu,"1. Comer (esquite, granos enteros, fruta dura). Saquí cubo, vamos a comer esquite. 2. Morder. Ta tohuí biré corí cumiri. El niño mordió un chile.",Vi,0,0,false,not_assessed
+RHD-SEMC-000054,RHD-ADJ-000262,RHD-PCORR-000192,3,internal_reciprocal_documentary_support,RHD-S1809-02282,Siká,Siká,"Hauen, zerſchneiden",365,RD-002274,Sicá,Trasquilar,Vt,7,2,false,not_assessed
+RHD-SEMC-000055,RHD-ADJ-000263,RHD-PCORR-000193,3,internal_reciprocal_documentary_support,RHD-S1809-02282,Siká,Siká,"Hauen, zerſchneiden",365,RD-002275,Sicá,Brazo,Vt,7,2,false,not_assessed
+RHD-SEMC-000056,RHD-ADJ-000264,RHD-PCORR-000194,3,internal_reciprocal_documentary_support,RHD-S1809-02282,Siká,Siká,"Hauen, zerſchneiden",365,RD-002296,Simá,Irse,Vi pl,7,2,false,not_assessed
+RHD-SEMC-000057,RHD-ADJ-000059,RHD-PCORR-000186,3,internal_reciprocal_documentary_support,RHD-S1809-02259,Sapáca,Sapáca,Fleisch,365,RD-002240,Sapará,Engordarse,Vi,3,2,false,not_assessed
+RHD-SEMC-000058,RHD-ADJ-000100,RHD-PCORR-000046,3,internal_reciprocal_documentary_support,RHD-S1809-01704,Cajena,Cajena,"Vollenden, verfertigen, ausmachen",355,RD-000388,Cajera,"Cáscara delgada, vaina",S,3,2,false,not_assessed
+RHD-SEMC-000059,RHD-ADJ-000101,RHD-PCORR-000047,3,internal_reciprocal_documentary_support,RHD-S1809-01704,Cajena,Cajena,"Vollenden, verfertigen, ausmachen",355,RD-000470,Cayena,"1. terminar, levantar 2. cosechar",Vt,3,2,false,not_assessed
+RHD-SEMC-000060,RHD-ADJ-000111,RHD-PCORR-000033,3,internal_reciprocal_documentary_support,RHD-S1809-01683,Báſſa,Báſſa,"Acker, Feld",354,RD-000155,Baisá,Tercero,Adv,3,2,false,not_assessed
+RHD-SEMC-000061,RHD-ADJ-000112,RHD-PCORR-000034,3,internal_reciprocal_documentary_support,RHD-S1809-01683,Báſſa,Báſſa,"Acker, Feld",354,RD-000195,Basá,Apedrear,Vt,3,2,false,not_assessed
+RHD-SEMC-000062,RHD-ADJ-000067,RHD-PCORR-000057,3,internal_reciprocal_documentary_support,RHD-S1809-01750,Cugué,Cugué,"Spät, Nacht",356,RD-000569,Cuhué,El tiempo de calor (antes de las lluvias),S,2,2,false,not_assessed
+RHD-SEMC-000063,RHD-ADJ-000185,RHD-PCORR-000017,3,internal_reciprocal_documentary_support,RHD-S1809-01653,Balá,Balá,"Beladen, beſchweren, aufladen",354,RD-000127,Bacá,Carrizo,S,2,2,false,not_assessed
+RHD-SEMC-000064,RHD-ADJ-000186,RHD-PCORR-000018,3,internal_reciprocal_documentary_support,RHD-S1809-01653,Balá,Balá,"Beladen, beſchweren, aufladen",354,RD-000174,Baná,Mejilla,S,2,2,false,not_assessed
+RHD-SEMC-000065,RHD-ADJ-000187,RHD-PCORR-000019,3,internal_reciprocal_documentary_support,RHD-S1809-01653,Balá,Balá,"Beladen, beſchweren, aufladen",354,RD-000184,Bapá,Apedrear,Vt,2,2,false,not_assessed
+RHD-SEMC-000066,RHD-ADJ-000265,RHD-PCORR-000195,3,internal_reciprocal_documentary_support,RHD-S1809-02284,Simi,Simi,Gehen,365,RD-002296,Simá,Irse,Vi pl,18,1,false,not_assessed
+RHD-SEMC-000067,RHD-ADJ-000266,RHD-PCORR-000196,3,internal_reciprocal_documentary_support,RHD-S1809-02284,Simi,Simi,Gehen,365,RD-002299,Simé,Tocar (instrumento musical),Vt,18,1,false,not_assessed
+RHD-SEMC-000068,RHD-ADJ-000267,RHD-PCORR-000197,3,internal_reciprocal_documentary_support,RHD-S1809-02284,Simi,Simi,Gehen,365,RD-002323,Sipí,"Enfriarse (p. ej.: comida, agua)",Vi,18,1,false,not_assessed
+RHD-SEMC-000069,RHD-ADJ-000082,RHD-PCORR-000009,3,internal_reciprocal_documentary_support,RHD-S1809-00046,Jolá,Jolá,Machen,359,RD-001169,Jora,Escarbar (un hoyo),Vt,9,1,false,not_assessed
+RHD-SEMC-000070,RHD-ADJ-000205,RHD-PCORR-000072,3,internal_reciprocal_documentary_support,RHD-S1809-01914,Iché,Iché,Dieſer,358,RD-001058,Ichá,Sembrar,Vt,7,1,false,not_assessed
+RHD-SEMC-000071,RHD-ADJ-000206,RHD-PCORR-000073,3,internal_reciprocal_documentary_support,RHD-S1809-01914,Iché,Iché,Dieſer,358,RD-001062,Ichí,Matas de maíz,S,7,1,false,not_assessed
+RHD-SEMC-000072,RHD-ADJ-000116,RHD-PCORR-000155,3,internal_reciprocal_documentary_support,RHD-S1809-02203,Pugué,Pugué,Warten,364,RD-001806,Pagué,Remojar,Vt,6,1,false,not_assessed
+RHD-SEMC-000073,RHD-ADJ-000165,RHD-PCORR-000119,3,internal_reciprocal_documentary_support,RHD-S1809-02061,Naguá,Naguá,Kommen,362,RD-001461,‘Nagá,Mirando,,5,1,false,not_assessed
+RHD-SEMC-000074,RHD-ADJ-000166,RHD-PCORR-000120,3,internal_reciprocal_documentary_support,RHD-S1809-02061,Naguá,Naguá,Kommen,362,RD-001462,Nahuá,Llegar,Vi sing,5,1,false,not_assessed
+RHD-SEMC-000075,RHD-ADJ-000167,RHD-PCORR-000121,3,internal_reciprocal_documentary_support,RHD-S1809-02061,Naguá,Naguá,Kommen,362,RD-001463,Nahuá,Raíz,S,5,1,false,not_assessed
+RHD-SEMC-000076,RHD-ADJ-000168,RHD-PCORR-000123,3,internal_reciprocal_documentary_support,RHD-S1809-02079,Napá,Napá,Beysammen,362,RD-001432,Náapa,Alcanzar,Vt,5,1,false,not_assessed
+RHD-SEMC-000077,RHD-ADJ-000169,RHD-PCORR-000124,3,internal_reciprocal_documentary_support,RHD-S1809-02079,Napá,Napá,Beysammen,362,RD-001506,Napéa,"También, con, juntos",Adv,5,1,false,not_assessed
+RHD-SEMC-000078,RHD-ADJ-000232,RHD-PCORR-000125,3,internal_reciprocal_documentary_support,RHD-S1809-02079,Napá,Napá,Beysammen,362,RD-001437,‘Naca,"De lejos, de un lado",Adv,5,1,false,not_assessed
+RHD-SEMC-000079,RHD-ADJ-000070,RHD-PCORR-000084,3,internal_reciprocal_documentary_support,RHD-S1809-01995,Loguí,Loguí,Rasen,360,RD-001213,Lohuí,"Tener rabia, estar loco (que anda corriendo)",Vi,4,1,false,not_assessed
+RHD-SEMC-000080,RHD-ADJ-000077,RHD-PCORR-000244,3,internal_reciprocal_documentary_support,RHD-S1809-02408,Tſani,Tſani,Sagen,367,RD-002451,Tani,Rogar,Vt,4,1,false,not_assessed
+RHD-SEMC-000081,RHD-ADJ-000235,RHD-PCORR-000133,3,internal_reciprocal_documentary_support,RHD-S1809-02107,Nené,Nené,Sehen,362,RD-001489,Nané,Sonar mucho,Vi,4,1,false,not_assessed
+RHD-SEMC-000082,RHD-ADJ-000236,RHD-PCORR-000134,3,internal_reciprocal_documentary_support,RHD-S1809-02107,Nené,Nené,Sehen,362,RD-001583,‘Nena,Estar mirando,Vi,4,1,false,not_assessed
+RHD-SEMC-000083,RHD-ADJ-000237,RHD-PCORR-000135,3,internal_reciprocal_documentary_support,RHD-S1809-02107,Nené,Nené,Sehen,362,RD-001584,‘Neni,Mirar,Vi,4,1,false,not_assessed
+RHD-SEMC-000084,RHD-ADJ-000055,RHD-PCORR-000030,3,internal_reciprocal_documentary_support,RHD-S1809-01680,Batáni,Batáni,In Gegenwart,354,RD-000210,Batari,Tesgüino,S,3,1,false,not_assessed
+RHD-SEMC-000085,RHD-ADJ-000087,RHD-PCORR-000066,3,internal_reciprocal_documentary_support,RHD-S1809-01802,Gané,Gané,Recht gut,357,RD-000859,Garé,"Amar, querer (véase 2caré)",Vt,3,1,false,not_assessed
+RHD-SEMC-000086,RHD-ADJ-000089,RHD-PCORR-000071,3,internal_reciprocal_documentary_support,RHD-S1809-01903,Huli,Huli,"Ein anderer, anderes",358,RD-000991,Huíi,"Lanzar, amarrar (un animal)",Vt,3,1,false,not_assessed
+RHD-SEMC-000087,RHD-ADJ-000093,RHD-PCORR-000146,3,internal_reciprocal_documentary_support,RHD-S1809-02129,Nulá,Nulá,Befehlen,363,RD-001688,Nurá,"Mandar, ordenar",Vi,3,1,false,not_assessed
+RHD-SEMC-000088,RHD-ADJ-000160,RHD-PCORR-000078,3,internal_reciprocal_documentary_support,RHD-S1809-01939,Jumá,Jumá,"oder Jomá, Alles",359,RD-001184,Jumsa,Huir,Vi pl,3,1,false,not_assessed
+RHD-SEMC-000089,RHD-ADJ-000161,RHD-PCORR-000079,3,internal_reciprocal_documentary_support,RHD-S1809-01939,Jumá,Jumá,"oder Jomá, Alles",359,RD-001185,Jumta,Echar a correr,Vt,3,1,false,not_assessed
+RHD-SEMC-000090,RHD-ADJ-000194,RHD-PCORR-000040,3,internal_reciprocal_documentary_support,RHD-S1809-01697,Bulá,Bulá,Binden,355,RD-000338,Buná,1. Agacharse 2. Inclinarse,Vi,3,1,false,not_assessed
+RHD-SEMC-000091,RHD-ADJ-000195,RHD-PCORR-000041,3,internal_reciprocal_documentary_support,RHD-S1809-01697,Bulá,Bulá,Binden,355,RD-000341,Burá,Hacer camino,Vt,3,1,false,not_assessed
+RHD-SEMC-000092,RHD-ADJ-000196,RHD-PCORR-000042,3,internal_reciprocal_documentary_support,RHD-S1809-01697,Bulá,Bulá,Binden,355,RD-000349,Busá,Despertarse,Vi,3,1,false,not_assessed
+RHD-SEMC-000093,RHD-ADJ-000207,RHD-PCORR-000080,3,internal_reciprocal_documentary_support,RHD-S1809-01939,Jumá,Jumá,"oder Jomá, Alles",359,RD-001152,Jima,Subir,Vi pl,3,1,false,not_assessed
+RHD-SEMC-000094,RHD-ADJ-000274,RHD-PCORR-000213,3,internal_reciprocal_documentary_support,RHD-S1809-02321,Talá,Talá,Fuß,366,RD-002435,Tabá,Ponerse la zapeta (taparrabo que se lleva en lugar de pantalón),Vi,3,1,false,not_assessed
+RHD-SEMC-000095,RHD-ADJ-000275,RHD-PCORR-000214,3,internal_reciprocal_documentary_support,RHD-S1809-02321,Talá,Talá,Fuß,366,RD-002436,Taba,Luchar,Vi,3,1,false,not_assessed
+RHD-SEMC-000096,RHD-ADJ-000276,RHD-PCORR-000215,3,internal_reciprocal_documentary_support,RHD-S1809-02321,Talá,Talá,Fuß,366,RD-002443,Taca,Tocar (instrumento musical),Vt,3,1,false,not_assessed
+RHD-SEMC-000097,RHD-ADJ-000286,RHD-PCORR-000228,3,internal_reciprocal_documentary_support,RHD-S1809-02333,Taní,Taní,Begehren,366,RD-002444,Tamí,"Me, a mi",Pron,3,1,false,not_assessed
+RHD-SEMC-000098,RHD-ADJ-000287,RHD-PCORR-000229,3,internal_reciprocal_documentary_support,RHD-S1809-02333,Taní,Taní,Begehren,366,RD-002448,Tana,Pedir,Vt,3,1,false,not_assessed
+RHD-SEMC-000099,RHD-ADJ-000288,RHD-PCORR-000230,3,internal_reciprocal_documentary_support,RHD-S1809-02333,Taní,Taní,Begehren,366,RD-002456,Tarí,Semilla (para sembrar),S,3,1,false,not_assessed
+RHD-SEMC-000100,RHD-ADJ-000091,RHD-PCORR-000083,3,internal_reciprocal_documentary_support,RHD-S1809-01989,Lála,Lála,So ziemlich,360,RD-001191,Labá,"Hueja redonda (reg.), jícara",S,2,1,false,not_assessed
+RHD-SEMC-000101,RHD-ADJ-000096,RHD-PCORR-000191,3,internal_reciprocal_documentary_support,RHD-S1809-02278,Sevá,Sevá,Gelangen,365,RD-002263,Seba,"1. Alcanzar, llegar 2. Lograr 3. Llegar a ser",Vt,2,1,false,not_assessed
+RHD-SEMC-000102,RHD-ADJ-000098,RHD-PCORR-000237,3,internal_reciprocal_documentary_support,RHD-S1809-02366,Tocó,Tocó,Begraben,367,RD-002480,"Tigó, ticó","Cercar, hacer (con piedra)",Vt,2,1,false,not_assessed
+RHD-SEMC-000103,RHD-ADJ-000133,RHD-PCORR-000130,3,internal_reciprocal_documentary_support,RHD-S1809-02092,Nateguí,Nateguí,Lohn,362,RD-001563,"Natiguí, nateguí","Valer, costar",Vi,2,1,false,not_assessed
+RHD-SEMC-000104,RHD-ADJ-000142,RHD-PCORR-000208,3,internal_reciprocal_documentary_support,RHD-S1809-02306,Sulí,Sulí,Verbieten,366,RD-002416,Suní,"Terminar, acabar, cumplir",Vt,2,1,false,not_assessed
+RHD-SEMC-000105,RHD-ADJ-000143,RHD-PCORR-000209,3,internal_reciprocal_documentary_support,RHD-S1809-02306,Sulí,Sulí,Verbieten,366,RD-002425,Surí,1. No querer convidar 2. No querer dejarle ir,Vi,2,1,false,not_assessed
+RHD-SEMC-000106,RHD-ADJ-000156,RHD-PCORR-000058,3,internal_reciprocal_documentary_support,RHD-S1809-01756,Cuná,Cuná,Ehemann,356,RD-000807,Chuná,Higuera,S,2,1,false,not_assessed
+RHD-SEMC-000107,RHD-ADJ-000173,RHD-PCORR-000156,3,internal_reciprocal_documentary_support,RHD-S1809-02217,Rachá,Rachá,"Es iſt heiß, es brennt",364,RD-001899,Racá,Semilla,S,2,1,false,not_assessed
+RHD-SEMC-000108,RHD-ADJ-000174,RHD-PCORR-000157,3,internal_reciprocal_documentary_support,RHD-S1809-02217,Rachá,Rachá,"Es iſt heiß, es brennt",364,RD-001904,Rachí,Aplastarse,Vi,2,1,false,not_assessed
+RHD-SEMC-000109,RHD-ADJ-000175,RHD-PCORR-000158,3,internal_reciprocal_documentary_support,RHD-S1809-02217,Rachá,Rachá,"Es iſt heiß, es brennt",364,RD-002120,Rochá,Lagartija negra,S,2,1,false,not_assessed
+RHD-SEMC-000110,RHD-ADJ-000188,RHD-PCORR-000023,3,internal_reciprocal_documentary_support,RHD-S1809-01665,Bajé,Bajé,Rufen,354,RD-000158,Bají,"Tomar, beber (tesgüino, agua)",Vi,2,1,false,not_assessed
+RHD-SEMC-000111,RHD-ADJ-000189,RHD-PCORR-000024,3,internal_reciprocal_documentary_support,RHD-S1809-01665,Bajé,Bajé,Rufen,354,RD-000177,Bané,Tener mejillas.,Vi,2,1,false,not_assessed
+RHD-SEMC-000112,RHD-ADJ-000190,RHD-PCORR-000025,3,internal_reciprocal_documentary_support,RHD-S1809-01665,Bajé,Bajé,Rufen,354,RD-000192,Baré,Cura,S,2,1,false,not_assessed
+RHD-SEMC-000113,RHD-ADJ-000197,RHD-PCORR-000043,3,internal_reciprocal_documentary_support,RHD-S1809-01700,Búra,Búra,Hirſch,355,RD-000187,Bará,El tiempo de lluvias,S,2,1,false,not_assessed
+RHD-SEMC-000114,RHD-ADJ-000198,RHD-PCORR-000044,3,internal_reciprocal_documentary_support,RHD-S1809-01700,Búra,Búra,Hirſch,355,RD-000338,Buná,1. Agacharse 2. Inclinarse,Vi,2,1,false,not_assessed
+RHD-SEMC-000115,RHD-ADJ-000199,RHD-PCORR-000045,3,internal_reciprocal_documentary_support,RHD-S1809-01700,Búra,Búra,Hirſch,355,RD-000342,Buré,Amarrar,Vi,2,1,false,not_assessed
+RHD-SEMC-000116,RHD-ADJ-000203,RHD-PCORR-000059,3,internal_reciprocal_documentary_support,RHD-S1809-01756,Cuná,Cuná,Ehemann,356,RD-000513,Coná,Tostar,Vt,2,1,false,not_assessed
+RHD-SEMC-000117,RHD-ADJ-000204,RHD-PCORR-000060,3,internal_reciprocal_documentary_support,RHD-S1809-01756,Cuná,Cuná,Ehemann,356,RD-000514,Coná,Sal,S,2,1,false,not_assessed
+RHD-SEMC-000118,RHD-ADJ-000217,RHD-PCORR-000100,3,internal_reciprocal_documentary_support,RHD-S1809-02023,Mujá,Mujá,Schimmeln,361,RD-001248,"Majá, majahuá",Tener miedo,Vi,2,1,false,not_assessed
+RHD-SEMC-000119,RHD-ADJ-000218,RHD-PCORR-000101,3,internal_reciprocal_documentary_support,RHD-S1809-02023,Mujá,Mujá,Schimmeln,361,RD-001401,Mujé,"Tú, usted",Pron,2,1,false,not_assessed
+RHD-SEMC-000120,RHD-ADJ-000219,RHD-PCORR-000102,3,internal_reciprocal_documentary_support,RHD-S1809-02023,Mujá,Mujá,Schimmeln,361,RD-001403,Muná,Subir (de tierra baja),Vi,2,1,false,not_assessed
+RHD-SEMC-000121,RHD-ADJ-000226,RHD-PCORR-000113,3,internal_reciprocal_documentary_support,RHD-S1809-02044,Múla,Múla,"oder mila, Katze",361,RD-001403,Muná,Subir (de tierra baja),Vi,2,1,false,not_assessed
+RHD-SEMC-000122,RHD-ADJ-000227,RHD-PCORR-000114,3,internal_reciprocal_documentary_support,RHD-S1809-02044,Múla,Múla,"oder mila, Katze",361,RD-001408,Murá,Espiga,S,2,1,false,not_assessed
+RHD-SEMC-000123,RHD-ADJ-000228,RHD-PCORR-000115,3,internal_reciprocal_documentary_support,RHD-S1809-02044,Múla,Múla,"oder mila, Katze",361,RD-001427,Muyá,"Pudrirse (maíz, trapo mojado, cosa enterrada, madera)",Vi,2,1,false,not_assessed
+RHD-SEMC-000124,RHD-ADJ-000283,RHD-PCORR-000222,3,internal_reciprocal_documentary_support,RHD-S1809-02331,"Taná, oder raná",Taná,"oder raná, Gebähren",366,RD-002435,Tabá,Ponerse la zapeta (taparrabo que se lleva en lugar de pantalón),Vi,2,1,false,not_assessed
+RHD-SEMC-000125,RHD-ADJ-000284,RHD-PCORR-000223,3,internal_reciprocal_documentary_support,RHD-S1809-02331,"Taná, oder raná",Taná,"oder raná, Gebähren",366,RD-002436,Taba,Luchar,Vi,2,1,false,not_assessed
+RHD-SEMC-000126,RHD-ADJ-000285,RHD-PCORR-000224,3,internal_reciprocal_documentary_support,RHD-S1809-02331,"Taná, oder raná",Taná,"oder raná, Gebähren",366,RD-002443,Taca,Tocar (instrumento musical),Vt,2,1,false,not_assessed
+RHD-SEMC-000127,RHD-ADJ-000289,RHD-PCORR-000231,3,internal_reciprocal_documentary_support,RHD-S1809-02335,Tará,Tará,Zählen,366,RD-002435,Tabá,Ponerse la zapeta (taparrabo que se lleva en lugar de pantalón),Vi,2,1,false,not_assessed
+RHD-SEMC-000128,RHD-ADJ-000290,RHD-PCORR-000232,3,internal_reciprocal_documentary_support,RHD-S1809-02335,Tará,Tará,Zählen,366,RD-002436,Taba,Luchar,Vi,2,1,false,not_assessed
+RHD-SEMC-000129,RHD-ADJ-000291,RHD-PCORR-000233,3,internal_reciprocal_documentary_support,RHD-S1809-02335,Tará,Tará,Zählen,366,RD-002443,Taca,Tocar (instrumento musical),Vt,2,1,false,not_assessed
+RHD-SEMC-000130,RHD-ADJ-000058,RHD-PCORR-000122,3,internal_reciprocal_documentary_support,RHD-S1809-02066,Najási,Najási,Gar sehr lang,362,RD-001529,Narasi,Naranja,S,1,1,false,not_assessed
+RHD-SEMC-000131,RHD-ADJ-000062,RHD-PCORR-000221,3,internal_reciprocal_documentary_support,RHD-S1809-02330,Tamulé,Tamulé,"Schelle, Klapper",366,RD-002445,Tamujé,Nosotros,Pron,1,1,false,not_assessed
+RHD-SEMC-000132,RHD-ADJ-000064,RHD-PCORR-000001,3,internal_reciprocal_documentary_support,RHD-S1809-00027,Abiti oder Apiti,Abiti,ein kleines Kind,353,RD-000004,Abijí,"Todavía, aún",Adv,1,1,false,not_assessed
+RHD-SEMC-000133,RHD-ADJ-000065,RHD-PCORR-000016,3,internal_reciprocal_documentary_support,RHD-S1809-00058,Peguá,Peguá,Es iſt hart,363,RD-001827,Pehua,Fumar,Vi,1,1,false,not_assessed
+RHD-SEMC-000134,RHD-ADJ-000074,RHD-PCORR-000210,3,internal_reciprocal_documentary_support,RHD-S1809-02309,Tápoa,Tápoa,"Aufſpielen, Muſik machen",366,RD-002452,Tapa,"Acarrear, traer (en las manos)",Vt pl,1,1,false,not_assessed
+RHD-SEMC-000135,RHD-ADJ-000075,RHD-PCORR-000211,3,internal_reciprocal_documentary_support,RHD-S1809-02315,Taicá,Taicá,Sonne,366,RD-002443,Taca,Tocar (instrumento musical),Vt,1,1,false,not_assessed
+RHD-SEMC-000136,RHD-ADJ-000076,RHD-PCORR-000243,3,internal_reciprocal_documentary_support,RHD-S1809-02403,Togui,Togui,Knab,367,RD-002494,Tohuí,"Muchacho, niño",S sing,1,1,false,not_assessed
+RHD-SEMC-000137,RHD-ADJ-000080,RHD-PCORR-000007,3,internal_reciprocal_documentary_support,RHD-S1809-00042,Jejé,Jejé,Mutter,358,RD-001141,Jeré,Así es,,1,1,false,not_assessed
+RHD-SEMC-000138,RHD-ADJ-000083,RHD-PCORR-000012,3,internal_reciprocal_documentary_support,RHD-S1809-00049,Páli,Páli,Prieſter,363,RD-001809,Paní,Arriba (en la falda),Adv,1,1,false,not_assessed
+RHD-SEMC-000139,RHD-ADJ-000092,RHD-PCORR-000096,3,internal_reciprocal_documentary_support,RHD-S1809-02015,Molé,Molé,Weihrauch,361,RD-001364,Moré,Sahumar,Vi,1,1,false,not_assessed
+RHD-SEMC-000140,RHD-ADJ-000106,RHD-PCORR-000010,3,internal_reciprocal_documentary_support,RHD-S1809-00047,Pahí,Pahí,Trinken,363,RD-001799,Pachí,"1. s Elote, mazorca 2. vi Hay elotes",,1,1,false,not_assessed
+RHD-SEMC-000141,RHD-ADJ-000117,RHD-PCORR-000175,3,internal_reciprocal_documentary_support,RHD-S1809-02249,Roguí,Roguí,Kaninchen,365,RD-002133,Rohuí,Conejo,S,1,1,false,not_assessed
+RHD-SEMC-000142,RHD-ADJ-000118,RHD-PCORR-000176,3,internal_reciprocal_documentary_support,RHD-S1809-02249,Roguí,Roguí,Kaninchen,365,RD-002146,Rojuí,Bellota,S,1,1,false,not_assessed
+RHD-SEMC-000143,RHD-ADJ-000121,RHD-PCORR-000011,3,internal_reciprocal_documentary_support,RHD-S1809-00047,Pahí,Pahí,Trinken,363,RD-001809,Paní,Arriba (en la falda),Adv,1,1,false,not_assessed
+RHD-SEMC-000144,RHD-ADJ-000122,RHD-PCORR-000035,3,internal_reciprocal_documentary_support,RHD-S1809-01688,Boní,Boní,Schweſter,355,RD-000263,Biní,Hermana menor (de mujer),S,1,1,false,not_assessed
+RHD-SEMC-000145,RHD-ADJ-000123,RHD-PCORR-000053,3,internal_reciprocal_documentary_support,RHD-S1809-01737,Coló,Coló,"Kranich, ſ",355,RD-000536,Coró,"Zopilote pinto, rayado",S,1,1,false,not_assessed
+RHD-SEMC-000146,RHD-ADJ-000124,RHD-PCORR-000054,3,internal_reciprocal_documentary_support,RHD-S1809-01737,Coló,Coló,"Kranich, ſ",355,RD-000547,Cosó,Ahogarse (al tragar).,Vi,1,1,false,not_assessed
+RHD-SEMC-000147,RHD-ADJ-000125,RHD-PCORR-000076,3,internal_reciprocal_documentary_support,RHD-S1809-01937,Jukí,Jukí,Donnerschlag,359,RD-001181,Jubí,Esposas,S pl,1,1,false,not_assessed
+RHD-SEMC-000148,RHD-ADJ-000126,RHD-PCORR-000077,3,internal_reciprocal_documentary_support,RHD-S1809-01937,Jukí,Jukí,Donnerschlag,359,RD-001188,Juri,"Sí, seguro",Adv,1,1,false,not_assessed
+RHD-SEMC-000149,RHD-ADJ-000127,RHD-PCORR-000081,3,internal_reciprocal_documentary_support,RHD-S1809-01988,Láca,Láca,"Blut, s",360,RD-001191,Labá,"Hueja redonda (reg.), jícara",S,1,1,false,not_assessed
+RHD-SEMC-000150,RHD-ADJ-000128,RHD-PCORR-000082,3,internal_reciprocal_documentary_support,RHD-S1809-01988,Láca,Láca,"Blut, s",360,RD-001205,Loca,"Batir, mezclar (pinole en agua)",Vt,1,1,false,not_assessed
+RHD-SEMC-000151,RHD-ADJ-000134,RHD-PCORR-000140,3,internal_reciprocal_documentary_support,RHD-S1809-02120,Nokí,Nokí,Bewegen,362,RD-001677,Norí,Nube,S,1,1,false,not_assessed
+RHD-SEMC-000152,RHD-ADJ-000135,RHD-PCORR-000141,3,internal_reciprocal_documentary_support,RHD-S1809-02120,Nokí,Nokí,Bewegen,362,RD-001678,Norí,Vuelta,S,1,1,false,not_assessed
+RHD-SEMC-000153,RHD-ADJ-000136,RHD-PCORR-000142,3,internal_reciprocal_documentary_support,RHD-S1809-02121,Nolá,Nolá,Sohn,362,RD-001647,Nocá,Moverse,Vi,1,1,false,not_assessed
+RHD-SEMC-000154,RHD-ADJ-000137,RHD-PCORR-000143,3,internal_reciprocal_documentary_support,RHD-S1809-02121,Nolá,Nolá,Sohn,362,RD-001670,‘Nora,Traer,Vt,1,1,false,not_assessed
+RHD-SEMC-000155,RHD-ADJ-000138,RHD-PCORR-000144,3,internal_reciprocal_documentary_support,RHD-S1809-02122,Nolé,Nolé,"Es überzieht ſich, wird trüb, wolkig",362,RD-001672,Noré,Rodear,Vt,1,1,false,not_assessed
+RHD-SEMC-000156,RHD-ADJ-000139,RHD-PCORR-000145,3,internal_reciprocal_documentary_support,RHD-S1809-02122,Nolé,Nolé,"Es überzieht ſich, wird trüb, wolkig",362,RD-001673,Noré,Estar nublado,Vi,1,1,false,not_assessed
+RHD-SEMC-000157,RHD-ADJ-000150,RHD-PCORR-000002,3,internal_reciprocal_documentary_support,RHD-S1809-00029,Acáca,Acáca,Speichel,353,RD-000009,Acará,Poner (huaraches),Vi,1,1,false,not_assessed
+RHD-SEMC-000158,RHD-ADJ-000151,RHD-PCORR-000003,3,internal_reciprocal_documentary_support,RHD-S1809-00029,Acáca,Acáca,Speichel,353,RD-000021,Acaná,Boca abajo,Adv,1,1,false,not_assessed
+RHD-SEMC-000159,RHD-ADJ-000152,RHD-PCORR-000004,3,internal_reciprocal_documentary_support,RHD-S1809-00029,Acáca,Acáca,Speichel,353,RD-000023,Acará,Herrar,Vt,1,1,false,not_assessed
+RHD-SEMC-000160,RHD-ADJ-000157,RHD-PCORR-000061,3,internal_reciprocal_documentary_support,RHD-S1809-01764,Cutsi,Cutsi,Kurz,356,RD-000601,Cursi,Cruz,S,1,1,false,not_assessed
+RHD-SEMC-000161,RHD-ADJ-000158,RHD-PCORR-000062,3,internal_reciprocal_documentary_support,RHD-S1809-01764,Cutsi,Cutsi,Kurz,356,RD-000614,Cusí,Palo,S,1,1,false,not_assessed
+RHD-SEMC-000162,RHD-ADJ-000159,RHD-PCORR-000063,3,internal_reciprocal_documentary_support,RHD-S1809-01764,Cutsi,Cutsi,Kurz,356,RD-000615,Cusí,Tostar (los elotes o las mazorcas),Vt,1,1,false,not_assessed
+RHD-SEMC-000163,RHD-ADJ-000176,RHD-PCORR-000160,3,internal_reciprocal_documentary_support,RHD-S1809-02222,Rachó,Rachó,Eine wilde Gans,364,RD-001901,Racó,Lirio colorado,S,1,1,false,not_assessed
+RHD-SEMC-000164,RHD-ADJ-000177,RHD-PCORR-000161,3,internal_reciprocal_documentary_support,RHD-S1809-02222,Rachó,Rachó,Eine wilde Gans,364,RD-001902,Racó,"Llevar (en un trapo), envolver",Vt,1,1,false,not_assessed
+RHD-SEMC-000165,RHD-ADJ-000178,RHD-PCORR-000162,3,internal_reciprocal_documentary_support,RHD-S1809-02222,Rachó,Rachó,Eine wilde Gans,364,RD-001904,Rachí,Aplastarse,Vi,1,1,false,not_assessed
+RHD-SEMC-000166,RHD-ADJ-000179,RHD-PCORR-000183,3,internal_reciprocal_documentary_support,RHD-S1809-02254,Saaté,Saaté,Sand,365,RD-002213,Sáata,Seguir olfateando,Vi,1,1,false,not_assessed
+RHD-SEMC-000167,RHD-ADJ-000180,RHD-PCORR-000184,3,internal_reciprocal_documentary_support,RHD-S1809-02254,Saaté,Saaté,Sand,365,RD-002214,Sáata,Hacer brasas,Vi,1,1,false,not_assessed
+RHD-SEMC-000168,RHD-ADJ-000181,RHD-PCORR-000185,3,internal_reciprocal_documentary_support,RHD-S1809-02254,Saaté,Saaté,Sand,365,RD-002253,Saté,Arena,S,1,1,false,not_assessed
+RHD-SEMC-000169,RHD-ADJ-000191,RHD-PCORR-000037,3,internal_reciprocal_documentary_support,RHD-S1809-01693,Buké,Buké,"Haben, beſitzen, ſ",355,RD-000337,Bujé,"Cobrar, quitar algo, multar",Vi,1,1,false,not_assessed
+RHD-SEMC-000170,RHD-ADJ-000192,RHD-PCORR-000038,3,internal_reciprocal_documentary_support,RHD-S1809-01693,Buké,Buké,"Haben, beſitzen, ſ",355,RD-000342,Buré,Amarrar,Vi,1,1,false,not_assessed
+RHD-SEMC-000171,RHD-ADJ-000193,RHD-PCORR-000039,3,internal_reciprocal_documentary_support,RHD-S1809-01693,Buké,Buké,"Haben, beſitzen, ſ",355,RD-000350,Busé,Tener ojos,Vi,1,1,false,not_assessed
+RHD-SEMC-000172,RHD-ADJ-000242,RHD-PCORR-000150,3,internal_reciprocal_documentary_support,RHD-S1809-02165,Peré,Peré,"Satteln, aufbreiten, decken",363,RD-001830,Pera,1. vt Poner (carona a la bestia) 2. s Carona,,1,1,false,not_assessed
+RHD-SEMC-000173,RHD-ADJ-000243,RHD-PCORR-000151,3,internal_reciprocal_documentary_support,RHD-S1809-02165,Peré,Peré,"Satteln, aufbreiten, decken",363,RD-001831,Perí,Petate,S,1,1,false,not_assessed
+RHD-SEMC-000174,RHD-ADJ-000244,RHD-PCORR-000152,3,internal_reciprocal_documentary_support,RHD-S1809-02165,Peré,Peré,"Satteln, aufbreiten, decken",363,RD-001844,Piré,"Vivir, morar, habitar",Vi pl,1,1,false,not_assessed
+RHD-SEMC-000175,RHD-ADJ-000247,RHD-PCORR-000163,3,internal_reciprocal_documentary_support,RHD-S1809-02228,Raná,Raná,Gebähren,364,RD-001899,Racá,Semilla,S,1,1,false,not_assessed
+RHD-SEMC-000176,RHD-ADJ-000248,RHD-PCORR-000164,3,internal_reciprocal_documentary_support,RHD-S1809-02228,Raná,Raná,Gebähren,364,RD-001920,Rajá,"Alumbrar, arder, quemar",Vi,1,1,false,not_assessed
+RHD-SEMC-000177,RHD-ADJ-000249,RHD-PCORR-000165,3,internal_reciprocal_documentary_support,RHD-S1809-02228,Raná,Raná,Gebähren,364,RD-001935,Rané,Tener hijo,vi,1,1,false,not_assessed
+RHD-SEMC-000178,RHD-ADJ-000256,RHD-PCORR-000177,3,internal_reciprocal_documentary_support,RHD-S1809-02250,Ropá,Ropá,Verlassen,365,RD-001939,Rapá,"Rajarse, partirse",Vi,1,1,false,not_assessed
+RHD-SEMC-000179,RHD-ADJ-000257,RHD-PCORR-000178,3,internal_reciprocal_documentary_support,RHD-S1809-02250,Ropá,Ropá,Verlassen,365,RD-002057,Ripá,Arriba,Adv,1,1,false,not_assessed
+RHD-SEMC-000180,RHD-ADJ-000258,RHD-PCORR-000179,3,internal_reciprocal_documentary_support,RHD-S1809-02250,Ropá,Ropá,Verlassen,365,RD-002058,Ripá,Rascar,Vt,1,1,false,not_assessed
+RHD-SEMC-000181,RHD-ADJ-000271,RHD-PCORR-000202,3,internal_reciprocal_documentary_support,RHD-S1809-02290,Sisí,Sisí,Harnen,365,RD-002301,Simí,Irse,Vi sg,1,1,false,not_assessed
+RHD-SEMC-000182,RHD-ADJ-000272,RHD-PCORR-000203,3,internal_reciprocal_documentary_support,RHD-S1809-02290,Sisí,Sisí,Harnen,365,RD-002302,Simí,Caminar,Vi sg,1,1,false,not_assessed
+RHD-SEMC-000183,RHD-ADJ-000273,RHD-PCORR-000204,3,internal_reciprocal_documentary_support,RHD-S1809-02290,Sisí,Sisí,Harnen,365,RD-002323,Sipí,"Enfriarse (p. ej.: comida, agua)",Vi,1,1,false,not_assessed
+RHD-SEMC-000184,RHD-ADJ-000280,RHD-PCORR-000225,3,internal_reciprocal_documentary_support,RHD-S1809-02331,"Taná, oder raná",raná,"oder raná, Gebähren",366,RD-001899,Racá,Semilla,S,1,1,false,not_assessed
+RHD-SEMC-000185,RHD-ADJ-000281,RHD-PCORR-000226,3,internal_reciprocal_documentary_support,RHD-S1809-02331,"Taná, oder raná",raná,"oder raná, Gebähren",366,RD-001920,Rajá,"Alumbrar, arder, quemar",Vi,1,1,false,not_assessed
+RHD-SEMC-000186,RHD-ADJ-000282,RHD-PCORR-000227,3,internal_reciprocal_documentary_support,RHD-S1809-02331,"Taná, oder raná",raná,"oder raná, Gebähren",366,RD-001935,Rané,Tener hijo,vi,1,1,false,not_assessed
+RHD-SEMC-000187,RHD-ADJ-000090,RHD-PCORR-000074,3,internal_form_attestation_only,RHD-S1809-01922,Igue,Igue,Sehr,359,RD-001101,Iqué,Ventilar,Vt,8,0,false,not_assessed
+RHD-SEMC-000188,RHD-ADJ-000078,RHD-PCORR-000245,3,internal_form_attestation_only,RHD-S1809-02410,Tſani- oder tſainijolájameke,Tſani-,Der Böſes thut,367,RD-002451,Tani,Rogar,Vt,4,0,false,not_assessed
+RHD-SEMC-000189,RHD-ADJ-000079,RHD-PCORR-000246,3,internal_form_attestation_only,RHD-S1809-02411,Tſani- oder tſainijoliki,Tſani-,Uebelthat,367,RD-002451,Tani,Rogar,Vt,4,0,false,not_assessed
+RHD-SEMC-000190,RHD-ADJ-000129,RHD-PCORR-000103,3,internal_form_attestation_only,RHD-S1809-02027,Mukí,Mukí,Weibsbild,361,RD-001405,Muní,Frijol,S,4,0,false,not_assessed
+RHD-SEMC-000191,RHD-ADJ-000130,RHD-PCORR-000104,3,internal_form_attestation_only,RHD-S1809-02027,Mukí,Mukí,Weibsbild,361,RD-001420,Musí,"Tipo de pez negro, bargón",S,4,0,false,not_assessed
+RHD-SEMC-000192,RHD-ADJ-000131,RHD-PCORR-000105,3,internal_form_attestation_only,RHD-S1809-02029,Muki,Muki,"guguéke, Jungfrau",361,RD-001405,Muní,Frijol,S,4,0,false,not_assessed
+RHD-SEMC-000193,RHD-ADJ-000132,RHD-PCORR-000106,3,internal_form_attestation_only,RHD-S1809-02029,Muki,Muki,"guguéke, Jungfrau",361,RD-001420,Musí,"Tipo de pez negro, bargón",S,4,0,false,not_assessed
+RHD-SEMC-000194,RHD-ADJ-000153,RHD-PCORR-000020,3,internal_form_attestation_only,RHD-S1809-01663,Baicá,Baicá,Drey,354,RD-000127,Bacá,Carrizo,S,4,0,false,not_assessed
+RHD-SEMC-000195,RHD-ADJ-000154,RHD-PCORR-000021,3,internal_form_attestation_only,RHD-S1809-01663,Baicá,Baicá,Drey,354,RD-000155,Baisá,Tercero,Adv,4,0,false,not_assessed
+RHD-SEMC-000196,RHD-ADJ-000155,RHD-PCORR-000022,3,internal_form_attestation_only,RHD-S1809-01663,Baicá,Baicá,Drey,354,RD-000223,Bicá,Pudrir,Vi,4,0,false,not_assessed
+RHD-SEMC-000197,RHD-ADJ-000164,RHD-PCORR-000097,3,internal_form_attestation_only,RHD-S1809-02022,Muhé,Muhé,"muhéli, Du",361,RD-001397,Muhué,"Aumentarse, rendir mucho",Vi pl,4,0,false,not_assessed
+RHD-SEMC-000198,RHD-ADJ-000170,RHD-PCORR-000126,3,internal_form_attestation_only,RHD-S1809-02082,Napé,Napé,Nebeneinander,362,RD-001506,Napéa,"También, con, juntos",Adv,4,0,false,not_assessed
+RHD-SEMC-000199,RHD-ADJ-000215,RHD-PCORR-000098,3,internal_form_attestation_only,RHD-S1809-02022,Muhé,Muhé,"muhéli, Du",361,RD-001401,Mujé,"Tú, usted",Pron,4,0,false,not_assessed
+RHD-SEMC-000200,RHD-ADJ-000216,RHD-PCORR-000099,3,internal_form_attestation_only,RHD-S1809-02022,Muhé,Muhé,"muhéli, Du",361,RD-001404,Muné,Sembrar frijol,Vt,4,0,false,not_assessed
+RHD-SEMC-000201,RHD-ADJ-000233,RHD-PCORR-000127,3,internal_form_attestation_only,RHD-S1809-02082,Napé,Napé,Nebeneinander,362,RD-001436,‘Nabé,Poco más allá,Adv,4,0,false,not_assessed
+RHD-SEMC-000202,RHD-ADJ-000234,RHD-PCORR-000128,3,internal_form_attestation_only,RHD-S1809-02082,Napé,Napé,Nebeneinander,362,RD-001489,Nané,Sonar mucho,Vi,4,0,false,not_assessed
+RHD-SEMC-000203,RHD-ADJ-000088,RHD-PCORR-000070,3,internal_form_attestation_only,RHD-S1809-01902,Húli,Húli,s,358,RD-000991,Huíi,"Lanzar, amarrar (un animal)",Vt,3,0,false,not_assessed
+RHD-SEMC-000204,RHD-ADJ-000119,RHD-PCORR-000188,3,internal_form_attestation_only,RHD-S1809-02273,Seguí,Seguí,Auf eine andere Weise,365,RD-002372,Soguí,Casi,Adv,3,0,false,not_assessed
+RHD-SEMC-000205,RHD-ADJ-000120,RHD-PCORR-000189,3,internal_form_attestation_only,RHD-S1809-02273,Seguí,Seguí,Auf eine andere Weise,365,RD-002403,Suguí,Tesgüino,S,3,0,false,not_assessed
+RHD-SEMC-000206,RHD-ADJ-000253,RHD-PCORR-000172,3,internal_form_attestation_only,RHD-S1809-02248,Róco,Róco,"Es mangelt, geht ab",365,RD-001901,Racó,Lirio colorado,S,3,0,false,not_assessed
+RHD-SEMC-000207,RHD-ADJ-000254,RHD-PCORR-000173,3,internal_form_attestation_only,RHD-S1809-02248,Róco,Róco,"Es mangelt, geht ab",365,RD-001902,Racó,"Llevar (en un trapo), envolver",Vt,3,0,false,not_assessed
+RHD-SEMC-000208,RHD-ADJ-000255,RHD-PCORR-000174,3,internal_form_attestation_only,RHD-S1809-02248,Róco,Róco,"Es mangelt, geht ab",365,RD-002152,Romó,Invierno,S,3,0,false,not_assessed
+RHD-SEMC-000209,RHD-ADJ-000295,RHD-PCORR-000238,3,internal_form_attestation_only,RHD-S1809-02381,Tepá,Tepá,"oder repá, Oben",367,RD-002452,Tapa,"Acarrear, traer (en las manos)",Vt pl,3,0,false,not_assessed
+RHD-SEMC-000210,RHD-ADJ-000296,RHD-PCORR-000239,3,internal_form_attestation_only,RHD-S1809-02381,Tepá,Tepá,"oder repá, Oben",367,RD-002463,Teca,Afinar el violín,Vt,3,0,false,not_assessed
+RHD-SEMC-000211,RHD-ADJ-000297,RHD-PCORR-000240,3,internal_form_attestation_only,RHD-S1809-02381,Tepá,Tepá,"oder repá, Oben",367,RD-002468,Tera,Telar,S,3,0,false,not_assessed
+RHD-SEMC-000212,RHD-ADJ-000054,RHD-PCORR-000026,3,internal_form_attestation_only,RHD-S1809-01668,Baiſſá,Baiſſá,dreymal,354,RD-000155,Baisá,Tercero,Adv,2,0,false,not_assessed
+RHD-SEMC-000213,RHD-ADJ-000086,RHD-PCORR-000064,3,internal_form_attestation_only,RHD-S1809-01797,Galá,Galá,Gut,356,RD-000849,Gará,1. bueno (sabroso) 2. bien (sano),"Adj, adv",2,0,false,not_assessed
+RHD-SEMC-000214,RHD-ADJ-000094,RHD-PCORR-000169,3,internal_form_attestation_only,RHD-S1809-02229,"Ráje, oder táje",táje,"oder táje, s",364,RD-002441,Tabé,Más chiquito,Adj,2,0,false,not_assessed
+RHD-SEMC-000215,RHD-ADJ-000097,RHD-PCORR-000212,3,internal_form_attestation_only,RHD-S1809-02316,Táje,Táje,"oder ráje, ſ",366,RD-002441,Tabé,Más chiquito,Adj,2,0,false,not_assessed
+RHD-SEMC-000216,RHD-ADJ-000114,RHD-PCORR-000068,3,internal_form_attestation_only,RHD-S1809-01881,Hiáſi,Hiáſi,"vielfach, machet hurtig",358,RD-000923,Huasí,Cola,S,2,0,false,not_assessed
+RHD-SEMC-000217,RHD-ADJ-000115,RHD-PCORR-000069,3,internal_form_attestation_only,RHD-S1809-01881,Hiáſi,Hiáſi,"vielfach, machet hurtig",358,RD-000924,Huasí,Suegra,S,2,0,false,not_assessed
+RHD-SEMC-000218,RHD-ADJ-000140,RHD-PCORR-000205,3,internal_form_attestation_only,RHD-S1809-02291,Sóco,Sóco,"Zwirn, von Aloe",365,RD-002381,Sonó,Rastrojo,S,2,0,false,not_assessed
+RHD-SEMC-000219,RHD-ADJ-000141,RHD-PCORR-000206,3,internal_form_attestation_only,RHD-S1809-02291,Sóco,Sóco,"Zwirn, von Aloe",365,RD-002390,Soró,Tía (hermana mayor del padre),S,2,0,false,not_assessed
+RHD-SEMC-000220,RHD-ADJ-000250,RHD-PCORR-000166,3,internal_form_attestation_only,RHD-S1809-02229,"Ráje, oder táje",Ráje,"oder táje, s",364,RD-001920,Rajá,"Alumbrar, arder, quemar",Vi,2,0,false,not_assessed
+RHD-SEMC-000221,RHD-ADJ-000251,RHD-PCORR-000167,3,internal_form_attestation_only,RHD-S1809-02229,"Ráje, oder táje",Ráje,"oder táje, s",364,RD-001929,Ramé,Diente,S,2,0,false,not_assessed
+RHD-SEMC-000222,RHD-ADJ-000252,RHD-PCORR-000168,3,internal_form_attestation_only,RHD-S1809-02229,"Ráje, oder táje",Ráje,"oder táje, s",364,RD-001935,Rané,Tener hijo,vi,2,0,false,not_assessed
+RHD-SEMC-000223,RHD-ADJ-000259,RHD-PCORR-000180,3,internal_form_attestation_only,RHD-S1809-02253,Rúje,Rúje,Sprechen,365,RD-001923,Rajé,Encender ocote (para alumbrar),Vt,2,0,false,not_assessed
+RHD-SEMC-000224,RHD-ADJ-000260,RHD-PCORR-000181,3,internal_form_attestation_only,RHD-S1809-02253,Rúje,Rúje,Sprechen,365,RD-002022,Rijé,Granizo,S,2,0,false,not_assessed
+RHD-SEMC-000225,RHD-ADJ-000261,RHD-PCORR-000182,3,internal_form_attestation_only,RHD-S1809-02253,Rúje,Rúje,Sprechen,365,RD-002211,Ruyé,"Avisar, aconsejar, informar",Vt,2,0,false,not_assessed
+RHD-SEMC-000226,RHD-ADJ-000061,RHD-PCORR-000198,3,internal_form_attestation_only,RHD-S1809-02286,Simigó,Simigó,"So geh doch, ſ",365,RD-002303,Simigá,¡Vaya!,,1,0,false,not_assessed
+RHD-SEMC-000227,RHD-ADJ-000071,RHD-PCORR-000136,3,internal_form_attestation_only,RHD-S1809-02108,Néóca,Néóca,Reden,362,RD-001647,Nocá,Moverse,Vi,1,0,false,not_assessed
+RHD-SEMC-000228,RHD-ADJ-000072,RHD-PCORR-000159,3,internal_form_attestation_only,RHD-S1809-02219,Raché,Raché,Es flammet,364,RD-001904,Rachí,Aplastarse,Vi,1,0,false,not_assessed
+RHD-SEMC-000229,RHD-ADJ-000073,RHD-PCORR-000171,3,internal_form_attestation_only,RHD-S1809-02233,Rhaná,Rhaná,Es donnert,364,RD-001932,Raná,1. vt Parir 2. s Hijo,,1,0,false,not_assessed
+RHD-SEMC-000230,RHD-ADJ-000084,RHD-PCORR-000036,3,internal_form_attestation_only,RHD-S1809-01691,Bucú,Bucú,iſt der allgemeine Name aller vierfüßigen zahmen Thiere,355,RD-000346,Burú,Estar el camino (hacia e l lugar mencionado),Vi,1,0,false,not_assessed
+RHD-SEMC-000231,RHD-ADJ-000095,RHD-PCORR-000190,3,internal_form_attestation_only,RHD-S1809-02276,Senú,Senú,Ein anderes,365,RD-002418,Sunú,Maíz,S,1,0,false,not_assessed
+RHD-SEMC-000232,RHD-ADJ-000099,RHD-PCORR-000005,3,internal_form_attestation_only,RHD-S1809-00034,"Aitá, oder caitá",caitá,"oder caitá, nein, nicht",353,RD-000364,Cabita,Rodarse (una cosa larga),Vi,1,0,false,not_assessed
+RHD-SEMC-000233,RHD-ADJ-000102,RHD-PCORR-000048,3,internal_form_attestation_only,RHD-S1809-01706,Caitá,Caitá,"Nein, nicht, ſ",355,RD-000364,Cabita,Rodarse (una cosa larga),Vi,1,0,false,not_assessed
+RHD-SEMC-000234,RHD-ADJ-000105,RHD-PCORR-000006,3,internal_form_attestation_only,RHD-S1809-00034,"Aitá, oder caitá",caitá,"oder caitá, nein, nicht",353,RD-000464,Catá,s arco,S,1,0,false,not_assessed
+RHD-SEMC-000235,RHD-ADJ-000107,RHD-PCORR-000028,3,internal_form_attestation_only,RHD-S1809-01679,Baſſu,Baſſu,Kochen,354,RD-000206,Basú,"Cocer, hervir",Vi,1,0,false,not_assessed
+RHD-SEMC-000236,RHD-ADJ-000108,RHD-PCORR-000029,3,internal_form_attestation_only,RHD-S1809-01679,Baſſu,Baſſu,Kochen,354,RD-000207,Basú,Derretir,,1,0,false,not_assessed
+RHD-SEMC-000237,RHD-ADJ-000113,RHD-PCORR-000049,3,internal_form_attestation_only,RHD-S1809-01706,Caitá,Caitá,"Nein, nicht, ſ",355,RD-000464,Catá,s arco,S,1,0,false,not_assessed
+RHD-SEMC-000238,RHD-ADJ-000144,RHD-PCORR-000219,3,internal_form_attestation_only,RHD-S1809-02327,Tamé,Tamé,Wir,366,RD-002441,Tabé,Más chiquito,Adj,1,0,false,not_assessed
+RHD-SEMC-000239,RHD-ADJ-000145,RHD-PCORR-000220,3,internal_form_attestation_only,RHD-S1809-02327,Tamé,Tamé,Wir,366,RD-002444,Tamí,"Me, a mi",Pron,1,0,false,not_assessed
+RHD-SEMC-000240,RHD-ADJ-000182,RHD-PCORR-000013,3,internal_form_attestation_only,RHD-S1809-00052,Pará,Pará,Dürſten,363,RD-001796,Paca,"Colar (p. ej.: café, leche, agua)",Vt,1,0,false,not_assessed
+RHD-SEMC-000241,RHD-ADJ-000183,RHD-PCORR-000014,3,internal_form_attestation_only,RHD-S1809-00052,Pará,Pará,Dürſten,363,RD-001812,Pasá,"Echar, tirar",Vt,1,0,false,not_assessed
+RHD-SEMC-000242,RHD-ADJ-000184,RHD-PCORR-000015,3,internal_form_attestation_only,RHD-S1809-00052,Pará,Pará,Dürſten,363,RD-001830,Pera,1. vt Poner (carona a la bestia) 2. s Carona,,1,0,false,not_assessed
+RHD-SEMC-000243,RHD-ADJ-000220,RHD-PCORR-000107,3,internal_form_attestation_only,RHD-S1809-02042,Muni,Muni,ſ,361,RD-001258,Maní,Contener un líquido,Vi,1,0,false,not_assessed
+RHD-SEMC-000244,RHD-ADJ-000221,RHD-PCORR-000108,3,internal_form_attestation_only,RHD-S1809-02042,Muni,Muni,ſ,361,RD-001403,Muná,Subir (de tierra baja),Vi,1,0,false,not_assessed
+RHD-SEMC-000245,RHD-ADJ-000222,RHD-PCORR-000109,3,internal_form_attestation_only,RHD-S1809-02042,Muni,Muni,ſ,361,RD-001404,Muné,Sembrar frijol,Vt,1,0,false,not_assessed
+RHD-SEMC-000246,RHD-ADJ-000223,RHD-PCORR-000110,3,internal_form_attestation_only,RHD-S1809-02043,Múra,Múra,Maulthier,361,RD-001268,Mará,Hija (habla del padre),S,1,0,false,not_assessed
+RHD-SEMC-000247,RHD-ADJ-000224,RHD-PCORR-000111,3,internal_form_attestation_only,RHD-S1809-02043,Múra,Múra,Maulthier,361,RD-001298,Mera,Corretear los animales,Vt,1,0,false,not_assessed
+RHD-SEMC-000248,RHD-ADJ-000225,RHD-PCORR-000112,3,internal_form_attestation_only,RHD-S1809-02043,Múra,Múra,Maulthier,361,RD-001403,Muná,Subir (de tierra baja),Vi,1,0,false,not_assessed
+RHD-SEMC-000249,RHD-ADJ-000268,RHD-PCORR-000199,3,internal_form_attestation_only,RHD-S1809-02287,"Sini, oder Schine",Sini,oder Schine,365,RD-002301,Simí,Irse,Vi sg,1,0,false,not_assessed
+RHD-SEMC-000250,RHD-ADJ-000269,RHD-PCORR-000200,3,internal_form_attestation_only,RHD-S1809-02287,"Sini, oder Schine",Sini,oder Schine,365,RD-002302,Simí,Caminar,Vi sg,1,0,false,not_assessed
+RHD-SEMC-000251,RHD-ADJ-000270,RHD-PCORR-000201,3,internal_form_attestation_only,RHD-S1809-02287,"Sini, oder Schine",Sini,oder Schine,365,RD-002308,Siná,Gritar,Vi sg,1,0,false,not_assessed
+RHD-SEMC-000252,RHD-ADJ-000277,RHD-PCORR-000216,3,internal_form_attestation_only,RHD-S1809-02324,Talí,Talí,Verkaufen,366,RD-002444,Tamí,"Me, a mi",Pron,1,0,false,not_assessed
+RHD-SEMC-000253,RHD-ADJ-000278,RHD-PCORR-000217,3,internal_form_attestation_only,RHD-S1809-02324,Talí,Talí,Verkaufen,366,RD-002451,Tani,Rogar,Vt,1,0,false,not_assessed
+RHD-SEMC-000254,RHD-ADJ-000279,RHD-PCORR-000218,3,internal_form_attestation_only,RHD-S1809-02324,Talí,Talí,Verkaufen,366,RD-002456,Tarí,Semilla (para sembrar),S,1,0,false,not_assessed
+RHD-SEMC-000255,RHD-ADJ-000056,RHD-PCORR-000056,3,cross_corpus_context_only,RHD-S1809-01748,Cavára,Cavára,Stirne,356,RD-000450,Casará,"Zacate, hierba del campo, pasto",S,0,0,false,not_assessed
+RHD-SEMC-000256,RHD-ADJ-000057,RHD-PCORR-000065,3,cross_corpus_context_only,RHD-S1809-01798,Galabé,Galabé,"Besser, s",356,RD-000851,Garabé,"Muy bien, muy bueno, fino, perfecto",Adj,0,0,false,not_assessed
+RHD-SEMC-000257,RHD-ADJ-000060,RHD-PCORR-000187,3,cross_corpus_context_only,RHD-S1809-02260,Sapála,Sapála,Körper,365,RD-002240,Sapará,Engordarse,Vi,0,0,false,not_assessed
+RHD-SEMC-000258,RHD-ADJ-000063,RHD-PCORR-000248,3,cross_corpus_context_only,RHD-S1809-02475,Takiná,Takiná,Näher,368,RD-002459,Tasina,Por el arroyo abajito,Adv,0,0,false,not_assessed
+RHD-SEMC-000259,RHD-ADJ-000066,RHD-PCORR-000027,3,cross_corpus_context_only,RHD-S1809-01675,Balſi,Balſi,"Reif, zeitig ſeyn",354,RD-000198,Basi,"Taza, vaso",S,0,0,false,not_assessed
+RHD-SEMC-000260,RHD-ADJ-000068,RHD-PCORR-000067,3,cross_corpus_context_only,RHD-S1809-01871,"Halí, oder harí",harí,oder harí,358,RD-000907,Huari,"Huari (reg.), cesta, canasta",S esp,0,0,false,not_assessed
+RHD-SEMC-000261,RHD-ADJ-000069,RHD-PCORR-000075,3,cross_corpus_context_only,RHD-S1809-01929,Imari,Imari,Eine Art zu tanzen,359,RD-001092,Imuri,"Canasta (con tapadera), petaca",S,0,0,false,not_assessed
+RHD-SEMC-000262,RHD-ADJ-000081,RHD-PCORR-000008,3,cross_corpus_context_only,RHD-S1809-00043,Iguá,Iguá,Unterſuchen,359,RD-001069,Ihuá,Tener agujero,Vi,0,0,false,not_assessed
+RHD-SEMC-000263,RHD-ADJ-000085,RHD-PCORR-000055,3,cross_corpus_context_only,RHD-S1809-01741,Colé,Colé,colée,355,RD-000552,Coyé,Ponerse el paño de lienzo en la cabeza,Vi,0,0,false,not_assessed
+RHD-SEMC-000264,RHD-ADJ-000103,RHD-PCORR-000091,3,cross_corpus_context_only,RHD-S1809-02004,Matáca,Matáca,"Reibſtein, ſ",361,RD-001269,Maracá,Paleta,S,0,0,false,not_assessed
+RHD-SEMC-000265,RHD-ADJ-000104,RHD-PCORR-000092,3,cross_corpus_context_only,RHD-S1809-02004,Matáca,Matáca,"Reibſtein, ſ",361,RD-001284,Matagá,Palma (de la mano),S,0,0,false,not_assessed
+RHD-SEMC-000266,RHD-ADJ-000109,RHD-PCORR-000031,3,cross_corpus_context_only,RHD-S1809-01681,Batſá,Batſá,"Vorher, voraus",354,RD-000155,Baisá,Tercero,Adv,0,0,false,not_assessed
+RHD-SEMC-000267,RHD-ADJ-000110,RHD-PCORR-000032,3,cross_corpus_context_only,RHD-S1809-01681,Batſá,Batſá,"Vorher, voraus",354,RD-000195,Basá,Apedrear,Vt,0,0,false,not_assessed
+RHD-SEMC-000268,RHD-ADJ-000146,RHD-PCORR-000241,3,cross_corpus_context_only,RHD-S1809-02393,Terü,Terü,"Es friert, ſ",367,RD-002468,Tera,Telar,S,0,0,false,not_assessed
+RHD-SEMC-000269,RHD-ADJ-000147,RHD-PCORR-000242,3,cross_corpus_context_only,RHD-S1809-02393,Terü,Terü,"Es friert, ſ",367,RD-002469,Teri,Corto,Adj,0,0,false,not_assessed
+RHD-SEMC-000270,RHD-ADJ-000148,RHD-PCORR-000131,3,cross_corpus_context_only,RHD-S1809-02093,Natépa,Natépa,Finden,362,RD-001531,Narepa,"Saludar (con la mano, tocando el hombro)",Vt,0,0,false,not_assessed
+RHD-SEMC-000271,RHD-ADJ-000149,RHD-PCORR-000132,3,cross_corpus_context_only,RHD-S1809-02093,Natépa,Natépa,Finden,362,RD-001559,Nateta,Pagar,Vt,0,0,false,not_assessed
+RHD-SEMC-000272,RHD-ADJ-000162,RHD-PCORR-000088,3,cross_corpus_context_only,RHD-S1809-02002,Mahá,Mahá,Laufen,360,RD-001231,Machá,Garrapata,S,0,0,false,not_assessed
+RHD-SEMC-000273,RHD-ADJ-000163,RHD-PCORR-000089,3,cross_corpus_context_only,RHD-S1809-02002,Mahá,Mahá,Laufen,360,RD-001245,‘Mahuá,Ir corriendo,Vi,0,0,false,not_assessed
+RHD-SEMC-000274,RHD-ADJ-000171,RHD-PCORR-000147,3,cross_corpus_context_only,RHD-S1809-02151,Báca,Báca,ſ,363,RD-000137,Bacha,"Primeramente, adelante, enfrente",Adv,0,0,false,not_assessed
+RHD-SEMC-000275,RHD-ADJ-000172,RHD-PCORR-000148,3,cross_corpus_context_only,RHD-S1809-02151,Báca,Báca,ſ,363,RD-000138,Bachá,"Meter (a la cárcel), poner (adentro)",Vipl,0,0,false,not_assessed
+RHD-SEMC-000276,RHD-ADJ-000200,RHD-PCORR-000050,3,cross_corpus_context_only,RHD-S1809-01712,Comó?,Comó,Wo du? oder Wohin du?,355,RD-000504,Comí,1. Estar bajo 2. Hacer arroyo,Vi,0,0,false,not_assessed
+RHD-SEMC-000277,RHD-ADJ-000201,RHD-PCORR-000051,3,cross_corpus_context_only,RHD-S1809-01712,Comó?,Comó,Wo du? oder Wohin du?,355,RD-000536,Coró,"Zopilote pinto, rayado",S,0,0,false,not_assessed
+RHD-SEMC-000278,RHD-ADJ-000202,RHD-PCORR-000052,3,cross_corpus_context_only,RHD-S1809-01712,Comó?,Comó,Wo du? oder Wohin du?,355,RD-000547,Cosó,Ahogarse (al tragar).,Vi,0,0,false,not_assessed
+RHD-SEMC-000279,RHD-ADJ-000208,RHD-PCORR-000085,3,cross_corpus_context_only,RHD-S1809-02000,Mága,Mága,Laufend,360,RD-001222,Maba,Comer caña,Vt,0,0,false,not_assessed
+RHD-SEMC-000280,RHD-ADJ-000209,RHD-PCORR-000086,3,cross_corpus_context_only,RHD-S1809-02000,Mága,Mága,Laufend,360,RD-001223,Mabá,¡Vamos!,Imper,0,0,false,not_assessed
+RHD-SEMC-000281,RHD-ADJ-000210,RHD-PCORR-000087,3,cross_corpus_context_only,RHD-S1809-02000,Mága,Mága,Laufend,360,RD-001248,"Majá, majahuá",Tener miedo,Vi,0,0,false,not_assessed
+RHD-SEMC-000282,RHD-ADJ-000211,RHD-PCORR-000090,3,cross_corpus_context_only,RHD-S1809-02002,Mahá,Mahá,Laufen,360,RD-001222,Maba,Comer caña,Vt,0,0,false,not_assessed
+RHD-SEMC-000283,RHD-ADJ-000212,RHD-PCORR-000093,3,cross_corpus_context_only,RHD-S1809-02013,Móla,Móla,Oben,361,RD-001343,Moba,"Sobre, encima",Adv,0,0,false,not_assessed
+RHD-SEMC-000284,RHD-ADJ-000213,RHD-PCORR-000094,3,cross_corpus_context_only,RHD-S1809-02013,Móla,Móla,Oben,361,RD-001344,Mocá,"Cuero curtido, vaqueta",S,0,0,false,not_assessed
+RHD-SEMC-000285,RHD-ADJ-000214,RHD-PCORR-000095,3,cross_corpus_context_only,RHD-S1809-02013,Móla,Móla,Oben,361,RD-001380,Moyá,Pudrirse (maíz desgranado),Vi,0,0,false,not_assessed
+RHD-SEMC-000286,RHD-ADJ-000229,RHD-PCORR-000116,3,cross_corpus_context_only,RHD-S1809-02045,Musí,Musí,wie die Schleihen,361,RD-001281,‘Masi,Huir,Vi,0,0,false,not_assessed
+RHD-SEMC-000287,RHD-ADJ-000230,RHD-PCORR-000117,3,cross_corpus_context_only,RHD-S1809-02045,Musí,Musí,wie die Schleihen,361,RD-001320,"Míisi, misi",Gato,S esp,0,0,false,not_assessed
+RHD-SEMC-000288,RHD-ADJ-000231,RHD-PCORR-000118,3,cross_corpus_context_only,RHD-S1809-02045,Musí,Musí,wie die Schleihen,361,RD-001373,Mosí,Desmenuzar (entre las manos),Vt,0,0,false,not_assessed
+RHD-SEMC-000289,RHD-ADJ-000238,RHD-PCORR-000137,3,cross_corpus_context_only,RHD-S1809-02115,Nipí,Nipí,Fliegen,362,RD-001587,Nepi,Muchísimo,Adv,0,0,false,not_assessed
+RHD-SEMC-000290,RHD-ADJ-000239,RHD-PCORR-000138,3,cross_corpus_context_only,RHD-S1809-02115,Nipí,Nipí,Fliegen,362,RD-001611,Nijí,"Dar, entregar, obsequiar",Vt,0,0,false,not_assessed
+RHD-SEMC-000291,RHD-ADJ-000240,RHD-PCORR-000139,3,cross_corpus_context_only,RHD-S1809-02115,Nipí,Nipí,Fliegen,362,RD-001620,Nimí,Yo a ti,Pron,0,0,false,not_assessed
+RHD-SEMC-000292,RHD-ADJ-000241,RHD-PCORR-000149,3,cross_corpus_context_only,RHD-S1809-02151,Báca,Báca,ſ,363,RD-000133,Bacó,Ponerse amarillo (las matas de maíz por haber llovido),Vi,0,0,false,not_assessed
+RHD-SEMC-000293,RHD-ADJ-000245,RHD-PCORR-000153,3,cross_corpus_context_only,RHD-S1809-02179,Piri?,Piri,Was?,364,RD-001831,Perí,Petate,S,0,0,false,not_assessed
+RHD-SEMC-000294,RHD-ADJ-000246,RHD-PCORR-000154,3,cross_corpus_context_only,RHD-S1809-02179,Piri?,Piri,Was?,364,RD-001844,Piré,"Vivir, morar, habitar",Vi pl,0,0,false,not_assessed
+RHD-SEMC-000295,RHD-ADJ-000292,RHD-PCORR-000234,3,cross_corpus_context_only,RHD-S1809-02351,Teéa,Teéa,Begraben,366,RD-002463,Teca,Afinar el violín,Vt,0,0,false,not_assessed
+RHD-SEMC-000296,RHD-ADJ-000293,RHD-PCORR-000235,3,cross_corpus_context_only,RHD-S1809-02351,Teéa,Teéa,Begraben,366,RD-002468,Tera,Telar,S,0,0,false,not_assessed
+RHD-SEMC-000297,RHD-ADJ-000294,RHD-PCORR-000236,3,cross_corpus_context_only,RHD-S1809-02351,Teéa,Teéa,Begraben,366,RD-002471,Teta,Medir por comparación,Vt,0,0,false,not_assessed
+RHD-SEMC-000298,RHD-ADJ-000298,RHD-PCORR-000129,4,internal_reciprocal_documentary_support,RHD-S1809-02091,Nassípasic,Nassípasic,In der Mitte,362,RD-001544,Nasipasí,Miércoles,S,1,1,false,not_assessed
