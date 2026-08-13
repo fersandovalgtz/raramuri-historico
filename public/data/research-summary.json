@@ -9,6 +9,23 @@
   "inventory_guided_attestations": 989,
   "internal_concordance_candidates": 989,
   "reciprocal_german_support_candidates": 337,
+  "residual_span_triage": {
+    "candidate_count": 1458,
+    "profile_class_counts": {
+      "german_context_profile_signal": 395,
+      "mixed_or_uncertain_profile": 418,
+      "possible_raramuri_profile_signal": 212,
+      "strong_raramuri_profile_signal": 433
+    },
+    "priority_tier_counts": {
+      "1": 254,
+      "2": 256,
+      "3": 135,
+      "4": 813
+    },
+    "automatic_language_identification": false,
+    "automatic_lexeme_creation": false
+  },
   "explicit_variant_groups": 24,
   "graphic_collision_groups": 7,
   "diachronic_semantic_context_signals": {
@@ -17,5 +34,5 @@
     "internal_reciprocal_documentary_support": 153
   },
   "human_reviewed_relations": 0,
-  "warning": "Machine/documentary candidates, not validated linguistic relations."
+  "warning": "Machine/documentary candidates and profile signals, not validated linguistic relations or automatic language identifications."
 }

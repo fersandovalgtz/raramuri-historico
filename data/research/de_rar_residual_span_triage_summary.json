@@ -1,0 +1,30 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "generated": "2026-08-13",
+  "candidate_count": 1458,
+  "profile_class_counts": {
+    "german_context_profile_signal": 395,
+    "mixed_or_uncertain_profile": 418,
+    "possible_raramuri_profile_signal": 212,
+    "strong_raramuri_profile_signal": 433
+  },
+  "review_priority_tier_counts": {
+    "1": 254,
+    "2": 256,
+    "3": 135,
+    "4": 813
+  },
+  "thresholds": {
+    "strong_raramuri_profile_signal": 1.6744,
+    "possible_raramuri_profile_signal": 1.2842,
+    "german_context_profile_signal_upper": -1.4351
+  },
+  "training_reference_counts": {
+    "rar_de_components": 783,
+    "german_reference_strings": 2542
+  },
+  "human_reviewed": false,
+  "automatic_language_identification": false,
+  "automatic_lexeme_creation": false,
+  "method": "character_ngram_documentary_profile_triage_v1"
+}

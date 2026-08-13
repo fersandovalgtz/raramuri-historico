@@ -57,6 +57,22 @@
   "internal_concordance_candidates": 989,
   "internal_reciprocal_german_support_candidates": 337,
   "residual_de_rar_span_candidates_low_machine": 1458,
+  "residual_span_triage_candidates": 1458,
+  "residual_span_triage_profile_class_counts": {
+    "german_context_profile_signal": 395,
+    "mixed_or_uncertain_profile": 418,
+    "possible_raramuri_profile_signal": 212,
+    "strong_raramuri_profile_signal": 433
+  },
+  "residual_span_triage_priority_tier_counts": {
+    "1": 254,
+    "2": 256,
+    "3": 135,
+    "4": 813
+  },
+  "residual_span_triage_method": "character_ngram_documentary_profile_triage_v1",
+  "residual_span_triage_automatic_language_identification": false,
+  "residual_span_triage_automatic_lexeme_creation": false,
   "explicit_source_variant_groups": 24,
   "normalized_graphic_collision_groups": 7,
   "diachronic_semantic_context_candidates": 298,
@@ -67,5 +83,5 @@
   },
   "human_reviewed_internal_relations": 0,
   "human_reviewed_diachronic_relations": 0,
-  "scope_note": "Derived documentary/machine counts; no validated lexical, semantic, etymological or historical relation is asserted."
+  "scope_note": "Derived documentary/machine counts; no validated lexical, language-identification, semantic, etymological or historical relation is asserted."
 }
