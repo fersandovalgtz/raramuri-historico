@@ -142,7 +142,10 @@
     "steffel_ameke_exact_shared_stripped_base_groups": 0,
     "steffel_ameke_base_contrast_candidates": 12,
     "steffel_ameke_exact_base_contrast_pairs": 0,
-    "steffel_ameke_edit_distance_one_base_contrast_pairs": 12
+    "steffel_ameke_edit_distance_one_base_contrast_pairs": 12,
+    "steffel_ameke_permutation_iterations": 20000,
+    "steffel_ameke_permutation_omnibus_empirical_p": 0.0001,
+    "steffel_ameke_permutation_conservative_signal_count": 1
   },
   "editorial_pipeline": {
     "review_queue": "data/review/next_review_queue.json",
@@ -245,6 +248,7 @@
       "scripts/generate_graphic_context_associations.py",
       "scripts/generate_internal_concordance.py",
       "scripts/generate_ameke_constellation.py",
+      "scripts/generate_ameke_permutation_tests.py",
       "scripts/generate_historical_variants.py",
       "scripts/generate_semantic_context_queue.py",
       "scripts/generate_graphemic_statistics.py",
@@ -262,7 +266,7 @@
     "de_rar_inventory_guided_attestations_csv": "data/research/de_rar_inventory_guided_attestations.csv",
     "steffel_internal_concordance_csv": "data/research/internal_concordance.csv",
     "diachronic_semantic_context_queue_csv": "data/research/diachronic_semantic_context_queue.csv",
-    "parallel_machine_research_stage": "Internal Steffel concordance, conservative residual recovery, seeded graphic-family hypotheses, German-context association, nested -ameke string contrasts, documentary variant analysis, graphemic statistics and non-adjudicative diachronic context may advance while independent human validation remains unavailable.",
+    "parallel_machine_research_stage": "Internal Steffel concordance, conservative residual recovery, seeded graphic-family hypotheses, German-context association, -ameke graphic-constellation analysis with permutation controls, documentary variant analysis, graphemic statistics and non-adjudicative diachronic context may advance while independent human validation remains unavailable.",
     "de_rar_residual_span_triage": "data/research/de_rar_residual_span_triage.json",
     "de_rar_residual_span_triage_csv": "data/research/de_rar_residual_span_triage.csv",
     "de_rar_residual_span_triage_summary": "data/research/de_rar_residual_span_triage_summary.json",
@@ -286,7 +290,11 @@
     "steffel_ameke_base_contrast_candidates": "data/research/ameke_base_contrast_candidates.json",
     "steffel_ameke_base_contrast_candidates_csv": "data/research/ameke_base_contrast_candidates.csv",
     "steffel_ameke_constellation_summary": "data/research/ameke_constellation_summary.json",
-    "ameke_constellation_policy": "Nested -ameke strings are mechanically stripped for documentary comparison only; the resulting bases and suffix classes are not morphemes, roots, paradigms, grammatical categories, lexical identities or semantic functions unless independently reviewed."
+    "ameke_constellation_policy": "Nested -ameke strings are mechanically stripped for documentary comparison only; the resulting bases and suffix classes are not morphemes, roots, paradigms, grammatical categories, lexical identities or semantic functions unless independently reviewed.",
+    "steffel_ameke_permutation_tests": "data/research/ameke_permutation_tests.json",
+    "steffel_ameke_permutation_tests_csv": "data/research/ameke_permutation_tests.csv",
+    "steffel_ameke_permutation_tests_summary": "data/research/ameke_permutation_tests_summary.json",
+    "ameke_permutation_policy": "Exclusive -ameke graphic-class labels are shuffled across whole members with a fixed seed; empirical p-values, BH-FDR and max-|rate-difference| FWER calibrate documentary context dependence only. Statistical dependence does not establish morphemes, grammatical categories, semantic functions or paradigms."
   },
   "responsible": {
     "name": "Fernando Sandoval Gutierrez",

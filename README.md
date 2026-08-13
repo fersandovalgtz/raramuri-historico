@@ -68,6 +68,15 @@ La cola diacrónica de 298 hipótesis incorpora ahora contexto interno de Steffe
 
 Artefactos: `data/research/de_rar_inventory_guided_attestations.*`, `internal_concordance.*`, `historical_variant_index.json`, `diachronic_semantic_context_queue.*`, `graphemic_statistics.json`, `corpus_research_statistics.json` y `RESEARCH_SNAPSHOT.md`.
 
+<!-- AMEKE_PERM_README_START -->
+## Control por permutaciones de la constelación `-ameke`
+
+Se ejecutan **20,000 permutaciones reproducibles** con semilla `1809`, reasignando las clases gráficas exclusivas entre miembros completos. La prueba ómnibus produce χ²=40.461, V de Cramér descriptivo=0.278 y p empírica=0.0001. De 20 contrastes, 4 tienen p≤.05 sin corrección, 3 mantienen q BH≤.05 y 1 sobreviven el control familiar max-|Δ|.
+
+La única señal que sobrevive simultáneamente FDR y el control familiar max-|Δ| es **`ugameke` ↔ `infinitive_ending_proxy`**: 0.516 dentro de la clase frente a 0.126 en el resto (Δ=0.390; p=5e-05; q=0.001; FWER=0.0012).
+
+El resultado se interpreta como **dependencia documental entre clases gráficas y proxies formales del contexto alemán**, no como prueba de morfemas, categorías gramaticales, semántica, paradigmas o continuidad histórica. Artefactos: `data/research/ameke_permutation_tests.json`, `.csv` y `_summary.json`.
+<!-- AMEKE_PERM_README_END -->
 ## Frontera documental
 
 `RHD-FR-026` fue revisado con criterio **direction-aware** al cruzar la inversión dentro de p. 353. `RHD-FR-027` resolvió los últimos candidatos `low_machine` y verificó que p. 368 cierra el diccionario y p. 369 inicia el apéndice sin candidatos lexicográficos residuales. `RHD-FR-028` auditó directamente las 60 anclas curatoriales y completó su capa diplomática.

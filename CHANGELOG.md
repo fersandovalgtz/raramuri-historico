@@ -1,5 +1,13 @@
 # Changelog
 
+<!-- AMEKE_PERM_CHANGELOG_START -->
+## Control por permutaciones `-ameke` — 2026-08-13
+
+- 20,000 permutaciones deterministas por miembro, semilla 1809; prueba ómnibus p=0.0001.
+- 3 contrastes con FDR q≤.05 y 1 con control familiar max-|Δ|≤.05.
+- La única señal que sobrevive simultáneamente FDR y el control familiar max-|Δ| es **`ugameke` ↔ `infinitive_ending_proxy`**: 0.516 dentro de la clase frente a 0.126 en el resto (Δ=0.390; p=5e-05; q=0.001; FWER=0.0012).
+- Revisión humana y análisis morfológico/semántico automáticos permanecen desactivados.
+<!-- AMEKE_PERM_CHANGELOG_END -->
 ## Investigación interna — 2026-08-13
 
 - Nueva extracción conservadora DE–RAR guiada por el inventario RAR–DE: 989 atestiguaciones candidatas; 1458 segmentos residuales quedan separados como baja confianza.
