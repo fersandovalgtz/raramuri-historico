@@ -36,6 +36,14 @@ La puntuación usa únicamente propiedades documentales y de organización de la
 
 Cada registro recibe un identificador `RHD-ADJ-######` y conserva campos independientes para revisor, afiliación, ORCID, fecha, decisión, tipo de relación adoptado, relación semántica, continuidad histórica, confianza, evidencia y nota. Todos permanecen inicialmente como `human_reviewed=false` y `not_assessed`.
 
+## Expedientes individuales de prioridad 1
+
+`priority1_adjudication_dossiers.json` convierte los **21 casos de nivel 1** en expedientes independientes y navegables. Cada expediente recibe un identificador `RHD-DIA-P1-###` y conserva, lado a lado, la forma y artículo diplomático de Steffel, página impresa, registro contemporáneo, lema, clasificación, traducción de la fuente, candidato automático, puntuación, razones de prioridad y multiplicidad de alternativas.
+
+Los archivos Markdown en `dossiers/priority1/` incluyen campos vacíos para revisor, afiliación, ORCID, competencia, fecha, decisión, relación adoptada, análisis semántico, continuidad histórica, variación dialectal, evidencia, confianza y nota. Los valores permitidos para decisión, tipo de relación adoptada y confianza proceden de `correspondence_schema.json`.
+
+La generación de expedientes **no adjudica** los casos. No traduce ni reinterpreta automáticamente la glosa histórica, no declara cognación, no decide continuidad ni cambio semántico y no altera ninguna forma diplomática o contemporánea. `human_reviewed` permanece en `false` hasta una decisión independiente, explícita e identificada.
+
 ## Tipos de relación candidatos
 
 - `exact_normalized_graphic_match`: coincidencia de claves normalizadas mediante una regla documental explícita; no implica identidad semántica.
@@ -55,7 +63,9 @@ Las capas diacrónicas tampoco autorizan automáticamente etiquetas de cognació
 
 ## Flujo científico
 
-La secuencia es: generar candidatos documentales; conservar homónimos y alternativas por separado; priorizar la revisión sin adjudicar el contenido; revisar forma, sentido, contexto y fuente; registrar aceptación, modificación, rechazo o incertidumbre; y sólo después construir análisis de continuidad/cambio léxico, ortográfico o semántico.
+La secuencia es: generar candidatos documentales; conservar homónimos y alternativas por separado; priorizar la revisión sin adjudicar el contenido; preparar expedientes individuales para los casos de mayor prioridad; revisar forma, sentido, contexto y fuente; registrar aceptación, modificación, rechazo o incertidumbre; y sólo después construir análisis de continuidad/cambio léxico, ortográfico o semántico.
+
+La revisión diacrónica permanece separada de la validación filológica de la transcripción histórica. Un expediente diacrónico no puede utilizarse para sobrescribir silenciosamente el registro diplomático ni para marcar como verificada una lectura histórica todavía pendiente de revisión independiente.
 
 ## Artefactos reproducibles
 
@@ -69,8 +79,13 @@ La secuencia es: generar candidatos documentales; conservar homónimos y alterna
 - `adjudication_queue.json` / `.csv`: cola integrada y priorizada de las 298 hipótesis.
 - `adjudication_queue_summary.json`: conteos de la cola y niveles de prioridad.
 - `ADJUDICATION_REVIEW_INDEX.md`: índice legible para revisión sistemática.
+- `priority1_adjudication_dossiers.json`: 21 expedientes estructurados de prioridad 1.
+- `priority1_adjudication_dossiers_compact.json`: versión compacta de los expedientes.
+- `PRIORITY1_ADJUDICATION_INDEX.md`: índice navegable de los expedientes de prioridad 1.
+- `dossiers/priority1/`: un Markdown por expediente de prioridad 1.
 - `scripts/generate_diachronic_correspondences.py`: generador determinista de coincidencias exactas.
 - `scripts/generate_probable_graphic_correspondences.py`: generador determinista de correspondencias gráficas probables.
 - `scripts/generate_diachronic_adjudication_queue.py`: generador determinista de la cola de adjudicación.
+- `scripts/generate_diachronic_priority1_dossiers.py`: generador determinista de expedientes individuales.
 
-GitHub Actions reconstruye las dos cohortes y la cola de adjudicación contra el snapshot contemporáneo fijado y valida identificadores, duplicados, separación entre cohortes, límites de candidatos, orden de prioridad y estados de revisión. Todas las relaciones permanecen con revisión humana igual a cero hasta que exista adjudicación independiente documentada.
+GitHub Actions reconstruye las dos cohortes, la cola de adjudicación y los expedientes contra el snapshot contemporáneo fijado y valida identificadores, duplicados, separación entre cohortes, límites de candidatos, orden de prioridad, cobertura de los expedientes y estados de revisión. Todas las relaciones permanecen con revisión humana igual a cero hasta que exista adjudicación independiente documentada.
