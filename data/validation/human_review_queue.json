@@ -511,17 +511,6 @@
       "linguistically_verified": false
     },
     {
-      "record_id": "RHD-S1809-02466",
-      "source_batch": "RHD-PHIL-010",
-      "printed_page": 368,
-      "ai_recollation_disposition": "unresolved_after_ai_recollation",
-      "residual_route": "human_philological_and_linguistic_review",
-      "ai_recollation_note": "The second variant `Stácameke` and German gloss are clear, but the compact initial sequence of the first variant does not justify a unique character-level reconstruction; no forced replacement of the diplomatic form is made.",
-      "human_verified": false,
-      "philologically_verified_by_human": false,
-      "linguistically_verified": false
-    },
-    {
       "record_id": "RHD-S1809-00079",
       "source_batch": "RHD-PHIL-001",
       "printed_page": 302,
@@ -1891,7 +1880,7 @@
       "printed_page": 354,
       "ai_recollation_disposition": "corrected_ai_assisted",
       "residual_route": "human_linguistic_and_variant_review",
-      "ai_recollation_note": "High-resolution p. 354 clearly reads `Atác, oder hatúca`.",
+      "ai_recollation_note": "High-resolution p. 354 clearly reads Atác, oder hatúca.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -2139,12 +2128,23 @@
       "linguistically_verified": false
     },
     {
+      "record_id": "RHD-S1809-02383",
+      "source_batch": "RHD-PHIL-010",
+      "printed_page": 367,
+      "ai_recollation_disposition": "corrected_ai_assisted",
+      "residual_route": "human_linguistic_and_morphological_review",
+      "ai_recollation_note": "600-dpi p. 367 clearly supports the acute in Tepá- but no acute in the later -gameke sequence.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
       "record_id": "RHD-S1809-02406",
       "source_batch": "RHD-PHIL-010",
       "printed_page": 367,
       "ai_recollation_disposition": "corrected_ai_assisted",
       "residual_route": "human_linguistic_and_morphological_review",
-      "ai_recollation_note": "Direct p. 367 inspection clearly supports historical `tſchapiméla` and long-s spellings.",
+      "ai_recollation_note": "600-dpi p. 367 supports historical tſchapimela without an acute mark and the long-s German spellings.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -2156,6 +2156,17 @@
       "ai_recollation_disposition": "corrected_ai_assisted",
       "residual_route": "human_linguistic_review",
       "ai_recollation_note": "The enlarged source reads Tſchapiboli; no acute accent is visible in the word.",
+      "human_verified": false,
+      "philologically_verified_by_human": false,
+      "linguistically_verified": false
+    },
+    {
+      "record_id": "RHD-S1809-02466",
+      "source_batch": "RHD-PHIL-010",
+      "printed_page": 368,
+      "ai_recollation_disposition": "corrected_ai_assisted",
+      "residual_route": "human_linguistic_and_variant_review",
+      "ai_recollation_note": "At 600 dpi the first variant is sufficiently clear as Tſeſtarácameke; the second variant Stácameke and gloss Roth are also clear, so the prior unresolved status is closed at the AI-assisted documentary level.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
@@ -5126,17 +5137,6 @@
       "ai_recollation_disposition": "confirmed_ai_assisted",
       "residual_route": "human_linguistic_review",
       "ai_recollation_note": "The headword and acute mark are supported.",
-      "human_verified": false,
-      "philologically_verified_by_human": false,
-      "linguistically_verified": false
-    },
-    {
-      "record_id": "RHD-S1809-02383",
-      "source_batch": "RHD-PHIL-010",
-      "printed_page": 367,
-      "ai_recollation_disposition": "confirmed_ai_assisted",
-      "residual_route": "human_linguistic_and_morphological_review",
-      "ai_recollation_note": "The long headword and visible accents are sustained.",
       "human_verified": false,
       "philologically_verified_by_human": false,
       "linguistically_verified": false
