@@ -1,25 +1,25 @@
 adjudication_id,priority_tier,priority_score,source_candidate_id,source_cohort,historical_record_id,historical_form,historical_component,historical_page,modern_record_id,modern_headword,modern_translation,relation_type,component_candidate_count,semantic_evidence_available,human_reviewed,decision
-RHD-ADJ-000001,2,68,RHD-CORR-000004,exact,RHD-S1809-01688,Boní,Boní,355,RD-000301,Boní,Hermano menor,exact_normalized_graphic_match,2,true,false,not_assessed
-RHD-ADJ-000002,2,68,RHD-CORR-000035,exact,RHD-S1809-02203,Pugué,Pugué,364,RD-001857,Pugué,"Tener, poseer (muchos animales)",exact_normalized_graphic_match,2,true,false,not_assessed
-RHD-ADJ-000003,2,64,RHD-CORR-000005,exact,RHD-S1809-01700,Búra,Búra,355,RD-000341,Burá,Hacer camino,exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000004,2,64,RHD-CORR-000011,exact,RHD-S1809-01756,Cuná,Cuná,356,RD-000587,Cuná,"Marido, esposo",exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000005,2,64,RHD-CORR-000017,exact,RHD-S1809-01939,Jumá,Jumá,359,RD-001183,Juma,Correr,exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000006,2,64,RHD-CORR-000020,exact,RHD-S1809-02042,Muni,Muni,361,RD-001405,Muní,Frijol,exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000007,2,64,RHD-CORR-000021,exact,RHD-S1809-02043,Múra,Múra,361,RD-001408,Murá,Espiga,exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000008,2,64,RHD-CORR-000022,exact,RHD-S1809-02045,Musí,Musí,361,RD-001420,Musí,"Tipo de pez negro, bargón",exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000009,2,64,RHD-CORR-000023,exact,RHD-S1809-02082,Napé,Napé,362,RD-001505,Napé,1. Juntarse 2. Juntarse (casar),exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000010,2,64,RHD-CORR-000026,exact,RHD-S1809-02093,Natépa,Natépa,362,RD-001557,Natepa,Encontrar,exact_normalized_graphic_match,3,true,false,not_assessed
-RHD-ADJ-000011,2,64,RHD-CORR-000031,exact,RHD-S1809-02151,Báca,Báca,363,RD-000127,Bacá,Carrizo,exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000012,2,64,RHD-CORR-000032,exact,RHD-S1809-02179,Piri?,Piri,364,RD-001846,Piri,¿Qué?,exact_normalized_graphic_match,3,true,false,not_assessed
-RHD-ADJ-000013,2,64,RHD-CORR-000036,exact,RHD-S1809-02228,Raná,Raná,364,RD-001932,Raná,1. vt Parir 2. s Hijo,exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000014,2,64,RHD-CORR-000037,exact,RHD-S1809-02229,"Ráje, oder táje",Ráje,364,RD-001923,Rajé,Encender ocote (para alumbrar),exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000015,2,64,RHD-CORR-000038,exact,RHD-S1809-02248,Róco,Róco,365,RD-002110,Rocó,Estar hondo,exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000016,2,64,RHD-CORR-000039,exact,RHD-S1809-02250,Ropá,Ropá,365,RD-002164,Ropá,Estómago,exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000017,2,64,RHD-CORR-000042,exact,RHD-S1809-02290,Sisí,Sisí,365,RD-002349,Sisí,¡Vénganse!,exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000018,2,64,RHD-CORR-000044,exact,RHD-S1809-02331,"Taná, oder raná",raná,366,RD-001932,Raná,1. vt Parir 2. s Hijo,exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000019,2,64,RHD-CORR-000043,exact,RHD-S1809-02331,"Taná, oder raná",Taná,366,RD-002448,Tana,Pedir,exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000020,2,64,RHD-CORR-000045,exact,RHD-S1809-02333,Taní,Taní,366,RD-002451,Tani,Rogar,exact_normalized_graphic_match,4,true,false,not_assessed
-RHD-ADJ-000021,2,64,RHD-CORR-000046,exact,RHD-S1809-02335,Tará,Tará,366,RD-002453,Tará,Contar,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000001,1,68,RHD-CORR-000004,exact,RHD-S1809-01688,Boní,Boní,355,RD-000301,Boní,Hermano menor,exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000002,1,68,RHD-CORR-000035,exact,RHD-S1809-02203,Pugué,Pugué,364,RD-001857,Pugué,"Tener, poseer (muchos animales)",exact_normalized_graphic_match,2,true,false,not_assessed
+RHD-ADJ-000003,1,64,RHD-CORR-000005,exact,RHD-S1809-01700,Búra,Búra,355,RD-000341,Burá,Hacer camino,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000004,1,64,RHD-CORR-000011,exact,RHD-S1809-01756,Cuná,Cuná,356,RD-000587,Cuná,"Marido, esposo",exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000005,1,64,RHD-CORR-000017,exact,RHD-S1809-01939,Jumá,Jumá,359,RD-001183,Juma,Correr,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000006,1,64,RHD-CORR-000020,exact,RHD-S1809-02042,Muni,Muni,361,RD-001405,Muní,Frijol,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000007,1,64,RHD-CORR-000021,exact,RHD-S1809-02043,Múra,Múra,361,RD-001408,Murá,Espiga,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000008,1,64,RHD-CORR-000022,exact,RHD-S1809-02045,Musí,Musí,361,RD-001420,Musí,"Tipo de pez negro, bargón",exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000009,1,64,RHD-CORR-000023,exact,RHD-S1809-02082,Napé,Napé,362,RD-001505,Napé,1. Juntarse 2. Juntarse (casar),exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000010,1,64,RHD-CORR-000026,exact,RHD-S1809-02093,Natépa,Natépa,362,RD-001557,Natepa,Encontrar,exact_normalized_graphic_match,3,true,false,not_assessed
+RHD-ADJ-000011,1,64,RHD-CORR-000031,exact,RHD-S1809-02151,Báca,Báca,363,RD-000127,Bacá,Carrizo,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000012,1,64,RHD-CORR-000032,exact,RHD-S1809-02179,Piri?,Piri,364,RD-001846,Piri,¿Qué?,exact_normalized_graphic_match,3,true,false,not_assessed
+RHD-ADJ-000013,1,64,RHD-CORR-000036,exact,RHD-S1809-02228,Raná,Raná,364,RD-001932,Raná,1. vt Parir 2. s Hijo,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000014,1,64,RHD-CORR-000037,exact,RHD-S1809-02229,"Ráje, oder táje",Ráje,364,RD-001923,Rajé,Encender ocote (para alumbrar),exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000015,1,64,RHD-CORR-000038,exact,RHD-S1809-02248,Róco,Róco,365,RD-002110,Rocó,Estar hondo,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000016,1,64,RHD-CORR-000039,exact,RHD-S1809-02250,Ropá,Ropá,365,RD-002164,Ropá,Estómago,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000017,1,64,RHD-CORR-000042,exact,RHD-S1809-02290,Sisí,Sisí,365,RD-002349,Sisí,¡Vénganse!,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000018,1,64,RHD-CORR-000044,exact,RHD-S1809-02331,"Taná, oder raná",raná,366,RD-001932,Raná,1. vt Parir 2. s Hijo,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000019,1,64,RHD-CORR-000043,exact,RHD-S1809-02331,"Taná, oder raná",Taná,366,RD-002448,Tana,Pedir,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000020,1,64,RHD-CORR-000045,exact,RHD-S1809-02333,Taní,Taní,366,RD-002451,Tani,Rogar,exact_normalized_graphic_match,4,true,false,not_assessed
+RHD-ADJ-000021,1,64,RHD-CORR-000046,exact,RHD-S1809-02335,Tará,Tará,366,RD-002453,Tará,Contar,exact_normalized_graphic_match,4,true,false,not_assessed
 RHD-ADJ-000022,2,59,RHD-CORR-000015,exact,RHD-S1809-01914,Iché,Iché,358,RD-001060,Iché,Hay matas de maíz,exact_normalized_graphic_match,4,true,false,not_assessed
 RHD-ADJ-000023,2,59,RHD-CORR-000016,exact,RHD-S1809-01914,Iché,Iché,358,RD-001061,Iché,"Picar, punzar, inyectar",exact_normalized_graphic_match,4,true,false,not_assessed
 RHD-ADJ-000024,2,59,RHD-CORR-000024,exact,RHD-S1809-02092,Nateguí,Nateguí,362,RD-001556,Nateguí,Cuesta,exact_normalized_graphic_match,3,true,false,not_assessed
