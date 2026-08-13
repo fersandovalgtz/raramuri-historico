@@ -1,0 +1,25 @@
+name: run-rar-de-audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/audit_rar_de_participial_inflections.py'
+      - '.github/workflows/run-rar-de-audit.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/audit_rar_de_participial_inflections.py
+      - run: git config user.name github-actions
+      - run: git config user.email actions@github.com
+      - run: git add data/research/rar_de_participial_inflection_audit.json data/research/rar_de_participial_inflection_audit_summary.json
+      - run: git diff --cached --quiet || git commit -m 'Generate RAR-DE participial inflection audit'
+      - run: git pull --rebase origin main
+      - run: git push
