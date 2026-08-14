@@ -1,0 +1,122 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "color_morphology_multivariety_compendio_1997_v1",
+  "generated": "2026-08-13",
+  "source": {
+    "title": "Compendio básico de la gramática ralámuli",
+    "project": "Bilepi Ralámuli Osiwaame",
+    "year": 1997,
+    "publication_context": "Gobierno del Estado de Chihuahua / Coordinación Estatal de la Tarahumara",
+    "section": "5. COLORES",
+    "source_status": "independent multivariety grammatical/elicitation source",
+    "online_verification_date": "2026-08-13"
+  },
+  "source_general_analysis": {
+    "color_roots": "The source states that color words use the ending -ame, labeled participio, and that color roots normally occur with one or more endings.",
+    "intensity_material": {
+      "-ka/-ga/-cha": "described in the source as related to stronger/intensified color",
+      "-na": "described as becoming/color bajo",
+      "-bi/-bo": "small degree",
+      "-ti": "additional modification in some varieties",
+      "-simi": "becoming/inchoative motion-like expression in color constructions"
+    },
+    "important_scope": "Descriptions are source-level labels from the Compendio; this project does not automatically equate their morphemic status across every variety."
+  },
+  "varieties": ["Centro", "Baja", "Baja-TB", "Cumbre", "Norte", "Sur-B", "Sur-T"],
+  "basic_color_paradigms": [
+    {
+      "meaning": "red",
+      "forms": [
+        {"form": "sitá-ka-me", "varieties": ["Cumbre", "Norte", "Centro", "Sur-B"]},
+        {"form": "setá-ka-me", "varieties": ["Baja"]},
+        {"form": "sejtá-ka-me", "varieties": ["Baja-TB"]},
+        {"form": "sikó-ko-m", "varieties": ["Sur-T"]}
+      ],
+      "becoming_or_lower_color_examples": [
+        {"form": "setá-na", "varieties": ["Baja"]},
+        {"form": "sejtá-na simí", "varieties": ["Baja-TB"]},
+        {"form": "sitána simí", "varieties": ["Cumbre"]},
+        {"form": "sita-ná-simi", "varieties": ["Norte", "Sur-B"]}
+      ]
+    },
+    {
+      "meaning": "blue_green",
+      "forms": [
+        {"form": "seyó-na-me", "varieties": ["Centro"]},
+        {"form": "seyó-ka-me", "varieties": ["Baja"]},
+        {"form": "siyó-ka-me", "varieties": ["Baja-TB"]},
+        {"form": "siyó na me", "varieties": ["Cumbre", "Norte"]},
+        {"form": "siyó-na-mi", "varieties": ["Sur-B"], "source_note": "source explicitly notes absence of siyókame in this variety"},
+        {"form": "siyó-no-m", "varieties": ["Sur-T"]}
+      ]
+    },
+    {
+      "meaning": "black",
+      "forms": [
+        {"form": "chó-ka-mi", "varieties": ["Centro", "Norte", "Sur-B"]},
+        {"form": "chó-ka-me", "varieties": ["Baja", "Baja-TB"]},
+        {"form": "chó-ko-m", "varieties": ["Sur-T"]}
+      ],
+      "becoming_or_lower_color_examples": [
+        {"form": "chó-na-mi", "varieties": ["Centro"]},
+        {"form": "chó-na", "varieties": ["Baja"]},
+        {"form": "chó-na-me simí", "varieties": ["Baja-TB"]},
+        {"form": "chó-na simí", "varieties": ["Cumbre"]},
+        {"form": "cho-ná-simi", "varieties": ["Norte", "Sur-B"]}
+      ]
+    },
+    {
+      "meaning": "white",
+      "forms": [
+        {"form": "rosá-ka-me", "varieties": ["Centro", "Baja", "Baja-TB", "Cumbre", "Norte"]},
+        {"form": "rosá-ka-mi", "varieties": ["Sur-B"]},
+        {"form": "rosá-ko-m", "varieties": ["Sur-T"]}
+      ],
+      "source_semantic_note": "Norte, Baja and Baja-TB distinguish rosákame 'white' from rosáname 'medium/light white'; Cumbre is reported not to maintain the same distinction consistently."
+    }
+  ],
+  "additional_color_evidence": [
+    {
+      "domain": "orange_or_yellowish",
+      "forms": ["sawaró-ame", "sawaró-ami", "sawaró-ga-me", "sawaró-na-me"],
+      "significance": "documents both bare -ame/-ami and forms with additional material before -me"
+    },
+    {
+      "domain": "purple",
+      "forms": ["lamú-ame", "lamú-ami", "elamú-ga-me"],
+      "significance": "independent bare -ame/-ami alternation in the color domain"
+    },
+    {
+      "domain": "gray",
+      "forms": ["milisó-ami", "rosabó-cha-me", "rosó-ba-cha-mi", "rosa-bó-cha-ka-me"],
+      "significance": "shows -ami/-me embedded in more complex color derivations"
+    }
+  ],
+  "compound_color_examples": [
+    "chókame-siyókame",
+    "siyóna-chóname",
+    "siyóname-rajpame"
+  ],
+  "analytical_findings": {
+    "me_mi_m_variation": "The same semantic color categories exhibit final -me, -mi and contracted -m across varieties.",
+    "ka_na_variation": "The material immediately before -me/-mi varies between -ka and -na according to color, degree/state and variety.",
+    "bare_ame_ami": "Some color terms occur with -ame/-ami without the -ka/-na material visible in the basic red/black/white paradigms.",
+    "independence_value": "This source provides synchronically distributed evidence across multiple Rarámuri varieties and is methodologically independent of the unresolved SRC-02/Hilton document lineage.",
+    "diachronic_value": "The source strongly supports treating -ame/-ami as a recurrent derivational/participial core while analyzing additional k/n/g material separately rather than assuming one linear surface change -ameke > -ami."
+  },
+  "comparison_constraints": [
+    "Do not equate historical Steffel -ame-ke with modern -ka-me merely because both contain k and ame-like material; published analyses place the material in different orders.",
+    "Do not assume final -e/-i alternation is a single sound law without variety-specific phonological evidence.",
+    "Do not assume contracted -m has the same pathway in all varieties without prosodic analysis.",
+    "Human verification against page images is required before publication-quality transcription of every diacritic and regional label."
+  ],
+  "epistemic_status": {
+    "ai_assisted": true,
+    "online_source_verified": true,
+    "multivariety_source": true,
+    "independent_of_src02_lineage_for_current_analysis": true,
+    "human_page_image_recollation_complete": false,
+    "automatic_morpheme_equation": false,
+    "automatic_sound_law": false
+  }
+}
