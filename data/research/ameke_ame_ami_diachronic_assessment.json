@@ -1,0 +1,104 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_ame_ami_diachronic_assessment_v1",
+  "generated": "2026-08-13",
+  "working_hypothesis": "Historical -ameke with source-attested -ame variation and independent modern participial -ame/-ami show convergence compatible with participial functional continuity. This does not establish a blanket sound law -ameke > -ami or automatic lexical cognacy.",
+  "historical_source_evidence": {
+    "steffel_explicit_ameke_participial": true,
+    "steffel_reports_final_ke_often_omitted_in_speech": true,
+    "rar_de_unique_graphic_keys": 788,
+    "ameke_key_count": 67,
+    "final_ke_key_count": 96,
+    "final_ke_outside_ameke_key_count": 29,
+    "final_ame_key_count": 3,
+    "ameke_with_exact_xame_counterpart_count": 1,
+    "ameke_with_exact_bare_base_counterpart_count": 10
+  },
+  "modern_src02_distribution": {
+    "modern_commit": "156921f4edfe27d784edc1e6444867eaa368f2e5",
+    "modern_active_record_count": 2581,
+    "final_ami_record_count": 214,
+    "simple_nonbare_final_ami_candidate_count": 210,
+    "exact_base_plus_ami_pair_count": 59,
+    "classification_family_counts": {
+      "Adj": 108,
+      "S": 60,
+      "Pp": 20,
+      "Adv": 10,
+      "Vi": 4,
+      "Sin clasificar": 7,
+      "Pron": 1
+    }
+  },
+  "independent_choguita_evidence": {
+    "reference": "Caballero 2022, A grammar of Choguita Rarámuri",
+    "participial_suffix": "-ame",
+    "surface_ami_analyzed_as_ame": "hâw-ami ‘authorities’ is analyzed as a nominalization through participial -ame",
+    "governor_form": "siˈríame ‘governor(s)’",
+    "optional_e_to_i_raising": true,
+    "cross_variety_caution": true
+  },
+  "priority_lexical_candidates": [
+    {
+      "candidate_id": "RHD-AMEAMI-LEX-001",
+      "historical_base": "Neſſé",
+      "historical_form": "Neſſéameke",
+      "historical_meaning": "Bewahren/Hüten; Hüter",
+      "historical_internal_bidirectional_support": true,
+      "modern_base_record_id": "RD-001635",
+      "modern_base": "Nisé",
+      "modern_base_meaning": "Cuidar, pastorear",
+      "modern_record_id": "RD-001636",
+      "modern_form": "Niséami",
+      "modern_meaning": "Pastor",
+      "assessment": "high_priority_semantic_derivational_candidate",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed"
+    },
+    {
+      "candidate_id": "RHD-AMEAMI-LEX-002",
+      "historical_base": "Seli",
+      "historical_form": "Seliameke",
+      "historical_meaning": "Herrscher; Dorfrichter",
+      "historical_internal_bidirectional_support": true,
+      "modern_record_id": "RD-002341",
+      "modern_form": "Siríami",
+      "modern_meaning": "Gobernador tradicional",
+      "independent_modern_form": "siˈríame",
+      "independent_modern_meaning": "governor(s)",
+      "assessment": "very_high_priority_lexical_triangulation_candidate",
+      "unresolved_form_issue": "historical l versus modern r not adjudicated",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed"
+    },
+    {
+      "candidate_id": "RHD-AMEAMI-LEX-003",
+      "historical_form": "Tſchócameke",
+      "historical_meaning": "Schwarz",
+      "modern_record_id": "RD-000743",
+      "modern_form": "Chócami",
+      "modern_meaning": "Negro",
+      "assessment": "high_priority_joint_affricate_participial_candidate",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed"
+    },
+    {
+      "candidate_id": "RHD-AMEAMI-LEX-004",
+      "historical_form": "Tſchiperameke",
+      "historical_meaning": "Fein. Dünn. Flach.",
+      "modern_record_id": "RD-000711",
+      "modern_form": "Chipérami",
+      "modern_meaning": "Plano",
+      "assessment": "high_priority_joint_affricate_participial_candidate",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed"
+    }
+  ],
+  "negative_controls_retained": true,
+  "ai_assisted": true,
+  "human_reviewed": false,
+  "automatic_morpheme_assignment": false,
+  "cognacy_judgment": "not_performed",
+  "historical_continuity_judgment": "not_performed",
+  "sound_correspondence_judgment": "not_performed"
+}
