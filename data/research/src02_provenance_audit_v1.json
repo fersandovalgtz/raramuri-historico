@@ -1,0 +1,118 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "comparison_dataset": "Rarámuri Digital",
+  "layer": "src02_provenance_audit_v1",
+  "generated": "2026-08-13",
+  "src02_declared_metadata": {
+    "source_code": "SRC-02",
+    "source_document": "DICCIONARIO raramuri.pdf",
+    "coverage": "PDF pages 3–87",
+    "record_count": 2581,
+    "declared_bibliographic_identity": null,
+    "declared_relation_to_src01": "distinct source codes; systematic collation against SRC-01 is pending"
+  },
+  "src01_declared_metadata": {
+    "source_code": "SRC-01",
+    "bibliographic_identity": "K. Simón Hilton, Diccionario tarahumara de Samachique (1993)",
+    "function": "facsimile for collation"
+  },
+  "official_sil_reference_points": {
+    "hilton_1993": {
+      "title": "Diccionario tarahumara de Samachique, Chihuahua, México",
+      "edition": "edición especial corregida y actualizada",
+      "compiler": "Hilton, Kenneth S. and others",
+      "year": 1993,
+      "extent": "viii, 146 pages; approximately 2500 entries",
+      "status": "Published",
+      "archive_entry": 10966
+    },
+    "shoemaker_2016": {
+      "title": "Diccionario tarahumara actualizado",
+      "researcher": "Wes Shoemaker",
+      "year": 2016,
+      "extent": "95 pages; approximately 2500 entries",
+      "description": "Updated version of the Diccionario tarahumara (VIMSA 101, 1993) with recent spelling changes.",
+      "status": "Draft (posted as is without peer review)",
+      "has_version": "Hilton 1993",
+      "archive_entry": 68110
+    }
+  },
+  "indexed_2016_document_comparison": {
+    "document_label": "Diccionario Tarahumara Inédito / Dicccionario raramuri.pdf",
+    "document_state": "Borrador, 1 August 2016",
+    "page_count_on_indexed_copy": 96,
+    "relationship_to_official_2016_record": "content and date are consistent with the official SIL 2016 draft; exact file-byte identity not verified",
+    "diagnostic_examples": [
+      {
+        "lexical_item": "buscar (animal)",
+        "src02": "Nijeni ama cahué. ... Ábia simíbari ... pret.: ari",
+        "indexed_2016": "Nijeni ama kawé. ... ábia simíbali ... pret.: ali",
+        "interpretation": "same lexical/example architecture with spelling/phonographic modernization c/k and r/l"
+      },
+      {
+        "lexical_item": "arco",
+        "src02": "Catá",
+        "indexed_2016": "katá (also atá in the updated dictionary)",
+        "interpretation": "updated 2016 copy uses k where SRC-02 preserves c"
+      },
+      {
+        "lexical_item": "aguja",
+        "src02": "Huichá",
+        "indexed_2016": "wichá",
+        "interpretation": "updated 2016 copy uses w where SRC-02 preserves hu"
+      },
+      {
+        "lexical_item": "agua",
+        "src02": "Ba'huí",
+        "indexed_2016": "baꞌwí",
+        "interpretation": "updated 2016 copy uses w where SRC-02 preserves hu"
+      }
+    ]
+  },
+  "internal_repository_audit": {
+    "files_checked": [
+      "DATASHEET.md",
+      "project-metadata.json",
+      "metadata/fair-dataset.jsonld",
+      "data/extraction-report.json",
+      "README.md",
+      "initial lexicon-master.csv commit a7a17f36c2be5d8d49d09539dbca76a28023c936"
+    ],
+    "result": "No author, edition, archival identifier, source URL, source-file hash or title-page transcription was found for SRC-02 beyond the generic source_document filename."
+  },
+  "provenance_assessment": {
+    "file_identity": "unresolved",
+    "bibliographic_identity": "unresolved",
+    "lineage_hypothesis": "likely pre-2016/Hilton-1993 lexicographic lineage or a pre-spelling-update derivative within the same dictionary tradition",
+    "lineage_confidence": "moderate_to_high",
+    "reasoning": [
+      "Official SIL states the 2016 dictionary is an updated version of the 1993 dictionary with recent spelling changes.",
+      "SRC-02 and the indexed 2016 draft share highly specific lexical entries, examples and derivative architecture, while differing systematically in spellings such as c/k, hu/w and some r/l forms.",
+      "SRC-02 has 2581 entries, close to the approximately 2500 entries reported for both Hilton 1993 and Shoemaker 2016.",
+      "The repository itself explicitly separates Hilton 1993 as SRC-01 from the unidentified textual PDF SRC-02, so direct bibliographic identity cannot be asserted without file-level evidence."
+    ],
+    "prohibited_claims": [
+      "Do not label SRC-02 as Hilton 1993 as an established fact.",
+      "Do not label SRC-02 as Shoemaker 2016 as an established fact.",
+      "Do not treat exact modern forms shared with Hilton citations as independent evidence until documentary dependence is resolved.",
+      "Do not treat the unresolved provenance as evidence that the lexical data are invalid; it is a source-lineage limitation."
+    ]
+  },
+  "research_effect": {
+    "color_domain": "Published Steffel-Hilton-Brambila comparisons remain valuable, but exact overlap between SRC-02 and Hilton forms must be treated as potentially non-independent until provenance is resolved.",
+    "morphology": "Source-internal SRC-02 annotations such as pp. remain valid documentary evidence about SRC-02 itself, regardless of unresolved bibliographic identity; their independence from Hilton must be assessed separately when used as diachronic corroboration.",
+    "next_steps": [
+      "Locate the original SRC-02 PDF or a title-page/metadata copy and compute a hash if available.",
+      "Collate a diagnostic sample against Hilton 1993 and Shoemaker 2016 at the page/entry level.",
+      "Add explicit provenance confidence fields to future cross-source analyses so documentary dependence is not mistaken for independent replication."
+    ]
+  },
+  "epistemic_status": {
+    "ai_assisted": true,
+    "official_sil_metadata_verified": true,
+    "repository_metadata_audited": true,
+    "indexed_2016_text_consulted": true,
+    "source_file_bytes_verified": false,
+    "human_reviewed_by_project": false
+  }
+}
