@@ -1,0 +1,43 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "affricate_ai_semantic_triage_v1",
+  "generated": "2026-08-13",
+  "candidate_count": 26,
+  "semantic_label_counts": {
+    "strong_direct_overlap": 9,
+    "compatible_related_domain": 4,
+    "contradictory": 13
+  },
+  "synthesis_label_counts": {
+    "priority_positive": 6,
+    "semantic_positive_documentary_ambiguity": 3,
+    "priority_related_but_uncertain": 2,
+    "related_domain_low_documentary_priority": 2,
+    "graphic_decoy_or_semantic_negative": 13
+  },
+  "priority_positive_count": 6,
+  "priority_positive_candidate_ids": [
+    "RHD-AFFSRC-000020",
+    "RHD-AFFSRC-000025",
+    "RHD-AFFSRC-000026",
+    "RHD-AFFSRC-000001",
+    "RHD-AFFSRC-000021",
+    "RHD-AFFSRC-000022"
+  ],
+  "semantic_positive_documentary_ambiguity_candidate_ids": [
+    "RHD-AFFSRC-000007",
+    "RHD-AFFSRC-000010",
+    "RHD-AFFSRC-000011"
+  ],
+  "assessment_method": "explicit_ai_assisted_bilingual_gloss_comparison_after_documentary_ranking_v1",
+  "documentary_ranking_modified": false,
+  "semantic_similarity_used_for_candidate_retrieval": false,
+  "semantic_similarity_used_for_documentary_ranking": false,
+  "working_german_translations_are_source_text": false,
+  "ai_assisted": true,
+  "human_reviewed": false,
+  "cognacy_judgment": "not_performed",
+  "historical_continuity_judgment": "not_performed",
+  "automatic_sound_correspondence_inference": false,
+  "interpretive_scope": "AI-assisted semantic triage for review prioritization only. Labels do not establish cognacy, historical continuity, phonological correspondence, or human validation."
+}
