@@ -22,6 +22,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Repair semantic triage ranking accessors
+        run: python3 -c "from pathlib import Path; p=Path('scripts/generate_affricate_semantic_triage.py'); s=p.read_text(); s=s.replace('dr[\"positive_holdout_pair\"]','dr[\"holdout_evidence\"][\"prespecified_positive_pair\"]'); s=s.replace('dr[\"internal_support_label\"]','dr[\"steffel_internal_evidence\"][\"support_label\"]'); s=s.replace('dr[\"unique_exact_projected_modern_record\"]','dr[\"projection\"][\"unique_exact_projected_modern_record\"]'); p.write_text(s)"
       - name: Generate upstream affricate layers
         run: |
           python3 scripts/generate_source_supported_affricate_candidates.py
@@ -31,7 +33,7 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email actions@github.com
-          git add data/research/affricate_semantic_triage.json data/research/affricate_semantic_triage.csv data/research/affricate_semantic_triage_summary.json data/research/AFFRICATE_SEMANTIC_TRIAGE.md
+          git add scripts/generate_affricate_semantic_triage.py data/research/affricate_semantic_triage.json data/research/affricate_semantic_triage.csv data/research/affricate_semantic_triage_summary.json data/research/AFFRICATE_SEMANTIC_TRIAGE.md
           git diff --cached --quiet || git commit -m 'Regenerate affricate semantic triage'
           git pull --rebase origin main
           git push
