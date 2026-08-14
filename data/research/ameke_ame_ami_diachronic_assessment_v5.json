@@ -1,0 +1,107 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_ame_ami_diachronic_assessment_v5",
+  "generated": "2026-08-13",
+  "supersedes": "ameke_ame_ami_diachronic_assessment_v4.json",
+  "revision_focus": "The principal lexical candidates now have formal correspondence audits in addition to source-independence controls. Six priority families reach grade A; blue-green remains A- pending historical-root mapping.",
+  "historical_core": {
+    "steffel": "ameke is source-explicit participial; final ke is often omitted in pronunciation; short -ame forms are source-attested",
+    "merrill": "relevant historical chains are analyzed with participial -(a)me plus optional reduplicative -kV/-ke; Merrill is an analytical layer on Steffel, not a second historical lexical witness"
+  },
+  "modern_core": {
+    "caballero_2022": "independent Choguita grammar documents participial -ame/-kame and provides lexical/morphological controls such as kotʃi and siˈríame",
+    "compendio_1997": "independent multivariety source documents -kame/-kami/-name/-nami/-ame/-ami/-m in color morphology and explicitly labels -ame participial",
+    "sep_community_2010": "independent bilingual community texts provide nise’ami in the shepherd domain and chiperami in a board-like/flat context",
+    "src02": "rich internal modern documentary layer, but bibliographic identity remains unresolved and likely tied to a pre-2016 Hilton lineage; it is not counted as independent from Hilton where exact overlaps occur"
+  },
+  "formal_controls_now_established": {
+    "historical_ss": "Merrill normalizes intervocalic Steffel <ss> to [s], eliminating a false gemination problem in Nessé~Nisé",
+    "historical_e_i": "Merrill documents e~i variation elsewhere in Steffel",
+    "modern_pretonic_e_i": "Caballero documents optional pretonic/posttonic /e/ raising to [i]",
+    "historical_tsch": "Merrill identifies Steffel <tsch> as the voiceless palatoalveolar affricate [č] and provides phonetic normalizations",
+    "historical_l_r": "Steffel/Merrill document l~r alternation; cavólameke~cavórameke provides a same-domain control",
+    "ameke_ame": "Steffel's ke-omission statement, Merrill's -(a)me+-ke analysis and modern productive -ame provide independent constructional controls"
+  },
+  "candidate_ranking_v5": [
+    {
+      "rank": 1,
+      "candidate": "COTSCHI-/cotschimé/cotschiméameke ~ kotʃi/Cochí/cochíami",
+      "grade": "A",
+      "strongest_point": "lexical sleep family and participial function independently align historically and in modern Choguita/SRC-02",
+      "open_problem": "historical -mé in kočimé"
+    },
+    {
+      "rank": 2,
+      "candidate": "Nessé/Nesséameke ~ Nisé/Niséami/nise’ami",
+      "grade": "A",
+      "strongest_point": "historical nesé and modern nisé align in stress/semantics; apparent ss problem disappears; e~i has historical and modern controls; independent Balleza shepherd usage",
+      "open_problem": "direction, geography and chronology of e~i; publication-level cognacy not yet adjudicated"
+    },
+    {
+      "rank": 3,
+      "candidate": "Tſchiperameke ~ Chipérami/chiperami",
+      "grade": "A",
+      "strongest_point": "historical čipér- and modern chipér-/chiper- align in affricate, stress and flat/thin semantics; correspondence is controlled by other families and an independent Guerrero token",
+      "open_problem": "lexeme-specific history of -ameke~-ami and explicit bare-stem analysis"
+    },
+    {
+      "rank": 4,
+      "candidate": "Selí/Selíameke ~ siˈríame/Siríami",
+      "grade": "A",
+      "strongest_point": "explicit historical govern->governor pair plus independent Choguita governor form; e~i, l~r and -ameke~-ame all have external controls",
+      "open_problem": "competing cultural-historical etymology selígame ‘spear bearer’ < selaka ‘spear’ must be traced and reconciled"
+    },
+    {
+      "rank": 5,
+      "candidate": "black-color family tschocámeke ~ chócami/chókame/chókami",
+      "grade": "A",
+      "strongest_point": "published historical-modern comparison plus independent multivariety chó- morphology",
+      "open_problem": "history/order of k-material and exact relationship among surface participial complexes"
+    },
+    {
+      "rank": 6,
+      "candidate": "white-color family rolácameke/tosácameke ~ rosácami/tosácami ~ rosákame/tosákame",
+      "grade": "A",
+      "strongest_point": "multiple published historical forms and independent multivariety rosá- morphology",
+      "open_problem": "root variants and additional morphology"
+    },
+    {
+      "rank": 7,
+      "candidate": "blue-green color family",
+      "grade": "A-",
+      "strongest_point": "modern seyó/siyó paradigms are strongly replicated across varieties and published comparisons connect them to Steffel blue/green forms",
+      "open_problem": "formal mapping of multiple historical Steffel roots to modern seyó/siyó has not yet been resolved"
+    }
+  ],
+  "current_evidential_distribution": {
+    "A": 6,
+    "A_minus": 1,
+    "B_or_lower": 0
+  },
+  "model_v5": {
+    "rejected": "universal one-step -ameke > -ami",
+    "preferred": "continuity of an ame-centered participial/derivational domain, combined with variety-specific additional morphology, phonology, stem structure and lexicalization",
+    "new_bottleneck": "candidate-specific historical reconstruction rather than discovery of more unfiltered string matches or source-independent modern tokens"
+  },
+  "publication_level_claim_v5": "After controlling documentary dependence and formally auditing several candidate-specific correspondences, six priority families now combine historical source evidence, independent modern Rarámuri support and external controls for their main formal differences. This materially strengthens an ame-centered participial/derivational continuity hypothesis. The next publication-level task is not to multiply matches but to reconstruct candidate-specific sound correspondences, stem histories and competing etymologies, beginning with blue-green mapping and the unresolved -mé/selígame problems.",
+  "methodological_rules": [
+    "Every substantive research step is logged in Notion with method, result, cautions, artifacts/commits and next action.",
+    "Grades measure evidential architecture, not cognacy probability.",
+    "Critical editions/analyses do not count as new lexical attestations of the same source material.",
+    "Potentially dependent Hilton/SRC-02 overlaps do not count as independent replication.",
+    "Candidate-specific formal differences must be controlled using evidence outside the target word.",
+    "Competing etymologies are preserved rather than silently reconciled.",
+    "Superseded versions remain in the repository for auditability."
+  ],
+  "epistemic_status": {
+    "ai_assisted": true,
+    "human_reviewed_by_project": false,
+    "source_independence_controlled": true,
+    "formal_correspondence_controls_applied": true,
+    "src02_provenance_resolved": false,
+    "automatic_morpheme_assignment": false,
+    "automatic_sound_law": false,
+    "blanket_cognacy_claim": false,
+    "historical_continuity_hypothesis": "substantially_strengthened_candidate_specific_reconstruction_is_now_primary_task"
+  }
+}
