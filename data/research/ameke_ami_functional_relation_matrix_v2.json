@@ -1,0 +1,115 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_ami_functional_relation_matrix_v2",
+  "generated": "2026-08-13",
+  "supersedes": "ameke_ami_functional_relation_matrix_v1.json",
+  "purpose": "Compare broad semantic-relation types in source-attested historical X~X+ameke pairs and the corrected semantically transparent subset of modern exact X~X+ami pairs.",
+  "correction_note": "Comíami is added after SRC-02 source-level evidence established Pp classification and an explicit 'pp: comíami' note.",
+  "historical": {
+    "n": 10,
+    "counts": {
+      "event_to_agent_or_participant": 6,
+      "state_or_property_to_property_or_holder": 3,
+      "denominal_attribute_or_possession": 1,
+      "spatial_adverbial": 0
+    },
+    "records": {
+      "event_to_agent_or_participant": [
+        "Bajé → Bajéameke: rufen → der Rufende",
+        "Cotſchimé → Cotſchimeameke: schlafen → ein Schlafender",
+        "Cuguí → Cuguíameke: helfen → Helfer",
+        "Neſſé → Neſſéameke: bewahren/hüten → Hüter",
+        "Seli → Seliameke: befehlen/Gewalt haben → Dorfrichter",
+        "Tſchitſchi → Tſchitſchiameke: saugen → Säugling"
+      ],
+      "state_or_property_to_property_or_holder": [
+        "Igue → Igueameke: sehr → ein Starker, der Kräfte hat",
+        "Lessí → Lessíameke: ermatten, müde werden → müde, matt",
+        "Mukiiati → Mukiiatiameke: sterblich → sterblich"
+      ],
+      "denominal_attribute_or_possession": [
+        "Saaté → Saatéameke: Sand → sandig"
+      ]
+    }
+  },
+  "modern_transparent_subset": {
+    "n": 49,
+    "counts": {
+      "event_to_agent_or_participant": 15,
+      "state_or_property_to_property_or_holder": 29,
+      "denominal_attribute_or_possession": 4,
+      "spatial_adverbial": 1
+    },
+    "event_to_agent_or_participant": [
+      "Bajíami",
+      "Binéami",
+      "Bitéami",
+      "Chi’íami",
+      "Icháami",
+      "Nipáami",
+      "Niquíami",
+      "Niséami",
+      "Nuréami",
+      "Pagóami",
+      "Piréami",
+      "Sipáami",
+      "Sirúami",
+      "Sucurúami",
+      "Táami"
+    ],
+    "state_or_property_to_property_or_holder": [
+      "Acáami",
+      "Achíami",
+      "Amarúami",
+      "Aparúami",
+      "Ba'yóami",
+      "Bicáami",
+      "Bi’huíami",
+      "Buchíami",
+      "Cahuíami",
+      "Caréami",
+      "Cóami",
+      "Comíami",
+      "Huachíami",
+      "Huaquichéami",
+      "Huatóami",
+      "Huicúami",
+      "Huiríami",
+      "Mucúami",
+      "Muhuéami",
+      "Nasóami",
+      "Nayúami",
+      "Ni’mayéami",
+      "Nocuáami",
+      "Oráami",
+      "Rajáami",
+      "Ri’náami",
+      "Rocóami",
+      "Ru’náami",
+      "Suhuíami"
+    ],
+    "denominal_attribute_or_possession": [
+      "Hui’íami",
+      "Iyéami",
+      "Otohuéami",
+      "Ropéami"
+    ],
+    "spatial_adverbial": [
+      "Bacháami"
+    ]
+  },
+  "excluded_modern_exact_pairs": {
+    "semantically_related_but_derivational_path_unclear": 3,
+    "mechanical_exact_base_mismatch": 7,
+    "reason": "Only the 49 semantically transparent/source-supported exact pairs are admitted to this corrected functional matrix."
+  },
+  "interpretation": "Historical and modern transparent datasets independently contain event-to-agent/participant, state/property/result, and attributive relation types. The relative frequencies are not inferentially compared because the samples are lexicographic, small/unequal and not balanced. The evidential value is recurrence of relation types plus source-explicit analyses in individual cases.",
+  "epistemic_limits": {
+    "relation_type_assignment": "AI-assisted semantic coding from dictionary glosses, corrected when source-explicit annotations become available",
+    "human_reviewed": false,
+    "automatic_morpheme_assignment": false,
+    "cognacy_judgment": "not_performed",
+    "historical_continuity_judgment": "not_performed",
+    "frequency_inference": "not_performed"
+  }
+}
