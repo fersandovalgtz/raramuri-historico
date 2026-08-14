@@ -1,0 +1,70 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "candidate_nesse_nise_shepherd_continuity_v2",
+  "generated": "2026-08-13",
+  "candidate_id": "RHD-AMEAMI-LEX-001",
+  "historical": {
+    "base": "Nessé / Neſſé",
+    "base_meaning": "bewahren, hüten / guardar, cuidar",
+    "derived": "Nesséameke / Neſſéameke",
+    "derived_meaning": "Hüter / guardián, cuidador",
+    "specialized_attestation": "pouguá nesséameke",
+    "specialized_meaning": "pastor de ovejas",
+    "source": "Steffel 1809 as critically edited/analyzed by Merrill et al. 2020"
+  },
+  "modern_src02": {
+    "base_record_id": "RD-001635",
+    "base": "Nisé",
+    "base_meaning": "Cuidar, pastorear",
+    "derived_record_id": "RD-001636",
+    "derived": "Niséami",
+    "derived_meaning": "Pastor",
+    "derived_classification": "S",
+    "provenance_warning": "SRC-02 file identity unresolved; likely Hilton/pre-2016 lexicographic lineage"
+  },
+  "independent_modern_community_attestation": {
+    "publication": "Awilichi bawi / El origen del agua",
+    "series": "Biblioteca Escolar Indígena y Migrante, Semilla de Palabras",
+    "publisher": "Secretaría de Educación Pública, Dirección General de Educación Indígena",
+    "first_edition": 2010,
+    "first_reprint": 2013,
+    "isbn_volume": "978-607-7879-62-6",
+    "isbn_collection": "978-607-7879-07-7",
+    "contributor": "Loreta Cruz Lebrija",
+    "school": "Escuela Florencio Díaz Holguín",
+    "community": "Arroyo Hondo, Balleza, Chihuahua",
+    "spanish_title": "El pastorcito",
+    "raramuri_title": "Echi nise’ami",
+    "textual_usage": "The Rarámuri narrative repeatedly uses niseami for the boy tending goats; the Spanish parallel repeatedly calls him pastorcito.",
+    "evidence_type": "independent bilingual community-authored/edited usage",
+    "independence_from_src02_hilton_lineage": "high for evidential counting"
+  },
+  "comparison": {
+    "semantic_alignment": "exceptionally_strong",
+    "derivational_alignment": "strong historical caretaker/shepherd nominal versus modern niseami shepherd usage",
+    "modern_independence": "now established beyond SRC-02 through SEP community text",
+    "formal_correspondence": "Nessé ~ Nisé remains to be phonologically/dialectologically adjudicated",
+    "participial_domain_relevance": "historical -ameke is participial; modern community nise’ami is an agent noun in the same caretaker/shepherd domain, but the community text does not itself label the form Pp"
+  },
+  "assessment": "grade_A_minus_independent_semantic_derivational_shepherd_candidate",
+  "strengths": [
+    "Historical Steffel family explicitly links caring/guarding to a guardian and includes a sheep-shepherd specialization.",
+    "SRC-02 independently within its own structure links Nisé ‘cuidar, pastorear’ to Niséami ‘Pastor’.",
+    "A 2010 SEP community publication from Arroyo Hondo, Balleza pairs Spanish ‘El pastorcito’ with Rarámuri ‘Echi nise’ami’ and repeatedly uses niseami in the goat-herding narrative.",
+    "The candidate no longer depends on documentary independence of SRC-02 from Hilton."
+  ],
+  "remaining_problems": [
+    "Establish the historical-modern phonological correspondence Nessé ~ Nisé with independent series.",
+    "Determine regional relationship between Steffel's historical variety, SRC-02/Samachique lineage and the Balleza community form.",
+    "Do not infer that the 2010 community text itself analyzes nise’ami morphologically as participial; its contribution is lexical-semantic usage."
+  ],
+  "epistemic_status": {
+    "ai_assisted": true,
+    "independent_modern_community_witness": true,
+    "human_reviewed_by_project": false,
+    "automatic_morpheme_assignment": false,
+    "automatic_sound_law": false,
+    "cognacy_judgment": "not_performed",
+    "historical_continuity_judgment": "not_performed"
+  }
+}
