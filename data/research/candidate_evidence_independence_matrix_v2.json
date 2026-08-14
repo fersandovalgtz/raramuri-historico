@@ -1,0 +1,88 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "candidate_evidence_independence_matrix_v2",
+  "generated": "2026-08-13",
+  "supersedes": "candidate_evidence_independence_matrix_v1.json",
+  "revision_reason": "Two SEP 2010 community publications provide modern Rarámuri evidence independent of the unresolved SRC-02/Hilton lineage for nise’ami ‘pastorcito/shepherd’ and chiperami in a flat/board-like bilingual context.",
+  "source_families_added": [
+    {
+      "source": "SEP 2010 Awilichi bawi / El origen del agua",
+      "role": "bilingual community-authored/edited Rarámuri school collection",
+      "independence_class": "independent_modern_community_usage",
+      "relevant_candidate": "Nessé/Nisé",
+      "metadata": "Biblioteca Escolar Indígena y Migrante; ISBN 978-607-7879-62-6; community contribution from Arroyo Hondo, Balleza"
+    },
+    {
+      "source": "SEP 2010 Siruami raíchali ralamuli / Cazador de palabras rarámuri",
+      "role": "bilingual community-authored/edited Rarámuri school collection",
+      "independence_class": "independent_modern_community_usage",
+      "relevant_candidate": "Tſchiper/Chipér",
+      "metadata": "Biblioteca Escolar Indígena y Migrante; ISBN 978-607-7879-50-3; contribution from El Tabacote, Guerrero"
+    }
+  ],
+  "candidate_assessments": [
+    {
+      "candidate": "COTSCHI-/cotschimé/cotschiméameke ~ kotʃi/Cochí/cochíami",
+      "independence_grade": "A",
+      "independent_modern_support": ["Caballero 2022 Choguita kotʃi root"],
+      "dependent_or_uncertain_modern_support": ["SRC-02 Cochí -> pp. cochíami", "Hill 2020 Rarámuri item sourced from Hilton 1959"],
+      "reason": "Independent Choguita root evidence preserves the candidate after Hilton-lineage control; historical participial relation is explicit."
+    },
+    {
+      "candidate": "black-color family: tschocámeke ~ chócami/chókame/chókami",
+      "independence_grade": "A",
+      "independent_modern_support": ["Compendio 1997 multivariety chó-ka-mi/chó-ka-me/chó-ko-m"],
+      "additional_support": ["published Hilton/Brambila comparison", "SRC-02 Chócami potentially Hilton-lineage"],
+      "reason": "Modern regional replication is independent of the Hilton/SRC-02 lineage."
+    },
+    {
+      "candidate": "white-color family: rolácameke/tosácameke ~ rosácami/tosácami ~ rosákame/tosákame",
+      "independence_grade": "A",
+      "independent_modern_support": ["Compendio 1997 rosá-ka-me/rosá-ka-mi/rosá-ko-m across varieties"],
+      "additional_support": ["published Hilton/Brambila comparison", "SRC-02 Rosácami/Tosácami potentially Hilton-lineage"],
+      "reason": "The modern white-color family is independently replicated across regions."
+    },
+    {
+      "candidate": "Seliameke ~ Siríami ~ siˈríame",
+      "independence_grade": "A-",
+      "independent_modern_support": ["Caballero 2022 Choguita siˈríame ‘governor(s)’"],
+      "dependent_or_uncertain_modern_support": ["SRC-02 Siríami ‘Gobernador tradicional’"],
+      "reason": "Independent modern institutional semantics are established; exact historical l~r mapping remains open."
+    },
+    {
+      "candidate": "Nessé/Nesséameke ~ Nisé/Niséami/nise’ami",
+      "independence_grade": "A-",
+      "independent_modern_support": ["SEP 2010 Balleza ‘El pastorcito’ ~ ‘Echi nise’ami’ with repeated niseami in goat-herding narrative"],
+      "dependent_or_uncertain_modern_support": ["SRC-02 Nisé ‘cuidar, pastorear’ -> Niséami ‘Pastor’"],
+      "reason": "The shepherd meaning is now independently attested in community narrative usage, eliminating sole dependence on SRC-02. Historical-modern Nessé~Nisé phonology remains unresolved."
+    },
+    {
+      "candidate": "Tſchiperameke ~ Chipérami/chiperami",
+      "independence_grade": "A-",
+      "independent_modern_support": ["SEP 2010 Guerrero community riddle using chiperami in a line aligned with Spanish ‘parezco tablilla’"],
+      "dependent_or_uncertain_modern_support": ["SRC-02 Chipérami ‘Plano’, classified Pp"],
+      "reason": "Independent modern contextual usage supports the flat/thin semantic domain, but the community text does not provide an isolated lexical gloss or Pp analysis."
+    },
+    {
+      "candidate": "blue-green color family",
+      "independence_grade": "A-",
+      "independent_modern_support": ["Compendio 1997 seyó/siyó forms with -name/-kame/-nami/-m across varieties"],
+      "additional_support": ["published Hilton/Brambila comparison", "SRC-02 Siyónami potentially Hilton-lineage"],
+      "reason": "Strong modern multivariety replication; historical root mapping remains comparatively complex."
+    }
+  ],
+  "grading_scale": {
+    "A": "historical source plus at least one clearly independent modern Rarámuri witness or multivariety elicitation, with strong semantic/formal alignment and no major unresolved mapping issue beyond normal reconstruction work",
+    "A-": "independent historical-modern support is established, but a major phonological, semantic-granularity or mapping problem remains",
+    "B": "strong historical-modern match but modern evidence independence is unresolved or concentrated in one lineage",
+    "B-": "promising candidate with source-internal modern support but lacking independent modern replication"
+  },
+  "key_change": "No current top-priority lexical candidate remains in B/B- solely because of SRC-02 dependence: targeted searches found independent modern community evidence for Nessé/Nisé and Tſchiper/Chipér. Future work should now shift from source independence to formal phonological/morphological adjudication for these two candidates.",
+  "epistemic_status": {
+    "ai_assisted": true,
+    "source_lineage_audit_applied": true,
+    "community_sources_added": true,
+    "human_reviewed_by_project": false,
+    "independence_grades_are_working_assessments": true
+  }
+}
