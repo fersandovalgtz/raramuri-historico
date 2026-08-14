@@ -1,0 +1,91 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "candidate_evidence_independence_matrix_v3",
+  "generated": "2026-08-13",
+  "supersedes": "candidate_evidence_independence_matrix_v2.json",
+  "revision_reason": "Formal correspondence audits now provide independent controls for Nessé~Nisé, Tſchiper~Chipér and Selí~Sirí, upgrading all three to grade A architecture. Blue-green remains A- pending a dedicated historical-root mapping audit.",
+  "grading_scale": {
+    "A": "historical source plus independent modern Rarámuri evidence, with major formal differences controlled by correspondence evidence external to the target candidate; important historical questions may still remain",
+    "A-": "independent historical-modern support is established, but a major root-mapping, phonological or semantic-granularity problem remains insufficiently controlled",
+    "B": "strong historical-modern match but modern evidence independence is unresolved or concentrated in one lineage",
+    "B-": "promising candidate with source-internal modern support but lacking independent modern replication"
+  },
+  "candidate_assessments": [
+    {
+      "candidate": "COTSCHI-/cotschimé/cotschiméameke ~ kotʃi/Cochí/cochíami",
+      "grade": "A",
+      "independent_controls": ["Caballero 2022 modern root kotʃi", "Merrill historical COTSCHI-/koči- grouping", "external Uto-Aztecan comparative context"],
+      "open_problem": "historical -mé in kočimé"
+    },
+    {
+      "candidate": "black-color family tschocámeke ~ chócami/chókame/chókami",
+      "grade": "A",
+      "independent_controls": ["Compendio 1997 multi-variety chó-ka-mi/chó-ka-me/chó-ko-m", "published Steffel-Hilton-Brambila comparison"],
+      "open_problem": "history and ordering of additional k-material"
+    },
+    {
+      "candidate": "white-color family rolácameke/tosácameke ~ rosácami/tosácami ~ rosákame/tosákame",
+      "grade": "A",
+      "independent_controls": ["Compendio 1997 rosá-ka-me/rosá-ka-mi/rosá-ko-m across varieties", "published Steffel-Hilton-Brambila comparison"],
+      "open_problem": "historical root variants and additional morphology"
+    },
+    {
+      "candidate": "Nessé/Nesséameke ~ Nisé/Niséami/nise’ami",
+      "grade": "A",
+      "independent_controls": [
+        "Merrill: historical <ss> normalizes to [s], yielding nesé",
+        "Merrill: historical e~i alternation elsewhere in Steffel",
+        "Caballero: pretonic /e/->[i] in independent Choguita grammar",
+        "SEP 2010 Balleza: nise’ami/niseami aligned with ‘El pastorcito’"
+      ],
+      "semantic_alignment": "historical guardar/cuidar -> guardián/pastor de ovejas; modern cuidar/pastorear -> pastor",
+      "open_problem": "direction, geography and chronology of the e~i relation; cognacy not yet declared"
+    },
+    {
+      "candidate": "Tſchiperameke ~ Chipérami/chiperami",
+      "grade": "A",
+      "independent_controls": [
+        "Merrill: historical tschipérameke normalized čipérameke",
+        "sleep family control cotschí/kočí ~ modern kotʃi",
+        "black family control tschócameke/čókameke ~ modern chó- forms",
+        "SEP 2010 Guerrero: independent chiperami in a bilingual ‘tablilla’ context"
+      ],
+      "semantic_alignment": "historical fine/thin/flat; SRC-02 flat/Pp; independent modern board-like context",
+      "open_problem": "lexeme-specific history of -ameke~-ami and confirmation of bare/base stem structure"
+    },
+    {
+      "candidate": "Selí/Selíameke ~ siˈríame/Siríami",
+      "grade": "A",
+      "independent_controls": [
+        "Steffel/Merrill explicit Selí ‘gobernar’ -> Selíameke ‘gobernante/juez del pueblo’",
+        "Caballero 2022 independent Choguita siˈríame ‘governor(s)’",
+        "historical e~i variation plus modern pretonic /e/->[i]",
+        "historical l~r alternation plus same-domain cavólameke~cavórameke",
+        "historical ke omission / Merrill -(a)me+-ke and modern productive -ame"
+      ],
+      "competing_hypothesis": "SIC cultural synthesis reports selígame ‘spear bearer’ < selaka ‘spear’ as a precursor to siríame; source genealogy must be traced before selecting a final etymology.",
+      "open_problem": "reconcile competing historical etymological traditions; cognacy not declared"
+    },
+    {
+      "candidate": "blue-green color family",
+      "grade": "A-",
+      "independent_controls": ["Compendio 1997 multi-variety seyó/siyó forms with -name/-kame/-nami/-m", "published historical-modern comparison"],
+      "open_problem": "multiple Steffel blue/green roots have not yet been mapped formally to the modern seyó/siyó family"
+    }
+  ],
+  "current_distribution": {
+    "A": 6,
+    "A_minus": 1,
+    "B": 0,
+    "B_minus": 0
+  },
+  "key_change": "For the principal lexical candidates, source independence is no longer the limiting factor. Nessé~Nisé, Tſchiper~Chipér and Selí~Sirí now also have independent formal correspondence controls. The remaining targeted bottleneck is blue-green root mapping and unresolved candidate-specific historical morphology/etymology.",
+  "research_rule": "Grade A does not mean demonstrated cognacy. It means that source independence and the main observed formal differences are controlled by evidence external to the target item. Publication-level cognacy still requires an explicit comparative argument and human linguistic review.",
+  "epistemic_status": {
+    "ai_assisted": true,
+    "source_lineage_audit_applied": true,
+    "formal_correspondence_audits_applied": true,
+    "human_reviewed_by_project": false,
+    "grades_are_evidential_architecture_not_probabilities": true
+  }
+}
