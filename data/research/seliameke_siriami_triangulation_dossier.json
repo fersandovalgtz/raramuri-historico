@@ -1,0 +1,64 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "dossier_id": "RHD-AMEAMI-DOS-000001",
+  "generated": "2026-08-13",
+  "candidate": {
+    "historical_form": "Selíameke",
+    "historical_base": "Selí",
+    "historical_function": "Herrscher; Dorfrichter",
+    "modern_src02_record_id": "RD-002341",
+    "modern_src02_form": "Siríami",
+    "modern_src02_meaning": "Gobernador tradicional",
+    "independent_modern_variety": "Choguita Rarámuri",
+    "independent_modern_form": "siˈríame",
+    "independent_modern_meaning": "governor(s)"
+  },
+  "historical_internal_evidence": {
+    "bidirectional_attestation": true,
+    "german_to_raramuri": {
+      "base": "Herrschen, Selí",
+      "derived": "Herrscher, Selíameke; term for Dorfrichter"
+    },
+    "raramuri_to_german": {
+      "base": "Selí, Befehlen. Die Gewalt zu schaffen haben",
+      "derived": "Selíameke; term for Dorfrichter"
+    },
+    "merrill_attestation_ids": ["D-0582", "D-0583", "T-0698", "T-0699", "ems-0162", "tms-0658", "tms-0659"]
+  },
+  "historical_morphology": {
+    "ameke_explicitly_described_as_participial_by_steffel": true,
+    "final_ke_reported_as_often_omitted_in_speech": true,
+    "historical_ame_surface_forms_attested": true
+  },
+  "independent_modern_morphology": {
+    "caballero_participial_suffix": "-ame",
+    "surface_ami_analyzed_through_ame_example": "hâw-ami ‘authorities’",
+    "same_lexical_domain_example": "siˈríame ‘governor(s)’"
+  },
+  "historical_lr_evidence": {
+    "medial_lr_alternation_documented": true,
+    "contrast_also_documented": true,
+    "general_neutralization_allowed": false,
+    "examples": [
+      "arí ~ alí ‘pero’",
+      "cavólameke ~ cavórameke ‘esférico, redondo’"
+    ],
+    "interpretation": "The documented alternation increases formal plausibility of Selíameke ~ Siríami but does not establish cognacy for this lexical item."
+  },
+  "assessment": {
+    "priority": 1,
+    "label": "very_high_priority_triangulated_candidate_with_historically_attested_lr_alternation",
+    "historical_form_support": "strong",
+    "historical_semantic_support": "strong",
+    "historical_morphological_support": "strong",
+    "modern_src02_support": "strong",
+    "independent_modern_support": "strong",
+    "formal_lr_support": "independent_historical_precedent",
+    "dialect_identity": "not_established",
+    "cognacy": "not_assessed",
+    "historical_continuity": "not_assessed",
+    "sound_correspondence": "not_assessed"
+  },
+  "ai_assisted": true,
+  "human_reviewed": false
+}
