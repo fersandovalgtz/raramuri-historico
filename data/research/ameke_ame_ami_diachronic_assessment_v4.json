@@ -1,0 +1,83 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_ame_ami_diachronic_assessment_v4",
+  "generated": "2026-08-13",
+  "supersedes": "ameke_ame_ami_diachronic_assessment_v3.json",
+  "revision_focus": "Independent modern community attestations remove SRC-02-only dependence for the Nessé/Nisé and Tſchiper/Chipér candidates.",
+  "historical_model_unchanged": {
+    "steffel": "ameke is source-explicit participial; final ke often omitted in pronunciation; short -ame surfaces are attested",
+    "merrill": "relevant historical chains contain participial -(a)me plus optional reduplicative -kV/-ke; Merrill is an analysis layer on Steffel, not a second historical witness"
+  },
+  "modern_independence_structure": {
+    "hilton_src02_lineage": "still controlled as potentially dependent",
+    "compendio_1997": "independent multivariety evidence for -kame/-kami/-name/-nami/-ame/-ami/-m color morphology",
+    "caballero_2022": "independent Choguita evidence for participial -ame/-kame, kotʃi and siˈríame",
+    "sep_2010_balleza": "independent bilingual community usage nise’ami/niseami aligned with ‘El pastorcito’",
+    "sep_2010_guerrero": "independent bilingual community usage chiperami in a line aligned with ‘parezco tablilla’"
+  },
+  "candidate_ranking_v4": [
+    {
+      "rank": 1,
+      "candidate": "COTSCHI-/cotschimé/cotschiméameke ~ kotʃi/Cochí/cochíami",
+      "grade": "A",
+      "main_open_problem": "historical -mé in kočimé"
+    },
+    {
+      "rank": 2,
+      "candidate": "black-color family tschocámeke ~ chócami/chókame/chókami",
+      "grade": "A",
+      "main_open_problem": "reconstruct additional k-material and morpheme ordering"
+    },
+    {
+      "rank": 3,
+      "candidate": "white-color family rolácameke/tosácameke ~ rosácami/tosácami ~ rosákame/tosákame",
+      "grade": "A",
+      "main_open_problem": "historical root variants and added morphology"
+    },
+    {
+      "rank": 4,
+      "candidate": "Nessé/Nesséameke ~ Nisé/Niséami/nise’ami",
+      "grade": "A-",
+      "new_independent_evidence": "SEP 2010 Balleza bilingual ‘El pastorcito’ ~ ‘Echi nise’ami’",
+      "main_open_problem": "formal Nessé ~ Nisé correspondence and dialect geography"
+    },
+    {
+      "rank": 5,
+      "candidate": "Seliameke ~ Siríami ~ siˈríame",
+      "grade": "A-",
+      "main_open_problem": "specific l~r correspondence and lexical continuity"
+    },
+    {
+      "rank": 6,
+      "candidate": "Tſchiperameke ~ Chipérami/chiperami",
+      "grade": "A-",
+      "new_independent_evidence": "SEP 2010 Guerrero community riddle with chiperami aligned contextually to ‘tablilla’",
+      "main_open_problem": "formal root correspondence and exact semantics/category in community usage"
+    },
+    {
+      "rank": 7,
+      "candidate": "blue-green color family",
+      "grade": "A-",
+      "main_open_problem": "mapping multiple Steffel roots to modern seyó/siyó paradigms"
+    }
+  ],
+  "important_new_inference": "The research bottleneck has shifted. For the principal candidates, lack of independent modern evidence is no longer the dominant problem; the next decisive tests are historical-modern sound correspondences, stem morphology and dialect geography.",
+  "next_research_program": [
+    "Build independent correspondence sets for historical e/é versus modern i/í to test Nessé ~ Nisé without circularity.",
+    "Build affricate/orthographic correspondence sets and root-family evidence for Tſchiper- ~ Chiper-.",
+    "Search community and grammatical corpora for additional niseami and chiperami tokens with geographic metadata.",
+    "Maintain source-independence metadata on every new token.",
+    "Do not reopen a blanket -ameke > -ami rule; treat the participial domain and additional morphology separately."
+  ],
+  "publication_level_claim_v4": "After controlling documentary dependence and adding independent multivariety, grammatical and community evidence, the project now has several historical-modern families in which participial/derivational functions and lexical semantics recur outside the Hilton/SRC-02 line. This substantially strengthens the continuity hypothesis for an ame-centered participial domain while making phonological and stem-morphological reconstruction the principal unresolved task.",
+  "epistemic_status": {
+    "ai_assisted": true,
+    "human_reviewed_by_project": false,
+    "source_independence_controlled": true,
+    "src02_provenance_resolved": false,
+    "automatic_morpheme_assignment": false,
+    "automatic_sound_law": false,
+    "blanket_cognacy_claim": false,
+    "historical_continuity_hypothesis": "substantially_strengthened_formal_reconstruction_now_primary_bottleneck"
+  }
+}
