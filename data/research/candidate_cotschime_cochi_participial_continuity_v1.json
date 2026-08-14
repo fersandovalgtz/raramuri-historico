@@ -1,0 +1,70 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "candidate_cotschime_cochi_participial_continuity_v1",
+  "generated": "2026-08-13",
+  "candidate_id": "RHD-AMEAMI-LEX-005",
+  "historical": {
+    "base_surface": "Cotſchimé",
+    "base_normalized_project_key": "cotschime",
+    "base_gloss": "Schlafen / dormir",
+    "derived_surface": "Cotſchimeameke",
+    "derived_glosses": [
+      "Schlafend / durmiente",
+      "Ein Schlafender / alguien que duerme",
+      "adormecido"
+    ],
+    "printed_page": 355,
+    "pdf_page": 65,
+    "facsimile_visually_verified": true,
+    "merrill_attestations": ["E-1015", "T-0119", "T-0120", "ems-0621", "tms-0126"],
+    "merrill_analysis": "-ameke attached to a verb functions as adjectivizer/nominalizer [participial], illustrated specifically with cotschimé-ameke < cotschimé ‘dormir’.",
+    "steffel_general_ameke_analysis": "source-explicit participial ending (Mittelwort); final ke reported as frequently omitted in pronunciation"
+  },
+  "modern_src02": {
+    "base_record_id": "RD-000483",
+    "base_surface": "Cochí",
+    "base_normalized_key": "cochi",
+    "homonym_number": "3",
+    "classification": "Vi sing",
+    "base_gloss": "Dormir",
+    "source_explicit_participle_note": "pp.: cochíami",
+    "participle_surface": "cochíami",
+    "participle_independent_headword_found_in_current_src02": false,
+    "evidence_type": "source-note-attested participle"
+  },
+  "comparison": {
+    "semantic_match": "very_strong_sleep_domain",
+    "derivational_match": "very_strong_source_explicit_participial_relation_on_both_sides",
+    "formal_similarity": "promising_but_unadjudicated",
+    "historical_form": "cotschime",
+    "modern_form": "cochi",
+    "issues_requiring_analysis": [
+      "historical <tsch> versus modern <ch> correspondence",
+      "historical final -me in the lexical base versus modern base-final -i",
+      "stress/vowel history",
+      "varietal provenance and intervening chronology"
+    ],
+    "prohibited_shortcut": "Do not derive modern Cochí by mechanically stripping -me from historical Cotſchimé, and do not count old <tsch>~modern <ch> as a general sound law without independent correspondences."
+  },
+  "assessment": "very_high_priority_double_source_explicit_participial_candidate",
+  "strengths": [
+    "Historical and modern bases share the core meaning ‘sleep/dormir’.",
+    "Historical X~X+ameke relation is explicitly participial in Merrill's analysis of Steffel and is directly attested in the historical lexicon.",
+    "Modern SRC-02 directly states Cochí ‘Dormir’ -> pp. cochíami.",
+    "The comparison therefore aligns lexical meaning and derivational function without depending on an automatically inferred modern exact-string pair."
+  ],
+  "epistemic_status": {
+    "ai_assisted": true,
+    "historical_facsimile_human_reviewed": false,
+    "modern_source_note_verified": true,
+    "automatic_morpheme_assignment": false,
+    "automatic_sound_correspondence": false,
+    "cognacy_judgment": "not_performed",
+    "historical_continuity_judgment": "not_performed"
+  },
+  "next_steps": [
+    "Search independent Rarámuri varieties for reflexes of the sleep root and participial forms.",
+    "Assemble independent historical-modern correspondences for <tsch>~<ch> and base-final -me~Ø/i before adjudicating formal continuity.",
+    "Keep the modern cochíami evidence as source-note-attested even if no independent headword exists in SRC-02."
+  ]
+}
