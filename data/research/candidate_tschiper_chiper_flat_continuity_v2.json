@@ -1,0 +1,66 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "candidate_tschiper_chiper_flat_continuity_v2",
+  "generated": "2026-08-13",
+  "candidate_id": "RHD-AMEAMI-LEX-004",
+  "historical": {
+    "derived_form": "Tſchiperameke",
+    "derived_meaning": "Fein. Dünn. Flach. / fino, delgado, plano",
+    "printed_page": 367,
+    "source": "Steffel 1809",
+    "historical_participial_context": "form belongs to the historical -ameke domain; exact internal root structure still requires philological adjudication"
+  },
+  "modern_src02": {
+    "record_id": "RD-000711",
+    "form": "Chipérami",
+    "meaning": "Plano",
+    "classification_family": "Pp",
+    "provenance_warning": "SRC-02 file identity unresolved; likely Hilton/pre-2016 lexicographic lineage"
+  },
+  "independent_modern_community_attestation": {
+    "publication": "Siruami raíchali ralamuli / Cazador de palabras rarámuri",
+    "series": "Biblioteca Escolar Indígena y Migrante, Semilla de Palabras",
+    "publisher": "Secretaría de Educación Pública",
+    "first_edition": 2010,
+    "isbn_volume": "978-607-7879-50-3",
+    "isbn_collection": "978-607-7879-07-7",
+    "contributor": "César Alan Méndez Lozano",
+    "school": "Escuela Leona Vicario",
+    "community": "El Tabacote, Guerrero, Chihuahua",
+    "spanish_parallel": "Si soy una silla, parezco tablilla.",
+    "raramuri_parallel": "Bile kosibela ni niisaka bile kusi chiperami ju nijee.",
+    "evidence_type": "independent bilingual community-authored/edited contextual usage",
+    "semantic_inference": "chiperami occurs in the Rarámuri line aligned to a Spanish comparison with tablilla; this is compatible with a flat/thin/board-like property but is not an isolated dictionary gloss",
+    "independence_from_src02_hilton_lineage": "high for evidential counting"
+  },
+  "comparison": {
+    "formal_similarity": "strong Tſchiper- ~ Chiper- after established historical-modern affricate/orthographic comparison, but full phonological correspondence remains to be adjudicated",
+    "semantic_similarity": "strong: historical thin/flat, SRC-02 flat, community context board-like/tabilla",
+    "modern_source_category_support": "SRC-02 directly classifies Chipérami as Pp",
+    "modern_independent_usage": "established through SEP community text",
+    "community_text_morphological_analysis": "not provided"
+  },
+  "assessment": "grade_A_minus_independent_form_semantic_candidate_with_source_Pp_support",
+  "strengths": [
+    "Historical Tſchiperameke includes Flach ‘flat’ among its glosses.",
+    "SRC-02 Chipérami means ‘Plano’ and is directly classified Pp.",
+    "A 2010 SEP community riddle from El Tabacote, Guerrero uses chiperami in the Rarámuri line corresponding contextually to Spanish ‘tablilla’.",
+    "The modern form is therefore no longer confined to SRC-02/Hilton-lineage evidence."
+  ],
+  "remaining_problems": [
+    "The community text gives contextual rather than isolated lexical equivalence; do not gloss chiperami solely as ‘plano’ from this source.",
+    "Establish the exact historical root and full sound correspondence Tſchiper- ~ Chiper- with independent series.",
+    "Determine whether the community form and SRC-02 Chipérami represent the same lexical/morphological item across varieties.",
+    "Do not transfer SRC-02 Pp classification to the community text."
+  ],
+  "epistemic_status": {
+    "ai_assisted": true,
+    "independent_modern_community_witness": true,
+    "community_semantics_contextual_not_dictionary_gloss": true,
+    "human_reviewed_by_project": false,
+    "automatic_morpheme_assignment": false,
+    "automatic_sound_law": false,
+    "cognacy_judgment": "not_performed",
+    "historical_continuity_judgment": "not_performed"
+  }
+}
