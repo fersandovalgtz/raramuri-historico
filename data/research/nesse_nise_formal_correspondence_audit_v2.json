@@ -1,0 +1,85 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "nesse_nise_formal_correspondence_audit_v2",
+  "generated": "2026-08-13",
+  "supersedes": "nesse_nise_formal_correspondence_audit_v1.json",
+  "candidate_id": "RHD-AMEAMI-LEX-001",
+  "historical": {
+    "steffel_spelling": "Nessé",
+    "merrill_phonetic_transcription": "nesé",
+    "derived_steffel_spelling": "Nesséameke",
+    "derived_merrill_transcription": "neséameke",
+    "stress": "final",
+    "ss_analysis": "Steffel <ss> is analyzed by Merrill as intervocalic voiceless [s], not a geminate.",
+    "independent_e_i_variation": {
+      "source": "Merrill et al. 2020 §7.8, Table 7.10",
+      "statement": "Steffel's documented vowel alternations include e~i; Merrill notes that e/i differences are also relevant to modern Rarámuri variety distinctions.",
+      "examples": ["síneví ~ síniví ‘siempre’", "taitéke ~ taitéki ‘no hay’"],
+      "scope": "historical internal variation; not a directional sound law"
+    }
+  },
+  "modern": {
+    "src02": {
+      "base": "Nisé",
+      "meaning": "Cuidar, pastorear",
+      "derived": "Niséami",
+      "derived_meaning": "Pastor",
+      "provenance_warning": "SRC-02 file identity unresolved and probably within a Hilton/pre-2016 lexicographic lineage."
+    },
+    "community": {
+      "source": "SEP 2010 Awilichi bawi / El origen del agua",
+      "community": "Arroyo Hondo, Balleza, Chihuahua",
+      "form": "nise’ami / niseami",
+      "spanish_parallel": "El pastorcito",
+      "independence": "independent community usage outside the unresolved SRC-02/Hilton lineage"
+    },
+    "phonology": {
+      "source": "Caballero 2022, Choguita Rarámuri",
+      "process": "optional /e/ raising to [i] in pretonic and posttonic position",
+      "examples": ["neˈhê ~ niˈhê", "beˈnè ~ biˈnè"],
+      "relevance": "the initial vowel of nesé/nisé is pretonic"
+    }
+  },
+  "integrated_formal_assessment": {
+    "normalized_comparison": "nesé ~ nisé",
+    "consonants": "no unresolved ss~s quantity mismatch after Merrill normalization",
+    "stress": "final stress aligns",
+    "vowel_difference": "pretonic e~i",
+    "historical_support_for_e_i_variability": true,
+    "modern_support_for_pretonic_e_i_variability": true,
+    "semantic_derivational_alignment": "exceptionally strong caretaker/shepherd domain",
+    "independent_modern_usage": true,
+    "formal_plausibility": "very_high",
+    "evidential_architecture_grade": "A",
+    "cognacy_demonstrated": false
+  },
+  "why_grade_A": [
+    "The apparent historical <ss> complication disappears under a published phonetic analysis.",
+    "Historical Steffel data independently contain e~i vowel alternation outside the target word.",
+    "A modern independent grammar documents the more specific pretonic /e/->[i] alternation in Rarámuri.",
+    "Historical and modern forms align in final stress and caretaker/shepherd semantics.",
+    "Independent Balleza community usage confirms nise’ami in the shepherd domain outside the SRC-02/Hilton lineage."
+  ],
+  "remaining_limits": [
+    "Grade A is an evidential-architecture judgment, not a declaration of cognacy.",
+    "No single diachronic law e>i is claimed; historical e~i and modern pretonic raising only make the correspondence independently plausible.",
+    "A geographically and chronologically ordered correspondence set is still desirable before a publication-level cognacy statement.",
+    "The SEP community text is lexical-semantic evidence, not an explicit morphological analysis."
+  ],
+  "next_tests": [
+    "Collect additional historical-modern e~i pairs with stress and geography documented.",
+    "Search intermediate and regional sources for nese/nise variants and caretaker/shepherd derivatives.",
+    "Model whether the modern i is phonological surface raising, lexicalized dialectal vowel, or inherited variant."
+  ],
+  "epistemic_status": {
+    "ai_assisted": true,
+    "historical_ss_analysis_verified": true,
+    "historical_e_i_variation_verified": true,
+    "modern_pretonic_e_i_process_verified": true,
+    "independent_modern_community_witness": true,
+    "human_reviewed_by_project": false,
+    "automatic_sound_law": false,
+    "cognacy_judgment": "not_performed",
+    "historical_continuity_judgment": "not_performed"
+  }
+}
