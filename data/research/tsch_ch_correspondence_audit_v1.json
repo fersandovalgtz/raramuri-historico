@@ -1,0 +1,84 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "tsch_ch_correspondence_audit_v1",
+  "generated": "2026-08-13",
+  "target_candidate": "RHD-AMEAMI-LEX-004 Tſchiperameke ~ Chipérami/chiperami",
+  "historical_grapheme_analysis": {
+    "source": "Merrill et al. 2020 §7.5.2",
+    "finding": "Steffel <tsch> represents the voiceless palatoalveolar affricate [č]; <tsch> and <ts> are analyzed as allophones of /č/ in the historical system.",
+    "target_transcription": "tschipérameke || čipérameke",
+    "status": "phonetic normalization, not a newly inferred sound change"
+  },
+  "independent_correspondence_controls": [
+    {
+      "domain": "sleep",
+      "historical": "cotschí || kočí",
+      "modern_independent": "Caballero Choguita root kotʃi ‘sleep’",
+      "role": "independent modern phonological/lexical control showing historical <tsch>/č corresponding to modern tʃ in the same lexical family"
+    },
+    {
+      "domain": "black",
+      "historical": "tschócameke || čókameke",
+      "modern_independent": "Compendio 1997 multivariety chó-ka-mi / chó-ka-me / chó-ko-m",
+      "role": "independent multi-variety lexical control for historical initial č ~ modern orthographic ch in the black-color family"
+    }
+  ],
+  "target_formal_comparison": {
+    "historical_surface": "Tſchiperameke / tschipérameke",
+    "historical_phonetic_normalization": "čipérameke",
+    "modern_src02": "Chipérami",
+    "modern_community": "chiperami",
+    "historical_stem_like_string_before_general_ameke_domain": "čipér-",
+    "modern_corresponding_string_before_ami": "chipér-/chiper-",
+    "stress_alignment": "SRC-02 Chipérami and historical tschipérameke both mark stress on the same stem syllable -pér-",
+    "affricate_correspondence": "strongly independently supported",
+    "stem_formal_similarity": "very high",
+    "suffix_surface_difference": "historical -ameke versus modern -ami",
+    "suffix_interpretation": "belongs to the broader ame-centered participial/derivational research problem; no lexeme-specific one-step change is assumed"
+  },
+  "semantic_evidence": {
+    "historical": "Fein. Dünn. Flach. / fine, thin, flat",
+    "modern_src02": "Plano",
+    "independent_community_2010": "chiperami occurs in a Guerrero bilingual riddle aligned with Spanish ‘parezco tablilla’; semantic value is contextual, compatible with flat/thin/board-like",
+    "same_lineage_2016_refinement": "kusí pus chipérami jiti = ‘con un palo ancho’",
+    "additional_public_modern_usage": "kawí chipérami occurs in a context contrasting an old belief that the earth was flat with chitúlami for circular/round",
+    "assessment": "semantic continuity in the flat/broad/thin domain is very strong, while independence levels differ by source"
+  },
+  "independence_assessment": {
+    "historical": "Steffel 1809",
+    "modern_independent": "SEP 2010 Guerrero community text",
+    "modern_src02": "useful but provenance potentially Hilton-lineage",
+    "other_semantic_corroboration": "2016 dictionary is Hilton-lineage; public religious translation has unaudited lexical provenance",
+    "grade_after_formal_audit": "A"
+  },
+  "why_grade_A": [
+    "The historical affricate value is source-analyzed, not guessed from German spelling.",
+    "Historical <tsch>/č to modern tʃ/ch is independently supported by the sleep and black lexical families before applying it to Tſchiper.",
+    "The target's stem-like string and stress align closely: čipér- ~ chipér-.",
+    "The flat/thin semantic domain is stable across Steffel, SRC-02 and independent community usage.",
+    "An independent modern community witness exists outside the unresolved SRC-02/Hilton lineage."
+  ],
+  "remaining_limits": [
+    "Grade A measures evidential architecture, not demonstrated cognacy.",
+    "The historical form is not reduced to a bare lexeme čipér unless a source explicitly attests/analyzes that base; stem-like string is used descriptively.",
+    "The exact historical pathway from -ameke to modern -ami is not solved at the lexeme level.",
+    "The SEP community text does not itself assign a Pp category or an isolated dictionary gloss to chiperami.",
+    "Modern SRC-02 orthography is not treated as a validated phonemic transcription."
+  ],
+  "next_tests": [
+    "Search for a historical or modern bare/base chiper-like form and explicit derivational analyses.",
+    "Map chiperami across additional communities and modern descriptions.",
+    "Use the color and Compendio data to model the history of -ameke/-ame/-ami separately from the very strong root correspondence."
+  ],
+  "epistemic_status": {
+    "ai_assisted": true,
+    "merrill_tsch_analysis_verified": true,
+    "independent_correspondence_controls": 2,
+    "independent_modern_community_witness": true,
+    "human_reviewed_by_project": false,
+    "automatic_morpheme_assignment": false,
+    "automatic_sound_law": false,
+    "cognacy_judgment": "not_performed",
+    "historical_continuity_judgment": "not_performed"
+  }
+}
