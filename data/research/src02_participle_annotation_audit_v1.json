@@ -1,0 +1,101 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "comparison_corpus": "Raramuri Digital SRC-02",
+  "layer": "src02_participle_annotation_audit_v1",
+  "generated": "2026-08-13",
+  "modern_active_record_count": 2581,
+  "final_ami_record_count": 214,
+  "final_ami_classified_pp_count": 20,
+  "final_ami_classified_pp_share": 0.093458,
+  "whole_lexicon_classified_pp_count": 40,
+  "share_of_all_pp_records_that_are_final_ami": 0.5,
+  "methodological_note_on_text_search": "Raw CSV text searches for markers such as 'pp.:' produce duplicated textual hits because the same note can be serialized in more than one field. Therefore raw marker-hit counts are not treated as unique lexical annotation counts. Unique Pp counts here use the classification fields instead.",
+  "key_source_explicit_examples": [
+    {
+      "base_record_id": "RD-000223",
+      "base": "Bicá",
+      "base_gloss": "Pudrir",
+      "source_note": "pp.: bicáami",
+      "derived_record_id": "RD-000224",
+      "derived": "Bicáami",
+      "derived_gloss": "Podrido",
+      "derived_classification_family": "Sin clasificar",
+      "significance": "The source explicitly identifies the final-ami form as pp even though the derived entry itself is not classified Pp. Pp-field counts therefore undercount source-explicit participial evidence."
+    },
+    {
+      "base_record_id": "RD-000504",
+      "base": "Comí",
+      "base_gloss": "Estar bajo; hacer arroyo",
+      "derived_record_id": "RD-000505",
+      "derived": "Comíami",
+      "derived_gloss": "Cóncavo, alabeado",
+      "derived_classification_family": "Pp",
+      "supporting_record_id": "RD-000507",
+      "supporting_note": "pp: comíami",
+      "significance": "Classification and explicit source note independently converge on Comíami as participial."
+    },
+    {
+      "record_id": "RD-000711",
+      "form": "Chipérami",
+      "gloss": "Plano",
+      "classification_family": "Pp",
+      "significance": "Directly strengthens the morphological side of the historical Tſchiperameke ~ modern Chipérami comparison."
+    },
+    {
+      "base_record_id": "RD-000862",
+      "base": "Hua",
+      "base_gloss": "Madurarse",
+      "source_note": "ad.: huáami; pp.: huacami",
+      "pp_record_id": "RD-000870",
+      "pp_form": "Huácami",
+      "pp_gloss": "maduro",
+      "significance": "Internal minimal contrast: the source itself distinguishes an -ami adjective from a -cami participle in the same lexical family. Therefore final -ami cannot be equated mechanically with pp."
+    },
+    {
+      "base_record_id": "RD-000483",
+      "base": "Cochí",
+      "base_gloss": "Dormir",
+      "source_note": "pp.: cochíami",
+      "significance": "Direct source-explicit simple -ami participle comparable in broad function to historical Cotſchimé ~ Cotſchimeameke. No cognacy judgment is made here."
+    },
+    {
+      "base_record_id": "RD-000609",
+      "base": "Cusé",
+      "base_gloss": "Tocar la flauta",
+      "source_note": "pp.: cuséami",
+      "significance": "Another direct source-explicit X~X+ami participial relation."
+    }
+  ],
+  "priority_candidate_updates": [
+    {
+      "candidate": "Tſchiperameke ~ Chipérami",
+      "modern_src02_status": "source_explicit_Pp_classification",
+      "effect": "strengthened"
+    },
+    {
+      "candidate": "Tſchócameke ~ Chócami",
+      "modern_src02_status": "Adj; no source-explicit pp annotation found for Chócami in this audit",
+      "nearby_distinct_form": "Chocó -> pp chocóami ‘agrio’",
+      "effect": "retain lexical/graphic candidate but do not use Chócami as source-explicit participial evidence"
+    },
+    {
+      "candidate": "Seliameke ~ Siríami",
+      "modern_src02_status": "S, not Pp",
+      "effect": "retain very high diachronic lexical candidate because historical and independent Choguita evidence are strong; SRC-02 classification is compatible with lexicalized/institutional noun but does not prove that pathway"
+    },
+    {
+      "candidate": "Neſſéameke ~ Niséami",
+      "modern_src02_status": "S, not Pp",
+      "effect": "retain very high semantic-derivational candidate; modern source does not explicitly label Niséami Pp"
+    }
+  ],
+  "interpretation": "SRC-02 gives direct source-level evidence that -ami participates in participial formations, but also direct evidence that final -ami is not synonymous with the category Pp. The safest model is a broad surface -ami domain containing source-tagged participles alongside adjectives, nouns, adverbs and possibly lexicalized derivatives. Source-explicit Pp evidence must be separated from string-final distribution and from semantic derivational inference.",
+  "epistemic_limits": {
+    "ai_assisted": true,
+    "human_reviewed": false,
+    "automatic_morpheme_assignment": false,
+    "automatic_lexicalization_judgment": false,
+    "cognacy_judgment": "not_performed",
+    "historical_continuity_judgment": "not_performed"
+  }
+}
