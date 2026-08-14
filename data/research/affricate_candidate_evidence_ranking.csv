@@ -1,0 +1,27 @@
+rank,ranking_id,priority_tier,source_candidate_id,historical_record_id,historical_form,reading_layer,printed_page,modern_record_id,modern_headword,projected_key,positive_holdout_pair,prior_exact_pair_corroboration,internal_support_label,internal_attestation_count,internal_reciprocal_support_count,modern_record_count_for_exact_projected_key,unique_exact_projected_modern_record,facsimile_sensitivity,semantic_similarity_used_for_ranking,human_reviewed
+1,RHD-AFFRANK-000001,1,RHD-AFFSRC-000020,RHD-S1809-02416,Tschapi,diplomatic,367,RD-000656,Chapí,chapi,True,False,internal_form_attestation_only,7,0,1,True,False,False,False
+2,RHD-AFFRANK-000002,1,RHD-AFFSRC-000025,RHD-S1809-02457,Tſchutá,diplomatic,368,RD-000829,Chutá,chuta,True,False,internal_form_attestation_only,1,0,1,True,False,False,False
+3,RHD-AFFRANK-000003,1,RHD-AFFSRC-000026,RHD-S1809-02443,Tſchócameke,ai_facsimile_correction_proposal,368,RD-000743,Chócami,chocami,True,False,none,0,0,1,True,True,False,False
+4,RHD-AFFRANK-000004,2,RHD-AFFSRC-000001,RHD-S1809-00038,Atſchi,diplomatic,354,RD-000030,Achí,achi,False,False,reciprocal_documentary_support,2,2,1,True,False,False,False
+5,RHD-AFFRANK-000005,2,RHD-AFFSRC-000008,RHD-S1809-01764,Cutsi,diplomatic,356,RD-000560,Cuchi,cuchi,False,False,reciprocal_documentary_support,1,1,1,True,False,False,False
+6,RHD-AFFRANK-000006,2,RHD-AFFSRC-000013,RHD-S1809-02190,Potschí,diplomatic,364,RD-001848,Pochí,pochi,False,False,reciprocal_documentary_support,2,1,1,True,False,False,False
+7,RHD-AFFRANK-000007,2,RHD-AFFSRC-000019,RHD-S1809-02414,Tscháca,diplomatic,367,RD-000635,Chacá,chaca,False,False,reciprocal_documentary_support,1,1,1,True,False,False,False
+8,RHD-AFFRANK-000008,2,RHD-AFFSRC-000023,RHD-S1809-02431,Tschipú,diplomatic,368,RD-000714,Chipú,chipu,False,False,reciprocal_documentary_support,1,1,1,True,False,False,False
+9,RHD-AFFRANK-000009,2,RHD-AFFSRC-000015,RHD-S1809-02402,Tſchigó,diplomatic,367,RD-000680,Chigó,chigo,False,False,internal_form_attestation_only,1,0,1,True,False,False,False
+10,RHD-AFFRANK-000010,2,RHD-AFFSRC-000018,RHD-S1809-02413,Tscháa,diplomatic,367,RD-000628,"Chá, cháa",chaa,False,False,internal_form_attestation_only,1,0,1,True,False,False,False
+11,RHD-AFFRANK-000011,2,RHD-AFFSRC-000021,RHD-S1809-02425,Tſchiní,diplomatic,367,RD-000708,Chiní,chini,False,False,internal_form_attestation_only,1,0,1,True,False,False,False
+12,RHD-AFFRANK-000012,2,RHD-AFFSRC-000022,RHD-S1809-02426,Tſchiperameke,diplomatic,367,RD-000711,Chipérami,chiperami,False,False,internal_form_attestation_only,3,0,1,True,False,False,False
+13,RHD-AFFRANK-000013,2,RHD-AFFSRC-000024,RHD-S1809-02451,Tschucú,diplomatic,368,RD-000791,Chucú,chucu,False,False,internal_form_attestation_only,1,0,1,True,False,False,False
+14,RHD-AFFRANK-000014,3,RHD-AFFSRC-000004,RHD-S1809-01744,Cotſchi,diplomatic,355,RD-000481,Cochí,cochi,False,False,reciprocal_documentary_support,2,1,4,False,False,False,False
+15,RHD-AFFRANK-000015,3,RHD-AFFSRC-000005,RHD-S1809-01744,Cotſchi,diplomatic,355,RD-000482,Cochí,cochi,False,False,reciprocal_documentary_support,2,1,4,False,False,False,False
+16,RHD-AFFRANK-000016,3,RHD-AFFSRC-000006,RHD-S1809-01744,Cotſchi,diplomatic,355,RD-000483,Cochí,cochi,False,False,reciprocal_documentary_support,2,1,4,False,False,False,False
+17,RHD-AFFRANK-000017,3,RHD-AFFSRC-000007,RHD-S1809-01744,Cotſchi,diplomatic,355,RD-000484,"Cochi, cohuí",cochi,False,False,reciprocal_documentary_support,2,1,4,False,False,False,False
+18,RHD-AFFRANK-000018,3,RHD-AFFSRC-000009,RHD-S1809-02006,Matſchi,diplomatic,361,RD-001232,Machí,machi,False,False,reciprocal_documentary_support,8,1,2,False,False,False,False
+19,RHD-AFFRANK-000019,3,RHD-AFFSRC-000010,RHD-S1809-02006,Matſchi,diplomatic,361,RD-001233,"Machí, machíami",machi,False,False,reciprocal_documentary_support,8,1,2,False,False,False,False
+20,RHD-AFFRANK-000020,3,RHD-AFFSRC-000016,RHD-S1809-02412,Tschá,diplomatic,367,RD-000627,Chá,cha,False,False,reciprocal_documentary_support,2,1,2,False,False,False,False
+21,RHD-AFFRANK-000021,3,RHD-AFFSRC-000017,RHD-S1809-02412,Tschá,diplomatic,367,RD-000628,"Chá, cháa",cha,False,False,reciprocal_documentary_support,2,1,2,False,False,False,False
+22,RHD-AFFRANK-000022,3,RHD-AFFSRC-000011,RHD-S1809-02007,Matſchi,diplomatic,361,RD-001232,Machí,machi,False,False,internal_form_attestation_only,8,0,2,False,False,False,False
+23,RHD-AFFRANK-000023,3,RHD-AFFSRC-000012,RHD-S1809-02007,Matſchi,diplomatic,361,RD-001233,"Machí, machíami",machi,False,False,internal_form_attestation_only,8,0,2,False,False,False,False
+24,RHD-AFFRANK-000024,3,RHD-AFFSRC-000014,RHD-S1809-02212,Putschá,diplomatic,364,RD-001856,Pucha,pucha,False,False,none,0,0,1,True,False,False,False
+25,RHD-AFFRANK-000025,4,RHD-AFFSRC-000002,RHD-S1809-01681,Batſá,diplomatic,354,RD-000137,Bacha,bacha,False,False,none,0,0,2,False,False,False,False
+26,RHD-AFFRANK-000026,4,RHD-AFFSRC-000003,RHD-S1809-01681,Batſá,diplomatic,354,RD-000138,Bachá,bacha,False,False,none,0,0,2,False,False,False,False

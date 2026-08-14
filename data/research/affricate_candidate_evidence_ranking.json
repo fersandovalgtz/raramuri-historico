@@ -1,0 +1,1836 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "affricate_candidate_documentary_evidence_ranking_v1",
+  "generated": "2026-08-13",
+  "count": 26,
+  "records": [
+    {
+      "ranking_id": "RHD-AFFRANK-000001",
+      "rank": 1,
+      "source_candidate_id": "RHD-AFFSRC-000020",
+      "priority_tier": 1,
+      "priority_tier_reason": "prespecified positive holdout pair",
+      "documentary_signal_count": 3,
+      "documentary_signal_classes": [
+        "prespecified_positive_holdout_pair",
+        "steffel_internal_documentary_attestation",
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02416",
+        "printed_page": 367,
+        "form_diplomatic": "Tschapi",
+        "comparison_surface": "Tschapi",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Tschapi, Nehmen. Ergreifen."
+      },
+      "modern": {
+        "record_id": "RD-000656",
+        "headword": "Chapí",
+        "component": "Chapí",
+        "translation_raw": "1. vt Coger, agarrar (una persona 2. Tomar (coger) 3. Elegir 4. imper ¡Escójalo! [fut.: chapiméa]",
+        "classification": "",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "tschapi",
+        "projected_comparison_key": "chapi",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000656"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": true,
+        "positive_holdout_ids": [
+          "RHD-GRAPH-HOLD-001"
+        ],
+        "matched_holdout_records": [
+          {
+            "holdout_id": "RHD-GRAPH-HOLD-001",
+            "evidence_class": "graphic_semantic_positive",
+            "count_toward_positive": true,
+            "negative_control": false,
+            "used_for_ranking": true
+          }
+        ]
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 1,
+        "support_label": "internal_form_attestation_only",
+        "attestation_count": 7,
+        "reciprocal_support_count": 0,
+        "concordance_ids": [
+          "RHD-ICONC-000942",
+          "RHD-ICONC-000943",
+          "RHD-ICONC-000944",
+          "RHD-ICONC-000945",
+          "RHD-ICONC-000946",
+          "RHD-ICONC-000947",
+          "RHD-ICONC-000948"
+        ],
+        "reciprocal_concordance_ids": []
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000002",
+      "rank": 2,
+      "source_candidate_id": "RHD-AFFSRC-000025",
+      "priority_tier": 1,
+      "priority_tier_reason": "prespecified positive holdout pair",
+      "documentary_signal_count": 3,
+      "documentary_signal_classes": [
+        "prespecified_positive_holdout_pair",
+        "steffel_internal_documentary_attestation",
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02457",
+        "printed_page": 368,
+        "form_diplomatic": "Tſchutá",
+        "comparison_surface": "Tſchutá",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Tſchutá, Schleifen. Schärfen."
+      },
+      "modern": {
+        "record_id": "RD-000829",
+        "headword": "Chutá",
+        "component": "Chutá",
+        "translation_raw": "Afilar",
+        "classification": "Vt",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "tschuta",
+        "projected_comparison_key": "chuta",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000829"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": true,
+        "positive_holdout_ids": [
+          "RHD-GRAPH-HOLD-004"
+        ],
+        "matched_holdout_records": [
+          {
+            "holdout_id": "RHD-GRAPH-HOLD-004",
+            "evidence_class": "graphic_semantic_positive",
+            "count_toward_positive": true,
+            "negative_control": false,
+            "used_for_ranking": true
+          }
+        ]
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 1,
+        "support_label": "internal_form_attestation_only",
+        "attestation_count": 1,
+        "reciprocal_support_count": 0,
+        "concordance_ids": [
+          "RHD-ICONC-000967"
+        ],
+        "reciprocal_concordance_ids": []
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000003",
+      "rank": 3,
+      "source_candidate_id": "RHD-AFFSRC-000026",
+      "priority_tier": 1,
+      "priority_tier_reason": "prespecified positive holdout pair",
+      "documentary_signal_count": 2,
+      "documentary_signal_classes": [
+        "prespecified_positive_holdout_pair",
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02443",
+        "printed_page": 368,
+        "form_diplomatic": "Tſchécemeke",
+        "comparison_surface": "Tſchócameke",
+        "reading_layer": "ai_facsimile_correction_proposal",
+        "article_diplomatic": "Tſchécemeke, Schwarz."
+      },
+      "modern": {
+        "record_id": "RD-000743",
+        "headword": "Chócami",
+        "component": "Chócami",
+        "translation_raw": "Negro",
+        "classification": "Adj",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "tschocameke",
+        "projected_comparison_key": "chocami",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key",
+          "terminal_ameke_to_ami_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000743"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": true,
+        "positive_holdout_ids": [
+          "RHD-GRAPH-HOLD-003"
+        ],
+        "matched_holdout_records": [
+          {
+            "holdout_id": "RHD-GRAPH-HOLD-003",
+            "evidence_class": "graphic_semantic_positive",
+            "count_toward_positive": true,
+            "negative_control": false,
+            "used_for_ranking": true
+          }
+        ]
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 0,
+        "support_label": "none",
+        "attestation_count": 0,
+        "reciprocal_support_count": 0,
+        "concordance_ids": [],
+        "reciprocal_concordance_ids": []
+      },
+      "facsimile_sensitivity": true,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000004",
+      "rank": 4,
+      "source_candidate_id": "RHD-AFFSRC-000001",
+      "priority_tier": 2,
+      "priority_tier_reason": "at least two non-semantic signals",
+      "documentary_signal_count": 2,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation",
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-00038",
+        "printed_page": 354,
+        "form_diplomatic": "Atſchi",
+        "comparison_surface": "Atſchi",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Atſchi, Lachen."
+      },
+      "modern": {
+        "record_id": "RD-000030",
+        "headword": "Achí",
+        "component": "Achí",
+        "translation_raw": "Reír, sonreír",
+        "classification": "Vt",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "atschi",
+        "projected_comparison_key": "achi",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000030"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 2,
+        "support_label": "reciprocal_documentary_support",
+        "attestation_count": 2,
+        "reciprocal_support_count": 2,
+        "concordance_ids": [
+          "RHD-ICONC-000013",
+          "RHD-ICONC-000014"
+        ],
+        "reciprocal_concordance_ids": [
+          "RHD-ICONC-000013",
+          "RHD-ICONC-000014"
+        ]
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000005",
+      "rank": 5,
+      "source_candidate_id": "RHD-AFFSRC-000008",
+      "priority_tier": 2,
+      "priority_tier_reason": "at least two non-semantic signals",
+      "documentary_signal_count": 2,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation",
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-01764",
+        "printed_page": 356,
+        "form_diplomatic": "Cutsi",
+        "comparison_surface": "Cutsi",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Cutsi, Kurz."
+      },
+      "modern": {
+        "record_id": "RD-000560",
+        "headword": "Cuchi",
+        "component": "Cuchi",
+        "translation_raw": "Chiquitos",
+        "classification": "Adj pl",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "cutsi",
+        "projected_comparison_key": "cuchi",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000560"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 2,
+        "support_label": "reciprocal_documentary_support",
+        "attestation_count": 1,
+        "reciprocal_support_count": 1,
+        "concordance_ids": [
+          "RHD-ICONC-000063"
+        ],
+        "reciprocal_concordance_ids": [
+          "RHD-ICONC-000063"
+        ]
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000006",
+      "rank": 6,
+      "source_candidate_id": "RHD-AFFSRC-000013",
+      "priority_tier": 2,
+      "priority_tier_reason": "at least two non-semantic signals",
+      "documentary_signal_count": 2,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation",
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02190",
+        "printed_page": 364,
+        "form_diplomatic": "Potschí",
+        "comparison_surface": "Potschí",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Potschí, Anfüllen."
+      },
+      "modern": {
+        "record_id": "RD-001848",
+        "headword": "Pochí",
+        "component": "Pochí",
+        "translation_raw": "Brincar",
+        "classification": "Vi",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "potschi",
+        "projected_comparison_key": "pochi",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-001848"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 2,
+        "support_label": "reciprocal_documentary_support",
+        "attestation_count": 2,
+        "reciprocal_support_count": 1,
+        "concordance_ids": [
+          "RHD-ICONC-000241",
+          "RHD-ICONC-000768"
+        ],
+        "reciprocal_concordance_ids": [
+          "RHD-ICONC-000241"
+        ]
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000007",
+      "rank": 7,
+      "source_candidate_id": "RHD-AFFSRC-000019",
+      "priority_tier": 2,
+      "priority_tier_reason": "at least two non-semantic signals",
+      "documentary_signal_count": 2,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation",
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02414",
+        "printed_page": 367,
+        "form_diplomatic": "Tscháca",
+        "comparison_surface": "Tscháca",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Tscháca, Wunde."
+      },
+      "modern": {
+        "record_id": "RD-000635",
+        "headword": "Chacá",
+        "component": "Chacá",
+        "translation_raw": "Chanate (ave; zanate)",
+        "classification": "S",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "tschaca",
+        "projected_comparison_key": "chaca",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000635"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 2,
+        "support_label": "reciprocal_documentary_support",
+        "attestation_count": 1,
+        "reciprocal_support_count": 1,
+        "concordance_ids": [
+          "RHD-ICONC-000321"
+        ],
+        "reciprocal_concordance_ids": [
+          "RHD-ICONC-000321"
+        ]
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000008",
+      "rank": 8,
+      "source_candidate_id": "RHD-AFFSRC-000023",
+      "priority_tier": 2,
+      "priority_tier_reason": "at least two non-semantic signals",
+      "documentary_signal_count": 2,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation",
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02431",
+        "printed_page": 368,
+        "form_diplomatic": "Tschipú",
+        "comparison_surface": "Tschipú",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Tschipú, Stinken."
+      },
+      "modern": {
+        "record_id": "RD-000714",
+        "headword": "Chipú",
+        "component": "Chipú",
+        "translation_raw": "Estar amargo (p. ej.: café)",
+        "classification": "Vi",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "tschipu",
+        "projected_comparison_key": "chipu",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000714"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": [
+          {
+            "holdout_id": "RHD-GRAPH-HOLD-009",
+            "evidence_class": "graphic_decoy_semantic_negative",
+            "count_toward_positive": false,
+            "negative_control": true,
+            "used_for_ranking": false
+          }
+        ]
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 2,
+        "support_label": "reciprocal_documentary_support",
+        "attestation_count": 1,
+        "reciprocal_support_count": 1,
+        "concordance_ids": [
+          "RHD-ICONC-000323"
+        ],
+        "reciprocal_concordance_ids": [
+          "RHD-ICONC-000323"
+        ]
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000009",
+      "rank": 9,
+      "source_candidate_id": "RHD-AFFSRC-000015",
+      "priority_tier": 2,
+      "priority_tier_reason": "at least two non-semantic signals",
+      "documentary_signal_count": 2,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation",
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02402",
+        "printed_page": 367,
+        "form_diplomatic": "Tſchigó",
+        "comparison_surface": "Tſchigó",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Tſchigó, Noch."
+      },
+      "modern": {
+        "record_id": "RD-000680",
+        "headword": "Chigó",
+        "component": "Chigó",
+        "translation_raw": "Robar",
+        "classification": "Vt",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "tschigo",
+        "projected_comparison_key": "chigo",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000680"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 1,
+        "support_label": "internal_form_attestation_only",
+        "attestation_count": 1,
+        "reciprocal_support_count": 0,
+        "concordance_ids": [
+          "RHD-ICONC-000951"
+        ],
+        "reciprocal_concordance_ids": []
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000010",
+      "rank": 10,
+      "source_candidate_id": "RHD-AFFSRC-000018",
+      "priority_tier": 2,
+      "priority_tier_reason": "at least two non-semantic signals",
+      "documentary_signal_count": 2,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation",
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02413",
+        "printed_page": 367,
+        "form_diplomatic": "Tscháa",
+        "comparison_surface": "Tscháa",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Tscháa, Wegwerfen."
+      },
+      "modern": {
+        "record_id": "RD-000628",
+        "headword": "Chá, cháa",
+        "component": "cháa",
+        "translation_raw": "Tener granos o llagas",
+        "classification": "Vi",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "tschaa",
+        "projected_comparison_key": "chaa",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000628"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 1,
+        "support_label": "internal_form_attestation_only",
+        "attestation_count": 1,
+        "reciprocal_support_count": 0,
+        "concordance_ids": [
+          "RHD-ICONC-000941"
+        ],
+        "reciprocal_concordance_ids": []
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000011",
+      "rank": 11,
+      "source_candidate_id": "RHD-AFFSRC-000021",
+      "priority_tier": 2,
+      "priority_tier_reason": "at least two non-semantic signals",
+      "documentary_signal_count": 2,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation",
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02425",
+        "printed_page": 367,
+        "form_diplomatic": "Tſchiní",
+        "comparison_surface": "Tſchiní",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Tſchiní, ſ. Gewebe."
+      },
+      "modern": {
+        "record_id": "RD-000708",
+        "headword": "Chiní",
+        "component": "Chiní",
+        "translation_raw": "Manta, ropa",
+        "classification": "S",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "tschini",
+        "projected_comparison_key": "chini",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000708"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 1,
+        "support_label": "internal_form_attestation_only",
+        "attestation_count": 1,
+        "reciprocal_support_count": 0,
+        "concordance_ids": [
+          "RHD-ICONC-000955"
+        ],
+        "reciprocal_concordance_ids": []
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000012",
+      "rank": 12,
+      "source_candidate_id": "RHD-AFFSRC-000022",
+      "priority_tier": 2,
+      "priority_tier_reason": "at least two non-semantic signals",
+      "documentary_signal_count": 2,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation",
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02426",
+        "printed_page": 367,
+        "form_diplomatic": "Tſchiperameke",
+        "comparison_surface": "Tſchiperameke",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Tſchiperameke, Fein. Dünn. Flach."
+      },
+      "modern": {
+        "record_id": "RD-000711",
+        "headword": "Chipérami",
+        "component": "Chipérami",
+        "translation_raw": "Plano",
+        "classification": "Pp",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "tschiperameke",
+        "projected_comparison_key": "chiperami",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key",
+          "terminal_ameke_to_ami_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000711"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 1,
+        "support_label": "internal_form_attestation_only",
+        "attestation_count": 3,
+        "reciprocal_support_count": 0,
+        "concordance_ids": [
+          "RHD-ICONC-000956",
+          "RHD-ICONC-000957",
+          "RHD-ICONC-000958"
+        ],
+        "reciprocal_concordance_ids": []
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000013",
+      "rank": 13,
+      "source_candidate_id": "RHD-AFFSRC-000024",
+      "priority_tier": 2,
+      "priority_tier_reason": "at least two non-semantic signals",
+      "documentary_signal_count": 2,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation",
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02451",
+        "printed_page": 368,
+        "form_diplomatic": "Tschucú",
+        "comparison_surface": "Tschucú",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Tschucú, Der Ort, wo sich ein zahmes Thier befindet, s. Seyn."
+      },
+      "modern": {
+        "record_id": "RD-000791",
+        "headword": "Chucú",
+        "component": "Chucú",
+        "translation_raw": "Estar parado (animal, barco, camión de carga, persona agachada)",
+        "classification": "Vi sing",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "tschucu",
+        "projected_comparison_key": "chucu",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000791"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 1,
+        "support_label": "internal_form_attestation_only",
+        "attestation_count": 1,
+        "reciprocal_support_count": 0,
+        "concordance_ids": [
+          "RHD-ICONC-000966"
+        ],
+        "reciprocal_concordance_ids": []
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000014",
+      "rank": 14,
+      "source_candidate_id": "RHD-AFFSRC-000004",
+      "priority_tier": 3,
+      "priority_tier_reason": "one non-semantic signal",
+      "documentary_signal_count": 1,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-01744",
+        "printed_page": 355,
+        "form_diplomatic": "Cotſchi",
+        "comparison_surface": "Cotſchi",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Cotſchi, Schwein."
+      },
+      "modern": {
+        "record_id": "RD-000481",
+        "headword": "Cochí",
+        "component": "Cochí",
+        "translation_raw": "Perro",
+        "classification": "S",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "cotschi",
+        "projected_comparison_key": "cochi",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 4,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000481",
+          "RD-000482",
+          "RD-000483",
+          "RD-000484"
+        ],
+        "unique_exact_projected_modern_record": false
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 2,
+        "support_label": "reciprocal_documentary_support",
+        "attestation_count": 2,
+        "reciprocal_support_count": 1,
+        "concordance_ids": [
+          "RHD-ICONC-000050",
+          "RHD-ICONC-000407"
+        ],
+        "reciprocal_concordance_ids": [
+          "RHD-ICONC-000050"
+        ]
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000015",
+      "rank": 15,
+      "source_candidate_id": "RHD-AFFSRC-000005",
+      "priority_tier": 3,
+      "priority_tier_reason": "one non-semantic signal",
+      "documentary_signal_count": 1,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-01744",
+        "printed_page": 355,
+        "form_diplomatic": "Cotſchi",
+        "comparison_surface": "Cotſchi",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Cotſchi, Schwein."
+      },
+      "modern": {
+        "record_id": "RD-000482",
+        "headword": "Cochí",
+        "component": "Cochí",
+        "translation_raw": "Hermana mayor",
+        "classification": "S",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "cotschi",
+        "projected_comparison_key": "cochi",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 4,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000481",
+          "RD-000482",
+          "RD-000483",
+          "RD-000484"
+        ],
+        "unique_exact_projected_modern_record": false
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 2,
+        "support_label": "reciprocal_documentary_support",
+        "attestation_count": 2,
+        "reciprocal_support_count": 1,
+        "concordance_ids": [
+          "RHD-ICONC-000050",
+          "RHD-ICONC-000407"
+        ],
+        "reciprocal_concordance_ids": [
+          "RHD-ICONC-000050"
+        ]
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000016",
+      "rank": 16,
+      "source_candidate_id": "RHD-AFFSRC-000006",
+      "priority_tier": 3,
+      "priority_tier_reason": "one non-semantic signal",
+      "documentary_signal_count": 1,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-01744",
+        "printed_page": 355,
+        "form_diplomatic": "Cotſchi",
+        "comparison_surface": "Cotſchi",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Cotſchi, Schwein."
+      },
+      "modern": {
+        "record_id": "RD-000483",
+        "headword": "Cochí",
+        "component": "Cochí",
+        "translation_raw": "Dormir",
+        "classification": "Vi sing",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "cotschi",
+        "projected_comparison_key": "cochi",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 4,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000481",
+          "RD-000482",
+          "RD-000483",
+          "RD-000484"
+        ],
+        "unique_exact_projected_modern_record": false
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 2,
+        "support_label": "reciprocal_documentary_support",
+        "attestation_count": 2,
+        "reciprocal_support_count": 1,
+        "concordance_ids": [
+          "RHD-ICONC-000050",
+          "RHD-ICONC-000407"
+        ],
+        "reciprocal_concordance_ids": [
+          "RHD-ICONC-000050"
+        ]
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000017",
+      "rank": 17,
+      "source_candidate_id": "RHD-AFFSRC-000007",
+      "priority_tier": 3,
+      "priority_tier_reason": "one non-semantic signal",
+      "documentary_signal_count": 1,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-01744",
+        "printed_page": 355,
+        "form_diplomatic": "Cotſchi",
+        "comparison_surface": "Cotſchi",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Cotſchi, Schwein."
+      },
+      "modern": {
+        "record_id": "RD-000484",
+        "headword": "Cochi, cohuí",
+        "component": "Cochi",
+        "translation_raw": "Marrano",
+        "classification": "S esp",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "cotschi",
+        "projected_comparison_key": "cochi",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 4,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000481",
+          "RD-000482",
+          "RD-000483",
+          "RD-000484"
+        ],
+        "unique_exact_projected_modern_record": false
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 2,
+        "support_label": "reciprocal_documentary_support",
+        "attestation_count": 2,
+        "reciprocal_support_count": 1,
+        "concordance_ids": [
+          "RHD-ICONC-000050",
+          "RHD-ICONC-000407"
+        ],
+        "reciprocal_concordance_ids": [
+          "RHD-ICONC-000050"
+        ]
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000018",
+      "rank": 18,
+      "source_candidate_id": "RHD-AFFSRC-000009",
+      "priority_tier": 3,
+      "priority_tier_reason": "one non-semantic signal",
+      "documentary_signal_count": 1,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02006",
+        "printed_page": 361,
+        "form_diplomatic": "Matſchi",
+        "comparison_surface": "Matſchi",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Matſchi, Draußen."
+      },
+      "modern": {
+        "record_id": "RD-001232",
+        "headword": "Machí",
+        "component": "Machí",
+        "translation_raw": "1. Saber, conocer 2. Hay luz 3. Verse bien",
+        "classification": "Vi",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "matschi",
+        "projected_comparison_key": "machi",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 2,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-001232",
+          "RD-001233"
+        ],
+        "unique_exact_projected_modern_record": false
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 2,
+        "support_label": "reciprocal_documentary_support",
+        "attestation_count": 8,
+        "reciprocal_support_count": 1,
+        "concordance_ids": [
+          "RHD-ICONC-000165",
+          "RHD-ICONC-000626",
+          "RHD-ICONC-000627",
+          "RHD-ICONC-000628",
+          "RHD-ICONC-000629",
+          "RHD-ICONC-000630",
+          "RHD-ICONC-000631",
+          "RHD-ICONC-000632"
+        ],
+        "reciprocal_concordance_ids": [
+          "RHD-ICONC-000165"
+        ]
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000019",
+      "rank": 19,
+      "source_candidate_id": "RHD-AFFSRC-000010",
+      "priority_tier": 3,
+      "priority_tier_reason": "one non-semantic signal",
+      "documentary_signal_count": 1,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02006",
+        "printed_page": 361,
+        "form_diplomatic": "Matſchi",
+        "comparison_surface": "Matſchi",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Matſchi, Draußen."
+      },
+      "modern": {
+        "record_id": "RD-001233",
+        "headword": "Machí, machíami",
+        "component": "Machí",
+        "translation_raw": "Afuera",
+        "classification": "Adv",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "matschi",
+        "projected_comparison_key": "machi",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 2,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-001232",
+          "RD-001233"
+        ],
+        "unique_exact_projected_modern_record": false
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 2,
+        "support_label": "reciprocal_documentary_support",
+        "attestation_count": 8,
+        "reciprocal_support_count": 1,
+        "concordance_ids": [
+          "RHD-ICONC-000165",
+          "RHD-ICONC-000626",
+          "RHD-ICONC-000627",
+          "RHD-ICONC-000628",
+          "RHD-ICONC-000629",
+          "RHD-ICONC-000630",
+          "RHD-ICONC-000631",
+          "RHD-ICONC-000632"
+        ],
+        "reciprocal_concordance_ids": [
+          "RHD-ICONC-000165"
+        ]
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000020",
+      "rank": 20,
+      "source_candidate_id": "RHD-AFFSRC-000016",
+      "priority_tier": 3,
+      "priority_tier_reason": "one non-semantic signal",
+      "documentary_signal_count": 1,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02412",
+        "printed_page": 367,
+        "form_diplomatic": "Tschá",
+        "comparison_surface": "Tschá",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Tschá, Krätze."
+      },
+      "modern": {
+        "record_id": "RD-000627",
+        "headword": "Chá",
+        "component": "Chá",
+        "translation_raw": "Feo",
+        "classification": "Adj",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "tscha",
+        "projected_comparison_key": "cha",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 2,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000627",
+          "RD-000628"
+        ],
+        "unique_exact_projected_modern_record": false
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 2,
+        "support_label": "reciprocal_documentary_support",
+        "attestation_count": 2,
+        "reciprocal_support_count": 1,
+        "concordance_ids": [
+          "RHD-ICONC-000320",
+          "RHD-ICONC-000940"
+        ],
+        "reciprocal_concordance_ids": [
+          "RHD-ICONC-000320"
+        ]
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000021",
+      "rank": 21,
+      "source_candidate_id": "RHD-AFFSRC-000017",
+      "priority_tier": 3,
+      "priority_tier_reason": "one non-semantic signal",
+      "documentary_signal_count": 1,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02412",
+        "printed_page": 367,
+        "form_diplomatic": "Tschá",
+        "comparison_surface": "Tschá",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Tschá, Krätze."
+      },
+      "modern": {
+        "record_id": "RD-000628",
+        "headword": "Chá, cháa",
+        "component": "Chá",
+        "translation_raw": "Tener granos o llagas",
+        "classification": "Vi",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "tscha",
+        "projected_comparison_key": "cha",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 2,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000627",
+          "RD-000628"
+        ],
+        "unique_exact_projected_modern_record": false
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 2,
+        "support_label": "reciprocal_documentary_support",
+        "attestation_count": 2,
+        "reciprocal_support_count": 1,
+        "concordance_ids": [
+          "RHD-ICONC-000320",
+          "RHD-ICONC-000940"
+        ],
+        "reciprocal_concordance_ids": [
+          "RHD-ICONC-000320"
+        ]
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000022",
+      "rank": 22,
+      "source_candidate_id": "RHD-AFFSRC-000011",
+      "priority_tier": 3,
+      "priority_tier_reason": "one non-semantic signal",
+      "documentary_signal_count": 1,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02007",
+        "printed_page": 361,
+        "form_diplomatic": "Matſchi",
+        "comparison_surface": "Matſchi",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Matſchi, als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr; als: tané matſchi, ich ſehe, oder ich weiß es nicht. Matſchijena, es keimt, kömmt hervor, wächſt."
+      },
+      "modern": {
+        "record_id": "RD-001232",
+        "headword": "Machí",
+        "component": "Machí",
+        "translation_raw": "1. Saber, conocer 2. Hay luz 3. Verse bien",
+        "classification": "Vi",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "matschi",
+        "projected_comparison_key": "machi",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 2,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-001232",
+          "RD-001233"
+        ],
+        "unique_exact_projected_modern_record": false
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 1,
+        "support_label": "internal_form_attestation_only",
+        "attestation_count": 8,
+        "reciprocal_support_count": 0,
+        "concordance_ids": [
+          "RHD-ICONC-000633",
+          "RHD-ICONC-000634",
+          "RHD-ICONC-000635",
+          "RHD-ICONC-000636",
+          "RHD-ICONC-000637",
+          "RHD-ICONC-000638",
+          "RHD-ICONC-000639",
+          "RHD-ICONC-000640"
+        ],
+        "reciprocal_concordance_ids": []
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000023",
+      "rank": 23,
+      "source_candidate_id": "RHD-AFFSRC-000012",
+      "priority_tier": 3,
+      "priority_tier_reason": "one non-semantic signal",
+      "documentary_signal_count": 1,
+      "documentary_signal_classes": [
+        "steffel_internal_documentary_attestation"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02007",
+        "printed_page": 361,
+        "form_diplomatic": "Matſchi",
+        "comparison_surface": "Matſchi",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Matſchi, als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr; als: tané matſchi, ich ſehe, oder ich weiß es nicht. Matſchijena, es keimt, kömmt hervor, wächſt."
+      },
+      "modern": {
+        "record_id": "RD-001233",
+        "headword": "Machí, machíami",
+        "component": "Machí",
+        "translation_raw": "Afuera",
+        "classification": "Adv",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "matschi",
+        "projected_comparison_key": "machi",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 2,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-001232",
+          "RD-001233"
+        ],
+        "unique_exact_projected_modern_record": false
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 1,
+        "support_label": "internal_form_attestation_only",
+        "attestation_count": 8,
+        "reciprocal_support_count": 0,
+        "concordance_ids": [
+          "RHD-ICONC-000633",
+          "RHD-ICONC-000634",
+          "RHD-ICONC-000635",
+          "RHD-ICONC-000636",
+          "RHD-ICONC-000637",
+          "RHD-ICONC-000638",
+          "RHD-ICONC-000639",
+          "RHD-ICONC-000640"
+        ],
+        "reciprocal_concordance_ids": []
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000024",
+      "rank": 24,
+      "source_candidate_id": "RHD-AFFSRC-000014",
+      "priority_tier": 3,
+      "priority_tier_reason": "one non-semantic signal",
+      "documentary_signal_count": 1,
+      "documentary_signal_classes": [
+        "unique_exact_projected_modern_record"
+      ],
+      "historical": {
+        "record_id": "RHD-S1809-02212",
+        "printed_page": 364,
+        "form_diplomatic": "Putschá",
+        "comparison_surface": "Putschá",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Putschá, Anfüllen."
+      },
+      "modern": {
+        "record_id": "RD-001856",
+        "headword": "Pucha",
+        "component": "Pucha",
+        "translation_raw": "Soplar",
+        "classification": "Vt",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "putscha",
+        "projected_comparison_key": "pucha",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 1,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-001856"
+        ],
+        "unique_exact_projected_modern_record": true
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 0,
+        "support_label": "none",
+        "attestation_count": 0,
+        "reciprocal_support_count": 0,
+        "concordance_ids": [],
+        "reciprocal_concordance_ids": []
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000025",
+      "rank": 25,
+      "source_candidate_id": "RHD-AFFSRC-000002",
+      "priority_tier": 4,
+      "priority_tier_reason": "projection only",
+      "documentary_signal_count": 0,
+      "documentary_signal_classes": [],
+      "historical": {
+        "record_id": "RHD-S1809-01681",
+        "printed_page": 354,
+        "form_diplomatic": "Batſá",
+        "comparison_surface": "Batſá",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Batſá, Vorher, voraus."
+      },
+      "modern": {
+        "record_id": "RD-000137",
+        "headword": "Bacha",
+        "component": "Bacha",
+        "translation_raw": "Primeramente, adelante, enfrente",
+        "classification": "Adv",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "batsa",
+        "projected_comparison_key": "bacha",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 2,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000137",
+          "RD-000138"
+        ],
+        "unique_exact_projected_modern_record": false
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 0,
+        "support_label": "none",
+        "attestation_count": 0,
+        "reciprocal_support_count": 0,
+        "concordance_ids": [],
+        "reciprocal_concordance_ids": []
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "ranking_id": "RHD-AFFRANK-000026",
+      "rank": 26,
+      "source_candidate_id": "RHD-AFFSRC-000003",
+      "priority_tier": 4,
+      "priority_tier_reason": "projection only",
+      "documentary_signal_count": 0,
+      "documentary_signal_classes": [],
+      "historical": {
+        "record_id": "RHD-S1809-01681",
+        "printed_page": 354,
+        "form_diplomatic": "Batſá",
+        "comparison_surface": "Batſá",
+        "reading_layer": "diplomatic",
+        "article_diplomatic": "Batſá, Vorher, voraus."
+      },
+      "modern": {
+        "record_id": "RD-000138",
+        "headword": "Bachá",
+        "component": "Bachá",
+        "translation_raw": "Meter (a la cárcel), poner (adentro)",
+        "classification": "Vipl",
+        "translation_or_classification_used_for_ranking": false
+      },
+      "projection": {
+        "historical_comparison_key": "batsa",
+        "projected_comparison_key": "bacha",
+        "operations": [
+          "historical_affricate_spelling_to_modern_ch_candidate_key"
+        ],
+        "modern_record_count_for_exact_projected_key": 2,
+        "modern_record_ids_for_exact_projected_key": [
+          "RD-000137",
+          "RD-000138"
+        ],
+        "unique_exact_projected_modern_record": false
+      },
+      "holdout_evidence": {
+        "prespecified_positive_pair": false,
+        "positive_holdout_ids": [],
+        "matched_holdout_records": []
+      },
+      "preexisting_diachronic_evidence": {
+        "exact_pair_corroborated": false,
+        "overlap_ids": []
+      },
+      "steffel_internal_evidence": {
+        "support_level": 0,
+        "support_label": "none",
+        "attestation_count": 0,
+        "reciprocal_support_count": 0,
+        "concordance_ids": [],
+        "reciprocal_concordance_ids": []
+      },
+      "facsimile_sensitivity": false,
+      "semantic_similarity_used_for_ranking": false,
+      "automatic_semantic_judgment": false,
+      "automatic_sound_correspondence_inference": false,
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "human_reviewed": false
+    }
+  ],
+  "semantic_similarity_used_for_ranking": false,
+  "automatic_semantic_judgment": false,
+  "automatic_sound_correspondence_inference": false,
+  "human_reviewed": false
+}
