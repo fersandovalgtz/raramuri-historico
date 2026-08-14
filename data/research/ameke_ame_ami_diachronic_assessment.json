@@ -38,6 +38,14 @@
     "optional_e_to_i_raising": true,
     "cross_variety_caution": true
   },
+  "historical_lr_alternation_support": {
+    "reference": "Merrill et al. 2020, El Diccionario Tarahumara–Alemán de Matthäus Steffel: Lengua y Cultura Rarámuri en el Siglo XVIII",
+    "documented": true,
+    "scope": "medial <l> ~ <r> alternation is documented in Steffel alongside contrastive l/r cases",
+    "ameke_example": "cavólameke ~ cavórameke",
+    "example_meaning": "esférico, redondo",
+    "interpretation": "This increases formal plausibility of Seliameke ~ Siríami but does not establish cognacy or permit general l/r neutralization."
+  },
   "priority_lexical_candidates": [
     {
       "candidate_id": "RHD-AMEAMI-LEX-001",
@@ -66,8 +74,9 @@
       "modern_meaning": "Gobernador tradicional",
       "independent_modern_form": "siˈríame",
       "independent_modern_meaning": "governor(s)",
-      "assessment": "very_high_priority_lexical_triangulation_candidate",
-      "unresolved_form_issue": "historical l versus modern r not adjudicated",
+      "historical_lr_support": true,
+      "assessment": "very_high_priority_triangulated_candidate_with_historically_attested_lr_alternation",
+      "unresolved_form_issue": "The applicability of the historically attested medial l/r alternation to this specific lexical item requires human comparative adjudication.",
       "cognacy_judgment": "not_performed",
       "historical_continuity_judgment": "not_performed"
     },
