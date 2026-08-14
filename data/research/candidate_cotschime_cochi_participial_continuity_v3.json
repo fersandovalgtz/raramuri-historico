@@ -1,0 +1,82 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "candidate_cotschime_cochi_participial_continuity_v3",
+  "generated": "2026-08-13",
+  "supersedes": "candidate_cotschime_cochi_participial_continuity_v2.json",
+  "candidate_id": "RHD-AMEAMI-LEX-005",
+  "historical": {
+    "steffel_family": "COTSCHI-",
+    "merrill_phonetic_core": "koči-",
+    "verb": "cotschimé / kočimé",
+    "meaning": "dormir",
+    "participle": "cotschiméameke / kočiméameke",
+    "participle_meaning": "adormecido; alguien que duerme; durmiente",
+    "participial_analysis": "Merrill uses cotschimé-ameke as the explicit verbal example of -ameke as adjectivizer/nominalizer [participial].",
+    "internal_morphology_of_ameke": "Merrill independently analyzes historical participial -(a)me plus optional reduplicative -kV/-ke in relevant suffix chains.",
+    "unresolved_verb_final_material": "-mé in cotschimé/kočimé"
+  },
+  "modern_src02": {
+    "record_id": "RD-000483",
+    "form": "Cochí",
+    "classification": "Vi sing",
+    "meaning": "Dormir",
+    "source_note": "pp.: cochíami; pl: ocochi",
+    "participle": "cochíami",
+    "participle_status": "source-note-attested, not independent headword in current SRC-02"
+  },
+  "modern_choguita_caballero_2022": {
+    "root": "kotʃi",
+    "analysis_example": "kotʃi-ˈnále-simi-i",
+    "gloss": "sleep-DESID-MOT-IMPF",
+    "translation": "I really wanted to go along sleeping",
+    "significance": "The modern Choguita grammar explicitly treats kotʃi as the verbal root to which productive suffixes attach; modern roothood therefore does not depend on stripping material from SRC-02 Cochí.",
+    "homophonous_me_suffixes_audited": [
+      {"form": "-mê", "function": "motion imperative", "relevance_to_historical_cotschime": "not established"},
+      {"form": "-mê", "function": "irrealis singular", "relevance_to_historical_cotschime": "not established"}
+    ],
+    "negative_result": "No audited modern -mê suffix provides a source-grounded explanation of historical cotschimé simply by formal resemblance."
+  },
+  "independent_uto_aztecan_support": {
+    "source": "Hill 2020, Wick Miller's Uto-Aztecan Cognate Sets",
+    "set": "ko-02 sleep",
+    "raramuri": "kotᶴi <cochí> ‘dormir/sleep’",
+    "selected_comparanda": ["Guarijío koci-ná", "Eudeve cotzón", "Ópata cochi-a", "Yaqui koche"],
+    "status": "comparative support; Hill notes that some sets remain provisional"
+  },
+  "evidential_architecture": {
+    "family_core_form_semantics": "strongly supported: historical Merrill koči- / modern Caballero kotʃi / SRC-02 Cochí / Hill Rarámuri kotᶴi, all in the sleep domain",
+    "participial_function": "double source-explicit: historical cotschimé-ameke and modern SRC-02 Cochí -> pp. cochíami",
+    "historical_ame_internal_structure": "supported by Merrill: participial -(a)me with optional -kV/-ke in relevant chains",
+    "historical_cotschime_final_me": "unresolved",
+    "full_word_cognacy": "not adjudicated"
+  },
+  "assessment": "exceptionally_high_priority_family_core_and_participial_continuity_candidate_with_one_explicit_open_morphological_problem",
+  "open_problem": {
+    "label": "historical cotschimé -mé problem",
+    "question": "Why does Steffel's historical verb occur as kočimé while independently documented modern varieties analyze/use a koči/kotʃi root?",
+    "ruled_out_shortcuts": [
+      "Do not simply delete -mé from the historical lemma.",
+      "Do not identify historical -mé with modern motion-imperative or irrealis -mê by homophony.",
+      "Do not convert Merrill's family heading COTSCHI- into a morpheme segmentation of cotschimé unless supported by explicit analysis."
+    ],
+    "next_evidence_needed": [
+      "older/intermediate Rarámuri descriptions",
+      "modern dialectal forms of the sleep verb and its stem alternations",
+      "Southern Uto-Aztecan comparanda with extended forms",
+      "historical verbal stem-forming morphology"
+    ]
+  },
+  "epistemic_status": {
+    "ai_assisted": true,
+    "human_reviewed_by_project": false,
+    "historical_facsimile_recollated": true,
+    "merrill_family_grouping_verified": true,
+    "merrill_phonetic_normalization_verified": true,
+    "caballero_modern_root_analysis_verified": true,
+    "hill_comparative_set_verified": true,
+    "automatic_morpheme_assignment": false,
+    "automatic_sound_law": false,
+    "cognacy_judgment_full_form": "not_performed",
+    "historical_continuity_judgment_full_form": "not_performed"
+  }
+}
