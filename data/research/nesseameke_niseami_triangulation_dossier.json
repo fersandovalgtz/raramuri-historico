@@ -1,0 +1,51 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "dossier_id": "RHD-AMEAMI-DOS-000002",
+  "generated": "2026-08-13",
+  "candidate": {
+    "historical_base": "Nessé",
+    "historical_base_meaning": "guardar/cuidar",
+    "historical_form": "Nesséameke",
+    "historical_meaning": "custodio/guardián",
+    "historical_specialized_phrase": "pouguá nesséameke",
+    "historical_specialized_meaning": "pastor de ovejas",
+    "modern_base_record_id": "RD-001635",
+    "modern_base": "Nisé",
+    "modern_base_meaning": "Cuidar, pastorear",
+    "modern_record_id": "RD-001636",
+    "modern_form": "Niséami",
+    "modern_meaning": "Pastor"
+  },
+  "historical_internal_evidence": {
+    "bidirectional_attestation": true,
+    "german_to_raramuri": {
+      "base": "hüten → Nessé",
+      "derived": "Hüter → Nesséameke"
+    },
+    "raramuri_to_german": {
+      "base": "Nessé → Bewahren/Hüten",
+      "derived": "Nesséameke → Hüter"
+    },
+    "merrill_attestation_ids": ["E-0639", "E-0640", "E-0986", "E-1348", "E-1349", "T-0519", "T-0520", "ems-0369", "ems-0370", "tms-0469", "tms-0470"]
+  },
+  "historical_morphology": {
+    "ameke_explicitly_described_as_participial_by_steffel": true,
+    "final_ke_reported_as_often_omitted_in_speech": true
+  },
+  "assessment": {
+    "priority": 1,
+    "label": "very_high_priority_semantic_derivational_candidate_with_historical_shepherd_attestation",
+    "historical_base_support": "strong",
+    "historical_derived_support": "strong",
+    "historical_specialized_semantic_support": "very_strong",
+    "modern_base_support": "strong",
+    "modern_derived_support": "strong",
+    "formal_correspondence": "requires_comparative_adjudication",
+    "dialect_identity": "not_established",
+    "cognacy": "not_assessed",
+    "historical_continuity": "not_assessed",
+    "sound_correspondence": "not_assessed"
+  },
+  "ai_assisted": true,
+  "human_reviewed": false
+}
