@@ -1,0 +1,191 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_ame_ami_diachronic_assessment_v3",
+  "generated": "2026-08-13",
+  "supersedes": "ameke_ame_ami_diachronic_assessment_v2.json",
+  "research_question": "What source-independent evidence supports historical-modern continuity between Steffel participial -ameke/-ame and modern participial/derivational -ame/-ami/-kame/-nami domains?",
+  "major_revision_from_v2": [
+    "SRC-02 provenance is unresolved and likely belongs to a pre-2016 Hilton lexicographic lineage, so SRC-02/Hilton overlaps are no longer counted as independent replications.",
+    "Hilton 1959 and revised 1993 are treated as one editorial lineage; Shoemaker 2016 is an explicit update of that line.",
+    "The 1997 Compendio adds independent multivariety speaker-level evidence for -kame/-kami/-name/-nami/-ame/-ami color morphology.",
+    "Hill 2020 remains comparative support, but its Rarámuri cochí datum derives from Hilton 1959 and is not counted as a separate Rarámuri witness.",
+    "Candidate strength is now graded by independent source families rather than raw document count."
+  ],
+  "historical_core": {
+    "steffel_1809": {
+      "ameke": "source-explicit present active participial ending (Mittelwort)",
+      "ke_omission": "frequent omission of final ke in pronunciation reported by Steffel",
+      "short_ame_forms_attested": true,
+      "rugameke_composition": "Steffel explicitly analyzes passive ruc plus active ameke in a relevant construction"
+    },
+    "merrill_2020": {
+      "role": "critical/linguistic analysis of Steffel, not an independent historical lexical witness",
+      "verbal_ameke": "adjectivizer/nominalizer [participial]",
+      "participial_morpheme": "-(a)me",
+      "additional_final_element": "optional reduplicative -kV/-ke in relevant chains",
+      "canonical_example": "cotschimé-ameke < cotschimé ‘dormir’"
+    }
+  },
+  "modern_evidence_layers": {
+    "src02": {
+      "records": 2581,
+      "final_ami": 214,
+      "final_ami_classified_pp": 20,
+      "all_pp": 40,
+      "exact_x_xplusami_pairs": 59,
+      "semantic_triage_v2": {
+        "transparent_or_source_supported": 49,
+        "semantically_related_unclear": 3,
+        "mechanical_mismatch": 7
+      },
+      "provenance": {
+        "file_identity": "unresolved",
+        "bibliographic_identity": "unresolved",
+        "lineage_hypothesis": "likely pre-2016/Hilton-1993 lexicographic tradition",
+        "documentary_independence_from_Hilton": "not established"
+      },
+      "interpretive_role": "valuable internal documentary layer whose independence must be controlled when combined with Hilton"
+    },
+    "hilton_lineage": {
+      "1959_1993_relationship": "1959 vocabulary/dictionary revised in 1993; treat as one editorial line",
+      "shoemaker_2016": "explicit updated version of 1993 with recent spelling changes",
+      "independence_counting_rule": "one lineage, not multiple independent witnesses"
+    },
+    "compendio_1997": {
+      "role": "independent multivariety grammar/elicitation evidence",
+      "varieties": ["Centro", "Baja", "Baja-TB", "Cumbre", "Norte", "Sur-B", "Sur-T"],
+      "source_analysis": "color words use -ame labeled participio",
+      "surface_domain": ["-kame", "-kami", "-name", "-nami", "-ame", "-ami", "-m"],
+      "examples": {
+        "black": ["chó-ka-mi", "chó-ka-me", "chó-ko-m"],
+        "white": ["rosá-ka-me", "rosá-ka-mi", "rosá-ko-m"],
+        "blue_green": ["seyó-na-me", "seyó-ka-me", "siyó-ka-me", "siyó-na-mi", "siyó-no-m"]
+      },
+      "importance": "independent evidence that modern participial/color morphology is a structured multivariety system rather than a single Hilton/SRC-02 spelling pattern"
+    },
+    "caballero_2022": {
+      "role": "independent modern Choguita grammar",
+      "participial": ["-ame", "-kame"],
+      "surface_ami_example_analyzed_via_ame": "hâw-ami",
+      "governor": "siˈríame",
+      "sleep_root": "kotʃi",
+      "importance": "independent modern evidence for participial morphology and specific lexical families"
+    },
+    "hill_2020": {
+      "role": "comparative Uto-Aztecan synthesis",
+      "raramuri_sleep_item_source": "Hilton 1959",
+      "raramuri_independence": false,
+      "independent_value": "non-Rarámuri Uto-Aztecan comparanda and comparative-set context"
+    }
+  },
+  "morphological_model_v3": {
+    "robust_shared_core": "participial/derivational domain centered on -(a)me/-ame, with surface -ami in multiple modern contexts",
+    "historical_additional_material": "Steffel/Merrill relevant chains may contain final -kV/-ke after participial -(a)me",
+    "modern_additional_material": "Compendio/Caballero show -ka/-ga/-na and other material before -ame/-ami in several modern formations, including -kame and -name",
+    "key_warning": "historical -ame-ke and modern -ka-me are not the same linear chain merely because they contain k and ame-like material",
+    "rejected_blanket_rule": "-ameke > -ami",
+    "preferred_hypothesis": "continuity of a participial/derivational domain with variety-specific morphology, phonology and lexicalization"
+  },
+  "candidate_independence_ranking": [
+    {
+      "rank": 1,
+      "candidate": "COTSCHI-/cotschimé/cotschiméameke ~ kotʃi/Cochí/cochíami",
+      "independence_grade": "A",
+      "evidence": [
+        "Steffel historical sleep family, with Merrill participial analysis",
+        "Caballero 2022 independently analyzes modern kotʃi as a verbal root",
+        "SRC-02 records Cochí -> pp. cochíami but may be Hilton-lineage",
+        "Hill supplies external Uto-Aztecan comparative context, although its Rarámuri item is Hilton-derived"
+      ],
+      "open_problem": "historical -mé in kočimé remains unexplained; full-word cognacy not adjudicated"
+    },
+    {
+      "rank": 2,
+      "candidate": "black-color family tschocámeke ~ chócami/chókame/chókami",
+      "independence_grade": "A",
+      "evidence": [
+        "Steffel historical form",
+        "published Hilton/Brambila comparison",
+        "Compendio 1997 chó-ka-mi/chó-ka-me/chó-ko-m across regions",
+        "SRC-02 Chócami potentially dependent on Hilton lineage"
+      ],
+      "open_problem": "historical-modern morpheme ordering and exact root phonology require reconstruction"
+    },
+    {
+      "rank": 3,
+      "candidate": "white-color family rolácameke/tosácameke ~ rosácami/tosácami ~ rosákame/tosákame",
+      "independence_grade": "A",
+      "evidence": [
+        "Steffel historical forms",
+        "published Hilton/Brambila comparison",
+        "Compendio 1997 rosá-ka-me/rosá-ka-mi/rosá-ko-m across regions",
+        "SRC-02 exact forms potentially dependent on Hilton"
+      ],
+      "open_problem": "historical root variants and additional morphology require line-by-line philological analysis"
+    },
+    {
+      "rank": 4,
+      "candidate": "Seliameke ~ Siríami ~ Choguita siˈríame",
+      "independence_grade": "A-",
+      "evidence": [
+        "Steffel local ruler/Dorfrichter semantics",
+        "Caballero independent Choguita siˈríame ‘governor(s)’",
+        "SRC-02 Siríami ‘Gobernador tradicional’ potentially Hilton-lineage",
+        "Merrill documents medial l~r variation elsewhere in Steffel"
+      ],
+      "open_problem": "specific l~r correspondence and lexical cognacy remain unadjudicated"
+    },
+    {
+      "rank": 5,
+      "candidate": "blue-green color family",
+      "independence_grade": "A-",
+      "evidence": [
+        "published historical-modern comparison",
+        "Compendio 1997 seyó/siyó multivariety paradigm with -name/-kame/-nami/-m",
+        "SRC-02 Siyónami potentially Hilton-lineage"
+      ],
+      "open_problem": "mapping multiple Steffel blue/green roots to modern siyó/seyó family remains complex"
+    },
+    {
+      "rank": 6,
+      "candidate": "Nessé/Nesséameke ~ Nisé/Niséami",
+      "independence_grade": "B",
+      "evidence": [
+        "historical Nessé ‘cuidar/guardar’ -> Nesséameke ‘guardián’, including shepherd-specific attestation",
+        "SRC-02 Nisé ‘cuidar, pastorear’ -> Niséami ‘Pastor’"
+      ],
+      "open_problem": "independent modern replication is still missing; formal nesse~nise correspondence unadjudicated"
+    },
+    {
+      "rank": 7,
+      "candidate": "Tſchiperameke ~ Chipérami",
+      "independence_grade": "B-",
+      "evidence": [
+        "historical-modern formal and semantic overlap",
+        "SRC-02 Chipérami ‘Plano’ directly classified Pp"
+      ],
+      "open_problem": "modern evidence presently concentrated in SRC-02; independent modern witness needed"
+    }
+  ],
+  "publication_level_claim_v3": "Steffel provides source-explicit historical participial -ameke and ke-loss variation; Merrill analyzes relevant historical chains with participial -(a)me plus optional final -kV/-ke; independent modern grammars and multivariety data document participial -ame/-kame and surface -ami/-kami/-nami systems. After controlling for Hilton/SRC-02 documentary dependence, several lexical and color-domain comparisons still survive with independent modern Rarámuri support. This supports a structured continuity hypothesis for a participial/derivational domain, not a universal one-step sound change from -ameke to -ami.",
+  "methodological_rules": [
+    "Count independent source families, not document totals.",
+    "Keep critical analysis separate from lexical attestation.",
+    "Treat SRC-02/Hilton overlap as potentially dependent until provenance is resolved.",
+    "Treat Hilton 1959/1993 and Shoemaker 2016 as one editorial lineage for independence counting.",
+    "Use Compendio 1997 and Caballero 2022 as independent modern Rarámuri evidence where relevant.",
+    "Treat Hill's Rarámuri item as Hilton-derived while retaining its external Uto-Aztecan comparative value.",
+    "Do not equate historical -ame-ke with modern -ka-me without independent morphological evidence.",
+    "Preserve superseded versions and negative controls."
+  ],
+  "epistemic_status": {
+    "ai_assisted": true,
+    "human_reviewed_by_project": false,
+    "source_independence_controlled": true,
+    "src02_provenance_resolved": false,
+    "automatic_morpheme_assignment": false,
+    "automatic_sound_law": false,
+    "blanket_cognacy_claim": false,
+    "historical_continuity_hypothesis": "substantially_strengthened_but_requires_lexeme_and_variety_specific_demonstration"
+  }
+}
