@@ -1,0 +1,161 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "comparison_corpus": "Raramuri Digital SRC-02",
+  "layer": "modern_exact_base_ami_semantic_triage_v2",
+  "generated": "2026-08-13",
+  "supersedes": "modern_exact_base_ami_semantic_triage_v1.json",
+  "correction_reason": "Comíami was initially left in the derivationally-unclear group. Subsequent source-level audit found that Comíami is itself classified Pp and that RD-000507 explicitly records 'pp: comíami'. It is therefore promoted to the transparent/source-supported subset.",
+  "input_pair_count": 59,
+  "classification_counts": {
+    "transparent_exact_semantic_relation": 49,
+    "semantically_related_but_derivational_path_unclear": 3,
+    "mechanical_exact_base_mismatch": 7
+  },
+  "transparent_exact_semantic_relation": [
+    "Acáami",
+    "Achíami",
+    "Amarúami",
+    "Aparúami",
+    "Bacháami",
+    "Bajíami",
+    "Ba'yóami",
+    "Bicáami",
+    "Bi’huíami",
+    "Binéami",
+    "Bitéami",
+    "Buchíami",
+    "Cahuíami",
+    "Caréami",
+    "Cóami",
+    "Chi’íami",
+    "Comíami",
+    "Huachíami",
+    "Huaquichéami",
+    "Huatóami",
+    "Huicúami",
+    "Hui’íami",
+    "Huiríami",
+    "Icháami",
+    "Iyéami",
+    "Mucúami",
+    "Muhuéami",
+    "Nasóami",
+    "Nayúami",
+    "Ni’mayéami",
+    "Nipáami",
+    "Niquíami",
+    "Niséami",
+    "Nocuáami",
+    "Nuréami",
+    "Oráami",
+    "Otohuéami",
+    "Pagóami",
+    "Piréami",
+    "Rajáami",
+    "Ri’náami",
+    "Rocóami",
+    "Ropéami",
+    "Ru’náami",
+    "Sipáami",
+    "Sirúami",
+    "Sucurúami",
+    "Suhuíami",
+    "Táami"
+  ],
+  "promoted_after_source_audit": [
+    {
+      "form": "Comíami",
+      "exact_base": "Comí",
+      "base_gloss": "Estar bajo; hacer arroyo",
+      "derived_gloss": "Cóncavo, alabeado",
+      "derived_record_id": "RD-000505",
+      "derived_classification_family": "Pp",
+      "supporting_record_id": "RD-000507",
+      "supporting_source_note": "pp: comíami",
+      "status": "source_supported_transparent_relation"
+    }
+  ],
+  "semantically_related_but_derivational_path_unclear": [
+    {
+      "form": "Co'huáami",
+      "exact_base": "Co'huá",
+      "base_gloss": "Comer",
+      "derived_gloss": "Alimento, comida",
+      "note": "Semantic relation is clear, but the source itself gives co'huéami as pp of Co'huá, so the exact X+ami pair is not treated as a transparent participial parse."
+    },
+    {
+      "form": "Jubáami",
+      "exact_base": "Jubá",
+      "base_glosses": ["Atrás", "Oler", "Jugar (tirando los palos)"],
+      "derived_gloss": "Al fin, finalmente, último",
+      "note": "A spatial-to-temporal relation with Jubá ‘atrás’ is plausible, but not established."
+    },
+    {
+      "form": "Rasáami",
+      "exact_base": "Rasá",
+      "base_gloss": "Machucarse",
+      "derived_gloss": "Blando",
+      "note": "A result-state relation is plausible but requires further linguistic adjudication."
+    }
+  ],
+  "mechanical_exact_base_mismatch": [
+    {
+      "form": "Huiráami",
+      "derived_gloss": "Vieja, anciana",
+      "mechanical_exact_base": "Huirá",
+      "mechanical_base_gloss": "Parar; elegir/nombrar una autoridad",
+      "nearby_relevant_form": "Huirara ‘Envejecerse (mujer)’",
+      "status": "exact_string_pair_not_semantically_derivational"
+    },
+    {
+      "form": "Machíriami",
+      "derived_gloss": "Que puede ver",
+      "mechanical_exact_base": "Machiri",
+      "mechanical_base_gloss": "Alacrán",
+      "nearby_relevant_form": "Machí ‘Saber, conocer; hay luz; verse bien’",
+      "status": "exact_string_pair_not_semantically_derivational"
+    },
+    {
+      "form": "Napóami",
+      "derived_gloss": "Clueca",
+      "mechanical_exact_bases": ["Napó ‘deshierbar/quebrarse’", "Napó ‘tuna’"],
+      "nearby_relevant_form": "Napota ‘Enclocarse (gallina); empollar’",
+      "status": "exact_string_pair_not_semantically_derivational"
+    },
+    {
+      "form": "Ohuáami",
+      "derived_gloss": "Medicina, remedio",
+      "mechanical_exact_base": "Ohuá",
+      "mechanical_base_gloss": "Flecha",
+      "status": "exact_string_pair_not_semantically_derivational"
+    },
+    {
+      "form": "Ritéami",
+      "derived_gloss": "El que ve",
+      "mechanical_exact_bases": ["Rité ‘Piedra’", "Rité ‘Patear’"],
+      "nearby_relevant_form": "Ritehuá, ritihuá ‘Ver’",
+      "status": "exact_string_pair_not_semantically_derivational"
+    },
+    {
+      "form": "Siríami",
+      "derived_gloss": "Gobernador tradicional",
+      "mechanical_exact_bases": ["Siri ‘Tijera’", "Siri ‘Llegaron’"],
+      "external_priority_evidence": "Historical Seliameke ‘Dorfrichter’ and Choguita siˈríame ‘governor(s)’ remain high-priority comparison evidence, but the exact modern base-pair is false.",
+      "status": "exact_string_pair_not_semantically_derivational"
+    },
+    {
+      "form": "Suníami",
+      "derived_gloss": "En todas partes",
+      "mechanical_exact_base": "Suní",
+      "mechanical_base_gloss": "Terminar, acabar, cumplir",
+      "status": "exact_string_pair_not_semantically_derivational"
+    }
+  ],
+  "interpretation": "The 59 exact X~X+ami strings are not 59 validated derivations. After the source-explicit participial audit, 49 have at least one exact-base sense with a transparent semantic/source-supported relation to the final-ami form; three are semantically related but derivationally unclear; seven are mechanical exact-base mismatches.",
+  "historical_comparison_note": "The transparent modern subset independently exhibits relation types also visible in Steffel X~X+ameke pairs, including event-to-agent/participant and state-to-property/result relations. This is compatible with functional continuity but does not prove morpheme identity or cognacy.",
+  "ai_assisted": true,
+  "human_reviewed": false,
+  "automatic_morpheme_assignment": false,
+  "cognacy_judgment": "not_performed",
+  "historical_continuity_judgment": "not_performed"
+}
