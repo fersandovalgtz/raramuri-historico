@@ -49,9 +49,11 @@
   "priority_lexical_candidates": [
     {
       "candidate_id": "RHD-AMEAMI-LEX-001",
-      "historical_base": "Neſſé",
-      "historical_form": "Neſſéameke",
+      "historical_base": "Nessé",
+      "historical_form": "Nesséameke",
       "historical_meaning": "Bewahren/Hüten; Hüter",
+      "historical_specialized_form": "pouguá nesséameke",
+      "historical_specialized_meaning": "pastor de ovejas",
       "historical_internal_bidirectional_support": true,
       "modern_base_record_id": "RD-001635",
       "modern_base": "Nisé",
@@ -59,7 +61,7 @@
       "modern_record_id": "RD-001636",
       "modern_form": "Niséami",
       "modern_meaning": "Pastor",
-      "assessment": "high_priority_semantic_derivational_candidate",
+      "assessment": "very_high_priority_semantic_derivational_candidate_with_historical_shepherd_attestation",
       "cognacy_judgment": "not_performed",
       "historical_continuity_judgment": "not_performed"
     },
