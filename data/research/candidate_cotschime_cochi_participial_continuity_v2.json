@@ -1,0 +1,89 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "candidate_cotschime_cochi_participial_continuity_v2",
+  "generated": "2026-08-13",
+  "supersedes": "candidate_cotschime_cochi_participial_continuity_v1.json",
+  "candidate_id": "RHD-AMEAMI-LEX-005",
+  "historical_family": {
+    "family_label_in_merrill_index": "COTSCHI-",
+    "members": [
+      {"form": "cotschíameke", "meaning": "soñoliento"},
+      {"form": "cotschíki", "meaning": "sueño (acto de dormir)"},
+      {"form": "cotschimé", "meaning": "dormir"},
+      {"form": "cotschiméameke", "meaning": "adormecido; alguien que duerme; durmiente"},
+      {"form": "cotschimé simí", "meaning": "dormirse"}
+    ],
+    "merrill_phonetic_transcriptions": {
+      "cotschí": "kočí",
+      "cotschíki": "kočíki",
+      "cotschimé": "kočimé",
+      "cotschiméameke": "kočiméameke"
+    },
+    "participial_analysis": "Merrill classifies verbal -ameke as adjectivizer/nominalizer [participial] and uses cotschimé-ameke < cotschimé ‘dormir’ as its explicit example.",
+    "facsimile": {
+      "printed_page": 355,
+      "pdf_page": 65,
+      "visually_recollated": true
+    }
+  },
+  "modern_src02": {
+    "base_record_id": "RD-000483",
+    "form": "Cochí",
+    "classification": "Vi sing",
+    "meaning": "Dormir",
+    "source_note": "pp.: cochíami; pl: ocochi",
+    "participial_form": "cochíami",
+    "participial_evidence_type": "source-note-attested; no independent headword located in current SRC-02"
+  },
+  "independent_comparative_support": {
+    "source": "Hill, Kenneth C. 2020. Wick Miller's Uto-Aztecan Cognate Sets. UC Berkeley, Survey of California and Other Indian Languages, Report 18.",
+    "set": "ko-02 sleep",
+    "reconstructions_reported": ["Miller 1967 *koci", "*kotˢiC | *kotˢi", "*kostˢi | *kostˢo"],
+    "raramuri": "kotᶴi <cochí> dormir/sleep, Hilton 1959:20",
+    "other_selected_reflexes": [
+      "Guarijío kotᶴina <koci-ná> to sleep",
+      "Eudeve kotˢon <cotzón> dormir",
+      "Ópata kotᶴia <cochi-a> sleep",
+      "Arizona Yoeme kotᶴe <koche> asleep, sleeping"
+    ],
+    "significance": "Modern Rarámuri Cochí belongs to an independently assembled Uto-Aztecan sleep cognate set."
+  },
+  "comparison_model": {
+    "historical_family_core": "koči- (Merrill's phonetic normalization of COTSCHI-)",
+    "modern_form_core": "kotᶴi / cochí (Hill/Hilton; SRC-02 Cochí)",
+    "semantic_correspondence": "sleep/dormir",
+    "formal_correspondence_status": "strong_at_family_core_level",
+    "participial_correspondence": {
+      "historical": "cotschimé + participial -ameke; Merrill additionally analyzes historical participial -(a)me plus optional -kV/-ke in relevant chains",
+      "modern": "Cochí -> source-explicit pp. cochíami in SRC-02",
+      "status": "double_source_explicit_functional_alignment"
+    },
+    "unresolved_historical_material": "The -mé of historical cotschimé is not assigned a suffixal function here. Merrill groups the forms under COTSCHI- but does not, in the passages audited, analyze -mé as a suffix of this verb.",
+    "important_distinction": "The candidate now has strong evidence for continuity of the lexical family core koči- and for participial function at both chronological endpoints; the exact historical pathway of cotschimé versus modern Cochí still requires morphological and dialectological explanation."
+  },
+  "assessment": "exceptionally_high_priority_comparative_and_double_source_explicit_participial_candidate",
+  "why_strengthened": [
+    "Merrill internally groups the historical forms as the COTSCHI- family.",
+    "Merrill's phonetic appendix normalizes historical cotschi as koči, aligning the relevant consonant sequence with modern cochí rather than relying on naive orthographic comparison.",
+    "Hill independently places modern Rarámuri cochí in Uto-Aztecan cognate set ko-02 ‘sleep’.",
+    "Historical and modern evidence both explicitly identify a participial derivative in the same sleep domain."
+  ],
+  "remaining_tests": [
+    "Determine the historical/morphological status of -mé in cotschimé from independent Rarámuri descriptions and older sources.",
+    "Check whether modern varieties preserve extended stems cognate with historical kočimé or related alternations.",
+    "Compare the participial form across multiple modern varieties, not only SRC-02 and Choguita-level general morphology.",
+    "Do not infer direct cognacy of the full words until the -mé issue and dialect chronology are resolved."
+  ],
+  "epistemic_status": {
+    "ai_assisted": true,
+    "historical_facsimile_recollated": true,
+    "merrill_family_grouping_verified": true,
+    "merrill_phonetic_normalization_verified": true,
+    "hill_comparative_set_verified": true,
+    "human_reviewed_by_project": false,
+    "automatic_morpheme_assignment": false,
+    "automatic_sound_law": false,
+    "cognacy_judgment_full_form": "not_performed",
+    "historical_continuity_judgment_full_form": "not_performed"
+  }
+}
