@@ -1,0 +1,37 @@
+name: regenerate-affricate-semantic-triage
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_affricate_semantic_triage.py'
+      - '.github/workflows/regenerate-affricate-semantic-triage.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Checkout contemporary comparison
+        uses: actions/checkout@v4
+        with:
+          repository: fersandovalgtz/raramuri-digital
+          ref: 156921f4edfe27d784edc1e6444867eaa368f2e5
+          path: .tmp-raramuri-digital
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate upstream affricate layers
+        run: |
+          python3 scripts/generate_source_supported_affricate_candidates.py
+          python3 scripts/generate_affricate_candidate_evidence_ranking.py
+          python3 scripts/generate_affricate_semantic_triage.py
+      - name: Commit generated semantic triage
+        run: |
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add data/research/affricate_semantic_triage.json data/research/affricate_semantic_triage.csv data/research/affricate_semantic_triage_summary.json data/research/AFFRICATE_SEMANTIC_TRIAGE.md
+          git diff --cached --quiet || git commit -m 'Regenerate affricate semantic triage'
+          git pull --rebase origin main
+          git push
