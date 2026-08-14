@@ -1,0 +1,103 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "seli_siri_formal_correspondence_audit_v1",
+  "generated": "2026-08-13",
+  "candidate_id": "RHD-AMEAMI-LEX-002",
+  "historical": {
+    "base": "Selí",
+    "base_meanings": ["Herrschen / gobernar", "Befehlen; die Gewalt zu schaffen haben / mandar, ejercer autoridad"],
+    "derived": "Selíameke",
+    "derived_meanings": ["Herrscher / gobernante", "Dorfrichter / juez del pueblo"],
+    "source_relation": "Merrill explicitly summarizes selíameke ‘juez del pueblo, gobernante’ as derived from selí ‘gobernar’, based on Steffel entries E-0582/E-0583 and parallel manuscript witnesses.",
+    "stress": "Selí is final-stressed; the derived form preserves stress on the lexical material as Selíameke in the critical edition."
+  },
+  "modern_independent_choguita": {
+    "source": "Caballero 2022, A grammar of Choguita Rarámuri",
+    "form": "siˈríame",
+    "meaning": "governor(s)",
+    "context": "singular member of a nominal singular/pluractional paradigm; plural/pluractional i-ˈsêrikame",
+    "general_morphology": "Caballero independently lists -ame as the participial suffix in Choguita Rarámuri.",
+    "lexeme_specific_segmentation": "not explicitly provided in the audited table; the surface ending -ame is therefore noted without mechanically imposing segmentation on siˈríame."
+  },
+  "modern_src02": {
+    "record_id": "RD-002341",
+    "form": "Siríami",
+    "meaning": "Gobernador tradicional",
+    "classification_family": "S",
+    "exact_mechanical_bases": ["Siri ‘Tijera’", "Siri ‘Llegaron’"],
+    "warning": "The exact-string modern base pair is false; Siríami is retained because of historical and independent Choguita evidence, not because of those homonyms.",
+    "provenance": "SRC-02 file identity unresolved and likely within a Hilton/pre-2016 lexicographic lineage."
+  },
+  "formal_correspondence_controls": {
+    "pretonic_e_i": {
+      "target": "se-LÍ(-ameke) ~ si-RÍ-ame",
+      "historical_general_variation": "Merrill documents e~i variation elsewhere in Steffel, including síneví~síniví and taitéke~taitéki.",
+      "modern_independent_process": "Caballero documents optional /e/ raising to [i] in pretonic/posttonic position, including neˈhê~niˈhê and beˈnè~biˈnè.",
+      "assessment": "independently plausible; no directional diachronic sound law is claimed"
+    },
+    "liquid_l_r": {
+      "historical_source_statement": "Steffel treats L and R among ‘letras equívocas’ that can interchange without changing the word/meaning in relevant cases, as reported and analyzed by Merrill.",
+      "merrill_general_analysis": "Merrill documents l~r alternation in Steffel while also preserving contexts where the liquids contrast.",
+      "independent_same_morphological_domain_control": "cavólameke ~ cavórameke ‘esférico/redondo’ is explicitly treated by Merrill as medial <l>~<r> alternation inside an -ameke form.",
+      "assessment": "strong historical plausibility for Selí~Siri at the liquid position; not a license to neutralize l/r globally"
+    },
+    "participial_surface": {
+      "historical": "Steffel explicitly treats ameke as participial and reports frequent omission of final ke; Merrill analyzes relevant historical chains with participial -(a)me plus optional reduplicative -kV/-ke.",
+      "modern_independent": "Caballero independently documents productive participial -ame; siˈríame has a surface final -ame.",
+      "assessment": "very strong constructional compatibility, but the audited Caballero paradigm does not itself segment siˈríame morpheme-by-morpheme"
+    }
+  },
+  "integrated_formal_assessment": {
+    "comparison": "Selíameke ~ siˈríame / Siríami",
+    "lexical_semantics": "exceptionally strong governor/local-authority domain",
+    "pretonic_vowel_difference": "e~i independently supported historically and synchronically",
+    "liquid_difference": "l~r independently attested within Steffel, including another -ameke lexical item",
+    "participial_domain_difference": "historical -ameke versus independent Choguita surface -ame; source-level analyses make this difference structurally plausible",
+    "formal_plausibility": "very_high",
+    "independence_grade": "A",
+    "cognacy_demonstrated": false
+  },
+  "competing_etymological_tradition": {
+    "source": "Sistema de Información Cultural, Secretaría de Cultura, ‘Sistema normativo de los rarámuri de Chihuahua’",
+    "claim": "A cultural-historical synthesis states that pre-Jesuit spear-bearing authorities were called selígame ‘portador de lanza’, derived there from selaka ‘lanza’, and that the governor later came to be called siríame.",
+    "status": "competing_or_additional_etymological_hypothesis",
+    "conflict_or_tension": "This differs from the Steffel/Merrill analysis selí ‘gobernar’ -> selíameke ‘gobernante/juez del pueblo’.",
+    "rule": "Do not merge selígame/selaka and selí/selíameke analyses until the original sources behind the SIC synthesis are traced and the forms are compared philologically."
+  },
+  "why_grade_A": [
+    "Steffel preserves an explicit base/derived pair Selí ‘gobernar’ -> Selíameke ‘gobernante/juez del pueblo’.",
+    "Caballero independently documents Choguita siˈríame ‘governor(s)’ and productive participial -ame in the same modern grammar.",
+    "The target pretonic e~i difference has independent historical and modern Rarámuri controls.",
+    "The l~r difference has an explicit historical alternation and a same-domain control cavólameke~cavórameke.",
+    "The historical -ameke versus modern surface -ame relation is independently grounded by Steffel's ke-omission statement and Merrill/Caballero analyses.",
+    "The candidate therefore survives source-independence and formal-correspondence controls without relying on SRC-02."
+  ],
+  "remaining_limits": [
+    "Grade A is an evidential-architecture judgment, not a declaration of cognacy.",
+    "Caballero's table does not explicitly segment siˈríame as siri + -ame; productive -ame makes the surface relation highly relevant but does not replace lexeme-specific analysis.",
+    "The competing selígame<selaka spear-bearer etymology must be audited before a publication-level derivational history is selected.",
+    "No general sound laws e>i or l>r are declared from this item.",
+    "SRC-02 Siríami is supplementary because its documentary independence from Hilton is unresolved."
+  ],
+  "next_tests": [
+    "Trace the references behind the SIC selígame/selaka explanation and locate the earliest explicit source for that etymology.",
+    "Search independent modern varieties and community texts for siríame/serígame and, if possible, verbal siri/seri forms.",
+    "Determine whether the Choguita plural/pluractional form i-ˈsêrikame provides internal stem evidence relevant to siriame beyond the general participial analysis.",
+    "Keep the two historical derivational hypotheses separate until source-level reconciliation is possible."
+  ],
+  "epistemic_status": {
+    "ai_assisted": true,
+    "historical_base_derived_pair_verified": true,
+    "caballero_independent_governor_form_verified": true,
+    "historical_e_i_variation_verified": true,
+    "modern_pretonic_e_i_process_verified": true,
+    "historical_l_r_alternation_verified": true,
+    "same_domain_l_r_control_verified": true,
+    "competing_etymology_recorded": true,
+    "human_reviewed_by_project": false,
+    "automatic_sound_law": false,
+    "automatic_morpheme_assignment": false,
+    "cognacy_judgment": "not_performed",
+    "historical_continuity_judgment": "not_performed"
+  }
+}
