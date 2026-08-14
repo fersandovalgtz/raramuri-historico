@@ -1,0 +1,103 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "ameke_ame_ami_diachronic_assessment_v2",
+  "generated": "2026-08-13",
+  "research_question": "What evidence supports historical-modern continuity between Steffel participial -ameke/-ame and modern participial/derivational -ame/-ami?",
+  "historical_evidence": {
+    "steffel": {
+      "ameke_function": "source-explicit present active participial ending (Mittelwort)",
+      "ke_variation": "Steffel reports frequent omission of final ke in pronunciation",
+      "source_attested_short_ame": true,
+      "rugameke_explicit_composition": "Steffel explicitly combines passive ruc with active ameke in at least one analysis"
+    },
+    "merrill_2020": {
+      "verbal_ameke": "adjectivizer/nominalizer [participial]",
+      "participial_morpheme": "-(a)me",
+      "final_element": "optional reduplicative -kV/-ke in relevant suffix chains",
+      "important_distinction": "Merrill provides the modern morpheme segmentation; this segmentation is not retroactively attributed to Steffel."
+    },
+    "exact_base_ameke_pairs": 10
+  },
+  "modern_src02": {
+    "active_records": 2581,
+    "final_ami_records": 214,
+    "final_ami_classified_pp": 20,
+    "all_pp_records": 40,
+    "exact_x_xplusami_string_pairs": 59,
+    "corrected_semantic_triage": {
+      "transparent_or_source_supported": 49,
+      "semantically_related_derivation_unclear": 3,
+      "mechanical_exact_base_mismatch": 7
+    },
+    "explicit_counterexample_to_ami_equals_pp": "Hua ‘madurarse’ distinguishes ad. huáami from pp. huacami",
+    "interpretation": "Final -ami is a broad surface class, not a grammatical category equivalent to Pp; participial evidence must be tracked separately from string-final distribution."
+  },
+  "independent_modern_grammar": {
+    "caballero_2022": {
+      "participial_suffix": "-ame",
+      "surface_ami_analyzed_through_ame": "hâw-ami",
+      "governor_form": "siˈríame",
+      "sleep_root": "kotʃi",
+      "sleep_root_segmented_example": "kotʃi-ˈnále-simi-i"
+    }
+  },
+  "comparative_uto_aztecan": {
+    "hill_2020_set": "ko-02 sleep",
+    "raramuri_form": "kotᶴi <cochí>",
+    "meaning": "dormir/sleep",
+    "status": "independent comparative support; Hill notes some sets remain provisional"
+  },
+  "priority_candidates": [
+    {
+      "rank": 1,
+      "candidate": "COTSCHI-/cotschimé/cotschiméameke ~ kotʃi/Cochí/cochíami",
+      "status": "exceptionally_high_priority_family_core_and_participial_continuity_candidate",
+      "strength": "historical family koči- grouped and phonetically normalized by Merrill; modern root kotʃi explicit in Caballero; SRC-02 Cochí->pp cochíami; Hill comparative ko-02; participial function explicit on both chronological sides",
+      "open_problem": "historical -mé in kočimé remains unexplained; full-word cognacy not adjudicated"
+    },
+    {
+      "rank": 2,
+      "candidate": "Nessé/Nesséameke ~ Nisé/Niséami",
+      "status": "very_high_priority_semantic_derivational_candidate",
+      "strength": "historical guarding/caretaker relation including pouguá nesséameke ‘pastor de ovejas’; modern Nisé ‘cuidar, pastorear’ -> Niséami ‘Pastor’",
+      "open_problem": "formal correspondence nesse~nise and dialect chronology require adjudication"
+    },
+    {
+      "rank": 3,
+      "candidate": "Seliameke ~ Siríami ~ Choguita siˈríame",
+      "status": "very_high_priority_triangulated_institutional_candidate",
+      "strength": "historical local ruler/Dorfrichter, modern traditional governor, independent Choguita governor form; Merrill documents medial l~r variation elsewhere in Steffel",
+      "open_problem": "specific application of l~r correspondence and full cognacy remain unadjudicated"
+    },
+    {
+      "rank": 4,
+      "candidate": "Tſchiperameke ~ Chipérami",
+      "status": "high_priority_graphophonological_and_source_pp_candidate",
+      "strength": "historical-modern formal/semantic overlap; modern Chipérami ‘Plano’ is directly classified Pp",
+      "open_problem": "full root correspondence and historical morphology remain to be demonstrated"
+    },
+    {
+      "rank": 5,
+      "candidate": "Tſchócameke ~ Chócami",
+      "status": "retained_lexical_graphophonological_candidate_not_explicit_modern_pp",
+      "strength": "semantic identity ‘negro’ and affricate comparison",
+      "open_problem": "modern Chócami is Adj, not source-explicit Pp; do not use as direct participial evidence"
+    }
+  ],
+  "working_model": "Historical evidence now supports a published participial morpheme -(a)me inside relevant -ameke chains plus optional -kV/-ke, while modern evidence independently documents participial -ame and numerous -ami derivatives including source-explicit participles. The most defensible hypothesis is continuity of a participial/derivational domain, tested lexeme by lexeme and variety by variety, not a blanket rule -ameke > -ami.",
+  "methodological_rules": [
+    "Keep Steffel's metalinguistic statements separate from Merrill's modern segmentation.",
+    "Do not equate final -ami with Pp.",
+    "Do not treat exact-string base matches as derivations without semantic/source audit.",
+    "Do not infer cognacy from graphic similarity alone.",
+    "Promote or demote candidates when source-explicit evidence changes, preserving version history."
+  ],
+  "epistemic_status": {
+    "ai_assisted": true,
+    "human_reviewed_by_project": false,
+    "automatic_morpheme_assignment": false,
+    "automatic_sound_law": false,
+    "blanket_cognacy_claim": false,
+    "historical_continuity_hypothesis": "supported_but_not_demonstrated_in_full"
+  }
+}
