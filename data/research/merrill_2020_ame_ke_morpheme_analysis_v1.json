@@ -1,0 +1,43 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "merrill_2020_ame_ke_morpheme_analysis_v1",
+  "generated": "2026-08-13",
+  "source": {
+    "citation": "Merrill, William L. et al. 2020. El Diccionario Tarahumara–Alemán de Matthäus Steffel: Lengua y Cultura Rarámuri en el Siglo XVIII. Universidad de Sonora.",
+    "type": "modern linguistic analysis of Steffel's historical corpus"
+  },
+  "findings": [
+    {
+      "location": "Table 3.8, p. 155",
+      "analysis": "-ameke on a verbal base is adjectivizer/nominalizer [participial]",
+      "example": "cotschimé-ameke ‘adormecido; alguien que duerme’ < cotschimé ‘dormir’"
+    },
+    {
+      "location": "pp. 159-160",
+      "analysis": "Merrill states that -ameke is one of the suffix chains containing two or more suffixes and identifies final -kV as a reduplicative suffix visible in -ameke, -leke, -liki and -rúgameke.",
+      "distribution_note": "Approximately three hundred Steffel words end in [k] plus a vowel duplicating the preceding vowel; Merrill calls this the reduplicative suffix -kV."
+    },
+    {
+      "location": "Appendix, p. 778",
+      "analysis": "In mátschirujégameke, Merrill excludes optional -ke and analyzes the remaining word as base matschí + causative -ruje + stative -ga/-ja + participial -(a)me."
+    },
+    {
+      "location": "Appendix, p. 810",
+      "analysis": "Merrill analyzes -rúgameke as four morphemes: -ru + -ga + -me + -ke; -(a)me is participial and -ke is optional reduplicative."
+    }
+  ],
+  "interpretation": {
+    "historical_source_level": "Steffel himself explicitly identifies ameke as participial and reports frequent omission of final ke, but does not formulate a modern morpheme-by-morpheme segmentation ame + ke.",
+    "modern_analysis_level": "Merrill independently supplies that segmentation for Steffel's corpus: participial -(a)me plus optional reduplicative -kV/-ke in relevant suffix chains.",
+    "diachronic_effect": "This substantially strengthens comparison with modern participial -ame because the historical corpus has an independently analyzed participial morpheme -(a)me rather than only an unanalyzed ending ameke.",
+    "remaining_limit": "The analysis does not by itself establish that every historical surface -ameke has identical internal structure in every lexical class, nor does it prove direct continuity into every modern -ami form."
+  },
+  "epistemic_status": {
+    "source_explicit_modern_analysis": true,
+    "historical_author_explicit_segmentation_ame_plus_ke": false,
+    "human_reviewed_by_project": false,
+    "automatic_morpheme_assignment": false,
+    "cognacy_judgment": "not_performed",
+    "historical_continuity_judgment": "not_performed"
+  }
+}
