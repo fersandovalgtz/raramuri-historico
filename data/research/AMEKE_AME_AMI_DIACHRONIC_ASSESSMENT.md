@@ -22,9 +22,9 @@ Steffel registra `Seliameke` para un gobernante/funcionario local (`Dorfrichter`
 
 La diferencia `l/r` cuenta ahora con un precedente histórico independiente: Merrill documenta alternancia medial `<l> ~ <r>` en Steffel y el par `cavólameke ~ cavórameke`. Esto eleva la plausibilidad formal de `Seliameke ~ Siríami`, pero la aplicación de esa alternancia a este lexema concreto y la relación histórica entre las formas siguen pendientes de adjudicación humana.
 
-### `Neſſéameke ↔ Niséami`
+### `Nesséameke ↔ Niséami`
 
-Steffel presenta la familia `Neſſé` ‘guardar/cuidar’ y `Neſſéameke` ‘guardián’. SRC-02 contiene `Nisé`, ‘Cuidar, pastorear’, y `Niséami`, ‘Pastor’. La correspondencia de base, derivación agente y dominio semántico es fuerte; cognación y continuidad histórica siguen pendientes.
+Steffel presenta la familia `Nessé` ‘guardar/cuidar’ y `Nesséameke` ‘custodio/guardián’. SRC-02 contiene `Nisé`, ‘Cuidar, pastorear’, y `Niséami`, ‘Pastor’. Merrill registra además `pouguá nesséameke` con el significado específico ‘pastor de ovejas’. Esta atestación histórica reduce de manera importante la distancia semántica: la fuente histórica aplica el derivado precisamente al dominio moderno del pastoreo. La correspondencia formal exacta, la cognación y la continuidad histórica siguen pendientes.
 
 ### `Tſchócameke ↔ Chócami` y `Tſchiperameke ↔ Chipérami`
 
