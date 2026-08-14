@@ -1,0 +1,82 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "color_participial_cross_source_matrix_v2",
+  "generated": "2026-08-13",
+  "supersedes": "color_participial_cross_source_matrix_v1.json",
+  "published_source": "Estrada Fernández & Grageda Bustamante 2018, UNAM",
+  "families": [
+    {
+      "meaning": "negro",
+      "steffel": "tschocámeke",
+      "hilton_1959_published_comparison": "chócami",
+      "brambila_1976_published_comparison": "chókame",
+      "src02": {
+        "record_id": "RD-000743",
+        "form": "Chócami",
+        "classification": "Adj",
+        "meaning": "Negro",
+        "exact_match_to_hilton_form": true
+      },
+      "status": "very_high_priority_published_and_pinned_modern_match"
+    },
+    {
+      "meaning": "blanco",
+      "steffel": ["rolácameke", "tosácameke"],
+      "hilton_1959_published_comparison": ["rosácami", "tosácami"],
+      "brambila_1976_published_comparison": ["rosákame", "tosákame"],
+      "src02": [
+        {"record_id": "RD-002179", "form": "Rosácami", "classification": "Adj sing", "meaning": "Blanco", "exact_match_to_hilton_form": true},
+        {"record_id": "RD-002500", "form": "Tosácami", "classification": "Adj pl", "meaning": "Blancos", "exact_match_to_hilton_form": true}
+      ],
+      "status": "very_high_priority_multiple_published_and_pinned_modern_matches"
+    },
+    {
+      "meaning": "verde/azul",
+      "steffel_published_comparison_forms": ["schiogámeke", "pa_aquémeke", "ichiógameke"],
+      "hilton_1959_published_comparison": "siyónami",
+      "brambila_1976_published_comparison": "siyókame",
+      "src02": {
+        "record_id": "RD-002365",
+        "form": "Siyónami",
+        "classification": "Adj",
+        "meaning": "Verde, azul",
+        "exact_match_to_hilton_form": true,
+        "related_records": [
+          "RD-002363 Siyona ‘Ser verde, ser azul’",
+          "RD-002364 Siyónahua ‘Pintar de verde o de azul’"
+        ]
+      },
+      "status": "published_cross_dictionary_match_with_exact_pinned_modern_form_but_historical_root_mapping_requires_review"
+    },
+    {
+      "meaning": "rojo",
+      "steffel": ["tsestatácameke", "stácameke"],
+      "hilton_1959_published_comparison": "sitácami",
+      "brambila_1976_published_comparison": "sitákame",
+      "src02_exact_sitacami_headword_found": false,
+      "src02_related_family": [
+        "RD-002351 Sitá ‘Tinta colorada, de la tierra’",
+        "RD-002352 Sitágapa ‘Ponerse colorado’",
+        "RD-002353 Sitana ‘Rojear, enrojecer’",
+        "RD-002354 Sitánahua ‘Pintar de rojo’"
+      ],
+      "status": "published_cross_dictionary_match; current pinned master preserves root family but not exact Sitácami headword in this audit"
+    }
+  ],
+  "morphological_context": {
+    "steffel_merrill": "Historical relevant -ameke chains can be analyzed with participial -(a)me followed by optional reduplicative -kV/-ke.",
+    "caballero_choguita": "Modern -ame and -kame belong to the participial domain; in adjectival/relative uses they are treated as suppletive allomorphs. Caballero also reports a diachronic Guarijío analysis of -kame as -ka/-ga + -ame.",
+    "estrada_grageda": "The published color comparison states that Steffel's derived color endings have related forms persisting in Hilton and Brambila and discusses Hilton -nami/-cami variation.",
+    "interpretive_rule": "Treat the shared participial/derivational domain as the robust comparison target; do not collapse -ameke, -cami/-nami and -kame into a single unanalyzed suffix."
+  },
+  "research_consequence": "The color domain now supplies several externally published historical-modern correspondences that are independently reproduced in the pinned SRC-02 master. This materially strengthens the diachronic argument and creates a dedicated testbed for distinguishing root continuity from suffix allomorphy and additional morphology.",
+  "epistemic_status": {
+    "ai_assisted": true,
+    "published_cross_source_comparison": true,
+    "pinned_src02_recollated": true,
+    "human_reviewed_by_project": false,
+    "automatic_morpheme_equation": false,
+    "automatic_sound_law": false,
+    "cognacy_judgment_individual_forms": "not_performed"
+  }
+}
