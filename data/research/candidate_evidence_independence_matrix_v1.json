@@ -1,0 +1,157 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "candidate_evidence_independence_matrix_v1",
+  "generated": "2026-08-13",
+  "purpose": "Prevent source-lineage dependence from being counted as independent replication in historical-modern Rarámuri comparisons.",
+  "source_families": [
+    {
+      "source": "Steffel 1809",
+      "role": "historical lexical and metalinguistic witness",
+      "independence_class": "historical_primary"
+    },
+    {
+      "source": "Merrill et al. 2020",
+      "role": "modern linguistic analysis and critical edition of Steffel",
+      "independence_class": "analysis_of_historical_primary",
+      "warning": "Do not count Merrill as a second lexical attestation independent of Steffel when it is analyzing the same historical material."
+    },
+    {
+      "source": "Hilton 1959 / revised 1993",
+      "role": "modern Samachique lexicographic tradition",
+      "independence_class": "single_editorial_lineage",
+      "warning": "1959 and 1993 are stages of the same Hilton dictionary line, not two independent dictionaries for evidential counting."
+    },
+    {
+      "source": "SRC-02 DICCIONARIO raramuri.pdf",
+      "role": "structured modern source for Rarámuri Digital",
+      "independence_class": "provenance_unresolved_likely_Hilton_pre2016_lineage",
+      "warning": "Exact overlap with Hilton forms cannot be counted as independent replication until file identity/provenance is resolved."
+    },
+    {
+      "source": "Shoemaker 2016 updated dictionary",
+      "role": "updated spelling version of VIMSA 101 / Hilton 1993",
+      "independence_class": "explicit_derivative_of_Hilton_1993"
+    },
+    {
+      "source": "Brambila 1976",
+      "role": "separate modern lexicographic source used in published comparisons",
+      "independence_class": "separate_published_source_dependence_not_audited",
+      "warning": "Treat as a separate source, but do not claim complete documentary independence from Hilton until bibliographic/source dependence is specifically audited."
+    },
+    {
+      "source": "Compendio básico de la gramática ralámuli 1997",
+      "role": "multi-variety grammatical and elicitation source",
+      "independence_class": "independent_multivariety_speaker_evidence_with_scholarly_team_overlap",
+      "warning": "The team includes scholars also active in Rarámuri research, so analytical independence is not blind; however, the regional elicitation data provide independent speaker-level evidence beyond a single dictionary lineage."
+    },
+    {
+      "source": "Caballero 2022 Choguita Rarámuri",
+      "role": "independent modern grammar/corpus",
+      "independence_class": "independent_modern_variety_grammar"
+    },
+    {
+      "source": "Hill 2020 Uto-Aztecan cognate sets",
+      "role": "comparative Uto-Aztecan synthesis",
+      "independence_class": "mixed",
+      "warning": "The Rarámuri cochí item in the sleep set is cited from Hilton 1959 and therefore is not an independent Rarámuri attestation. The non-Rarámuri comparanda and comparative-set context remain independent comparative support."
+    }
+  ],
+  "candidate_assessments": [
+    {
+      "candidate": "COTSCHI-/cotschimé/cotschiméameke ~ kotʃi/Cochí/cochíami",
+      "historical_witness": "Steffel 1809, analyzed by Merrill 2020",
+      "modern_witnesses": [
+        "SRC-02 Cochí -> pp. cochíami (provenance possibly Hilton-lineage)",
+        "Caballero 2022 kotʃi root (independent Choguita grammar)",
+        "Hill 2020 Rarámuri cochí from Hilton 1959 (not independent as Rarámuri witness)"
+      ],
+      "external_comparative_support": "Hill's non-Rarámuri Uto-Aztecan sleep comparanda",
+      "independent_modern_raramuri_support": true,
+      "independence_grade": "A",
+      "reason": "The lexical core sleep/dormir survives source-dependence control because Caballero independently analyzes modern kotʃi, while the historical family is source-grounded in Steffel/Merrill. The SRC-02 participial note may be Hilton-lineage but is not the sole modern evidence."
+    },
+    {
+      "candidate": "Seliameke ~ Siríami ~ siˈríame",
+      "historical_witness": "Steffel 1809, analyzed by Merrill 2020",
+      "modern_witnesses": [
+        "SRC-02 Siríami ‘Gobernador tradicional’ (provenance possibly Hilton-lineage)",
+        "Caballero 2022 siˈríame ‘governor(s)’ (independent Choguita grammar)"
+      ],
+      "independent_modern_raramuri_support": true,
+      "independence_grade": "A-",
+      "reason": "Institutional semantics recur in an independent modern variety, so the case does not depend solely on SRC-02/Hilton. Specific l~r correspondence still requires adjudication."
+    },
+    {
+      "candidate": "Nessé/Nesséameke ~ Nisé/Niséami",
+      "historical_witness": "Steffel 1809 with specialized historical shepherd attestation",
+      "modern_witnesses": [
+        "SRC-02 Nisé ‘cuidar, pastorear’ -> Niséami ‘Pastor’"
+      ],
+      "independent_modern_raramuri_support": false,
+      "independence_grade": "B",
+      "reason": "Semantic-derivational match is exceptionally clean, but the modern witness currently comes from a source whose Hilton-lineage is unresolved. The candidate remains high priority but needs an independent modern variety/source."
+    },
+    {
+      "candidate": "Tſchiperameke ~ Chipérami",
+      "historical_witness": "Steffel 1809",
+      "modern_witnesses": [
+        "SRC-02 Chipérami ‘Plano’, classified Pp"
+      ],
+      "independent_modern_raramuri_support": false,
+      "independence_grade": "B-",
+      "reason": "Formal/semantic and source-internal Pp evidence are strong, but modern documentary independence is not established."
+    },
+    {
+      "candidate": "black-color family: tschocámeke ~ chócami/chókame/chókami",
+      "historical_witness": "Steffel 1809",
+      "modern_witnesses": [
+        "Hilton lineage chócami",
+        "SRC-02 Chócami (possibly same lineage)",
+        "Brambila chókame (separate published source, dependence not audited)",
+        "Compendio 1997 chó-ka-mi/chó-ka-me/chó-ko-m across multiple varieties"
+      ],
+      "independent_modern_raramuri_support": true,
+      "independence_grade": "A",
+      "reason": "The Compendio supplies independent multi-variety speaker evidence, so the color-family continuity no longer depends on counting Hilton and SRC-02 separately."
+    },
+    {
+      "candidate": "white-color family: rolácameke/tosácameke ~ rosácami/tosácami ~ rosákame/tosákame",
+      "historical_witness": "Steffel 1809",
+      "modern_witnesses": [
+        "Hilton-lineage rosácami/tosácami",
+        "SRC-02 Rosácami/Tosácami (possibly same lineage)",
+        "Brambila rosákame/tosákame",
+        "Compendio 1997 rosá-ka-me/rosá-ka-mi/rosá-ko-m across varieties"
+      ],
+      "independent_modern_raramuri_support": true,
+      "independence_grade": "A",
+      "reason": "Multiple modern varieties independently exhibit the same white-color root family plus participial-like morphology. Exact historical root correspondence still requires philological analysis."
+    },
+    {
+      "candidate": "blue-green color family",
+      "historical_witness": "Steffel blue/green forms cited in published historical comparison",
+      "modern_witnesses": [
+        "Hilton-lineage siyónami",
+        "SRC-02 Siyónami (possibly same lineage)",
+        "Brambila siyókame",
+        "Compendio 1997 seyó/siyó forms with -name/-kame/-nami/-nom across varieties"
+      ],
+      "independent_modern_raramuri_support": true,
+      "independence_grade": "A-",
+      "reason": "Modern dialectal morphology is strongly replicated; mapping each historical root variant to the modern siyó/seyó family remains less direct than black/white."
+    }
+  ],
+  "grading_scale": {
+    "A": "historical source plus at least one clearly independent modern Rarámuri witness or multi-variety elicitation, with strong semantic/formal alignment",
+    "A-": "same general standard with one significant formal or mapping problem still unresolved",
+    "B": "strong historical-modern match but modern evidence independence is unresolved or concentrated in one lineage",
+    "B-": "promising candidate with source-internal modern support but lacking independent modern replication"
+  },
+  "research_rule": "Evidential strength is based on independent source families, not raw number of documents. A critical edition analyzing Steffel does not count as a second historical witness; revised editions and probable derivatives of Hilton do not count as independent modern witnesses; comparative works citing Hilton do not create a new Rarámuri attestation.",
+  "epistemic_status": {
+    "ai_assisted": true,
+    "source_lineage_audit_applied": true,
+    "human_reviewed_by_project": false,
+    "independence_grades_are_working_assessments": true
+  }
+}
