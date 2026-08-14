@@ -4,30 +4,25 @@
   "generated": "2026-08-13",
   "candidate_count": 26,
   "semantic_label_counts": {
-    "strong_direct_overlap": 9,
     "compatible_related_domain": 4,
-    "contradictory": 13
+    "contradictory": 13,
+    "strong_direct_overlap": 9
   },
   "synthesis_label_counts": {
+    "graphic_decoy_or_semantic_negative": 13,
     "priority_positive": 6,
-    "semantic_positive_documentary_ambiguity": 3,
     "priority_related_but_uncertain": 2,
     "related_domain_low_documentary_priority": 2,
-    "graphic_decoy_or_semantic_negative": 13
+    "semantic_positive_documentary_ambiguity": 3
   },
   "priority_positive_count": 6,
   "priority_positive_candidate_ids": [
-    "RHD-AFFSRC-000020",
-    "RHD-AFFSRC-000025",
-    "RHD-AFFSRC-000026",
     "RHD-AFFSRC-000001",
+    "RHD-AFFSRC-000020",
     "RHD-AFFSRC-000021",
-    "RHD-AFFSRC-000022"
-  ],
-  "semantic_positive_documentary_ambiguity_candidate_ids": [
-    "RHD-AFFSRC-000007",
-    "RHD-AFFSRC-000010",
-    "RHD-AFFSRC-000011"
+    "RHD-AFFSRC-000022",
+    "RHD-AFFSRC-000025",
+    "RHD-AFFSRC-000026"
   ],
   "assessment_method": "explicit_ai_assisted_bilingual_gloss_comparison_after_documentary_ranking_v1",
   "documentary_ranking_modified": false,

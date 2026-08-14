@@ -1,0 +1,1000 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "affricate_ai_semantic_triage_v1",
+  "generated": "2026-08-13",
+  "count": 26,
+  "records": [
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000001",
+      "source_candidate_id": "RHD-AFFSRC-000001",
+      "historical": {
+        "record_id": "RHD-S1809-00038",
+        "form": "Atſchi",
+        "article_diplomatic": "Atſchi, Lachen.",
+        "reading_layer": "diplomatic",
+        "printed_page": 354
+      },
+      "modern": {
+        "record_id": "RD-000030",
+        "headword": "Achí",
+        "translation_raw": "Reír, sonreír",
+        "classification": "Vt"
+      },
+      "documentary_ranking": {
+        "rank": 4,
+        "priority_tier": 2,
+        "positive_holdout_pair": false,
+        "internal_support_label": "reciprocal_documentary_support",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "strong_direct_overlap",
+        "confidence": "high",
+        "german_working_translation_es": "Lachen = reír",
+        "rationale": "‘Lachen’ corresponde directamente a ‘Reír, sonreír’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "priority_positive",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000002",
+      "source_candidate_id": "RHD-AFFSRC-000002",
+      "historical": {
+        "record_id": "RHD-S1809-01681",
+        "form": "Batſá",
+        "article_diplomatic": "Batſá, Vorher, voraus.",
+        "reading_layer": "diplomatic",
+        "printed_page": 354
+      },
+      "modern": {
+        "record_id": "RD-000137",
+        "headword": "Bacha",
+        "translation_raw": "Primeramente, adelante, enfrente",
+        "classification": "Adv"
+      },
+      "documentary_ranking": {
+        "rank": 25,
+        "priority_tier": 4,
+        "positive_holdout_pair": false,
+        "internal_support_label": "none",
+        "unique_exact_projected_modern_record": false
+      },
+      "ai_semantic_triage": {
+        "label": "compatible_related_domain",
+        "confidence": "medium",
+        "german_working_translation_es": "Vorher, voraus = antes / por delante",
+        "rationale": "‘Vorher, voraus’ comparte el dominio temporal/espacial de ‘Primeramente, adelante, enfrente’, pero no es equivalencia estricta.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "related_domain_low_documentary_priority",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000003",
+      "source_candidate_id": "RHD-AFFSRC-000003",
+      "historical": {
+        "record_id": "RHD-S1809-01681",
+        "form": "Batſá",
+        "article_diplomatic": "Batſá, Vorher, voraus.",
+        "reading_layer": "diplomatic",
+        "printed_page": 354
+      },
+      "modern": {
+        "record_id": "RD-000138",
+        "headword": "Bachá",
+        "translation_raw": "Meter (a la cárcel), poner (adentro)",
+        "classification": "Vipl"
+      },
+      "documentary_ranking": {
+        "rank": 26,
+        "priority_tier": 4,
+        "positive_holdout_pair": false,
+        "internal_support_label": "none",
+        "unique_exact_projected_modern_record": false
+      },
+      "ai_semantic_triage": {
+        "label": "contradictory",
+        "confidence": "high",
+        "german_working_translation_es": "Vorher, voraus = antes / por delante",
+        "rationale": "La glosa histórica no corresponde a ‘Meter / poner adentro’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "graphic_decoy_or_semantic_negative",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000004",
+      "source_candidate_id": "RHD-AFFSRC-000004",
+      "historical": {
+        "record_id": "RHD-S1809-01744",
+        "form": "Cotſchi",
+        "article_diplomatic": "Cotſchi, Schwein.",
+        "reading_layer": "diplomatic",
+        "printed_page": 355
+      },
+      "modern": {
+        "record_id": "RD-000481",
+        "headword": "Cochí",
+        "translation_raw": "Perro",
+        "classification": "S"
+      },
+      "documentary_ranking": {
+        "rank": 14,
+        "priority_tier": 3,
+        "positive_holdout_pair": false,
+        "internal_support_label": "reciprocal_documentary_support",
+        "unique_exact_projected_modern_record": false
+      },
+      "ai_semantic_triage": {
+        "label": "contradictory",
+        "confidence": "high",
+        "german_working_translation_es": "Schwein = cerdo",
+        "rationale": "‘Schwein’ no corresponde a ‘Perro’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "graphic_decoy_or_semantic_negative",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000005",
+      "source_candidate_id": "RHD-AFFSRC-000005",
+      "historical": {
+        "record_id": "RHD-S1809-01744",
+        "form": "Cotſchi",
+        "article_diplomatic": "Cotſchi, Schwein.",
+        "reading_layer": "diplomatic",
+        "printed_page": 355
+      },
+      "modern": {
+        "record_id": "RD-000482",
+        "headword": "Cochí",
+        "translation_raw": "Hermana mayor",
+        "classification": "S"
+      },
+      "documentary_ranking": {
+        "rank": 15,
+        "priority_tier": 3,
+        "positive_holdout_pair": false,
+        "internal_support_label": "reciprocal_documentary_support",
+        "unique_exact_projected_modern_record": false
+      },
+      "ai_semantic_triage": {
+        "label": "contradictory",
+        "confidence": "high",
+        "german_working_translation_es": "Schwein = cerdo",
+        "rationale": "‘Schwein’ no corresponde a ‘Hermana mayor’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "graphic_decoy_or_semantic_negative",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000006",
+      "source_candidate_id": "RHD-AFFSRC-000006",
+      "historical": {
+        "record_id": "RHD-S1809-01744",
+        "form": "Cotſchi",
+        "article_diplomatic": "Cotſchi, Schwein.",
+        "reading_layer": "diplomatic",
+        "printed_page": 355
+      },
+      "modern": {
+        "record_id": "RD-000483",
+        "headword": "Cochí",
+        "translation_raw": "Dormir",
+        "classification": "Vi sing"
+      },
+      "documentary_ranking": {
+        "rank": 16,
+        "priority_tier": 3,
+        "positive_holdout_pair": false,
+        "internal_support_label": "reciprocal_documentary_support",
+        "unique_exact_projected_modern_record": false
+      },
+      "ai_semantic_triage": {
+        "label": "contradictory",
+        "confidence": "high",
+        "german_working_translation_es": "Schwein = cerdo",
+        "rationale": "Este registro histórico significa ‘cerdo’; no corresponde a la entrada moderna ‘Dormir’. El histórico de dormir es otra entrada distinta.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "graphic_decoy_or_semantic_negative",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000007",
+      "source_candidate_id": "RHD-AFFSRC-000007",
+      "historical": {
+        "record_id": "RHD-S1809-01744",
+        "form": "Cotſchi",
+        "article_diplomatic": "Cotſchi, Schwein.",
+        "reading_layer": "diplomatic",
+        "printed_page": 355
+      },
+      "modern": {
+        "record_id": "RD-000484",
+        "headword": "Cochi, cohuí",
+        "translation_raw": "Marrano",
+        "classification": "S esp"
+      },
+      "documentary_ranking": {
+        "rank": 17,
+        "priority_tier": 3,
+        "positive_holdout_pair": false,
+        "internal_support_label": "reciprocal_documentary_support",
+        "unique_exact_projected_modern_record": false
+      },
+      "ai_semantic_triage": {
+        "label": "strong_direct_overlap",
+        "confidence": "high",
+        "german_working_translation_es": "Schwein = cerdo",
+        "rationale": "‘Schwein’ y ‘Marrano’ corresponden directamente al mismo dominio léxico.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "semantic_positive_documentary_ambiguity",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000008",
+      "source_candidate_id": "RHD-AFFSRC-000008",
+      "historical": {
+        "record_id": "RHD-S1809-01764",
+        "form": "Cutsi",
+        "article_diplomatic": "Cutsi, Kurz.",
+        "reading_layer": "diplomatic",
+        "printed_page": 356
+      },
+      "modern": {
+        "record_id": "RD-000560",
+        "headword": "Cuchi",
+        "translation_raw": "Chiquitos",
+        "classification": "Adj pl"
+      },
+      "documentary_ranking": {
+        "rank": 5,
+        "priority_tier": 2,
+        "positive_holdout_pair": false,
+        "internal_support_label": "reciprocal_documentary_support",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "compatible_related_domain",
+        "confidence": "low",
+        "german_working_translation_es": "Kurz = corto",
+        "rationale": "‘Kurz’ y ‘Chiquitos’ comparten un dominio dimensional, pero corto y pequeño no son equivalentes.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "priority_related_but_uncertain",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000009",
+      "source_candidate_id": "RHD-AFFSRC-000009",
+      "historical": {
+        "record_id": "RHD-S1809-02006",
+        "form": "Matſchi",
+        "article_diplomatic": "Matſchi, Draußen.",
+        "reading_layer": "diplomatic",
+        "printed_page": 361
+      },
+      "modern": {
+        "record_id": "RD-001232",
+        "headword": "Machí",
+        "translation_raw": "1. Saber, conocer 2. Hay luz 3. Verse bien",
+        "classification": "Vi"
+      },
+      "documentary_ranking": {
+        "rank": 18,
+        "priority_tier": 3,
+        "positive_holdout_pair": false,
+        "internal_support_label": "reciprocal_documentary_support",
+        "unique_exact_projected_modern_record": false
+      },
+      "ai_semantic_triage": {
+        "label": "contradictory",
+        "confidence": "high",
+        "german_working_translation_es": "Draußen = afuera",
+        "rationale": "‘Draußen’ no corresponde a ‘Saber, conocer / hay luz / verse bien’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "graphic_decoy_or_semantic_negative",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000010",
+      "source_candidate_id": "RHD-AFFSRC-000010",
+      "historical": {
+        "record_id": "RHD-S1809-02006",
+        "form": "Matſchi",
+        "article_diplomatic": "Matſchi, Draußen.",
+        "reading_layer": "diplomatic",
+        "printed_page": 361
+      },
+      "modern": {
+        "record_id": "RD-001233",
+        "headword": "Machí, machíami",
+        "translation_raw": "Afuera",
+        "classification": "Adv"
+      },
+      "documentary_ranking": {
+        "rank": 19,
+        "priority_tier": 3,
+        "positive_holdout_pair": false,
+        "internal_support_label": "reciprocal_documentary_support",
+        "unique_exact_projected_modern_record": false
+      },
+      "ai_semantic_triage": {
+        "label": "strong_direct_overlap",
+        "confidence": "high",
+        "german_working_translation_es": "Draußen = afuera",
+        "rationale": "‘Draußen’ corresponde directamente a ‘Afuera’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "semantic_positive_documentary_ambiguity",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000011",
+      "source_candidate_id": "RHD-AFFSRC-000011",
+      "historical": {
+        "record_id": "RHD-S1809-02007",
+        "form": "Matſchi",
+        "article_diplomatic": "Matſchi, als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr; als: tané matſchi, ich ſehe, oder ich weiß es nicht. Matſchijena, es keimt, kömmt hervor, wächſt.",
+        "reading_layer": "diplomatic",
+        "printed_page": 361
+      },
+      "modern": {
+        "record_id": "RD-001232",
+        "headword": "Machí",
+        "translation_raw": "1. Saber, conocer 2. Hay luz 3. Verse bien",
+        "classification": "Vi"
+      },
+      "documentary_ranking": {
+        "rank": 22,
+        "priority_tier": 3,
+        "positive_holdout_pair": false,
+        "internal_support_label": "internal_form_attestation_only",
+        "unique_exact_projected_modern_record": false
+      },
+      "ai_semantic_triage": {
+        "label": "strong_direct_overlap",
+        "confidence": "high",
+        "german_working_translation_es": "wissen, sehen, erfahren = saber, ver, conocer/enterarse",
+        "rationale": "El artículo histórico verbal comparte directamente ‘saber/ver/conocer’ con la entrada moderna ‘Saber, conocer’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "semantic_positive_documentary_ambiguity",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000012",
+      "source_candidate_id": "RHD-AFFSRC-000012",
+      "historical": {
+        "record_id": "RHD-S1809-02007",
+        "form": "Matſchi",
+        "article_diplomatic": "Matſchi, als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr; als: tané matſchi, ich ſehe, oder ich weiß es nicht. Matſchijena, es keimt, kömmt hervor, wächſt.",
+        "reading_layer": "diplomatic",
+        "printed_page": 361
+      },
+      "modern": {
+        "record_id": "RD-001233",
+        "headword": "Machí, machíami",
+        "translation_raw": "Afuera",
+        "classification": "Adv"
+      },
+      "documentary_ranking": {
+        "rank": 23,
+        "priority_tier": 3,
+        "positive_holdout_pair": false,
+        "internal_support_label": "internal_form_attestation_only",
+        "unique_exact_projected_modern_record": false
+      },
+      "ai_semantic_triage": {
+        "label": "contradictory",
+        "confidence": "high",
+        "german_working_translation_es": "wissen, sehen, erfahren = saber, ver, conocer/enterarse",
+        "rationale": "El artículo histórico verbal no corresponde a la entrada moderna ‘Afuera’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "graphic_decoy_or_semantic_negative",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000013",
+      "source_candidate_id": "RHD-AFFSRC-000013",
+      "historical": {
+        "record_id": "RHD-S1809-02190",
+        "form": "Potschí",
+        "article_diplomatic": "Potschí, Anfüllen.",
+        "reading_layer": "diplomatic",
+        "printed_page": 364
+      },
+      "modern": {
+        "record_id": "RD-001848",
+        "headword": "Pochí",
+        "translation_raw": "Brincar",
+        "classification": "Vi"
+      },
+      "documentary_ranking": {
+        "rank": 6,
+        "priority_tier": 2,
+        "positive_holdout_pair": false,
+        "internal_support_label": "reciprocal_documentary_support",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "contradictory",
+        "confidence": "high",
+        "german_working_translation_es": "Anfüllen = llenar",
+        "rationale": "‘Anfüllen’ no corresponde a ‘Brincar’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "graphic_decoy_or_semantic_negative",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000014",
+      "source_candidate_id": "RHD-AFFSRC-000014",
+      "historical": {
+        "record_id": "RHD-S1809-02212",
+        "form": "Putschá",
+        "article_diplomatic": "Putschá, Anfüllen.",
+        "reading_layer": "diplomatic",
+        "printed_page": 364
+      },
+      "modern": {
+        "record_id": "RD-001856",
+        "headword": "Pucha",
+        "translation_raw": "Soplar",
+        "classification": "Vt"
+      },
+      "documentary_ranking": {
+        "rank": 24,
+        "priority_tier": 3,
+        "positive_holdout_pair": false,
+        "internal_support_label": "none",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "contradictory",
+        "confidence": "high",
+        "german_working_translation_es": "Anfüllen = llenar",
+        "rationale": "‘Anfüllen’ no corresponde a ‘Soplar’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "graphic_decoy_or_semantic_negative",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000015",
+      "source_candidate_id": "RHD-AFFSRC-000015",
+      "historical": {
+        "record_id": "RHD-S1809-02402",
+        "form": "Tſchigó",
+        "article_diplomatic": "Tſchigó, Noch.",
+        "reading_layer": "diplomatic",
+        "printed_page": 367
+      },
+      "modern": {
+        "record_id": "RD-000680",
+        "headword": "Chigó",
+        "translation_raw": "Robar",
+        "classification": "Vt"
+      },
+      "documentary_ranking": {
+        "rank": 9,
+        "priority_tier": 2,
+        "positive_holdout_pair": false,
+        "internal_support_label": "internal_form_attestation_only",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "contradictory",
+        "confidence": "high",
+        "german_working_translation_es": "Noch = todavía / aún",
+        "rationale": "‘Noch’ no corresponde a ‘Robar’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "graphic_decoy_or_semantic_negative",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000016",
+      "source_candidate_id": "RHD-AFFSRC-000016",
+      "historical": {
+        "record_id": "RHD-S1809-02412",
+        "form": "Tschá",
+        "article_diplomatic": "Tschá, Krätze.",
+        "reading_layer": "diplomatic",
+        "printed_page": 367
+      },
+      "modern": {
+        "record_id": "RD-000627",
+        "headword": "Chá",
+        "translation_raw": "Feo",
+        "classification": "Adj"
+      },
+      "documentary_ranking": {
+        "rank": 20,
+        "priority_tier": 3,
+        "positive_holdout_pair": false,
+        "internal_support_label": "reciprocal_documentary_support",
+        "unique_exact_projected_modern_record": false
+      },
+      "ai_semantic_triage": {
+        "label": "contradictory",
+        "confidence": "medium",
+        "german_working_translation_es": "Krätze = sarna",
+        "rationale": "‘Krätze’ es una afección cutánea; ‘Feo’ no constituye una correspondencia léxica suficiente.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "graphic_decoy_or_semantic_negative",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000017",
+      "source_candidate_id": "RHD-AFFSRC-000017",
+      "historical": {
+        "record_id": "RHD-S1809-02412",
+        "form": "Tschá",
+        "article_diplomatic": "Tschá, Krätze.",
+        "reading_layer": "diplomatic",
+        "printed_page": 367
+      },
+      "modern": {
+        "record_id": "RD-000628",
+        "headword": "Chá, cháa",
+        "translation_raw": "Tener granos o llagas",
+        "classification": "Vi"
+      },
+      "documentary_ranking": {
+        "rank": 21,
+        "priority_tier": 3,
+        "positive_holdout_pair": false,
+        "internal_support_label": "reciprocal_documentary_support",
+        "unique_exact_projected_modern_record": false
+      },
+      "ai_semantic_triage": {
+        "label": "compatible_related_domain",
+        "confidence": "medium",
+        "german_working_translation_es": "Krätze = sarna",
+        "rationale": "‘Tener granos o llagas’ comparte el dominio de afección cutánea con ‘Krätze’, pero no equivale necesariamente a ‘sarna’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "related_domain_low_documentary_priority",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000018",
+      "source_candidate_id": "RHD-AFFSRC-000018",
+      "historical": {
+        "record_id": "RHD-S1809-02413",
+        "form": "Tscháa",
+        "article_diplomatic": "Tscháa, Wegwerfen.",
+        "reading_layer": "diplomatic",
+        "printed_page": 367
+      },
+      "modern": {
+        "record_id": "RD-000628",
+        "headword": "Chá, cháa",
+        "translation_raw": "Tener granos o llagas",
+        "classification": "Vi"
+      },
+      "documentary_ranking": {
+        "rank": 10,
+        "priority_tier": 2,
+        "positive_holdout_pair": false,
+        "internal_support_label": "internal_form_attestation_only",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "contradictory",
+        "confidence": "high",
+        "german_working_translation_es": "Wegwerfen = tirar / desechar",
+        "rationale": "‘Wegwerfen’ no corresponde a ‘Tener granos o llagas’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "graphic_decoy_or_semantic_negative",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000019",
+      "source_candidate_id": "RHD-AFFSRC-000019",
+      "historical": {
+        "record_id": "RHD-S1809-02414",
+        "form": "Tscháca",
+        "article_diplomatic": "Tscháca, Wunde.",
+        "reading_layer": "diplomatic",
+        "printed_page": 367
+      },
+      "modern": {
+        "record_id": "RD-000635",
+        "headword": "Chacá",
+        "translation_raw": "Chanate (ave; zanate)",
+        "classification": "S"
+      },
+      "documentary_ranking": {
+        "rank": 7,
+        "priority_tier": 2,
+        "positive_holdout_pair": false,
+        "internal_support_label": "reciprocal_documentary_support",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "contradictory",
+        "confidence": "high",
+        "german_working_translation_es": "Wunde = herida",
+        "rationale": "‘Wunde’ no corresponde a ‘Chanate / zanate’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "graphic_decoy_or_semantic_negative",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000020",
+      "source_candidate_id": "RHD-AFFSRC-000020",
+      "historical": {
+        "record_id": "RHD-S1809-02416",
+        "form": "Tschapi",
+        "article_diplomatic": "Tschapi, Nehmen. Ergreifen.",
+        "reading_layer": "diplomatic",
+        "printed_page": 367
+      },
+      "modern": {
+        "record_id": "RD-000656",
+        "headword": "Chapí",
+        "translation_raw": "1. vt Coger, agarrar (una persona 2. Tomar (coger) 3. Elegir 4. imper ¡Escójalo! [fut.: chapiméa]",
+        "classification": ""
+      },
+      "documentary_ranking": {
+        "rank": 1,
+        "priority_tier": 1,
+        "positive_holdout_pair": true,
+        "internal_support_label": "internal_form_attestation_only",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "strong_direct_overlap",
+        "confidence": "high",
+        "german_working_translation_es": "Nehmen, Ergreifen = tomar, coger, agarrar",
+        "rationale": "La glosa histórica corresponde directamente a ‘Coger, agarrar / tomar’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "priority_positive",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000021",
+      "source_candidate_id": "RHD-AFFSRC-000021",
+      "historical": {
+        "record_id": "RHD-S1809-02425",
+        "form": "Tſchiní",
+        "article_diplomatic": "Tſchiní, ſ. Gewebe.",
+        "reading_layer": "diplomatic",
+        "printed_page": 367
+      },
+      "modern": {
+        "record_id": "RD-000708",
+        "headword": "Chiní",
+        "translation_raw": "Manta, ropa",
+        "classification": "S"
+      },
+      "documentary_ranking": {
+        "rank": 11,
+        "priority_tier": 2,
+        "positive_holdout_pair": false,
+        "internal_support_label": "internal_form_attestation_only",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "strong_direct_overlap",
+        "confidence": "medium",
+        "german_working_translation_es": "Gewebe = tejido / tela",
+        "rationale": "‘Gewebe’ es compatible de forma directa con ‘Manta, ropa’ en el dominio de tejido/textil.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "priority_positive",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000022",
+      "source_candidate_id": "RHD-AFFSRC-000022",
+      "historical": {
+        "record_id": "RHD-S1809-02426",
+        "form": "Tſchiperameke",
+        "article_diplomatic": "Tſchiperameke, Fein. Dünn. Flach.",
+        "reading_layer": "diplomatic",
+        "printed_page": 367
+      },
+      "modern": {
+        "record_id": "RD-000711",
+        "headword": "Chipérami",
+        "translation_raw": "Plano",
+        "classification": "Pp"
+      },
+      "documentary_ranking": {
+        "rank": 12,
+        "priority_tier": 2,
+        "positive_holdout_pair": false,
+        "internal_support_label": "internal_form_attestation_only",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "strong_direct_overlap",
+        "confidence": "high",
+        "german_working_translation_es": "Fein, Dünn, Flach = fino, delgado, plano",
+        "rationale": "La glosa histórica incluye ‘Flach’, que corresponde directamente a ‘Plano’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "priority_positive",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000023",
+      "source_candidate_id": "RHD-AFFSRC-000023",
+      "historical": {
+        "record_id": "RHD-S1809-02431",
+        "form": "Tschipú",
+        "article_diplomatic": "Tschipú, Stinken.",
+        "reading_layer": "diplomatic",
+        "printed_page": 368
+      },
+      "modern": {
+        "record_id": "RD-000714",
+        "headword": "Chipú",
+        "translation_raw": "Estar amargo (p. ej.: café)",
+        "classification": "Vi"
+      },
+      "documentary_ranking": {
+        "rank": 8,
+        "priority_tier": 2,
+        "positive_holdout_pair": false,
+        "internal_support_label": "reciprocal_documentary_support",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "contradictory",
+        "confidence": "high",
+        "german_working_translation_es": "Stinken = apestar",
+        "rationale": "‘Stinken’ no corresponde a ‘Estar amargo’; este caso funciona además como decoy gráfico ya preservado en el holdout.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "graphic_decoy_or_semantic_negative",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000024",
+      "source_candidate_id": "RHD-AFFSRC-000024",
+      "historical": {
+        "record_id": "RHD-S1809-02451",
+        "form": "Tschucú",
+        "article_diplomatic": "Tschucú, Der Ort, wo sich ein zahmes Thier befindet, s. Seyn.",
+        "reading_layer": "diplomatic",
+        "printed_page": 368
+      },
+      "modern": {
+        "record_id": "RD-000791",
+        "headword": "Chucú",
+        "translation_raw": "Estar parado (animal, barco, camión de carga, persona agachada)",
+        "classification": "Vi sing"
+      },
+      "documentary_ranking": {
+        "rank": 13,
+        "priority_tier": 2,
+        "positive_holdout_pair": false,
+        "internal_support_label": "internal_form_attestation_only",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "compatible_related_domain",
+        "confidence": "low",
+        "german_working_translation_es": "Der Ort, wo sich ein zahmes Thier befindet = lugar/posición donde se encuentra un animal doméstico",
+        "rationale": "Existe proximidad en el dominio de localización/estado de un animal con ‘Estar parado’, pero la equivalencia es incierta.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "priority_related_but_uncertain",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000025",
+      "source_candidate_id": "RHD-AFFSRC-000025",
+      "historical": {
+        "record_id": "RHD-S1809-02457",
+        "form": "Tſchutá",
+        "article_diplomatic": "Tſchutá, Schleifen. Schärfen.",
+        "reading_layer": "diplomatic",
+        "printed_page": 368
+      },
+      "modern": {
+        "record_id": "RD-000829",
+        "headword": "Chutá",
+        "translation_raw": "Afilar",
+        "classification": "Vt"
+      },
+      "documentary_ranking": {
+        "rank": 2,
+        "priority_tier": 1,
+        "positive_holdout_pair": true,
+        "internal_support_label": "internal_form_attestation_only",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "strong_direct_overlap",
+        "confidence": "high",
+        "german_working_translation_es": "Schleifen, Schärfen = afilar / aguzar",
+        "rationale": "La glosa histórica corresponde directamente a ‘Afilar’.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "priority_positive",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    },
+    {
+      "semantic_triage_id": "RHD-AFFSEM-000026",
+      "source_candidate_id": "RHD-AFFSRC-000026",
+      "historical": {
+        "record_id": "RHD-S1809-02443",
+        "form": "Tſchócameke",
+        "article_diplomatic": "Tſchécemeke, Schwarz.",
+        "reading_layer": "ai_facsimile_correction_proposal",
+        "printed_page": 368
+      },
+      "modern": {
+        "record_id": "RD-000743",
+        "headword": "Chócami",
+        "translation_raw": "Negro",
+        "classification": "Adj"
+      },
+      "documentary_ranking": {
+        "rank": 3,
+        "priority_tier": 1,
+        "positive_holdout_pair": true,
+        "internal_support_label": "none",
+        "unique_exact_projected_modern_record": true
+      },
+      "ai_semantic_triage": {
+        "label": "strong_direct_overlap",
+        "confidence": "high",
+        "german_working_translation_es": "Schwarz = negro",
+        "rationale": "‘Schwarz’ corresponde directamente a ‘Negro’; la forma histórica usada aquí pertenece sólo a la capa de sensibilidad facsimilar IA-asistida.",
+        "semantic_similarity_computed_numerically": false,
+        "ai_assisted": true,
+        "human_reviewed": false
+      },
+      "synthesis_review_label": "priority_positive",
+      "cognacy_judgment": "not_performed",
+      "historical_continuity_judgment": "not_performed",
+      "sound_correspondence_judgment": "not_performed",
+      "human_reviewed": false
+    }
+  ],
+  "ai_assisted": true,
+  "human_reviewed": false,
+  "cognacy_judgment": "not_performed",
+  "historical_continuity_judgment": "not_performed"
+}

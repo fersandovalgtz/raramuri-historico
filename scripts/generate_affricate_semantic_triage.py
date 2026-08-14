@@ -106,9 +106,9 @@ def main() -> None:
             "documentary_ranking": {
                 "rank": dr["rank"],
                 "priority_tier": dr["priority_tier"],
-                "positive_holdout_pair": dr["positive_holdout_pair"],
-                "internal_support_label": dr["internal_support_label"],
-                "unique_exact_projected_modern_record": dr["unique_exact_projected_modern_record"],
+                "positive_holdout_pair": dr["holdout_evidence"]["prespecified_positive_pair"],
+                "internal_support_label": dr["steffel_internal_evidence"]["support_label"],
+                "unique_exact_projected_modern_record": dr["projection"]["unique_exact_projected_modern_record"],
             },
             "ai_semantic_triage": {
                 "label": label,

@@ -1,27 +1,27 @@
-source_candidate_id,documentary_rank,documentary_tier,historical_form,historical_gloss,modern_headword,modern_translation,semantic_label,confidence,synthesis_review_label,human_reviewed
-RHD-AFFSRC-000001,4,2,Atſchi,Lachen,Achí,"Reír, sonreír",strong_direct_overlap,high,priority_positive,False
-RHD-AFFSRC-000002,25,4,Batſá,"Vorher, voraus",Bacha,"Primeramente, adelante, enfrente",compatible_related_domain,medium,related_domain_low_documentary_priority,False
-RHD-AFFSRC-000003,26,4,Batſá,"Vorher, voraus",Bachá,"Meter (a la cárcel), poner (adentro)",contradictory,high,graphic_decoy_or_semantic_negative,False
-RHD-AFFSRC-000004,14,3,Cotſchi,Schwein,Cochí,Perro,contradictory,high,graphic_decoy_or_semantic_negative,False
-RHD-AFFSRC-000005,15,3,Cotſchi,Schwein,Cochí,Hermana mayor,contradictory,high,graphic_decoy_or_semantic_negative,False
-RHD-AFFSRC-000006,16,3,Cotſchi,Schwein,Cochí,Dormir,contradictory,high,graphic_decoy_or_semantic_negative,False
-RHD-AFFSRC-000007,17,3,Cotſchi,Schwein,"Cochi, cohuí",Marrano,strong_direct_overlap,high,semantic_positive_documentary_ambiguity,False
-RHD-AFFSRC-000008,5,2,Cutsi,Kurz,Cuchi,Chiquitos,compatible_related_domain,low,priority_related_but_uncertain,False
-RHD-AFFSRC-000009,18,3,Matſchi,Draußen,Machí,"1. Saber, conocer 2. Hay luz 3. Verse bien",contradictory,high,graphic_decoy_or_semantic_negative,False
-RHD-AFFSRC-000010,19,3,Matſchi,Draußen,"Machí, machíami",Afuera,strong_direct_overlap,high,semantic_positive_documentary_ambiguity,False
-RHD-AFFSRC-000011,22,3,Matſchi,"wissen; sehen; erfahren",Machí,"1. Saber, conocer 2. Hay luz 3. Verse bien",strong_direct_overlap,high,semantic_positive_documentary_ambiguity,False
-RHD-AFFSRC-000012,23,3,Matſchi,"wissen; sehen; erfahren","Machí, machíami",Afuera,contradictory,high,graphic_decoy_or_semantic_negative,False
-RHD-AFFSRC-000013,6,2,Potschí,Anfüllen,Pochí,Brincar,contradictory,high,graphic_decoy_or_semantic_negative,False
-RHD-AFFSRC-000014,24,3,Putschá,Anfüllen,Pucha,Soplar,contradictory,high,graphic_decoy_or_semantic_negative,False
-RHD-AFFSRC-000015,9,2,Tſchigó,Noch,Chigó,Robar,contradictory,high,graphic_decoy_or_semantic_negative,False
-RHD-AFFSRC-000016,20,3,Tschá,Krätze,Chá,Feo,contradictory,medium,graphic_decoy_or_semantic_negative,False
-RHD-AFFSRC-000017,21,3,Tschá,Krätze,"Chá, cháa",Tener granos o llagas,compatible_related_domain,medium,related_domain_low_documentary_priority,False
-RHD-AFFSRC-000018,10,2,Tscháa,Wegwerfen,"Chá, cháa",Tener granos o llagas,contradictory,high,graphic_decoy_or_semantic_negative,False
-RHD-AFFSRC-000019,7,2,Tscháca,Wunde,Chacá,Chanate (ave; zanate),contradictory,high,graphic_decoy_or_semantic_negative,False
-RHD-AFFSRC-000020,1,1,Tschapi,"Nehmen; Ergreifen",Chapí,"Coger, agarrar; tomar; elegir",strong_direct_overlap,high,priority_positive,False
-RHD-AFFSRC-000021,11,2,Tſchiní,Gewebe,Chiní,"Manta, ropa",strong_direct_overlap,medium,priority_positive,False
-RHD-AFFSRC-000022,12,2,Tſchiperameke,"Fein; Dünn; Flach",Chipérami,Plano,strong_direct_overlap,high,priority_positive,False
-RHD-AFFSRC-000023,8,2,Tschipú,Stinken,Chipú,Estar amargo,strong_direct_overlap,high,graphic_decoy_or_semantic_negative,False
-RHD-AFFSRC-000024,13,2,Tschucú,"Der Ort, wo sich ein zahmes Thier befindet",Chucú,"Estar parado (animal, barco, camión de carga, persona agachada)",compatible_related_domain,low,priority_related_but_uncertain,False
-RHD-AFFSRC-000025,2,1,Tſchutá,"Schleifen; Schärfen",Chutá,Afilar,strong_direct_overlap,high,priority_positive,False
-RHD-AFFSRC-000026,3,1,Tſchócameke,Schwarz,Chócami,Negro,strong_direct_overlap,high,priority_positive,False
+semantic_triage_id,source_candidate_id,documentary_rank,documentary_tier,historical_form,historical_article,modern_headword,modern_translation,semantic_label,confidence,working_german_translation_es,synthesis_review_label,human_reviewed
+RHD-AFFSEM-000001,RHD-AFFSRC-000001,4,2,Atſchi,"Atſchi, Lachen.",Achí,"Reír, sonreír",strong_direct_overlap,high,Lachen = reír,priority_positive,False
+RHD-AFFSEM-000002,RHD-AFFSRC-000002,25,4,Batſá,"Batſá, Vorher, voraus.",Bacha,"Primeramente, adelante, enfrente",compatible_related_domain,medium,"Vorher, voraus = antes / por delante",related_domain_low_documentary_priority,False
+RHD-AFFSEM-000003,RHD-AFFSRC-000003,26,4,Batſá,"Batſá, Vorher, voraus.",Bachá,"Meter (a la cárcel), poner (adentro)",contradictory,high,"Vorher, voraus = antes / por delante",graphic_decoy_or_semantic_negative,False
+RHD-AFFSEM-000004,RHD-AFFSRC-000004,14,3,Cotſchi,"Cotſchi, Schwein.",Cochí,Perro,contradictory,high,Schwein = cerdo,graphic_decoy_or_semantic_negative,False
+RHD-AFFSEM-000005,RHD-AFFSRC-000005,15,3,Cotſchi,"Cotſchi, Schwein.",Cochí,Hermana mayor,contradictory,high,Schwein = cerdo,graphic_decoy_or_semantic_negative,False
+RHD-AFFSEM-000006,RHD-AFFSRC-000006,16,3,Cotſchi,"Cotſchi, Schwein.",Cochí,Dormir,contradictory,high,Schwein = cerdo,graphic_decoy_or_semantic_negative,False
+RHD-AFFSEM-000007,RHD-AFFSRC-000007,17,3,Cotſchi,"Cotſchi, Schwein.","Cochi, cohuí",Marrano,strong_direct_overlap,high,Schwein = cerdo,semantic_positive_documentary_ambiguity,False
+RHD-AFFSEM-000008,RHD-AFFSRC-000008,5,2,Cutsi,"Cutsi, Kurz.",Cuchi,Chiquitos,compatible_related_domain,low,Kurz = corto,priority_related_but_uncertain,False
+RHD-AFFSEM-000009,RHD-AFFSRC-000009,18,3,Matſchi,"Matſchi, Draußen.",Machí,"1. Saber, conocer 2. Hay luz 3. Verse bien",contradictory,high,Draußen = afuera,graphic_decoy_or_semantic_negative,False
+RHD-AFFSEM-000010,RHD-AFFSRC-000010,19,3,Matſchi,"Matſchi, Draußen.","Machí, machíami",Afuera,strong_direct_overlap,high,Draußen = afuera,semantic_positive_documentary_ambiguity,False
+RHD-AFFSEM-000011,RHD-AFFSRC-000011,22,3,Matſchi,"Matſchi, als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr; als: tané matſchi, ich ſehe, oder ich weiß es nicht. Matſchijena, es keimt, kömmt hervor, wächſt.",Machí,"1. Saber, conocer 2. Hay luz 3. Verse bien",strong_direct_overlap,high,"wissen, sehen, erfahren = saber, ver, conocer/enterarse",semantic_positive_documentary_ambiguity,False
+RHD-AFFSEM-000012,RHD-AFFSRC-000012,23,3,Matſchi,"Matſchi, als ein Zeitwort: wiſſen ſehen, erfahren, und dergleichen Bedeutungen mehr; als: tané matſchi, ich ſehe, oder ich weiß es nicht. Matſchijena, es keimt, kömmt hervor, wächſt.","Machí, machíami",Afuera,contradictory,high,"wissen, sehen, erfahren = saber, ver, conocer/enterarse",graphic_decoy_or_semantic_negative,False
+RHD-AFFSEM-000013,RHD-AFFSRC-000013,6,2,Potschí,"Potschí, Anfüllen.",Pochí,Brincar,contradictory,high,Anfüllen = llenar,graphic_decoy_or_semantic_negative,False
+RHD-AFFSEM-000014,RHD-AFFSRC-000014,24,3,Putschá,"Putschá, Anfüllen.",Pucha,Soplar,contradictory,high,Anfüllen = llenar,graphic_decoy_or_semantic_negative,False
+RHD-AFFSEM-000015,RHD-AFFSRC-000015,9,2,Tſchigó,"Tſchigó, Noch.",Chigó,Robar,contradictory,high,Noch = todavía / aún,graphic_decoy_or_semantic_negative,False
+RHD-AFFSEM-000016,RHD-AFFSRC-000016,20,3,Tschá,"Tschá, Krätze.",Chá,Feo,contradictory,medium,Krätze = sarna,graphic_decoy_or_semantic_negative,False
+RHD-AFFSEM-000017,RHD-AFFSRC-000017,21,3,Tschá,"Tschá, Krätze.","Chá, cháa",Tener granos o llagas,compatible_related_domain,medium,Krätze = sarna,related_domain_low_documentary_priority,False
+RHD-AFFSEM-000018,RHD-AFFSRC-000018,10,2,Tscháa,"Tscháa, Wegwerfen.","Chá, cháa",Tener granos o llagas,contradictory,high,Wegwerfen = tirar / desechar,graphic_decoy_or_semantic_negative,False
+RHD-AFFSEM-000019,RHD-AFFSRC-000019,7,2,Tscháca,"Tscháca, Wunde.",Chacá,Chanate (ave; zanate),contradictory,high,Wunde = herida,graphic_decoy_or_semantic_negative,False
+RHD-AFFSEM-000020,RHD-AFFSRC-000020,1,1,Tschapi,"Tschapi, Nehmen. Ergreifen.",Chapí,"1. vt Coger, agarrar (una persona 2. Tomar (coger) 3. Elegir 4. imper ¡Escójalo! [fut.: chapiméa]",strong_direct_overlap,high,"Nehmen, Ergreifen = tomar, coger, agarrar",priority_positive,False
+RHD-AFFSEM-000021,RHD-AFFSRC-000021,11,2,Tſchiní,"Tſchiní, ſ. Gewebe.",Chiní,"Manta, ropa",strong_direct_overlap,medium,Gewebe = tejido / tela,priority_positive,False
+RHD-AFFSEM-000022,RHD-AFFSRC-000022,12,2,Tſchiperameke,"Tſchiperameke, Fein. Dünn. Flach.",Chipérami,Plano,strong_direct_overlap,high,"Fein, Dünn, Flach = fino, delgado, plano",priority_positive,False
+RHD-AFFSEM-000023,RHD-AFFSRC-000023,8,2,Tschipú,"Tschipú, Stinken.",Chipú,Estar amargo (p. ej.: café),contradictory,high,Stinken = apestar,graphic_decoy_or_semantic_negative,False
+RHD-AFFSEM-000024,RHD-AFFSRC-000024,13,2,Tschucú,"Tschucú, Der Ort, wo sich ein zahmes Thier befindet, s. Seyn.",Chucú,"Estar parado (animal, barco, camión de carga, persona agachada)",compatible_related_domain,low,"Der Ort, wo sich ein zahmes Thier befindet = lugar/posición donde se encuentra un animal doméstico",priority_related_but_uncertain,False
+RHD-AFFSEM-000025,RHD-AFFSRC-000025,2,1,Tſchutá,"Tſchutá, Schleifen. Schärfen.",Chutá,Afilar,strong_direct_overlap,high,"Schleifen, Schärfen = afilar / aguzar",priority_positive,False
+RHD-AFFSEM-000026,RHD-AFFSRC-000026,3,1,Tſchócameke,"Tſchécemeke, Schwarz.",Chócami,Negro,strong_direct_overlap,high,Schwarz = negro,priority_positive,False
