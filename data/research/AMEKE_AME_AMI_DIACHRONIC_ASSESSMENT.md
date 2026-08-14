@@ -12,11 +12,15 @@ En el corpus moderno SRC-02 fijado hay 214 registros finales en `-ami`, 210 cand
 
 Caballero (2022) documenta independientemente `-ame` como sufijo participial en Choguita Rarámuri. La misma gramática analiza explícitamente la forma superficial `hâw-ami` ‘autoridades’ como una nominalización mediante participial `-ame` y documenta elevación opcional /e/→[i] en posiciones pre- y postónicas para algunos hablantes. Esta evidencia hace plausible una relación superficial `-ame ~ -ami` en esa variedad, pero no se transfiere automáticamente a SRC-02 ni a la variedad histórica de Steffel.
 
+Merrill et al. (2020) aportan además una pieza comparativa relevante para los candidatos con diferencia líquida: documentan en Steffel alternancia medial `<l> ~ <r>` junto con casos contrastivos y ejemplifican dentro de formas en `-ameke` la variante `cavólameke ~ cavórameke` ‘esférico, redondo’. Por ello una diferencia histórica `l` frente a moderna `r` ya no debe tratarse como una discrepancia sin precedente, aunque tampoco puede neutralizarse automáticamente.
+
 ## Candidatos léxicos prioritarios
 
 ### `Seliameke ↔ Siríami ↔ siˈríame`
 
-Steffel registra `Seliameke` para un gobernante/funcionario local (`Dorfrichter`). SRC-02 contiene `Siríami`, ‘Gobernador tradicional’. Caballero documenta independientemente `siˈríame`, ‘governor(s)’. Esta triangulación semántica e institucional merece prioridad máxima. La diferencia histórica `l` frente a moderna `r` permanece sin adjudicar y no se neutraliza automáticamente.
+Steffel registra `Seliameke` para un gobernante/funcionario local (`Dorfrichter`). SRC-02 contiene `Siríami`, ‘Gobernador tradicional’. Caballero documenta independientemente `siˈríame`, ‘governor(s)’. Esta triangulación semántica e institucional merece prioridad máxima.
+
+La diferencia `l/r` cuenta ahora con un precedente histórico independiente: Merrill documenta alternancia medial `<l> ~ <r>` en Steffel y el par `cavólameke ~ cavórameke`. Esto eleva la plausibilidad formal de `Seliameke ~ Siríami`, pero la aplicación de esa alternancia a este lexema concreto y la relación histórica entre las formas siguen pendientes de adjudicación humana.
 
 ### `Neſſéameke ↔ Niséami`
 
