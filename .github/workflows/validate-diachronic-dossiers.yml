@@ -14,6 +14,7 @@ on:
       - 'scripts/generate_diachronic_adjudication_queue.py'
       - 'scripts/generate_diachronic_priority1_dossiers.py'
       - 'scripts/generate_source_supported_affricate_candidates.py'
+      - 'scripts/generate_affricate_candidate_evidence_ranking.py'
       - 'scripts/sync_project_metadata.py'
       - 'scripts/sync_diachronic_adjudication_metadata.py'
 
@@ -45,12 +46,13 @@ jobs:
           python3 scripts/generate_diachronic_adjudication_queue.py
           python3 scripts/generate_diachronic_priority1_dossiers.py
           python3 scripts/generate_source_supported_affricate_candidates.py
+          python3 scripts/generate_affricate_candidate_evidence_ranking.py
           python3 scripts/sync_project_metadata.py
           python3 scripts/sync_diachronic_adjudication_metadata.py
       - name: Validate tier-1 dossier coverage and non-adjudication
         run: |
           python3 - <<'PY'
-          import json,re
+          import csv,json,re
           from pathlib import Path
           d=Path('data/diachronic')
           q=json.load((d/'adjudication_queue.json').open(encoding='utf-8'))
@@ -98,14 +100,30 @@ jobs:
           assert a['human_reviewed'] is False
           assert a['automatic_sound_correspondence_inference'] is False
           assert a['cognacy_judgment']=='not_performed'
-          print(f"OK tier-1 diachronic dossiers: {len(records)}; source-supported affricate candidates={a['candidate_count']}; human reviewed=0")
+          r=json.load(open('data/research/affricate_candidate_evidence_ranking.json',encoding='utf-8'))
+          rs=json.load(open('data/research/affricate_candidate_evidence_ranking_summary.json',encoding='utf-8'))
+          assert r['count']==a['candidate_count']==rs['candidate_count']==len(r['records'])
+          assert r['human_reviewed'] is False and rs['human_reviewed'] is False
+          assert r['semantic_similarity_used_for_ranking'] is False
+          assert rs['semantic_similarity_used_for_ranking'] is False
+          assert rs['translation_or_classification_used_for_ranking'] is False
+          assert rs['automatic_semantic_judgment'] is False
+          assert rs['automatic_sound_correspondence_inference'] is False
+          assert rs['cognacy_judgment']=='not_performed'
+          assert [x['rank'] for x in r['records']]==list(range(1,len(r['records'])+1))
+          assert all(x['human_reviewed'] is False for x in r['records'])
+          assert all(x['semantic_similarity_used_for_ranking'] is False for x in r['records'])
+          assert sum(int(v) for v in rs['priority_tier_counts'].values())==r['count']
+          rows=list(csv.DictReader(open('data/research/affricate_candidate_evidence_ranking.csv',encoding='utf-8')))
+          assert len(rows)==r['count']
+          print(f"OK tier-1 diachronic dossiers: {len(records)}; affricate candidates={a['candidate_count']}; ranked={r['count']}; human reviewed=0")
           PY
       - name: Commit generated diachronic dossiers
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/diachronic project-metadata.json data/research/source_supported_affricate_candidates.json data/research/source_supported_affricate_candidates.csv data/research/source_supported_affricate_candidates_summary.json data/research/SOURCE_SUPPORTED_AFFRICATE_CANDIDATES.md
+          git add data/diachronic project-metadata.json data/research/source_supported_affricate_candidates.json data/research/source_supported_affricate_candidates.csv data/research/source_supported_affricate_candidates_summary.json data/research/SOURCE_SUPPORTED_AFFRICATE_CANDIDATES.md data/research/affricate_candidate_evidence_ranking.json data/research/affricate_candidate_evidence_ranking.csv data/research/affricate_candidate_evidence_ranking_summary.json data/research/AFFRICATE_CANDIDATE_EVIDENCE_RANKING.md
           if git diff --cached --quiet; then
             echo "No generated changes"
           else
@@ -114,6 +132,6 @@ jobs:
               echo "main advanced; newer run will regenerate dossiers"
               exit 0
             fi
-            git commit -m "Regenerate diachronic dossiers and affricate candidates"
+            git commit -m "Regenerate diachronic dossiers and affricate evidence ranking"
             git push
           fi
