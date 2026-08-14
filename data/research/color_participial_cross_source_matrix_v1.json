@@ -1,0 +1,69 @@
+{
+  "dataset": "raramuri-historico-steffel-1809",
+  "layer": "color_participial_cross_source_matrix_v1",
+  "generated": "2026-08-13",
+  "published_comparison_source": {
+    "authors": "Zarina Estrada Fernández and Aarón Grageda Bustamante",
+    "chapter": "La historiografía lingüística como ejercicio disciplinario compartido: la obra de Matthäus Steffel",
+    "book": "Las lenguas de México. Diálogos historiográficos",
+    "publisher": "Universidad Nacional Autónoma de México, Instituto de Investigaciones Bibliográficas",
+    "year": 2018,
+    "note": "The chapter explicitly compares Steffel color terms with Hilton 1959 and Brambila 1976."
+  },
+  "published_color_comparisons": [
+    {
+      "meaning": "negro",
+      "steffel": ["tschocámeke"],
+      "hilton_1959": ["chócami"],
+      "brambila_1976": ["chókame"],
+      "priority": "very_high"
+    },
+    {
+      "meaning": "blanco",
+      "steffel": ["rolácameke", "tosácameke"],
+      "hilton_1959": ["rosácami", "tosácami"],
+      "brambila_1976": ["rosákame", "tosákame"],
+      "priority": "very_high"
+    },
+    {
+      "meaning": "rojo",
+      "steffel": ["tsestatácameke", "stácameke"],
+      "hilton_1959": ["sitácami"],
+      "brambila_1976": ["sitákame"],
+      "priority": "high"
+    }
+  ],
+  "estrada_grageda_interpretation": {
+    "historical_color_derivation": "Steffel color forms contain derived endings described by the authors as -game, -came or -queme.",
+    "continuity_statement": "The authors explicitly note that these forms persist in data from Brambila and Hilton.",
+    "hilton_variation_note": "The chapter comments on -nami/-cami alternation in Hilton color terms.",
+    "burgess_note_reported_by_chapter": "Burgess analyzes -ka in -kame as augmentative joined to participial -ame."
+  },
+  "caballero_2022_context": {
+    "participial_suffixes": ["-ame", "-kame"],
+    "agentive_past_kame": "Caballero documents -kame in past agentive nominalizations and notes a Guarijío diachronic analysis -ka/-ga + -ame.",
+    "adjectival_relative_analysis": "Caballero treats -ame and -kame as suppletive participial allomorphs without tense distinctions in adjectival/relative-clause uses.",
+    "importance": "Modern -kame belongs independently to a participial domain, but its internal history/order is not assumed to be identical to Steffel -ameke."
+  },
+  "historical_merrill_context": {
+    "steffel_ameke_chain": "Merrill analyzes relevant historical chains with participial -(a)me plus optional final reduplicative -kV/-ke.",
+    "structural_warning": "Steffel -ame-ke and modern -ka/-k-ame analyses have different morpheme ordering in the published accounts; do not collapse them into one automatic sound change."
+  },
+  "research_consequence": "The color domain provides an independently published multi-source bridge from Steffel -ameke-type forms to Hilton -ami and Brambila -kame forms. It substantially strengthens the diachronic research program while simultaneously showing that the relevant participial morphology may have multiple historical/allomorphic structures rather than a single linear -ameke > -ami pathway.",
+  "candidate_updates": [
+    {
+      "candidate": "Tſchócameke ~ Chócami",
+      "previous_status": "lexical_graphophonological_candidate_not_explicit_modern_pp",
+      "new_status": "very_high_priority_published_cross_dictionary_color_derivation_candidate",
+      "reason": "Estrada and Grageda independently publish the exact Steffel tschocámeke ~ Hilton chócami ~ Brambila chókame comparison. SRC-02 Chócami remains classified Adj, so source-explicit Pp status in SRC-02 is still not claimed."
+    }
+  ],
+  "epistemic_status": {
+    "ai_assisted": true,
+    "published_cross_source_comparison": true,
+    "human_reviewed_by_project": false,
+    "automatic_morpheme_equation": false,
+    "automatic_sound_law": false,
+    "cognacy_judgment_individual_forms": "not_performed"
+  }
+}
