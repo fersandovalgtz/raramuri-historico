@@ -1,5 +1,27 @@
 # Changelog
 
+## Unreleased — repository scientific standards
+
+### Documentación científica y descubribilidad
+
+- README reconstruido como landing científica: fuente histórica, estado de la release, arquitectura de evidencia, datos, interoperabilidad, reproducibilidad, citación, licencias, límites epistemológicos y ecosistema.
+- Nueva nota documental `docs/STEFFEL_SOURCE.md` para distinguir la experiencia de Steffel, el horizonte manuscrito de 1791, la publicación de 1809 y la representación computacional de RHD.
+- Bibliografía y `SOURCES.md` ampliados con la referencia primaria de 1809 y estudios especializados contemporáneos.
+- `DATASHEET.md`, `COVERAGE.md`, `PROVENANCE.md`, `FAIR_ASSESSMENT.md` y `REPRODUCIBILITY.md` alineados con el snapshot canónico 1.0.0.
+- `CITATION.cff` reforzado con commit canónico, ORCID, afiliación, landing page y palabras clave; `codemeta.json` actualizado como metadatos complementarios del software de investigación.
+
+### Gobernanza y sostenibilidad
+
+- `CONTRIBUTING.md` ampliado con requisitos de evidencia, revisión humana identificada, impacto de cambios de datos y reglas de atribución.
+- `GOVERNANCE.md` ampliado con fuentes de autoridad, política de versionado, reglas de releases y manejo explícito del desacuerdo científico.
+- Nuevos `CODE_OF_CONDUCT.md` y `SECURITY.md`.
+- `ROADMAP.md` reemplazado por una hoja de ruta posterior a 1.0: DOI/archivo, revisión humana opcional, infraestructura reusable, nuevas fuentes, publicación científica y preservación.
+
+### Ecosistema
+
+- Nuevo `docs/ECOSYSTEM.md` con vínculos explícitos hacia Rarámuri Digital, repositorios educativos e histórico-digitales, perfiles académicos, sitios públicos y reglas para mantener separadas las responsabilidades de cada proyecto.
+- No se modificaron datos científicos, el tag `v1.0.0` ni su release histórica como parte de esta actualización documental.
+
 ## 1.0.0 — 2026-08-15
 
 ### Estado
