@@ -30,6 +30,8 @@ if len(numeration) != 1 or len(formulas) != 22 or len(prayers) != 1:
     errors.append(f"object type counts wrong: numeration={len(numeration)}, formulas={len(formulas)}, prayers={len(prayers)}")
 if [x.get("sequence") for x in formulas] != list(range(1, 23)):
     errors.append("formula sequence is not exactly 1..22")
+if data.get("counts", {}).get("machine_aligned_parallel_formulas") != 22:
+    errors.append("canonical counts must report 22 machine-aligned formulas")
 
 expected_page = {}
 for i in range(1, 23):
@@ -42,13 +44,26 @@ for item in formulas:
         errors.append(f"formula {n}: printed page {pp} != {expected_page[n]}")
     if pdf != pp - 290:
         errors.append(f"formula {n}: pdf/printed page mapping inconsistent")
-    if item.get("language_alignment_verified") is not False:
-        errors.append(f"formula {n}: language alignment prematurely verified")
+    if item.get("machine_alignment_complete") is not True:
+        errors.append(f"formula {n}: machine alignment is not complete")
+    if item.get("human_alignment_verified") is not False:
+        errors.append(f"formula {n}: human alignment verification fabricated")
     if item.get("human_verified") is not False:
         errors.append(f"formula {n}: human verification fabricated")
     visual = item.get("layers", {}).get("visual_collation", {})
     if visual.get("status") != "confirmed_ai_assisted" or visual.get("human_verified") is not False:
         errors.append(f"formula {n}: visual collation status invalid")
+    alignment = item.get("layers", {}).get("parallel_alignment", {})
+    if alignment.get("status") != "aligned_ai_assisted" or alignment.get("human_verified") is not False:
+        errors.append(f"formula {n}: parallel alignment status invalid")
+    texts = alignment.get("texts", {})
+    if set(texts) != {"la", "de", "und"} or any(not str(texts.get(k, "")).strip() for k in ("la", "de", "und")):
+        errors.append(f"formula {n}: missing aligned language field")
+    confidence = alignment.get("confidence", {})
+    if set(confidence) != {"la", "de", "und"}:
+        errors.append(f"formula {n}: incomplete alignment confidence")
+    if confidence.get("und") == "low" and not alignment.get("uncertain_segments"):
+        errors.append(f"formula {n}: low-confidence Tarahumara lacks uncertainty note")
 
 mapping = data.get("facsimile_mapping", {}).get("mapping", [])
 expected_mapping = [(79,369),(80,370),(81,371),(82,372),(83,373),(84,374)]
@@ -58,4 +73,4 @@ if [(x.get("pdf_page"), x.get("printed_page")) for x in mapping] != expected_map
 if errors:
     print("\n".join("ERROR: " + e for e in errors))
     sys.exit(1)
-print("OK: canonical appendix layer has 24 machine-only objects, 22 ordered formulas and exact facsimile page mapping")
+print("OK: canonical appendix layer has 24 machine-only objects, 22 la/de/und AI-aligned formulas and exact facsimile page mapping")
