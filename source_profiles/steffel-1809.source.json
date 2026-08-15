@@ -1,0 +1,137 @@
+{
+  "profile_version": "1.0.0-draft",
+  "rhd_core_version": "1.0-draft",
+  "source_id": "RHD-SRC-STEFFEL-1809",
+  "source_code": "STEFFEL-1809",
+  "collection_id": "RHD-COLL-STEFFEL-1791-1809",
+  "title": "Tarahumarisches Wörterbuch",
+  "creator": "Matthäus Steffel",
+  "compiled_or_dated": 1791,
+  "published": 1809,
+  "project_role": "reference_implementation",
+  "witness": {
+    "witness_id": "RHD-WIT-STEFFEL-1809-PROJECT-FACSIMILE",
+    "description": "Project working facsimile supplied with OCR source",
+    "facsimile_pages": 84,
+    "dictionary_printed_page_start": 301,
+    "dictionary_printed_page_end": 368,
+    "appendix_printed_page_start": 369,
+    "checksums_manifest": "sources/checksums.json",
+    "ocr_source": "sources/steffel-1809-ocr-source.txt"
+  },
+  "languages": [
+    {
+      "code": "de",
+      "role": "source_gloss_or_headword"
+    },
+    {
+      "code": "tar",
+      "label": "historical Tarahumara/Rarámuri as documented by Steffel",
+      "role": "historical_lexical_language"
+    },
+    {
+      "code": "es",
+      "role": "modern_editorial_translation_only"
+    }
+  ],
+  "lexicographic_directions": [
+    {
+      "code": "DE-RAR",
+      "description": "German to historical Rarámuri/Tarahumara",
+      "start_printed_page": 301,
+      "end_printed_page": 353,
+      "boundary_note": "Direction changes within printed page 353; page-level direction alone is insufficient at the transition."
+    },
+    {
+      "code": "RAR-DE",
+      "description": "Historical Rarámuri/Tarahumara to German",
+      "start_printed_page": 353,
+      "end_printed_page": 368,
+      "boundary_note": "Direction begins within printed page 353."
+    }
+  ],
+  "record_identifier": {
+    "pattern": "RHD-S1809-#####",
+    "persistent": true,
+    "recyclable": false
+  },
+  "current_documentary_state": {
+    "dataset_version": "0.2.0",
+    "segmentation_candidates": 2495,
+    "active_articles": 1965,
+    "rejected_boundaries": 530,
+    "diplomatic_articles": 1965,
+    "open_validation_records": 482,
+    "ai_philological_recollation_complete": 482,
+    "independent_human_reviewed": 0,
+    "unresolved_after_ai_recollation": 46
+  },
+  "source_specific_graphemic_features": {
+    "long_s": true,
+    "historic_affricate_spellings": ["tsch", "tſch", "ts", "tſ"],
+    "known_liquid_variation_requires_case_specific_review": true,
+    "normalization_warning": "Historic graphemic variants may be useful for retrieval but must not be silently converted into phonological identity or cognacy."
+  },
+  "segmentation": {
+    "strategy": "high_recall_candidate_generation_then_boundary_review",
+    "direction_aware": true,
+    "column_aware": true,
+    "preserve_rejected_candidates": true,
+    "current_review_manifests": "data/review/"
+  },
+  "transcription": {
+    "diplomatic_layer": "data/entries.csv#headword_diplomatic,article_diplomatic",
+    "method": "AI-assisted direct facsimile collation",
+    "human_verification_implied": false,
+    "open_note_states": ["none", "resolved_editorial_note", "open_validation"]
+  },
+  "validation": {
+    "ai_recollation_manifests": "data/validation/review/",
+    "human_review_queue": "data/validation/human_review_queue.json",
+    "human_review_priority": "data/validation/human_review_priority.json",
+    "human_review_protocol": "data/validation/HUMAN_REVIEW_PROTOCOL.md",
+    "scopes": ["philological", "linguistic", "semantic_historical", "disciplinary"]
+  },
+  "normalization": {
+    "purpose": "search_and_explicit_comparison_only",
+    "must_preserve_diplomatic_source": true,
+    "must_record_method": true,
+    "must_not_imply": [
+      "phonological_identity",
+      "morpheme_identity",
+      "cognacy",
+      "semantic_identity",
+      "historical_continuity"
+    ]
+  },
+  "research_layers": {
+    "internal_concordance": "data/research/internal_concordance.*",
+    "historical_variants": "data/research/historical_variant_index.json",
+    "diachronic_candidates": "data/research/diachronic_semantic_context_queue.*",
+    "research_snapshot": "RESEARCH_SNAPSHOT.md",
+    "adjudicative": false
+  },
+  "rhd_core_mapping": {
+    "operational_master": "data/entries.csv",
+    "source_witness": "RHD-WIT-STEFFEL-1809-PROJECT-FACSIMILE",
+    "ocr_raw": ["headword_ocr_raw", "article_ocr_raw", "definition_raw"],
+    "segmentation_candidate": ["delimiter", "extraction_score", "segmentation_confidence", "status"],
+    "diplomatic_transcription": ["headword_diplomatic", "article_diplomatic", "diplomatic_status", "diplomatic_batch"],
+    "validation": ["diplomatic_note", "diplomatic_note_state", "human_verified", "diplomatic_review_method"],
+    "locators": ["printed_page", "pdf_page", "facsimile_column", "source_ocr_line_start", "source_ocr_line_end"]
+  },
+  "coverage_definition": {
+    "dictionary_body_complete_when": [
+      "all candidate boundaries have explicit disposition",
+      "all active articles have diplomatic transcription",
+      "all open validation issues are queued with explicit state",
+      "coverage metrics are reproducibly generated"
+    ],
+    "critical_edition_complete_when": [
+      "declared human-review target has been independently adjudicated",
+      "adopted critical readings are stored in a derived non-destructive layer",
+      "TEI export validates against the chosen profile",
+      "release is versioned and archived"
+    ]
+  }
+}
