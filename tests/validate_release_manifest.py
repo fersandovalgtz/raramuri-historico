@@ -19,7 +19,7 @@ if manifest.get("human_validation_claimed") is not False:
 if "machine-only" not in (manifest.get("release_scope") or ""):
     errors.append("release scope does not declare machine-only edition")
 files = manifest.get("files", [])
-if len(files) < 10:
+if len(files) < 15:
     errors.append(f"too few release artifacts: {len(files)}")
 paths = [x.get("path") for x in files]
 if len(paths) != len(set(paths)):
@@ -42,8 +42,12 @@ for item in files:
 counts = manifest.get("counts", {})
 canonical = ROOT / "data/canonical/steffel-1809.entries.jsonl"
 canonical_count = sum(1 for line in canonical.read_text(encoding="utf-8").splitlines() if line.strip())
-if counts.get("canonical_records") != canonical_count:
-    errors.append("canonical record count mismatch")
+appendix = json.loads((ROOT / "data/canonical/steffel-1809.appendices.json").read_text(encoding="utf-8"))
+appendix_count = len(appendix.get("objects", []))
+if counts.get("canonical_lexical_records") != canonical_count:
+    errors.append("canonical lexical record count mismatch")
+if counts.get("canonical_appendix_objects") != appendix_count or appendix_count != 24:
+    errors.append(f"canonical appendix object count mismatch: manifest={counts.get('canonical_appendix_objects')} actual={appendix_count}")
 if counts.get("trilingual_formula_blocks") != 22:
     errors.append("release manifest must report 22 trilingual formula blocks")
 if counts.get("appendix_facsimile_pages_mapped") != 6:
@@ -56,4 +60,7 @@ if manifest.get("completion", {}).get("weighted_completion_percent") != completi
 if errors:
     print("\n".join("ERROR: " + e for e in errors))
     sys.exit(1)
-print(f"OK: release manifest verifies {len(files)} artifacts, {canonical_count} canonical records, 22 formula blocks and six facsimile page mappings")
+print(
+    f"OK: release manifest verifies {len(files)} artifacts, {canonical_count} lexical records, "
+    f"{appendix_count} canonical appendix objects, 22 formula blocks and six facsimile page mappings"
+)
