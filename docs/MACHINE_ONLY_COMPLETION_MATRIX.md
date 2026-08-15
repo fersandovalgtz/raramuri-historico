@@ -38,7 +38,9 @@ El release cuenta con un generador determinista de manifiesto de integridad que 
 
 Se localizó y verificó en CI un Manifest IIIF Presentation 3 del ítem de Internet Archive `tarahumarischesw00stef`, pero la comparación perceptual contra el facsímil checksum-fixed de RHD mostró una divergencia fuerte. Se conserva por ello como **witness paralelo no canónico** y como control negativo: no se le asignan localizadores de evidencia RHD. Esto fortalece la integridad del proyecto, pero no cierra IIIF porque todavía falta servir o identificar de manera estable el escaneo canónico exacto.
 
-También quedó seleccionada **Miguel Joaquín Tellechea, 1826, _Compendio gramatical para la inteligencia del idioma tarahumar_**, como segunda fuente piloto. Existe perfil machine-only y plan de ingestión, pero la dimensión de replicación permanece deliberadamente en **0%** hasta que un witness exacto sea fijado por checksum y recorra de verdad el pipeline. Preparar un candidato no equivale a demostrar replicabilidad.
+La segunda fuente piloto, **Miguel Joaquín Tellechea, 1826, _Compendio gramatical para la inteligencia del idioma tarahumar_**, ya no está pendiente de adquisición. El PDF público de la Dirección General de Bibliotecas fue recuperado automáticamente y quedó fijado como `RHD-WIT-TELLECHEA-1826-DGB`: 205 páginas, 95,088,307 bytes y SHA-256 `c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc`. La CI exige que esa identidad permanezca exacta.
+
+Aun así, la dimensión de replicación permanece deliberadamente en **0%**: fijar el witness es un prerrequisito, no una demostración de reutilización end-to-end. El crédito sólo comenzará cuando unidades reales de Tellechea atraviesen extracción/OCR, segmentación, canonicalización y exportación mediante el núcleo RHD.
 
 ## El 12% que permanece abierto
 
@@ -46,7 +48,7 @@ El trabajo residual se concentra principalmente en tres frentes y un margen meno
 
 1. **IIIF canónico:** publicar el facsímil checksum-fixed del proyecto mediante un servicio estable o localizar una representación inequívocamente idéntica, y extender el mapeo página/Canvas al testimonio completo.
 2. **Release científico:** fijar versión, `CITATION`, release estable, archivo/depósito e identificador persistente. `CHANGELOG` y el manifiesto de integridad ya están preparados.
-3. **Prueba de industrialización:** adquirir/fijar el witness de Tellechea 1826 y procesarlo end-to-end mediante el mismo núcleo RHD, documentando cualquier cambio inevitable.
+3. **Prueba de industrialización:** procesar el witness checksum-fixed de Tellechea 1826 end-to-end mediante el mismo núcleo RHD, documentando cualquier cambio inevitable.
 4. **Refinamiento residual del apéndice:** pueden mejorarse lecturas gráficas de baja confianza, pero bajo el alcance machine-only no es obligatorio eliminar toda ambigüedad; puede conservarse como incertidumbre terminal documentada.
 
 ## Condición de 100%
