@@ -19,13 +19,15 @@ if manifest.get("human_validation_claimed") is not False:
 if "machine-only" not in (manifest.get("release_scope") or ""):
     errors.append("release scope does not declare machine-only edition")
 files = manifest.get("files", [])
-if len(files) < 18:
+if len(files) < 20:
     errors.append(f"too few release artifacts: {len(files)}")
 paths = [x.get("path") for x in files]
 if len(paths) != len(set(paths)):
     errors.append("duplicate path in release manifest")
 for required_path in (
     "data/research/diachronic_machine_scores.json",
+    "data/appendices/trilingual_visual_alignment_ai.json",
+    "data/tei/rhd-steffel-1809-appendices-tei.xml",
     "docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md",
     "docs/MACHINE_ONLY_COMPLETION_MATRIX.md",
 ):
@@ -57,6 +59,8 @@ if counts.get("canonical_appendix_objects") != appendix_count or appendix_count 
     errors.append(f"canonical appendix object count mismatch: manifest={counts.get('canonical_appendix_objects')} actual={appendix_count}")
 if counts.get("trilingual_formula_blocks") != 22:
     errors.append("release manifest must report 22 trilingual formula blocks")
+if counts.get("trilingual_formula_blocks_machine_aligned") != 22:
+    errors.append("release manifest must report 22 machine-aligned trilingual formula blocks")
 if counts.get("appendix_facsimile_pages_mapped") != 6:
     errors.append("release manifest must report six mapped appendix facsimile pages")
 if counts.get("diachronic_documentary_candidates_scored") != 298:
@@ -73,6 +77,6 @@ if errors:
     sys.exit(1)
 print(
     f"OK: release manifest verifies {len(files)} artifacts, {canonical_count} lexical records, "
-    f"{appendix_count} canonical appendix objects, 22 formula blocks, six facsimile page mappings, "
+    f"{appendix_count} canonical appendix objects, 22 machine-aligned formula triples, six facsimile page mappings, "
     f"298 documentary-scored diachronic candidates and machine-only conformity/completion documentation"
 )
