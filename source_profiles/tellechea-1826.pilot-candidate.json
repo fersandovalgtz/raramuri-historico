@@ -1,0 +1,117 @@
+{
+  "profile_version": "0.1.0-pilot-candidate",
+  "rhd_core_version": "1.0-draft",
+  "source_id": "RHD-SRC-TELLECHEA-1826",
+  "source_code": "TELLECHEA-1826",
+  "collection_id": "RHD-COLL-TELLECHEA-1826",
+  "title": "Compendio gramatical para la inteligencia del idioma tarahumar",
+  "creator": "Miguel Joaquín Tellechea",
+  "compiled_or_dated": null,
+  "published": 1826,
+  "publication_place": "México",
+  "publisher_printer": "Imprenta de la Federación en Palacio",
+  "project_role": "second_source_replicability_pilot_candidate",
+  "edition_scope": "machine_only_scholarly_edition",
+  "human_adjudication_required": false,
+  "pilot_status": "candidate_selected_binary_not_yet_ingested",
+  "selection_rationale": [
+    "historical Tarahumara source published only 17 years after Steffel",
+    "structurally different from Steffel: grammar plus long Spanish–Tarahumara parallel religious/discourse material rather than a bidirectional dictionary",
+    "public-domain 1826 publication with multiple openly indexed digital reproductions",
+    "strong stress test for whether RHD core entities and provenance remain reusable beyond dictionary articles"
+  ],
+  "public_references": [
+    {
+      "provider": "Google Play Books",
+      "uri": "https://play.google.com/store/books/details?id=b9BTAAAAcAAJ",
+      "access_note": "Indexed as a free 172-page ebook; exact downloadable witness must be checksum-fixed before ingest."
+    },
+    {
+      "provider": "Biblioteca Virtual de la Filología Española",
+      "uri": "https://www.bvfe.es/en/directorio-bibliografico-de-gramaticas-tratados-gramaticales-historia-de-la-lengua/20946-compendio-gramatical-para-la-inteligencia-del-idioma-tarahumar-oraciones-doctrina-cristiana-platicas-y-otras-cosas-necesarias-para-la-recta-administracion-de-los-santos-sacramentos-en-el-mismo-idioma.html",
+      "access_note": "Bibliographic control record; not automatically assumed to be the witness used by RHD."
+    }
+  ],
+  "witness": {
+    "witness_id": "RHD-WIT-TELLECHEA-1826-UNRESOLVED",
+    "description": "Exact digital witness not yet checksum-fixed; do not ingest text until one reproducible binary or image service is selected.",
+    "facsimile_pages": null,
+    "checksums_manifest": null,
+    "ocr_source": null,
+    "identity_status": "unresolved_candidate_witness",
+    "iiif_manifest": null
+  },
+  "languages": [
+    {
+      "code": "es",
+      "role": "source_metalanguage_and_parallel_text"
+    },
+    {
+      "code": "und",
+      "label": "historical Tarahumara as documented by Tellechea",
+      "role": "historical_language",
+      "code_note": "No modern ISO variety is assigned automatically."
+    },
+    {
+      "code": "la",
+      "role": "grammatical_or_ecclesiastical_metalanguage_where_present"
+    }
+  ],
+  "document_genres_expected": [
+    "grammar",
+    "paradigm_or_example",
+    "parallel_prayer",
+    "parallel_doctrinal_text",
+    "parallel_sermon_or_discourse",
+    "sacramental_instruction",
+    "paratext"
+  ],
+  "record_identifier": {
+    "pattern": "RHD-T1826-#####",
+    "persistent": true,
+    "recyclable": false
+  },
+  "segmentation": {
+    "strategy": "hierarchical_document_structure_then_machine_parallel_block_segmentation",
+    "direction_aware": false,
+    "column_aware": true,
+    "preserve_rejected_candidates": true,
+    "human_review_required": false
+  },
+  "transcription": {
+    "method": "AI-assisted direct facsimile collation after witness acquisition",
+    "human_verification_implied": false,
+    "uncertainty_must_be_explicit": true,
+    "terminal_states_may_include_unresolved": true
+  },
+  "validation": {
+    "policy": "machine_only",
+    "human_review_required": false,
+    "rule": "No machine transcription or alignment may be promoted to human_verified; unresolved historical glyphs remain explicit."
+  },
+  "normalization": {
+    "purpose": "search_and_explicit_comparison_only",
+    "must_preserve_diplomatic_source": true,
+    "must_record_method": true,
+    "must_not_imply": [
+      "phonological_identity",
+      "morpheme_identity",
+      "cognacy",
+      "semantic_identity",
+      "historical_continuity"
+    ]
+  },
+  "pilot_success_criteria": [
+    "exact witness is checksum-fixed",
+    "document hierarchy is represented without changing RHD core identity/provenance concepts",
+    "at least one grammar/example section and one Spanish–Tarahumara parallel section complete the full machine-only pipeline",
+    "parallel text is exported without coercing it into Lex-0 dictionary entries",
+    "uncertainty and AI responsibility remain explicit",
+    "source-specific rules reside in this profile or a source adapter rather than in the universal core",
+    "CI demonstrates reproducible generation from source evidence to canonical/TEI outputs"
+  ],
+  "completion_credit": {
+    "counts_toward_second_source_end_to_end_gate": false,
+    "reason": "Candidate selection/profile design alone does not demonstrate replication; a checksum-fixed witness must actually traverse the pipeline."
+  }
+}
