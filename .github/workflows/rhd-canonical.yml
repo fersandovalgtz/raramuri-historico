@@ -1,16 +1,16 @@
-name: RHD 1.0 canonical, TEI, appendices and review packaging
+name: RHD 1.0 machine-only canonical, TEI, appendices and release integrity
 
 on:
   pull_request:
     paths:
       - 'scripts/generate_rhd_canonical.py'
       - 'scripts/generate_rhd_tei.py'
-      - 'scripts/generate_human_review_packets.py'
       - 'scripts/generate_appendix_candidates.py'
+      - 'scripts/generate_release_manifest.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_rhd_tei.py'
-      - 'tests/validate_human_review_packets.py'
       - 'tests/validate_appendix_candidates.py'
+      - 'tests/validate_release_manifest.py'
       - 'schemas/rhd-entry-1.0.schema.json'
       - 'source_profiles/**'
       - 'sources/steffel-1809-ocr-source.txt'
@@ -18,18 +18,21 @@ on:
       - 'data/corpus_inventory.json'
       - 'data/validation/**'
       - 'data/research/diachronic_semantic_context_queue.json'
+      - 'data/appendices/facsimile_page_map.json'
+      - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
+      - 'project/completion-model-machine-only.json'
       - '.github/workflows/rhd-canonical.yml'
   push:
     branches: [main]
     paths:
       - 'scripts/generate_rhd_canonical.py'
       - 'scripts/generate_rhd_tei.py'
-      - 'scripts/generate_human_review_packets.py'
       - 'scripts/generate_appendix_candidates.py'
+      - 'scripts/generate_release_manifest.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_rhd_tei.py'
-      - 'tests/validate_human_review_packets.py'
       - 'tests/validate_appendix_candidates.py'
+      - 'tests/validate_release_manifest.py'
       - 'schemas/rhd-entry-1.0.schema.json'
       - 'source_profiles/**'
       - 'sources/steffel-1809-ocr-source.txt'
@@ -37,6 +40,9 @@ on:
       - 'data/corpus_inventory.json'
       - 'data/validation/**'
       - 'data/research/diachronic_semantic_context_queue.json'
+      - 'data/appendices/facsimile_page_map.json'
+      - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
+      - 'project/completion-model-machine-only.json'
       - '.github/workflows/rhd-canonical.yml'
 
 permissions:
@@ -69,9 +75,9 @@ jobs:
           jing /tmp/lex-0.rng data/tei/rhd-steffel-1809-lex0.xml
       - name: Generate appendix OCR candidates
         run: python3 scripts/generate_appendix_candidates.py
-      - name: Validate appendix OCR candidates
+      - name: Validate appendix OCR candidates and machine-only epistemic safeguards
         run: python3 tests/validate_appendix_candidates.py
-      - name: Generate human-review packets
-        run: python3 scripts/generate_human_review_packets.py
-      - name: Validate human-review packet coverage and neutrality
-        run: python3 tests/validate_human_review_packets.py
+      - name: Generate deterministic release integrity manifest
+        run: python3 scripts/generate_release_manifest.py
+      - name: Validate release integrity manifest
+        run: python3 tests/validate_release_manifest.py
