@@ -19,12 +19,14 @@ if manifest.get("human_validation_claimed") is not False:
 if "machine-only" not in (manifest.get("release_scope") or ""):
     errors.append("release scope does not declare machine-only edition")
 files = manifest.get("files", [])
-if len(files) < 22:
+if len(files) < 24:
     errors.append(f"too few release artifacts: {len(files)}")
 paths = [x.get("path") for x in files]
 if len(paths) != len(set(paths)):
     errors.append("duplicate path in release manifest")
 for required_path in (
+    "sources/external-references.json",
+    "data/iiif/steffel-1809-local-page-fingerprints.json",
     "data/research/diachronic_machine_scores.json",
     "data/appendices/numeration_visual_structure_ai.json",
     "data/appendices/trilingual_visual_alignment_ai.json",
@@ -71,6 +73,17 @@ if counts.get("appendix_facsimile_pages_mapped") != 6:
     errors.append("release manifest must report six mapped appendix facsimile pages")
 if counts.get("diachronic_documentary_candidates_scored") != 298:
     errors.append("release manifest must report 298 documentary-scored diachronic candidates")
+if counts.get("canonical_working_witnesses") != 1:
+    errors.append("release manifest must report exactly one checksum-fixed canonical working witness")
+if counts.get("registered_noncanonical_external_witnesses") < 1:
+    errors.append("release manifest must report at least one explicitly noncanonical external witness")
+
+registry = json.loads((ROOT / "sources/external-references.json").read_text(encoding="utf-8"))
+ia = next((w for w in registry.get("witnesses", []) if w.get("witness_id") == "IA-tarahumarischesw00stef"), None)
+if ia is None or ia.get("canonical_for_rhd") is not False:
+    errors.append("Internet Archive parallel witness must remain explicitly noncanonical")
+if ia and ((ia.get("identity_comparison") or {}).get("result") != "strong_mismatch_not_verified_as_same_scan"):
+    errors.append("Internet Archive witness registry lost the machine fingerprint mismatch result")
 
 completion = json.loads((ROOT / "project/completion-model-machine-only.json").read_text(encoding="utf-8"))
 if manifest.get("completion", {}).get("weighted_completion_percent") != completion.get("weighted_completion_percent"):
@@ -85,5 +98,6 @@ print(
     f"OK: release manifest verifies {len(files)} artifacts, {canonical_count} lexical records, "
     f"{appendix_count} canonical appendix objects, 22 machine-aligned formula triples, "
     f"{counts.get('structured_primary_numeral_examples')} structured numeral examples, one prayer transcription, "
-    f"six facsimile page mappings, 298 documentary-scored diachronic candidates and machine-only conformity documentation"
+    f"six facsimile page mappings, 298 documentary-scored diachronic candidates, one canonical working witness, "
+    f"and {counts.get('registered_noncanonical_external_witnesses')} noncanonical external witness(es) with explicit identity status"
 )
