@@ -10,6 +10,7 @@ on:
       - 'scripts/generate_diachronic_machine_scores.py'
       - 'scripts/generate_rhd_tei.py'
       - 'scripts/validate_external_iiif_witness.py'
+      - 'scripts/probe_tellechea_1826_witness.py'
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_source_profiles_machine_only.py'
       - 'tests/validate_rhd_canonical.py'
@@ -51,6 +52,7 @@ on:
       - 'scripts/generate_diachronic_machine_scores.py'
       - 'scripts/generate_rhd_tei.py'
       - 'scripts/validate_external_iiif_witness.py'
+      - 'scripts/probe_tellechea_1826_witness.py'
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_source_profiles_machine_only.py'
       - 'tests/validate_rhd_canonical.py'
@@ -96,11 +98,13 @@ jobs:
           python-version: '3.11'
       - name: Install validators
         run: |
-          python3 -m pip install --disable-pip-version-check jsonschema pillow
+          python3 -m pip install --disable-pip-version-check jsonschema pillow pypdf
           sudo apt-get update -qq
           sudo apt-get install -y -qq jing
       - name: Validate reusable source profiles enforce machine-only policy
         run: python3 tests/validate_source_profiles_machine_only.py
+      - name: Probe and fingerprint public Tellechea 1826 witness candidate
+        run: python3 scripts/probe_tellechea_1826_witness.py
       - name: Generate lexical canonical projection
         run: python3 scripts/generate_rhd_canonical.py
       - name: Validate lexical canonical invariants and JSON Schema
