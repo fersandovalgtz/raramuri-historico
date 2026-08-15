@@ -56,11 +56,14 @@ if steffel.get("current_documentary_state", {}).get("unresolved_after_ai_recolla
 
 tellechea = json.loads(FILES[2].read_text(encoding="utf-8")) if FILES[2].exists() else {}
 if tellechea.get("project_role") != "second_source_replicability_pilot":
-    errors.append("Tellechea profile must have second_source_replicability_pilot role after witness fixation")
-if tellechea.get("completion_credit", {}).get("counts_toward_second_source_end_to_end_gate") is not False:
-    errors.append("Tellechea profile must not receive end-to-end completion credit before actual pipeline traversal")
-if tellechea.get("pilot_status") != "witness_checksum_fixed_not_yet_processed_end_to_end":
-    errors.append("Tellechea pilot status must record checksum-fixed witness without claiming end-to-end processing")
+    errors.append("Tellechea profile must have second_source_replicability_pilot role")
+credit = tellechea.get("completion_credit", {})
+if credit.get("counts_toward_second_source_end_to_end_gate") is not True:
+    errors.append("Tellechea real minimal pipeline traversal must count toward, but not close, second-source progress")
+if credit.get("completes_second_source_end_to_end_gate") is not False:
+    errors.append("Tellechea minimal pilot must not close the full-witness industrialization gate")
+if tellechea.get("pilot_status") != "minimal_end_to_end_pilot_complete_full_witness_pending":
+    errors.append("Tellechea pilot status must record minimal end-to-end completion and full-witness remainder")
 witness = tellechea.get("witness", {})
 if witness.get("identity_status") != "checksum_fixed_public_witness":
     errors.append("Tellechea witness must be checksum-fixed")
@@ -70,6 +73,16 @@ if witness.get("facsimile_pages") != 205 or witness.get("bytes") != 95088307:
     errors.append("Tellechea fixed witness page/byte identity changed")
 if witness.get("checksums_manifest") != "sources/tellechea-1826-witness.json":
     errors.append("Tellechea profile must point to the machine witness manifest")
+
+outputs = tellechea.get("minimal_pilot_outputs", {})
+if outputs.get("record_count") != 2:
+    errors.append("Tellechea profile must register two minimal end-to-end pilot records")
+for key in ("canonical_jsonl", "tei", "diagnostics"):
+    rel = outputs.get(key)
+    if not rel or not (ROOT / rel).exists():
+        errors.append(f"Tellechea minimal pilot output missing: {key}={rel}")
+if outputs.get("human_validation_claimed") is not False:
+    errors.append("Tellechea pilot outputs must explicitly deny human validation")
 
 manifest_path = ROOT / "sources/tellechea-1826-witness.json"
 if not manifest_path.exists():
@@ -89,4 +102,4 @@ else:
 if errors:
     print("\n".join("ERROR: " + e for e in errors))
     sys.exit(1)
-print("OK: reusable template and Steffel/Tellechea profiles enforce zero-required-human-adjudication; Tellechea has a checksum-fixed public witness but still receives zero premature end-to-end replication credit")
+print("OK: reusable template and Steffel/Tellechea profiles enforce zero-required-human-adjudication; Tellechea has checksum-fixed witness plus a real two-unit minimal end-to-end pipeline, while the full-witness industrialization gate remains open")
