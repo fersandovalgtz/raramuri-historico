@@ -4,8 +4,8 @@
   "scope": "Completion of Steffel 1791/1809 as a fully computational, AI-assisted historical-digital scholarly edition and reusable RHD reference implementation, with zero required human adjudication.",
   "supersedes_for_current_scope": "RHD-STEFFEL-COMPLETION-1.0",
   "interpretation": "Weighted completion of the machine-only scholarly edition. It is not a human-validation rate and does not imply a human-reviewed critical edition.",
-  "weighted_completion_percent": 93.0,
-  "weighted_remaining_percent": 7.0,
+  "weighted_completion_percent": 98.0,
+  "weighted_remaining_percent": 2.0,
   "dimensions": [
     {
       "id": "documentary_coverage",
@@ -36,36 +36,36 @@
       "id": "interoperability",
       "label": "TEI/TEI Lex-0/IIIF interoperability",
       "weight": 10,
-      "assessed_percent": 80,
-      "evidence": ["scripts/generate_rhd_tei.py", "tests/validate_rhd_tei.py", ".github/workflows/rhd-canonical.yml", "docs/IIIF_READINESS.md", "sources/external-references.json", "data/iiif/steffel-1809-local-page-fingerprints.json", "scripts/validate_external_iiif_witness.py", "scripts/probe_steffel_public_source.py"],
-      "note": "The strict Lex-0 projection validates against the official TEI Lex-0 0.9.5 RNG. The rich RHD TEI and appendix supplement preserve non-Lex-0 layers. The 84-page canonical working facsimile remains fixed internally by SHA-256 4ccc94aaff1fcc948341a103255f2c3f52dd7b8ca488b6dc79a921b3c9d6244f. The Repositorio de Lenguas/Dropbox URL is explicitly treated as mutable: a later 2026-08-15 probe returned a different 438-page, 26,702,093-byte PDF (SHA-256 3c2169d818770fecff7eca822c7dcc52f35d66356c5279913d85fb5364c652ce), so it is diagnostic only and cannot close the IIIF gate. External Internet Archive items remain noncanonical unless independently proven identical. Remaining work is publication of stable IIIF-compatible page resources derived from the exact canonical witness and entry-region linking.",
-      "completion_gate": "Lex-0 validation remains green and the checksum-fixed canonical facsimile is linked through stable IIIF-compatible identifiers/images."
+      "assessed_percent": 90,
+      "evidence": ["scripts/generate_rhd_tei.py", "tests/validate_rhd_tei.py", ".github/workflows/rhd-canonical.yml", "docs/IIIF_READINESS.md", "sources/external-references.json", "data/iiif/steffel-1809-all84-page-fingerprints.json", "data/iiif/steffel-1809-canonical-canvas-dimensions.json", "scripts/generate_steffel_static_iiif.py", "tests/validate_steffel_static_iiif_preparation.py", "scripts/build_steffel_iiif_images.py"],
+      "note": "The strict Lex-0 projection validates against the official TEI Lex-0 0.9.5 RNG. The exact canonical Steffel PDF was independently re-verified as 84 pages, 6,251,443 bytes and SHA-256 4ccc94aaff1fcc948341a103255f2c3f52dd7b8ca488b6dc79a921b3c9d6244f. From that exact binary RHD now has a reproducible static-image build recipe, a versioned 84-page Canvas dimension inventory, a deterministic IIIF Presentation 3 preparation with 84 Canvases, and page-level Canvas linkage for all 1,965 active records. CI validates 0 fabricated xywh regions and keeps the public-publication gate explicitly open. Remaining work is stable public hosting/probing of the exact-binary-derived page images and final persistent public IIIF identifiers.",
+      "completion_gate": "Lex-0 validation remains green and the checksum-fixed canonical facsimile is linked through stable, publicly recoverable IIIF-compatible identifiers/images."
     },
     {
       "id": "diachronic_research",
       "label": "Computational diachronic and comparative research",
       "weight": 10,
-      "assessed_percent": 75,
-      "evidence": ["data/research/diachronic_semantic_context_queue.json", "data/research/internal_concordance.json", "scripts/generate_diachronic_machine_scores.py", "tests/validate_diachronic_machine_scores.py", "data/research/diachronic_machine_scores.json", "RESEARCH_SNAPSHOT.md"],
-      "note": "All 298 candidate relations receive reproducible documentary-retrieval support scores from conservative graphemic similarity, internal attestations and reciprocal documentary support. Every relation remains candidate; no semantic, cognacy, etymological or continuity probability is fabricated.",
-      "completion_gate": "Computational candidate evidence is reproducible, calibrated through appropriate controls and published with explicit non-claims; no human adjudication is required by this scope."
+      "assessed_percent": 100,
+      "evidence": ["data/research/diachronic_semantic_context_queue.json", "data/research/internal_concordance.json", "scripts/generate_diachronic_machine_scores.py", "tests/validate_diachronic_machine_scores.py", "data/research/diachronic_machine_scores.json", "scripts/calibrate_diachronic_machine_scores.py", "tests/validate_diachronic_machine_calibration.py", "data/research/diachronic_machine_calibration.json", "scripts/generate_diachronic_machine_report.py", "tests/validate_diachronic_machine_report.py", "RESEARCH_SNAPSHOT.md"],
+      "note": "All 298 candidate relations have reproducible documentary-retrieval support scores and are calibrated against 5,066 deterministic broken-pair null controls. A publishable machine-only report and table are generated and validated. Every relation remains candidate; semantic identity, cognacy, etymology, sound law and historical continuity remain explicit non-claims unless separately demonstrated by evidence outside this machine-only retrieval layer.",
+      "completion_gate": "Closed for the declared machine-only scope: computational candidate evidence is reproducible, null-calibrated and publishable with explicit non-claims."
     },
     {
       "id": "appendices_parallel_text",
       "label": "Numeration appendix, trilingual language sample and Lord's Prayer",
       "weight": 5,
-      "assessed_percent": 90,
-      "evidence": ["data/appendices/facsimile_page_map.json", "data/appendices/numeration_visual_structure_ai.json", "data/appendices/trilingual_visual_alignment_ai.json", "data/appendices/prayer_visual_transcription_ai.json", "scripts/generate_appendix_canonical.py", "tests/validate_appendix_canonical.py", "scripts/generate_appendix_tei.py", "tests/validate_appendix_tei.py", "data/canonical/steffel-1809.appendices.json"],
-      "note": "AI visual collation fixes PDF 79–84 to printed pp. 369–374. The numeration section is machine-structured; all 22 formulas have Latin/German/Tarahumara machine alignment with field confidence and explicit uncertainty; the separate Lord's Prayer has an AI visual transcription; all 24 appendix objects are canonicalized and serialized in a dedicated TEI supplement. Residual work is refinement of low-confidence historical glyph readings, which may legitimately remain explicit uncertainty at final release.",
-      "completion_gate": "Appendices are machine-processed, structurally encoded, aligned where appropriate, serialized and retain explicit uncertainty for non-secure readings."
+      "assessed_percent": 100,
+      "evidence": ["data/appendices/facsimile_page_map.json", "data/appendices/numeration_visual_structure_ai.json", "data/appendices/trilingual_visual_alignment_ai.json", "data/appendices/prayer_visual_transcription_ai.json", "data/appendices/terminal_uncertainty_register.json", "scripts/generate_appendix_terminal_uncertainty.py", "tests/validate_appendix_terminal_uncertainty.py", "scripts/generate_appendix_canonical.py", "tests/validate_appendix_canonical.py", "scripts/generate_appendix_tei.py", "tests/validate_appendix_tei.py", "data/canonical/steffel-1809.appendices.json"],
+      "note": "AI visual collation fixes PDF 79–84 to printed pp. 369–374. The numeration section is machine-structured; all 22 formulas have Latin/German/Tarahumara machine alignment with field confidence and explicit uncertainty; the separate Lord's Prayer has an AI visual transcription; all 24 appendix objects are canonicalized and serialized in a dedicated TEI supplement. All residual medium/low readings are now explicitly terminalized as machine uncertainty with no speculative repair and no human-review requirement.",
+      "completion_gate": "Closed for machine-only scope: appendices are structurally encoded, aligned, serialized and all non-secure readings remain explicit terminal uncertainty."
     },
     {
       "id": "scientific_release",
       "label": "Scientific release, archive and citability",
       "weight": 5,
-      "assessed_percent": 60,
-      "evidence": ["CITATION.cff", "DATA_LICENSE.md", "PROVENANCE.md", "CHANGELOG.md", "docs/RELEASE_READINESS_RHD_1_0.md", "scripts/generate_release_manifest.py", "tests/validate_release_manifest.py", "dist/rhd-steffel-release-manifest.json"],
-      "note": "A deterministic release integrity manifest hashes and verifies lexical/canonical data, appendices, visual appendix layers, documentary diachronic scores, TEI/Lex-0 products, schema, source profiles, witness identity evidence and both minimal and complete second-source industrialization outputs. Persistent archive/identifier and final stable release remain pending.",
+      "assessed_percent": 80,
+      "evidence": ["CITATION.cff", "DATA_LICENSE.md", "PROVENANCE.md", "CHANGELOG.md", "docs/RELEASE_READINESS_RHD_1_0.md", "scripts/generate_release_manifest.py", "tests/validate_release_manifest.py", "dist/rhd-steffel-release-manifest.json", "docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md"],
+      "note": "The 0.9.0 machine-only prerelease package is citation-ready in the repository, with CHANGELOG, explicit conformity/policy, and a deterministic integrity manifest that passed full CI together with the lexical, appendix, diachronic and complete Tellechea outputs. Remaining work is the final stable release plus persistent external archive/identifier; those are publication actions rather than unresolved corpus science.",
       "completion_gate": "Stable RHD release, integrity manifest, persistent archive/identifier and explicit machine-only conformity statement are published."
     },
     {
@@ -74,7 +74,7 @@
       "weight": 5,
       "assessed_percent": 100,
       "evidence": ["source_profiles/_template.source.json", "source_profiles/tellechea-1826.pilot-candidate.json", "sources/tellechea-1826-witness.json", "docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md", "scripts/probe_tellechea_1826_witness.py", "scripts/generate_tellechea_pilot.py", "tests/validate_tellechea_pilot.py", "scripts/generate_tellechea_full_pilot.py", "tests/validate_tellechea_full_pilot.py", ".github/workflows/rhd-canonical.yml"],
-      "note": "Miguel Joaquín Tellechea's 1826 Compendio gramatical is the deliberately different second-source industrialization pilot. Its public DGB PDF is checksum-fixed as RHD-WIT-TELLECHEA-1826-DGB (205 pages; 95,088,307 bytes; SHA-256 c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc). After the two-unit minimum proof, the complete 205-page witness now traverses the declared RHD documentary pipeline in GitHub Actions. All 205 pages receive deterministic canonical documentary units; the output validates against the same RHD JSON Schema; a complete documentary TEI is generated; sparse pages use separate visual OCR fallback; the full artifact is uploaded reproducibly; no Lex-0 entries are fabricated; no universal-core redesign is required; and no human validation is claimed. This closes the RHD second-source industrialization gate without claiming a human-adjudicated critical edition of Tellechea.",
+      "note": "Miguel Joaquín Tellechea's 1826 Compendio gramatical is the deliberately different second-source industrialization pilot. Its public DGB PDF is checksum-fixed as RHD-WIT-TELLECHEA-1826-DGB (205 pages; 95,088,307 bytes; SHA-256 c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc). The complete 205-page witness traverses the declared RHD documentary pipeline in GitHub Actions. All 205 pages receive deterministic canonical documentary units; the output validates against the same RHD JSON Schema; a complete documentary TEI is generated; sparse pages use separate visual OCR fallback; the full artifact is uploaded reproducibly; no Lex-0 entries are fabricated; no universal-core redesign is required; and no human validation is claimed.",
       "completion_gate": "Closed: the complete declared Tellechea pilot witness traverses the RHD documentary pipeline with zero fundamental redesign of the universal core."
     }
   ]
