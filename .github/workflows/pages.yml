@@ -3,7 +3,7 @@ name: pages
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, rhd-1.0-specification]
     paths:
       - 'public/**'
       - '.github/workflows/pages.yml'
@@ -26,6 +26,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Enforce complete Steffel IIIF publication package on RHD branch
+        if: github.ref == 'refs/heads/rhd-1.0-specification'
+        run: |
+          set -euo pipefail
+          test -f public/iiif/steffel-1809/manifest.json
+          test -f public/iiif/steffel-1809/canvas-map.json
+          count=$(find public/iiif/steffel-1809/images -maxdepth 1 -type f -name '*.png' | wc -l)
+          test "$count" -eq 84
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          manifest=json.loads(Path('public/iiif/steffel-1809/manifest.json').read_text(encoding='utf-8'))
+          assert len(manifest.get('items', [])) == 84, len(manifest.get('items', []))
+          print('OK: complete Steffel IIIF package: 84 PNG + 84 Canvases')
+          PY
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static site
