@@ -16,6 +16,7 @@ FILES = [
     ("corpus_inventory", "data/corpus_inventory.json"),
     ("canonical_jsonl", "data/canonical/steffel-1809.entries.jsonl"),
     ("canonical_appendices", "data/canonical/steffel-1809.appendices.json"),
+    ("diachronic_machine_scores", "data/research/diachronic_machine_scores.json"),
     ("tei_rich", "data/tei/rhd-steffel-1809-tei.xml"),
     ("tei_lex0", "data/tei/rhd-steffel-1809-lex0.xml"),
     ("appendix_numeration", "data/appendices/numeration_ocr_candidates.json"),
@@ -63,6 +64,7 @@ def main():
     canonical_rows = [line for line in canonical.read_text(encoding="utf-8").splitlines() if line.strip()]
     appendix_source = read_json(ROOT / "data/appendices/trilingual_sample_ocr_candidates.json")
     appendix_canonical = read_json(ROOT / "data/canonical/steffel-1809.appendices.json")
+    diachronic = read_json(ROOT / "data/research/diachronic_machine_scores.json")
     completion = read_json(ROOT / "project/completion-model-machine-only.json")
     page_map = read_json(ROOT / "data/appendices/facsimile_page_map.json")
 
@@ -76,6 +78,7 @@ def main():
             "canonical_appendix_objects": len(appendix_canonical.get("objects", [])),
             "trilingual_formula_blocks": appendix_source.get("formula_count"),
             "appendix_facsimile_pages_mapped": len(page_map.get("mapping", [])),
+            "diachronic_documentary_candidates_scored": diachronic.get("count"),
         },
         "completion": {
             "weighted_completion_percent": completion.get("weighted_completion_percent"),
