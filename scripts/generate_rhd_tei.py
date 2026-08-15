@@ -223,7 +223,7 @@ def generate_lex0(active):
     diachronic hypotheses stay in the rich TEI/canonical layers. Lex-0 receives only
     persistent lexical entries and diplomatic lemmas, with explicit entry language.
     """
-    root = ET.Element(q("TEI"), {"type": "dictionary"})
+    root = ET.Element(q("TEI"), {"type": "lex-0"})
     add_common_header(
         root,
         "Rarámuri Histórico Digital — Corpus Steffel 1791/1809 — TEI Lex-0 projection",
