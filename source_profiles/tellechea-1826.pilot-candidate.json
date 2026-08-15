@@ -1,5 +1,5 @@
 {
-  "profile_version": "0.2.0-pilot-witness-fixed",
+  "profile_version": "0.3.0-minimal-end-to-end-pilot",
   "rhd_core_version": "1.0-draft",
   "source_id": "RHD-SRC-TELLECHEA-1826",
   "source_code": "TELLECHEA-1826",
@@ -13,7 +13,7 @@
   "project_role": "second_source_replicability_pilot",
   "edition_scope": "machine_only_scholarly_edition",
   "human_adjudication_required": false,
-  "pilot_status": "witness_checksum_fixed_not_yet_processed_end_to_end",
+  "pilot_status": "minimal_end_to_end_pilot_complete_full_witness_pending",
   "selection_rationale": [
     "historical Tarahumara source published only 17 years after Steffel",
     "structurally different from Steffel: grammar plus long Spanish–Tarahumara parallel religious/discourse material rather than a bidirectional dictionary",
@@ -87,7 +87,7 @@
     "human_review_required": false
   },
   "transcription": {
-    "method": "machine extraction and AI-assisted direct facsimile collation against checksum-fixed witness",
+    "method": "machine extraction plus independent machine visual OCR against checksum-fixed witness",
     "human_verification_implied": false,
     "uncertainty_must_be_explicit": true,
     "terminal_states_may_include_unresolved": true
@@ -109,6 +109,19 @@
       "historical_continuity"
     ]
   },
+  "minimal_pilot_outputs": {
+    "generator": "scripts/generate_tellechea_pilot.py",
+    "validator": "tests/validate_tellechea_pilot.py",
+    "canonical_jsonl": "data/pilot/tellechea-1826.minimal-pilot.jsonl",
+    "tei": "data/pilot/tellechea-1826.minimal-pilot.tei.xml",
+    "diagnostics": "data/pilot/tellechea-1826.minimal-pilot.diagnostics.json",
+    "record_count": 2,
+    "grammar_record": "RHD-T1826-00001",
+    "parallel_layout_record": "RHD-T1826-00002",
+    "grammar_locator": {"pdf_page": 32, "printed_page": 6},
+    "parallel_locator": {"pdf_page": 75, "printed_page": 49},
+    "human_validation_claimed": false
+  },
   "pilot_success_criteria": [
     "exact witness is checksum-fixed",
     "document hierarchy is represented without changing RHD core identity/provenance concepts",
@@ -119,7 +132,8 @@
     "CI demonstrates reproducible generation from source evidence to canonical/TEI outputs"
   ],
   "completion_credit": {
-    "counts_toward_second_source_end_to_end_gate": false,
-    "reason": "The witness acquisition gate is now satisfied, but replication is not demonstrated until source material actually traverses extraction, canonicalization and TEI export."
+    "counts_toward_second_source_end_to_end_gate": true,
+    "completes_second_source_end_to_end_gate": false,
+    "reason": "A real grammar unit and a real two-column Spanish–Tarahumara prayer unit now traverse checksum verification, embedded-source extraction, independent facsimile OCR, canonical RHD validation and TEI export in CI. Full-witness processing and change-impact analysis remain required before the industrialization gate is closed."
   }
 }
