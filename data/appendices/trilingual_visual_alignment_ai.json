@@ -1,0 +1,245 @@
+{
+  "dataset_id": "RHD-S1809-TRILINGUAL-VISUAL-ALIGNMENT-01",
+  "source": "Steffel 1809, printed pp. 371–374",
+  "method": "ai_visual_transcription_and_formula_alignment",
+  "scope": "formula-level alignment with normalized line breaks; not human-verified and not asserted as final diplomatic transcription",
+  "human_verified": false,
+  "language_order": ["la", "de", "und"],
+  "normalization_policy": {
+    "line_breaks": "normalized within each language field",
+    "latin_german_long_s": "normalized to ordinary s for this alignment layer; facsimile remains authority",
+    "historical_spelling": "otherwise preserved where visually legible",
+    "tarahumara_diacritics": "preserved where visually legible",
+    "uncertain_readings": "retained with explicit uncertainty notes rather than silently corrected"
+  },
+  "formulas": [
+    {
+      "formula": 1,
+      "printed_page": 371,
+      "pdf_page": 81,
+      "latin": "Deus non moritur, homo non diu vivit.",
+      "german": "Gott stirbt nicht, der Mensch lebt nicht lange.",
+      "tarahumara": "Tepágatigameke tá mukú, tehóje tá guelí háa.",
+      "confidence": {"la": "high", "de": "high", "und": "high"},
+      "uncertain_segments": []
+    },
+    {
+      "formula": 2,
+      "printed_page": 371,
+      "pdf_page": 81,
+      "latin": "Mater osculatur liberos suos. Habet multum lactis in uberibus. Ipsius maritus amat ipsam.",
+      "german": "Die Mutter küsset ihre Kinder. Sie hat in den Brüsten viel Milch. Ihr Mann liebt sie.",
+      "tarahumara": "Jejé nothépa, pú cucuſchiguála. Guelú tſchigué putſchitſchic. Pú cunála pú gáéla.",
+      "confidence": {"la": "high", "de": "high", "und": "medium"},
+      "uncertain_segments": ["Tarahumara internal consonant sequence in cucuſchiguála/putſchitſchic is visually dense; facsimile remains authoritative."]
+    },
+    {
+      "formula": 3,
+      "printed_page": 371,
+      "pdf_page": 81,
+      "latin": "Hæc foemina erat gravida. Ante hos sex dies peperit filium. Adhuc ægrotat. Filia ejus juxta eam sedet, et flet.",
+      "german": "Dieses Weib war schwanger. Vor diesen sechs Tagen hat sie einen Sohn gebohren. Sie ist noch krank. Ihre Tochter sitzt bey ihr und weinet.",
+      "tarahumara": "Iché mukí putſchiruc. Puſánic tſelitaje ranáleke. Pihí najulú. Puhé agulía ijújega amúlipi jaſlá, nalaga tſchigó.",
+      "confidence": {"la": "high", "de": "high", "und": "medium"},
+      "uncertain_segments": ["Tarahumara final clause after Puhé agulía contains visually compact letterforms; alignment is secure but some graphemes remain candidate readings."]
+    },
+    {
+      "formula": 4,
+      "printed_page": 371,
+      "pdf_page": 81,
+      "latin": "Infans non vult mammam sugere.",
+      "german": "Das Kind will an der Brust nicht saugen.",
+      "tarahumara": "Gutſchiguá caita tſchitſchinála.",
+      "confidence": {"la": "high", "de": "high", "und": "medium"},
+      "uncertain_segments": ["Initial Tarahumara form is graphically difficult; retained as Gutſchiguá at this layer."]
+    },
+    {
+      "formula": 5,
+      "printed_page": 372,
+      "pdf_page": 82,
+      "latin": "Hæc puella nondum potest incedere. Ante annum et duos menses nata est.",
+      "german": "Dieses Mädchen kann noch nicht gehen. Es ist vor einem Jahre und zwey Monaten gebohren.",
+      "tarahumara": "Iché teguéke tatſó ſimiſaníle. Pilé paniváli, guocá maitſátaje putſé ranáliruc.",
+      "confidence": {"la": "high", "de": "high", "und": "medium"},
+      "uncertain_segments": ["The middle Tarahumara verb sequence is retained as an AI visual candidate."]
+    },
+    {
+      "formula": 6,
+      "printed_page": 372,
+      "pdf_page": 82,
+      "latin": "Hi quatuor pueri omnes bene valent. Primus currit, secundus salit, tertius canit, quartus ridet.",
+      "german": "Diese vier Knaben sind alle wohlauf. Der erste läuft, der zweyte springt, der dritte singt, der vierte lacht.",
+      "tarahumara": "Iché naguó cucúrogui jomá ganile. Piléraje humaguá, guocáraje jaugui, baicáraje guicára, navóraje atſchi.",
+      "confidence": {"la": "high", "de": "high", "und": "high"},
+      "uncertain_segments": []
+    },
+    {
+      "formula": 7,
+      "printed_page": 372,
+      "pdf_page": 82,
+      "latin": "Hic vir est cæcus. Uxor ejus est surda: non audit nos loqui.",
+      "german": "Dieser Mann ist blind. Sein Eheweib ist taub: sie hört uns nicht reden.",
+      "tarahumara": "Iché tehóje tapusí, oder puſíame húcu. Puhé upíla tá kaké neogála, oder upíla nachcátule.",
+      "confidence": {"la": "high", "de": "high", "und": "high"},
+      "uncertain_segments": []
+    },
+    {
+      "formula": 8,
+      "printed_page": 372,
+      "pdf_page": 82,
+      "latin": "Frater tuus sternutat; soror tua dormit. Pater vester vigilat. Edit et bibit parum.",
+      "german": "Dein Bruder nießet; deine Schwester schläft. Euer Vater wachet. Er ißt und trinkt wenig.",
+      "tarahumara": "Mú batſchilá tſchuſiguá; mú boníla cotſchí. Emé nonó nené, oder tá cotſchí. Tachpebi coá, pahí putſé.",
+      "confidence": {"la": "high", "de": "high", "und": "high"},
+      "uncertain_segments": []
+    },
+    {
+      "formula": 9,
+      "printed_page": 372,
+      "pdf_page": 82,
+      "latin": "Nasus est in medio faciei.",
+      "german": "Die Nase ist mitten im Gesichte.",
+      "tarahumara": "Jacunábo (jachcála) retéguialatſchie naſſipa húcu.",
+      "confidence": {"la": "high", "de": "high", "und": "medium"},
+      "uncertain_segments": ["Compound-looking sequence retéguialatſchie is retained from visual reading without morphological interpretation."]
+    },
+    {
+      "formula": 10,
+      "printed_page": 372,
+      "pdf_page": 82,
+      "latin": "Habemus duos pedes; et utraque manu qui nōs digitos.",
+      "german": "Wir haben zween Füße, und an jeder Hand fünf Finger.",
+      "tarahumara": "Tamehé guoca talá naligue; pipilé ſecatſchiki malíki macútſchiguala putſé.",
+      "confidence": {"la": "medium", "de": "high", "und": "medium"},
+      "uncertain_segments": ["Latin phrase is transcribed as visually printed ('qui nōs digitos') and is not silently emended to match the German meaning.", "Tarahumara internal sequence macútſchiguala remains an AI visual candidate."]
+    },
+    {
+      "formula": 11,
+      "printed_page": 372,
+      "pdf_page": 82,
+      "latin": "In capite nascuntur pili.",
+      "german": "Auf dem Haupte wachsen Haare.",
+      "tarahumara": "Mootſchíki kupaca matſicoſjena.",
+      "confidence": {"la": "high", "de": "high", "und": "medium"},
+      "uncertain_segments": ["Final Tarahumara form matſicoſjena contains dense historical type; retained as candidate reading."]
+    },
+    {
+      "formula": 12,
+      "printed_page": 373,
+      "pdf_page": 83,
+      "latin": "Lingua et dentes sunt in ore.",
+      "german": "Die Zunge und Zähne sind im Munde.",
+      "tarahumara": "Tſchumíitſchie teníla, raméla putſé húcu.",
+      "confidence": {"la": "high", "de": "high", "und": "medium"},
+      "uncertain_segments": ["Initial Tarahumara form retains a visually dense tſch/ii sequence."]
+    },
+    {
+      "formula": 13,
+      "printed_page": 373,
+      "pdf_page": 83,
+      "latin": "Dextrum brachium robustius est sinistro.",
+      "german": "Der rechte Arm ist stärker, als der linke.",
+      "tarahumara": "Guatónana iguágue húcu, mápu révega hogueráne.",
+      "confidence": {"la": "high", "de": "high", "und": "low"},
+      "uncertain_segments": ["Tarahumara sequence after mápu is difficult in the facsimile; révega hogueráne is retained only as a low-confidence visual candidate."]
+    },
+    {
+      "formula": 14,
+      "printed_page": 373,
+      "pdf_page": 83,
+      "latin": "Pilus est longus et tenuis. Sanguis est ruber. Ossa dura sunt sicut lapis.",
+      "german": "Das Haar ist lang und fein. Das Blut ist roth. Die Beine sind hart, wie Stein.",
+      "tarahumara": "Kupáca guelú húcu, tirákome putſé. Elála tſeſlácameke húcu. Gueſó peguá mapujére tétek.",
+      "confidence": {"la": "high", "de": "high", "und": "medium"},
+      "uncertain_segments": ["The second Tarahumara clause contains a dense historical form transcribed here as tſeſlácameke."]
+    },
+    {
+      "formula": 15,
+      "printed_page": 373,
+      "pdf_page": 83,
+      "latin": "Piscis habet oculos, non vero aures.",
+      "german": "Der Fisch hat Augen, aber keine Ohren.",
+      "tarahumara": "Potſchí puſináligue, caita kaké.",
+      "confidence": {"la": "high", "de": "high", "und": "high"},
+      "uncertain_segments": []
+    },
+    {
+      "formula": 16,
+      "printed_page": 373,
+      "pdf_page": 83,
+      "latin": "Hæc avis tarde volat. In terra residet. Pennæ alarum sunt nigræ, rostrum acutum et cauda brevis. In nido ejus sunt ova alba.",
+      "german": "Dieser Vogel fliegt langsam. Er sitzt auf der Erde. Die Schwungfedern sind schwarz, der Schnabel spitzig, und der Schweif kurz. In seinem Neste sind weiße Eyer.",
+      "tarahumara": "Iché tſchúlugui keliki niní. Guetſchikí jaſla. Pú maſhácatſchócame húcu, tſchumíla guelí coſí; cutſí pú calírtſchíki. Pú kauguala roſácame húcu.",
+      "confidence": {"la": "high", "de": "high", "und": "medium"},
+      "uncertain_segments": ["Several Tarahumara compound-looking sequences are visually dense; formula-level alignment is secure but individual graphemes remain candidates."]
+    },
+    {
+      "formula": 17,
+      "printed_page": 373,
+      "pdf_page": 83,
+      "latin": "Folia arboris sunt viridia, rami sunt crassi.",
+      "german": "Die Blätter des Baumes sind grün, die Aeste sind dicke.",
+      "tarahumara": "Cutſchíki bacaguála pamaguéame húcu. Pú cuſíki gueléame.",
+      "confidence": {"la": "high", "de": "high", "und": "high"},
+      "uncertain_segments": []
+    },
+    {
+      "formula": 18,
+      "printed_page": 373,
+      "pdf_page": 83,
+      "latin": "Ignis ardet. Videmus fumum, flammam et prunam.",
+      "german": "Das Feuer brennt. Wir sehen den Rauch, die Flamme und die Kohle.",
+      "tarahumara": "Náiki rachtá. Taméha molíki reteguá, rachelíki, ſauguíki putſé.",
+      "confidence": {"la": "high", "de": "high", "und": "high"},
+      "uncertain_segments": []
+    },
+    {
+      "formula": 19,
+      "printed_page": 374,
+      "pdf_page": 84,
+      "latin": "Unda in fluvio rapide fertur.",
+      "german": "Das Wasser im Fluße geht reißend.",
+      "tarahumara": "Pauguíki pauguitſchíki igué ſimi.",
+      "confidence": {"la": "high", "de": "high", "und": "high"},
+      "uncertain_segments": []
+    },
+    {
+      "formula": 20,
+      "printed_page": 374,
+      "pdf_page": 84,
+      "latin": "Luna major est quam stella et minor quam sol.",
+      "german": "Der Mond ist größer als ein Stern, und kleiner als die Sonne.",
+      "tarahumara": "Maitſáca guelubé húcu mapujerí ſopolí, khutabé putſé mapujerí taicá.",
+      "confidence": {"la": "high", "de": "high", "und": "medium"},
+      "uncertain_segments": ["Tarahumara khutabé is visually legible enough for candidate transcription but remains medium confidence."]
+    },
+    {
+      "formula": 21,
+      "printed_page": 374,
+      "pdf_page": 84,
+      "latin": "Heri vesperi pluit. Hodie mane vidi arcum cœlestem.",
+      "german": "Gestern Abend hat es geregnet. Heute früh habe ich einen Regenbogen gesehen.",
+      "tarahumara": "Tapáco tſchonálago juáuleko. Beá tſelílago nehé hatágo réguí reteguáleke.",
+      "confidence": {"la": "high", "de": "high", "und": "low"},
+      "uncertain_segments": ["Tarahumara first clause and the word transcribed hatágo contain damaged/dense type; retained explicitly as low-confidence candidates."]
+    },
+    {
+      "formula": 22,
+      "printed_page": 374,
+      "pdf_page": 84,
+      "latin": "Nox obscura est, dies lucidus.",
+      "german": "Die Nacht ist dunkel, der Tag licht.",
+      "tarahumara": "Tucaguá tamatsíame húcu, ragué tſelí.",
+      "confidence": {"la": "high", "de": "high", "und": "high"},
+      "uncertain_segments": []
+    }
+  ],
+  "summary": {
+    "formula_count": 22,
+    "all_three_language_fields_present": true,
+    "formula_alignment_complete": true,
+    "human_validation_claimed": false,
+    "tarahumara_low_confidence_formulas": [13, 21],
+    "interpretation": "This layer establishes machine-readable formula-level parallel alignment from the facsimile. It is a computational scholarly layer, not a human-reviewed diplomatic edition."
+  }
+}
