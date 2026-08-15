@@ -12,6 +12,8 @@ OUT = OUT_DIR / "rhd-steffel-release-manifest.json"
 FILES = [
     ("source_ocr", "sources/steffel-1809-ocr-source.txt"),
     ("source_checksums", "sources/checksums.json"),
+    ("witness_registry", "sources/external-references.json"),
+    ("iiif_local_page_fingerprints", "data/iiif/steffel-1809-local-page-fingerprints.json"),
     ("master_entries", "data/entries.csv"),
     ("corpus_inventory", "data/corpus_inventory.json"),
     ("canonical_jsonl", "data/canonical/steffel-1809.entries.jsonl"),
@@ -76,6 +78,10 @@ def main():
     diachronic = read_json(ROOT / "data/research/diachronic_machine_scores.json")
     completion = read_json(ROOT / "project/completion-model-machine-only.json")
     page_map = read_json(ROOT / "data/appendices/facsimile_page_map.json")
+    witness_registry = read_json(ROOT / "sources/external-references.json")
+
+    canonical_witnesses = [w for w in witness_registry.get("witnesses", []) if w.get("canonical_for_rhd") is not False and w.get("role") == "canonical_working_facsimile"]
+    parallel_witnesses = [w for w in witness_registry.get("witnesses", []) if w.get("canonical_for_rhd") is False]
 
     manifest = {
         "manifest_id": "RHD-STEFFEL-MACHINE-ONLY-RELEASE-MANIFEST-1",
@@ -91,6 +97,8 @@ def main():
             "prayer_visual_transcriptions": 1 if prayer_visual.get("text") else 0,
             "appendix_facsimile_pages_mapped": len(page_map.get("mapping", [])),
             "diachronic_documentary_candidates_scored": diachronic.get("count"),
+            "canonical_working_witnesses": len(canonical_witnesses),
+            "registered_noncanonical_external_witnesses": len(parallel_witnesses),
         },
         "completion": {
             "weighted_completion_percent": completion.get("weighted_completion_percent"),
