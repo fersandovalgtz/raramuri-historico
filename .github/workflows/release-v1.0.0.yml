@@ -1,0 +1,49 @@
+name: Publish RHD 1.0.0 after canonical green
+
+on:
+  workflow_run:
+    workflows:
+      - "RHD 1.0 machine-only canonical, TEI, IIIF, appendices and release integrity"
+    types: [completed]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_branch == 'main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout validated commit
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+
+      - name: Enforce explicit RHD 1.0.0 release authorization
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f RELEASE_READY_V1.0.0
+          grep -qx 'RHD 1.0.0 release authorized' RELEASE_READY_V1.0.0
+          grep -q '^version: 1.0.0$' CITATION.cff
+          test -f docs/RELEASE_NOTES_V1.0.0.md
+
+      - name: Create stable tag and GitHub Release exactly once
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VALIDATED_SHA: ${{ github.event.workflow_run.head_sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh release view v1.0.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo 'v1.0.0 already exists; leaving it unchanged.'
+            exit 0
+          fi
+          gh release create v1.0.0 \
+            --repo "$GITHUB_REPOSITORY" \
+            --target "$VALIDATED_SHA" \
+            --title 'Rarámuri Histórico Digital 1.0.0' \
+            --notes-file docs/RELEASE_NOTES_V1.0.0.md
+          gh release view v1.0.0 --repo "$GITHUB_REPOSITORY" --json tagName,targetCommitish,url,isDraft,isPrerelease
