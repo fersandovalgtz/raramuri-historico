@@ -6,12 +6,15 @@ on:
       - 'scripts/generate_rhd_canonical.py'
       - 'scripts/generate_appendix_candidates.py'
       - 'scripts/generate_appendix_canonical.py'
+      - 'scripts/generate_appendix_tei.py'
       - 'scripts/generate_diachronic_machine_scores.py'
       - 'scripts/generate_rhd_tei.py'
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_appendix_candidates.py'
+      - 'tests/validate_trilingual_visual_alignment.py'
       - 'tests/validate_appendix_canonical.py'
+      - 'tests/validate_appendix_tei.py'
       - 'tests/validate_diachronic_machine_scores.py'
       - 'tests/validate_rhd_tei.py'
       - 'tests/validate_release_manifest.py'
@@ -23,7 +26,10 @@ on:
       - 'data/validation/**'
       - 'data/research/diachronic_semantic_context_queue.json'
       - 'data/appendices/facsimile_page_map.json'
+      - 'data/appendices/trilingual_visual_alignment_ai.json'
       - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
+      - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
+      - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
       - 'project/completion-model-machine-only.json'
       - '.github/workflows/rhd-canonical.yml'
   push:
@@ -32,12 +38,15 @@ on:
       - 'scripts/generate_rhd_canonical.py'
       - 'scripts/generate_appendix_candidates.py'
       - 'scripts/generate_appendix_canonical.py'
+      - 'scripts/generate_appendix_tei.py'
       - 'scripts/generate_diachronic_machine_scores.py'
       - 'scripts/generate_rhd_tei.py'
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_appendix_candidates.py'
+      - 'tests/validate_trilingual_visual_alignment.py'
       - 'tests/validate_appendix_canonical.py'
+      - 'tests/validate_appendix_tei.py'
       - 'tests/validate_diachronic_machine_scores.py'
       - 'tests/validate_rhd_tei.py'
       - 'tests/validate_release_manifest.py'
@@ -49,7 +58,10 @@ on:
       - 'data/validation/**'
       - 'data/research/diachronic_semantic_context_queue.json'
       - 'data/appendices/facsimile_page_map.json'
+      - 'data/appendices/trilingual_visual_alignment_ai.json'
       - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
+      - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
+      - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
       - 'project/completion-model-machine-only.json'
       - '.github/workflows/rhd-canonical.yml'
 
@@ -77,10 +89,16 @@ jobs:
         run: python3 scripts/generate_appendix_candidates.py
       - name: Validate appendix OCR candidates and epistemic safeguards
         run: python3 tests/validate_appendix_candidates.py
+      - name: Validate AI visual alignment for all 22 formulas
+        run: python3 tests/validate_trilingual_visual_alignment.py
       - name: Generate canonical appendix layer
         run: python3 scripts/generate_appendix_canonical.py
-      - name: Validate canonical appendix layer and facsimile mapping
+      - name: Validate canonical appendix layer and machine alignment
         run: python3 tests/validate_appendix_canonical.py
+      - name: Generate TEI supplement for aligned appendices
+        run: python3 scripts/generate_appendix_tei.py
+      - name: Validate appendix TEI supplement
+        run: python3 tests/validate_appendix_tei.py
       - name: Generate documentary-only diachronic machine scores
         run: python3 scripts/generate_diachronic_machine_scores.py
       - name: Validate diachronic scoring non-claims
