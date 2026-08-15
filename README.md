@@ -149,6 +149,7 @@ RHD forma parte de un conjunto de proyectos conectados y mantiene las responsabi
 
 **Dr. Fernando Sandoval Gutierrez**  
 ORCID: [0000-0002-3168-6725](https://orcid.org/0000-0002-3168-6725)  
+Correo institucional: [fernando.sandoval@uacj.mx](mailto:fernando.sandoval@uacj.mx)  
 Universidad Autónoma de Ciudad Juárez · Universidad CEEES / CEEES Cuauhtémoc · Cuerpo Académico UACJ-113
 
 Perfiles: [GitHub](https://github.com/fersandovalgtz) · [Google Scholar](https://scholar.google.com/citations?user=zNZsYYAAAAAJ&hl=es) · [CATHI-UACJ](https://cathi.uacj.mx/handle/20.500.11961/3028/browse?authority=0000-0002-3168-6725&type=author) · [ResearchGate](https://www.researchgate.net/profile/Fernando-Sandoval-Gutierrez) · [ResearchID](https://researchid.co/fersandovalg) · [Academia.edu](https://uacj.academia.edu/FernandoSandoval)
