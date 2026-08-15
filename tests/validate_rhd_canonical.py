@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Validate the first Steffel -> RHD 1.0 canonical projection.
+"""Validate the Steffel -> RHD 1.0 canonical projection.
 
 Uses only the Python standard library. If jsonschema is installed, full schema
 validation is also performed; otherwise structural and corpus invariants remain mandatory.
 """
 
 from pathlib import Path
+from collections import Counter
 import csv
 import json
 import re
@@ -18,6 +19,8 @@ SUMMARY = ROOT / "data" / "canonical" / "steffel-1809.summary.json"
 SCHEMA_PATH = ROOT / "schemas" / "rhd-entry-1.0.schema.json"
 PROFILE_PATH = ROOT / "source_profiles" / "steffel-1809.source.json"
 INVENTORY_PATH = ROOT / "data" / "corpus_inventory.json"
+VALIDATION_PROGRESS = ROOT / "data" / "validation" / "validation_progress.json"
+PHIL_DIR = ROOT / "data" / "validation" / "review"
 
 errors = []
 
@@ -35,7 +38,43 @@ def load_jsonl(path):
     return result
 
 
-for required in (SOURCE_CSV, CANONICAL, SUMMARY, SCHEMA_PATH, PROFILE_PATH, INVENTORY_PATH):
+def load_expected_phil():
+    expected = {}
+    batches = []
+    dispositions = Counter()
+    for path in sorted(PHIL_DIR.glob("philological_review_batch_*.json")):
+        manifest = json.loads(path.read_text(encoding="utf-8"))
+        batch_id = manifest.get("batch_id")
+        batches.append(batch_id)
+        if manifest.get("human_verified") is not False:
+            errors.append(f"{batch_id}: PHIL manifest must explicitly remain non-human")
+        if manifest.get("philologically_verified_by_human") is not False:
+            errors.append(f"{batch_id}: PHIL manifest must not claim human philological verification")
+        for rec in manifest.get("records", []):
+            rid = rec.get("record_id")
+            key = f"{batch_id}:{rid}"
+            if key in expected:
+                errors.append(f"duplicate expected PHIL event {key}")
+            expected[key] = {
+                "record_id": rid,
+                "batch_id": batch_id,
+                "decision": rec.get("disposition"),
+                "date": manifest.get("review_date"),
+                "manifest_path": path.relative_to(ROOT).as_posix(),
+            }
+            dispositions[rec.get("disposition")] += 1
+    return expected, batches, dispositions
+
+
+for required in (
+    SOURCE_CSV,
+    CANONICAL,
+    SUMMARY,
+    SCHEMA_PATH,
+    PROFILE_PATH,
+    INVENTORY_PATH,
+    VALIDATION_PROGRESS,
+):
     if not required.exists():
         errors.append(f"missing required file: {required.relative_to(ROOT)}")
 
@@ -51,6 +90,8 @@ summary = json.loads(SUMMARY.read_text(encoding="utf-8"))
 schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
 profile = json.loads(PROFILE_PATH.read_text(encoding="utf-8"))
 inventory = json.loads(INVENTORY_PATH.read_text(encoding="utf-8"))
+validation_progress = json.loads(VALIDATION_PROGRESS.read_text(encoding="utf-8"))
+expected_phil, expected_batches, expected_dispositions = load_expected_phil()
 
 if len(canonical) != len(source_rows):
     errors.append(f"canonical count {len(canonical)} != source count {len(source_rows)}")
@@ -82,6 +123,8 @@ if actual_active != expected_active:
     errors.append(f"active count {actual_active} != {expected_active}")
 if actual_open != expected_open:
     errors.append(f"open-validation note count {actual_open} != {expected_open}")
+if expected_open != validation_progress.get("open_validation_records_total"):
+    errors.append("open-validation source count differs from validation_progress")
 
 if expected_active != inventory["facsimile_review"]["active_candidates_after_review"]:
     errors.append("active source count differs from inventory")
@@ -97,6 +140,9 @@ required_top = {
     "layers",
     "provenance",
 }
+
+actual_phil = {}
+human_event_count = 0
 
 for item in canonical:
     rid = item.get("record_id")
@@ -146,15 +192,48 @@ for item in canonical:
         if diplomatic.get("headword") != expected_head:
             errors.append(f"{rid}: diplomatic headword changed")
 
-    # RHD 1.0 safeguard: no synthetic human event may be fabricated by this adapter.
     for event in item.get("validation", []):
         if event.get("reviewer_type") == "human":
+            human_event_count += 1
             errors.append(f"{rid}: adapter fabricated a human validation event")
+        if event.get("reviewer_type") == "ai_assisted" and event.get("scope") == "philological":
+            eid = event.get("event_id")
+            if eid in actual_phil:
+                errors.append(f"duplicate canonical PHIL event {eid}")
+            actual_phil[eid] = {"record_id": rid, "event": event}
 
     for event in item.get("provenance", []):
-        if event.get("agent_type") == "ai_system" and event.get("activity_type") == "diplomatic_transcription":
-            if rejected:
-                errors.append(f"{rid}: rejected boundary has diplomatic AI provenance")
+        if event.get("agent_type") == "ai_system" and event.get("activity_type") == "diplomatic_transcription" and rejected:
+            errors.append(f"{rid}: rejected boundary has diplomatic AI provenance")
+
+# The canonical projection must contain exactly the append-only PHIL event universe.
+if set(actual_phil) != set(expected_phil):
+    missing = sorted(set(expected_phil) - set(actual_phil))[:10]
+    extra = sorted(set(actual_phil) - set(expected_phil))[:10]
+    errors.append(f"PHIL event set mismatch; missing={missing} extra={extra}")
+
+for eid, exp in expected_phil.items():
+    if eid not in actual_phil:
+        continue
+    actual = actual_phil[eid]
+    event = actual["event"]
+    if actual["record_id"] != exp["record_id"]:
+        errors.append(f"{eid}: attached to wrong record")
+    if event.get("decision") != exp["decision"]:
+        errors.append(f"{eid}: PHIL disposition changed")
+    if event.get("date") != exp["date"]:
+        errors.append(f"{eid}: PHIL review date changed")
+    if event.get("reviewer_type") != "ai_assisted":
+        errors.append(f"{eid}: PHIL event must remain ai_assisted")
+    if exp["manifest_path"] not in event.get("evidence", []):
+        errors.append(f"{eid}: source manifest missing from evidence")
+
+if len(actual_phil) != validation_progress.get("ai_philological_recollation_reviewed"):
+    errors.append("canonical PHIL event count differs from validation_progress")
+if validation_progress.get("ai_philological_recollation_remaining") != 0:
+    errors.append("source validation_progress no longer reports exhausted AI recollation")
+if validation_progress.get("human_verified_records") != 0:
+    errors.append("source validation_progress unexpectedly reports human verified records")
 
 # Summary must be calculable from the records, not manually asserted.
 expected_summary = {
@@ -163,11 +242,19 @@ expected_summary = {
     "rejected_boundary": actual_rejected,
     "candidate": sum(r.get("status") == "candidate" for r in canonical),
     "open_validation_notes": actual_open,
+    "philological_ai_validation_events": len(actual_phil),
     "human_validation_events": 0,
 }
 for key, expected in expected_summary.items():
     if summary.get(key) != expected:
         errors.append(f"summary {key}={summary.get(key)} != {expected}")
+
+if summary.get("philological_ai_batches") != expected_batches:
+    errors.append("summary PHIL batch list differs from manifests")
+if summary.get("philological_ai_dispositions") != dict(sorted(expected_dispositions.items())):
+    errors.append("summary PHIL disposition counts differ from manifests")
+if human_event_count != 0:
+    errors.append("canonical projection contains human validation events before human manifests exist")
 
 # Optional full JSON Schema validation if the environment already provides jsonschema.
 try:
@@ -189,5 +276,5 @@ if errors:
 print(
     f"OK: {len(canonical)} canonical records; {actual_active} active; "
     f"{actual_rejected} rejected boundaries; {actual_open} open-validation notes; "
-    "no synthetic human validation events"
+    f"{len(actual_phil)} PHIL events joined; no synthetic human validation events"
 )
