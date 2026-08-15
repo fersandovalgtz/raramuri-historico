@@ -13,6 +13,7 @@ on:
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_appendix_candidates.py'
       - 'tests/validate_trilingual_visual_alignment.py'
+      - 'tests/validate_appendix_visual_transcriptions.py'
       - 'tests/validate_appendix_canonical.py'
       - 'tests/validate_appendix_tei.py'
       - 'tests/validate_diachronic_machine_scores.py'
@@ -27,6 +28,8 @@ on:
       - 'data/research/diachronic_semantic_context_queue.json'
       - 'data/appendices/facsimile_page_map.json'
       - 'data/appendices/trilingual_visual_alignment_ai.json'
+      - 'data/appendices/prayer_visual_transcription_ai.json'
+      - 'data/appendices/numeration_visual_structure_ai.json'
       - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
       - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
       - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
@@ -45,6 +48,7 @@ on:
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_appendix_candidates.py'
       - 'tests/validate_trilingual_visual_alignment.py'
+      - 'tests/validate_appendix_visual_transcriptions.py'
       - 'tests/validate_appendix_canonical.py'
       - 'tests/validate_appendix_tei.py'
       - 'tests/validate_diachronic_machine_scores.py'
@@ -59,6 +63,8 @@ on:
       - 'data/research/diachronic_semantic_context_queue.json'
       - 'data/appendices/facsimile_page_map.json'
       - 'data/appendices/trilingual_visual_alignment_ai.json'
+      - 'data/appendices/prayer_visual_transcription_ai.json'
+      - 'data/appendices/numeration_visual_structure_ai.json'
       - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
       - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
       - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
@@ -91,11 +97,13 @@ jobs:
         run: python3 tests/validate_appendix_candidates.py
       - name: Validate AI visual alignment for all 22 formulas
         run: python3 tests/validate_trilingual_visual_alignment.py
+      - name: Validate AI visual numeration and prayer layers
+        run: python3 tests/validate_appendix_visual_transcriptions.py
       - name: Generate canonical appendix layer
         run: python3 scripts/generate_appendix_canonical.py
       - name: Validate canonical appendix layer and machine alignment
         run: python3 tests/validate_appendix_canonical.py
-      - name: Generate TEI supplement for aligned appendices
+      - name: Generate TEI supplement for machine-processed appendices
         run: python3 scripts/generate_appendix_tei.py
       - name: Validate appendix TEI supplement
         run: python3 tests/validate_appendix_tei.py
