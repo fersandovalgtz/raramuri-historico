@@ -4,8 +4,8 @@
   "scope": "Completion of Steffel 1791/1809 as a fully computational, AI-assisted historical-digital scholarly edition and reusable RHD reference implementation, with zero required human adjudication.",
   "supersedes_for_current_scope": "RHD-STEFFEL-COMPLETION-1.0",
   "interpretation": "Weighted completion of the machine-only scholarly edition. It is not a human-validation rate and does not imply a human-reviewed critical edition.",
-  "weighted_completion_percent": 83.25,
-  "weighted_remaining_percent": 16.75,
+  "weighted_completion_percent": 86.75,
+  "weighted_remaining_percent": 13.25,
   "dimensions": [
     {
       "id": "documentary_coverage",
@@ -38,33 +38,34 @@
       "weight": 10,
       "assessed_percent": 80,
       "evidence": ["scripts/generate_rhd_tei.py", "tests/validate_rhd_tei.py", ".github/workflows/rhd-canonical.yml", "docs/IIIF_READINESS.md"],
-      "note": "The strict Lex-0 projection validates against the official TEI Lex-0 0.9.5 RNG. Remaining work is primarily stable IIIF facsimile publication and entry-region linking.",
+      "note": "The strict Lex-0 projection validates against the official TEI Lex-0 0.9.5 RNG. The rich RHD TEI also carries the canonical appendices while Lex-0 remains lexically isolated. Remaining work is stable IIIF facsimile publication and entry-region linking.",
       "completion_gate": "Lex-0 validation remains green and the real facsimile is linked through stable IIIF-compatible identifiers/images."
     },
     {
       "id": "diachronic_research",
       "label": "Computational diachronic and comparative research",
       "weight": 10,
-      "assessed_percent": 60,
-      "evidence": ["data/research/diachronic_semantic_context_queue.json", "data/research/internal_concordance.json", "RESEARCH_SNAPSHOT.md"],
-      "note": "Candidates remain candidates. Completion does not require human etymological adjudication, but does require calibrated machine evidence, negative controls and explicit non-claims.",
-      "completion_gate": "Priority candidate relations receive reproducible computational scoring/context and all uncertainty/non-claim semantics are explicit."
+      "assessed_percent": 75,
+      "evidence": ["data/research/diachronic_semantic_context_queue.json", "data/research/internal_concordance.json", "scripts/generate_diachronic_machine_scores.py", "tests/validate_diachronic_machine_scores.py", "data/research/diachronic_machine_scores.json", "RESEARCH_SNAPSHOT.md"],
+      "note": "All 298 candidate relations now receive reproducible documentary-retrieval support scores from conservative graphemic similarity, internal attestations and reciprocal documentary support. Every relation remains candidate; no semantic, cognacy, etymological or continuity probability is fabricated.",
+      "completion_gate": "Computational candidate evidence is reproducible, calibrated through appropriate controls and published with explicit non-claims; no human adjudication is required by this scope."
     },
     {
       "id": "appendices_parallel_text",
       "label": "Numeration appendix and trilingual language sample",
       "weight": 5,
-      "assessed_percent": 45,
-      "evidence": ["scripts/generate_appendix_candidates.py", "tests/validate_appendix_candidates.py", "data/appendices/facsimile_page_map.json"],
-      "note": "OCR structure exists; AI visual collation confirms PDF 79–84 = printed 369–374, the 22-formula sequence, and the separate Lord's Prayer. Remaining work is diplomatic AI transcription/alignment and canonical/TEI integration.",
+      "assessed_percent": 65,
+      "evidence": ["scripts/generate_appendix_candidates.py", "tests/validate_appendix_candidates.py", "data/appendices/facsimile_page_map.json", "scripts/generate_appendix_canonical.py", "tests/validate_appendix_canonical.py", "data/canonical/steffel-1809.appendices.json", "scripts/generate_rhd_tei.py"],
+      "note": "OCR structure, AI visual collation and exact PDF/printed-page mapping are complete. The appendix now has 24 canonical objects (1 numeration section, 22 formula records, 1 prayer) and is integrated into the rich TEI while excluded from strict Lex-0. Remaining work is improved AI diplomatic transcription and language-line alignment for the trilingual formulas.",
       "completion_gate": "Appendices are AI-collated diplomatically, structurally encoded, aligned where appropriate and integrated into canonical/TEI outputs."
     },
     {
       "id": "scientific_release",
       "label": "Scientific release, archive and citability",
       "weight": 5,
-      "assessed_percent": 40,
-      "evidence": ["CITATION.cff", "DATA_LICENSE.md", "PROVENANCE.md", "CHANGELOG.md", "docs/RELEASE_READINESS_RHD_1_0.md"],
+      "assessed_percent": 60,
+      "evidence": ["CITATION.cff", "DATA_LICENSE.md", "PROVENANCE.md", "CHANGELOG.md", "docs/RELEASE_READINESS_RHD_1_0.md", "scripts/generate_release_manifest.py", "tests/validate_release_manifest.py", "dist/rhd-steffel-release-manifest.json"],
+      "note": "A deterministic release integrity manifest now hashes and verifies the canonical lexical layer, canonical appendices, documentary diachronic scores, TEI/Lex-0 products, schema, source profile and machine-only policy. Persistent archive/identifier and final stable release remain pending.",
       "completion_gate": "Stable RHD release, integrity manifest, persistent archive/identifier and explicit machine-only conformity statement are published."
     },
     {
