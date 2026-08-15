@@ -32,11 +32,11 @@ expected_translations = sum(
 )
 
 
-def validate_header(root, label):
+def validate_header(root, label, expected_root_type):
     if root.tag != Q("TEI"):
         errors.append(f"{label}: root is not TEI namespace TEI")
-    if root.get("type") != "dictionary":
-        errors.append(f"{label}: root must carry type=dictionary")
+    if root.get("type") != expected_root_type:
+        errors.append(f"{label}: root type {root.get('type')} != {expected_root_type}")
     licence = root.find(f"./{Q('teiHeader')}/{Q('fileDesc')}/{Q('publicationStmt')}/{Q('availability')}/{Q('licence')}")
     if licence is None or not licence.get("target"):
         errors.append(f"{label}: publicationStmt/availability/licence missing")
@@ -59,9 +59,8 @@ def validate_header(root, label):
             errors.append(f"{label}: language profile incomplete: {sorted(languages)}")
 
 
-# Rich RHD TEI: documentary and epistemic layers must remain visible.
 rich = ET.parse(RICH_PATH).getroot()
-validate_header(rich, "rich")
+validate_header(rich, "rich", "dictionary")
 rich_entries = rich.findall(f".//{Q('entry')}")
 rich_ids = [e.get(f"{{{XML}}}id") for e in rich_entries]
 if len(rich_entries) != len(active) or set(rich_ids) != active_ids:
@@ -92,9 +91,8 @@ translations = [cit for cit in rich.findall(f".//{Q('cit')}") if cit.get("type")
 if len(translations) != expected_translations:
     errors.append(f"rich: translation citation count {len(translations)} != {expected_translations}")
 
-# Strict Lex-0 projection: same lexical identity, none of the RHD-specific assertion layers.
 lex0 = ET.parse(LEX0_PATH).getroot()
-validate_header(lex0, "lex0")
+validate_header(lex0, "lex0", "lex-0")
 lex0_entries = lex0.findall(f".//{Q('entry')}")
 lex0_ids = [e.get(f"{{{XML}}}id") for e in lex0_entries]
 if len(lex0_entries) != len(active) or set(lex0_ids) != active_ids:
