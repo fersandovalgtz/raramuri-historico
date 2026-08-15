@@ -1,14 +1,16 @@
-name: RHD 1.0 canonical and TEI projection
+name: RHD 1.0 canonical, TEI and review packaging
 
 on:
   pull_request:
     paths:
       - 'scripts/generate_rhd_canonical.py'
       - 'scripts/generate_rhd_tei.py'
+      - 'scripts/generate_human_review_packets.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_rhd_tei.py'
+      - 'tests/validate_human_review_packets.py'
       - 'schemas/rhd-entry-1.0.schema.json'
-      - 'source_profiles/steffel-1809.source.json'
+      - 'source_profiles/**'
       - 'data/entries.csv'
       - 'data/corpus_inventory.json'
       - 'data/validation/**'
@@ -19,10 +21,12 @@ on:
     paths:
       - 'scripts/generate_rhd_canonical.py'
       - 'scripts/generate_rhd_tei.py'
+      - 'scripts/generate_human_review_packets.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_rhd_tei.py'
+      - 'tests/validate_human_review_packets.py'
       - 'schemas/rhd-entry-1.0.schema.json'
-      - 'source_profiles/steffel-1809.source.json'
+      - 'source_profiles/**'
       - 'data/entries.csv'
       - 'data/corpus_inventory.json'
       - 'data/validation/**'
@@ -50,3 +54,7 @@ jobs:
         run: python3 scripts/generate_rhd_tei.py
       - name: Validate conservative TEI invariants
         run: python3 tests/validate_rhd_tei.py
+      - name: Generate human-review packets
+        run: python3 scripts/generate_human_review_packets.py
+      - name: Validate human-review packet coverage and neutrality
+        run: python3 tests/validate_human_review_packets.py
