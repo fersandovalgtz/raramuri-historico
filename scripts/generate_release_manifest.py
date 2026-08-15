@@ -20,9 +20,11 @@ FILES = [
     ("tei_rich", "data/tei/rhd-steffel-1809-tei.xml"),
     ("tei_lex0", "data/tei/rhd-steffel-1809-lex0.xml"),
     ("tei_appendices", "data/tei/rhd-steffel-1809-appendices-tei.xml"),
-    ("appendix_numeration", "data/appendices/numeration_ocr_candidates.json"),
+    ("appendix_numeration_ocr", "data/appendices/numeration_ocr_candidates.json"),
+    ("appendix_numeration_visual", "data/appendices/numeration_visual_structure_ai.json"),
     ("appendix_trilingual_ocr", "data/appendices/trilingual_sample_ocr_candidates.json"),
     ("appendix_trilingual_visual_alignment", "data/appendices/trilingual_visual_alignment_ai.json"),
+    ("appendix_prayer_visual", "data/appendices/prayer_visual_transcription_ai.json"),
     ("appendix_facsimile_map", "data/appendices/facsimile_page_map.json"),
     ("canonical_schema", "schemas/rhd-entry-1.0.schema.json"),
     ("source_profile", "source_profiles/steffel-1809.source.json"),
@@ -69,6 +71,8 @@ def main():
     appendix_source = read_json(ROOT / "data/appendices/trilingual_sample_ocr_candidates.json")
     appendix_alignment = read_json(ROOT / "data/appendices/trilingual_visual_alignment_ai.json")
     appendix_canonical = read_json(ROOT / "data/canonical/steffel-1809.appendices.json")
+    numeration_visual = read_json(ROOT / "data/appendices/numeration_visual_structure_ai.json")
+    prayer_visual = read_json(ROOT / "data/appendices/prayer_visual_transcription_ai.json")
     diachronic = read_json(ROOT / "data/research/diachronic_machine_scores.json")
     completion = read_json(ROOT / "project/completion-model-machine-only.json")
     page_map = read_json(ROOT / "data/appendices/facsimile_page_map.json")
@@ -83,6 +87,8 @@ def main():
             "canonical_appendix_objects": len(appendix_canonical.get("objects", [])),
             "trilingual_formula_blocks": appendix_source.get("formula_count"),
             "trilingual_formula_blocks_machine_aligned": len(appendix_alignment.get("formulas", [])),
+            "structured_primary_numeral_examples": len(numeration_visual.get("primary_cardinals", [])),
+            "prayer_visual_transcriptions": 1 if prayer_visual.get("text") else 0,
             "appendix_facsimile_pages_mapped": len(page_map.get("mapping", [])),
             "diachronic_documentary_candidates_scored": diachronic.get("count"),
         },
