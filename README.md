@@ -4,7 +4,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/fersandovalgtz/raramuri-historico/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/release-v1.0.0-172033?style=flat-square" alt="Release v1.0.0"></a>
+  <a href="https://github.com/fersandovalgtz/raramuri-historico/releases/tag/v1.0.1"><img src="https://img.shields.io/badge/release-v1.0.1-172033?style=flat-square" alt="Release v1.0.1"></a>
+  <a href="https://doi.org/10.5281/zenodo.21957212"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.21957212.svg" alt="DOI"></a>
   <img src="https://img.shields.io/badge/artículos-1%2C965-2d6a4f?style=flat-square" alt="1,965 artículos activos">
   <img src="https://img.shields.io/badge/fuente-Steffel%201809-7a263a?style=flat-square" alt="Steffel 1809">
   <img src="https://img.shields.io/badge/TEI%20Lex--0-validado-455B55?style=flat-square" alt="TEI Lex-0 validado">
@@ -16,7 +17,7 @@
 
 <p align="center">
   <a href="docs/STEFFEL_SOURCE.md"><strong>Fuente histórica</strong></a> ·
-  <a href="#estado-científico-de-rhd-100"><strong>Estado científico</strong></a> ·
+  <a href="#estado-científico-de-rhd-101"><strong>Estado científico</strong></a> ·
   <a href="#datos-e-interoperabilidad"><strong>Datos</strong></a> ·
   <a href="#reproducibilidad-y-ciencia-abierta"><strong>Reproducibilidad</strong></a> ·
   <a href="#citación"><strong>Citación</strong></a> ·
@@ -32,7 +33,7 @@
 
 La implementación de referencia es el **Corpus Steffel 1791/1809**, construido a partir del *Tarahumarisches Wörterbuch* de Matthäus Steffel. El repositorio conserva separadamente el testimonio histórico, OCR, segmentación, transcripciones diplomáticas IA-asistidas, decisiones editoriales, incertidumbres, relaciones derivadas y representaciones interoperables. Cuando la evidencia no permite una lectura única, la incertidumbre se conserva como resultado legítimo.
 
-RHD es una edición histórico-digital **machine-only** en su release 1.0.0. No sustituye una edición filológica humana ni habla en nombre de las comunidades rarámuri contemporáneas. Su objeto es documental e histórico y cada afirmación queda limitada por la autoridad de la capa que la sustenta.
+RHD es una edición histórico-digital **machine-only**. La release pública vigente es **v1.0.1**, una actualización de documentación, metadatos, descubribilidad y ecosistema que conserva sin cambios el contenido científico fijado en v1.0.0. No sustituye una edición filológica humana ni habla en nombre de las comunidades rarámuri contemporáneas. Su objeto es documental e histórico y cada afirmación queda limitada por la autoridad de la capa que la sustenta.
 
 ## Matthäus Steffel y el *Tarahumarisches Wörterbuch*
 
@@ -50,11 +51,11 @@ El texto no es sólo una lista bilingüe: integra observaciones de uso, gramáti
 
 Véanse [SOURCES.md](SOURCES.md), [PROVENANCE.md](PROVENANCE.md) y la edición contemporánea de William L. Merrill y colaboradores, publicada por la Universidad de Sonora en 2020 (DOI `10.47807/UNISON.8`).
 
-## Estado científico de RHD 1.0.0
+## Estado científico de RHD 1.0.1
 
-La release canónica **`v1.0.0`** fija a Steffel 1791/1809 como implementación de referencia del modelo RHD.
+La release **`v1.0.1`** es la versión pública vigente y archivada en Zenodo. Conserva sin cambios el corpus científico fijado por **`v1.0.0`** y añade mejoras de documentación científica, metadatos, citación, descubribilidad y articulación del ecosistema.
 
-| Dimensión | Estado v1.0.0 |
+| Dimensión | Estado v1.0.1 |
 |---|---:|
 | Candidatos documentales cotejados | **2,495 / 2,495** |
 | Artículos lexicográficos activos | **1,965** |
@@ -71,7 +72,7 @@ La release canónica **`v1.0.0`** fija a Steffel 1791/1809 como implementación 
 
 **No se afirma validación humana independiente.** Ningún resultado IA-asistido se presenta como `human_verified`, `philologically_verified_by_human` o `linguistically_verified`. Las 298 relaciones diacrónicas permanecen como candidatos; no se promueven automáticamente a cognación, etimología, equivalencia semántica ni continuidad histórica.
 
-→ [Notas de la release 1.0.0](docs/RELEASE_NOTES_V1.0.0.md) · [Política editorial](EDITORIAL_POLICY.md) · [Cobertura](COVERAGE.md)
+→ [Release v1.0.1](https://github.com/fersandovalgtz/raramuri-historico/releases/tag/v1.0.1) · [Notas científicas de v1.0.0](docs/RELEASE_NOTES_V1.0.0.md) · [Política editorial](EDITORIAL_POLICY.md) · [Cobertura](COVERAGE.md)
 
 ## Arquitectura de evidencia
 
@@ -111,13 +112,15 @@ La generación de artefactos está automatizada mediante scripts versionados y p
 
 Consulte [REPRODUCIBILITY.md](REPRODUCIBILITY.md), [FAIR_ASSESSMENT.md](FAIR_ASSESSMENT.md) y `sources/checksums.json`. RHD aplica principios FAIR para datos y FAIR4RS para software de investigación, con metadatos en [`CITATION.cff`](CITATION.cff) y [`codemeta.json`](codemeta.json).
 
-El archivo persistente con DOI se gestiona separadamente. **No se mostrará un DOI de RHD hasta verificar que el depósito corresponda exactamente a la release canónica `v1.0.0`, su commit y el artefacto archivado.**
+El snapshot público vigente está preservado en Zenodo. El **Concept DOI** del proyecto es [`10.5281/zenodo.21957212`](https://doi.org/10.5281/zenodo.21957212) y el DOI específico de **v1.0.1** es [`10.5281/zenodo.21958018`](https://doi.org/10.5281/zenodo.21958018).
 
 ## Citación
 
-GitHub puede generar una cita desde [`CITATION.cff`](CITATION.cff). Mientras se completa y verifica el depósito persistente de `v1.0.0`, la referencia recomendada es:
+GitHub puede generar una cita desde [`CITATION.cff`](CITATION.cff). Para citar exactamente la versión pública vigente:
 
-> Sandoval Gutierrez, Fernando. 2026. *Rarámuri Histórico Digital — Corpus Steffel 1791/1809*, versión 1.0.0. GitHub.
+> Sandoval Gutierrez, Fernando. 2026. *Rarámuri Histórico Digital — Corpus Steffel 1791/1809*, versión 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.21958018
+
+Para enlazar el proyecto y todas sus versiones, utilice el Concept DOI: [`10.5281/zenodo.21957212`](https://doi.org/10.5281/zenodo.21957212).
 
 Cuando un argumento dependa de una lectura del documento histórico, cite además **Steffel 1809** y la página correspondiente. Esta doble citación mantiene separadas la autoría histórica y la responsabilidad editorial/computacional de RHD.
 
@@ -160,4 +163,4 @@ Las contribuciones documentales, filológicas, lingüísticas, históricas y té
 
 ---
 
-**RHD 1.0.0 preserva el documento histórico, la incertidumbre y el proceso de transformación como partes inseparables del objeto científico.**
+**RHD 1.0.1 preserva el documento histórico, la incertidumbre y el proceso de transformación como partes inseparables del objeto científico.**
