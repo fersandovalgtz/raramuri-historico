@@ -9,10 +9,10 @@ manifest=json.loads(MANIFEST.read_text(encoding="utf-8"))
 if manifest.get("human_validation_claimed") is not False: errors.append("manifest must explicitly deny human-validation claim")
 if "machine-only" not in (manifest.get("release_scope") or ""): errors.append("release scope does not declare machine-only edition")
 files=manifest.get("files",[])
-if len(files)<36: errors.append(f"too few release artifacts: {len(files)}")
+if len(files)<37: errors.append(f"too few release artifacts: {len(files)}")
 paths=[x.get("path") for x in files]
 if len(paths)!=len(set(paths)): errors.append("duplicate path in release manifest")
-required=("sources/external-references.json","sources/tellechea-1826-witness.json","data/iiif/steffel-1809-local-page-fingerprints.json","public/iiif/steffel-1809/manifest.json","public/iiif/steffel-1809/canvas-map.json","data/research/diachronic_machine_scores.json","data/appendices/numeration_visual_structure_ai.json","data/appendices/trilingual_visual_alignment_ai.json","data/appendices/prayer_visual_transcription_ai.json","data/tei/rhd-steffel-1809-appendices-tei.xml","source_profiles/_template.source.json","source_profiles/tellechea-1826.pilot-candidate.json","data/pilot/tellechea-1826.minimal-pilot.jsonl","data/pilot/tellechea-1826.minimal-pilot.tei.xml","data/pilot/tellechea-1826.minimal-pilot.diagnostics.json","data/pilot/tellechea-1826.full-witness.jsonl","data/pilot/tellechea-1826.full-witness.tei.xml","data/pilot/tellechea-1826.full-witness.diagnostics.json","docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md","docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md","docs/MACHINE_ONLY_COMPLETION_MATRIX.md")
+required=("sources/external-references.json","sources/tellechea-1826-witness.json","data/iiif/steffel-1809-local-page-fingerprints.json","public/iiif/steffel-1809/manifest.json","public/iiif/steffel-1809/canvas-map.json","data/canonical/steffel-1809.iiif-linkage-summary.json","data/research/diachronic_machine_scores.json","data/appendices/numeration_visual_structure_ai.json","data/appendices/trilingual_visual_alignment_ai.json","data/appendices/prayer_visual_transcription_ai.json","data/tei/rhd-steffel-1809-appendices-tei.xml","source_profiles/_template.source.json","source_profiles/tellechea-1826.pilot-candidate.json","data/pilot/tellechea-1826.minimal-pilot.jsonl","data/pilot/tellechea-1826.minimal-pilot.tei.xml","data/pilot/tellechea-1826.minimal-pilot.diagnostics.json","data/pilot/tellechea-1826.full-witness.jsonl","data/pilot/tellechea-1826.full-witness.tei.xml","data/pilot/tellechea-1826.full-witness.diagnostics.json","docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md","docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md","docs/MACHINE_ONLY_COMPLETION_MATRIX.md")
 for p in required:
  if p not in paths: errors.append(f"required release artifact absent: {p}")
 for item in files:
@@ -26,7 +26,7 @@ for item in files:
 counts=manifest.get("counts",{})
 canonical_count=sum(1 for line in (ROOT/"data/canonical/steffel-1809.entries.jsonl").read_text(encoding="utf-8").splitlines() if line.strip())
 appendix=json.loads((ROOT/"data/canonical/steffel-1809.appendices.json").read_text(encoding="utf-8")); appendix_count=len(appendix.get("objects",[]))
-checks={"canonical_lexical_records":canonical_count,"canonical_appendix_objects":24,"trilingual_formula_blocks":22,"trilingual_formula_blocks_machine_aligned":22,"prayer_visual_transcriptions":1,"appendix_facsimile_pages_mapped":6,"diachronic_documentary_candidates_scored":298,"canonical_working_witnesses":1,"canonical_iiif_manifests_generated":1,"canonical_iiif_canvases":84,"canonical_iiif_static_page_images":84,"second_source_pilot_witnesses_checksum_fixed":1,"second_source_minimal_pilots_complete":1,"second_source_minimal_canonical_records":2,"second_source_pilots_full_witness_end_to_end_complete":1,"second_source_full_witness_canonical_records":205}
+checks={"canonical_lexical_records":canonical_count,"canonical_appendix_objects":24,"trilingual_formula_blocks":22,"trilingual_formula_blocks_machine_aligned":22,"prayer_visual_transcriptions":1,"appendix_facsimile_pages_mapped":6,"diachronic_documentary_candidates_scored":298,"canonical_working_witnesses":1,"canonical_iiif_manifests_generated":1,"canonical_iiif_canvases":84,"canonical_iiif_static_page_images":84,"active_records_canvas_linked":1965,"second_source_pilot_witnesses_checksum_fixed":1,"second_source_minimal_pilots_complete":1,"second_source_minimal_canonical_records":2,"second_source_pilots_full_witness_end_to_end_complete":1,"second_source_full_witness_canonical_records":205}
 for key,val in checks.items():
  if counts.get(key)!=val: errors.append(f"release manifest count mismatch {key}: expected {val}, got {counts.get(key)}")
 if appendix_count!=24: errors.append(f"canonical appendix object count changed: {appendix_count}")
@@ -40,12 +40,18 @@ if canonical_iiif.get("source_pdf_sha256")!=steffel_sha: errors.append("release 
 if canonical_iiif.get("source_pdf_bytes")!=6251443 or canonical_iiif.get("source_pdf_pages")!=84: errors.append("release manifest canonical IIIF PDF identity mismatch")
 if canonical_iiif.get("presentation_version")!=3 or canonical_iiif.get("canvases")!=84 or canonical_iiif.get("static_page_images")!=84: errors.append("release manifest canonical IIIF coverage mismatch")
 if canonical_iiif.get("generated_from_exact_binary") is not True: errors.append("release manifest must attest exact-binary IIIF derivation")
+if canonical_iiif.get("active_record_canvas_linkage_complete") is not True or canonical_iiif.get("active_records_canvas_linked")!=1965: errors.append("release manifest must attest complete 1965-record page-Canvas linkage")
+if canonical_iiif.get("linkage_level")!="page_canvas" or canonical_iiif.get("region_targets_generated")!=0: errors.append("release manifest must accurately preserve page-level linkage and zero fabricated region targets")
 iiif_map=json.loads((ROOT/"public/iiif/steffel-1809/canvas-map.json").read_text(encoding="utf-8"))
 if len(iiif_map.get("pages",[]))!=84 or iiif_map.get("source_pdf_sha256")!=steffel_sha: errors.append("canonical IIIF canvas-map integrity mismatch")
 for i,row in enumerate(iiif_map.get("pages",[]),start=1):
  image=ROOT/"public/iiif/steffel-1809/pages"/f"{i:03d}.jpg"
  if not image.exists(): errors.append(f"canonical IIIF image missing: {i:03d}.jpg"); continue
  if hashlib.sha256(image.read_bytes()).hexdigest()!=row.get("image_sha256"): errors.append(f"canonical IIIF image hash mismatch: {i:03d}.jpg")
+linkage=json.loads((ROOT/"data/canonical/steffel-1809.iiif-linkage-summary.json").read_text(encoding="utf-8"))
+if linkage.get("active_records")!=1965 or linkage.get("active_records_canvas_mapped")!=1965: errors.append("canonical linkage summary does not cover all 1965 active records")
+if linkage.get("active_records_without_digital_page")!=[] or linkage.get("invalid_digital_pages")!=[]: errors.append("canonical linkage summary contains unmapped/invalid active records")
+if linkage.get("linkage_level")!="page_canvas" or linkage.get("region_targets_generated")!=0 or linkage.get("human_validation_claimed") is not False: errors.append("canonical linkage summary epistemic scope changed")
 
 registry=json.loads((ROOT/"sources/external-references.json").read_text(encoding="utf-8")); ia=next((w for w in registry.get("witnesses",[]) if w.get("witness_id")=="IA-tarahumarischesw00stef"),None)
 if ia is None or ia.get("canonical_for_rhd") is not False: errors.append("Internet Archive parallel witness must remain explicitly noncanonical")
@@ -65,4 +71,4 @@ if manifest.get("completion",{}).get("weighted_completion_percent")!=completion.
 if completion.get("weighted_completion_percent")!=93.0 or completion.get("weighted_remaining_percent")!=7.0: errors.append("completion model must remain 93/7 until canonical IIIF is actually published and live-validated")
 
 if errors: print("\n".join("ERROR: "+e for e in errors)); sys.exit(1)
-print(f"OK: release manifest verifies {len(files)} direct artifacts plus 84 individually hashed canonical IIIF page images, {canonical_count} Steffel lexical records, 24 appendices, 298 diachronic candidates and complete 205/205 Tellechea industrialization; weighted completion remains 93.0% pending live IIIF publication")
+print(f"OK: release manifest verifies {len(files)} direct artifacts plus 84 individually hashed canonical IIIF page images and page-Canvas linkage for all 1965 active records, {canonical_count} Steffel lexical records, 24 appendices, 298 diachronic candidates and complete 205/205 Tellechea industrialization; weighted completion remains 93.0% pending live IIIF publication")
