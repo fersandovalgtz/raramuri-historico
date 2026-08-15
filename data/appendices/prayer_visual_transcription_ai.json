@@ -1,0 +1,19 @@
+{
+  "record_id": "RHD-S1809-PRAYER-01",
+  "title": "Das Gebet des Herrn",
+  "source": "Steffel 1809, printed p. 374 / project PDF p. 84",
+  "language": "und",
+  "method": "ai_visual_transcription",
+  "status": "ai_visual_transcription_candidate",
+  "human_verified": false,
+  "line_breaks": "normalized",
+  "text": "Tamí Nonó, mamú regní guamí gatíki, tamí noineruje mú reguá ſeliméa rekíjena, tamí neguáruje mú jelalíki henná guetſchikí, mapú hatſchibe réguega guamí. Tamí nutútuje hipelá, tamí guecáuje tamí guikelíki, matamé hatſchibe réguega tamí guecáuje putſé tamí guikejámecke, ké tá tamí sátuje, tſlegatígameke mechá hulá. Amen.",
+  "confidence": "medium",
+  "uncertain_segments": [
+    "noineruje",
+    "henná guetſchikí",
+    "guikejámecke",
+    "tſlegatígameke"
+  ],
+  "epistemic_note": "Formula/prayer boundary and the prayer block are visually secure. The transcription is an AI visual reading of historical type; listed dense sequences remain candidates and are not normalized or linguistically emended."
+}
