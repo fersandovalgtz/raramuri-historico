@@ -1,0 +1,33 @@
+{
+  "end_to_end_scope": "one grammar page plus one printed-page-49 parallel-layout page",
+  "human_validation_claimed": false,
+  "pilot_id": "RHD-TELLECHEA-1826-MINIMAL-PILOT-1",
+  "records": [
+    {
+      "embedded_chars": 1083,
+      "pdf_page": 32,
+      "printed_page": 6,
+      "record_id": "RHD-T1826-00001",
+      "selection": "heading_anchor",
+      "token_jaccard": 0.4201,
+      "visual_ocr_chars": 991
+    },
+    {
+      "column_assignment": {
+        "left": "und_candidate",
+        "right": "es_candidate",
+        "status": "machine_candidate"
+      },
+      "embedded_chars": 1404,
+      "left_spanish_score": 4,
+      "pdf_page": 75,
+      "printed_page": 49,
+      "record_id": "RHD-T1826-00002",
+      "right_spanish_score": 32,
+      "selection": "printed_page_anchor",
+      "token_jaccard": 0.4155,
+      "visual_ocr_chars": 1218
+    }
+  ],
+  "witness_sha256": "c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc"
+}
