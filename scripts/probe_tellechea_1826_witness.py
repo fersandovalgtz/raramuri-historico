@@ -1,16 +1,14 @@
 #!/usr/bin/env python3
-"""Verify the checksum-fixed public DGB witness for Tellechea 1826.
+"""Verify the checksum-fixed DGB witness for Tellechea 1826 and characterize its text layer.
 
-This is a binary-identity gate only. It does not perform textual, linguistic or human
-adjudication. Any provider-side change to the PDF must be surfaced rather than silently
-accepted as the same RHD witness.
+Binary identity is a hard gate. Embedded-text measurements are diagnostic only and are
+never promoted to diplomatic transcription or human validation.
 """
-
-from __future__ import annotations
 
 from pathlib import Path
 import hashlib
 import json
+import re
 import sys
 import urllib.request
 
@@ -31,36 +29,64 @@ def sha256(path: Path) -> str:
     return h.hexdigest()
 
 
+def compact(text: str, limit: int = 160) -> str:
+    return re.sub(r"\s+", " ", text or "").strip()[:limit]
+
+
 def main() -> None:
-    req = urllib.request.Request(
-        URL,
-        headers={"User-Agent": "Raramuri-Historico-Digital/1.0 witness-verifier"},
-    )
+    req = urllib.request.Request(URL, headers={"User-Agent": "Raramuri-Historico-Digital/1.0 witness-verifier"})
     with urllib.request.urlopen(req, timeout=90) as response:
         raw = response.read()
         content_type = response.headers.get("Content-Type", "")
         final_url = response.geturl()
 
     if not raw.startswith(b"%PDF-"):
-        raise SystemExit(
-            f"ERROR: DGB Tellechea endpoint did not return a PDF; content_type={content_type!r}; "
-            f"first_bytes={raw[:20]!r}; final_url={final_url!r}"
-        )
+        raise SystemExit(f"ERROR: DGB endpoint did not return PDF: {content_type!r} {raw[:20]!r}")
 
     OUT.write_bytes(raw)
     digest = sha256(OUT)
     reader = PdfReader(str(OUT), strict=False)
     page_count = len(reader.pages)
-
     errors = []
     if digest != EXPECTED_SHA256:
-        errors.append(f"sha256 changed: expected={EXPECTED_SHA256} actual={digest}")
+        errors.append(f"sha256 expected={EXPECTED_SHA256} actual={digest}")
     if len(raw) != EXPECTED_BYTES:
-        errors.append(f"byte size changed: expected={EXPECTED_BYTES} actual={len(raw)}")
+        errors.append(f"bytes expected={EXPECTED_BYTES} actual={len(raw)}")
     if page_count != EXPECTED_PAGES:
-        errors.append(f"page count changed: expected={EXPECTED_PAGES} actual={page_count}")
+        errors.append(f"pages expected={EXPECTED_PAGES} actual={page_count}")
     if errors:
         raise SystemExit("ERROR: checksum-fixed Tellechea witness changed; " + "; ".join(errors))
+
+    total_chars = 0
+    pages_with_text = 0
+    nonempty_counts = []
+    keyword_hits = []
+    first_nonempty = []
+    keywords = ["tarahumar", "libro primero", "conjug", "padre nuestro", "doctrina", "sacramento"]
+    for page_no, page in enumerate(reader.pages, start=1):
+        try:
+            text = page.extract_text() or ""
+        except Exception:
+            text = ""
+        chars = len(text.strip())
+        total_chars += chars
+        if chars:
+            pages_with_text += 1
+            nonempty_counts.append(chars)
+            if len(first_nonempty) < 6:
+                first_nonempty.append({"pdf_page": page_no, "chars": chars, "sample": compact(text)})
+        lowered = text.lower()
+        hits = [kw for kw in keywords if kw in lowered]
+        if hits and len(keyword_hits) < 20:
+            keyword_hits.append({"pdf_page": page_no, "hits": hits, "sample": compact(text)})
+
+    median_chars = sorted(nonempty_counts)[len(nonempty_counts) // 2] if nonempty_counts else 0
+    if pages_with_text >= 150 and total_chars >= 100000:
+        text_class = "substantial_embedded_text_layer"
+    elif pages_with_text >= 20 and total_chars >= 10000:
+        text_class = "partial_embedded_text_layer"
+    else:
+        text_class = "image_dominant_or_text_layer_not_useful"
 
     metadata = {
         "witness_id": "RHD-WIT-TELLECHEA-1826-DGB",
@@ -73,9 +99,18 @@ def main() -> None:
         "sha256": digest,
         "pdf_pages": page_count,
         "pdf_header": raw[:8].decode("latin-1", errors="replace"),
-        "human_validation_claimed": False,
         "identity_status": "checksum_fixed_public_witness_verified",
-        "scope": "binary identity verification only; no textual or linguistic adjudication",
+        "text_layer": {
+            "classification": text_class,
+            "pages_with_extractable_text": pages_with_text,
+            "total_extracted_characters": total_chars,
+            "median_chars_on_nonempty_page": median_chars,
+            "first_nonempty_pages": first_nonempty,
+            "keyword_hits": keyword_hits,
+            "status": "diagnostic_only_not_diplomatic_transcription"
+        },
+        "human_validation_claimed": False,
+        "scope": "binary identity plus extractability diagnostics; no textual or linguistic adjudication",
     }
     print("OK: checksum-fixed Tellechea 1826 witness verified")
     print("RHD_TELLECHEA_WITNESS=" + json.dumps(metadata, ensure_ascii=False, sort_keys=True))
