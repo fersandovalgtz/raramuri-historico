@@ -19,7 +19,7 @@ if manifest.get("human_validation_claimed") is not False:
 if "machine-only" not in (manifest.get("release_scope") or ""):
     errors.append("release scope does not declare machine-only edition")
 files = manifest.get("files", [])
-if len(files) < 24:
+if len(files) < 27:
     errors.append(f"too few release artifacts: {len(files)}")
 paths = [x.get("path") for x in files]
 if len(paths) != len(set(paths)):
@@ -32,6 +32,9 @@ for required_path in (
     "data/appendices/trilingual_visual_alignment_ai.json",
     "data/appendices/prayer_visual_transcription_ai.json",
     "data/tei/rhd-steffel-1809-appendices-tei.xml",
+    "source_profiles/_template.source.json",
+    "source_profiles/tellechea-1826.pilot-candidate.json",
+    "docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md",
     "docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md",
     "docs/MACHINE_ONLY_COMPLETION_MATRIX.md",
 ):
@@ -77,6 +80,10 @@ if counts.get("canonical_working_witnesses") != 1:
     errors.append("release manifest must report exactly one checksum-fixed canonical working witness")
 if counts.get("registered_noncanonical_external_witnesses") < 1:
     errors.append("release manifest must report at least one explicitly noncanonical external witness")
+if counts.get("second_source_pilot_candidates_selected") != 1:
+    errors.append("release manifest must report exactly one selected second-source pilot candidate")
+if counts.get("second_source_pilots_end_to_end_complete") != 0:
+    errors.append("second-source pilot must not receive end-to-end completion credit before actual ingestion")
 
 registry = json.loads((ROOT / "sources/external-references.json").read_text(encoding="utf-8"))
 ia = next((w for w in registry.get("witnesses", []) if w.get("witness_id") == "IA-tarahumarischesw00stef"), None)
@@ -84,6 +91,10 @@ if ia is None or ia.get("canonical_for_rhd") is not False:
     errors.append("Internet Archive parallel witness must remain explicitly noncanonical")
 if ia and ((ia.get("identity_comparison") or {}).get("result") != "strong_mismatch_not_verified_as_same_scan"):
     errors.append("Internet Archive witness registry lost the machine fingerprint mismatch result")
+
+pilot = json.loads((ROOT / "source_profiles/tellechea-1826.pilot-candidate.json").read_text(encoding="utf-8"))
+if pilot.get("completion_credit", {}).get("counts_toward_second_source_end_to_end_gate") is not False:
+    errors.append("Tellechea candidate profile must explicitly deny end-to-end completion credit")
 
 completion = json.loads((ROOT / "project/completion-model-machine-only.json").read_text(encoding="utf-8"))
 if manifest.get("completion", {}).get("weighted_completion_percent") != completion.get("weighted_completion_percent"):
@@ -99,5 +110,6 @@ print(
     f"{appendix_count} canonical appendix objects, 22 machine-aligned formula triples, "
     f"{counts.get('structured_primary_numeral_examples')} structured numeral examples, one prayer transcription, "
     f"six facsimile page mappings, 298 documentary-scored diachronic candidates, one canonical working witness, "
-    f"and {counts.get('registered_noncanonical_external_witnesses')} noncanonical external witness(es) with explicit identity status"
+    f"{counts.get('registered_noncanonical_external_witnesses')} noncanonical external witness(es), and one selected "
+    "second-source pilot candidate with zero premature end-to-end completion credit"
 )
