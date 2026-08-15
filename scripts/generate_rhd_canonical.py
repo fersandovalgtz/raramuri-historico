@@ -25,7 +25,7 @@ OUT_SUMMARY = OUT_DIR / "steffel-1809.summary.json"
 
 
 def text(value) -> str:
-    return (value or "").strip()
+    return str(value or "").strip()
 
 
 def integer_or_none(value):
