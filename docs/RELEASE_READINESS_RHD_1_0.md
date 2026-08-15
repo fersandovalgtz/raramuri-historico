@@ -21,9 +21,10 @@ La política de alcance vigente es `docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md`. La 
 - Especificación RHD 1.0.
 - JSON Schema canónico.
 - Perfil Steffel separado del núcleo.
-- Plantilla para fuentes futuras.
+- Plantilla machine-only para fuentes futuras.
 - Adaptador no destructivo `Steffel -> RHD canonical`.
 - Procedencia explícita para OCR, segmentación, diplomática y PHIL.
+- Pruebas que impiden que los perfiles reintroduzcan requisitos de adjudicación humana.
 
 ### G3. Interoperabilidad lexicográfica mínima — cerrado
 
@@ -71,38 +72,57 @@ Las lecturas visuales de baja confianza pueden permanecer como incertidumbre ter
 
 ## Gates todavía abiertos
 
-### G7. IIIF — abierto
+### G7. IIIF canónico — abierto, con control negativo ya resuelto
 
-Existe modelo lógico y campos reservados. El repositorio Git no contiene la imagen/facsímil. Existe un ejemplar digital externo identificado como Internet Archive `tarahumarischesw00stef`; antes de fijarlo como dependencia canónica deben verificarse el Manifest IIIF real, la correspondencia con el witness de trabajo y la estabilidad de las URIs.
+El witness canónico del proyecto es el facsímil de trabajo fijado por SHA-256 y registrado en `sources/external-references.json`. Su tramo final ya tiene mapeo interno reproducible `PDF 79–84 ↔ impreso 369–374`.
 
-Ya está comprobado localmente el mapeo de las páginas finales del PDF de trabajo: 79–84 corresponden a 369–374. La misma estrategia debe extenderse al witness completo cuando se cierre IIIF.
+Se localizó y verificó automáticamente el Manifest IIIF Presentation 3 de Internet Archive `tarahumarischesw00stef`. Sin embargo, una comparación perceptual contra huellas calculadas de las seis páginas locales mostró una divergencia fuerte. Por tanto, ese ítem queda registrado como **witness externo paralelo no canónico**, no como sustituto del facsímil checksum-fixed.
+
+La CI conserva este resultado como control negativo: verifica que el Manifest externo siga siendo usable y que no se promueva accidentalmente a evidencia canónica.
+
+Para cerrar G7 todavía hace falta una de estas dos soluciones:
+
+1. publicar el facsímil checksum-fixed mediante un servicio IIIF estable controlado por el proyecto; o
+2. localizar un servicio externo cuya identidad con el escaneo de trabajo pueda demostrarse reproduciblemente.
+
+Después habrá que mapear el witness completo a Canvases y, cuando exista evidencia espacial, a regiones de entrada.
 
 ### G8. Release, integridad y archivo — parcialmente abierto
 
 Ya están resueltos:
 
+- `CHANGELOG` preparado para RHD 1.0 machine-only;
 - generador determinista de manifiesto de integridad;
 - recomputación automática de SHA-256, tamaños y conteos;
-- incorporación al manifiesto de capas lexicales, canónicas, diacrónicas, TEI/Lex-0 y anexos visuales;
+- incorporación al manifiesto de capas lexicales, canónicas, diacrónicas, TEI/Lex-0, anexos visuales, identidad de witnesses y perfiles de fuente;
 - declaración de política machine-only;
 - declaración explícita de conformidad de implementación.
 
 Falta:
 
-- actualizar `CHANGELOG.md` y `CITATION.cff` para el release candidato;
-- fijar versión y commit;
+- actualizar `CITATION.cff` cuando se fije el identificador/versionado candidato definitivo;
+- fijar versión y commit de release;
 - generar release GitHub estable;
 - depositar dataset/software y obtener identificador persistente apropiado;
 - comprobar archivo de software/datos.
 
-### G9. Replicabilidad externa — bloqueante para declarar el método industrializado
+### G9. Replicabilidad externa — Tellechea 1826 seleccionado, pero 0% end-to-end
 
-La plantilla reusable existe, pero se requiere una segunda fuente histórica real procesada de extremo a extremo. La prueba debe documentar:
+La segunda fuente piloto seleccionada es **Miguel Joaquín Tellechea, _Compendio gramatical para la inteligencia del idioma tarahumar_ (1826)**. Es deliberadamente más exigente que otro diccionario: combina gramática, ejemplos y materiales paralelos español–tarahumara.
+
+Ya existen:
+
+- `source_profiles/tellechea-1826.pilot-candidate.json`;
+- `docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md`;
+- criterios machine-only de ingestión y éxito;
+- pruebas que mantienen la dimensión en 0% mientras no exista ingestión real.
+
+No se concede avance end-to-end por haber elegido o modelado la fuente. Para cerrar G9 debe fijarse por checksum un witness concreto y procesarse realmente mediante el mismo núcleo RHD, documentando:
 
 - qué componentes se reutilizaron sin cambios;
-- qué parámetros residieron sólo en el perfil de fuente;
+- qué parámetros residieron sólo en el perfil;
 - qué modificaciones al núcleo fueron realmente inevitables;
-- si IDs, procedencia, canonicalización, anexos y exportaciones funcionaron sin rediseño conceptual.
+- si IDs, procedencia, canonicalización, texto paralelo y exportaciones funcionaron sin rediseño conceptual.
 
 ## Política de nomenclatura de releases
 
