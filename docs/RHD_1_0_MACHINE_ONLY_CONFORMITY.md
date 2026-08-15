@@ -31,12 +31,17 @@ Esta declaración **no certifica revisión humana**, validación comunitaria, no
 - Existe TEI RHD rica para representar capas documentales y epistemológicas propias del proyecto.
 - Existe una proyección TEI Lex-0 deliberadamente estrecha y separada.
 - La proyección Lex-0 se valida automáticamente en GitHub Actions contra el RNG oficial TEI Lex-0 0.9.5.
+- Existe además un suplemento TEI específico para los anexos, separado de Lex-0.
 - Los anexos documentales no se fuerzan dentro de Lex-0.
 
 ### Anexos
 
 - El tramo facsimilar final está mapeado como `PDF 79–84 ↔ impreso 369–374` mediante cotejo visual IA.
 - Existen 24 objetos canónicos de anexo: 1 sección numérica, 22 fórmulas y 1 Padre Nuestro.
+- La sección numérica está estructurada computacionalmente en cardinales/ejemplos, sistemas de conteo, multiplicativos, otras expresiones numéricas y ordinales, conservando confianza e incertidumbre.
+- Las 22 fórmulas están alineadas por IA en los tres campos impresos: latín, alemán y tarahumara; cada campo conserva nivel de confianza y los segmentos problemáticos quedan explícitos.
+- Dos fórmulas mantienen baja confianza en el campo tarahumara; esa incertidumbre se conserva y no se corrige por conjetura.
+- El Padre Nuestro tiene una transcripción visual IA separada que llega hasta `Amen.` y conserva los segmentos densos como lecturas candidatas.
 - La secuencia de las 22 fórmulas y la separación del Padre Nuestro se preservan.
 - Ningún objeto de anexo afirma validación humana.
 
@@ -49,17 +54,18 @@ Esta declaración **no certifica revisión humana**, validación comunitaria, no
 ### Integridad
 
 - Existe un generador determinista de manifiesto de release.
-- El manifiesto incluye SHA-256 y tamaño de artefactos nucleares.
-- La CI recomputa los hashes, tamaños y conteos y falla ante divergencias.
+- El manifiesto incluye SHA-256 y tamaño de las capas lexicales, diacrónicas, TEI y de anexos, además de la documentación de política y conformidad.
+- La CI recomputa hashes, tamaños y conteos y falla ante divergencias.
 
 ## No conformidades / requisitos aún abiertos
 
 La presente declaración es de **conformidad de implementación**, no de release 1.0 final. Permanecen abiertos:
 
-- cierre de la transcripción/alineación IA de los anexos paralelos;
 - publicación/verificación IIIF del witness completo;
 - release estable, archivo e identificador persistente;
 - prueba de replicación completa con una segunda fuente histórica real.
+
+Las lecturas de baja confianza que permanezcan en el corpus no constituyen por sí mismas una no conformidad si están identificadas, trazables y vinculadas a la evidencia facsimilar.
 
 ## Regla de citación metodológica
 
