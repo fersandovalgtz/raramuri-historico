@@ -9,7 +9,7 @@ Rarámuri Histórico Digital (RHD) se desarrolla como una **pieza interoperable 
 ### Rarámuri Histórico Digital
 
 - Repositorio: https://github.com/fersandovalgtz/raramuri-historico
-- Sitio: https://raramuri-historico.pages.dev
+- Sitio: https://fersandovalgtz.github.io/raramuri-historico/
 - Objeto: fuentes históricas, edición documental, procedencia y análisis computacional reproducible.
 - Implementación de referencia: Corpus Steffel 1791/1809.
 - Release canónica: `v1.0.0`.
@@ -70,7 +70,7 @@ La fuente de verdad para los metadatos de citación del repositorio es `CITATION
 - Universidad Autónoma de Ciudad Juárez: https://www.uacj.mx/
 - CEEES Cuauhtémoc: https://ceees.mx/
 - Rarámuri Digital, servicio público: https://raramuri.ceees.mx
-- RHD, sitio público: https://raramuri-historico.pages.dev
+- RHD, sitio público verificado en GitHub Pages: https://fersandovalgtz.github.io/raramuri-historico/
 
 Las afiliaciones institucionales describen la adscripción académica del responsable; no implican automáticamente que cada institución sea editora, depositaria, financiadora o avaladora de todas las afirmaciones del repositorio. Cuando una función institucional específica exista, deberá registrarse explícitamente en los metadatos o documentación correspondiente.
 
