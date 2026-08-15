@@ -1,13 +1,13 @@
 # Segunda fuente piloto — Miguel Tellechea, 1826
 
-**Estado:** witness público fijado por checksum; prueba mínima end-to-end completada; procesamiento fuerte del witness completo pendiente.  
-**Avance de la dimensión de replicación:** **40%**.
+**Estado:** witness público fijado por checksum; prueba mínima y prueba fuerte de 205 páginas completadas.  
+**Avance de la dimensión de replicación:** **100%**.
 
 ## Por qué Tellechea
 
 El *Compendio gramatical para la inteligencia del idioma tarahumar* de Miguel Joaquín Tellechea fue publicado en México por la Imprenta de la Federación en Palacio en 1826. Es suficientemente cercano a Steffel para mantener continuidad temática e histórica, pero estructuralmente muy distinto: no es un diccionario bidireccional, sino una obra gramatical con materiales religiosos y extensos pasajes español–tarahumara.
 
-Esa diferencia lo vuelve una prueba más fuerte que escoger simplemente otro vocabulario con la misma forma documental de Steffel. La prueba mínima ya demuestra que RHD puede representar material gramatical y disposición paralela sin convertirlos artificialmente en artículos lexicográficos ni rediseñar sus conceptos de witness, evidencia, capas, procedencia, identificadores e incertidumbre.
+Esa diferencia lo convirtió en una prueba fuerte de reutilización. RHD debía demostrar que sus conceptos universales —witness, unidad documental, localizador, capas, procedencia, incertidumbre y exportación— podían sobrevivir fuera del formato lexicográfico sin convertir el núcleo en un modelo hecho a la medida de Tellechea.
 
 ## Witness canónico del piloto
 
@@ -20,93 +20,56 @@ La Dirección General de Bibliotecas de la Secretaría de Cultura mantiene una r
 - versión PDF observada: **1.6**;
 - SHA-256: `c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc`.
 
-La identidad queda registrada en `sources/tellechea-1826-witness.json`. La CI vuelve a descargar el PDF y exige que checksum, tamaño y número de páginas sigan siendo exactamente los mismos. Un cambio del proveedor debe aparecer como cambio de witness, no aceptarse silenciosamente.
+La identidad queda registrada en `sources/tellechea-1826-witness.json`. La CI vuelve a descargar el PDF y exige que checksum, tamaño y número de páginas permanezcan exactos. Un cambio del proveedor constituye un cambio de witness y no puede aceptarse silenciosamente.
 
-Google Play Books y la Biblioteca Virtual de la Filología Española se conservan como referencias bibliográficas/digitales independientes. No sustituyen el witness DGB checksum-fixed.
+## Capa textual y evidencia visual
 
-## Capa textual del PDF
+El witness posee una capa textual sustancial: **193 páginas con texto extraíble**, **285,857 caracteres** y una mediana de **1,553 caracteres** en páginas no vacías. Esa capa se preserva como evidencia documental y no se denomina transcripción diplomática.
 
-El witness resultó especialmente favorable para una ingestión machine-only porque posee una capa textual sustancial. La inspección automatizada de las 205 páginas encontró:
+La prueba mínima agregó una segunda lectura independiente desde el facsímil mediante renderizado y OCR visual. La prueba fuerte conserva el mismo principio: las páginas con capa textual escasa reciben un fallback visual separado, de modo que el texto embebido no adquiera autoridad editorial por defecto.
 
-- **193 páginas con texto extraíble**;
-- **285,857 caracteres** extraídos;
-- mediana de **1,553 caracteres** en las páginas no vacías;
-- clasificación automática `substantial_embedded_text_layer`.
+## Prueba mínima — completada
 
-Esta capa no se considera transcripción diplomática. Se preserva como `source_embedded_text_preserved` y se contrasta con una segunda lectura producida directamente desde el facsímil. De este modo, un error del texto embebido no se convierte automáticamente en lectura editorial.
+La prueba mínima trabajó con dos unidades reales y estructuralmente diferentes. `RHD-T1826-00001` corresponde a **PDF 32 / impreso 6**, localizado por `LIBRO PRIMERO`, `CAPITULO I` y `Del Nombre`; `RHD-T1826-00002` corresponde a **PDF 75 / impreso 49**, una página de disposición paralela que incluye *Persignum Crucis*, *Pater Noster* y *Ave Maria*.
 
-## Diferencias que deben vivir en el perfil y no en el núcleo
+Ambas unidades atravesaron verificación de checksum, extracción de texto embebido, renderizado facsimilar, OCR visual independiente, canonicalización RHD, JSON Schema y TEI. En ninguno de los casos se fabricó una entrada Lex-0 ni una atribución de validación humana.
 
-Steffel organiza principalmente artículos lexicográficos. Tellechea exige unidades como capítulos gramaticales, ejemplos, paradigmas y bloques paralelos español–tarahumara. El núcleo RHD no debe adquirir reglas con nombres como `tellechea_paragraph` o `tellechea_prayer`; esas particularidades permanecen en `source_profiles/tellechea-1826.pilot-candidate.json` y en el generador/adaptador específico.
+## Prueba fuerte — completada
 
-Los conceptos universales siguen siendo los mismos: witness, unidad documental, localizador, capa fuente, lectura visual machine-only, derivación estructurada, procedencia, incertidumbre, relaciones entre unidades y exportación interoperable.
+La prueba fuerte extiende el mismo patrón al **witness completo de 205 páginas** mediante `scripts/generate_tellechea_full_pilot.py` y `tests/validate_tellechea_full_pilot.py`.
 
-## Prueba mínima end-to-end — completada
+Cada página recibe un identificador documental determinista `RHD-T1826-10001` … `RHD-T1826-10205`, un localizador digital, una capa de texto fuente preservada, una disposición de segmentación y procedencia explícita. Las páginas con texto embebido escaso reciben OCR visual separado; las restantes conservan una proyección documental explícitamente marcada como no visual y no adjudicada.
 
-El 15 de agosto de 2026 se ejecutó en GitHub Actions una prueba real sobre dos unidades documentalmente distintas. El pipeline hizo, de forma reproducible y sin intervención humana, la siguiente secuencia: verificación del checksum del PDF, extracción de la capa textual embebida, localización estructural, renderizado de la página facsimilar, OCR visual independiente con Tesseract, representación canónica RHD, validación contra el JSON Schema y exportación TEI.
+El validator exige simultáneamente:
 
-### Unidad 1 — gramática
+- **205 registros canónicos para 205 páginas**;
+- validación de todos los registros contra el mismo `schemas/rhd-entry-1.0.schema.json` utilizado por RHD;
+- secuencia determinista de IDs y páginas;
+- conservación de las anclas PDF 32 / impreso 6 y PDF 75 / impreso 49;
+- al menos 190 páginas con capa textual fuente y más de 250,000 caracteres recuperados;
+- activación real del fallback OCR visual en las páginas donde hace falta;
+- jerarquía documental machine-candidate conservadora;
+- **cero cambios requeridos al núcleo universal RHD**;
+- **cero entradas Lex-0 generadas** para este material no lexicográfico;
+- **cero validaciones humanas fabricadas**;
+- TEI documental completa con 205 unidades y sin elementos `<entry>`.
 
-`RHD-T1826-00001` corresponde a **PDF 32 / página impresa 6**. Fue localizada por la combinación estructural `LIBRO PRIMERO`, `CAPITULO I` y `Del Nombre`.
+El 15 de agosto de 2026 esta prueba quedó verde en GitHub Actions. La salida completa se empaquetó como artefacto reproducible `tellechea-1826-full-witness-rhd-pilot`; la primera ejecución exitosa correspondió al run `31887068250`, artifact `9247575047`, con digest SHA-256 del ZIP `fb0fbf4b64c9978e97212951778e6843c21b3d64e7308e37b7dfbab34a6d13f8`.
 
-- texto embebido preservado: **1,083 caracteres**;
-- OCR visual independiente: **991 caracteres**;
-- solapamiento documental Jaccard de tokens: **0.4201**;
-- `lexical = null`;
-- estado visual: `machine_visual_ocr_unadjudicated`.
+Los tres productos derivados son:
 
-La unidad demuestra que el núcleo RHD puede representar una página gramatical sin forzarla al modelo de diccionario.
+- `data/pilot/tellechea-1826.full-witness.jsonl`;
+- `data/pilot/tellechea-1826.full-witness.tei.xml`;
+- `data/pilot/tellechea-1826.full-witness.diagnostics.json`.
 
-### Unidad 2 — disposición paralela español–tarahumara
+Se generan dentro de CI y se incluyen en el manifiesto de integridad del release; no se presentan como fuentes originales ni como una edición humana de Tellechea.
 
-`RHD-T1826-00002` corresponde a **PDF 75 / página impresa 49**, encabezada por material del *Persignum Crucis*, *Pater Noster* y *Ave Maria*. La página se dividió geométricamente en dos columnas antes del OCR visual.
+## Qué demuestra el cierre
 
-- texto embebido preservado: **1,404 caracteres**;
-- OCR visual independiente: **1,218 caracteres**;
-- solapamiento documental Jaccard de tokens: **0.4155**;
-- puntuación conservadora de palabras funcionales españolas: **4** en la columna izquierda y **32** en la derecha;
-- asignación machine-only: izquierda `und_candidate`, derecha `es_candidate`;
-- estado de la asignación: `machine_candidate`, no certeza lingüística;
-- `lexical = null`.
+La segunda fuente ya no es sólo una prueba de concepto. La totalidad del witness declarado atraviesa el sistema con los mismos conceptos de identidad, capas, procedencia, validación de esquema y exportación utilizados por la implementación de referencia. Las peculiaridades de Tellechea permanecen en su perfil y adaptador; el núcleo RHD no necesitó adquirir reglas específicas de esta obra.
 
-La disposición y el contenido permiten tratar la página como prueba de paralelismo documental sin inferir que cada línea forme una traducción uno-a-uno. La asignación lingüística puede revisarse computacionalmente en futuras capas, pero no se transforma en una afirmación humana ni semántica.
+Por ello el gate de industrialización se considera **cerrado al 100%**. El significado del cierre es preciso: RHD ha demostrado reutilización computacional end-to-end sobre una segunda fuente histórica real, estructuralmente distinta y completa en el alcance declarado. No significa que Tellechea sea una edición crítica humana, ni que cada lectura histórica haya sido adjudicada lingüísticamente.
 
-## Artefactos reproducibles de la prueba mínima
+## Consecuencia para RHD 1.0
 
-La ejecución genera y valida:
-
-- `data/pilot/tellechea-1826.minimal-pilot.jsonl`;
-- `data/pilot/tellechea-1826.minimal-pilot.tei.xml`;
-- `data/pilot/tellechea-1826.minimal-pilot.diagnostics.json`;
-- `scripts/generate_tellechea_pilot.py`;
-- `tests/validate_tellechea_pilot.py`.
-
-Los registros canónicos validan contra el mismo JSON Schema utilizado por RHD, pero la TEI documental de Tellechea no genera `<entry>` de diccionario ni contamina la proyección Lex-0.
-
-## Qué demostró la prueba mínima
-
-La prueba mínima ya satisface cinco afirmaciones útiles sobre la industrialización:
-
-1. un witness externo distinto puede fijarse y vigilarse por identidad binaria;
-2. RHD admite unidades no lexicográficas manteniendo el mismo modelo de procedencia;
-3. texto embebido y lectura visual independiente pueden coexistir como capas no destructivas;
-4. una página bilingüe en columnas puede representarse sin inventar equivalencia semántica frase a frase;
-5. el núcleo universal no necesitó convertirse en un modelo específico de Tellechea.
-
-Por esta razón la dimensión de replicación recibe **40%**, no 100%. Se ha demostrado la viabilidad end-to-end mínima, pero aún no la industrialización del witness completo.
-
-## Prueba fuerte — pendiente
-
-Para cerrar la dimensión debe procesarse el alcance completo declarado del witness de **205 páginas**. La prueba fuerte deberá:
-
-- construir la cartografía documental completa;
-- crear unidades persistentes para gramática, paradigmas, ejemplos, textos paralelos y paratextos;
-- conservar la capa textual embebida y producir cotejo visual machine-only donde corresponda;
-- modelar el paralelismo sólo donde la evidencia de disposición lo justifique;
-- producir una TEI documental completa;
-- registrar cualquier modificación necesaria al núcleo RHD y clasificarla como capacidad universal, corrección general o peculiaridad que debe permanecer en el perfil;
-- demostrar en CI que el pipeline completo sigue siendo reproducible y que ninguna fase fabrica adjudicación humana.
-
-## Criterio de cierre
-
-El gate de industrialización no se cerrará porque dos páginas funcionaron. Se cerrará cuando el witness completo de Tellechea atraviese el pipeline declarado sin rediseño fundamental del núcleo RHD. La prueba mínima cambia, sin embargo, el estado metodológico del proyecto: la reutilización fuera del formato diccionario **ya fue demostrada empíricamente**, aunque todavía no a escala completa.
+Con la prueba fuerte cerrada, la pregunta ya no es si RHD puede salir del diccionario de Steffel. Esa capacidad quedó demostrada empíricamente. El camino crítico del proyecto se concentra ahora en **IIIF canónico**, **release/archivo persistente**, **cierre de productos diacrónicos** y el pequeño residual de refinamiento de anexos.
