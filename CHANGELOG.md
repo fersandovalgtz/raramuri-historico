@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased — RHD 1.0 machine-only reference implementation
+## 0.9.0-machine-only-prerelease — 2026-08-15
 
 ### Alcance científico
 
@@ -22,6 +22,7 @@
 - Validación CI de la proyección estricta contra el RNG oficial **TEI Lex-0 0.9.5**.
 - Suplemento TEI específico para anexos, separado de Lex-0.
 - Política y pruebas que impiden crear automáticamente `<def>` desde material fuente no estructurado.
+- El gate IIIF permanece abierto hasta que los recursos de imagen deriven de forma estable del witness canónico exacto; proveedores externos mutables se tratan sólo como diagnósticos.
 
 ### Anexos Steffel 369–374
 
@@ -30,25 +31,37 @@
 - Estructuración computacional del sistema numeral con cardinales/ejemplos, sistemas de conteo, multiplicativos, otras expresiones numéricas y ordinales.
 - Alineación visual IA de las 22 fórmulas en latín–alemán–tarahumara: 66 campos paralelos con nivel de confianza y segmentos inciertos explícitos.
 - Transcripción visual IA del Padre Nuestro como bloque independiente hasta `Amen.`.
-- Las lecturas gráficas de baja confianza se conservan como incertidumbre y no se corrigen por conjetura.
+- Registro terminal de incertidumbre: toda lectura media/baja o segmento dudoso queda inventariado como `explicit_machine_uncertainty`, sin reparación especulativa y sin requisito humano.
 
 ### Investigación diacrónica computacional
 
 - Las 298 relaciones candidatas reciben puntuación reproducible de **apoyo documental de recuperación** mediante similitud gráfica conservadora, atestiguación interna y apoyo documental recíproco.
-- Las pruebas prohíben convertir esa puntuación en probabilidad semántica, cognación, etimología o continuidad histórica.
+- Se añade calibración contra **5,066 emparejamientos nulos deterministas** obtenidos mediante 17 desplazamientos circulares del mismo inventario de formas modernas.
+- Cada relación conserva `candidate`; la calibración mide únicamente especificidad grafémica de recuperación.
+- Las pruebas prohíben convertir puntuaciones o percentiles en probabilidad semántica, cognación, etimología, ley fonológica o continuidad histórica.
+
+### Segunda fuente e industrialización
+
+- Se fija el witness público de **Miguel Joaquín Tellechea, 1826, _Compendio gramatical para la inteligencia del idioma tarahumar_**: 205 páginas, 95,088,307 bytes, SHA-256 `c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc`.
+- Prueba mínima end-to-end: una unidad gramatical y una unidad de disposición paralela atraviesan extracción, OCR visual independiente, canonicalización y TEI.
+- Prueba fuerte end-to-end: **205/205 páginas** se convierten en unidades documentales RHD deterministas y TEI completa.
+- El procesamiento completo de Tellechea registra **0 rediseños del núcleo universal**, **0 entradas Lex-0 fabricadas** y **0 atribuciones humanas**.
+- Queda demostrado que el núcleo RHD puede industrializar una segunda fuente histórica estructuralmente distinta del diccionario de Steffel.
 
 ### Integridad y release
 
-- Generador determinista de manifiesto de release con SHA-256, tamaños y conteos.
-- La CI recompone hashes y conteos de capas lexicales, canónicas, diacrónicas, TEI/Lex-0, anexos visuales y documentación de política/conformidad.
+- Generador determinista de manifiesto de prerelease con SHA-256, tamaños y conteos.
+- El manifiesto incluye capas lexicales, canónicas, diacrónicas, calibración nula, anexos, incertidumbre terminal, TEI/Lex-0 y productos mínimo/completo de Tellechea.
+- IIIF se modela como gate opcional: su ausencia no invalida las demás capas checksum-fixed ni puede convertirse en falsa afirmación de completitud.
+- `CITATION.cff` preparado para `0.9.0-machine-only-prerelease`.
 - Declaración de conformidad de implementación RHD 1.0 machine-only.
 - Métrica de terminación machine-only versionada y auditable.
 
-### Pendientes para release final
+### Pendientes para release final RHD 1.0
 
-- Cerrar/verificar IIIF sobre el witness completo.
-- Fijar versión, actualizar metadatos de citación, publicar release estable y depósito/identificador persistente.
-- Ejecutar una segunda fuente histórica end-to-end para demostrar industrialización del núcleo RHD.
+- Publicar IIIF canónico estable del witness Steffel exacto y, después, enlazar Canvas/regiones donde exista evidencia espacial real.
+- Publicar release estable y depósito/archivo con identificador persistente.
+- Cerrar la presentación final de los productos de calibración diacrónica sin exceder sus límites epistemológicos.
 
 <!-- AMEKE_PERM_CHANGELOG_START -->
 ## Control por permutaciones `-ameke` — 2026-08-13
