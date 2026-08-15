@@ -12,8 +12,10 @@ on:
       - 'scripts/validate_external_iiif_witness.py'
       - 'scripts/probe_steffel_iiif_candidate.py'
       - 'scripts/probe_tellechea_1826_witness.py'
+      - 'scripts/generate_tellechea_pilot.py'
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_source_profiles_machine_only.py'
+      - 'tests/validate_tellechea_pilot.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_appendix_candidates.py'
       - 'tests/validate_trilingual_visual_alignment.py'
@@ -37,6 +39,7 @@ on:
       - 'data/appendices/prayer_visual_transcription_ai.json'
       - 'data/appendices/numeration_visual_structure_ai.json'
       - 'data/iiif/steffel-1809-local-page-fingerprints.json'
+      - 'data/pilot/**'
       - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
       - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
       - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
@@ -56,8 +59,10 @@ on:
       - 'scripts/validate_external_iiif_witness.py'
       - 'scripts/probe_steffel_iiif_candidate.py'
       - 'scripts/probe_tellechea_1826_witness.py'
+      - 'scripts/generate_tellechea_pilot.py'
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_source_profiles_machine_only.py'
+      - 'tests/validate_tellechea_pilot.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_appendix_candidates.py'
       - 'tests/validate_trilingual_visual_alignment.py'
@@ -81,6 +86,7 @@ on:
       - 'data/appendices/prayer_visual_transcription_ai.json'
       - 'data/appendices/numeration_visual_structure_ai.json'
       - 'data/iiif/steffel-1809-local-page-fingerprints.json'
+      - 'data/pilot/**'
       - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
       - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
       - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
@@ -100,15 +106,28 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install validators
+      - name: Install validators and machine OCR stack
         run: |
           python3 -m pip install --disable-pip-version-check jsonschema pillow pypdf
           sudo apt-get update -qq
-          sudo apt-get install -y -qq jing
+          sudo apt-get install -y -qq jing poppler-utils tesseract-ocr tesseract-ocr-spa
       - name: Validate reusable source profiles enforce machine-only policy
         run: python3 tests/validate_source_profiles_machine_only.py
       - name: Verify checksum-fixed Tellechea 1826 witness and characterize text layer
         run: python3 scripts/probe_tellechea_1826_witness.py
+      - name: Generate Tellechea minimal end-to-end documentary pilot
+        run: python3 scripts/generate_tellechea_pilot.py
+      - name: Validate Tellechea minimal pilot against RHD core and TEI safeguards
+        run: python3 tests/validate_tellechea_pilot.py
+      - name: Upload reproducible Tellechea pilot artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: tellechea-1826-minimal-rhd-pilot
+          path: |
+            data/pilot/tellechea-1826.minimal-pilot.jsonl
+            data/pilot/tellechea-1826.minimal-pilot.tei.xml
+            data/pilot/tellechea-1826.minimal-pilot.diagnostics.json
+          if-no-files-found: error
       - name: Generate lexical canonical projection
         run: python3 scripts/generate_rhd_canonical.py
       - name: Validate lexical canonical invariants and JSON Schema
