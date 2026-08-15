@@ -111,6 +111,10 @@ jobs:
         run: python3 scripts/calibrate_diachronic_machine_scores.py
       - name: Validate diachronic calibration and epistemic guardrails
         run: python3 tests/validate_diachronic_machine_calibration.py
+      - name: Generate publishable machine-only diachronic report
+        run: python3 scripts/generate_diachronic_machine_report.py
+      - name: Validate diachronic report coverage and non-claims
+        run: python3 tests/validate_diachronic_machine_report.py
 
       - name: Generate rich RHD TEI and strict Lex-0 projection
         run: python3 scripts/generate_rhd_tei.py
