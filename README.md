@@ -1,6 +1,6 @@
 <p align="center">
   <strong>Rarámuri Histórico Digital</strong><br>
-  <em>Corpus Steffel 1791/1809 · edición histórico-digital, datos de investigación e infraestructura reproducible</em>
+  <em>Corpus Steffel 1791/1809 · edición histórico-digital · datos de investigación · infraestructura reproducible</em>
 </p>
 
 <p align="center">
@@ -16,12 +16,12 @@
 
 <p align="center">
   <a href="docs/STEFFEL_SOURCE.md"><strong>Fuente histórica</strong></a> ·
-  <a href="#estado-científico-de-la-versión-100"><strong>Estado científico</strong></a> ·
-  <a href="#datos-y-representaciones"><strong>Datos</strong></a> ·
-  <a href="#reproducibilidad"><strong>Reproducibilidad</strong></a> ·
+  <a href="#estado-científico-de-rhd-100"><strong>Estado científico</strong></a> ·
+  <a href="#datos-e-interoperabilidad"><strong>Datos</strong></a> ·
+  <a href="#reproducibilidad-y-ciencia-abierta"><strong>Reproducibilidad</strong></a> ·
   <a href="#citación"><strong>Citación</strong></a> ·
   <a href="docs/ECOSYSTEM.md"><strong>Ecosistema</strong></a> ·
-  <a href="https://raramuri-historico.pages.dev"><strong>Sitio</strong></a>
+  <a href="https://fersandovalgtz.github.io/raramuri-historico/"><strong>Sitio público</strong></a>
 </p>
 
 ---
@@ -30,29 +30,29 @@
 
 **Rarámuri Histórico Digital (RHD)** es una infraestructura de investigación para transformar fuentes históricas sobre la lengua rarámuri en objetos digitales **trazables, versionados, citables, interoperables y reproducibles**, sin borrar la forma documental de la fuente ni convertir inferencias computacionales en hechos lingüísticos.
 
-La implementación de referencia es el **Corpus Steffel 1791/1809**, construido a partir del *Tarahumarisches Wörterbuch* de Matthäus Steffel. El repositorio conserva por separado el testimonio histórico, el OCR, la segmentación, las transcripciones diplomáticas IA-asistidas, las decisiones editoriales, los estados de incertidumbre, las relaciones derivadas y las representaciones interoperables. La incertidumbre explícita es un resultado legítimo: cuando la evidencia no permite una lectura única, el sistema no la fabrica.
+La implementación de referencia es el **Corpus Steffel 1791/1809**, construido a partir del *Tarahumarisches Wörterbuch* de Matthäus Steffel. El repositorio conserva separadamente el testimonio histórico, OCR, segmentación, transcripciones diplomáticas IA-asistidas, decisiones editoriales, incertidumbres, relaciones derivadas y representaciones interoperables. Cuando la evidencia no permite una lectura única, la incertidumbre se conserva como resultado legítimo.
 
-RHD no pretende sustituir una edición filológica humana ni hablar en nombre de las comunidades rarámuri contemporáneas. Su objeto es **documental e histórico** y sus afirmaciones se limitan al alcance que cada capa de evidencia permite.
+RHD es una edición histórico-digital **machine-only** en su release 1.0.0. No sustituye una edición filológica humana ni habla en nombre de las comunidades rarámuri contemporáneas. Su objeto es documental e histórico y cada afirmación queda limitada por la autoridad de la capa que la sustenta.
 
-## La fuente: Matthäus Steffel y el *Tarahumarisches Wörterbuch*
+## Matthäus Steffel y el *Tarahumarisches Wörterbuch*
 
-Matthäus Steffel (1734–1806) fue un jesuita originario de Jihlava, en Moravia. Se formó en Nueva España y trabajó en la Sierra Tarahumara entre 1761 y 1767, con estancias documentadas en Tónachi, Tomochic, Nonoava y San Francisco de Borja. Tras la expulsión de la Compañía de Jesús de los dominios españoles, regresó a Europa y continuó trabajando sus materiales lingüísticos. La bibliografía especializada sitúa el diccionario en el horizonte intelectual de la Ilustración europea, la historiografía lingüística y las primeras empresas comparativas y tipológicas sobre lenguas americanas.
+Matthäus Steffel (1734–1806), jesuita originario de Jihlava, Moravia, trabajó en la Sierra Tarahumara entre 1761 y 1767, con estancias documentadas en Tónachi, Tomochic, Nonoava y San Francisco de Borja. Tras la expulsión de la Compañía de Jesús de los dominios españoles regresó a Europa y continuó elaborando materiales lingüísticos.
 
-El texto fue publicado en 1809 por Christoph Gottlieb von Murr dentro del volumen I de *Nachrichten von verschiedenen Ländern des Spanischen Amerika, aus eigenhändigen Aufsätzen einiger Missionare der Gesellschaft Jesu* (Halle: Johann Christian Hendel). La contribución de Steffel ocupa las pp. **293–374**; el cuerpo lexicográfico comienza en la p. **301**, cambia de alemán→rarámuri a rarámuri→alemán dentro de la p. **353**, y los materiales finales incluyen el apéndice sobre numeración y una muestra lingüística con fórmulas en latín, alemán y rarámuri.
+El diccionario fue publicado póstumamente en **1809** por Christoph Gottlieb von Murr dentro del volumen I de *Nachrichten von verschiedenen Ländern des Spanischen Amerika, aus eigenhändigen Aufsätzen einiger Missionare der Gesellschaft Jesu* (Halle: Johann Christian Hendel). La contribución de Steffel ocupa las pp. **293–374**; el cuerpo lexicográfico comienza en la p. **301**, cambia de alemán→rarámuri a rarámuri→alemán dentro de la p. **353** y es seguido por materiales anexos hasta la p. 374.
 
-El diccionario es más que una lista bilingüe: contiene observaciones sobre usos, costumbres y prácticas comunicativas. Precisamente por ello RHD conserva la **microestructura documental y el contexto** en vez de reducir cada entrada a una equivalencia léxica moderna.
+La fórmula **1791/1809** no designa dos ediciones impresas. `1791` remite al horizonte manuscrito y epistolar documentado durante la elaboración de los materiales; `1809` es la fecha de la edición impresa utilizada por RHD. La historia documental, bibliografía y criterios de esta denominación se explican en [docs/STEFFEL_SOURCE.md](docs/STEFFEL_SOURCE.md).
 
-→ [Nota documental, historia de la fuente y bibliografía especializada](docs/STEFFEL_SOURCE.md)
+El texto no es sólo una lista bilingüe: integra observaciones de uso, gramática, prácticas comunicativas y descripciones culturales propias de su contexto histórico. RHD preserva esa microestructura y atribuye los juicios históricos a la fuente, en vez de convertirlos en afirmaciones contemporáneas del proyecto.
 
 ### Referencia primaria
 
 > Steffel, Matthäus. 1809. “Tarahumarisches Wörterbuch, nebst einigen Nachrichten von den Sitten und Gebräuchen der Tarahumaren, in Neu-Biscaya, in der Audiencia Guadalaxara, im Vice-Königreiche Alt-Mexico, oder Neu-Spanien”. En Christoph Gottlieb von Murr (ed.), *Nachrichten von verschiedenen Ländern des Spanischen Amerika, aus eigenhändigen Aufsätzen einiger Missionare der Gesellschaft Jesu*, vol. I, 293–374. Halle: Johann Christian Hendel.
 
-Véanse también [SOURCES.md](SOURCES.md), [PROVENANCE.md](PROVENANCE.md) y la edición contemporánea de William L. Merrill y colaboradores (Universidad de Sonora, 2020; DOI `10.47807/UNISON.8`).
+Véanse [SOURCES.md](SOURCES.md), [PROVENANCE.md](PROVENANCE.md) y la edición contemporánea de William L. Merrill y colaboradores, publicada por la Universidad de Sonora en 2020 (DOI `10.47807/UNISON.8`).
 
-## Estado científico de la versión 1.0.0
+## Estado científico de RHD 1.0.0
 
-La versión canónica **RHD 1.0.0** fija a Steffel 1791/1809 como implementación de referencia de una edición histórico-digital **machine-only**, con trazabilidad y límites epistemológicos explícitos.
+La release canónica **`v1.0.0`** fija a Steffel 1791/1809 como implementación de referencia del modelo RHD.
 
 | Dimensión | Estado v1.0.0 |
 |---|---:|
@@ -69,110 +69,83 @@ La versión canónica **RHD 1.0.0** fija a Steffel 1791/1809 como implementació
 | Enlaces registro→Canvas | **1,965** |
 | Replicación piloto Tellechea 1826 | **205 / 205 páginas** |
 
-**No se afirma validación humana independiente.** Ningún resultado IA-asistido se presenta como `human_verified`, `philologically_verified_by_human` o `linguistically_verified`. Los 46 casos irresueltos permanecen abiertos deliberadamente y las 298 relaciones diacrónicas permanecen como candidatos; no se promueven automáticamente a cognación, etimología, equivalencia semántica ni continuidad histórica.
+**No se afirma validación humana independiente.** Ningún resultado IA-asistido se presenta como `human_verified`, `philologically_verified_by_human` o `linguistically_verified`. Las 298 relaciones diacrónicas permanecen como candidatos; no se promueven automáticamente a cognación, etimología, equivalencia semántica ni continuidad histórica.
 
-La descripción completa del snapshot está en [docs/RELEASE_NOTES_V1.0.0.md](docs/RELEASE_NOTES_V1.0.0.md). El tag canónico es [`v1.0.0`](https://github.com/fersandovalgtz/raramuri-historico/releases/tag/v1.0.0).
+→ [Notas de la release 1.0.0](docs/RELEASE_NOTES_V1.0.0.md) · [Política editorial](EDITORIAL_POLICY.md) · [Cobertura](COVERAGE.md)
 
 ## Arquitectura de evidencia
 
 RHD adopta una cadena editorial explícita y no destructiva:
 
-**facsímil → OCR bruto → segmentación → cotejo de límites y dirección → reconstrucción documental → transcripción diplomática → triage de incertidumbre → recotejo filológico IA-asistido → capas derivadas → revisión humana independiente cuando exista**.
+**testimonio → OCR bruto → segmentación → cotejo de límites y dirección → reconstrucción documental → transcripción diplomática IA-asistida → triage de incertidumbre → recotejo PHIL → capas derivadas → revisión humana independiente cuando exista**.
 
 Tres reglas gobiernan el corpus:
 
-1. **La fuente no se sobrescribe.** Las correcciones y propuestas viven en overlays o manifiestos append-only.
-2. **La procedencia acompaña al dato.** Cada transformación debe poder remontarse a una fuente, página, registro y actividad de procesamiento.
+1. **La fuente no se sobrescribe.** Correcciones y propuestas viven en capas o manifiestos que preservan la evidencia previa.
+2. **La procedencia acompaña al dato.** Toda transformación debe poder remontarse a una fuente, página, registro y actividad de procesamiento.
 3. **La autoridad de una capa está tipada.** OCR, cotejo IA-asistido, propuesta editorial, revisión humana y análisis lingüístico no son estados intercambiables.
 
-Documentos normativos: [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md) · [PROVENANCE.md](PROVENANCE.md) · [DATASHEET.md](DATASHEET.md) · [COVERAGE.md](COVERAGE.md) · [FAIR_ASSESSMENT.md](FAIR_ASSESSMENT.md).
+Documentos normativos: [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md) · [PROVENANCE.md](PROVENANCE.md) · [DATASHEET.md](DATASHEET.md) · [GOVERNANCE.md](GOVERNANCE.md).
 
-## Datos y representaciones
-
-El repositorio mantiene una capa maestra y exportaciones derivadas para diferentes necesidades de investigación.
+## Datos e interoperabilidad
 
 | Recurso | Función |
 |---|---|
 | `data/entries.csv` | capa maestra con evidencia y overlays editoriales |
-| `data/entries_curated.csv` | anclas curatoriales históricas del proceso |
 | `data/diplomatic/` | transcripciones diplomáticas IA-asistidas |
-| `data/review/` | manifiestos de cotejo documental append-only |
+| `data/review/` | manifiestos de cotejo documental |
 | `data/validation/` | incertidumbre, recotejo PHIL y colas de revisión |
 | `data/research/` | concordancias, variantes, pruebas y relaciones derivadas |
-| JSON / XML / SQLite | serializaciones reproducibles |
+| CSV / JSON / XML / SQLite | serializaciones reproducibles |
 | TEI RHD | representación rica del modelo documental |
 | TEI Lex-0 | proyección lexicográfica estricta e interoperable |
 | IIIF Presentation 3 | localización del testimonio y enlaces registro→Canvas |
 | `schemas/` | contratos de datos y validación estructural |
 | `source_profiles/` | configuración específica de cada fuente histórica |
 
-La separación entre **núcleo reusable** y **perfil de fuente** permite aplicar RHD a otros testimonios sin rediseñar la arquitectura universal. La replicación sobre Tellechea 1826 funciona como prueba de esa portabilidad.
+La separación entre **núcleo reusable** y **perfil de fuente** permite aplicar RHD a otros testimonios sin rediseñar la arquitectura universal. La replicación sobre Tellechea 1826 constituye la primera prueba de esa portabilidad.
 
-## Reproducibilidad
+## Reproducibilidad y ciencia abierta
 
-La generación de artefactos científicos está automatizada mediante scripts versionados y pruebas de invariantes. Para reconstruir las principales capas desde un entorno compatible:
+La generación de artefactos está automatizada mediante scripts versionados y pruebas de invariantes. Los checksums del testimonio, manifiestos de integridad y documentación de procedencia permiten verificar que un resultado corresponda al estado que declara.
 
-```bash
-python3 scripts/extract_full_corpus.py
-python3 scripts/apply_review_overrides.py
-python3 scripts/generate_review_queue.py
-python3 scripts/generate_validation_queue.py
-python3 scripts/generate_human_review_priority.py
-python3 scripts/generate_exports.py
-python3 scripts/generate_de_rar_attestations.py
-python3 scripts/generate_internal_concordance.py
-python3 scripts/generate_historical_variants.py
-python3 scripts/generate_graphemic_statistics.py
-python3 scripts/generate_research_statistics.py
-python3 tests/validate.py
-python3 tests/validate_validation_phase.py
-```
+Consulte [REPRODUCIBILITY.md](REPRODUCIBILITY.md), [FAIR_ASSESSMENT.md](FAIR_ASSESSMENT.md) y `sources/checksums.json`. RHD aplica principios FAIR para datos y FAIR4RS para software de investigación, con metadatos en [`CITATION.cff`](CITATION.cff) y [`codemeta.json`](codemeta.json).
 
-Los checksums del testimonio de trabajo, las reglas de procedencia y los manifiestos de integridad permiten verificar que un resultado corresponda al estado documental que declara. Consulte [REPRODUCIBILITY.md](REPRODUCIBILITY.md), [PROVENANCE.md](PROVENANCE.md) y `sources/checksums.json`.
-
-## Ciencia abierta, FAIR y preservación
-
-RHD trata **datos y software como productos científicos citables**. La infraestructura incorpora identificadores internos estables, control de versiones, metadatos legibles por máquina, licencias diferenciadas, procedencia, formatos interoperables, validación automatizada y una release científica congelada. La evaluación se documenta en [FAIR_ASSESSMENT.md](FAIR_ASSESSMENT.md), con referencia a FAIR para datos y FAIR4RS para software de investigación.
-
-El archivo persistente con DOI se gestiona como una capa separada de GitHub. **No se declara un DOI hasta verificar que el depósito corresponda exactamente a la release canónica.** Una vez depositado `v1.0.0`, el DOI de versión y, cuando proceda, el DOI conceptual se incorporarán a `CITATION.cff`, README y metadatos del proyecto.
+El archivo persistente con DOI se gestiona separadamente. **No se mostrará un DOI de RHD hasta verificar que el depósito corresponda exactamente a la release canónica `v1.0.0`, su commit y el artefacto archivado.**
 
 ## Citación
 
-Los metadatos canónicos se mantienen en [`CITATION.cff`](CITATION.cff). GitHub puede convertir este archivo directamente a formatos bibliográficos desde **Cite this repository**.
+GitHub puede generar una cita desde [`CITATION.cff`](CITATION.cff). Mientras se completa y verifica el depósito persistente de `v1.0.0`, la referencia recomendada es:
 
-Mientras se completa el depósito persistente de `v1.0.0`, la referencia recomendada es:
+> Sandoval Gutierrez, Fernando. 2026. *Rarámuri Histórico Digital — Corpus Steffel 1791/1809*, versión 1.0.0. GitHub.
 
-> Sandoval Gutierrez, Fernando. 2026. *Rarámuri Histórico Digital — Corpus Steffel 1791/1809*, versión 1.0.0. GitHub. https://github.com/fersandovalgtz/raramuri-historico
-
-Para trabajos que dependan de una versión concreta, cite además el tag/release utilizado. Cuando el DOI esté verificado, éste sustituirá la URL de GitHub como identificador persistente principal de la versión archivada.
+Cuando un argumento dependa de una lectura del documento histórico, cite además **Steffel 1809** y la página correspondiente. Esta doble citación mantiene separadas la autoría histórica y la responsabilidad editorial/computacional de RHD.
 
 ## Licencias y derechos
 
-RHD utiliza un esquema deliberadamente separado:
+- **Software y código original:** [MIT](LICENSE).
+- **Datos, metadatos, anotaciones, traducciones y capas editoriales originales de RHD:** [CC BY 4.0](DATA_LICENSE.md).
+- **Fuente histórica y materiales de terceros:** conservan su propio estatus jurídico y deben citarse según su procedencia.
 
-- **software y código original:** [MIT](LICENSE);
-- **datos, metadatos, anotaciones, traducciones y capas editoriales originales de RHD:** [CC BY 4.0](DATA_LICENSE.md);
-- **fuentes históricas y materiales de terceros:** conservan su propio estatus jurídico y deben citarse según su procedencia.
-
-La licencia CC BY 4.0 de las capas originales **no crea derechos sobre la obra de Steffel ni sobre reproducciones o ediciones de terceros**. La edición crítica contemporánea de 2020 se usa como bibliografía y no se redistribuye sistemáticamente como dataset.
+La licencia de RHD no crea derechos sobre la obra de Steffel ni sobre ediciones contemporáneas de terceros.
 
 ## Ecosistema científico
 
-RHD forma parte de un conjunto de repositorios, servicios y perfiles conectados, no de un proyecto aislado.
+RHD forma parte de un conjunto de proyectos conectados y mantiene las responsabilidades de cada uno separadas:
 
 | Recurso | Relación con RHD |
 |---|---|
-| [Rarámuri Digital](https://github.com/fersandovalgtz/raramuri-digital) · [web](https://raramuri.ceees.mx) | infraestructura lexicográfica contemporánea hermana; las relaciones históricas se mantienen como candidatos trazables, no como fusiones automáticas |
-| [Rarámuri · recursos educativos](https://github.com/fersandovalgtz/raramuri-recursos-educativos) | capa pedagógica separada del corpus científico |
+| [Rarámuri Digital](https://github.com/fersandovalgtz/raramuri-digital) · [sitio](https://raramuri.ceees.mx) | infraestructura lexicográfica contemporánea hermana; las relaciones históricas permanecen tipadas y revisables |
+| [Rarámuri · recursos educativos](https://github.com/fersandovalgtz/raramuri-recursos-educativos) | capa pedagógica independiente del corpus científico |
 | [Libro de Texto Mexicano Digital](https://github.com/fersandovalgtz/libro-texto-mexicano-digital) | proyecto hermano de patrimonio documental y humanidades digitales |
-| [Historia de la educación en Chihuahua](https://github.com/fersandovalgtz/historia-educacion-chihuahua) | archivo de investigación histórica dentro del mismo ecosistema de ciencia abierta |
-| [Recursos educativos abiertos](https://github.com/fersandovalgtz/recursos-educativos-abiertos) | infraestructura de curación y reutilización educativa |
-| [Perfil científico en GitHub](https://github.com/fersandovalgtz) | puerta de entrada al conjunto de proyectos y producción abierta |
-| [CEEES Cuauhtémoc](https://ceees.mx) | entorno institucional y de divulgación académica vinculado al ecosistema |
+| [Historia de la educación en Chihuahua](https://github.com/fersandovalgtz/historia-educacion-chihuahua) | investigación histórica y archivo digital dentro del mismo ecosistema de ciencia abierta |
+| [Recursos educativos abiertos](https://github.com/fersandovalgtz/recursos-educativos-abiertos) | curación y reutilización educativa |
+| [Perfil científico en GitHub](https://github.com/fersandovalgtz) | puerta de entrada al conjunto de proyectos abiertos |
+| [Sitio público de RHD](https://fersandovalgtz.github.io/raramuri-historico/) | interfaz de consulta y divulgación del corpus |
 
-→ [Mapa ampliado del ecosistema, perfiles académicos y estrategia de interoperabilidad](docs/ECOSYSTEM.md)
+→ [Mapa ampliado del ecosistema](docs/ECOSYSTEM.md)
 
-## Autor, responsabilidad y perfiles académicos
+## Autor y perfiles académicos
 
 **Dr. Fernando Sandoval Gutierrez**  
 ORCID: [0000-0002-3168-6725](https://orcid.org/0000-0002-3168-6725)  
@@ -180,9 +153,9 @@ Universidad Autónoma de Ciudad Juárez · Universidad CEEES / CEEES Cuauhtémoc
 
 Perfiles: [GitHub](https://github.com/fersandovalgtz) · [Google Scholar](https://scholar.google.com/citations?user=zNZsYYAAAAAJ&hl=es) · [CATHI-UACJ](https://cathi.uacj.mx/handle/20.500.11961/3028/browse?authority=0000-0002-3168-6725&type=author) · [ResearchGate](https://www.researchgate.net/profile/Fernando-Sandoval-Gutierrez) · [ResearchID](https://researchid.co/fersandovalg) · [Academia.edu](https://uacj.academia.edu/FernandoSandoval)
 
-## Contribución y gobernanza
+## Contribuir
 
-Las contribuciones documentales, filológicas, lingüísticas, técnicas o históricas son bienvenidas cuando preservan la trazabilidad de la evidencia. Antes de proponer una corrección, revise [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md) y [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). Los problemas de seguridad se reportan según [SECURITY.md](SECURITY.md).
+Las contribuciones documentales, filológicas, lingüísticas, históricas y técnicas son bienvenidas cuando aumentan la evidencia sin borrar la procedencia. Consulte [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) y [SECURITY.md](SECURITY.md).
 
 ---
 
