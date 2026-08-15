@@ -53,14 +53,14 @@ jobs:
         run: python3 scripts/generate_rhd_canonical.py
       - name: Validate canonical invariants and JSON Schema
         run: python3 tests/validate_rhd_canonical.py
-      - name: Generate TEI P5 research projection
+      - name: Generate rich RHD TEI and strict Lex-0 projection
         run: python3 scripts/generate_rhd_tei.py
-      - name: Validate conservative TEI invariants
+      - name: Validate RHD/TEI separation invariants
         run: python3 tests/validate_rhd_tei.py
-      - name: Validate against official TEI Lex-0 0.9.5 RNG
+      - name: Validate strict projection against official TEI Lex-0 0.9.5 RNG
         run: |
           curl -fsSL https://lex-0.org/schema/lex-0.rng -o /tmp/lex-0.rng
-          jing /tmp/lex-0.rng data/tei/rhd-steffel-1809-tei.xml
+          jing /tmp/lex-0.rng data/tei/rhd-steffel-1809-lex0.xml
       - name: Generate human-review packets
         run: python3 scripts/generate_human_review_packets.py
       - name: Validate human-review packet coverage and neutrality
