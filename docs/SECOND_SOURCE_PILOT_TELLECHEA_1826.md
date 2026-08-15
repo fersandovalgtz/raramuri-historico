@@ -1,6 +1,6 @@
 # Segunda fuente piloto — Miguel Tellechea, 1826
 
-**Estado:** fuente seleccionada para prueba de replicabilidad; witness exacto aún no fijado.  
+**Estado:** witness público fijado por checksum; procesamiento end-to-end aún no iniciado.  
 **No acredita todavía el gate end-to-end.**
 
 ## Por qué Tellechea
@@ -9,14 +9,20 @@ El *Compendio gramatical para la inteligencia del idioma tarahumar* de Miguel Jo
 
 Esa diferencia lo vuelve una prueba más fuerte que escoger simplemente otro vocabulario con la misma forma documental de Steffel. Si RHD puede procesar Tellechea manteniendo intactos sus conceptos de witness, evidencia, capas, procedencia, identificadores, incertidumbre y exportación, tendremos una demostración mucho más convincente de que el núcleo es realmente reusable.
 
-## Evidencia bibliográfica y acceso digital
+## Witness canónico del piloto
 
-Se han localizado al menos dos referencias digitales públicas útiles para adquisición/control bibliográfico:
+La Dirección General de Bibliotecas de la Secretaría de Cultura mantiene una reproducción PDF pública de la obra. El 15 de agosto de 2026 GitHub Actions recuperó directamente ese binario y fijó su identidad de manera reproducible:
 
-- Google Play Books identifica una reproducción gratuita de 172 páginas con ID `b9BTAAAAcAAJ`.
-- La Biblioteca Virtual de la Filología Española registra la edición de 1826 y distintos ejemplares institucionales.
+- witness: `RHD-WIT-TELLECHEA-1826-DGB`;
+- URI de recuperación: `https://dgb.cultura.gob.mx/recursos/documentos/lenguasindigenas/Compendiogramaticalpara.pdf`;
+- tamaño: **95,088,307 bytes**;
+- páginas PDF: **205**;
+- versión PDF observada: **1.6**;
+- SHA-256: `c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc`.
 
-Ninguna de esas referencias se convierte automáticamente en witness RHD. Primero debe seleccionarse un binario o servicio de imágenes reproducible y fijar su identidad con checksum/URI estable.
+La identidad queda registrada en `sources/tellechea-1826-witness.json`. La CI vuelve a descargar el PDF y exige que checksum, tamaño y número de páginas sigan siendo exactamente los mismos. Un cambio del proveedor debe aparecer como cambio de witness, no aceptarse silenciosamente.
+
+Google Play Books y la Biblioteca Virtual de la Filología Española se conservan como referencias bibliográficas/digitales independientes. No sustituyen el witness DGB checksum-fixed.
 
 ## Diferencias que deben vivir en el perfil y no en el núcleo
 
@@ -26,9 +32,9 @@ Los conceptos universales deben seguir siendo los mismos: witness, unidad docume
 
 ## Pipeline piloto
 
-1. **Adquisición machine-only del witness:** obtener un PDF/imágenes legalmente accesibles, calcular SHA-256, registrar metadatos y conservar el binario fuera de Git cuando corresponda.
+1. **Adquisición machine-only del witness — cerrada:** PDF público recuperado, SHA-256 fijado y verificado en CI.
 2. **Cartografía documental:** detectar portada, prefación, gramática, materiales paralelos, paratextos y otras divisiones sin asumir desde el OCR que todo es equivalente.
-3. **OCR preservado:** conservar OCR bruto y sus errores antes de cualquier limpieza.
+3. **OCR/texto fuente preservado:** conservar cualquier capa textual recuperable tal como existe antes de limpieza; si el PDF carece de texto útil, producir una capa OCR machine-only separada.
 4. **Segmentación jerárquica:** generar candidatos de sección, párrafo, paradigma/ejemplo y bloque paralelo.
 5. **Cotejo visual IA:** adoptar/rechazar fronteras y producir lectura documental con incertidumbre explícita.
 6. **Canonicalización:** representar las unidades con IDs `RHD-T1826-#####` y procedencia comparable a Steffel.
@@ -45,4 +51,4 @@ La **prueba fuerte**, necesaria para cerrar el gate de industrialización, es pr
 
 ## Estado actual
 
-La selección y el perfil de Tellechea están preparados, pero **el porcentaje de la dimensión “segunda fuente end-to-end” permanece en 0%** hasta que exista witness checksum-fixed y datos realmente procesados. Esta regla evita inflar el avance por trabajo puramente preparatorio.
+La selección, el perfil y **la adquisición reproducible del witness ya están cerrados**. Sin embargo, el porcentaje de la dimensión “segunda fuente end-to-end” permanece en **0%** hasta que material del PDF recorra realmente extracción/OCR, segmentación, canonicalización y exportación TEI. Fijar el binario es un prerrequisito importante, pero todavía no demuestra replicabilidad del pipeline.
