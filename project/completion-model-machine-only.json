@@ -1,0 +1,79 @@
+{
+  "model_id": "RHD-STEFFEL-MACHINE-ONLY-COMPLETION-1.0",
+  "date": "2026-08-15",
+  "scope": "Completion of Steffel 1791/1809 as a fully computational, AI-assisted historical-digital scholarly edition and reusable RHD reference implementation, with zero required human adjudication.",
+  "supersedes_for_current_scope": "RHD-STEFFEL-COMPLETION-1.0",
+  "interpretation": "Weighted completion of the machine-only scholarly edition. It is not a human-validation rate and does not imply a human-reviewed critical edition.",
+  "weighted_completion_percent": 83.25,
+  "weighted_remaining_percent": 16.75,
+  "dimensions": [
+    {
+      "id": "documentary_coverage",
+      "label": "Documentary coverage, segmentation and diplomatic transcription",
+      "weight": 30,
+      "assessed_percent": 100,
+      "evidence": ["data/corpus_inventory.json", "data/entries.csv", "data/diplomatic/"],
+      "completion_gate": "All candidate boundaries disposed and all active dictionary articles represented in the AI-assisted documentary layer."
+    },
+    {
+      "id": "machine_uncertainty_accounting",
+      "label": "Machine recollation, uncertainty accounting and non-destructive critical status",
+      "weight": 20,
+      "assessed_percent": 100,
+      "evidence": ["data/validation/review/", "data/validation/validation_progress.json", "docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md"],
+      "note": "All 482 open cases have a machine epistemic disposition: 284 confirmed_ai_assisted, 152 corrected_ai_assisted and 46 unresolved_after_ai_recollation. Unresolved is an allowed terminal scholarly state in the machine-only edition.",
+      "completion_gate": "Every detected issue has a traceable machine disposition, including explicit unresolved status where evidence does not justify one reading."
+    },
+    {
+      "id": "reusable_rhd_architecture",
+      "label": "Reusable RHD 1.0 architecture and provenance",
+      "weight": 15,
+      "assessed_percent": 100,
+      "evidence": ["docs/RHD_1_0_SPECIFICATION.md", "schemas/rhd-entry-1.0.schema.json", "source_profiles/steffel-1809.source.json", "source_profiles/_template.source.json", "scripts/generate_rhd_canonical.py"],
+      "completion_gate": "Canonical model, source profiles, provenance and invariant tests are implemented without destructive migration."
+    },
+    {
+      "id": "interoperability",
+      "label": "TEI/TEI Lex-0/IIIF interoperability",
+      "weight": 10,
+      "assessed_percent": 80,
+      "evidence": ["scripts/generate_rhd_tei.py", "tests/validate_rhd_tei.py", ".github/workflows/rhd-canonical.yml", "docs/IIIF_READINESS.md"],
+      "note": "The strict Lex-0 projection validates against the official TEI Lex-0 0.9.5 RNG. Remaining work is primarily stable IIIF facsimile publication and entry-region linking.",
+      "completion_gate": "Lex-0 validation remains green and the real facsimile is linked through stable IIIF-compatible identifiers/images."
+    },
+    {
+      "id": "diachronic_research",
+      "label": "Computational diachronic and comparative research",
+      "weight": 10,
+      "assessed_percent": 60,
+      "evidence": ["data/research/diachronic_semantic_context_queue.json", "data/research/internal_concordance.json", "RESEARCH_SNAPSHOT.md"],
+      "note": "Candidates remain candidates. Completion does not require human etymological adjudication, but does require calibrated machine evidence, negative controls and explicit non-claims.",
+      "completion_gate": "Priority candidate relations receive reproducible computational scoring/context and all uncertainty/non-claim semantics are explicit."
+    },
+    {
+      "id": "appendices_parallel_text",
+      "label": "Numeration appendix and trilingual language sample",
+      "weight": 5,
+      "assessed_percent": 45,
+      "evidence": ["scripts/generate_appendix_candidates.py", "tests/validate_appendix_candidates.py", "data/appendices/facsimile_page_map.json"],
+      "note": "OCR structure exists; AI visual collation confirms PDF 79–84 = printed 369–374, the 22-formula sequence, and the separate Lord's Prayer. Remaining work is diplomatic AI transcription/alignment and canonical/TEI integration.",
+      "completion_gate": "Appendices are AI-collated diplomatically, structurally encoded, aligned where appropriate and integrated into canonical/TEI outputs."
+    },
+    {
+      "id": "scientific_release",
+      "label": "Scientific release, archive and citability",
+      "weight": 5,
+      "assessed_percent": 40,
+      "evidence": ["CITATION.cff", "DATA_LICENSE.md", "PROVENANCE.md", "CHANGELOG.md", "docs/RELEASE_READINESS_RHD_1_0.md"],
+      "completion_gate": "Stable RHD release, integrity manifest, persistent archive/identifier and explicit machine-only conformity statement are published."
+    },
+    {
+      "id": "second_source_pilot",
+      "label": "End-to-end replication on a second historical source",
+      "weight": 5,
+      "assessed_percent": 0,
+      "evidence": ["source_profiles/_template.source.json"],
+      "completion_gate": "A real second historical source is ingested end-to-end without fundamental redesign of the RHD core."
+    }
+  ]
+}
