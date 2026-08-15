@@ -1,5 +1,5 @@
 {
-  "profile_version": "1.0.0-template",
+  "profile_version": "1.0.0-template-machine-only",
   "rhd_core_version": "1.0-draft",
   "source_id": "RHD-SRC-REPLACE",
   "source_code": "REPLACE",
@@ -9,6 +9,8 @@
   "compiled_or_dated": null,
   "published": null,
   "project_role": "future_collection",
+  "edition_scope": "machine_only_scholarly_edition",
+  "human_adjudication_required": false,
   "witness": {
     "witness_id": "RHD-WIT-REPLACE",
     "description": "Describe the exact physical/digital witness used",
@@ -17,13 +19,15 @@
     "dictionary_printed_page_end": null,
     "appendix_printed_page_start": null,
     "checksums_manifest": "sources/checksums.json",
-    "ocr_source": "sources/REPLACE-ocr-source.txt"
+    "ocr_source": "sources/REPLACE-ocr-source.txt",
+    "identity_status": "must_be_explicit",
+    "iiif_manifest": null
   },
   "languages": [
     {
       "code": "und",
       "label": "Historical language as documented by the source",
-      "code_note": "Do not assign a modern variety code without independent justification.",
+      "code_note": "Do not assign a modern variety code unless the source itself or reproducible external evidence justifies that mapping.",
       "role": "historical_lexical_language"
     }
   ],
@@ -37,19 +41,28 @@
     "normalization_warning": "Retrieval normalization must never silently imply phonological identity, cognacy, semantic identity or historical continuity."
   },
   "segmentation": {
-    "strategy": "calibrate_then_high_recall_candidate_generation_then_boundary_review",
+    "strategy": "calibrate_then_high_recall_candidate_generation_then_machine_boundary_disposition",
     "direction_aware": true,
     "column_aware": false,
-    "preserve_rejected_candidates": true
+    "preserve_rejected_candidates": true,
+    "human_review_required": false
   },
   "transcription": {
-    "method": "declare_method",
+    "method": "declare_machine_or_ai_method",
     "human_verification_implied": false,
-    "open_note_states": ["none", "resolved_editorial_note", "open_validation"]
+    "uncertainty_must_be_explicit": true,
+    "terminal_states_may_include_unresolved": true
   },
   "validation": {
-    "scopes": ["philological", "linguistic", "semantic_historical", "disciplinary"],
-    "human_review_protocol": "data/validation/HUMAN_REVIEW_PROTOCOL.md"
+    "policy": "machine_only",
+    "human_review_required": false,
+    "allowed_terminal_states": [
+      "confirmed_ai_assisted",
+      "corrected_ai_assisted",
+      "unresolved_after_ai_recollation",
+      "machine_candidate"
+    ],
+    "rule": "No automatic result may be relabeled as human_verified or expert_verified. Unresolved machine states are legitimate terminal scholarly outputs when evidence is insufficient."
   },
   "normalization": {
     "purpose": "search_and_explicit_comparison_only",
@@ -58,17 +71,23 @@
     "must_not_imply": ["phonological_identity", "morpheme_identity", "cognacy", "semantic_identity", "historical_continuity"]
   },
   "coverage_definition": {
-    "dictionary_body_complete_when": [
-      "all candidate boundaries have explicit disposition",
-      "all active articles have diplomatic transcription",
-      "all open validation issues are queued with explicit state",
+    "documentary_body_complete_when": [
+      "all candidate boundaries have explicit machine disposition",
+      "all active textual units have an AI-assisted documentary transcription or an explicit unresolved state",
+      "all detected uncertainties have explicit terminal machine state",
       "coverage metrics are reproducibly generated"
     ],
-    "critical_edition_complete_when": [
-      "declared human-review target has been independently adjudicated",
-      "adopted critical readings are stored in a derived non-destructive layer",
-      "TEI export validates against the chosen profile",
+    "machine_only_scholarly_edition_complete_when": [
+      "all declared documentary and appendix units are represented non-destructively",
+      "all detected uncertainty remains explicit rather than silently repaired",
+      "chosen TEI or other interoperability exports validate against their declared profiles",
+      "release integrity is reproducibly verified",
       "release is versioned and archived"
+    ],
+    "industrialization_demonstrated_when": [
+      "a second real source completes the same core pipeline",
+      "source-specific differences remain in the source profile whenever possible",
+      "no fundamental redesign of the RHD core is required"
     ]
   }
 }
