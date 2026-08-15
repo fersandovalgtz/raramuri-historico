@@ -6,11 +6,13 @@ on:
       - 'scripts/generate_rhd_canonical.py'
       - 'scripts/generate_appendix_candidates.py'
       - 'scripts/generate_appendix_canonical.py'
+      - 'scripts/generate_diachronic_machine_scores.py'
       - 'scripts/generate_rhd_tei.py'
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_appendix_candidates.py'
       - 'tests/validate_appendix_canonical.py'
+      - 'tests/validate_diachronic_machine_scores.py'
       - 'tests/validate_rhd_tei.py'
       - 'tests/validate_release_manifest.py'
       - 'schemas/rhd-entry-1.0.schema.json'
@@ -30,11 +32,13 @@ on:
       - 'scripts/generate_rhd_canonical.py'
       - 'scripts/generate_appendix_candidates.py'
       - 'scripts/generate_appendix_canonical.py'
+      - 'scripts/generate_diachronic_machine_scores.py'
       - 'scripts/generate_rhd_tei.py'
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_appendix_candidates.py'
       - 'tests/validate_appendix_canonical.py'
+      - 'tests/validate_diachronic_machine_scores.py'
       - 'tests/validate_rhd_tei.py'
       - 'tests/validate_release_manifest.py'
       - 'schemas/rhd-entry-1.0.schema.json'
@@ -77,6 +81,10 @@ jobs:
         run: python3 scripts/generate_appendix_canonical.py
       - name: Validate canonical appendix layer and facsimile mapping
         run: python3 tests/validate_appendix_canonical.py
+      - name: Generate documentary-only diachronic machine scores
+        run: python3 scripts/generate_diachronic_machine_scores.py
+      - name: Validate diachronic scoring non-claims
+        run: python3 tests/validate_diachronic_machine_scores.py
       - name: Generate rich RHD TEI and strict Lex-0 projection
         run: python3 scripts/generate_rhd_tei.py
       - name: Validate RHD/TEI separation and appendix integration
