@@ -44,8 +44,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install JSON Schema validator
-        run: python3 -m pip install --disable-pip-version-check jsonschema
+      - name: Install validators
+        run: |
+          python3 -m pip install --disable-pip-version-check jsonschema
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jing
       - name: Generate canonical projection
         run: python3 scripts/generate_rhd_canonical.py
       - name: Validate canonical invariants and JSON Schema
@@ -54,6 +57,10 @@ jobs:
         run: python3 scripts/generate_rhd_tei.py
       - name: Validate conservative TEI invariants
         run: python3 tests/validate_rhd_tei.py
+      - name: Validate against official TEI Lex-0 0.9.5 RNG
+        run: |
+          curl -fsSL https://lex-0.org/schema/lex-0.rng -o /tmp/lex-0.rng
+          jing /tmp/lex-0.rng data/tei/rhd-steffel-1809-tei.xml
       - name: Generate human-review packets
         run: python3 scripts/generate_human_review_packets.py
       - name: Validate human-review packet coverage and neutrality
