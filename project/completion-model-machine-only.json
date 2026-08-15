@@ -4,8 +4,8 @@
   "scope": "Completion of Steffel 1791/1809 as a fully computational, AI-assisted historical-digital scholarly edition and reusable RHD reference implementation, with zero required human adjudication.",
   "supersedes_for_current_scope": "RHD-STEFFEL-COMPLETION-1.0",
   "interpretation": "Weighted completion of the machine-only scholarly edition. It is not a human-validation rate and does not imply a human-reviewed critical edition.",
-  "weighted_completion_percent": 90.0,
-  "weighted_remaining_percent": 10.0,
+  "weighted_completion_percent": 93.0,
+  "weighted_remaining_percent": 7.0,
   "dimensions": [
     {
       "id": "documentary_coverage",
@@ -37,8 +37,8 @@
       "label": "TEI/TEI Lex-0/IIIF interoperability",
       "weight": 10,
       "assessed_percent": 80,
-      "evidence": ["scripts/generate_rhd_tei.py", "tests/validate_rhd_tei.py", ".github/workflows/rhd-canonical.yml", "docs/IIIF_READINESS.md", "sources/external-references.json", "data/iiif/steffel-1809-local-page-fingerprints.json", "scripts/validate_external_iiif_witness.py"],
-      "note": "The strict Lex-0 projection validates against the official TEI Lex-0 0.9.5 RNG. The rich RHD TEI carries canonical appendix objects, and a separate appendix TEI serializes the parallel text, structured numeration and prayer while Lex-0 remains lexically isolated. An external Internet Archive IIIF item is automatically verified as a usable but noncanonical parallel witness: perceptual fingerprints show that it must not silently substitute the checksum-fixed working facsimile. Remaining work is a stable IIIF representation of the canonical working facsimile and entry-region linking.",
+      "evidence": ["scripts/generate_rhd_tei.py", "tests/validate_rhd_tei.py", ".github/workflows/rhd-canonical.yml", "docs/IIIF_READINESS.md", "sources/external-references.json", "data/iiif/steffel-1809-local-page-fingerprints.json", "scripts/validate_external_iiif_witness.py", "scripts/probe_steffel_public_source.py"],
+      "note": "The strict Lex-0 projection validates against the official TEI Lex-0 0.9.5 RNG. The rich RHD TEI carries canonical appendix objects, and a separate appendix TEI serializes the parallel text, structured numeration and prayer while Lex-0 remains lexically isolated. The public 84-page Steffel PDF linked from the Repositorio de Lenguas/Dropbox has now passed an exact binary-identity probe against the checksum-fixed canonical facsimile, giving RHD a reproducible public source from which a project-controlled IIIF representation can be built. External Internet Archive items remain noncanonical unless independently proven identical. Remaining work is publication of stable canonical IIIF-compatible page resources and entry-region linking.",
       "completion_gate": "Lex-0 validation remains green and the checksum-fixed canonical facsimile is linked through stable IIIF-compatible identifiers/images."
     },
     {
@@ -65,17 +65,17 @@
       "weight": 5,
       "assessed_percent": 60,
       "evidence": ["CITATION.cff", "DATA_LICENSE.md", "PROVENANCE.md", "CHANGELOG.md", "docs/RELEASE_READINESS_RHD_1_0.md", "scripts/generate_release_manifest.py", "tests/validate_release_manifest.py", "dist/rhd-steffel-release-manifest.json"],
-      "note": "A deterministic release integrity manifest hashes and verifies lexical/canonical data, appendices, visual appendix layers, documentary diachronic scores, TEI/Lex-0 products, schema, source profiles, witness identity evidence and machine-only policy/conformity documentation. Persistent archive/identifier and final stable release remain pending.",
+      "note": "A deterministic release integrity manifest hashes and verifies lexical/canonical data, appendices, visual appendix layers, documentary diachronic scores, TEI/Lex-0 products, schema, source profiles, witness identity evidence and both minimal and complete second-source industrialization outputs. Persistent archive/identifier and final stable release remain pending.",
       "completion_gate": "Stable RHD release, integrity manifest, persistent archive/identifier and explicit machine-only conformity statement are published."
     },
     {
       "id": "second_source_pilot",
       "label": "End-to-end replication on a second historical source",
       "weight": 5,
-      "assessed_percent": 40,
-      "evidence": ["source_profiles/_template.source.json", "source_profiles/tellechea-1826.pilot-candidate.json", "sources/tellechea-1826-witness.json", "docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md", "scripts/probe_tellechea_1826_witness.py", "scripts/generate_tellechea_pilot.py", "tests/validate_tellechea_pilot.py", ".github/workflows/rhd-canonical.yml"],
-      "note": "Miguel Joaquín Tellechea's 1826 Compendio gramatical is the deliberately different second-source pilot. Its public DGB PDF is checksum-fixed as RHD-WIT-TELLECHEA-1826-DGB (205 pages; 95,088,307 bytes; SHA-256 c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc). A real minimal end-to-end pilot now passes CI: one grammar unit and one printed-page-49 parallel-layout unit traverse checksum verification, embedded-text extraction, independent facsimile rendering/OCR, segmentation, RHD canonical representation and TEI export without fundamental redesign of the core or fabricated human validation. Forty percent reflects that the minimum replicability proof is achieved while the full 205-page strong industrialization test remains open.",
-      "completion_gate": "The complete declared Tellechea pilot witness is ingested end-to-end without fundamental redesign of the RHD core, extending the successful minimum proof to the full pilot scope."
+      "assessed_percent": 100,
+      "evidence": ["source_profiles/_template.source.json", "source_profiles/tellechea-1826.pilot-candidate.json", "sources/tellechea-1826-witness.json", "docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md", "scripts/probe_tellechea_1826_witness.py", "scripts/generate_tellechea_pilot.py", "tests/validate_tellechea_pilot.py", "scripts/generate_tellechea_full_pilot.py", "tests/validate_tellechea_full_pilot.py", ".github/workflows/rhd-canonical.yml"],
+      "note": "Miguel Joaquín Tellechea's 1826 Compendio gramatical is the deliberately different second-source industrialization pilot. Its public DGB PDF is checksum-fixed as RHD-WIT-TELLECHEA-1826-DGB (205 pages; 95,088,307 bytes; SHA-256 c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc). After the two-unit minimum proof, the complete 205-page witness now traverses the declared RHD documentary pipeline in GitHub Actions. All 205 pages receive deterministic canonical documentary units; the output validates against the same RHD JSON Schema; a complete documentary TEI is generated; sparse pages use separate visual OCR fallback; the full artifact is uploaded reproducibly; no Lex-0 entries are fabricated; no universal-core redesign is required; and no human validation is claimed. This closes the RHD second-source industrialization gate without claiming a human-adjudicated critical edition of Tellechea.",
+      "completion_gate": "Closed: the complete declared Tellechea pilot witness traverses the RHD documentary pipeline with zero fundamental redesign of the universal core."
     }
   ]
 }
