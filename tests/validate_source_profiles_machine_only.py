@@ -59,11 +59,11 @@ if tellechea.get("project_role") != "second_source_replicability_pilot":
     errors.append("Tellechea profile must have second_source_replicability_pilot role")
 credit = tellechea.get("completion_credit", {})
 if credit.get("counts_toward_second_source_end_to_end_gate") is not True:
-    errors.append("Tellechea real minimal pipeline traversal must count toward, but not close, second-source progress")
-if credit.get("completes_second_source_end_to_end_gate") is not False:
-    errors.append("Tellechea minimal pilot must not close the full-witness industrialization gate")
-if tellechea.get("pilot_status") != "minimal_end_to_end_pilot_complete_full_witness_pending":
-    errors.append("Tellechea pilot status must record minimal end-to-end completion and full-witness remainder")
+    errors.append("Tellechea full traversal must count toward second-source progress")
+if credit.get("completes_second_source_end_to_end_gate") is not True:
+    errors.append("Tellechea 205-page traversal must close the second-source industrialization gate")
+if tellechea.get("pilot_status") != "full_witness_documentary_traversal_complete":
+    errors.append("Tellechea pilot status must record complete full-witness documentary traversal")
 witness = tellechea.get("witness", {})
 if witness.get("identity_status") != "checksum_fixed_public_witness":
     errors.append("Tellechea witness must be checksum-fixed")
@@ -74,15 +74,31 @@ if witness.get("facsimile_pages") != 205 or witness.get("bytes") != 95088307:
 if witness.get("checksums_manifest") != "sources/tellechea-1826-witness.json":
     errors.append("Tellechea profile must point to the machine witness manifest")
 
-outputs = tellechea.get("minimal_pilot_outputs", {})
-if outputs.get("record_count") != 2:
-    errors.append("Tellechea profile must register two minimal end-to-end pilot records")
+minimal = tellechea.get("minimal_pilot_outputs", {})
+if minimal.get("record_count") != 2:
+    errors.append("Tellechea profile must preserve two minimal pilot records")
 for key in ("canonical_jsonl", "tei", "diagnostics"):
-    rel = outputs.get(key)
+    rel = minimal.get(key)
     if not rel or not (ROOT / rel).exists():
         errors.append(f"Tellechea minimal pilot output missing: {key}={rel}")
-if outputs.get("human_validation_claimed") is not False:
-    errors.append("Tellechea pilot outputs must explicitly deny human validation")
+if minimal.get("human_validation_claimed") is not False:
+    errors.append("Tellechea minimal pilot outputs must explicitly deny human validation")
+
+full = tellechea.get("full_witness_pilot_outputs", {})
+if full.get("record_count") != 205 or full.get("coverage") != "205_of_205_pdf_pages":
+    errors.append("Tellechea full pilot metadata must register 205/205 documentary units")
+if full.get("generated_in_ci") is not True:
+    errors.append("Tellechea full outputs must be declared reproducible CI-derived artifacts")
+if full.get("generator") != "scripts/generate_tellechea_full_pilot.py" or full.get("validator") != "tests/validate_tellechea_full_pilot.py":
+    errors.append("Tellechea full pilot generator/validator metadata changed")
+if full.get("artifact_name") != "tellechea-1826-full-witness-rhd-pilot":
+    errors.append("Tellechea full pilot artifact name changed")
+if full.get("rhd_core_changes_required") != 0:
+    errors.append("Tellechea full pilot must record zero universal-core redesign")
+if full.get("lex0_entries_generated") != 0:
+    errors.append("Tellechea full pilot must record zero fabricated Lex-0 entries")
+if full.get("human_validation_claimed") is not False:
+    errors.append("Tellechea full pilot must explicitly deny human validation")
 
 manifest_path = ROOT / "sources/tellechea-1826-witness.json"
 if not manifest_path.exists():
@@ -102,4 +118,4 @@ else:
 if errors:
     print("\n".join("ERROR: " + e for e in errors))
     sys.exit(1)
-print("OK: reusable template and Steffel/Tellechea profiles enforce zero-required-human-adjudication; Tellechea has checksum-fixed witness plus a real two-unit minimal end-to-end pipeline, while the full-witness industrialization gate remains open")
+print("OK: reusable template and Steffel/Tellechea profiles enforce zero-required-human-adjudication; Tellechea has a checksum-fixed 205-page witness and the full documentary industrialization gate is closed with zero core redesign, zero Lex-0 fabrication and zero human-validation claim")
