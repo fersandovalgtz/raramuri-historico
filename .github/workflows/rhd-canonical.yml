@@ -12,11 +12,13 @@ on:
       - 'scripts/validate_external_iiif_witness.py'
       - 'scripts/probe_steffel_iiif_candidate.py'
       - 'scripts/probe_steffel_public_source.py'
+      - 'scripts/build_steffel_canonical_iiif.py'
       - 'scripts/probe_tellechea_1826_witness.py'
       - 'scripts/generate_tellechea_pilot.py'
       - 'scripts/generate_tellechea_full_pilot.py'
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_source_profiles_machine_only.py'
+      - 'tests/validate_steffel_canonical_iiif.py'
       - 'tests/validate_tellechea_pilot.py'
       - 'tests/validate_tellechea_full_pilot.py'
       - 'tests/validate_rhd_canonical.py'
@@ -50,6 +52,7 @@ on:
       - 'docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md'
       - 'project/completion-model-machine-only.json'
       - '.github/workflows/rhd-canonical.yml'
+      - '.github/workflows/pages.yml'
   push:
     branches: [main]
     paths:
@@ -62,11 +65,13 @@ on:
       - 'scripts/validate_external_iiif_witness.py'
       - 'scripts/probe_steffel_iiif_candidate.py'
       - 'scripts/probe_steffel_public_source.py'
+      - 'scripts/build_steffel_canonical_iiif.py'
       - 'scripts/probe_tellechea_1826_witness.py'
       - 'scripts/generate_tellechea_pilot.py'
       - 'scripts/generate_tellechea_full_pilot.py'
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_source_profiles_machine_only.py'
+      - 'tests/validate_steffel_canonical_iiif.py'
       - 'tests/validate_tellechea_pilot.py'
       - 'tests/validate_tellechea_full_pilot.py'
       - 'tests/validate_rhd_canonical.py'
@@ -100,6 +105,7 @@ on:
       - 'docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md'
       - 'project/completion-model-machine-only.json'
       - '.github/workflows/rhd-canonical.yml'
+      - '.github/workflows/pages.yml'
 
 permissions:
   contents: read
@@ -118,8 +124,17 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq jing poppler-utils tesseract-ocr tesseract-ocr-spa
       - name: Probe public 84-page Steffel PDF for exact canonical binary identity
-        continue-on-error: true
         run: python3 scripts/probe_steffel_public_source.py
+      - name: Build canonical Steffel IIIF package from the exact PDF
+        run: python3 scripts/build_steffel_canonical_iiif.py public
+      - name: Validate canonical Steffel IIIF Presentation 3 package
+        run: python3 tests/validate_steffel_canonical_iiif.py
+      - name: Upload canonical IIIF preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: steffel-1809-canonical-iiif
+          path: public/iiif/steffel-1809
+          if-no-files-found: error
       - name: Validate reusable source profiles enforce machine-only policy
         run: python3 tests/validate_source_profiles_machine_only.py
       - name: Verify checksum-fixed Tellechea 1826 witness and characterize text layer
