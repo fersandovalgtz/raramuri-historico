@@ -1,4 +1,4 @@
-name: RHD 1.0 machine-only canonical, TEI, appendices and release integrity
+name: RHD 1.0 machine-only canonical, TEI, IIIF, appendices and release integrity
 
 on:
   pull_request:
@@ -9,6 +9,7 @@ on:
       - 'scripts/generate_appendix_tei.py'
       - 'scripts/generate_diachronic_machine_scores.py'
       - 'scripts/generate_rhd_tei.py'
+      - 'scripts/validate_external_iiif_witness.py'
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_appendix_candidates.py'
@@ -33,6 +34,7 @@ on:
       - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
       - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
       - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
+      - 'docs/IIIF_READINESS.md'
       - 'project/completion-model-machine-only.json'
       - '.github/workflows/rhd-canonical.yml'
   push:
@@ -44,6 +46,7 @@ on:
       - 'scripts/generate_appendix_tei.py'
       - 'scripts/generate_diachronic_machine_scores.py'
       - 'scripts/generate_rhd_tei.py'
+      - 'scripts/validate_external_iiif_witness.py'
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_appendix_candidates.py'
@@ -68,6 +71,7 @@ on:
       - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
       - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
       - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
+      - 'docs/IIIF_READINESS.md'
       - 'project/completion-model-machine-only.json'
       - '.github/workflows/rhd-canonical.yml'
 
@@ -117,8 +121,12 @@ jobs:
         run: python3 tests/validate_rhd_tei.py
       - name: Validate strict projection against official TEI Lex-0 0.9.5 RNG
         run: |
-          curl -fsSL https://lex-0.org/schema/lex-0.rng -o /tmp/lex-0.rng
+          curl --retry 3 --retry-all-errors -fsSL https://lex-0.org/schema/lex-0.rng -o /tmp/lex-0.rng
           jing /tmp/lex-0.rng data/tei/rhd-steffel-1809-lex0.xml
+      - name: Fetch and validate Internet Archive IIIF witness
+        run: |
+          curl --retry 3 --retry-all-errors -fsSL https://iiif.archive.org/iiif/tarahumarischesw00stef/manifest.json -o /tmp/steffel-iiif-manifest.json
+          python3 scripts/validate_external_iiif_witness.py /tmp/steffel-iiif-manifest.json
       - name: Generate deterministic release integrity manifest
         run: python3 scripts/generate_release_manifest.py
       - name: Validate release integrity manifest
