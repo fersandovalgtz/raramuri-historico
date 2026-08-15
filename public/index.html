@@ -1,13 +1,118 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rarámuri Histórico Digital — Corpus Steffel 1791/1809</title><meta name="description" content="Infraestructura abierta para la lexicografía histórica rarámuri. Cotejo facsimilar integral, transcripción diplomática completa y recotejo filológico IA-asistido de todos los casos abiertos del Corpus Steffel 1791/1809."><link rel="stylesheet" href="styles.css"></head><body>
-<header class="top"><div class="wrap nav"><div class="brand">Rarámuri Histórico Digital</div><div class="links"><a href="#consulta">Consulta</a><a href="research.html">Investigación</a><a href="#cobertura">Cobertura</a><a href="#validacion">Validación</a><a href="#fuente">Fuente</a><a href="#metodo">Método</a><a href="https://github.com/fersandovalgtz/raramuri-historico">GitHub</a></div></div></header>
-<main class="wrap"><section class="hero"><div><div class="eyebrow">Humanidades digitales · lexicografía histórica</div><h1>Corpus Steffel<br>1791/1809</h1><p>Edición digital de investigación para estudiar la documentación histórica de la lengua y cultura rarámuri, con trazabilidad, cotejo facsimilar integral y capas editoriales explícitas.</p><span class="status">● 0.2.0 · 2,495/2,495 candidatos cotejados · 1,965 artículos transcritos · 482/482 casos abiertos recotejados · validación humana 0/482</span></div><aside class="source-card"><span class="source-kicker">Fuente primaria</span><strong>Matthäus Steffel</strong><em>Tarahumarisches Wörterbuch</em><span>1791 / edición impresa de 1809</span><span>Corpus lexicográfico histórico · alemán ↔ rarámuri</span><a href="https://archive.org/details/tarahumarischesw00stef" target="_blank" rel="noopener">Consultar facsímil digital ↗</a></aside></section>
-<section class="metrics"><div class="metric"><strong>2,495</strong><span>candidatos cotejados contra facsímil</span></div><div class="metric"><strong>1,965</strong><span>artículos activos diplomáticamente transcritos</span></div><div class="metric"><strong>482 / 482</strong><span>casos abiertos recotejados en RHD-PHIL</span></div><div class="metric"><strong>0 / 482</strong><span>revisados humanamente de forma independiente</span></div></section>
-<section class="panel" id="consulta"><h2>Consulta integral</h2><p class="small">La búsqueda muestra la capa activa provisional del corpus. Los 1,965 artículos aceptados tienen transcripción diplomática IA-asistida cotejada contra el facsímil. La capa RHD-PHIL registra confirmaciones, propuestas de reparación o problemas aún irresueltos sin sobrescribir esa evidencia documental.</p><div class="searchrow"><input id="q" placeholder="Buscar forma o contenido: Pauguiki, Mutter, simi…"><div class="pill"><span id="shown">0</span> resultados</div></div><div class="filters"><button class="active" onclick="setDir('ALL',this)">Todo</button><button onclick="setDir('DE-RAR',this)">Alemán → rarámuri</button><button onclick="setDir('RAR-DE',this)">Rarámuri → alemán</button></div><div class="filters conf"><button class="active" onclick="setConf('ALL',this)">Toda confianza</button><button onclick="setConf('curated_anchor',this)">60 anclas</button><button onclick="setConf('high_machine',this)">Alta automática</button><button onclick="setConf('medium_machine',this)">Media</button><button onclick="setConf('low_machine',this)">Baja</button></div><div id="results" class="results"></div></section>
-<section class="panel" id="cobertura"><h2>Cobertura documental integral</h2><p>La segmentación de alta cobertura produjo 2,495 candidatos. <strong>Los 2,495 fueron revisados contra el facsímil</strong>: 1,965 arranques se retienen provisionalmente como artículos y 530 fueron rechazados como falsos límites. Se documentaron 781 correcciones de lema y la cola de límites quedó agotada.</p><div class="callout">La capa diplomática cubre los <strong>1,965/1,965 artículos activos</strong>. No queda ningún lote pendiente de imagen directa. Esto describe completitud documental IA-asistida, no una edición crítica definitiva.</div></section>
-<section class="panel" id="validacion"><h2>Validación científica por capas</h2><p>De 676 registros con alguna nota diplomática, la auditoría separó 194 decisiones editoriales ya resueltas de <strong>482 problemas explícitamente abiertos</strong>. La serie <code>RHD-PHIL-001</code>–<code>RHD-PHIL-010</code> volvió a inspeccionar los <strong>482/482</strong> contra el facsímil de alta resolución.</p><div class="callout">La recollación IA-asistida está agotada: quedan <strong>0 casos automáticos pendientes</strong>. Las propuestas PHIL no sustituyen la transcripción diplomática. La siguiente fase es una cola humana independiente de 482 registros; actualmente <strong>0/482</strong> están marcados como verificados por una persona o lingüista.</div><p class="small">Entre los resultados documentales recientes se encuentran reparaciones propuestas como <code>Caú. Cajuſchi.</code>, <code>Talahipoa</code>, <code>Talahúmali</code>, <code>Sonúca!</code>, <code>Techtéke</code> y <code>Atác, oder hatúca</code>. Los casos donde la evidencia no permite una decisión única permanecen expresamente abiertos.</p></section>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Rarámuri Histórico Digital — Corpus Steffel 1791/1809</title>
+  <meta name="description" content="Edición histórico-digital reproducible del Tarahumarisches Wörterbuch de Matthäus Steffel: 1,965 artículos, procedencia explícita, incertidumbre documentada, TEI/TEI Lex-0 e IIIF.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap nav">
+    <div class="brand">Rarámuri Histórico Digital</div>
+    <div class="links">
+      <a href="#consulta">Consulta</a>
+      <a href="research.html">Investigación</a>
+      <a href="#fuente">Steffel</a>
+      <a href="#metodo">Método</a>
+      <a href="#ecosistema">Ecosistema</a>
+      <a href="https://github.com/fersandovalgtz/raramuri-historico">GitHub</a>
+    </div>
+  </div>
+</header>
 
-<section class="panel" id="investigacion"><h2>Investigación interna de Steffel</h2><p>La estructura bidireccional del diccionario permite contrastar el propio Steffel consigo mismo. Una búsqueda conservadora guiada por los lemas RAR–DE localizó <strong>989 atestiguaciones candidatas</strong> dentro de artículos DE–RAR y construyó <strong>989 relaciones internas</strong>; 337 tienen además apoyo alemán recíproco entre encabezado y glosa.</p><div class="pagegrid"><article class="pagecard"><span>788</span><strong>claves RAR–DE únicas</strong><p>Inventario documental bajo normalización gráfica conservadora.</p></article><article class="pagecard"><span>230/298</span><strong>diacrónicos con señal interna</strong><p>77.2% de las hipótesis de máquina tienen alguna reatestiguación interna en Steffel.</p></article><article class="pagecard"><span>153/298</span><strong>apoyo interno recíproco</strong><p>51.3% tienen además una señal alemana recíproca. No es una tasa de validación.</p></article></div><div class="callout">Los 1458 segmentos residuales de baja confianza se conservan aparte y <strong>no se presentan como palabras rarámuri confirmadas</strong>. Toda esta capa mantiene revisión humana = 0.</div><p class="small"><a href="research.html">Abrir portal de investigación interna y diacronía ↗</a></p></section>
-<section class="grid2" id="fuente"><div class="panel"><h2>La fuente</h2><p>El proyecto parte del <em>Tarahumarisches Wörterbuch</em> de Matthäus Steffel, compilado/fechado en 1791 y publicado en 1809. La obra reúne léxico bilingüe, comentarios sobre gramática y uso, observaciones culturales, un apéndice sobre numeración y una muestra lingüística.</p><p class="small"><a href="https://archive.org/details/tarahumarischesw00stef" target="_blank" rel="noopener">Abrir la reproducción digital de la fuente ↗</a></p></div><div class="panel"><h2>Relación con Rarámuri Digital</h2><p>Rarámuri Histórico Digital funciona como componente diacrónico del ecosistema. El proyecto mantiene 298 hipótesis Steffel ↔ Rarámuri Digital como relaciones derivadas y trazables. La concordancia interna del propio Steffel aporta contexto adicional sin fusionar corpus ni convertir candidatos en equivalencias validadas.</p></div></section>
-<section class="panel" id="metodo"><h2>Facsímil y método</h2><div class="pagegrid"><article class="pagecard"><span>p. 301</span><strong>Inicio lexicográfico</strong><p>Comienzo del diccionario alemán–rarámuri y punto de arranque de la reconstrucción por columnas.</p></article><article class="pagecard"><span>p. 353</span><strong>Cambio de dirección verificado</strong><p>La revisión direction-aware fija el punto donde alemán→rarámuri termina y rarámuri→alemán comienza dentro de la misma página.</p></article><article class="pagecard"><span>p. 368 / 369</span><strong>Frontera diccionario–apéndice</strong><p>p. 368 cierra el diccionario y p. 369 inicia el apéndice, sin candidatos lexicográficos residuales.</p></article></div><p class="small">Pipeline: facsímil → OCR bruto → segmentación de alta cobertura → cotejo de límites y dirección → reconstrucción por columnas → transcripción diplomática → triage de problemas abiertos → recotejo filológico IA-asistido → <strong>validación humana/lingüística independiente</strong> → normalización → datos estructurados.</p><p class="small"><strong>Siguiente etapa de validación:</strong> adjudicar <code>data/validation/human_review_queue.json</code>. En paralelo, las capas documentales no adjudicativas pueden seguir creciendo: concordancia interna, variantes, estadística y contexto diacrónico, siempre sin activar banderas humanas.</p></section>
-</main><footer class="wrap footer">Rarámuri Histórico Digital · Coordinación académica y técnica: Dr. Fernando Sandoval Gutierrez · Universidad CEEES / UACJ · 2026</footer><script src="app.js"></script></body></html>
-<!-- RHD-PHIL-001–010 AI-assisted philological recollation complete: 2026-08-13 -->
+<main class="wrap">
+<section class="hero">
+  <div>
+    <div class="eyebrow">Humanidades digitales · lexicografía histórica · ciencia abierta</div>
+    <h1>Corpus Steffel<br>1791/1809</h1>
+    <p>Edición histórico-digital de investigación del <em>Tarahumarisches Wörterbuch</em> de Matthäus Steffel. RHD preserva testimonio, OCR, transcripción diplomática, decisiones editoriales, incertidumbre y capas derivadas como objetos distintos y trazables.</p>
+    <span class="status">● RHD 1.0.0 · 2,495 candidatos documentados · 1,965 artículos · 482/482 casos PHIL terminalizados · machine-only</span>
+  </div>
+  <aside class="source-card">
+    <span class="source-kicker">Fuente primaria</span>
+    <strong>Matthäus Steffel (1734–1806)</strong>
+    <em>Tarahumarisches Wörterbuch</em>
+    <span>Publicado en 1809 por Christoph Gottlieb von Murr</span>
+    <span>Halle · Johann Christian Hendel · pp. 293–374</span>
+    <a href="https://openlibrary.org/works/OL16883366W/Tarahumarisches_W%C3%B6rterbuch_nebst_einigen_Nachrichten_von_den_Sitten_und_Gebr%C3%A4uchen_der_Tarahumaren" target="_blank" rel="noopener">Consultar registro y facsímil ↗</a>
+  </aside>
+</section>
+
+<section class="metrics">
+  <div class="metric"><strong>2,495</strong><span>candidatos cotejados contra el testimonio</span></div>
+  <div class="metric"><strong>1,965</strong><span>artículos activos con transcripción diplomática IA-asistida</span></div>
+  <div class="metric"><strong>482 / 482</strong><span>casos PHIL recotejados</span></div>
+  <div class="metric"><strong>46</strong><span>incertidumbres terminales explícitas</span></div>
+</section>
+
+<section class="panel" id="consulta">
+  <h2>Consulta del corpus</h2>
+  <p class="small">La búsqueda consulta los 1,965 artículos activos del snapshot científico. La capa documental y los estados de revisión se mantienen separados: una confirmación o corrección IA-asistida no equivale a validación filológica o lingüística humana.</p>
+  <div class="searchrow"><input id="q" placeholder="Buscar forma o contenido: Pauguiki, Mutter, simi…"><div class="pill"><span id="shown">0</span> resultados</div></div>
+  <div class="filters"><button class="active" onclick="setDir('ALL',this)">Todo</button><button onclick="setDir('DE-RAR',this)">Alemán → rarámuri</button><button onclick="setDir('RAR-DE',this)">Rarámuri → alemán</button></div>
+  <div class="filters conf"><button class="active" onclick="setConf('ALL',this)">Toda confianza</button><button onclick="setConf('curated_anchor',this)">60 anclas</button><button onclick="setConf('high_machine',this)">Alta automática</button><button onclick="setConf('medium_machine',this)">Media</button><button onclick="setConf('low_machine',this)">Baja</button></div>
+  <div id="results" class="results"></div>
+</section>
+
+<section class="panel" id="estado">
+  <h2>Estado científico de RHD 1.0.0</h2>
+  <p>Los 2,495 candidatos documentales tienen una disposición registrada: <strong>1,965 artículos activos</strong> y <strong>530 falsos límites preservados</strong>. Los artículos activos cuentan con transcripción diplomática IA-asistida. La serie <code>RHD-PHIL-001</code>–<code>RHD-PHIL-010</code> recotejó los 482 casos que requerían inspección adicional.</p>
+  <div class="callout"><strong>284</strong> casos quedaron como <code>confirmed_ai_assisted</code>, <strong>152</strong> como <code>corrected_ai_assisted</code> y <strong>46</strong> como <code>unresolved_after_ai_recollation</code>. La incertidumbre no se elimina para producir una apariencia artificial de completitud.</div>
+  <p class="small">La release 1.0.0 es deliberadamente <strong>machine-only</strong>. Ninguno de estos estados se presenta como <code>human_verified</code>. Una revisión humana futura será una capa posterior y versionada, no una reescritura retrospectiva de 1.0.0.</p>
+</section>
+
+<section class="grid2" id="fuente">
+  <div class="panel">
+    <h2>Matthäus Steffel y la fuente</h2>
+    <p>Matthäus Steffel fue un jesuita moravo que trabajó en la Sierra Tarahumara durante la década de 1760. Tras la expulsión de los jesuitas de los dominios españoles regresó a Europa y continuó elaborando materiales lingüísticos.</p>
+    <p>El diccionario apareció póstumamente en 1809 dentro del volumen I de <em>Nachrichten von verschiedenen Ländern des Spanischen Amerika</em>, editado por Christoph Gottlieb von Murr. La contribución de Steffel ocupa las pp. 293–374; el cuerpo lexicográfico comienza en la p. 301 y cambia de alemán→rarámuri a rarámuri→alemán dentro de la p. 353.</p>
+    <p class="small"><a href="https://github.com/fersandovalgtz/raramuri-historico/blob/main/docs/STEFFEL_SOURCE.md" target="_blank" rel="noopener">Historia documental, bibliografía y explicación de «1791/1809» ↗</a></p>
+  </div>
+  <div class="panel">
+    <h2>¿Por qué 1791/1809?</h2>
+    <p><strong>1809</strong> es la fecha de la edición impresa utilizada por RHD. <strong>1791</strong> remite al horizonte manuscrito y epistolar documentado durante la elaboración de los materiales, no a una segunda edición impresa del diccionario.</p>
+    <p>Esta distinción es importante: RHD separa historia de elaboración, publicación, testimonio digital y representación computacional.</p>
+  </div>
+</section>
+
+<section class="panel" id="metodo">
+  <h2>Fuente, evidencia y método</h2>
+  <div class="pagegrid">
+    <article class="pagecard"><span>p. 301</span><strong>Inicio lexicográfico</strong><p>Comienzo del cuerpo alemán–rarámuri en la edición impresa.</p></article>
+    <article class="pagecard"><span>p. 353</span><strong>Cambio de dirección</strong><p>La inversión alemán→rarámuri / rarámuri→alemán ocurre dentro de una misma página.</p></article>
+    <article class="pagecard"><span>pp. 369–374</span><strong>Materiales anexos</strong><p>Numeración y muestra lingüística final se modelan sin confundirlas con artículos lexicográficos.</p></article>
+  </div>
+  <p class="small">Pipeline editorial: testimonio → OCR bruto → segmentación → cotejo de límites y dirección → reconstrucción documental → transcripción diplomática IA-asistida → triage de incertidumbre → recotejo PHIL → capas derivadas → revisión humana independiente cuando exista.</p>
+  <div class="callout">La fuente histórica no se sobrescribe. OCR, propuesta editorial, relación computacional y revisión humana son clases de evidencia diferentes y permanecen identificables.</div>
+</section>
+
+<section class="panel" id="interoperabilidad">
+  <h2>Interoperabilidad y reproducibilidad</h2>
+  <p>RHD 1.0.0 distribuye datos estructurados y representaciones derivadas en CSV, JSON, XML y SQLite; mantiene TEI RHD y una proyección TEI Lex-0 estricta; expone IIIF Presentation 3 con 84 Canvases y 1,965 enlaces registro→Canvas; y conserva esquemas, perfiles de fuente, manifiestos y pruebas que permiten auditar el pipeline.</p>
+  <p class="small"><a href="https://github.com/fersandovalgtz/raramuri-historico/blob/main/REPRODUCIBILITY.md" target="_blank" rel="noopener">Protocolo de reproducibilidad ↗</a> · <a href="https://github.com/fersandovalgtz/raramuri-historico/blob/main/FAIR_ASSESSMENT.md" target="_blank" rel="noopener">Evaluación FAIR/FAIR4RS ↗</a> · <a href="research.html">Portal de investigación interna ↗</a></p>
+</section>
+
+<section class="panel" id="ecosistema">
+  <h2>Un nodo del ecosistema Rarámuri Digital</h2>
+  <p>RHD conserva la dimensión histórica sin fusionarla automáticamente con recursos contemporáneos. Las relaciones entre proyectos se expresan como vínculos tipados y revisables.</p>
+  <div class="pagegrid">
+    <article class="pagecard"><span>Rarámuri Digital</span><strong>Lexicografía contemporánea</strong><p><a href="https://raramuri.ceees.mx" target="_blank" rel="noopener">Sitio ↗</a> · <a href="https://github.com/fersandovalgtz/raramuri-digital" target="_blank" rel="noopener">GitHub ↗</a></p></article>
+    <article class="pagecard"><span>GitHub</span><strong>Proyectos científicos abiertos</strong><p><a href="https://github.com/fersandovalgtz" target="_blank" rel="noopener">Perfil y repositorios ↗</a></p></article>
+    <article class="pagecard"><span>Identidad académica</span><strong>ORCID y producción</strong><p><a href="https://orcid.org/0000-0002-3168-6725" target="_blank" rel="noopener">ORCID ↗</a> · <a href="https://scholar.google.com/citations?user=zNZsYYAAAAAJ&hl=es" target="_blank" rel="noopener">Google Scholar ↗</a></p></article>
+  </div>
+  <p class="small"><a href="https://github.com/fersandovalgtz/raramuri-historico/blob/main/docs/ECOSYSTEM.md" target="_blank" rel="noopener">Mapa completo de repositorios, sitios y perfiles ↗</a></p>
+</section>
+
+<section class="panel" id="citar">
+  <h2>Citar y reutilizar</h2>
+  <p>La fuente histórica y RHD son objetos distintos y deben citarse como tales. Para resultados derivados del corpus, cite la versión específica de RHD utilizada y, cuando el argumento dependa de una lectura histórica, cite además a Steffel 1809 y la página correspondiente.</p>
+  <p class="small">La metadata canónica vive en <a href="https://github.com/fersandovalgtz/raramuri-historico/blob/main/CITATION.cff" target="_blank" rel="noopener"><code>CITATION.cff</code></a>. El DOI de RHD se mostrará aquí únicamente después de verificar que el depósito persistente corresponde exactamente a la release canónica.</p>
+</section>
+</main>
+
+<footer class="wrap footer">Rarámuri Histórico Digital · Dr. Fernando Sandoval Gutierrez · ORCID 0000-0002-3168-6725 · Universidad Autónoma de Ciudad Juárez · Universidad CEEES / CEEES Cuauhtémoc · 2026</footer>
+<script src="app.js"></script>
+</body>
+</html>
