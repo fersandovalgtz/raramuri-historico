@@ -2,8 +2,9 @@
 """Generate a non-destructive RHD 1.0 canonical projection from Steffel 0.2.0.
 
 This adapter deliberately preserves data/entries.csv as the operational master.
-It joins append-only RHD-PHIL manifests as explicit AI-assisted validation events,
-without adjudicating semantics, morphology, cognacy, or human verification.
+It joins append-only RHD-PHIL manifests as explicit AI-assisted validation events and
+joins the 298 diachronic context hypotheses as non-adjudicative candidate relations.
+It does not adjudicate semantics, morphology, cognacy, continuity, or human verification.
 """
 
 from __future__ import annotations
@@ -17,6 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "data" / "entries.csv"
 PROFILE_PATH = ROOT / "source_profiles" / "steffel-1809.source.json"
 PHIL_DIR = ROOT / "data" / "validation" / "review"
+DIACHRONIC_QUEUE = ROOT / "data" / "research" / "diachronic_semantic_context_queue.json"
 OUT_DIR = ROOT / "data" / "canonical"
 OUT_JSONL = OUT_DIR / "steffel-1809.entries.jsonl"
 OUT_SUMMARY = OUT_DIR / "steffel-1809.summary.json"
@@ -85,8 +87,8 @@ def make_forms(row: dict[str, str]) -> list[dict]:
     diplomatic = text(row.get("headword_diplomatic"))
     raw = text(row.get("headword_raw"))
     search = text(row.get("headword_search"))
-
     lemma = diplomatic or raw
+
     if lemma:
         forms.append(
             {
@@ -99,7 +101,6 @@ def make_forms(row: dict[str, str]) -> list[dict]:
                 "cert": None,
             }
         )
-
     if search and search != lemma:
         forms.append(
             {
@@ -116,11 +117,7 @@ def make_forms(row: dict[str, str]) -> list[dict]:
 
 
 def make_senses(row: dict[str, str]) -> list[dict]:
-    """Project only explicit editorial translations.
-
-    definition_raw is intentionally NOT promoted automatically to a semantic sense
-    because its documentary role varies by direction and article microstructure.
-    """
+    """Project only explicit editorial translations, never infer a source sense from definition_raw."""
     translation = text(row.get("translation_es_editorial"))
     if not translation:
         return []
@@ -165,7 +162,6 @@ def make_notes(row: dict[str, str]) -> list[dict]:
 
 
 def load_phil_events() -> tuple[dict[str, list[dict]], dict[str, dict], Counter]:
-    """Read append-only PHIL manifests and index them by persistent record_id."""
     by_record: dict[str, list[dict]] = defaultdict(list)
     batch_meta: dict[str, dict] = {}
     disposition_counts: Counter = Counter()
@@ -208,6 +204,62 @@ def load_phil_events() -> tuple[dict[str, list[dict]], dict[str, dict], Counter]
     return by_record, batch_meta, disposition_counts
 
 
+def load_diachronic_relations() -> tuple[dict[str, list[dict]], dict, Counter]:
+    """Index machine diachronic hypotheses without adding semantic or continuity judgments."""
+    if not DIACHRONIC_QUEUE.exists():
+        return {}, {}, Counter()
+    queue = json.loads(DIACHRONIC_QUEUE.read_text(encoding="utf-8"))
+    by_record: dict[str, list[dict]] = defaultdict(list)
+    signal_counts: Counter = Counter()
+
+    for item in queue.get("records", []):
+        historical = item.get("historical", {})
+        modern = item.get("modern", {})
+        signal = item.get("machine_context_signal", {})
+        independent = item.get("independent_review", {})
+        rid = text(historical.get("record_id"))
+        target = text(modern.get("record_id"))
+        relation_id = text(item.get("semantic_context_id")) or text(item.get("source_candidate_id"))
+        if not rid or not target or not relation_id:
+            continue
+        signal_type = text(signal.get("type")) or "cross_corpus_context_only"
+        signal_counts[signal_type] += 1
+
+        evidence = [DIACHRONIC_QUEUE.relative_to(ROOT).as_posix()]
+        if historical.get("form_diplomatic"):
+            evidence.append(f"historical_form: {historical['form_diplomatic']}")
+        if historical.get("german_gloss_local"):
+            evidence.append(f"historical_german_context: {historical['german_gloss_local']}")
+        if modern.get("headword"):
+            evidence.append(f"modern_form: {modern['headword']}")
+        if modern.get("translation_raw"):
+            evidence.append(f"modern_source_translation: {modern['translation_raw']}")
+        evidence.append(f"machine_context_signal: {signal_type}")
+        for concordance_id in signal.get("internal_concordance_ids", []) or []:
+            evidence.append(f"internal_concordance: {concordance_id}")
+        evidence.extend(
+            [
+                f"semantic_judgment: {signal.get('semantic_judgment', 'not_performed')}",
+                f"etymological_judgment: {signal.get('etymological_judgment', 'not_performed')}",
+                f"historical_continuity_judgment: {signal.get('historical_continuity_judgment', 'not_performed')}",
+            ]
+        )
+
+        by_record[rid].append(
+            {
+                "relation_id": relation_id,
+                "target_id": target,
+                "relation_type": "cross_corpus_form_candidate",
+                "status": "candidate",
+                "method": signal_type,
+                "confidence": None,
+                "evidence": evidence,
+                "human_reviewed": independent.get("human_reviewed") is True,
+            }
+        )
+    return by_record, queue, signal_counts
+
+
 def make_phil_validation_event(profile: dict, row: dict[str, str], event: dict) -> dict:
     evidence = [witness_pointer(profile, row), event["manifest_path"]]
     if event.get("source_authority"):
@@ -222,7 +274,6 @@ def make_phil_validation_event(profile: dict, row: dict[str, str], event: dict) 
         evidence.append(f"correction_scope: {event['correction_scope']}")
     if event.get("residual_route"):
         evidence.append(f"residual_route: {event['residual_route']}")
-
     return {
         "event_id": f"{event['batch_id']}:{row['record_id']}",
         "scope": "philological",
@@ -241,7 +292,6 @@ def make_provenance(profile: dict, row: dict[str, str], status: str, phil_events
     ocr_pointer = source_pointer(row)
     witness = witness_pointer(profile, row)
     extraction_method = text(row.get("extraction_method")) or "source_specific_segmentation"
-
     events = [
         {
             "activity_id": f"RHD-ACT-OCRLINK-{rid}",
@@ -266,7 +316,6 @@ def make_provenance(profile: dict, row: dict[str, str], status: str, phil_events
             "software_version": None,
         },
     ]
-
     if status == "active" and text(row.get("article_diplomatic")):
         events.append(
             {
@@ -282,7 +331,6 @@ def make_provenance(profile: dict, row: dict[str, str], status: str, phil_events
                 "software_version": None,
             }
         )
-
     for event in phil_events:
         events.append(
             {
@@ -300,19 +348,13 @@ def make_provenance(profile: dict, row: dict[str, str], status: str, phil_events
     return events
 
 
-def convert(profile: dict, row: dict[str, str], phil_events: list[dict]) -> dict:
+def convert(profile: dict, row: dict[str, str], phil_events: list[dict], relations: list[dict]) -> dict:
     rid = row["record_id"]
     status = canonical_status(row)
     rejected = status == "rejected_boundary"
     diplomatic_text = text(row.get("article_diplomatic")) if not rejected else ""
     diplomatic_head = text(row.get("headword_diplomatic")) if not rejected else ""
-
     notes = make_notes(row)
-    lexical = {
-        "forms": make_forms(row),
-        "senses": make_senses(row),
-        "cross_references": [],
-    }
     validation = [make_phil_validation_event(profile, row, event) for event in phil_events]
 
     canonical = {
@@ -352,19 +394,8 @@ def convert(profile: dict, row: dict[str, str], phil_events: list[dict]) -> dict
             "diplomatic": {
                 "text": diplomatic_text,
                 "headword": diplomatic_head or None,
-                "status": (
-                    "not_applicable_rejected_boundary"
-                    if rejected
-                    else (text(row.get("diplomatic_status")) or "pending")
-                ),
-                "method": (
-                    "none"
-                    if rejected
-                    else (
-                        text(row.get("diplomatic_review_method"))
-                        or "ai_assisted_direct_facsimile_collation"
-                    )
-                ),
+                "status": "not_applicable_rejected_boundary" if rejected else (text(row.get("diplomatic_status")) or "pending"),
+                "method": "none" if rejected else (text(row.get("diplomatic_review_method")) or "ai_assisted_direct_facsimile_collation"),
                 "activity_id": None if rejected else (text(row.get("diplomatic_batch")) or None),
                 "responsibility": None if rejected else "ai_assisted",
                 "confidence": None,
@@ -373,15 +404,17 @@ def convert(profile: dict, row: dict[str, str], phil_events: list[dict]) -> dict
             "critical": None,
             "normalized": None,
         },
-        "lexical": lexical,
+        "lexical": {
+            "forms": make_forms(row),
+            "senses": make_senses(row),
+            "cross_references": [],
+        },
         "validation": validation,
-        "historical_relations": [],
+        "historical_relations": relations,
         "provenance": make_provenance(profile, row, status, phil_events),
         "notes": notes,
     }
 
-    # A flat source flag cannot create a synthetic human validation event; a real
-    # human review manifest must be joined before any reviewer_type=human event exists.
     if boolish(row.get("human_verified")):
         canonical["notes"].append(
             {
@@ -398,7 +431,16 @@ def main() -> None:
     profile = json.loads(PROFILE_PATH.read_text(encoding="utf-8"))
     rows = list(csv.DictReader(INPUT.open(encoding="utf-8")))
     phil_by_record, batch_meta, disposition_counts = load_phil_events()
-    canonical = [convert(profile, row, phil_by_record.get(row["record_id"], [])) for row in rows]
+    dia_by_record, dia_queue, dia_signal_counts = load_diachronic_relations()
+    canonical = [
+        convert(
+            profile,
+            row,
+            phil_by_record.get(row["record_id"], []),
+            dia_by_record.get(row["record_id"], []),
+        )
+        for row in rows
+    ]
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     with OUT_JSONL.open("w", encoding="utf-8") as fh:
@@ -406,6 +448,7 @@ def main() -> None:
             fh.write(json.dumps(item, ensure_ascii=False, separators=(",", ":")) + "\n")
 
     all_validation = [event for item in canonical for event in item["validation"]]
+    all_relations = [relation for item in canonical for relation in item["historical_relations"]]
     summary = {
         "dataset": "raramuri-historico-steffel-1809",
         "rhd_core_version": profile["rhd_core_version"],
@@ -414,23 +457,22 @@ def main() -> None:
         "active": sum(x["status"] == "active" for x in canonical),
         "rejected_boundary": sum(x["status"] == "rejected_boundary" for x in canonical),
         "candidate": sum(x["status"] == "candidate" for x in canonical),
-        "open_validation_notes": sum(
-            any(n.get("status") == "open_validation" for n in x["notes"]) for x in canonical
-        ),
-        "philological_ai_validation_events": sum(
-            v.get("scope") == "philological" and v.get("reviewer_type") == "ai_assisted"
-            for v in all_validation
-        ),
+        "open_validation_notes": sum(any(n.get("status") == "open_validation" for n in x["notes"]) for x in canonical),
+        "philological_ai_validation_events": sum(v.get("scope") == "philological" and v.get("reviewer_type") == "ai_assisted" for v in all_validation),
         "philological_ai_batches": sorted(batch_meta),
         "philological_ai_dispositions": dict(sorted(disposition_counts.items())),
         "human_validation_events": sum(v.get("reviewer_type") == "human" for v in all_validation),
-        "scope": "non-destructive documentary projection with RHD-PHIL AI-assisted events joined; independent human review remains separate and absent until real review manifests exist",
+        "diachronic_candidate_relations": len(all_relations),
+        "diachronic_signal_counts": dict(sorted(dia_signal_counts.items())),
+        "diachronic_semantic_judgment_computed": dia_queue.get("automatic_semantic_judgment") is True if dia_queue else False,
+        "diachronic_human_reviewed": dia_queue.get("human_reviewed") is True if dia_queue else False,
+        "scope": "non-destructive projection with RHD-PHIL events and machine diachronic candidates joined; human semantic/continuity adjudication remains absent",
     }
     OUT_SUMMARY.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
-        f"generated {len(canonical)} RHD canonical records: "
-        f"{summary['active']} active, {summary['rejected_boundary']} rejected boundaries, "
-        f"{summary['philological_ai_validation_events']} PHIL events"
+        f"generated {len(canonical)} RHD canonical records: {summary['active']} active, "
+        f"{summary['rejected_boundary']} rejected boundaries, {summary['philological_ai_validation_events']} PHIL events, "
+        f"{summary['diachronic_candidate_relations']} diachronic candidate relations"
     )
 
 
