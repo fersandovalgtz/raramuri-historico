@@ -1,29 +1,39 @@
 cff-version: 1.2.0
-message: "If you use this dataset or its software/data model, please cite this record."
+message: "If you use this dataset, its data model, or its research software, please cite the archived version corresponding to your analysis."
 title: "Rarámuri Histórico Digital — Corpus Steffel 1791/1809"
 type: dataset
 version: 1.0.0
-date-released: 2026-08-15
+date-released: "2026-08-15"
+commit: "441cbac036d82e83451e32378a030c3bb0923bf6"
 license: CC-BY-4.0
 authors:
-  - family-names: Sandoval Gutierrez
-    given-names: Fernando
+  - family-names: "Sandoval Gutierrez"
+    given-names: "Fernando"
     orcid: "https://orcid.org/0000-0002-3168-6725"
+    affiliation: "Universidad Autónoma de Ciudad Juárez; Universidad CEEES / CEEES Cuauhtémoc"
 repository-code: "https://github.com/fersandovalgtz/raramuri-historico"
+url: "https://fersandovalgtz.github.io/raramuri-historico/"
 abstract: >-
   Machine-only historical-digital scholarly edition of Matthäus Steffel's
-  Tarahumarisches Wörterbuch (1791/1809) and reference implementation of the
-  reusable Rarámuri Histórico Digital (RHD) data/provenance model. The corpus
-  preserves OCR, AI-assisted diplomatic/documentary layers, explicit uncertainty,
-  TEI/TEI Lex-0 projections, appendices and computational diachronic candidate
-  evidence. No human validation is claimed or required by this release scope.
+  Tarahumarisches Wörterbuch (1791/1809 documentary horizon) and reference
+  implementation of the reusable Rarámuri Histórico Digital (RHD)
+  data/provenance model. The corpus preserves source/OCR evidence,
+  AI-assisted diplomatic and documentary layers, explicit uncertainty,
+  TEI and TEI Lex-0 projections, IIIF links, appendices, and computational
+  diachronic candidate evidence. No human linguistic or philological
+  validation is claimed by release 1.0.0.
 keywords:
-  - Rarámuri
-  - Tarahumara
-  - historical lexicography
-  - digital humanities
-  - indigenous languages
-  - Steffel
-  - TEI Lex-0
-  - provenance
-  - machine-only scholarly edition
+  - "Rarámuri"
+  - "Tarahumara"
+  - "Matthäus Steffel"
+  - "Tarahumarisches Wörterbuch"
+  - "historical lexicography"
+  - "digital humanities"
+  - "indigenous languages"
+  - "research data"
+  - "TEI"
+  - "TEI Lex-0"
+  - "IIIF"
+  - "provenance"
+  - "reproducibility"
+  - "machine-only scholarly edition"

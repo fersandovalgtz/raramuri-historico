@@ -1,0 +1,74 @@
+name: Corrección documental o revisión científica
+description: Proponga una corrección, incertidumbre, revisión filológica/lingüística o mejora de un registro con evidencia trazable.
+title: "[data] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por contribuir a Rarámuri Histórico Digital. RHD distingue testimonio, OCR, transcripción diplomática, propuesta IA-asistida y revisión humana. Una corrección debe preservar esa procedencia.
+  - type: input
+    id: record
+    attributes:
+      label: Record ID
+      description: Identificador RHD afectado, si existe.
+      placeholder: RHD-S1809-00001
+  - type: input
+    id: page
+    attributes:
+      label: Página / Canvas / localización
+      description: Indique la página impresa, página facsimilar o Canvas pertinente.
+      placeholder: "Steffel 1809, p. 353"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Estado o lectura actual
+      description: Copie sólo el fragmento mínimo necesario e indique el campo afectado.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Propuesta
+      description: Describa la corrección, lectura alternativa o razón para mantener la incertidumbre.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia
+      description: Explique qué evidencia documental, bibliográfica, filológica o lingüística sustenta la propuesta. Añada referencias verificables.
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Alcance de la revisión
+      options:
+        - Documental / paleográfica-tipográfica
+        - Filológica
+        - Lingüística
+        - Histórica / etnográfica
+        - Metadatos / procedencia
+        - Relación diacrónica
+        - Otro
+    validations:
+      required: true
+  - type: textarea
+    id: expertise
+    attributes:
+      label: Competencia o contexto de quien revisa
+      description: Opcional. Si solicita que la decisión se registre como revisión humana especializada, describa brevemente la competencia pertinente y cómo desea ser atribuido/a.
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Declaraciones
+      options:
+        - label: He revisado CONTRIBUTING.md y entiendo que una propuesta no sobrescribe automáticamente la capa diplomática.
+          required: true
+        - label: Entiendo que una coincidencia gráfica no demuestra por sí sola identidad semántica, cognación, etimología o continuidad histórica.
+          required: true
+        - label: El material aportado puede compartirse legítimamente o he indicado claramente sus restricciones.
+          required: true
