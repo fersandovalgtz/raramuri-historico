@@ -3,34 +3,9 @@ name: RHD 1.0 machine-only canonical, TEI, IIIF, appendices and release integrit
 on:
   pull_request:
     paths:
-      - 'scripts/generate_rhd_canonical.py'
-      - 'scripts/generate_appendix_candidates.py'
-      - 'scripts/generate_appendix_canonical.py'
-      - 'scripts/generate_appendix_tei.py'
-      - 'scripts/generate_diachronic_machine_scores.py'
-      - 'scripts/calibrate_diachronic_machine_scores.py'
-      - 'scripts/generate_rhd_tei.py'
-      - 'scripts/validate_external_iiif_witness.py'
-      - 'scripts/probe_steffel_iiif_candidate.py'
-      - 'scripts/probe_steffel_public_source.py'
-      - 'scripts/probe_tellechea_1826_witness.py'
-      - 'scripts/generate_tellechea_pilot.py'
-      - 'scripts/generate_tellechea_full_pilot.py'
-      - 'scripts/generate_release_manifest.py'
-      - 'tests/validate_source_profiles_machine_only.py'
-      - 'tests/validate_tellechea_pilot.py'
-      - 'tests/validate_tellechea_full_pilot.py'
-      - 'tests/validate_rhd_canonical.py'
-      - 'tests/validate_appendix_candidates.py'
-      - 'tests/validate_trilingual_visual_alignment.py'
-      - 'tests/validate_appendix_visual_transcriptions.py'
-      - 'tests/validate_appendix_canonical.py'
-      - 'tests/validate_appendix_tei.py'
-      - 'tests/validate_diachronic_machine_scores.py'
-      - 'tests/validate_diachronic_machine_calibration.py'
-      - 'tests/validate_rhd_tei.py'
-      - 'tests/validate_release_manifest.py'
-      - 'schemas/rhd-entry-1.0.schema.json'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'schemas/**'
       - 'source_profiles/**'
       - 'sources/**'
       - 'data/**'
@@ -69,7 +44,6 @@ jobs:
 
       - name: Diagnose mutable public Steffel source against canonical checksum
         run: python3 scripts/probe_steffel_public_source.py
-
       - name: Validate reusable source profiles enforce machine-only policy
         run: python3 tests/validate_source_profiles_machine_only.py
 
@@ -116,6 +90,10 @@ jobs:
         run: python3 tests/validate_trilingual_visual_alignment.py
       - name: Validate AI visual numeration and prayer layers
         run: python3 tests/validate_appendix_visual_transcriptions.py
+      - name: Generate terminal appendix uncertainty register
+        run: python3 scripts/generate_appendix_terminal_uncertainty.py
+      - name: Validate terminal appendix uncertainty policy
+        run: python3 tests/validate_appendix_terminal_uncertainty.py
       - name: Generate canonical appendix layer
         run: python3 scripts/generate_appendix_canonical.py
       - name: Validate canonical appendix layer and machine alignment
