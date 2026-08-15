@@ -57,7 +57,7 @@ Las 298 relaciones Steffel ↔ Rarámuri Digital permanecen `candidate`, pero el
 - tabla completa de candidatos y especificidad grafémica;
 - pruebas que impiden convertir el puntaje en equivalencia semántica, cognación, etimología, ley fonética o continuidad histórica.
 
-La CI completa validó este gate en el run `31893829379` y nuevamente dentro del pipeline ampliado con IIIF exact-witness en `31894274565`.
+La CI completa validó este gate repetidamente, incluido el run `31895612447` que incorpora además la ruta de publicación IIIF GitHub Pages.
 
 ### G6. Apéndices y muestra paralela — cerrado
 
@@ -68,7 +68,7 @@ La CI completa validó este gate en el run `31893829379` y nuevamente dentro del
 - 66 campos paralelos con confianza explícita;
 - Padre Nuestro separado y transcrito visualmente hasta `Amen.`;
 - suplemento TEI específico;
-- todas las lecturas medias/bajas trasladadas a un registro de **incertidumbre terminal machine-only**.
+- **43 lecturas residuales** registradas como incertidumbre terminal machine-only.
 
 No queda revisión humana ni reparación conjetural pendiente.
 
@@ -88,7 +88,7 @@ El pipeline procesa **205/205 páginas**, valida 205 unidades documentales contr
 
 La industrialización queda demostrada a escala completa sobre una fuente estructuralmente distinta de Steffel.
 
-## G7. IIIF canónico — 90%, estructura cerrada; publicación pendiente
+## G7. IIIF canónico — 90%, estructura y candidato público cerrados; hosting pendiente
 
 El witness Steffel canónico fue re-verificado directamente:
 
@@ -100,26 +100,35 @@ Desde ese binario exacto RHD ya dispone de:
 
 - huellas de las 84 páginas;
 - inventario versionado de dimensiones de Canvas;
-- constructor de 84 imágenes JPEG que rechaza cualquier PDF no idéntico;
-- generador determinista IIIF Presentation 3;
+- constructor exact-binary que rechaza cualquier PDF no idéntico;
+- generador determinista IIIF Presentation 3 de preparación;
 - **84 Canvases** y Annotation Pages de `painting` preparados;
 - `canvas-map.json` reproducible;
 - **1,965/1,965 enlaces registro activo → Canvas** a nivel página;
 - **0 regiones `xywh` inventadas**;
 - prueba automatizada de todos esos invariantes.
 
-El run `31894274565` pasó íntegramente, incluidos `Generate exact-witness static IIIF preparation` y `Validate 84-Canvas structure and 1965 page-level RHD links`.
+Además, el proyecto ya tiene habilitado GitHub Pages en `https://fersandovalgtz.github.io/raramuri-historico/` y se preparó un perfil específico de publicación:
 
-La preparación usa deliberadamente `https://rhd.invalid/...` hasta que las imágenes derivadas estén alojadas en un endpoint público persistente. Por tanto, G7 no se declara todavía 100%: **lo único pendiente es publicar esos 84 recursos exact-binary-derived, regenerar el Manifest con IDs públicos reales y probar su recuperación**. Las regiones `xywh` no son requisito para cerrar el nivel página y sólo se agregarán si existen coordenadas espaciales reales.
+- `data/iiif/steffel-1809-published-png72-assets.json`: inventario de 84 PNG exact-witness con hash, bytes y dimensiones;
+- `scripts/generate_steffel_public_iiif_candidate.py`: candidato Presentation 3 con la base pública definitiva;
+- `tests/validate_steffel_public_iiif_candidate.py`: valida 84/84 Canvases y 1,965/1,965 enlaces públicos;
+- `scripts/verify_published_steffel_iiif.py`: gate de red que sólo cierra IIIF si Manifest + 84 PNG son recuperables y coinciden con el inventario exacto.
 
-Los witnesses de Internet Archive y el enlace mutable de Dropbox siguen siendo controles externos, nunca sustitutos automáticos del witness canónico.
+El run **`31895612447`** pasó todos los gates deterministas: Tellechea 205/205, corpus canónico, anexos, diacronía, TEI/Lex-0, preparación IIIF interna, candidato PNG72 GitHub Pages y manifiesto de release.
+
+La prueba de red del mismo run obtuvo **HTTP 404** en la URL final `https://fersandovalgtz.github.io/raramuri-historico/iiif/steffel-1809/manifest.json`. Esto es el comportamiento esperado mientras los archivos no estén desplegados: el gate permanece abierto sin fingir una publicación inexistente.
+
+Por tanto, G7 no se declara todavía 100%: **lo único pendiente es colocar los 84 PNG y el Manifest/Canvas-map en Pages y obtener una verificación HTTP(S) 84/84**. Las regiones `xywh` no son requisito para cerrar el nivel página y sólo se agregarán si existen coordenadas espaciales reales.
+
+El procedimiento de despliegue está fijado en `docs/IIIF_PUBLICATION_GITHUB_PAGES.md`. Los witnesses de Internet Archive y el enlace mutable de Dropbox siguen siendo controles externos, nunca sustitutos automáticos del witness canónico.
 
 ## G8. Release, integridad y archivo — 80%
 
 Ya están cerrados:
 
 - `CITATION.cff` como `0.9.0-machine-only-prerelease`;
-- `CHANGELOG.md`;
+- `CHANGELOG.md` sincronizado con el estado 98/2;
 - política machine-only;
 - declaración de conformidad;
 - generador determinista del manifiesto de integridad;
@@ -153,8 +162,8 @@ Falta exclusivamente para el cierre editorial de RHD 1.0:
 
 Ya no corresponde a ciencia pendiente del corpus. Se concentra exclusivamente en:
 
-1. **1 punto — publicación IIIF persistente:** alojar y verificar las 84 imágenes derivadas del witness exacto y congelar los IDs públicos de Manifest/Canvas.
-2. **1 punto — publicación final persistente:** tag/release estable + depósito/archivo con identificador citable y comprobación de integridad.
+1. **1 punto — publicación IIIF persistente:** desplegar y verificar Manifest + 84 PNG exact-witness en GitHub Pages. Un resultado verde de `verify_published_steffel_iiif.py` elevará la terminación a **99.0%**.
+2. **1 punto — publicación final persistente:** tag/release estable + depósito/archivo con identificador citable y comprobación de integridad. Este último gate llevará la edición a **100%**.
 
 ## Condición de 100%
 
