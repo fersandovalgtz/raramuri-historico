@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 CANONICAL = ROOT / "data" / "canonical" / "steffel-1809.entries.jsonl"
+APPENDICES = ROOT / "data" / "canonical" / "steffel-1809.appendices.json"
 RICH_PATH = ROOT / "data" / "tei" / "rhd-steffel-1809-tei.xml"
 LEX0_PATH = ROOT / "data" / "tei" / "rhd-steffel-1809-lex0.xml"
 TEI = "http://www.tei-c.org/ns/1.0"
@@ -13,15 +14,17 @@ XML = "http://www.w3.org/XML/1998/namespace"
 Q = lambda n: f"{{{TEI}}}{n}"
 errors = []
 
-for required in (CANONICAL, RICH_PATH, LEX0_PATH):
+for required in (CANONICAL, APPENDICES, RICH_PATH, LEX0_PATH):
     if not required.exists():
         errors.append(f"missing {required.relative_to(ROOT)}")
 if errors:
     print("\n".join("ERROR: " + e for e in errors)); sys.exit(1)
 
 canonical = [json.loads(line) for line in CANONICAL.read_text(encoding="utf-8").splitlines() if line.strip()]
+appendices = json.loads(APPENDICES.read_text(encoding="utf-8"))
 active = [x for x in canonical if x.get("status") == "active"]
 active_ids = {x["record_id"] for x in active}
+appendix_ids = {x["object_id"] for x in appendices.get("objects", [])}
 expected_phil = sum(len(x.get("validation", [])) for x in active)
 expected_relations = sum(len(x.get("historical_relations", [])) for x in active)
 expected_translations = sum(
@@ -53,6 +56,7 @@ def validate_header(root, label, expected_root_type):
         required_languages = {
             ("und", "objectLanguage"),
             ("de", "objectLanguage"),
+            ("la", "objectLanguage"),
             ("es", "workingLanguage"),
         }
         if not required_languages.issubset(languages):
@@ -66,7 +70,7 @@ rich_ids = [e.get(f"{{{XML}}}id") for e in rich_entries]
 if len(rich_entries) != len(active) or set(rich_ids) != active_ids:
     errors.append("rich: entry universe differs from active canonical records")
 if len(rich_ids) != len(set(rich_ids)):
-    errors.append("rich: duplicate xml:id")
+    errors.append("rich: duplicate lexical xml:id")
 if rich.findall(f".//{Q('def')}"):
     errors.append("rich: unparsed source material was auto-promoted to <def>")
 for entry in rich_entries:
@@ -91,6 +95,23 @@ translations = [cit for cit in rich.findall(f".//{Q('cit')}") if cit.get("type")
 if len(translations) != expected_translations:
     errors.append(f"rich: translation citation count {len(translations)} != {expected_translations}")
 
+appendix_collection = next((d for d in rich.findall(f".//{Q('div')}") if d.get("type") == "appendixCollection"), None)
+if appendix_collection is None:
+    errors.append("rich: appendixCollection missing")
+    rich_appendix_ids = set()
+else:
+    appendix_divs = [d for d in appendix_collection.findall(Q("div")) if d.get(f"{{{XML}}}id")]
+    rich_appendix_ids = {d.get(f"{{{XML}}}id") for d in appendix_divs}
+    if rich_appendix_ids != appendix_ids:
+        errors.append(f"rich: appendix object IDs differ from canonical appendix IDs ({len(rich_appendix_ids)} vs {len(appendix_ids)})")
+    formula_divs = [d for d in appendix_divs if d.get("type") == "parallel_formula"]
+    if len(formula_divs) != 22:
+        errors.append(f"rich: expected 22 parallel formula divs, got {len(formula_divs)}")
+    if any(d.get("ana") != "#machineCandidate" for d in appendix_divs):
+        errors.append("rich: appendix object lost machineCandidate annotation")
+    if not any(n.get("type") == "epistemicStatus" and "No human validation" in (n.text or "") for n in appendix_collection.findall(Q("note"))):
+        errors.append("rich: appendix collection lacks explicit no-human-validation note")
+
 lex0 = ET.parse(LEX0_PATH).getroot()
 validate_header(lex0, "lex0", "lex-0")
 lex0_entries = lex0.findall(f".//{Q('entry')}")
@@ -101,7 +122,11 @@ if len(lex0_ids) != len(set(lex0_ids)):
     errors.append("lex0: duplicate xml:id")
 if lex0.findall(f".//{Q('def')}"):
     errors.append("lex0: contains synthetic <def>")
-if [n for n in lex0.findall(f".//{Q('note')}") if n.get("type") in {"validation", "diachronicCandidate", "diplomaticTranscription"}]:
+if any(d.get("type") == "appendixCollection" for d in lex0.findall(f".//{Q('div')}") ):
+    errors.append("lex0: appendix collection leaked into strict projection")
+if appendix_ids.intersection({d.get(f"{{{XML}}}id") for d in lex0.findall(f".//{Q('div')}")}):
+    errors.append("lex0: canonical appendix IDs leaked into strict projection")
+if [n for n in lex0.findall(f".//{Q('note')}") if n.get("type") in {"validation", "diachronicCandidate", "diplomaticTranscription", "visualCollation"}]:
     errors.append("lex0: RHD-specific documentary/validation layers leaked into strict projection")
 for entry in lex0_entries:
     rid = entry.get(f"{{{XML}}}id")
@@ -118,6 +143,7 @@ for entry in lex0_entries:
 if errors:
     print("\n".join("ERROR: " + e for e in errors)); sys.exit(1)
 print(
-    f"OK: rich RHD TEI preserves {len(rich_entries)} entries, {len(validation_notes)} PHIL notes and "
-    f"{len(relation_notes)} diachronic candidates; strict Lex-0 projection preserves {len(lex0_entries)} lexical entries without RHD-specific assertion leakage"
+    f"OK: rich RHD TEI preserves {len(rich_entries)} lexical entries, {len(validation_notes)} PHIL notes, "
+    f"{len(relation_notes)} diachronic candidates and {len(rich_appendix_ids)} appendix objects; "
+    f"strict Lex-0 preserves {len(lex0_entries)} lexical entries with no appendix/RHD assertion leakage"
 )
