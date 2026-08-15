@@ -11,6 +11,7 @@ on:
       - 'scripts/generate_rhd_tei.py'
       - 'scripts/validate_external_iiif_witness.py'
       - 'scripts/probe_steffel_iiif_candidate.py'
+      - 'scripts/probe_steffel_public_source.py'
       - 'scripts/probe_tellechea_1826_witness.py'
       - 'scripts/generate_tellechea_pilot.py'
       - 'scripts/generate_tellechea_full_pilot.py'
@@ -60,6 +61,7 @@ on:
       - 'scripts/generate_rhd_tei.py'
       - 'scripts/validate_external_iiif_witness.py'
       - 'scripts/probe_steffel_iiif_candidate.py'
+      - 'scripts/probe_steffel_public_source.py'
       - 'scripts/probe_tellechea_1826_witness.py'
       - 'scripts/generate_tellechea_pilot.py'
       - 'scripts/generate_tellechea_full_pilot.py'
@@ -115,6 +117,9 @@ jobs:
           python3 -m pip install --disable-pip-version-check jsonschema pillow pypdf
           sudo apt-get update -qq
           sudo apt-get install -y -qq jing poppler-utils tesseract-ocr tesseract-ocr-spa
+      - name: Probe public 84-page Steffel PDF for exact canonical binary identity
+        continue-on-error: true
+        run: python3 scripts/probe_steffel_public_source.py
       - name: Validate reusable source profiles enforce machine-only policy
         run: python3 tests/validate_source_profiles_machine_only.py
       - name: Verify checksum-fixed Tellechea 1826 witness and characterize text layer
