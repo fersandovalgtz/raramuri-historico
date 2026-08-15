@@ -2,137 +2,160 @@
 
 **Corte:** 15 de agosto de 2026  
 **Alcance:** edición histórico-digital computacional e IA-asistida, sin intervención humana de adjudicación.  
-**Estado:** prerelease científico; no declarar 1.0 final todavía.  
-**Avance ponderado vigente:** **93.0%**.
+**Estado:** prerelease científico prácticamente cerrado; todavía no declarar RHD 1.0 final.  
+**Avance ponderado vigente:** **98.0%**.  
+**Restante ponderado:** **2.0%**.
 
-La política de alcance vigente es `docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md`. La ausencia de revisión humana no es un defecto pendiente del release: es una decisión metodológica explícita. Ningún artefacto puede presentar resultados IA-asistidos como `human_verified`.
+La política vigente es `docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md`. La ausencia de revisión humana no constituye un pendiente: es una decisión metodológica explícita. Ningún artefacto puede presentar resultados IA-asistidos como `human_verified`.
 
-## Gates cerrados
+## Gates científicos cerrados
 
 ### G1. Cobertura documental del cuerpo lexicográfico — cerrado
 
-- 2,495 candidatos con disposición editorial IA-asistida.
-- 1,965 artículos activos.
-- 530 falsos límites conservados como historia de extracción.
-- 1,965 transcripciones diplomáticas IA-asistidas.
-- Ningún lote automático de frontera o recotejo PHIL pendiente.
+- 2,495 candidatos con disposición editorial IA-asistida;
+- 1,965 artículos activos;
+- 530 falsos límites preservados como historia de extracción;
+- 1,965 transcripciones diplomáticas IA-asistidas;
+- ningún lote automático de frontera o recotejo PHIL pendiente.
 
-### G2. Modelo reusable — cerrado
+### G2. Modelo reusable RHD 1.0 — cerrado
 
 - especificación RHD 1.0;
 - JSON Schema canónico;
-- perfil Steffel separado del núcleo;
+- perfil Steffel separado del núcleo universal;
 - plantilla machine-only para fuentes futuras;
-- adaptador no destructivo `Steffel -> RHD canonical`;
-- procedencia explícita para OCR, segmentación, diplomática y PHIL;
-- pruebas que impiden que los perfiles reintroduzcan requisitos de adjudicación humana.
+- adaptador no destructivo Steffel → RHD canonical;
+- procedencia explícita para OCR, segmentación, diplomática y validación IA;
+- pruebas que impiden reintroducir requisitos humanos.
 
-### G3. Interoperabilidad lexicográfica — cerrado salvo gate IIIF independiente
+### G3. TEI / TEI Lex-0 — cerrado
 
 - TEI RHD rica separada de la proyección interoperable;
 - TEI Lex-0 estricta;
 - validación automatizada contra el RNG oficial TEI Lex-0 0.9.5;
 - prohibición testada de fabricar `<def>` desde material no estructurado;
 - suplemento TEI específico para anexos y texto paralelo;
-- anexos fuera de la proyección Lex-0 estricta.
+- anexos deliberadamente fuera de Lex-0.
 
-### G4. Recotejo y contabilidad de incertidumbre — cerrado
+### G4. Recotejo e incertidumbre — cerrado
 
-Los 482 problemas explícitos tienen estado computacional terminal y trazable:
+Los 482 problemas explícitos tienen estado computacional terminal:
 
 - 284 `confirmed_ai_assisted`;
 - 152 `corrected_ai_assisted`;
 - 46 `unresolved_after_ai_recollation`.
 
-`unresolved_after_ai_recollation` es un estado final legítimo dentro del alcance machine-only. La edición no fuerza una lectura única donde la evidencia visual no la sostenga.
+`unresolved_after_ai_recollation` es un estado final legítimo. La edición no fuerza una lectura única donde la evidencia no la sostenga.
 
-### G5. Capa diacrónica — infraestructura cerrada; calibración final en CI
+### G5. Investigación diacrónica computacional — cerrado
 
-- 298 relaciones Steffel ↔ Rarámuri Digital representadas como `candidate`;
-- 298 puntuaciones reproducibles de apoyo documental de recuperación;
-- calibración añadida contra **5,066 controles nulos deterministas** obtenidos mediante 17 desplazamientos circulares del mismo inventario moderno;
-- informe científico machine-only reproducible añadido al pipeline;
-- semántica, cognación, etimología, ley fonética y continuidad histórica permanecen explícitamente no adjudicadas.
+Las 298 relaciones Steffel ↔ Rarámuri Digital permanecen `candidate`, pero el producto de investigación machine-only está completo:
 
-La calibración mide únicamente **especificidad grafémica de recuperación** frente a emparejamientos rotos. No convierte un candidato en cognado ni en relación histórica confirmada.
+- 298 puntuaciones reproducibles de apoyo documental;
+- calibración contra **5,066 emparejamientos nulos deterministas** mediante 17 desplazamientos circulares;
+- informe científico machine-only reproducible;
+- tabla completa de candidatos y especificidad grafémica;
+- pruebas que impiden convertir el puntaje en equivalencia semántica, cognación, etimología, ley fonética o continuidad histórica.
 
-### G6. Apéndices y muestra paralela — científicamente cerrados en alcance machine-only
+La CI completa validó este gate en el run `31893829379` y nuevamente dentro del pipeline ampliado con IIIF exact-witness en `31894274565`.
 
-- mapeo reproducible `PDF 79–84 ↔ impreso 369–374`;
+### G6. Apéndices y muestra paralela — cerrado
+
+- mapeo `PDF 79–84 ↔ impreso 369–374`;
 - 24 objetos canónicos: 1 numeración + 22 fórmulas + 1 Padre Nuestro;
-- sistema numeral estructurado computacionalmente;
+- numeración estructurada computacionalmente;
 - 22 fórmulas alineadas por IA en latín, alemán y tarahumara;
 - 66 campos paralelos con confianza explícita;
 - Padre Nuestro separado y transcrito visualmente hasta `Amen.`;
 - suplemento TEI específico;
-- registro formal de **incertidumbre terminal machine-only** para todas las lecturas medias/bajas.
+- todas las lecturas medias/bajas trasladadas a un registro de **incertidumbre terminal machine-only**.
 
-Las lecturas no seguras se conservan como evidencia incierta; no son reparadas por conjetura y no bloquean el cierre machine-only.
+No queda revisión humana ni reparación conjetural pendiente.
 
-### G9. Replicabilidad externa / industrialización — cerrado
+### G9. Replicabilidad / industrialización — cerrado
 
-La segunda fuente es **Miguel Joaquín Tellechea, _Compendio gramatical para la inteligencia del idioma tarahumar_ (1826)**. Su witness público DGB está fijado como `RHD-WIT-TELLECHEA-1826-DGB`:
+La segunda fuente es **Miguel Joaquín Tellechea, _Compendio gramatical para la inteligencia del idioma tarahumar_ (1826)**. Su witness DGB está fijado como `RHD-WIT-TELLECHEA-1826-DGB`:
 
 - 205 páginas;
 - 95,088,307 bytes;
 - SHA-256 `c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc`.
 
-Después de la prueba mínima de dos unidades estructuralmente distintas, el pipeline procesa ahora **205/205 páginas** del witness completo. Cada página recibe una unidad documental RHD determinista; se preserva la capa textual fuente; las páginas escasas reciben OCR visual separado; los 205 objetos validan contra el mismo JSON Schema; y se genera TEI documental completa.
-
-El resultado de la prueba fuerte es:
+El pipeline procesa **205/205 páginas**, valida 205 unidades documentales contra el mismo esquema RHD y genera TEI documental completa. Resultado:
 
 - **0 rediseños del núcleo universal**;
 - **0 entradas Lex-0 fabricadas**;
-- **0 atribuciones de validación humana**;
-- artefacto CI reproducible del witness completo.
+- **0 atribuciones humanas**.
 
-Por ello G9 queda **cerrado al 100%**. Esta prueba demuestra industrialización computacional del núcleo RHD sobre una fuente histórica completa y estructuralmente distinta; no declara una edición crítica humana de Tellechea.
+La industrialización queda demostrada a escala completa sobre una fuente estructuralmente distinta de Steffel.
 
-## Gates todavía abiertos o condicionados
+## G7. IIIF canónico — 90%, estructura cerrada; publicación pendiente
 
-### G7. IIIF canónico — abierto
+El witness Steffel canónico fue re-verificado directamente:
 
-El witness Steffel canónico permanece fijado internamente como un PDF de **84 páginas, 6,251,443 bytes y SHA-256 `4ccc94aaff1fcc948341a103255f2c3f52dd7b8ca488b6dc79a921b3c9d6244f`**.
+- **84 páginas**;
+- **6,251,443 bytes**;
+- SHA-256 `4ccc94aaff1fcc948341a103255f2c3f52dd7b8ca488b6dc79a921b3c9d6244f`.
 
-Los proveedores externos se tratan como witnesses o diagnósticos, nunca como autoridades automáticas. El ítem Internet Archive `tarahumarischesw00stef` mostró divergencia perceptual fuerte y permanece como witness paralelo no canónico. El candidato Getty/Internet Archive continúa sujeto a probe independiente.
+Desde ese binario exacto RHD ya dispone de:
 
-El enlace Dropbox del Repositorio de Lenguas demostró ser **mutable**: una ejecución posterior recuperó desde la misma URL un PDF de 438 páginas, 26,702,093 bytes y SHA-256 `3c2169d818770fecff7eca822c7dcc52f35d66356c5279913d85fb5364c652ce`. Por ello no puede considerarse dependencia canónica. La CI conserva el diagnóstico checksum-first pero ya no permite que la deriva de un proveedor externo bloquee los productos científicos checksum-fixed.
+- huellas de las 84 páginas;
+- inventario versionado de dimensiones de Canvas;
+- constructor de 84 imágenes JPEG que rechaza cualquier PDF no idéntico;
+- generador determinista IIIF Presentation 3;
+- **84 Canvases** y Annotation Pages de `painting` preparados;
+- `canvas-map.json` reproducible;
+- **1,965/1,965 enlaces registro activo → Canvas** a nivel página;
+- **0 regiones `xywh` inventadas**;
+- prueba automatizada de todos esos invariantes.
 
-Para cerrar G7 hace falta publicar una representación IIIF Presentation 3 estable derivada del witness exacto checksum-fixed, con 84 Canvases y enlace página/Canvas para los registros RHD. Las regiones espaciales sólo se incorporarán donde exista evidencia; no se fabricarán coordenadas.
+El run `31894274565` pasó íntegramente, incluidos `Generate exact-witness static IIIF preparation` y `Validate 84-Canvas structure and 1965 page-level RHD links`.
 
-### G8. Release, integridad y archivo — parcialmente abierto
+La preparación usa deliberadamente `https://rhd.invalid/...` hasta que las imágenes derivadas estén alojadas en un endpoint público persistente. Por tanto, G7 no se declara todavía 100%: **lo único pendiente es publicar esos 84 recursos exact-binary-derived, regenerar el Manifest con IDs públicos reales y probar su recuperación**. Las regiones `xywh` no son requisito para cerrar el nivel página y sólo se agregarán si existen coordenadas espaciales reales.
 
-Ya están resueltos:
+Los witnesses de Internet Archive y el enlace mutable de Dropbox siguen siendo controles externos, nunca sustitutos automáticos del witness canónico.
 
-- `CHANGELOG.md` preparado;
-- `CITATION.cff` preparado como `0.9.0-machine-only-prerelease`;
-- generador determinista de manifiesto de integridad;
-- recomputación automática de SHA-256, tamaños y conteos;
-- incorporación de capas lexicales, canónicas, TEI/Lex-0, anexos, Tellechea completo, calibración diacrónica y registro de incertidumbre terminal;
-- IIIF desacoplado como gate opcional hasta que exista realmente;
-- política y declaración de conformidad machine-only.
+## G8. Release, integridad y archivo — 80%
 
-Falta para **1.0 final**:
+Ya están cerrados:
 
-- cerrar G7 IIIF canónico;
-- fijar commit/tag final;
-- publicar GitHub Release estable;
-- depositar datos/software en archivo persistente y fijar identificador citable;
-- verificar que la copia archivada corresponde al manifiesto de integridad.
+- `CITATION.cff` como `0.9.0-machine-only-prerelease`;
+- `CHANGELOG.md`;
+- política machine-only;
+- declaración de conformidad;
+- generador determinista del manifiesto de integridad;
+- recomputación de SHA-256, tamaños y conteos;
+- incorporación de corpus lexical, TEI/Lex-0, anexos, incertidumbre terminal, calibración diacrónica y Tellechea 205/205;
+- validación integral del prerelease en CI.
 
-## Recalibración de terminación
+Falta exclusivamente para el cierre editorial de RHD 1.0:
 
-La métrica oficial permanece **93.0% / 7.0%** mientras la nueva CI no haya validado conjuntamente:
+- fijar commit/tag definitivo;
+- publicar el release estable;
+- depositar datos/software en un archivo persistente;
+- obtener/fijar un identificador citable apropiado;
+- comprobar que la copia archivada coincide con el manifiesto de integridad.
 
-1. registro terminal de incertidumbre del apéndice;
-2. calibración de las 298 relaciones contra 5,066 controles nulos;
-3. informe científico diacrónico reproducible;
-4. manifiesto de prerelease con IIIF tratado correctamente como gate independiente.
+## Métrica vigente
 
-Una vez verdes esos cuatro controles, se recalcularán las dimensiones de investigación diacrónica, apéndices y release. No se acreditará avance por documentación sola: el incremento requiere pruebas automáticas exitosas.
+| Dimensión | Peso | Avance | Puntos |
+|---|---:|---:|---:|
+| Cobertura documental | 30 | 100% | 30.0 |
+| Incertidumbre y recotejo machine-only | 20 | 100% | 20.0 |
+| Arquitectura reusable | 15 | 100% | 15.0 |
+| TEI / Lex-0 / IIIF | 10 | 90% | 9.0 |
+| Investigación diacrónica | 10 | 100% | 10.0 |
+| Apéndices | 5 | 100% | 5.0 |
+| Release / archivo / citabilidad | 5 | 80% | 4.0 |
+| Segunda fuente | 5 | 100% | 5.0 |
+| **Total** | **100** |  | **98.0** |
 
-## Política de nomenclatura
+## El 2% restante
 
-No se debe llamar al conjunto **“edición crítica humanamente validada”**. La designación correcta es **edición histórico-digital computacional / IA-asistida, machine-only**.
+Ya no corresponde a ciencia pendiente del corpus. Se concentra exclusivamente en:
 
-El release RHD 1.0 final puede cerrarse sin revisión humana. El requisito es que toda incertidumbre permanezca explícita y trazable; que los artefactos sean reproducibles e íntegros; que exista IIIF estable para el witness canónico; que el release sea citable y archivado; y que el pipeline haya demostrado reutilización sobre una segunda fuente completa. Este último requisito ya quedó satisfecho con Tellechea 1826.
+1. **1 punto — publicación IIIF persistente:** alojar y verificar las 84 imágenes derivadas del witness exacto y congelar los IDs públicos de Manifest/Canvas.
+2. **1 punto — publicación final persistente:** tag/release estable + depósito/archivo con identificador citable y comprobación de integridad.
+
+## Condición de 100%
+
+RHD 1.0 machine-only llegará al 100% cuando el objeto científico ya terminado sea también **públicamente persistente y citable**. No se exige ausencia de ambigüedad ni revisión humana: las incertidumbres ya están representadas explícitamente. El residual actual es de infraestructura de publicación y archivo, no de análisis científico.
