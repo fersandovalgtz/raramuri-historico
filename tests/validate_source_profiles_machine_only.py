@@ -55,14 +55,38 @@ if steffel.get("current_documentary_state", {}).get("unresolved_after_ai_recolla
     errors.append("Steffel profile machine-state count changed: unresolved_after_ai_recollation")
 
 tellechea = json.loads(FILES[2].read_text(encoding="utf-8")) if FILES[2].exists() else {}
-if tellechea.get("project_role") != "second_source_replicability_pilot_candidate":
-    errors.append("Tellechea profile lost pilot-candidate role")
+if tellechea.get("project_role") != "second_source_replicability_pilot":
+    errors.append("Tellechea profile must have second_source_replicability_pilot role after witness fixation")
 if tellechea.get("completion_credit", {}).get("counts_toward_second_source_end_to_end_gate") is not False:
-    errors.append("Tellechea candidate profile must not receive end-to-end completion credit before ingestion")
-if tellechea.get("pilot_status") != "candidate_selected_binary_not_yet_ingested":
-    errors.append("Tellechea pilot status must remain binary-not-yet-ingested until witness acquisition")
+    errors.append("Tellechea profile must not receive end-to-end completion credit before actual pipeline traversal")
+if tellechea.get("pilot_status") != "witness_checksum_fixed_not_yet_processed_end_to_end":
+    errors.append("Tellechea pilot status must record checksum-fixed witness without claiming end-to-end processing")
+witness = tellechea.get("witness", {})
+if witness.get("identity_status") != "checksum_fixed_public_witness":
+    errors.append("Tellechea witness must be checksum-fixed")
+if witness.get("sha256") != "c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc":
+    errors.append("Tellechea witness SHA-256 differs from the fixed DGB binary")
+if witness.get("facsimile_pages") != 205 or witness.get("bytes") != 95088307:
+    errors.append("Tellechea fixed witness page/byte identity changed")
+if witness.get("checksums_manifest") != "sources/tellechea-1826-witness.json":
+    errors.append("Tellechea profile must point to the machine witness manifest")
+
+manifest_path = ROOT / "sources/tellechea-1826-witness.json"
+if not manifest_path.exists():
+    errors.append("missing Tellechea witness identity manifest")
+else:
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    identity = manifest.get("identity", {})
+    if manifest.get("status") != "checksum_fixed_public_witness":
+        errors.append("Tellechea witness manifest lost checksum-fixed status")
+    if identity.get("sha256") != witness.get("sha256"):
+        errors.append("Tellechea profile/witness-manifest SHA-256 mismatch")
+    if identity.get("bytes") != witness.get("bytes") or identity.get("pdf_pages") != witness.get("facsimile_pages"):
+        errors.append("Tellechea profile/witness-manifest size or page-count mismatch")
+    if manifest.get("human_validation_claimed") is not False:
+        errors.append("Tellechea witness manifest must explicitly deny human validation")
 
 if errors:
     print("\n".join("ERROR: " + e for e in errors))
     sys.exit(1)
-print("OK: reusable template, Steffel reference profile and Tellechea pilot profile all enforce zero-required-human-adjudication; pilot receives no premature replication credit")
+print("OK: reusable template and Steffel/Tellechea profiles enforce zero-required-human-adjudication; Tellechea has a checksum-fixed public witness but still receives zero premature end-to-end replication credit")
