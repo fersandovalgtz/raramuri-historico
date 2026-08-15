@@ -34,6 +34,9 @@ FILES = [
     ("second_source_pilot_profile", "source_profiles/tellechea-1826.pilot-candidate.json"),
     ("second_source_witness_identity", "sources/tellechea-1826-witness.json"),
     ("second_source_pilot_plan", "docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md"),
+    ("second_source_pilot_canonical", "data/pilot/tellechea-1826.minimal-pilot.jsonl"),
+    ("second_source_pilot_tei", "data/pilot/tellechea-1826.minimal-pilot.tei.xml"),
+    ("second_source_pilot_diagnostics", "data/pilot/tellechea-1826.minimal-pilot.diagnostics.json"),
     ("machine_only_policy", "docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md"),
     ("machine_only_conformity", "docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md"),
     ("completion_matrix", "docs/MACHINE_ONLY_COMPLETION_MATRIX.md"),
@@ -78,6 +81,8 @@ def main():
     witness_registry = read_json(ROOT / "sources/external-references.json")
     pilot_profile = read_json(ROOT / "source_profiles/tellechea-1826.pilot-candidate.json")
     pilot_witness = read_json(ROOT / "sources/tellechea-1826-witness.json")
+    pilot_diagnostics = read_json(ROOT / "data/pilot/tellechea-1826.minimal-pilot.diagnostics.json")
+    pilot_rows = [line for line in (ROOT / "data/pilot/tellechea-1826.minimal-pilot.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
 
     canonical_witnesses = [w for w in witness_registry.get("witnesses", []) if w.get("canonical_for_rhd") is not False and w.get("role") == "canonical_working_facsimile"]
     parallel_witnesses = [w for w in witness_registry.get("witnesses", []) if w.get("canonical_for_rhd") is False]
@@ -85,6 +90,13 @@ def main():
         pilot_profile.get("project_role") == "second_source_replicability_pilot"
         and pilot_profile.get("witness", {}).get("identity_status") == "checksum_fixed_public_witness"
         and pilot_witness.get("status") == "checksum_fixed_public_witness"
+    )
+    minimal_pilot_complete = (
+        len(pilot_rows) == 2
+        and pilot_diagnostics.get("pilot_id") == "RHD-TELLECHEA-1826-MINIMAL-PILOT-1"
+        and pilot_diagnostics.get("human_validation_claimed") is False
+        and pilot_profile.get("completion_credit", {}).get("counts_toward_second_source_end_to_end_gate") is True
+        and pilot_profile.get("completion_credit", {}).get("completes_second_source_end_to_end_gate") is False
     )
 
     manifest = {
@@ -104,14 +116,19 @@ def main():
             "canonical_working_witnesses": len(canonical_witnesses),
             "registered_noncanonical_external_witnesses": len(parallel_witnesses),
             "second_source_pilot_witnesses_checksum_fixed": 1 if pilot_witness_fixed else 0,
-            "second_source_pilots_end_to_end_complete": 0,
+            "second_source_minimal_pilots_complete": 1 if minimal_pilot_complete else 0,
+            "second_source_minimal_canonical_records": len(pilot_rows),
+            "second_source_pilots_full_witness_end_to_end_complete": 0,
         },
         "second_source_pilot": {
             "source_id": pilot_profile.get("source_id"),
             "pilot_status": pilot_profile.get("pilot_status"),
             "witness_id": pilot_profile.get("witness", {}).get("witness_id"),
             "witness_sha256": pilot_profile.get("witness", {}).get("sha256"),
-            "end_to_end_completion_credit": False,
+            "minimal_end_to_end_completion_credit": bool(minimal_pilot_complete),
+            "full_witness_end_to_end_completion_credit": False,
+            "canonical_records": len(pilot_rows),
+            "tei_artifact": "data/pilot/tellechea-1826.minimal-pilot.tei.xml",
         },
         "completion": {
             "weighted_completion_percent": completion.get("weighted_completion_percent"),
