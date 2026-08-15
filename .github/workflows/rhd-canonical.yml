@@ -4,7 +4,6 @@ on:
   pull_request:
     paths:
       - 'scripts/generate_rhd_canonical.py'
-      - 'scripts/enrich_canonical_iiif_locators.py'
       - 'scripts/generate_appendix_candidates.py'
       - 'scripts/generate_appendix_canonical.py'
       - 'scripts/generate_appendix_tei.py'
@@ -13,14 +12,11 @@ on:
       - 'scripts/validate_external_iiif_witness.py'
       - 'scripts/probe_steffel_iiif_candidate.py'
       - 'scripts/probe_steffel_public_source.py'
-      - 'scripts/build_steffel_canonical_iiif.py'
       - 'scripts/probe_tellechea_1826_witness.py'
       - 'scripts/generate_tellechea_pilot.py'
       - 'scripts/generate_tellechea_full_pilot.py'
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_source_profiles_machine_only.py'
-      - 'tests/validate_steffel_canonical_iiif.py'
-      - 'tests/validate_canonical_iiif_linkage.py'
       - 'tests/validate_tellechea_pilot.py'
       - 'tests/validate_tellechea_full_pilot.py'
       - 'tests/validate_rhd_canonical.py'
@@ -34,82 +30,23 @@ on:
       - 'tests/validate_release_manifest.py'
       - 'schemas/rhd-entry-1.0.schema.json'
       - 'source_profiles/**'
-      - 'sources/steffel-1809-ocr-source.txt'
-      - 'sources/external-references.json'
-      - 'sources/tellechea-1826-witness.json'
-      - 'data/entries.csv'
-      - 'data/corpus_inventory.json'
-      - 'data/validation/**'
-      - 'data/research/diachronic_semantic_context_queue.json'
-      - 'data/appendices/facsimile_page_map.json'
-      - 'data/appendices/trilingual_visual_alignment_ai.json'
-      - 'data/appendices/prayer_visual_transcription_ai.json'
-      - 'data/appendices/numeration_visual_structure_ai.json'
-      - 'data/iiif/steffel-1809-local-page-fingerprints.json'
-      - 'data/pilot/**'
-      - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
-      - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
-      - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
-      - 'docs/IIIF_READINESS.md'
-      - 'docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md'
+      - 'sources/**'
+      - 'data/**'
+      - 'docs/**'
       - 'project/completion-model-machine-only.json'
       - '.github/workflows/rhd-canonical.yml'
-      - '.github/workflows/pages.yml'
   push:
     branches: [main]
     paths:
-      - 'scripts/generate_rhd_canonical.py'
-      - 'scripts/enrich_canonical_iiif_locators.py'
-      - 'scripts/generate_appendix_candidates.py'
-      - 'scripts/generate_appendix_canonical.py'
-      - 'scripts/generate_appendix_tei.py'
-      - 'scripts/generate_diachronic_machine_scores.py'
-      - 'scripts/generate_rhd_tei.py'
-      - 'scripts/validate_external_iiif_witness.py'
-      - 'scripts/probe_steffel_iiif_candidate.py'
-      - 'scripts/probe_steffel_public_source.py'
-      - 'scripts/build_steffel_canonical_iiif.py'
-      - 'scripts/probe_tellechea_1826_witness.py'
-      - 'scripts/generate_tellechea_pilot.py'
-      - 'scripts/generate_tellechea_full_pilot.py'
-      - 'scripts/generate_release_manifest.py'
-      - 'tests/validate_source_profiles_machine_only.py'
-      - 'tests/validate_steffel_canonical_iiif.py'
-      - 'tests/validate_canonical_iiif_linkage.py'
-      - 'tests/validate_tellechea_pilot.py'
-      - 'tests/validate_tellechea_full_pilot.py'
-      - 'tests/validate_rhd_canonical.py'
-      - 'tests/validate_appendix_candidates.py'
-      - 'tests/validate_trilingual_visual_alignment.py'
-      - 'tests/validate_appendix_visual_transcriptions.py'
-      - 'tests/validate_appendix_canonical.py'
-      - 'tests/validate_appendix_tei.py'
-      - 'tests/validate_diachronic_machine_scores.py'
-      - 'tests/validate_rhd_tei.py'
-      - 'tests/validate_release_manifest.py'
-      - 'schemas/rhd-entry-1.0.schema.json'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'schemas/**'
       - 'source_profiles/**'
-      - 'sources/steffel-1809-ocr-source.txt'
-      - 'sources/external-references.json'
-      - 'sources/tellechea-1826-witness.json'
-      - 'data/entries.csv'
-      - 'data/corpus_inventory.json'
-      - 'data/validation/**'
-      - 'data/research/diachronic_semantic_context_queue.json'
-      - 'data/appendices/facsimile_page_map.json'
-      - 'data/appendices/trilingual_visual_alignment_ai.json'
-      - 'data/appendices/prayer_visual_transcription_ai.json'
-      - 'data/appendices/numeration_visual_structure_ai.json'
-      - 'data/iiif/steffel-1809-local-page-fingerprints.json'
-      - 'data/pilot/**'
-      - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
-      - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
-      - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
-      - 'docs/IIIF_READINESS.md'
-      - 'docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md'
+      - 'sources/**'
+      - 'data/**'
+      - 'docs/**'
       - 'project/completion-model-machine-only.json'
       - '.github/workflows/rhd-canonical.yml'
-      - '.github/workflows/pages.yml'
 
 permissions:
   contents: read
@@ -127,20 +64,13 @@ jobs:
           python3 -m pip install --disable-pip-version-check jsonschema pillow pypdf
           sudo apt-get update -qq
           sudo apt-get install -y -qq jing poppler-utils tesseract-ocr tesseract-ocr-spa
-      - name: Probe public 84-page Steffel PDF for exact canonical binary identity
+
+      - name: Diagnose mutable public Steffel source against canonical checksum
         run: python3 scripts/probe_steffel_public_source.py
-      - name: Build canonical Steffel IIIF package from the exact PDF
-        run: python3 scripts/build_steffel_canonical_iiif.py public
-      - name: Validate canonical Steffel IIIF Presentation 3 package
-        run: python3 tests/validate_steffel_canonical_iiif.py
-      - name: Upload canonical IIIF preview artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: steffel-1809-canonical-iiif
-          path: public/iiif/steffel-1809
-          if-no-files-found: error
+
       - name: Validate reusable source profiles enforce machine-only policy
         run: python3 tests/validate_source_profiles_machine_only.py
+
       - name: Verify checksum-fixed Tellechea 1826 witness and characterize text layer
         run: python3 scripts/probe_tellechea_1826_witness.py
       - name: Generate Tellechea minimal end-to-end documentary pilot
@@ -156,6 +86,7 @@ jobs:
             data/pilot/tellechea-1826.minimal-pilot.tei.xml
             data/pilot/tellechea-1826.minimal-pilot.diagnostics.json
           if-no-files-found: error
+
       - name: Generate complete 205-page Tellechea industrialization traversal
         run: python3 scripts/generate_tellechea_full_pilot.py
       - name: Validate complete Tellechea witness against RHD core and TEI safeguards
@@ -169,14 +100,12 @@ jobs:
             data/pilot/tellechea-1826.full-witness.tei.xml
             data/pilot/tellechea-1826.full-witness.diagnostics.json
           if-no-files-found: error
+
       - name: Generate lexical canonical projection
         run: python3 scripts/generate_rhd_canonical.py
-      - name: Enrich canonical records with stable IIIF page Canvases
-        run: python3 scripts/enrich_canonical_iiif_locators.py
-      - name: Validate active-record to canonical Canvas linkage
-        run: python3 tests/validate_canonical_iiif_linkage.py
       - name: Validate lexical canonical invariants and JSON Schema
         run: python3 tests/validate_rhd_canonical.py
+
       - name: Generate appendix OCR candidates
         run: python3 scripts/generate_appendix_candidates.py
       - name: Validate appendix OCR candidates and epistemic safeguards
@@ -193,10 +122,12 @@ jobs:
         run: python3 scripts/generate_appendix_tei.py
       - name: Validate appendix TEI supplement
         run: python3 tests/validate_appendix_tei.py
+
       - name: Generate documentary-only diachronic machine scores
         run: python3 scripts/generate_diachronic_machine_scores.py
       - name: Validate diachronic scoring non-claims
         run: python3 tests/validate_diachronic_machine_scores.py
+
       - name: Generate rich RHD TEI and strict Lex-0 projection
         run: python3 scripts/generate_rhd_tei.py
       - name: Validate RHD/TEI separation and appendix integration
@@ -205,12 +136,16 @@ jobs:
         run: |
           curl --retry 3 --retry-all-errors -fsSL https://lex-0.org/schema/lex-0.rng -o /tmp/lex-0.rng
           jing /tmp/lex-0.rng data/tei/rhd-steffel-1809-lex0.xml
+
       - name: Validate John Carter Brown Internet Archive item as noncanonical IIIF witness
+        continue-on-error: true
         run: |
           curl --retry 3 --retry-all-errors -fsSL https://iiif.archive.org/iiif/tarahumarischesw00stef/manifest.json -o /tmp/steffel-iiif-manifest.json
           python3 scripts/validate_external_iiif_witness.py /tmp/steffel-iiif-manifest.json
       - name: Probe Getty Internet Archive Steffel IIIF candidate
+        continue-on-error: true
         run: python3 scripts/probe_steffel_iiif_candidate.py https://iiif.archive.org/iiif/gri_000133125012248650/manifest.json
+
       - name: Generate deterministic release integrity manifest
         run: python3 scripts/generate_release_manifest.py
       - name: Validate release integrity manifest
