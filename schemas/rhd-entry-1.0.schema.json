@@ -1,0 +1,282 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raramuri.ceees.mx/schema/rhd-entry-1.0.schema.json",
+  "title": "Rarámuri Histórico Digital — Canonical Entry 1.0",
+  "description": "Canonical semantic model for one historical lexical/documentary unit. Source-specific ingestion formats may map into this schema without replacing preserved evidence layers.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "source_id",
+    "witness_id",
+    "status",
+    "locators",
+    "layers",
+    "provenance"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "pattern": "^RHD-[A-Z0-9-]+-[0-9]{5,}$"
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "witness_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "direction": {
+      "type": ["string", "null"]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "candidate",
+        "active",
+        "rejected_boundary",
+        "merged",
+        "split",
+        "retired"
+      ]
+    },
+    "locators": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["printed_page"],
+      "properties": {
+        "printed_page": {"type": ["integer", "string"]},
+        "digital_page": {"type": ["integer", "string", "null"]},
+        "column": {"type": ["string", "null"]},
+        "region": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "properties": {
+            "x": {"type": "number"},
+            "y": {"type": "number"},
+            "width": {"type": "number"},
+            "height": {"type": "number"},
+            "unit": {"type": "string", "enum": ["pixel", "percent"]}
+          },
+          "required": ["x", "y", "width", "height", "unit"]
+        },
+        "iiif_canvas": {"type": ["string", "null"], "format": "uri"},
+        "iiif_target": {"type": ["string", "null"]},
+        "ocr_line_start": {"type": ["integer", "null"]},
+        "ocr_line_end": {"type": ["integer", "null"]}
+      }
+    },
+    "layers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ocr_raw", "segmentation", "diplomatic"],
+      "properties": {
+        "ocr_raw": {"$ref": "#/$defs/textLayer"},
+        "segmentation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["method", "confidence", "decision"],
+          "properties": {
+            "method": {"type": "string"},
+            "score": {"type": ["number", "null"]},
+            "confidence": {"type": "string"},
+            "decision": {
+              "type": "string",
+              "enum": ["pending", "accepted", "rejected", "merged", "split"]
+            },
+            "decision_event_id": {"type": ["string", "null"]}
+          }
+        },
+        "diplomatic": {"$ref": "#/$defs/textLayer"},
+        "critical": {"$ref": "#/$defs/optionalTextLayer"},
+        "normalized": {"$ref": "#/$defs/optionalTextLayer"}
+      }
+    },
+    "lexical": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "forms": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/form"}
+        },
+        "senses": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/sense"}
+        },
+        "cross_references": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["target", "relation"],
+            "properties": {
+              "target": {"type": "string"},
+              "relation": {"type": "string"},
+              "source_text": {"type": ["string", "null"]}
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "validation": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/validationEvent"}
+    },
+    "historical_relations": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/historicalRelation"}
+    },
+    "provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/provenanceEvent"}
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "text"],
+        "properties": {
+          "type": {"type": "string"},
+          "text": {"type": "string"},
+          "status": {"type": ["string", "null"]},
+          "responsibility": {"type": ["string", "null"]}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "$defs": {
+    "textLayer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "status", "method"],
+      "properties": {
+        "text": {"type": "string"},
+        "headword": {"type": ["string", "null"]},
+        "status": {"type": "string"},
+        "method": {"type": "string"},
+        "activity_id": {"type": ["string", "null"]},
+        "responsibility": {"type": ["string", "null"]},
+        "confidence": {"type": ["string", "null"]},
+        "derived_from": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "optionalTextLayer": {
+      "anyOf": [
+        {"type": "null"},
+        {"$ref": "#/$defs/textLayer"}
+      ]
+    },
+    "form": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["form_id", "type", "orth"],
+      "properties": {
+        "form_id": {"type": "string"},
+        "type": {
+          "type": "string",
+          "enum": ["lemma", "variant", "inflected", "normalized", "other"]
+        },
+        "orth": {"type": "string"},
+        "language": {"type": ["string", "null"]},
+        "script": {"type": ["string", "null"]},
+        "source_layer": {"type": ["string", "null"]},
+        "cert": {"type": ["string", "null"]}
+      }
+    },
+    "sense": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sense_id"],
+      "properties": {
+        "sense_id": {"type": "string"},
+        "source_gloss": {"type": ["string", "null"]},
+        "editorial_translation": {"type": ["string", "null"]},
+        "language": {"type": ["string", "null"]},
+        "examples": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "notes": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "cert": {"type": ["string", "null"]}
+      }
+    },
+    "validationEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["event_id", "scope", "decision", "reviewer_type"],
+      "properties": {
+        "event_id": {"type": "string"},
+        "scope": {
+          "type": "string",
+          "enum": ["philological", "linguistic", "semantic_historical", "disciplinary"]
+        },
+        "decision": {"type": "string"},
+        "reviewer_type": {
+          "type": "string",
+          "enum": ["machine", "ai_assisted", "human"]
+        },
+        "agent_id": {"type": ["string", "null"]},
+        "date": {"type": ["string", "null"], "format": "date"},
+        "evidence": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "justification": {"type": ["string", "null"]},
+        "confidence": {"type": ["string", "null"]}
+      }
+    },
+    "historicalRelation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["relation_id", "target_id", "relation_type", "status", "method"],
+      "properties": {
+        "relation_id": {"type": "string"},
+        "target_id": {"type": "string"},
+        "relation_type": {"type": "string"},
+        "status": {
+          "type": "string",
+          "enum": ["candidate", "possible", "probable", "exact", "rejected", "unresolved"]
+        },
+        "method": {"type": "string"},
+        "confidence": {"type": ["string", "number", "null"]},
+        "evidence": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "human_reviewed": {"type": "boolean", "default": false}
+      }
+    },
+    "provenanceEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["activity_id", "activity_type", "generated_entity", "agent_type"],
+      "properties": {
+        "activity_id": {"type": "string"},
+        "activity_type": {"type": "string"},
+        "generated_entity": {"type": "string"},
+        "used_entities": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "agent_id": {"type": ["string", "null"]},
+        "agent_type": {
+          "type": "string",
+          "enum": ["software", "ai_system", "human", "organization"]
+        },
+        "method": {"type": ["string", "null"]},
+        "timestamp": {"type": ["string", "null"], "format": "date-time"},
+        "software_version": {"type": ["string", "null"]}
+      }
+    }
+  }
+}

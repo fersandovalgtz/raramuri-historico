@@ -1,0 +1,105 @@
+#!/usr/bin/env python3
+from pathlib import Path
+import json
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+PATH = ROOT / "data/canonical/steffel-1809.appendices.json"
+errors = []
+
+if not PATH.exists():
+    print("ERROR: canonical appendix layer missing")
+    sys.exit(1)
+
+data = json.loads(PATH.read_text(encoding="utf-8"))
+if data.get("schema_id") != "RHD-APPENDIX-CANONICAL-1.0":
+    errors.append("schema_id mismatch")
+if data.get("human_validation_claimed") is not False:
+    errors.append("canonical appendices must not claim human validation")
+objects = data.get("objects", [])
+if len(objects) != 24:
+    errors.append(f"expected 24 appendix objects, got {len(objects)}")
+ids = [x.get("object_id") for x in objects]
+if len(ids) != len(set(ids)):
+    errors.append("duplicate appendix object_id")
+
+numeration = [x for x in objects if x.get("object_type") == "appendix_numeration"]
+formulas = [x for x in objects if x.get("object_type") == "parallel_formula"]
+prayers = [x for x in objects if x.get("object_type") == "prayer_text"]
+if len(numeration) != 1 or len(formulas) != 22 or len(prayers) != 1:
+    errors.append(f"object type counts wrong: numeration={len(numeration)}, formulas={len(formulas)}, prayers={len(prayers)}")
+if [x.get("sequence") for x in formulas] != list(range(1, 23)):
+    errors.append("formula sequence is not exactly 1..22")
+counts = data.get("counts", {})
+if counts.get("machine_aligned_parallel_formulas") != 22:
+    errors.append("canonical counts must report 22 machine-aligned formulas")
+if counts.get("machine_structured_numeration_sections") != 1:
+    errors.append("canonical counts must report one machine-structured numeration section")
+if counts.get("machine_transcribed_prayer_texts") != 1:
+    errors.append("canonical counts must report one machine-transcribed prayer")
+
+num = numeration[0] if numeration else {}
+if num.get("machine_structure_complete") is not True:
+    errors.append("numeration machine structure not complete")
+num_layer = num.get("layers", {}).get("structured_numeration", {})
+if num_layer.get("status") != "machine_structured_candidate" or num_layer.get("human_verified") is not False:
+    errors.append("numeration structured layer status invalid")
+if len(num_layer.get("primary_cardinals", [])) < 30:
+    errors.append("numeration canonical layer lost primary cardinal inventory")
+if len(num_layer.get("multiplicatives", [])) != 10:
+    errors.append("numeration canonical layer lost multiplicative inventory")
+if len(num_layer.get("ordinals", [])) != 5:
+    errors.append("numeration canonical layer lost ordinal inventory")
+
+expected_page = {}
+for i in range(1, 23):
+    expected_page[i] = 371 if i <= 4 else 372 if i <= 11 else 373 if i <= 18 else 374
+for item in formulas:
+    n = item["sequence"]
+    pp = item.get("printed_page")
+    pdf = item.get("pdf_page")
+    if pp != expected_page[n]:
+        errors.append(f"formula {n}: printed page {pp} != {expected_page[n]}")
+    if pdf != pp - 290:
+        errors.append(f"formula {n}: pdf/printed page mapping inconsistent")
+    if item.get("machine_alignment_complete") is not True:
+        errors.append(f"formula {n}: machine alignment is not complete")
+    if item.get("human_alignment_verified") is not False:
+        errors.append(f"formula {n}: human alignment verification fabricated")
+    if item.get("human_verified") is not False:
+        errors.append(f"formula {n}: human verification fabricated")
+    visual = item.get("layers", {}).get("visual_collation", {})
+    if visual.get("status") != "confirmed_ai_assisted" or visual.get("human_verified") is not False:
+        errors.append(f"formula {n}: visual collation status invalid")
+    alignment = item.get("layers", {}).get("parallel_alignment", {})
+    if alignment.get("status") != "aligned_ai_assisted" or alignment.get("human_verified") is not False:
+        errors.append(f"formula {n}: parallel alignment status invalid")
+    texts = alignment.get("texts", {})
+    if set(texts) != {"la", "de", "und"} or any(not str(texts.get(k, "")).strip() for k in ("la", "de", "und")):
+        errors.append(f"formula {n}: missing aligned language field")
+    confidence = alignment.get("confidence", {})
+    if set(confidence) != {"la", "de", "und"}:
+        errors.append(f"formula {n}: incomplete alignment confidence")
+    if confidence.get("und") == "low" and not alignment.get("uncertain_segments"):
+        errors.append(f"formula {n}: low-confidence Tarahumara lacks uncertainty note")
+
+prayer = prayers[0] if prayers else {}
+if prayer.get("machine_transcription_complete") is not True:
+    errors.append("prayer machine transcription not complete")
+prayer_layer = prayer.get("layers", {}).get("visual_transcription", {})
+if prayer_layer.get("status") != "ai_visual_transcription_candidate" or prayer_layer.get("human_verified") is not False:
+    errors.append("prayer visual transcription status invalid")
+if not (prayer_layer.get("text") or "").strip().endswith("Amen."):
+    errors.append("prayer visual transcription missing or incomplete")
+if not prayer_layer.get("uncertain_segments"):
+    errors.append("prayer visual transcription lost uncertainty inventory")
+
+mapping = data.get("facsimile_mapping", {}).get("mapping", [])
+expected_mapping = [(79,369),(80,370),(81,371),(82,372),(83,373),(84,374)]
+if [(x.get("pdf_page"), x.get("printed_page")) for x in mapping] != expected_mapping:
+    errors.append("facsimile page mapping differs from verified 79–84 / 369–374 sequence")
+
+if errors:
+    print("\n".join("ERROR: " + e for e in errors))
+    sys.exit(1)
+print("OK: canonical appendix layer has structured numeration, 22 la/de/und AI-aligned formulas, AI-transcribed prayer and exact facsimile mapping")

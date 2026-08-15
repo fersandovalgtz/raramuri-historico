@@ -3,9 +3,11 @@ name: pages
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, rhd-1.0-specification]
     paths:
       - 'public/**'
+      - 'data/iiif/steffel-1809-pages-png72.tar.gz'
+      - '.github/workflows/pages.yml'
 
 permissions:
   contents: read
@@ -18,13 +20,52 @@ concurrency:
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Materialize and verify exact-witness Steffel PNG72 package on RHD branch
+        if: github.ref == 'refs/heads/rhd-1.0-specification'
+        run: |
+          set -euo pipefail
+          payload=data/iiif/steffel-1809-pages-png72.tar.gz
+          tar -tzf "$payload" >/dev/null
+          mkdir -p public/iiif/steffel-1809/images
+          rm -f public/iiif/steffel-1809/images/*.png
+          tar -xzf "$payload" -C public/iiif/steffel-1809/images
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root=Path('public/iiif/steffel-1809/images')
+          inv=json.loads(Path('data/iiif/steffel-1809-published-png72-assets.json').read_text(encoding='utf-8'))
+          assets=inv['assets']
+          assert len(assets)==84
+          actual=sorted(root.glob('*.png'))
+          assert len(actual)==84, len(actual)
+          for item in assets:
+              p=root/item['filename']
+              assert p.exists(), item['filename']
+              b=p.read_bytes()
+              assert len(b)==item['bytes'], (item['filename'], len(b), item['bytes'])
+              assert hashlib.sha256(b).hexdigest()==item['sha256'], item['filename']
+          print('OK: 84/84 PNG publication assets match versioned byte-level inventory')
+          PY
+
+      - name: Enforce complete Steffel IIIF publication package on RHD branch
+        if: github.ref == 'refs/heads/rhd-1.0-specification'
+        run: |
+          set -euo pipefail
+          test -f public/iiif/steffel-1809/manifest.json
+          test -f public/iiif/steffel-1809/canvas-map.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          manifest=json.loads(Path('public/iiif/steffel-1809/manifest.json').read_text(encoding='utf-8'))
+          assert len(manifest.get('items', [])) == 84, len(manifest.get('items', []))
+          print('OK: complete Steffel IIIF package: 84 exact-inventory PNG + 84 Canvases')
+          PY
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static site

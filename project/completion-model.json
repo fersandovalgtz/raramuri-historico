@@ -1,0 +1,77 @@
+{
+  "model_id": "RHD-STEFFEL-COMPLETION-1.0",
+  "date": "2026-08-15",
+  "scope": "Scientific completion of Steffel 1791/1809 as the RHD reference implementation reusable for subsequent historical sources.",
+  "interpretation": "Weighted project-completion measure, not linguistic accuracy and not a human-validation rate.",
+  "weighted_completion_percent": 67.5,
+  "weighted_remaining_percent": 32.5,
+  "dimensions": [
+    {
+      "id": "documentary_coverage",
+      "label": "Documentary coverage, segmentation and diplomatic transcription",
+      "weight": 30,
+      "assessed_percent": 100,
+      "evidence": ["data/corpus_inventory.json", "data/entries.csv", "data/diplomatic/"],
+      "completion_gate": "All candidate boundaries disposed and all active dictionary articles diplomatically transcribed."
+    },
+    {
+      "id": "independent_human_validation",
+      "label": "Independent human validation and critical layer",
+      "weight": 20,
+      "assessed_percent": 25,
+      "evidence": ["data/validation/validation_progress.json", "data/validation/human_review_priority.json", "data/validation/HUMAN_REVIEW_PROTOCOL.md", "scripts/generate_human_review_packets.py"],
+      "note": "25% represents review infrastructure/readiness, not completed human adjudications; actual independent human-reviewed records remain 0/482 at this cut.",
+      "completion_gate": "Declared human-review universe adjudicated or explicitly retained unresolved, with critical readings represented non-destructively."
+    },
+    {
+      "id": "reusable_rhd_architecture",
+      "label": "Reusable RHD 1.0 architecture and provenance",
+      "weight": 15,
+      "assessed_percent": 100,
+      "evidence": ["docs/RHD_1_0_SPECIFICATION.md", "schemas/rhd-entry-1.0.schema.json", "source_profiles/steffel-1809.source.json", "source_profiles/_template.source.json", "scripts/generate_rhd_canonical.py"],
+      "completion_gate": "Canonical model, source profile boundary, provenance and tests implemented without destructive migration."
+    },
+    {
+      "id": "interoperability",
+      "label": "TEI/TEI Lex-0/IIIF interoperability",
+      "weight": 10,
+      "assessed_percent": 80,
+      "evidence": ["scripts/generate_rhd_tei.py", "tests/validate_rhd_tei.py", ".github/workflows/rhd-canonical.yml", "docs/IIIF_READINESS.md"],
+      "note": "The strict Lex-0 projection validates in CI against the official TEI Lex-0 0.9.5 RNG. Remaining interoperability work is primarily real-facsimile IIIF publication and region-level linking.",
+      "completion_gate": "Strict Lex-0 projection validates against official release schema and real facsimile is exposed through stable IIIF-compatible identifiers/images."
+    },
+    {
+      "id": "diachronic_research",
+      "label": "Diachronic and comparative research",
+      "weight": 10,
+      "assessed_percent": 60,
+      "evidence": ["data/research/diachronic_semantic_context_queue.json", "data/research/internal_concordance.json", "RESEARCH_SNAPSHOT.md"],
+      "completion_gate": "Priority relations receive appropriate human semantic/comparative adjudication; candidates and negative controls remain traceable."
+    },
+    {
+      "id": "appendices_parallel_text",
+      "label": "Numeration appendix and trilingual language sample",
+      "weight": 5,
+      "assessed_percent": 30,
+      "evidence": ["scripts/generate_appendix_candidates.py", "tests/validate_appendix_candidates.py"],
+      "note": "OCR-level structure now exists for the numeration appendix, 22 formula blocks and the separate Lord's Prayer; facsimile collation and canonical/TEI integration remain pending.",
+      "completion_gate": "Appendices facsimile-collated diplomatically, structurally encoded and integrated into canonical/TEI projections."
+    },
+    {
+      "id": "scientific_release",
+      "label": "Scientific release, archive and citability",
+      "weight": 5,
+      "assessed_percent": 40,
+      "evidence": ["CITATION.cff", "DATA_LICENSE.md", "PROVENANCE.md", "CHANGELOG.md"],
+      "completion_gate": "Stable RHD 1.0 release, DOI/deposit/archive, integrity manifest and explicit conformity statement published."
+    },
+    {
+      "id": "second_source_pilot",
+      "label": "End-to-end replication on a second historical source",
+      "weight": 5,
+      "assessed_percent": 0,
+      "evidence": ["source_profiles/_template.source.json"],
+      "completion_gate": "A real second source is ingested end-to-end without fundamental redesign of the RHD core."
+    }
+  ]
+}

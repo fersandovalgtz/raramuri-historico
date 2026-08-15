@@ -1,0 +1,157 @@
+{
+  "profile_version": "0.4.0-full-witness-industrialization",
+  "rhd_core_version": "1.0-draft",
+  "source_id": "RHD-SRC-TELLECHEA-1826",
+  "source_code": "TELLECHEA-1826",
+  "collection_id": "RHD-COLL-TELLECHEA-1826",
+  "title": "Compendio gramatical para la inteligencia del idioma tarahumar",
+  "creator": "Miguel Joaquín Tellechea",
+  "compiled_or_dated": null,
+  "published": 1826,
+  "publication_place": "México",
+  "publisher_printer": "Imprenta de la Federación en Palacio",
+  "project_role": "second_source_replicability_pilot",
+  "edition_scope": "machine_only_scholarly_edition",
+  "human_adjudication_required": false,
+  "pilot_status": "full_witness_documentary_traversal_complete",
+  "selection_rationale": [
+    "historical Tarahumara source published only 17 years after Steffel",
+    "structurally different from Steffel: grammar plus long Spanish–Tarahumara parallel religious/discourse material rather than a bidirectional dictionary",
+    "public-domain 1826 publication with a reproducible public PDF fixed by SHA-256",
+    "strong stress test for whether RHD core entities and provenance remain reusable beyond dictionary articles"
+  ],
+  "public_references": [
+    {
+      "provider": "Dirección General de Bibliotecas, Secretaría de Cultura, México",
+      "uri": "https://dgb.cultura.gob.mx/recursos/documentos/lenguasindigenas/Compendiogramaticalpara.pdf",
+      "access_note": "Canonical pilot witness: public PDF independently fetched in GitHub Actions and fixed by SHA-256."
+    },
+    {
+      "provider": "Google Play Books",
+      "uri": "https://play.google.com/store/books/details?id=b9BTAAAAcAAJ",
+      "access_note": "Independent public bibliographic/digital reference; not substituted for the checksum-fixed DGB witness."
+    },
+    {
+      "provider": "Biblioteca Virtual de la Filología Española",
+      "uri": "https://www.bvfe.es/en/directorio-bibliografico-de-gramaticas-tratados-gramaticales-historia-de-la-lengua/20946-compendio-gramatical-para-la-inteligencia-del-idioma-tarahumar-oraciones-doctrina-cristiana-platicas-y-otras-cosas-necesarias-para-la-recta-administracion-de-los-santos-sacramentos-en-el-mismo-idioma.html",
+      "access_note": "Bibliographic control record; not automatically assumed to be the same digital witness."
+    }
+  ],
+  "witness": {
+    "witness_id": "RHD-WIT-TELLECHEA-1826-DGB",
+    "description": "Public DGB/Secretaría de Cultura PDF fixed by SHA-256 for the machine-only RHD second-source pilot.",
+    "retrieval_uri": "https://dgb.cultura.gob.mx/recursos/documentos/lenguasindigenas/Compendiogramaticalpara.pdf",
+    "facsimile_pages": 205,
+    "checksums_manifest": "sources/tellechea-1826-witness.json",
+    "sha256": "c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc",
+    "bytes": 95088307,
+    "ocr_source": null,
+    "identity_status": "checksum_fixed_public_witness",
+    "iiif_manifest": null
+  },
+  "languages": [
+    {
+      "code": "es",
+      "role": "source_metalanguage_and_parallel_text"
+    },
+    {
+      "code": "und",
+      "label": "historical Tarahumara as documented by Tellechea",
+      "role": "historical_language",
+      "code_note": "No modern ISO variety is assigned automatically."
+    },
+    {
+      "code": "la",
+      "role": "grammatical_or_ecclesiastical_metalanguage_where_present"
+    }
+  ],
+  "document_genres_expected": [
+    "grammar",
+    "paradigm_or_example",
+    "parallel_prayer",
+    "parallel_doctrinal_text",
+    "parallel_sermon_or_discourse",
+    "sacramental_instruction",
+    "paratext"
+  ],
+  "record_identifier": {
+    "pattern": "RHD-T1826-#####",
+    "persistent": true,
+    "recyclable": false
+  },
+  "segmentation": {
+    "strategy": "hierarchical_document_structure_then_machine_parallel_block_segmentation",
+    "direction_aware": false,
+    "column_aware": true,
+    "preserve_rejected_candidates": true,
+    "human_review_required": false
+  },
+  "transcription": {
+    "method": "machine extraction plus independent machine visual OCR against checksum-fixed witness",
+    "human_verification_implied": false,
+    "uncertainty_must_be_explicit": true,
+    "terminal_states_may_include_unresolved": true
+  },
+  "validation": {
+    "policy": "machine_only",
+    "human_review_required": false,
+    "rule": "No machine transcription or alignment may be promoted to human_verified; unresolved historical glyphs remain explicit."
+  },
+  "normalization": {
+    "purpose": "search_and_explicit_comparison_only",
+    "must_preserve_diplomatic_source": true,
+    "must_record_method": true,
+    "must_not_imply": [
+      "phonological_identity",
+      "morpheme_identity",
+      "cognacy",
+      "semantic_identity",
+      "historical_continuity"
+    ]
+  },
+  "minimal_pilot_outputs": {
+    "generator": "scripts/generate_tellechea_pilot.py",
+    "validator": "tests/validate_tellechea_pilot.py",
+    "canonical_jsonl": "data/pilot/tellechea-1826.minimal-pilot.jsonl",
+    "tei": "data/pilot/tellechea-1826.minimal-pilot.tei.xml",
+    "diagnostics": "data/pilot/tellechea-1826.minimal-pilot.diagnostics.json",
+    "record_count": 2,
+    "grammar_record": "RHD-T1826-00001",
+    "parallel_layout_record": "RHD-T1826-00002",
+    "grammar_locator": {"pdf_page": 32, "printed_page": 6},
+    "parallel_locator": {"pdf_page": 75, "printed_page": 49},
+    "human_validation_claimed": false
+  },
+  "full_witness_pilot_outputs": {
+    "generator": "scripts/generate_tellechea_full_pilot.py",
+    "validator": "tests/validate_tellechea_full_pilot.py",
+    "canonical_jsonl": "data/pilot/tellechea-1826.full-witness.jsonl",
+    "tei": "data/pilot/tellechea-1826.full-witness.tei.xml",
+    "diagnostics": "data/pilot/tellechea-1826.full-witness.diagnostics.json",
+    "record_count": 205,
+    "coverage": "205_of_205_pdf_pages",
+    "generated_in_ci": true,
+    "artifact_name": "tellechea-1826-full-witness-rhd-pilot",
+    "first_successful_run_id": 31887068250,
+    "first_successful_artifact_id": 9247575047,
+    "first_successful_artifact_sha256": "fb0fbf4b64c9978e97212951778e6843c21b3d64e7308e37b7dfbab34a6d13f8",
+    "rhd_core_changes_required": 0,
+    "lex0_entries_generated": 0,
+    "human_validation_claimed": false
+  },
+  "pilot_success_criteria": [
+    "exact witness is checksum-fixed",
+    "document hierarchy is represented without changing RHD core identity/provenance concepts",
+    "at least one grammar/example section and one Spanish–Tarahumara parallel section complete the full machine-only pipeline",
+    "complete declared 205-page witness traverses the documentary pipeline as persistent RHD units",
+    "parallel text is exported without coercing it into Lex-0 dictionary entries",
+    "uncertainty and machine responsibility remain explicit",
+    "source-specific rules reside in this profile or a source adapter rather than in the universal core",
+    "CI demonstrates reproducible generation from source evidence to canonical/TEI outputs"
+  ],
+  "completion_credit": {
+    "counts_toward_second_source_end_to_end_gate": true,
+    "completes_second_source_end_to_end_gate": true,
+    "reason": "The checksum-fixed 205-page DGB witness now traverses the declared RHD documentary pipeline in CI: all 205 pages receive stable canonical documentary units, the output validates against the same RHD JSON Schema, a complete documentary TEI is generated, source-specific behavior remains in the adapter/profile, Lex-0 fabrication is zero, universal-core redesign is zero, and no human validation is claimed. This closes the RHD industrialization gate; it does not claim a human-adjudicated critical edition of Tellechea."
+  }
+}

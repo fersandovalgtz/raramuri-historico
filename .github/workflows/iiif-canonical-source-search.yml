@@ -1,0 +1,40 @@
+name: canonical-IIIF-source-search
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [rhd-1.0-specification]
+    paths:
+      - 'scripts/probe_steffel_public_source.py'
+      - 'scripts/probe_steffel_google_books_candidate.py'
+      - 'data/iiif/steffel-1809-all84-page-fingerprints.json'
+      - '.github/workflows/iiif-canonical-source-search.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image-sequence probe dependencies
+        run: |
+          python3 -m pip install --disable-pip-version-check pillow pypdf
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+      - name: Diagnose mutable Repositorio de Lenguas Dropbox target
+        run: python3 scripts/probe_steffel_public_source.py /tmp/steffel-dropbox-current.pdf /tmp/steffel-dropbox-current.json
+      - name: Probe free Google Books 1809 volume for complete canonical sequence
+        run: python3 scripts/probe_steffel_google_books_candidate.py
+      - name: Upload source-search reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: steffel-canonical-source-search
+          path: |
+            /tmp/steffel-dropbox-current.json
+            /tmp/steffel-google-books-candidate.json
+          if-no-files-found: error

@@ -1,0 +1,7 @@
+# Recuperación del binario canónico para publicación IIIF
+
+El 15 de agosto de 2026 se recuperó nuevamente desde la biblioteca de trabajo el archivo `Raramuri - tarahumarisches_steffel1809_o(5).pdf`. Antes de cualquier derivación de publicación se verificaron tres invariantes: **6,251,443 bytes**, **84 páginas** y SHA-256 **`4ccc94aaff1fcc948341a103255f2c3f52dd7b8ca488b6dc79a921b3c9d6244f`**. Por tanto, el archivo recuperado corresponde exactamente al witness canónico fijado por RHD.
+
+La reconstrucción PNG72 confirmó que la rasterización y las dimensiones de página son reproducibles. Sin embargo, un PNG puede cambiar de hash binario entre versiones del codificador aun conservando el mismo contenido raster, por diferencias de compresión/metadatos. En consecuencia, el inventario de distribución debe corresponder a los **binarios concretos que efectivamente se publiquen**, y no se reutilizarán hashes de una codificación anterior si esos bytes no son los que quedarán en el endpoint público.
+
+Esto no altera la identidad del witness histórico, que continúa determinada por el checksum del PDF fuente. El hash de cada PNG cumple una función distinta: integridad del derivado de distribución publicado.

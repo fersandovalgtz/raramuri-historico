@@ -1,0 +1,59 @@
+{
+  "map_id": "RHD-S1809-APP-FACSIMILE-MAP-01",
+  "source_pdf": "Raramuri - tarahumarisches_steffel1809_o(5).pdf",
+  "verification_method": "ai_visual_collation",
+  "human_verified": false,
+  "date": "2026-08-15",
+  "mapping": [
+    {
+      "pdf_page": 79,
+      "printed_page": 369,
+      "section": "Anhang: Von der tarahumarischen Art zu zählen",
+      "visual_status": "confirmed_ai_assisted",
+      "notes": "Printed page number 369 visible; appendix heading and first counting system visible."
+    },
+    {
+      "pdf_page": 80,
+      "printed_page": 370,
+      "section": "Anhang: counting systems continued",
+      "visual_status": "confirmed_ai_assisted",
+      "notes": "Continuation of counting systems, gesture/counting discussion, multiplicatives and ordinals."
+    },
+    {
+      "pdf_page": 81,
+      "printed_page": 371,
+      "section": "Tarahumarische Sprachprobe, formulas 1–4",
+      "visual_status": "confirmed_ai_assisted",
+      "notes": "Heading 'Tarahumarische Sprachprobe' visible. Introductory paragraph explicitly states Latin, German and Tarahumara presentation. Formula sequence 1–4 visible."
+    },
+    {
+      "pdf_page": 82,
+      "printed_page": 372,
+      "section": "Tarahumarische Sprachprobe, formulas 5–11",
+      "visual_status": "confirmed_ai_assisted",
+      "notes": "Formula sequence 5–11 visible."
+    },
+    {
+      "pdf_page": 83,
+      "printed_page": 373,
+      "section": "Tarahumarische Sprachprobe, formulas 12–18",
+      "visual_status": "confirmed_ai_assisted",
+      "notes": "Formula sequence 12–18 visible."
+    },
+    {
+      "pdf_page": 84,
+      "printed_page": 374,
+      "section": "Tarahumarische Sprachprobe, formulas 19–22 and Das Gebet des Herrn",
+      "visual_status": "confirmed_ai_assisted",
+      "notes": "Formula sequence 19–22 visible, followed by separate heading 'Das Gebet des Herrn' and prayer text."
+    }
+  ],
+  "invariants": {
+    "pdf_page_offset_rule": "printed_page = pdf_page + 290 for pages 79–84",
+    "formula_count_visible": 22,
+    "prayer_is_separate_from_numbered_formulas": true,
+    "appendix_start_confirmed": true,
+    "language_sample_start_confirmed": true
+  },
+  "epistemic_note": "This page mapping and structural sequence were visually collated by AI against rendered facsimile pages. It does not constitute human verification. Individual lexical readings may still carry uncertainty and must retain source-image traceability."
+}

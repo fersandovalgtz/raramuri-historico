@@ -1,0 +1,161 @@
+name: RHD 1.0 machine-only canonical, TEI, IIIF, appendices and release integrity
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'schemas/**'
+      - 'source_profiles/**'
+      - 'sources/**'
+      - 'data/**'
+      - 'docs/**'
+      - 'project/completion-model-machine-only.json'
+      - '.github/workflows/rhd-canonical.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'schemas/**'
+      - 'source_profiles/**'
+      - 'sources/**'
+      - 'data/**'
+      - 'docs/**'
+      - 'project/completion-model-machine-only.json'
+      - '.github/workflows/rhd-canonical.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  canonical:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install validators and machine OCR stack
+        run: |
+          python3 -m pip install --disable-pip-version-check jsonschema pillow pypdf
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jing poppler-utils tesseract-ocr tesseract-ocr-spa
+
+      - name: Diagnose mutable public Steffel source against canonical checksum
+        run: python3 scripts/probe_steffel_public_source.py
+      - name: Validate reusable source profiles enforce machine-only policy
+        run: python3 tests/validate_source_profiles_machine_only.py
+
+      - name: Verify checksum-fixed Tellechea 1826 witness and characterize text layer
+        run: python3 scripts/probe_tellechea_1826_witness.py
+      - name: Generate Tellechea minimal end-to-end documentary pilot
+        run: python3 scripts/generate_tellechea_pilot.py
+      - name: Validate Tellechea minimal pilot against RHD core and TEI safeguards
+        run: python3 tests/validate_tellechea_pilot.py
+      - name: Upload reproducible Tellechea minimal pilot artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: tellechea-1826-minimal-rhd-pilot
+          path: |
+            data/pilot/tellechea-1826.minimal-pilot.jsonl
+            data/pilot/tellechea-1826.minimal-pilot.tei.xml
+            data/pilot/tellechea-1826.minimal-pilot.diagnostics.json
+          if-no-files-found: error
+
+      - name: Generate complete 205-page Tellechea industrialization traversal
+        run: python3 scripts/generate_tellechea_full_pilot.py
+      - name: Validate complete Tellechea witness against RHD core and TEI safeguards
+        run: python3 tests/validate_tellechea_full_pilot.py
+      - name: Upload complete Tellechea industrialization artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: tellechea-1826-full-witness-rhd-pilot
+          path: |
+            data/pilot/tellechea-1826.full-witness.jsonl
+            data/pilot/tellechea-1826.full-witness.tei.xml
+            data/pilot/tellechea-1826.full-witness.diagnostics.json
+          if-no-files-found: error
+
+      - name: Generate lexical canonical projection
+        run: python3 scripts/generate_rhd_canonical.py
+      - name: Validate lexical canonical invariants and JSON Schema
+        run: python3 tests/validate_rhd_canonical.py
+
+      - name: Generate appendix OCR candidates
+        run: python3 scripts/generate_appendix_candidates.py
+      - name: Validate appendix OCR candidates and epistemic safeguards
+        run: python3 tests/validate_appendix_candidates.py
+      - name: Validate AI visual alignment for all 22 formulas
+        run: python3 tests/validate_trilingual_visual_alignment.py
+      - name: Validate AI visual numeration and prayer layers
+        run: python3 tests/validate_appendix_visual_transcriptions.py
+      - name: Generate terminal appendix uncertainty register
+        run: python3 scripts/generate_appendix_terminal_uncertainty.py
+      - name: Validate terminal appendix uncertainty policy
+        run: python3 tests/validate_appendix_terminal_uncertainty.py
+      - name: Generate canonical appendix layer
+        run: python3 scripts/generate_appendix_canonical.py
+      - name: Validate canonical appendix layer and machine alignment
+        run: python3 tests/validate_appendix_canonical.py
+      - name: Generate TEI supplement for machine-processed appendices
+        run: python3 scripts/generate_appendix_tei.py
+      - name: Validate appendix TEI supplement
+        run: python3 tests/validate_appendix_tei.py
+
+      - name: Generate documentary-only diachronic machine scores
+        run: python3 scripts/generate_diachronic_machine_scores.py
+      - name: Validate diachronic scoring non-claims
+        run: python3 tests/validate_diachronic_machine_scores.py
+      - name: Calibrate diachronic graphemic signal against deterministic null controls
+        run: python3 scripts/calibrate_diachronic_machine_scores.py
+      - name: Validate diachronic calibration and epistemic guardrails
+        run: python3 tests/validate_diachronic_machine_calibration.py
+      - name: Generate publishable machine-only diachronic report
+        run: python3 scripts/generate_diachronic_machine_report.py
+      - name: Validate diachronic report coverage and non-claims
+        run: python3 tests/validate_diachronic_machine_report.py
+
+      - name: Generate rich RHD TEI and strict Lex-0 projection
+        run: python3 scripts/generate_rhd_tei.py
+      - name: Validate RHD/TEI separation and appendix integration
+        run: python3 tests/validate_rhd_tei.py
+      - name: Validate strict projection against official TEI Lex-0 0.9.5 RNG
+        run: |
+          curl --retry 3 --retry-all-errors -fsSL https://lex-0.org/schema/lex-0.rng -o /tmp/lex-0.rng
+          jing /tmp/lex-0.rng data/tei/rhd-steffel-1809-lex0.xml
+
+      - name: Generate exact-witness static IIIF preparation
+        run: python3 scripts/generate_steffel_static_iiif.py
+      - name: Validate 84-Canvas structure and 1965 page-level RHD links
+        run: python3 tests/validate_steffel_static_iiif_preparation.py
+      - name: Generate GitHub Pages IIIF publication candidate
+        run: python3 scripts/generate_steffel_public_iiif_candidate.py
+      - name: Validate PNG72 public candidate and 1965 public Canvas links
+        run: python3 tests/validate_steffel_public_iiif_candidate.py
+      - name: Syntax-check deterministic public IIIF verifier
+        run: python3 -m py_compile scripts/verify_published_steffel_iiif.py
+
+      # Release integrity is deterministic and must finish before any external diagnostic.
+      - name: Generate deterministic release integrity manifest
+        run: python3 scripts/generate_release_manifest.py
+      - name: Validate release integrity manifest
+        run: python3 tests/validate_release_manifest.py
+
+      # Publication diagnostics are intentionally non-blocking until the exact-witness
+      # page assets are actually deployed. When this step becomes green, it is evidence
+      # for closing the public IIIF publication gate.
+      - name: Verify published canonical Steffel IIIF endpoint if available
+        continue-on-error: true
+        run: timeout 180s python3 scripts/verify_published_steffel_iiif.py --timeout 15
+
+      # External witnesses are diagnostics only. They cannot delay or invalidate the
+      # checksum-fixed scholarly products above.
+      - name: Validate John Carter Brown Internet Archive item as noncanonical IIIF witness
+        continue-on-error: true
+        run: |
+          timeout 120s curl --retry 2 --retry-all-errors -fsSL https://iiif.archive.org/iiif/tarahumarischesw00stef/manifest.json -o /tmp/steffel-iiif-manifest.json
+          timeout 120s python3 scripts/validate_external_iiif_witness.py /tmp/steffel-iiif-manifest.json
+      - name: Probe Getty Internet Archive Steffel IIIF candidate
+        continue-on-error: true
+        run: timeout 120s python3 scripts/probe_steffel_iiif_candidate.py https://iiif.archive.org/iiif/gri_000133125012248650/manifest.json
