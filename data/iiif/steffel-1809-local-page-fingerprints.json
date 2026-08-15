@@ -1,0 +1,16 @@
+{
+  "fingerprint_set_id": "RHD-S1809-IIIF-LOCAL-FINGERPRINTS-01",
+  "source": "project working PDF: Raramuri - tarahumarisches_steffel1809_o(5).pdf",
+  "method": "dhash256_autocrop_v1",
+  "human_verified": false,
+  "generation_note": "Fingerprints computed from project PDF pages after grayscale conversion, automatic dark-content bounding-box crop with 2% padding, resize to 17x16, and 256 horizontal adjacent-pixel comparisons. They are for cross-witness page identity testing, not textual validation.",
+  "pages": [
+    {"pdf_page": 79, "printed_page": 369, "dhash256": "8169b2720b53072d2e2e3c563c7b3c6723572a5a2a726a7257566f565e7a514a"},
+    {"pdf_page": 80, "printed_page": 370, "dhash256": "66982532350d0d1a292e254e2d261125292d2129392f3b3f096e296f397b1371"},
+    {"pdf_page": 81, "printed_page": 371, "dhash256": "23614d1d097f176b49656c5b2cb8296d236311ab2b9729d726ed28f539b000c1"},
+    {"pdf_page": 82, "printed_page": 372, "dhash256": "62990e6d1da51b9511632cd70ad5166d16e532b9132f3bce324d330115d830e9"},
+    {"pdf_page": 83, "printed_page": 373, "dhash256": "116916f404b8075f1d292cb526b314f42e653db70db30579255b18d33c5b3369"},
+    {"pdf_page": 84, "printed_page": 374, "dhash256": "93b733e6254d374b3ca71da72d992ee92770251b5a674aab589900f0480108a9"}
+  ],
+  "epistemic_note": "The local PDF page-to-printed-page mapping was established by AI visual collation. Perceptual fingerprints provide a reproducible machine test for matching an external IIIF witness to that already-collated sequence."
+}
