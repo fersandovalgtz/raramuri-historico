@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 """Compare an external Steffel IIIF candidate with local appendix fingerprints.
 
-A mismatch is a valid diagnostic result, not a CI failure. Only malformed/unreachable IIIF
-is treated as an error. A low distance is a candidate identity signal, not final proof.
+A mismatch is a valid diagnostic result, not a CI failure. Individual Canvas image
+requests that the remote service rejects are skipped and reported. Only an unusable
+manifest or insufficient consecutive image evidence is a hard error. A low distance is
+a candidate identity signal, not final proof.
 """
 
 from io import BytesIO
 from pathlib import Path
 import json
 import sys
+import urllib.error
 import urllib.request
 
 from PIL import Image
@@ -28,21 +31,33 @@ def label_text(canvas):
     return " | ".join(str(x) for x in vals)
 
 
-def image_url(canvas):
+def image_candidates(canvas):
+    """Return conservative image URL alternatives without assuming one IIIF Image version."""
     try:
         body = canvas["items"][0]["items"][0]["body"]
         if isinstance(body, list):
             body = body[0]
+        urls = []
         services = body.get("service", []) if isinstance(body, dict) else []
         if isinstance(services, dict):
             services = [services]
         for service in services:
             sid = service.get("id") or service.get("@id")
             if sid:
-                return sid.removesuffix("/info.json").rstrip("/") + "/full/800,/0/default.jpg"
-        return body.get("id") if isinstance(body, dict) else None
+                base = sid.removesuffix("/info.json").rstrip("/")
+                # Image API 2/3 servers differ on accepted size syntax.
+                urls.extend([
+                    base + "/full/800,/0/default.jpg",
+                    base + "/full/800/0/default.jpg",
+                    base + "/full/max/0/default.jpg",
+                ])
+        bid = body.get("id") if isinstance(body, dict) else None
+        if bid:
+            urls.append(bid)
+        # preserve order while removing duplicates
+        return list(dict.fromkeys(urls))
     except (KeyError, IndexError, TypeError):
-        return None
+        return []
 
 
 def dhash256(image):
@@ -69,12 +84,18 @@ def fetch_json(url):
         return json.loads(r.read().decode("utf-8"))
 
 
-def fetch_hash(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Raramuri-Historico-Digital/1.0 iiif-probe"})
-    with urllib.request.urlopen(req, timeout=45) as r:
-        raw = r.read()
-    with Image.open(BytesIO(raw)) as image:
-        return dhash256(image)
+def fetch_hash(urls):
+    errors = []
+    for url in urls:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Raramuri-Historico-Digital/1.0 iiif-probe"})
+            with urllib.request.urlopen(req, timeout=45) as r:
+                raw = r.read()
+            with Image.open(BytesIO(raw)) as image:
+                return dhash256(image), url, errors
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError) as exc:
+            errors.append(f"{url} -> {type(exc).__name__}: {exc}")
+    return None, None, errors
 
 
 def hamming(a, b):
@@ -90,30 +111,37 @@ def main():
 
     expected = json.loads(FINGERPRINTS.read_text(encoding="utf-8"))["pages"]
     # Printed 369–374 must be near the end of this volume, but full-volume scans include
-    # covers/back matter. Search the final 120 canvases without assuming an offset.
-    start = max(0, len(canvases) - 120)
-    hashes = []
-    usable = []
+    # covers/back matter. Search the final 100 canvases without assuming an offset.
+    start = max(0, len(canvases) - 100)
+    by_index = {}
+    fetch_failures = []
     for idx in range(start, len(canvases)):
-        url = image_url(canvases[idx])
-        if not url:
+        urls = image_candidates(canvases[idx])
+        if not urls:
+            fetch_failures.append({"canvas_index": idx, "label": label_text(canvases[idx]), "reason": "no_image_url"})
             continue
-        hashes.append(fetch_hash(url))
-        usable.append(idx)
+        digest, used_url, errs = fetch_hash(urls)
+        if digest is None:
+            fetch_failures.append({"canvas_index": idx, "label": label_text(canvases[idx]), "reason": "all_image_urls_failed", "attempts": errs[-3:]})
+            continue
+        by_index[idx] = {"hash": digest, "image_url": used_url}
 
     best = None
-    for j in range(0, len(hashes) - 5):
-        if usable[j+5] - usable[j] != 5:
+    for seq_start in range(start, len(canvases) - 5):
+        indexes = list(range(seq_start, seq_start + 6))
+        if not all(i in by_index for i in indexes):
             continue
-        distances = [hamming(expected[k]["dhash256"], hashes[j+k]) for k in range(6)]
+        distances = [hamming(expected[k]["dhash256"], by_index[seq_start+k]["hash"]) for k in range(6)]
         score = (sum(distances), max(distances))
         if best is None or score < best[0]:
-            best = (score, j, distances)
+            best = (score, seq_start, distances)
     if best is None:
-        raise SystemExit("ERROR: no consecutive six-Canvas window could be compared")
+        raise SystemExit(
+            "ERROR: no consecutive six-Canvas window could be compared; "
+            f"usable_images={len(by_index)}/{len(canvases)-start}; failures={len(fetch_failures)}"
+        )
 
-    (_, max_distance), j, distances = best
-    seq_start = usable[j]
+    (_, max_distance), seq_start, distances = best
     mean_distance = sum(distances) / 6
     if max_distance <= 72 and mean_distance <= 48:
         classification = "strong_visual_identity_candidate_requires_multi_anchor_confirmation"
@@ -126,6 +154,9 @@ def main():
         "manifest_url": MANIFEST_URL,
         "manifest_id": manifest.get("id"),
         "canvas_count": len(canvases),
+        "searched_canvas_range": [start, len(canvases)-1],
+        "usable_images": len(by_index),
+        "failed_image_canvases": len(fetch_failures),
         "best_window_indexes": [seq_start, seq_start + 5],
         "best_window_labels": [label_text(c) for c in canvases[seq_start:seq_start+6]],
         "dhash_distances": distances,
@@ -136,6 +167,8 @@ def main():
         "human_validation_claimed": False,
     }
     print("RHD_STEFFEL_IIIF_CANDIDATE=" + json.dumps(result, ensure_ascii=False, sort_keys=True))
+    if fetch_failures:
+        print("RHD_STEFFEL_IIIF_FETCH_FAILURES=" + json.dumps(fetch_failures[:10], ensure_ascii=False, sort_keys=True))
 
 
 if __name__ == "__main__":
