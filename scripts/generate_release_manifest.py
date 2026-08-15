@@ -32,6 +32,7 @@ FILES = [
     ("steffel_source_profile", "source_profiles/steffel-1809.source.json"),
     ("reusable_source_profile_template", "source_profiles/_template.source.json"),
     ("second_source_pilot_profile", "source_profiles/tellechea-1826.pilot-candidate.json"),
+    ("second_source_witness_identity", "sources/tellechea-1826-witness.json"),
     ("second_source_pilot_plan", "docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md"),
     ("machine_only_policy", "docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md"),
     ("machine_only_conformity", "docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md"),
@@ -60,14 +61,7 @@ def main():
         if not path.exists():
             missing.append(rel)
             continue
-        records.append(
-            {
-                "role": role,
-                "path": rel,
-                "bytes": path.stat().st_size,
-                "sha256": sha256(path),
-            }
-        )
+        records.append({"role": role, "path": rel, "bytes": path.stat().st_size, "sha256": sha256(path)})
     if missing:
         raise SystemExit("release manifest cannot be generated; missing: " + ", ".join(missing))
 
@@ -83,9 +77,15 @@ def main():
     page_map = read_json(ROOT / "data/appendices/facsimile_page_map.json")
     witness_registry = read_json(ROOT / "sources/external-references.json")
     pilot_profile = read_json(ROOT / "source_profiles/tellechea-1826.pilot-candidate.json")
+    pilot_witness = read_json(ROOT / "sources/tellechea-1826-witness.json")
 
     canonical_witnesses = [w for w in witness_registry.get("witnesses", []) if w.get("canonical_for_rhd") is not False and w.get("role") == "canonical_working_facsimile"]
     parallel_witnesses = [w for w in witness_registry.get("witnesses", []) if w.get("canonical_for_rhd") is False]
+    pilot_witness_fixed = (
+        pilot_profile.get("project_role") == "second_source_replicability_pilot"
+        and pilot_profile.get("witness", {}).get("identity_status") == "checksum_fixed_public_witness"
+        and pilot_witness.get("status") == "checksum_fixed_public_witness"
+    )
 
     manifest = {
         "manifest_id": "RHD-STEFFEL-MACHINE-ONLY-RELEASE-MANIFEST-1",
@@ -103,8 +103,15 @@ def main():
             "diachronic_documentary_candidates_scored": diachronic.get("count"),
             "canonical_working_witnesses": len(canonical_witnesses),
             "registered_noncanonical_external_witnesses": len(parallel_witnesses),
-            "second_source_pilot_candidates_selected": 1 if pilot_profile.get("project_role") == "second_source_replicability_pilot_candidate" else 0,
+            "second_source_pilot_witnesses_checksum_fixed": 1 if pilot_witness_fixed else 0,
             "second_source_pilots_end_to_end_complete": 0,
+        },
+        "second_source_pilot": {
+            "source_id": pilot_profile.get("source_id"),
+            "pilot_status": pilot_profile.get("pilot_status"),
+            "witness_id": pilot_profile.get("witness", {}).get("witness_id"),
+            "witness_sha256": pilot_profile.get("witness", {}).get("sha256"),
+            "end_to_end_completion_credit": False,
         },
         "completion": {
             "weighted_completion_percent": completion.get("weighted_completion_percent"),
