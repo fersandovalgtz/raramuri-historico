@@ -29,7 +29,10 @@ FILES = [
     ("appendix_prayer_visual", "data/appendices/prayer_visual_transcription_ai.json"),
     ("appendix_facsimile_map", "data/appendices/facsimile_page_map.json"),
     ("canonical_schema", "schemas/rhd-entry-1.0.schema.json"),
-    ("source_profile", "source_profiles/steffel-1809.source.json"),
+    ("steffel_source_profile", "source_profiles/steffel-1809.source.json"),
+    ("reusable_source_profile_template", "source_profiles/_template.source.json"),
+    ("second_source_pilot_profile", "source_profiles/tellechea-1826.pilot-candidate.json"),
+    ("second_source_pilot_plan", "docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md"),
     ("machine_only_policy", "docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md"),
     ("machine_only_conformity", "docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md"),
     ("completion_matrix", "docs/MACHINE_ONLY_COMPLETION_MATRIX.md"),
@@ -79,6 +82,7 @@ def main():
     completion = read_json(ROOT / "project/completion-model-machine-only.json")
     page_map = read_json(ROOT / "data/appendices/facsimile_page_map.json")
     witness_registry = read_json(ROOT / "sources/external-references.json")
+    pilot_profile = read_json(ROOT / "source_profiles/tellechea-1826.pilot-candidate.json")
 
     canonical_witnesses = [w for w in witness_registry.get("witnesses", []) if w.get("canonical_for_rhd") is not False and w.get("role") == "canonical_working_facsimile"]
     parallel_witnesses = [w for w in witness_registry.get("witnesses", []) if w.get("canonical_for_rhd") is False]
@@ -99,6 +103,8 @@ def main():
             "diachronic_documentary_candidates_scored": diachronic.get("count"),
             "canonical_working_witnesses": len(canonical_witnesses),
             "registered_noncanonical_external_witnesses": len(parallel_witnesses),
+            "second_source_pilot_candidates_selected": 1 if pilot_profile.get("project_role") == "second_source_replicability_pilot_candidate" else 0,
+            "second_source_pilots_end_to_end_complete": 0,
         },
         "completion": {
             "weighted_completion_percent": completion.get("weighted_completion_percent"),
