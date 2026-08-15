@@ -1,0 +1,91 @@
+{
+  "dataset_id": "RHD-S1809-NUMERATION-VISUAL-01",
+  "source": "Steffel 1809, printed pp. 369–370 / project PDF pp. 79–80",
+  "method": "ai_visual_transcription_and_structuring",
+  "status": "machine_structured_candidate",
+  "human_verified": false,
+  "scope": "Machine-readable inventory of visually legible numeral forms and the principal counting-series examples. Historical prose remains available in OCR/facsimile layers and is not silently paraphrased into linguistic claims.",
+  "primary_cardinals": [
+    {"value": 1, "form": "Pilépi", "confidence": "high"},
+    {"value": 2, "form": "Oca oder guoca", "confidence": "high"},
+    {"value": 3, "form": "Baica", "confidence": "high"},
+    {"value": 4, "form": "Naguóco", "confidence": "high"},
+    {"value": 5, "form": "Malíki", "confidence": "high"},
+    {"value": 6, "form": "Puſánik", "confidence": "high"},
+    {"value": 7, "form": "Kitſaóco", "confidence": "medium"},
+    {"value": 8, "form": "Guoſlánaguóco", "confidence": "medium"},
+    {"value": 9, "form": "Kimacóek", "confidence": "high"},
+    {"value": 10, "form": "Macóek", "confidence": "high"},
+    {"value": 11, "form": "Macóek ámoba pilépi", "confidence": "high"},
+    {"value": 12, "form": "Macóek ámoba guoca", "confidence": "high"},
+    {"value": 13, "form": "Macóek ámoba baicá", "confidence": "high"},
+    {"value": 14, "form": "Macóek ámoba naguóco", "confidence": "high"},
+    {"value": 15, "form": "Macóek ámoba malíki", "confidence": "high"},
+    {"value": 16, "form": "Macóek ámoba puſanik", "confidence": "high"},
+    {"value": 17, "form": "Macóek ámoba kitſaóco", "confidence": "medium"},
+    {"value": 18, "form": "Macóek ámoba guoſlánaguóco", "confidence": "medium"},
+    {"value": 19, "form": "Macóek ámoba kimacóek", "confidence": "high"},
+    {"value": 20, "form": "Guoſlá macóek", "confidence": "high"},
+    {"value": 21, "form": "Guoſlá macóek ámoba pilépi", "confidence": "high"},
+    {"value": 30, "form": "Baiſlá macóek", "confidence": "high"},
+    {"value": 31, "form": "Baiſlá macóek ámoba pilépi", "confidence": "high"},
+    {"value": 32, "form": "Baiſlá macóek ámoba guoca", "confidence": "high"},
+    {"value": 33, "form": "Baiſlá macóek ámoba baicá", "confidence": "high"},
+    {"value": 40, "form": "Naguóſſa macóek", "confidence": "medium"},
+    {"value": 50, "form": "Maliſſa macóek", "confidence": "high"},
+    {"value": 60, "form": "Puſaniſſa macóek", "confidence": "high"},
+    {"value": 70, "form": "Kitſaóſſa macóek", "confidence": "medium"},
+    {"value": 80, "form": "Guoſlánaguóſſa macóek", "confidence": "medium"},
+    {"value": 90, "form": "Kimacóeſſa macóek", "confidence": "medium"},
+    {"value": 100, "form": "Macóeſſa macóek", "confidence": "medium"},
+    {"value": 1000, "form": "Macóeſſa macóeſſa macóek", "confidence": "medium"}
+  ],
+  "secondary_counting_system_examples": [
+    {"value": 7, "form": "Puſáni piletáſigamec", "confidence": "medium"},
+    {"value": 8, "form": "Kitſaóco guocá taligamec", "confidence": "low"},
+    {"value": 12, "form": "Guoſſasánic", "confidence": "medium"},
+    {"value": 13, "form": "Baiſlá ſánic", "confidence": "medium"},
+    {"value": 14, "form": "Naguoſſa ſánic", "confidence": "medium"}
+  ],
+  "third_counting_system_examples": [
+    {"value": 26, "form": "Pilé tehóje", "confidence": "medium"},
+    {"value": 40, "form": "Ucá tehóje", "confidence": "medium"}
+  ],
+  "fourth_counting_system_examples": [
+    {"value": 12, "form": "Uſá ſánic", "confidence": "low"},
+    {"value": 36, "form": "Ba?guí", "confidence": "low", "uncertainty": "Middle grapheme sequence is not securely legible; question mark is an editorial uncertainty marker in this machine layer, not a source character."},
+    {"value": 48, "form": "Neſſogegui", "confidence": "low"}
+  ],
+  "multiplicatives": [
+    {"times": 1, "form": "Sinepi", "german_gloss": "Einmal", "confidence": "high"},
+    {"times": 2, "form": "Guoſſa", "german_gloss": "Zweymal", "confidence": "high"},
+    {"times": 3, "form": "Baiſſa", "german_gloss": "Dreymal", "confidence": "high"},
+    {"times": 4, "form": "Naguóſſa", "german_gloss": "Viermal", "confidence": "high"},
+    {"times": 5, "form": "Maliſſa", "german_gloss": "Fünfmal", "confidence": "high"},
+    {"times": 6, "form": "Puſaniſſa", "german_gloss": "Sechsmal", "confidence": "high"},
+    {"times": 7, "form": "Kitſaóſſa", "german_gloss": "Siebenmal", "confidence": "medium"},
+    {"times": 8, "form": "Guoſlánaguóſſa", "german_gloss": "Achtmal", "confidence": "medium"},
+    {"times": 9, "form": "Kimacóeſſa", "german_gloss": "Neunmal", "confidence": "medium"},
+    {"times": 10, "form": "Macóeſſa", "german_gloss": "Zehnmal", "confidence": "medium"}
+  ],
+  "other_number_words": [
+    {"form": "Piplé", "german_gloss": "Ein einziger", "confidence": "medium"},
+    {"form": "Guocánic, oder ocánica", "german_gloss": "Beyde", "latin_gloss": "Ambo, uterque", "confidence": "medium"}
+  ],
+  "ordinals": [
+    {"ordinal": 1, "form": "Piléraje", "german_gloss": "der erste", "confidence": "high"},
+    {"ordinal": 2, "form": "Guocáraje", "german_gloss": "der zweite", "confidence": "high"},
+    {"ordinal": 3, "form": "Baicáraje", "german_gloss": "der dritte", "confidence": "high"},
+    {"ordinal": 4, "form": "Naguoáje, navóaje", "german_gloss": "der vierte", "confidence": "medium"},
+    {"ordinal": 5, "form": "Maſiaje", "german_gloss": "der fünfte", "confidence": "medium"}
+  ],
+  "source_observations": {
+    "counting_systems_declared_by_source": 4,
+    "gesture_counting_discussed": true,
+    "finger_toe_joint_counting_discussed": true,
+    "grain_stone_tally_stick_counting_discussed": true,
+    "ordinal_marker_described_by_source": "aje",
+    "machine_linguistic_inference_performed": false
+  },
+  "uncertainty_policy": "Low-confidence forms are retained as documentary candidates. No modern-language normalization, morphological reconstruction or semantic repair is performed automatically."
+}
