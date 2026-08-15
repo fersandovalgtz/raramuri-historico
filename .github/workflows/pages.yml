@@ -6,6 +6,7 @@ on:
     branches: [main, rhd-1.0-specification]
     paths:
       - 'public/**'
+      - 'data/iiif/steffel-1809-pages-png72.tar.gz'
       - '.github/workflows/pages.yml'
 
 permissions:
@@ -26,6 +27,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Materialize exact-witness Steffel PNG72 package on RHD branch
+        if: github.ref == 'refs/heads/rhd-1.0-specification'
+        run: |
+          set -euo pipefail
+          payload=data/iiif/steffel-1809-pages-png72.tar.gz
+          echo 'fa7cb36b26907b35e37b1d1bbad762b4ea0142535cb7174a2ff299c96c0f2e12  '"$payload" | sha256sum -c -
+          mkdir -p public/iiif/steffel-1809/images
+          rm -f public/iiif/steffel-1809/images/*.png
+          tar -xzf "$payload" -C public/iiif/steffel-1809/images
 
       - name: Enforce complete Steffel IIIF publication package on RHD branch
         if: github.ref == 'refs/heads/rhd-1.0-specification'
