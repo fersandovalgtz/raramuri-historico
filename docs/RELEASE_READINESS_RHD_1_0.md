@@ -32,6 +32,7 @@ La política de alcance vigente es `docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md`. La 
 - Validación automatizada contra el RNG oficial TEI Lex-0 0.9.5 en CI.
 - Prohibición testada de fabricar `<def>` desde material no estructurado.
 - Los anexos RHD permanecen fuera de la proyección Lex-0 estricta.
+- Existe un suplemento TEI específico para anexos y texto paralelo.
 
 ### G4. Recotejo y contabilidad de incertidumbre sin intervención humana — cerrado
 
@@ -49,28 +50,26 @@ Los paquetes de revisión humana ya creados se conservan únicamente como artefa
 
 - 298 candidatos representados como relaciones derivadas.
 - Los estados permanecen `candidate`.
-- No existe promoción automática a cognación, equivalencia semántica o continuidad histórica.
-- La investigación computacional adicional puede refinar ranking y evidencia sin convertir candidatos en hechos históricos.
+- Los 298 reciben una puntuación reproducible de apoyo documental de recuperación.
+- Las pruebas impiden convertir esa puntuación en probabilidad de cognación, equivalencia semántica, etimología o continuidad histórica.
 
-## Gates todavía abiertos
-
-### G6. Apéndices y muestra paralela — parcialmente abierto
-
-Ya están cerrados:
+### G6. Apéndices y muestra paralela — cerrado para alcance machine-only
 
 - detección estructural OCR del apéndice de numeración;
-- secuencia de 22 fórmulas;
-- Padre Nuestro como objeto separado;
 - cotejo visual IA de la frontera completa del apéndice;
-- mapeo facsimilar exacto `PDF 79–84 ↔ impreso 369–374`;
+- mapeo exacto `PDF 79–84 ↔ impreso 369–374`;
+- sistema numeral estructurado computacionalmente, con confianza e incertidumbre por forma;
+- 22 fórmulas identificadas, ordenadas y alineadas por IA en latín, alemán y tarahumara;
+- 66 campos paralelos con nivel de confianza explícito;
+- dos fórmulas conservan baja confianza en el campo tarahumara sin corrección conjetural;
+- Padre Nuestro identificado como objeto independiente y transcrito visualmente por IA hasta `Amen.`;
 - capa canónica de 24 objetos: 1 numeración + 22 fórmulas + 1 oración;
-- integración de esos objetos en la TEI RHD rica sin contaminación de Lex-0.
+- suplemento TEI de anexos con responsabilidad no humana explícita;
+- integración de los objetos en la infraestructura RHD sin contaminación de Lex-0.
 
-Falta para cierre:
+Las lecturas visuales de baja confianza pueden permanecer como incertidumbre terminal; no se exige eliminarlas para cerrar este gate.
 
-- mejorar la transcripción diplomática IA de los textos del apéndice, especialmente donde el OCR es defectuoso;
-- separar/alinear de forma computacional las líneas latinas, alemanas y tarahumaras de las 22 fórmulas;
-- conservar incertidumbre de lectura a nivel de campo cuando sea necesario.
+## Gates todavía abiertos
 
 ### G7. IIIF — abierto
 
@@ -80,7 +79,13 @@ Ya está comprobado localmente el mapeo de las páginas finales del PDF de traba
 
 ### G8. Release, integridad y archivo — parcialmente abierto
 
-Ya existe un generador determinista de manifiesto de integridad de release y una prueba que recomputa hashes, tamaños y conteos. El manifiesto incluye las capas lexicales, anexos canónicos, TEI, Lex-0, políticas, esquema y perfil de fuente.
+Ya están resueltos:
+
+- generador determinista de manifiesto de integridad;
+- recomputación automática de SHA-256, tamaños y conteos;
+- incorporación al manifiesto de capas lexicales, canónicas, diacrónicas, TEI/Lex-0 y anexos visuales;
+- declaración de política machine-only;
+- declaración explícita de conformidad de implementación.
 
 Falta:
 
@@ -88,8 +93,7 @@ Falta:
 - fijar versión y commit;
 - generar release GitHub estable;
 - depositar dataset/software y obtener identificador persistente apropiado;
-- comprobar archivo de software/datos;
-- publicar declaración de conformidad y limitaciones machine-only.
+- comprobar archivo de software/datos.
 
 ### G9. Replicabilidad externa — bloqueante para declarar el método industrializado
 
@@ -104,7 +108,7 @@ La plantilla reusable existe, pero se requiere una segunda fuente histórica rea
 
 No se debe llamar al conjunto **“edición crítica humanamente validada”**. La designación correcta es **edición histórico-digital computacional / IA-asistida**.
 
-El release RHD 1.0 final podrá cerrarse sin revisión humana si G6–G9 quedan resueltos y todos los estados de incertidumbre siguen siendo explícitos, trazables y no destructivos.
+El release RHD 1.0 final podrá cerrarse sin revisión humana cuando G7–G9 queden resueltos y todos los estados de incertidumbre sigan siendo explícitos, trazables y no destructivos.
 
 ## Criterio de decisión
 
