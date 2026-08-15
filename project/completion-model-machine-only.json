@@ -73,8 +73,8 @@
       "label": "End-to-end replication on a second historical source",
       "weight": 5,
       "assessed_percent": 0,
-      "evidence": ["source_profiles/_template.source.json", "source_profiles/tellechea-1826.pilot-candidate.json", "docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md", "tests/validate_source_profiles_machine_only.py"],
-      "note": "Miguel Joaquín Tellechea's 1826 Compendio gramatical has been selected and profiled as the deliberately different second-source pilot. Candidate selection and pipeline design receive no completion credit: the dimension remains 0% until an exact witness is checksum-fixed and actually traverses the RHD pipeline.",
+      "evidence": ["source_profiles/_template.source.json", "source_profiles/tellechea-1826.pilot-candidate.json", "sources/tellechea-1826-witness.json", "docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md", "scripts/probe_tellechea_1826_witness.py", "tests/validate_source_profiles_machine_only.py"],
+      "note": "Miguel Joaquín Tellechea's 1826 Compendio gramatical is the deliberately different second-source pilot. Its public DGB PDF is now checksum-fixed as RHD-WIT-TELLECHEA-1826-DGB (205 pages; 95,088,307 bytes; SHA-256 c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc) and continuously verified in CI. The dimension deliberately remains 0% because binary acquisition alone does not demonstrate replication; credit begins only when actual Tellechea documentary units traverse extraction/OCR, segmentation, canonicalization and TEI export through the RHD core.",
       "completion_gate": "A real second historical source is ingested end-to-end without fundamental redesign of the RHD core."
     }
   ]
