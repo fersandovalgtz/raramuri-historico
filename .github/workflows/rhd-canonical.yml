@@ -125,6 +125,11 @@ jobs:
           curl --retry 3 --retry-all-errors -fsSL https://lex-0.org/schema/lex-0.rng -o /tmp/lex-0.rng
           jing /tmp/lex-0.rng data/tei/rhd-steffel-1809-lex0.xml
 
+      - name: Generate exact-witness static IIIF preparation
+        run: python3 scripts/generate_steffel_static_iiif.py
+      - name: Validate 84-Canvas structure and 1965 page-level RHD links
+        run: python3 tests/validate_steffel_static_iiif_preparation.py
+
       # Release integrity is deterministic and must finish before any external diagnostic.
       - name: Generate deterministic release integrity manifest
         run: python3 scripts/generate_release_manifest.py
