@@ -6,6 +6,7 @@
     {
       "witness_id": "RHD-S1809-WORKING-FACSIMILE",
       "role": "canonical_working_facsimile",
+      "canonical_for_rhd": true,
       "local_filename_supplied": "Raramuri - tarahumarisches_steffel1809_o(5).pdf",
       "repository_logical_path": "sources/steffel-1809-facsimile.pdf",
       "stored_in_git": false,
@@ -20,8 +21,22 @@
         "embedded_source_institution": null
       },
       "visible_front_matter_observation": "The opening/title pages identify the work and Matthäus Steffel but do not expose a clearly legible holding-institution stamp in the inspected first three PDF pages.",
-      "provenance_status": "binary_identity_fixed_source_repository_not_yet_resolved",
-      "iiif_status": "no_canonical_manifest_yet"
+      "public_retrieval_source": {
+        "discovery_page": "https://repositoriodelenguas.com/?page_id=1170",
+        "provider_label": "Repositorio de Lenguas / public Dropbox link",
+        "retrieval_uri": "https://www.dropbox.com/scl/fi/gda4acwz8ou0m68s4wwlr/1809_STEFFEL-Tarahumarisches-Worterbuch_libro.pdf?rlkey=n1kz2hoa4lfq6gq0me6rxsmgu&dl=1",
+        "linked_filename": "1809_STEFFEL-Tarahumarisches-Worterbuch_libro.pdf",
+        "machine_identity_verification": {
+          "script": "scripts/probe_steffel_public_source.py",
+          "required_sha256": "4ccc94aaff1fcc948341a103255f2c3f52dd7b8ca488b6dc79a921b3c9d6244f",
+          "required_bytes": 6251443,
+          "required_pdf_pages": 84,
+          "result": "exact_binary_identity_verified_in_ci",
+          "human_validation_claimed": false
+        }
+      },
+      "provenance_status": "binary_identity_fixed_public_source_resolved",
+      "iiif_status": "canonical_source_resolved_static_iiif_publication_pending"
     },
     {
       "witness_id": "IA-tarahumarischesw00stef",
@@ -72,7 +87,7 @@
     }
   ],
   "policy": {
-    "canonical_witness_rule": "Never substitute an external reproduction for the checksum-fixed working facsimile solely because edition/title metadata appear compatible.",
+    "canonical_witness_rule": "Never substitute an external reproduction for the checksum-fixed working facsimile solely because edition/title metadata appear compatible. A public retrieval source may be canonical only after exact binary identity is verified against the fixed checksum.",
     "iiif_rule": "A canonical IIIF mapping requires image-level identity or another reproducible machine link to the checksum-fixed working facsimile.",
     "negative_control_rule": "Known nonidentical external reproductions are retained with measured mismatch evidence so later automation cannot silently promote them to canonical witness status.",
     "human_validation_claimed": false
