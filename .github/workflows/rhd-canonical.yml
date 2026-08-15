@@ -23,6 +23,7 @@ on:
       - 'schemas/rhd-entry-1.0.schema.json'
       - 'source_profiles/**'
       - 'sources/steffel-1809-ocr-source.txt'
+      - 'sources/external-references.json'
       - 'data/entries.csv'
       - 'data/corpus_inventory.json'
       - 'data/validation/**'
@@ -61,6 +62,7 @@ on:
       - 'schemas/rhd-entry-1.0.schema.json'
       - 'source_profiles/**'
       - 'sources/steffel-1809-ocr-source.txt'
+      - 'sources/external-references.json'
       - 'data/entries.csv'
       - 'data/corpus_inventory.json'
       - 'data/validation/**'
@@ -125,7 +127,7 @@ jobs:
         run: |
           curl --retry 3 --retry-all-errors -fsSL https://lex-0.org/schema/lex-0.rng -o /tmp/lex-0.rng
           jing /tmp/lex-0.rng data/tei/rhd-steffel-1809-lex0.xml
-      - name: Fetch and validate Internet Archive IIIF witness by perceptual fingerprints
+      - name: Validate Internet Archive as noncanonical IIIF parallel witness
         run: |
           curl --retry 3 --retry-all-errors -fsSL https://iiif.archive.org/iiif/tarahumarischesw00stef/manifest.json -o /tmp/steffel-iiif-manifest.json
           python3 scripts/validate_external_iiif_witness.py /tmp/steffel-iiif-manifest.json
