@@ -1,0 +1,25 @@
+{
+  "manifest_id": "RHD-TELLECHEA-1826-WITNESS-1",
+  "source_id": "RHD-SRC-TELLECHEA-1826",
+  "witness_id": "RHD-WIT-TELLECHEA-1826-DGB",
+  "title": "Compendio gramatical para la inteligencia del idioma tarahumar",
+  "creator": "Miguel Joaquín Tellechea",
+  "publication_year": 1826,
+  "provider": "Dirección General de Bibliotecas, Secretaría de Cultura, México",
+  "retrieval_uri": "https://dgb.cultura.gob.mx/recursos/documentos/lenguasindigenas/Compendiogramaticalpara.pdf",
+  "viewer_uri": "https://dgb.cultura.gob.mx/recursos/libro_flip/index.php?libro=../documentos/lenguasindigenas/Compendiogramaticalpara.pdf",
+  "identity": {
+    "algorithm": "sha256",
+    "sha256": "c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc",
+    "bytes": 95088307,
+    "pdf_pages": 205,
+    "pdf_version": "1.6",
+    "observed_content_type": "application/pdf"
+  },
+  "retrieval_verified_by": "GitHub Actions machine-only witness probe",
+  "verified_at": "2026-08-15",
+  "human_validation_claimed": false,
+  "canonical_for_tellechea_pilot": true,
+  "status": "checksum_fixed_public_witness",
+  "epistemic_scope": "Binary identity and reproducibility only. This manifest does not assert textual accuracy, linguistic interpretation, cognacy, semantic continuity or human validation."
+}
