@@ -1,4 +1,4 @@
-name: RHD 1.0 canonical, TEI and review packaging
+name: RHD 1.0 canonical, TEI, appendices and review packaging
 
 on:
   pull_request:
@@ -6,11 +6,14 @@ on:
       - 'scripts/generate_rhd_canonical.py'
       - 'scripts/generate_rhd_tei.py'
       - 'scripts/generate_human_review_packets.py'
+      - 'scripts/generate_appendix_candidates.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_rhd_tei.py'
       - 'tests/validate_human_review_packets.py'
+      - 'tests/validate_appendix_candidates.py'
       - 'schemas/rhd-entry-1.0.schema.json'
       - 'source_profiles/**'
+      - 'sources/steffel-1809-ocr-source.txt'
       - 'data/entries.csv'
       - 'data/corpus_inventory.json'
       - 'data/validation/**'
@@ -22,11 +25,14 @@ on:
       - 'scripts/generate_rhd_canonical.py'
       - 'scripts/generate_rhd_tei.py'
       - 'scripts/generate_human_review_packets.py'
+      - 'scripts/generate_appendix_candidates.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_rhd_tei.py'
       - 'tests/validate_human_review_packets.py'
+      - 'tests/validate_appendix_candidates.py'
       - 'schemas/rhd-entry-1.0.schema.json'
       - 'source_profiles/**'
+      - 'sources/steffel-1809-ocr-source.txt'
       - 'data/entries.csv'
       - 'data/corpus_inventory.json'
       - 'data/validation/**'
@@ -61,6 +67,10 @@ jobs:
         run: |
           curl -fsSL https://lex-0.org/schema/lex-0.rng -o /tmp/lex-0.rng
           jing /tmp/lex-0.rng data/tei/rhd-steffel-1809-lex0.xml
+      - name: Generate appendix OCR candidates
+        run: python3 scripts/generate_appendix_candidates.py
+      - name: Validate appendix OCR candidates
+        run: python3 tests/validate_appendix_candidates.py
       - name: Generate human-review packets
         run: python3 scripts/generate_human_review_packets.py
       - name: Validate human-review packet coverage and neutrality
