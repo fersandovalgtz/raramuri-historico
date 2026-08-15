@@ -1,0 +1,38 @@
+name: RHD 1.0 canonical projection
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/generate_rhd_canonical.py'
+      - 'tests/validate_rhd_canonical.py'
+      - 'schemas/rhd-entry-1.0.schema.json'
+      - 'source_profiles/steffel-1809.source.json'
+      - 'data/entries.csv'
+      - 'data/corpus_inventory.json'
+      - '.github/workflows/rhd-canonical.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_rhd_canonical.py'
+      - 'tests/validate_rhd_canonical.py'
+      - 'schemas/rhd-entry-1.0.schema.json'
+      - 'source_profiles/steffel-1809.source.json'
+      - 'data/entries.csv'
+      - 'data/corpus_inventory.json'
+      - '.github/workflows/rhd-canonical.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  canonical:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Generate canonical projection
+        run: python3 scripts/generate_rhd_canonical.py
+      - name: Validate canonical invariants
+        run: python3 tests/validate_rhd_canonical.py
