@@ -2,7 +2,8 @@
 
 **Corte:** 15 de agosto de 2026  
 **Alcance:** edición histórico-digital computacional e IA-asistida, sin intervención humana de adjudicación.  
-**Estado:** prerelease científico; no declarar 1.0 final todavía.
+**Estado:** prerelease científico; no declarar 1.0 final todavía.  
+**Avance ponderado vigente:** **90.0%**.
 
 La política de alcance vigente es `docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md`. La ausencia de revisión humana no es un defecto pendiente del release: es una decisión metodológica explícita. Ningún artefacto puede presentar resultados IA-asistidos como `human_verified`.
 
@@ -70,22 +71,17 @@ Los paquetes de revisión humana ya creados se conservan únicamente como artefa
 
 Las lecturas visuales de baja confianza pueden permanecer como incertidumbre terminal; no se exige eliminarlas para cerrar este gate.
 
-## Gates todavía abiertos
+## Gates todavía abiertos o parcialmente abiertos
 
-### G7. IIIF canónico — abierto, con control negativo ya resuelto
+### G7. IIIF canónico — abierto, con controles externos activos
 
 El witness canónico del proyecto es el facsímil de trabajo fijado por SHA-256 y registrado en `sources/external-references.json`. Su tramo final ya tiene mapeo interno reproducible `PDF 79–84 ↔ impreso 369–374`.
 
-Se localizó y verificó automáticamente el Manifest IIIF Presentation 3 de Internet Archive `tarahumarischesw00stef`. Sin embargo, una comparación perceptual contra huellas calculadas de las seis páginas locales mostró una divergencia fuerte. Por tanto, ese ítem queda registrado como **witness externo paralelo no canónico**, no como sustituto del facsímil checksum-fixed.
+El Manifest IIIF Presentation 3 de Internet Archive `tarahumarischesw00stef` fue verificado automáticamente. La comparación perceptual contra huellas calculadas de las seis páginas locales mostró una divergencia fuerte, por lo que ese ítem permanece como **witness externo paralelo no canónico**.
 
-La CI conserva este resultado como control negativo: verifica que el Manifest externo siga siendo usable y que no se promueva accidentalmente a evidencia canónica.
+Además se incorporó un segundo probe independiente para el ejemplar Getty/Internet Archive `gri_000133125012248650`. Su resultado se considera únicamente diagnóstico hasta que exista evidencia perceptual suficiente; ningún candidato externo puede ser promovido silenciosamente a witness canónico.
 
-Para cerrar G7 todavía hace falta una de estas dos soluciones:
-
-1. publicar el facsímil checksum-fixed mediante un servicio IIIF estable controlado por el proyecto; o
-2. localizar un servicio externo cuya identidad con el escaneo de trabajo pueda demostrarse reproduciblemente.
-
-Después habrá que mapear el witness completo a Canvases y, cuando exista evidencia espacial, a regiones de entrada.
+Para cerrar G7 hace falta publicar el facsímil checksum-fixed mediante un servicio IIIF estable controlado por el proyecto o localizar una representación externa cuya identidad con el escaneo de trabajo pueda demostrarse reproduciblemente. Después habrá que mapear el witness completo a Canvases y, cuando exista evidencia espacial, a regiones de entrada.
 
 ### G8. Release, integridad y archivo — parcialmente abierto
 
@@ -95,6 +91,7 @@ Ya están resueltos:
 - generador determinista de manifiesto de integridad;
 - recomputación automática de SHA-256, tamaños y conteos;
 - incorporación al manifiesto de capas lexicales, canónicas, diacrónicas, TEI/Lex-0, anexos visuales, identidad de witnesses y perfiles de fuente;
+- incorporación de los artefactos del piloto Tellechea al manifiesto de release;
 - declaración de política machine-only;
 - declaración explícita de conformidad de implementación.
 
@@ -106,23 +103,26 @@ Falta:
 - depositar dataset/software y obtener identificador persistente apropiado;
 - comprobar archivo de software/datos.
 
-### G9. Replicabilidad externa — Tellechea 1826 seleccionado, pero 0% end-to-end
+### G9. Replicabilidad externa — 40%, prueba mínima satisfecha; prueba fuerte pendiente
 
-La segunda fuente piloto seleccionada es **Miguel Joaquín Tellechea, _Compendio gramatical para la inteligencia del idioma tarahumar_ (1826)**. Es deliberadamente más exigente que otro diccionario: combina gramática, ejemplos y materiales paralelos español–tarahumara.
+La segunda fuente piloto es **Miguel Joaquín Tellechea, _Compendio gramatical para la inteligencia del idioma tarahumar_ (1826)**. Es deliberadamente más exigente que otro diccionario porque combina gramática, ejemplos y materiales paralelos español–tarahumara.
 
-Ya existen:
+El witness público DGB ya está fijado por checksum como `RHD-WIT-TELLECHEA-1826-DGB`: 205 páginas, 95,088,307 bytes y SHA-256 `c67b7942090613c494d8057be8aff59ea13a11519c29eae469afad8a85c30dfc`. La CI vuelve a descargarlo y falla si cambia su identidad.
 
-- `source_profiles/tellechea-1826.pilot-candidate.json`;
-- `docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md`;
-- criterios machine-only de ingestión y éxito;
-- pruebas que mantienen la dimensión en 0% mientras no exista ingestión real.
+La **prueba mínima end-to-end ya fue ejecutada realmente**. Dos unidades estructuralmente distintas recorren el mismo núcleo RHD:
 
-No se concede avance end-to-end por haber elegido o modelado la fuente. Para cerrar G9 debe fijarse por checksum un witness concreto y procesarse realmente mediante el mismo núcleo RHD, documentando:
+- `RHD-T1826-00001`: página gramatical, PDF 32 / impreso 6, anclada por `LIBRO PRIMERO / CAPITULO I`;
+- `RHD-T1826-00002`: página de disposición paralela, PDF 75 / impreso 49, con dos columnas separadas geométricamente y asignación lingüística conservadora como candidata, no como certeza.
 
-- qué componentes se reutilizaron sin cambios;
-- qué parámetros residieron sólo en el perfil;
-- qué modificaciones al núcleo fueron realmente inevitables;
-- si IDs, procedencia, canonicalización, texto paralelo y exportaciones funcionaron sin rediseño conceptual.
+Para ambas se preserva la capa textual embebida del PDF y se genera una lectura visual independiente mediante renderizado del facsímil + Tesseract. Las dos capas permanecen separadas; no se presenta OCR como validación humana ni se fabrican equivalencias semánticas. Los dos registros validan contra el JSON Schema RHD, `lexical` permanece `null`, y la exportación TEI representa unidades documentales sin coercionarlas a entradas Lex-0.
+
+Los artefactos persistidos son:
+
+- `data/pilot/tellechea-1826.minimal-pilot.jsonl`;
+- `data/pilot/tellechea-1826.minimal-pilot.tei.xml`;
+- `data/pilot/tellechea-1826.minimal-pilot.diagnostics.json`.
+
+Esto justifica **40%** en la dimensión de replicación: la adquisición y la prueba mínima están resueltas, pero G9 no se cierra hasta extender el procedimiento al alcance completo declarado del witness de 205 páginas y producir un informe de impacto sobre el núcleo.
 
 ## Política de nomenclatura de releases
 
@@ -132,4 +132,4 @@ El release RHD 1.0 final podrá cerrarse sin revisión humana cuando G7–G9 que
 
 ## Criterio de decisión
 
-El release 1.0 no exige una ficción de certeza total. Exige que cada afirmación tenga procedencia, método y estado epistemológico verificables; que los artefactos sean reproducibles e íntegros; y que el pipeline haya demostrado reutilización real sobre una segunda fuente histórica.
+El release 1.0 no exige una ficción de certeza total. Exige que cada afirmación tenga procedencia, método y estado epistemológico verificables; que los artefactos sean reproducibles e íntegros; y que el pipeline haya demostrado reutilización real sobre una segunda fuente histórica en el alcance completo declarado.
