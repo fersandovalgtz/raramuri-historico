@@ -40,14 +40,41 @@
         "best_external_canvas_labels_observed": ["81", "82", "83", "84", "85", "86"],
         "dhash_hamming_distances": [117, 100, 119, 130, 113, 104],
         "mean_distance": 113.83,
+        "max_distance": 130,
         "result": "strong_mismatch_not_verified_as_same_scan",
-        "interpretation": "This Internet Archive item must not be used as the canonical page/image witness for RHD unless future machine evidence establishes identity. It remains useful as an independent parallel reproduction/reference."
+        "interpretation": "This Internet Archive item must not be used as the canonical page/image witness for RHD. It remains useful as an independent parallel reproduction/reference and as a negative identity control."
+      }
+    },
+    {
+      "witness_id": "IA-gri_000133125012248650",
+      "role": "parallel_external_witness_candidate",
+      "provider": "Internet Archive / Getty Research Institute",
+      "item_identifier": "gri_000133125012248650",
+      "manifest_uri": "https://iiif.archive.org/iiif/gri_000133125012248650/manifest.json",
+      "iiif_presentation_version": "3.x",
+      "manifest_fetch_verified_by_ci": true,
+      "canvas_count_observed": 429,
+      "canvas_label_semantics": "scan_number",
+      "canonical_for_rhd": false,
+      "identity_comparison": {
+        "method": "six-page consecutive perceptual dHash comparison against locally collated project PDF pp. 79–84 / printed pp. 369–374; final 100 external Canvases searched without assuming scan offset",
+        "searched_external_canvas_range": [329, 428],
+        "usable_external_images": 100,
+        "failed_external_image_canvases": 0,
+        "best_external_canvas_indexes_observed": [329, 330, 331, 332, 333, 334],
+        "best_external_canvas_labels_observed": ["329", "330", "331", "332", "333", "334"],
+        "dhash_hamming_distances": [131, 109, 123, 121, 127, 119],
+        "mean_distance": 121.67,
+        "max_distance": 131,
+        "result": "strong_mismatch_not_verified_as_same_scan",
+        "interpretation": "The Getty/Internet Archive reproduction is demonstrably not the checksum-fixed RHD working scan under the current perceptual identity test. It is retained as a second independent negative control and must not receive canonical RHD locators."
       }
     }
   ],
   "policy": {
     "canonical_witness_rule": "Never substitute an external reproduction for the checksum-fixed working facsimile solely because edition/title metadata appear compatible.",
     "iiif_rule": "A canonical IIIF mapping requires image-level identity or another reproducible machine link to the checksum-fixed working facsimile.",
+    "negative_control_rule": "Known nonidentical external reproductions are retained with measured mismatch evidence so later automation cannot silently promote them to canonical witness status.",
     "human_validation_claimed": false
   }
 }
