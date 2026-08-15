@@ -5,8 +5,10 @@ The output is intentionally conservative: it does not reinterpret unparsed sourc
 article material as <def>. Editorial Spanish translations are encoded as translation
 citations. Machine diachronic candidates remain explicitly non-adjudicated.
 
-This is a TEI P5 research projection designed toward TEI Lex-0 interoperability;
-formal Lex-0 schema validation is a separate release gate.
+The header follows known TEI Lex-0 0.9.5 requirements (TEI @type, availability/licence,
+listBibl/biblStruct source description, and language profile). Full Lex-0 schema
+validation remains a separate release gate because the documentary transcription layer
+contains project-specific structures that may require a dedicated TEI customization.
 """
 
 from pathlib import Path
@@ -50,14 +52,27 @@ def add_header(root):
 
     publication = sub(file_desc, "publicationStmt")
     sub(publication, "publisher", "Rarámuri Histórico Digital")
-    sub(publication, "availability")
+    availability = sub(publication, "availability")
+    sub(
+        availability,
+        "licence",
+        "Editorial and derived data layers are released under CC BY 4.0; source facsimile rights and provenance are documented separately.",
+        {"target": "https://creativecommons.org/licenses/by/4.0/"},
+    )
 
     source_desc = sub(file_desc, "sourceDesc")
-    bibl = sub(source_desc, "bibl")
-    sub(bibl, "author", "Matthäus Steffel")
-    sub(bibl, "title", "Tarahumarisches Wörterbuch")
-    sub(bibl, "date", "1809", {"when": "1809"})
-    sub(bibl, "note", "Compiled/dated 1791; project working facsimile and preserved OCR are the documentary basis of this projection.")
+    list_bibl = sub(source_desc, "listBibl", attrs={"type": "dictionaries"})
+    bibl_struct = sub(list_bibl, "biblStruct", attrs={f"{{{XML}}}id": "steffel1809"})
+    monogr = sub(bibl_struct, "monogr")
+    author = sub(monogr, "author")
+    pers = sub(author, "persName")
+    sub(pers, "forename", "Matthäus")
+    sub(pers, "surname", "Steffel")
+    sub(monogr, "title", "Tarahumarisches Wörterbuch")
+    imprint = sub(monogr, "imprint")
+    sub(imprint, "date", "1809", {"when": "1809"})
+    note = sub(bibl_struct, "note")
+    note.text = "Compiled/dated 1791; project working facsimile and preserved OCR are the documentary basis of this projection."
 
     encoding = sub(header, "encodingDesc")
     project = sub(encoding, "projectDesc")
@@ -66,14 +81,47 @@ def add_header(root):
         "p",
         "Generated from the RHD 1.0 canonical layer. Facsimile, OCR, diplomatic transcription, AI-assisted recollation, human validation and diachronic relations remain epistemically separate.",
     )
+    editorial = sub(encoding, "editorialDecl")
+    sub(
+        editorial,
+        "p",
+        "No unparsed OCR or diplomatic article text is automatically promoted to a lexical definition or semantic sense. Normalization and historical correspondence remain derived layers with explicit provenance.",
+    )
     class_decl = sub(encoding, "classDecl")
     taxonomy = sub(class_decl, "taxonomy", attrs={f"{{{XML}}}id": "rhd-status"})
     cat = sub(taxonomy, "category", attrs={f"{{{XML}}}id": "machineCandidate"})
-    sub(cat, "catDesc", "Machine-generated diachronic candidate; no semantic, etymological or historical-continuity judgment implied.")
+    cat_desc = sub(cat, "catDesc")
+    sub(cat_desc, "term", "machine diachronic candidate")
+    sub(
+        cat_desc,
+        "note",
+        "No semantic, etymological or historical-continuity judgment is implied.",
+    )
+
+    profile = sub(header, "profileDesc")
+    lang_usage = sub(profile, "langUsage")
+    sub(
+        lang_usage,
+        "language",
+        "Historical Tarahumara/Rarámuri as documented by Steffel; no modern ISO variety is assigned by RHD without independent linguistic adjudication.",
+        {"ident": "und", "role": "objectLanguage"},
+    )
+    sub(
+        lang_usage,
+        "language",
+        "German documentary metalanguage and historical dictionary language.",
+        {"ident": "de", "role": "workingLanguage"},
+    )
+    sub(
+        lang_usage,
+        "language",
+        "Spanish modern editorial translation and project documentation.",
+        {"ident": "es", "role": "workingLanguage"},
+    )
 
     revision = sub(header, "revisionDesc")
     change = sub(revision, "change", attrs={"when": "2026-08-15"})
-    change.text = "RHD 1.0 canonical TEI projection introduced; formal TEI Lex-0 validation remains a release gate."
+    change.text = "RHD 1.0 canonical TEI projection introduced and header aligned to known TEI Lex-0 0.9.5 constraints; full Lex-0 schema validation remains a release gate."
 
 
 def add_entry(div, item):
@@ -148,7 +196,7 @@ def add_entry(div, item):
 
 def main():
     items = load_jsonl(CANONICAL)
-    root = ET.Element(q("TEI"))
+    root = ET.Element(q("TEI"), {"type": "dictionary"})
     add_header(root)
     text_el = sub(root, "text")
     body = sub(text_el, "body")
