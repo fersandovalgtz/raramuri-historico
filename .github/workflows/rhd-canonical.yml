@@ -129,6 +129,10 @@ jobs:
         run: python3 scripts/generate_steffel_static_iiif.py
       - name: Validate 84-Canvas structure and 1965 page-level RHD links
         run: python3 tests/validate_steffel_static_iiif_preparation.py
+      - name: Generate GitHub Pages IIIF publication candidate
+        run: python3 scripts/generate_steffel_public_iiif_candidate.py
+      - name: Validate PNG72 public candidate and 1965 public Canvas links
+        run: python3 tests/validate_steffel_public_iiif_candidate.py
       - name: Syntax-check deterministic public IIIF verifier
         run: python3 -m py_compile scripts/verify_published_steffel_iiif.py
 
