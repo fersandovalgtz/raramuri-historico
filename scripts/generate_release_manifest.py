@@ -25,6 +25,8 @@ FILES = [
     ("canonical_schema", "schemas/rhd-entry-1.0.schema.json"),
     ("source_profile", "source_profiles/steffel-1809.source.json"),
     ("machine_only_policy", "docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md"),
+    ("machine_only_conformity", "docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md"),
+    ("completion_matrix", "docs/MACHINE_ONLY_COMPLETION_MATRIX.md"),
     ("completion_model", "project/completion-model-machine-only.json"),
 ]
 
