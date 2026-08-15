@@ -6,13 +6,15 @@ El sitio público es estático y vive en `public/`. No requiere un framework de 
 
 El workflow `.github/workflows/pages.yml` despliega `public/` mediante GitHub Pages y se activa para cambios pertinentes en `main`. El sitio no debe introducir resultados científicos que no existan en el repositorio: la interfaz es una capa de acceso al snapshot documentado, no una fuente independiente de verdad.
 
-## URL pública
+## URL pública verificada
 
-La configuración externa del repositorio debe declarar una **homepage canónica**. Mientras se utiliza el endpoint público actual del ecosistema, la URL propuesta es:
+GitHub Pages está habilitado públicamente mediante workflow y declara como `html_url`:
 
-`https://raramuri-historico.pages.dev`
+`https://fersandovalgtz.github.io/raramuri-historico/`
 
-Si posteriormente se adopta un dominio institucional estable —por ejemplo un subdominio de `raramuri.ceees.mx`— el cambio debe propagarse de forma coordinada a:
+Ésta debe utilizarse como **homepage canónica** del repositorio mientras no se adopte y verifique un dominio institucional propio.
+
+Si posteriormente se adopta un dominio estable —por ejemplo un subdominio del ecosistema `raramuri.ceees.mx`— el cambio debe propagarse de forma coordinada a:
 
 - metadata `homepage` del repositorio;
 - `CITATION.cff`;
