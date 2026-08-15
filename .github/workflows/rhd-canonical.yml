@@ -125,16 +125,19 @@ jobs:
           curl --retry 3 --retry-all-errors -fsSL https://lex-0.org/schema/lex-0.rng -o /tmp/lex-0.rng
           jing /tmp/lex-0.rng data/tei/rhd-steffel-1809-lex0.xml
 
-      - name: Validate John Carter Brown Internet Archive item as noncanonical IIIF witness
-        continue-on-error: true
-        run: |
-          curl --retry 3 --retry-all-errors -fsSL https://iiif.archive.org/iiif/tarahumarischesw00stef/manifest.json -o /tmp/steffel-iiif-manifest.json
-          python3 scripts/validate_external_iiif_witness.py /tmp/steffel-iiif-manifest.json
-      - name: Probe Getty Internet Archive Steffel IIIF candidate
-        continue-on-error: true
-        run: python3 scripts/probe_steffel_iiif_candidate.py https://iiif.archive.org/iiif/gri_000133125012248650/manifest.json
-
+      # Release integrity is deterministic and must finish before any external diagnostic.
       - name: Generate deterministic release integrity manifest
         run: python3 scripts/generate_release_manifest.py
       - name: Validate release integrity manifest
         run: python3 tests/validate_release_manifest.py
+
+      # External witnesses are diagnostics only. They cannot delay or invalidate the
+      # checksum-fixed scholarly products above.
+      - name: Validate John Carter Brown Internet Archive item as noncanonical IIIF witness
+        continue-on-error: true
+        run: |
+          timeout 120s curl --retry 2 --retry-all-errors -fsSL https://iiif.archive.org/iiif/tarahumarischesw00stef/manifest.json -o /tmp/steffel-iiif-manifest.json
+          timeout 120s python3 scripts/validate_external_iiif_witness.py /tmp/steffel-iiif-manifest.json
+      - name: Probe Getty Internet Archive Steffel IIIF candidate
+        continue-on-error: true
+        run: timeout 120s python3 scripts/probe_steffel_iiif_candidate.py https://iiif.archive.org/iiif/gri_000133125012248650/manifest.json
