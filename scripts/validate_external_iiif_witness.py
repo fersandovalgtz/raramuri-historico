@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
-"""Validate and machine-map the external Internet Archive IIIF Steffel witness.
+"""Validate the registered Internet Archive IIIF item as a *parallel* Steffel witness.
 
-Internet Archive labels Canvases by scan number rather than printed pagination for this
-item. Therefore RHD does not infer a numeric offset. Instead it compares a consecutive
-window of external Canvas images against perceptual dHash fingerprints computed from
-the independently AI-collated local project PDF pages 79–84 (= printed 369–374).
+The checksum-fixed RHD working facsimile remains canonical. Internet Archive labels this
+item by scan number and, more importantly, a six-page perceptual-fingerprint comparison
+against locally collated printed pp. 369–374 shows a strong image mismatch. That is
+scientifically useful negative evidence: the external item is a valid IIIF 3 reference,
+but must not be substituted silently for the canonical working scan.
 
-This is an identity/reproducibility test, not textual or human validation.
+CI succeeds only if both conditions remain true:
+1. the external Manifest is a usable IIIF Presentation 3 Manifest; and
+2. the registered noncanonical identity status is still supported by a strong mismatch.
+
+If a future provider changes the item so that it becomes visually close to the local
+scan, this test fails and forces the witness registry to be reconsidered explicitly.
 """
 
 from pathlib import Path
@@ -21,6 +27,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("/tmp/steffel-iiif-manifest.json")
 LOCAL_MAP = ROOT / "data/appendices/facsimile_page_map.json"
 FINGERPRINTS = ROOT / "data/iiif/steffel-1809-local-page-fingerprints.json"
+REGISTRY = ROOT / "sources/external-references.json"
 errors = []
 
 if not MANIFEST.exists():
@@ -28,6 +35,18 @@ if not MANIFEST.exists():
     sys.exit(1)
 
 data = json.loads(MANIFEST.read_text(encoding="utf-8"))
+registry = json.loads(REGISTRY.read_text(encoding="utf-8"))
+external = next(
+    (w for w in registry.get("witnesses", []) if w.get("witness_id") == "IA-tarahumarischesw00stef"),
+    None,
+)
+if external is None:
+    errors.append("Internet Archive witness is not registered")
+elif external.get("canonical_for_rhd") is not False:
+    errors.append("Internet Archive witness must remain explicitly noncanonical")
+elif external.get("role") != "parallel_external_witness_candidate":
+    errors.append(f"unexpected external witness role: {external.get('role')}")
+
 context = data.get("@context")
 context_text = " ".join(str(x) for x in context) if isinstance(context, list) else str(context or "")
 if "presentation/3" not in context_text:
@@ -36,7 +55,7 @@ if data.get("type") != "Manifest":
     errors.append(f"manifest type is {data.get('type')!r}, expected 'Manifest'")
 manifest_id = data.get("id") or ""
 if "tarahumarischesw00stef" not in manifest_id:
-    errors.append(f"manifest id does not identify Steffel Internet Archive item: {manifest_id}")
+    errors.append(f"manifest id does not identify registered Steffel Internet Archive item: {manifest_id}")
 canvases = data.get("items")
 if not isinstance(canvases, list) or not canvases:
     errors.append("Presentation 3 Manifest has no Canvas items")
@@ -45,15 +64,14 @@ if len(canvases) < 80:
     errors.append(f"implausibly small Canvas count: {len(canvases)}")
 
 local = json.loads(LOCAL_MAP.read_text(encoding="utf-8"))
-local_printed = [x.get("printed_page") for x in local.get("mapping", [])]
-if local_printed != [369, 370, 371, 372, 373, 374]:
-    errors.append(f"local appendix map changed unexpectedly: {local_printed}")
+if [x.get("printed_page") for x in local.get("mapping", [])] != [369, 370, 371, 372, 373, 374]:
+    errors.append("local appendix page map changed unexpectedly")
 fingerprint_data = json.loads(FINGERPRINTS.read_text(encoding="utf-8"))
 expected = fingerprint_data.get("pages", [])
 if [(x.get("pdf_page"), x.get("printed_page")) for x in expected] != [
     (79, 369), (80, 370), (81, 371), (82, 372), (83, 373), (84, 374)
 ]:
-    errors.append("local fingerprint sequence differs from independently collated appendix mapping")
+    errors.append("local fingerprint sequence differs from collated appendix mapping")
 
 
 def label_text(canvas):
@@ -73,9 +91,7 @@ def label_text(canvas):
 
 def image_url(canvas):
     try:
-        annotation_page = canvas["items"][0]
-        annotation = annotation_page["items"][0]
-        body = annotation["body"]
+        body = canvas["items"][0]["items"][0]["body"]
         if isinstance(body, list):
             body = body[0]
         service = body.get("service") if isinstance(body, dict) else None
@@ -129,28 +145,27 @@ if errors:
     print("\n".join("ERROR: " + e for e in errors))
     sys.exit(1)
 
-# The source has only ~90 Canvases. Restrict the network comparison to the final 20,
-# where printed pp. 369–374 must occur, but do not assume the scan-number offset.
+# Search the final twenty Canvases for the most similar six-page consecutive window.
+# We do not infer a printed-page offset from Canvas labels.
 start_index = max(0, len(canvases) - 20)
 candidates = canvases[start_index:]
 candidate_hashes = []
 for absolute_index, canvas in enumerate(candidates, start=start_index):
     url = image_url(canvas)
     if not url:
-        print(f"ERROR: Canvas index {absolute_index} label={label_text(canvas)!r} has no recoverable image/service URL")
+        print(f"ERROR: Canvas index {absolute_index} label={label_text(canvas)!r} lacks a recoverable image URL")
         sys.exit(1)
     try:
-        digest = fetch_hash(url)
+        candidate_hashes.append(fetch_hash(url))
     except Exception as exc:
-        print(f"ERROR: could not fetch/hash Canvas index {absolute_index} label={label_text(canvas)!r}: {exc}")
+        print(f"ERROR: could not fetch/hash Canvas index {absolute_index}: {exc}")
         sys.exit(1)
-    candidate_hashes.append(digest)
 
 best = None
 for local_start in range(0, len(candidate_hashes) - 5):
     distances = [hamming(expected[offset]["dhash256"], candidate_hashes[local_start + offset]) for offset in range(6)]
-    score = (sum(distances), max(distances), distances)
-    if best is None or score[:2] < best[:2]:
+    score = (sum(distances), max(distances))
+    if best is None or score < best[:2]:
         best = (score[0], score[1], distances, local_start)
 
 if best is None:
@@ -160,43 +175,27 @@ if best is None:
 total_distance, max_distance, distances, local_start = best
 sequence_start = start_index + local_start
 mean_distance = total_distance / 6
-# 256-bit auto-cropped dHash. These thresholds allow moderate compression/crop changes
-# but reject unrelated pages. The sequence constraint further reduces false matches.
-if max_distance > 72 or mean_distance > 48:
-    labels = [label_text(c) for c in canvases[sequence_start:sequence_start + 6]]
+labels = [label_text(c) for c in canvases[sequence_start:sequence_start + 6]]
+
+# Identity threshold used by the earlier attempted canonical mapping. A result above
+# both boundaries is positive evidence for the registry's NONCANONICAL status.
+is_close_enough_for_identity = max_distance <= 72 and mean_distance <= 48
+if is_close_enough_for_identity:
     print(
-        "ERROR: best external six-page window is not visually similar enough to local appendix fingerprints; "
-        f"Canvas indexes={sequence_start}-{sequence_start+5}, labels={labels!r}, distances={distances}, mean={mean_distance:.2f}"
+        "ERROR: external witness is unexpectedly close to the local working scan; "
+        "registry says noncanonical, so identity must be reconsidered explicitly. "
+        f"indexes={sequence_start}-{sequence_start+5}, labels={labels!r}, distances={distances}, mean={mean_distance:.2f}"
     )
     sys.exit(1)
 
-selected = canvases[sequence_start:sequence_start + 6]
-for offset, canvas in enumerate(selected):
-    if canvas.get("type") != "Canvas":
-        errors.append(f"printed {369+offset}: selected object type is not Canvas")
-    cid = canvas.get("id") or ""
-    if not cid.startswith("http"):
-        errors.append(f"printed {369+offset}: Canvas lacks dereferenceable HTTP(S) id")
-    if not canvas.get("items"):
-        errors.append(f"printed {369+offset}: Canvas lacks AnnotationPage items")
-
-if errors:
-    print("\n".join("ERROR: " + e for e in errors))
+registered_result = ((external or {}).get("identity_comparison") or {}).get("result")
+if registered_result != "strong_mismatch_not_verified_as_same_scan":
+    print(f"ERROR: registry identity result is not the expected strong mismatch state: {registered_result!r}")
     sys.exit(1)
 
-mapping = [
-    {
-        "printed_page": 369 + offset,
-        "local_pdf_page": 79 + offset,
-        "external_canvas_index": sequence_start + offset,
-        "external_canvas_label": label_text(canvas),
-        "external_canvas_id": canvas.get("id"),
-        "dhash_hamming_distance": distances[offset],
-    }
-    for offset, canvas in enumerate(selected)
-]
 print(
-    "OK: Internet Archive IIIF Presentation 3 witness verified by image fingerprints; "
-    f"{len(canvases)} Canvases; matched printed 369–374 to external Canvas indexes "
-    f"{sequence_start}–{sequence_start+5}; mean dHash distance={mean_distance:.2f}; mapping={json.dumps(mapping, ensure_ascii=False)}"
+    "OK: Internet Archive item is a valid IIIF Presentation 3 parallel witness and remains correctly NONCANONICAL for RHD; "
+    f"Canvas count={len(canvases)}; best six-page window indexes={sequence_start}-{sequence_start+5}; "
+    f"labels={labels!r}; dHash distances={distances}; mean={mean_distance:.2f}. "
+    "No external Canvas is substituted for the checksum-fixed working facsimile."
 )
