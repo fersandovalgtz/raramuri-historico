@@ -31,6 +31,7 @@ on:
       - 'data/appendices/trilingual_visual_alignment_ai.json'
       - 'data/appendices/prayer_visual_transcription_ai.json'
       - 'data/appendices/numeration_visual_structure_ai.json'
+      - 'data/iiif/steffel-1809-local-page-fingerprints.json'
       - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
       - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
       - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
@@ -68,6 +69,7 @@ on:
       - 'data/appendices/trilingual_visual_alignment_ai.json'
       - 'data/appendices/prayer_visual_transcription_ai.json'
       - 'data/appendices/numeration_visual_structure_ai.json'
+      - 'data/iiif/steffel-1809-local-page-fingerprints.json'
       - 'docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md'
       - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
       - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
@@ -88,7 +90,7 @@ jobs:
           python-version: '3.11'
       - name: Install validators
         run: |
-          python3 -m pip install --disable-pip-version-check jsonschema
+          python3 -m pip install --disable-pip-version-check jsonschema pillow
           sudo apt-get update -qq
           sudo apt-get install -y -qq jing
       - name: Generate lexical canonical projection
@@ -123,7 +125,7 @@ jobs:
         run: |
           curl --retry 3 --retry-all-errors -fsSL https://lex-0.org/schema/lex-0.rng -o /tmp/lex-0.rng
           jing /tmp/lex-0.rng data/tei/rhd-steffel-1809-lex0.xml
-      - name: Fetch and validate Internet Archive IIIF witness
+      - name: Fetch and validate Internet Archive IIIF witness by perceptual fingerprints
         run: |
           curl --retry 3 --retry-all-errors -fsSL https://iiif.archive.org/iiif/tarahumarischesw00stef/manifest.json -o /tmp/steffel-iiif-manifest.json
           python3 scripts/validate_external_iiif_witness.py /tmp/steffel-iiif-manifest.json
