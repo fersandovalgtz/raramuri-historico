@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""Generate canonical RHD appendix objects for Steffel without fabricating linguistic alignment.
+"""Generate canonical RHD appendix objects for Steffel under the machine-only policy.
 
 The canonical appendix layer joins:
 - OCR-structured numeration material;
 - 22 OCR-structured trilingual formula blocks;
+- AI visual formula-level Latin/German/Tarahumara alignment;
 - the separate Lord's Prayer block;
 - AI-visual facsimile page mapping (PDF 79–84 ↔ printed 369–374).
 
-It does not claim human verification or language-by-language diplomatic alignment.
+It never claims human verification. Formula alignment is explicitly AI-assisted and may
+carry field-level uncertainty while the facsimile remains the documentary authority.
 """
 
 from pathlib import Path
@@ -17,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT / "data" / "appendices"
 NUM = APP / "numeration_ocr_candidates.json"
 SAMPLE = APP / "trilingual_sample_ocr_candidates.json"
+ALIGN = APP / "trilingual_visual_alignment_ai.json"
 PAGE_MAP = APP / "facsimile_page_map.json"
 OUT_DIR = ROOT / "data" / "canonical"
 OUT = OUT_DIR / "steffel-1809.appendices.json"
@@ -33,11 +36,11 @@ def page_index(page_map):
 def main():
     num = load(NUM)
     sample = load(SAMPLE)
+    alignment = load(ALIGN)
     facs = load(PAGE_MAP)
     pmap = page_index(facs)
+    aligned = {x["formula"]: x for x in alignment.get("formulas", [])}
 
-    # Numeration spans printed pp. 369–370. We keep the complete OCR source block
-    # plus extracted surface candidates; no normalization or grammatical analysis.
     numeration = {
         "object_id": "RHD-S1809-APP-NUMERATION",
         "object_type": "appendix_numeration",
@@ -71,19 +74,13 @@ def main():
 
     formula_page = {}
     for i in range(1, 23):
-        if i <= 4:
-            formula_page[i] = 371
-        elif i <= 11:
-            formula_page[i] = 372
-        elif i <= 18:
-            formula_page[i] = 373
-        else:
-            formula_page[i] = 374
+        formula_page[i] = 371 if i <= 4 else 372 if i <= 11 else 373 if i <= 18 else 374
 
     formulas = []
     for src in sample.get("formulas", []):
         n = src["formula_number_editorial"]
         printed = formula_page[n]
+        visual = aligned[n]
         formulas.append(
             {
                 "object_id": src["record_id"],
@@ -92,8 +89,9 @@ def main():
                 "source": "Steffel 1809",
                 "printed_page": printed,
                 "pdf_page": pmap[printed]["pdf_page"],
-                "expected_languages": src.get("expected_languages", ["la", "de", "und"]),
-                "language_alignment_verified": False,
+                "expected_languages": ["la", "de", "und"],
+                "machine_alignment_complete": True,
+                "human_alignment_verified": False,
                 "layers": {
                     "ocr": {
                         "status": "ocr_structured_candidate",
@@ -106,7 +104,20 @@ def main():
                         "status": "confirmed_ai_assisted",
                         "method": "ai_visual_collation",
                         "human_verified": False,
-                        "claim": f"Printed formula number {n} is present in the facsimile sequence on p. {printed}; language-line transcription/alignment remains machine-only and non-final.",
+                        "claim": f"Printed formula number {n} is present in the facsimile sequence on p. {printed}.",
+                    },
+                    "parallel_alignment": {
+                        "status": "aligned_ai_assisted",
+                        "method": "ai_visual_transcription_and_formula_alignment",
+                        "line_breaks_normalized": True,
+                        "human_verified": False,
+                        "texts": {
+                            "la": visual["latin"],
+                            "de": visual["german"],
+                            "und": visual["tarahumara"],
+                        },
+                        "confidence": visual.get("confidence", {}),
+                        "uncertain_segments": visual.get("uncertain_segments", []),
                     },
                 },
                 "human_verified": False,
@@ -153,13 +164,14 @@ def main():
             "objects": 24,
             "numeration_sections": 1,
             "parallel_formulas": 22,
+            "machine_aligned_parallel_formulas": 22,
             "prayer_texts": 1,
         },
     }
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"generated canonical appendix layer with {len(payload['objects'])} objects -> {OUT.relative_to(ROOT)}")
+    print(f"generated canonical appendix layer with {len(payload['objects'])} objects and 22 AI-aligned formula triples -> {OUT.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
