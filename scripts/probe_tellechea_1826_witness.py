@@ -16,7 +16,10 @@ import urllib.request
 
 from pypdf import PdfReader
 
-URL = "https://dgb.cultura.gob.mx/documentos/lenguasindigenas/Compendiogramaticalpara.pdf"
+# DGB's public viewer is called with
+#   /recursos/libro_flip/index.php?libro=../documentos/lenguasindigenas/Compendiogramaticalpara.pdf
+# Therefore the relative PDF path resolves under /recursos/documentos/, not /documentos/.
+URL = "https://dgb.cultura.gob.mx/recursos/documentos/lenguasindigenas/Compendiogramaticalpara.pdf"
 OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("/tmp/tellechea-1826-dgb.pdf")
 
 
