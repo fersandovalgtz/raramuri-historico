@@ -8,7 +8,7 @@
 **Responsable:** Fernando Sandoval Gutierrez  
 **ORCID:** 0000-0002-3168-6725  
 **Repositorio:** https://github.com/fersandovalgtz/raramuri-historico  
-**Sitio:** https://raramuri-historico.pages.dev  
+**Sitio:** https://fersandovalgtz.github.io/raramuri-historico/  
 **Tipo de recurso:** dataset de investigación + edición histórico-digital + software/pipeline de investigación.
 
 ## Fuente histórica
