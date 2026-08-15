@@ -1,0 +1,37 @@
+{
+  "evidence_id": "RHD-RELEASE-EVIDENCE-V1.0.0-01",
+  "verified_at": "2026-08-15T19:06:36Z",
+  "repository": "fersandovalgtz/raramuri-historico",
+  "release": {
+    "tag": "v1.0.0",
+    "name": "Rarámuri Histórico Digital 1.0.0",
+    "github_release_id": 371133493,
+    "target_commit": "441cbac036d82e83451e32378a030c3bb0923bf6",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-08-15T19:06:33Z"
+  },
+  "canonical_validation": {
+    "workflow_run_id": 31902625636,
+    "workflow_run_number": 227,
+    "head_branch": "main",
+    "head_sha": "441cbac036d82e83451e32378a030c3bb0923bf6",
+    "conclusion": "success",
+    "published_iiif_gate": "success"
+  },
+  "release_publisher": {
+    "workflow_run_id": 31902980033,
+    "conclusion": "success"
+  },
+  "licensing": {
+    "software": "MIT",
+    "rhd_original_data_metadata_editorial_layers": "CC-BY-4.0",
+    "third_party_and_historical_sources": "retain source-specific legal status and provenance"
+  },
+  "completion_state": {
+    "percent_complete": 99.0,
+    "percent_remaining": 1.0,
+    "remaining_gate": "persistent public archive with real citable identifier (preferably Zenodo DOI), verified against v1.0.0/tag/commit/integrity manifest"
+  },
+  "human_validation_claimed": false
+}
