@@ -1,5 +1,5 @@
 {
-  "profile_version": "1.0.0-draft",
+  "profile_version": "1.0.0-draft-machine-only",
   "rhd_core_version": "1.0-draft",
   "source_id": "RHD-SRC-STEFFEL-1809",
   "source_code": "STEFFEL-1809",
@@ -9,15 +9,21 @@
   "compiled_or_dated": 1791,
   "published": 1809,
   "project_role": "reference_implementation",
+  "edition_scope": "machine_only_scholarly_edition",
+  "human_adjudication_required": false,
   "witness": {
     "witness_id": "RHD-WIT-STEFFEL-1809-PROJECT-FACSIMILE",
-    "description": "Project working facsimile supplied with OCR source",
+    "description": "Checksum-fixed project working facsimile supplied with OCR source",
     "facsimile_pages": 84,
     "dictionary_printed_page_start": 301,
     "dictionary_printed_page_end": 368,
     "appendix_printed_page_start": 369,
     "checksums_manifest": "sources/checksums.json",
-    "ocr_source": "sources/steffel-1809-ocr-source.txt"
+    "witness_registry": "sources/external-references.json",
+    "ocr_source": "sources/steffel-1809-ocr-source.txt",
+    "identity_status": "canonical_checksum_fixed_working_facsimile",
+    "iiif_manifest": null,
+    "iiif_status": "canonical_manifest_not_yet_resolved"
   },
   "languages": [
     {
@@ -27,8 +33,12 @@
     {
       "code": "und",
       "label": "historical Tarahumara/Rarámuri as documented by Steffel",
-      "code_note": "No modern ISO 639-3 variety code is assigned by the source profile until an independent linguistic review justifies that mapping.",
+      "code_note": "No modern ISO 639-3 variety code is assigned automatically; the historical source language remains explicitly source-defined.",
       "role": "historical_lexical_language"
+    },
+    {
+      "code": "la",
+      "role": "parallel_language_in_appendix_sample"
     },
     {
       "code": "es",
@@ -62,36 +72,52 @@
     "active_articles": 1965,
     "rejected_boundaries": 530,
     "diplomatic_articles": 1965,
-    "open_validation_records": 482,
+    "machine_validation_records": 482,
     "ai_philological_recollation_complete": 482,
-    "independent_human_reviewed": 0,
-    "unresolved_after_ai_recollation": 46
+    "confirmed_ai_assisted": 284,
+    "corrected_ai_assisted": 152,
+    "unresolved_after_ai_recollation": 46,
+    "human_validation_claimed": false,
+    "appendix_canonical_objects": 24,
+    "parallel_formulas_machine_aligned": 22,
+    "diachronic_candidates_machine_scored": 298
   },
   "source_specific_graphemic_features": {
     "long_s": true,
     "historic_affricate_spellings": ["tsch", "tſch", "ts", "tſ"],
-    "known_liquid_variation_requires_case_specific_review": true,
+    "known_liquid_variation_requires_case_specific_machine_uncertainty": true,
     "normalization_warning": "Historic graphemic variants may be useful for retrieval but must not be silently converted into phonological identity or cognacy."
   },
   "segmentation": {
-    "strategy": "high_recall_candidate_generation_then_boundary_review",
+    "strategy": "high_recall_candidate_generation_then_machine_boundary_disposition",
     "direction_aware": true,
     "column_aware": true,
     "preserve_rejected_candidates": true,
+    "human_review_required": false,
     "current_review_manifests": "data/review/"
   },
   "transcription": {
     "diplomatic_layer": "data/entries.csv#headword_diplomatic,article_diplomatic",
     "method": "AI-assisted direct facsimile collation",
     "human_verification_implied": false,
-    "open_note_states": ["none", "resolved_editorial_note", "open_validation"]
+    "uncertainty_must_be_explicit": true,
+    "terminal_states_may_include_unresolved": true
   },
   "validation": {
+    "policy": "machine_only",
     "ai_recollation_manifests": "data/validation/review/",
-    "human_review_queue": "data/validation/human_review_queue.json",
-    "human_review_priority": "data/validation/human_review_priority.json",
-    "human_review_protocol": "data/validation/HUMAN_REVIEW_PROTOCOL.md",
-    "scopes": ["philological", "linguistic", "semantic_historical", "disciplinary"]
+    "human_review_required": false,
+    "allowed_terminal_states": [
+      "confirmed_ai_assisted",
+      "corrected_ai_assisted",
+      "unresolved_after_ai_recollation"
+    ],
+    "historical_human_review_artifacts_optional_only": [
+      "data/validation/human_review_queue.json",
+      "data/validation/human_review_priority.json",
+      "data/validation/HUMAN_REVIEW_PROTOCOL.md"
+    ],
+    "rule": "No AI-assisted result may be promoted to human_verified. Unresolved readings remain explicit terminal scholarly states."
   },
   "normalization": {
     "purpose": "search_and_explicit_comparison_only",
@@ -105,10 +131,20 @@
       "historical_continuity"
     ]
   },
+  "appendices": {
+    "canonical_layer": "data/canonical/steffel-1809.appendices.json",
+    "facsimile_page_map": "data/appendices/facsimile_page_map.json",
+    "numeration_machine_structure": "data/appendices/numeration_visual_structure_ai.json",
+    "trilingual_machine_alignment": "data/appendices/trilingual_visual_alignment_ai.json",
+    "prayer_visual_transcription": "data/appendices/prayer_visual_transcription_ai.json",
+    "tei_supplement": "data/tei/rhd-steffel-1809-appendices-tei.xml",
+    "human_validation_claimed": false
+  },
   "research_layers": {
     "internal_concordance": "data/research/internal_concordance.*",
     "historical_variants": "data/research/historical_variant_index.json",
     "diachronic_candidates": "data/research/diachronic_semantic_context_queue.*",
+    "diachronic_documentary_scores": "data/research/diachronic_machine_scores.json",
     "research_snapshot": "RESEARCH_SNAPSHOT.md",
     "adjudicative": false
   },
@@ -118,21 +154,28 @@
     "ocr_raw": ["headword_ocr_raw", "article_ocr_raw", "definition_raw"],
     "segmentation_candidate": ["delimiter", "extraction_score", "segmentation_confidence", "status"],
     "diplomatic_transcription": ["headword_diplomatic", "article_diplomatic", "diplomatic_status", "diplomatic_batch"],
-    "validation": ["diplomatic_note", "diplomatic_note_state", "human_verified", "diplomatic_review_method"],
+    "machine_validation": ["diplomatic_note", "diplomatic_note_state", "human_verified", "diplomatic_review_method"],
     "locators": ["printed_page", "pdf_page", "facsimile_column", "source_ocr_line_start", "source_ocr_line_end"]
   },
   "coverage_definition": {
     "dictionary_body_complete_when": [
-      "all candidate boundaries have explicit disposition",
-      "all active articles have diplomatic transcription",
-      "all open validation issues are queued with explicit state",
+      "all candidate boundaries have explicit machine disposition",
+      "all active articles have AI-assisted diplomatic transcription",
+      "all detected validation issues have explicit terminal machine state",
       "coverage metrics are reproducibly generated"
     ],
-    "critical_edition_complete_when": [
-      "declared human-review target has been independently adjudicated",
-      "adopted critical readings are stored in a derived non-destructive layer",
-      "TEI export validates against the chosen profile",
+    "machine_only_scholarly_edition_complete_when": [
+      "dictionary body and declared appendices are represented non-destructively",
+      "all unresolved readings remain explicitly marked rather than silently repaired",
+      "TEI/Lex-0 exports validate against their declared profiles",
+      "release integrity is reproducibly verified",
+      "canonical facsimile linking is stable",
       "release is versioned and archived"
+    ],
+    "industrialization_demonstrated_when": [
+      "a second real historical source completes the same RHD core pipeline",
+      "source-specific differences remain in a source profile whenever possible",
+      "no fundamental redesign of the RHD core is required"
     ]
   }
 }
