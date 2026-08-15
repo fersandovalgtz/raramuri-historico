@@ -33,6 +33,34 @@ expected_translations = sum(
 root = ET.parse(TEI_PATH).getroot()
 if root.tag != Q("TEI"):
     errors.append("root is not TEI namespace TEI")
+if root.get("type") != "dictionary":
+    errors.append("TEI root must carry type=dictionary")
+
+# Known Lex-0 0.9.5 header constraints we can enforce without the external schema.
+licence = root.find(f"./{Q('teiHeader')}/{Q('fileDesc')}/{Q('publicationStmt')}/{Q('availability')}/{Q('licence')}")
+if licence is None or not licence.get("target"):
+    errors.append("publicationStmt/availability/licence missing")
+list_bibl = root.find(f"./{Q('teiHeader')}/{Q('fileDesc')}/{Q('sourceDesc')}/{Q('listBibl')}")
+if list_bibl is None or list_bibl.get("type") != "dictionaries":
+    errors.append("sourceDesc must use listBibl type=dictionaries")
+if list_bibl is not None and list_bibl.find(Q("biblStruct")) is None:
+    errors.append("sourceDesc listBibl lacks biblStruct")
+lang_usage = root.find(f"./{Q('teiHeader')}/{Q('profileDesc')}/{Q('langUsage')}")
+if lang_usage is None:
+    errors.append("profileDesc/langUsage missing")
+else:
+    languages = {(el.get("ident"), el.get("role")) for el in lang_usage.findall(Q("language"))}
+    required_languages = {
+        ("und", "objectLanguage"),
+        ("de", "workingLanguage"),
+        ("es", "workingLanguage"),
+    }
+    if not required_languages.issubset(languages):
+        errors.append(f"language profile incomplete: {sorted(languages)}")
+cat_desc = root.find(f".//{Q('category')}[@{{{XML}}}id='machineCandidate']/{Q('catDesc')}")
+if cat_desc is None or cat_desc.find(Q("term")) is None:
+    errors.append("machineCandidate catDesc must contain term")
+
 entries = root.findall(f".//{Q('entry')}")
 if len(entries) != len(active):
     errors.append(f"TEI entry count {len(entries)} != active canonical {len(active)}")
@@ -68,7 +96,6 @@ for cit in translations:
     if cit.get(f"{{{XML}}}lang") != "es":
         errors.append("editorial Spanish translation missing xml:lang=es")
 
-# Every active entry must preserve a documentary page citation.
 for entry in entries:
     bibl = entry.find(Q("bibl"))
     if bibl is None or "printed p." not in (bibl.text or ""):
@@ -77,6 +104,7 @@ for entry in entries:
 if errors:
     print("\n".join("ERROR: " + e for e in errors)); sys.exit(1)
 print(
-    f"OK: TEI projection has {len(entries)} active entries, {len(validation_notes)} PHIL notes, "
-    f"{len(relations)} machine diachronic candidates, {len(translations)} editorial translations, and no synthetic <def> elements"
+    f"OK: TEI projection has Lex-0-ready header invariants, {len(entries)} active entries, "
+    f"{len(validation_notes)} PHIL notes, {len(relations)} machine diachronic candidates, "
+    f"{len(translations)} editorial translations, and no synthetic <def> elements"
 )
