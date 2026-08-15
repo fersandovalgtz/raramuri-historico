@@ -53,9 +53,42 @@ if any(v != 22 for v in lang_counts.values()):
 low_und = [ab for ab in parallel if ab.get(f"{{{XML}}}lang") == "und" and ab.get("cert") == "low"]
 if len(low_und) != 2:
     errors.append(f"expected two low-confidence Tarahumara blocks, got {len(low_und)}")
+
+num_div = next((d for d in divs if d.get("type") == "appendix_numeration"), None)
+if num_div is None:
+    errors.append("numeration div missing")
+else:
+    primary = next((lst for lst in num_div.findall(Q("list")) if lst.get("type") == "primaryCardinals"), None)
+    mult = next((lst for lst in num_div.findall(Q("list")) if lst.get("type") == "multiplicatives"), None)
+    ords = next((lst for lst in num_div.findall(Q("list")) if lst.get("type") == "ordinals"), None)
+    if primary is None or len(primary.findall(Q("item"))) < 30:
+        errors.append("TEI numeration primaryCardinals inventory incomplete")
+    if mult is None or len(mult.findall(Q("item"))) != 10:
+        errors.append("TEI numeration multiplicatives inventory incomplete")
+    if ords is None or len(ords.findall(Q("item"))) != 5:
+        errors.append("TEI numeration ordinals inventory incomplete")
+    for lst in num_div.findall(Q("list")):
+        if lst.get("resp") != "#aiVisualAlignment":
+            errors.append("numeration list lacks AI responsibility pointer")
+
+prayer_div = next((d for d in divs if d.get("type") == "prayer_text"), None)
+if prayer_div is None:
+    errors.append("prayer div missing")
+else:
+    prayer = next((ab for ab in prayer_div.findall(Q("ab")) if ab.get("type") == "visualTranscription"), None)
+    if prayer is None:
+        errors.append("prayer visualTranscription block missing")
+    else:
+        if prayer.get(f"{{{XML}}}lang") != "und" or prayer.get("resp") != "#aiVisualAlignment":
+            errors.append("prayer transcription language/responsibility invalid")
+        if prayer.get("cert") not in {"high", "medium", "low"}:
+            errors.append("prayer transcription confidence invalid")
+        if not (prayer.text or "").strip().endswith("Amen."):
+            errors.append("prayer transcription incomplete")
+
 uncertainty_notes = [n for n in root.findall(f".//{Q('note')}") if n.get("type") == "uncertainty"]
-if len(uncertainty_notes) < 2:
-    errors.append("uncertainty notes missing")
+if len(uncertainty_notes) < 6:
+    errors.append(f"too few explicit uncertainty notes: {len(uncertainty_notes)}")
 
 agent = root.find(f"./{Q('standOff')}/{Q('listPerson')}/{Q('person')}[@{{{XML}}}id='aiVisualAlignment']")
 if agent is None:
@@ -68,4 +101,4 @@ else:
 if errors:
     print("\n".join("ERROR: " + e for e in errors))
     sys.exit(1)
-print("OK: appendix TEI has 24 objects, 22 formula triples / 66 language blocks, confidence and explicit non-human responsibility")
+print("OK: appendix TEI has structured numeration, 22 formula triples / 66 language blocks, AI-transcribed prayer, uncertainty and explicit non-human responsibility")
