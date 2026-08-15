@@ -11,6 +11,7 @@ on:
       - 'scripts/generate_rhd_tei.py'
       - 'scripts/validate_external_iiif_witness.py'
       - 'scripts/generate_release_manifest.py'
+      - 'tests/validate_source_profiles_machine_only.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_appendix_candidates.py'
       - 'tests/validate_trilingual_visual_alignment.py'
@@ -37,6 +38,7 @@ on:
       - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
       - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
       - 'docs/IIIF_READINESS.md'
+      - 'docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md'
       - 'project/completion-model-machine-only.json'
       - '.github/workflows/rhd-canonical.yml'
   push:
@@ -50,6 +52,7 @@ on:
       - 'scripts/generate_rhd_tei.py'
       - 'scripts/validate_external_iiif_witness.py'
       - 'scripts/generate_release_manifest.py'
+      - 'tests/validate_source_profiles_machine_only.py'
       - 'tests/validate_rhd_canonical.py'
       - 'tests/validate_appendix_candidates.py'
       - 'tests/validate_trilingual_visual_alignment.py'
@@ -76,6 +79,7 @@ on:
       - 'docs/MACHINE_ONLY_COMPLETION_MATRIX.md'
       - 'docs/RHD_1_0_MACHINE_ONLY_CONFORMITY.md'
       - 'docs/IIIF_READINESS.md'
+      - 'docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md'
       - 'project/completion-model-machine-only.json'
       - '.github/workflows/rhd-canonical.yml'
 
@@ -95,6 +99,8 @@ jobs:
           python3 -m pip install --disable-pip-version-check jsonschema pillow
           sudo apt-get update -qq
           sudo apt-get install -y -qq jing
+      - name: Validate reusable source profiles enforce machine-only policy
+        run: python3 tests/validate_source_profiles_machine_only.py
       - name: Generate lexical canonical projection
         run: python3 scripts/generate_rhd_canonical.py
       - name: Validate lexical canonical invariants and JSON Schema
