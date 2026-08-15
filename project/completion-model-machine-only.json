@@ -29,7 +29,7 @@
       "label": "Reusable RHD 1.0 architecture and provenance",
       "weight": 15,
       "assessed_percent": 100,
-      "evidence": ["docs/RHD_1_0_SPECIFICATION.md", "schemas/rhd-entry-1.0.schema.json", "source_profiles/steffel-1809.source.json", "source_profiles/_template.source.json", "scripts/generate_rhd_canonical.py"],
+      "evidence": ["docs/RHD_1_0_SPECIFICATION.md", "schemas/rhd-entry-1.0.schema.json", "source_profiles/steffel-1809.source.json", "source_profiles/_template.source.json", "tests/validate_source_profiles_machine_only.py", "scripts/generate_rhd_canonical.py"],
       "completion_gate": "Canonical model, source profiles, provenance and invariant tests are implemented without destructive migration."
     },
     {
@@ -37,9 +37,9 @@
       "label": "TEI/TEI Lex-0/IIIF interoperability",
       "weight": 10,
       "assessed_percent": 80,
-      "evidence": ["scripts/generate_rhd_tei.py", "tests/validate_rhd_tei.py", ".github/workflows/rhd-canonical.yml", "docs/IIIF_READINESS.md"],
-      "note": "The strict Lex-0 projection validates against the official TEI Lex-0 0.9.5 RNG. The rich RHD TEI carries canonical appendix objects, and a separate appendix TEI serializes the parallel text, structured numeration and prayer while Lex-0 remains lexically isolated. Remaining work is stable IIIF facsimile publication and entry-region linking.",
-      "completion_gate": "Lex-0 validation remains green and the real facsimile is linked through stable IIIF-compatible identifiers/images."
+      "evidence": ["scripts/generate_rhd_tei.py", "tests/validate_rhd_tei.py", ".github/workflows/rhd-canonical.yml", "docs/IIIF_READINESS.md", "sources/external-references.json", "data/iiif/steffel-1809-local-page-fingerprints.json", "scripts/validate_external_iiif_witness.py"],
+      "note": "The strict Lex-0 projection validates against the official TEI Lex-0 0.9.5 RNG. The rich RHD TEI carries canonical appendix objects, and a separate appendix TEI serializes the parallel text, structured numeration and prayer while Lex-0 remains lexically isolated. An external Internet Archive IIIF item is automatically verified as a usable but noncanonical parallel witness: perceptual fingerprints show that it must not silently substitute the checksum-fixed working facsimile. Remaining work is a stable IIIF representation of the canonical working facsimile and entry-region linking.",
+      "completion_gate": "Lex-0 validation remains green and the checksum-fixed canonical facsimile is linked through stable IIIF-compatible identifiers/images."
     },
     {
       "id": "diachronic_research",
@@ -65,7 +65,7 @@
       "weight": 5,
       "assessed_percent": 60,
       "evidence": ["CITATION.cff", "DATA_LICENSE.md", "PROVENANCE.md", "CHANGELOG.md", "docs/RELEASE_READINESS_RHD_1_0.md", "scripts/generate_release_manifest.py", "tests/validate_release_manifest.py", "dist/rhd-steffel-release-manifest.json"],
-      "note": "A deterministic release integrity manifest hashes and verifies lexical/canonical data, appendices, visual appendix layers, documentary diachronic scores, TEI/Lex-0 products, schema, source profile and machine-only policy/conformity documentation. Persistent archive/identifier and final stable release remain pending.",
+      "note": "A deterministic release integrity manifest hashes and verifies lexical/canonical data, appendices, visual appendix layers, documentary diachronic scores, TEI/Lex-0 products, schema, source profiles, witness identity evidence and machine-only policy/conformity documentation. Persistent archive/identifier and final stable release remain pending.",
       "completion_gate": "Stable RHD release, integrity manifest, persistent archive/identifier and explicit machine-only conformity statement are published."
     },
     {
@@ -73,7 +73,8 @@
       "label": "End-to-end replication on a second historical source",
       "weight": 5,
       "assessed_percent": 0,
-      "evidence": ["source_profiles/_template.source.json"],
+      "evidence": ["source_profiles/_template.source.json", "source_profiles/tellechea-1826.pilot-candidate.json", "docs/SECOND_SOURCE_PILOT_TELLECHEA_1826.md", "tests/validate_source_profiles_machine_only.py"],
+      "note": "Miguel Joaquín Tellechea's 1826 Compendio gramatical has been selected and profiled as the deliberately different second-source pilot. Candidate selection and pipeline design receive no completion credit: the dimension remains 0% until an exact witness is checksum-fixed and actually traverses the RHD pipeline.",
       "completion_gate": "A real second historical source is ingested end-to-end without fundamental redesign of the RHD core."
     }
   ]
