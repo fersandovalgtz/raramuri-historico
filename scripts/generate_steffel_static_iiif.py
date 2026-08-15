@@ -26,7 +26,7 @@ ENTRIES = ROOT / "data/entries.csv"
 MANIFEST = ROOT / "public/iiif/steffel-1809/manifest.json"
 CANVAS_MAP = ROOT / "public/iiif/steffel-1809/canvas-map.json"
 RECORD_MAP = ROOT / "data/canonical/steffel-1809.iiif-record-map.jsonl"
-SUMMARY = ROOT / "data/canonical/steffel-1809.iiif-linkage-summary.json"
+SUMMARY = ROOT / "data/canonical/steffel-1809.iiif-preparation-summary.json"
 EXPECTED_SHA = "4ccc94aaff1fcc948341a103255f2c3f52dd7b8ca488b6dc79a921b3c9d6244f"
 EXPECTED_PAGES = 84
 EXPECTED_ACTIVE = 1965
@@ -183,7 +183,7 @@ def main():
         encoding="utf-8",
     )
     summary = {
-        "linkage_id": "RHD-S1809-IIIF-PAGE-LINKAGE-01",
+        "linkage_id": "RHD-S1809-IIIF-PAGE-LINKAGE-PREPARATION-01",
         "source_pdf_sha256": EXPECTED_SHA,
         "active_records_expected": EXPECTED_ACTIVE,
         "active_records_canvas_mapped": len(mapped),
