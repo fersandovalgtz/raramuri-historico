@@ -7,17 +7,21 @@
 
 RHD 1.0 adopta IIIF Presentation API 3.0 como objetivo para representar la relación entre el testimonio facsimilar, sus páginas y las capas de transcripción/anotación. La implementación no debe inventar Canvases ni regiones sin una fuente de imagen estable y direccionable.
 
+La validación del witness y de sus correspondencias puede realizarse íntegramente mediante procedimientos computacionales/IA dentro del alcance machine-only. No se requiere intervención humana, pero sí evidencia recuperable, mapeos reproducibles y estados de incertidumbre explícitos.
+
 ## 2. Estado actual del repositorio
 
 El directorio `sources/` conserva el OCR, checksums y documentación de procedencia, pero el facsímil binario/servicio de imágenes no forma parte del repositorio Git. Por tanto, el proyecto puede definir el **modelo lógico IIIF**, pero no publicar honestamente un Manifest plenamente funcional con imágenes y dimensiones verificables hasta fijar el servicio de imagen o URI estable del facsímil.
+
+El PDF de trabajo sí fue cotejado visualmente por IA en su tramo final: **PDF 79–84 corresponde exactamente a las páginas impresas 369–374**. Este mapeo cubre el apéndice numérico, las 22 fórmulas de la *Tarahumarische Sprachprobe* y el Padre Nuestro, y se conserva en `data/appendices/facsimile_page_map.json`.
 
 ## 3. Fuente externa candidata ya localizada
 
 Se localizó un ejemplar digital público del *Tarahumarisches Wörterbuch* en Internet Archive con identificador **`tarahumarischesw00stef`**, procedente de la John Carter Brown Library. El registro declara publicación en 1809, paginación física `[293]–374`, escaneo a 500 ppi y disponibilidad de PDF y archivos JP2.
 
-Internet Archive mantiene actualmente un servicio oficial IIIF 3.0 cuya documentación indica el patrón de Manifest `https://iiif.archive.org/iiif/:id/manifest.json`. Por ello, el identificador anterior ofrece una ruta técnicamente plausible para resolver el bloqueo IIIF sin alojar de inmediato copias propias de todas las imágenes.
+Internet Archive mantiene un servicio IIIF; por ello, el identificador anterior ofrece una ruta técnicamente plausible para resolver el bloqueo sin alojar de inmediato copias propias de todas las imágenes.
 
-**Antes de fijar esa dependencia en RHD**, deben comprobarse tres cosas: que el Manifest del identificador sea recuperable de forma estable, que sus Canvases correspondan al mismo testimonio/paginación usado por el proyecto y que la relación con `pdf_page` pueda documentarse sin desplazamientos ambiguos. Hasta entonces, la URI se considera una fuente candidata y no una dependencia canónica.
+**Antes de fijar esa dependencia en RHD**, deben comprobarse de manera reproducible tres cosas: que el Manifest del identificador sea recuperable de forma estable, que sus Canvases correspondan al mismo testimonio/paginación usado por el proyecto y que la relación con `pdf_page` pueda documentarse sin desplazamientos ambiguos. Hasta entonces, la URI se considera una fuente candidata y no una dependencia canónica.
 
 ## 4. Mapeo RHD → IIIF previsto
 
@@ -44,7 +48,7 @@ Estos campos deben permanecer `null` mientras no exista evidencia espacial verif
 
 1. Verificar y fijar el Manifest/servicio de imágenes del witness externo o, en su defecto, desplegar un servicio controlado por el proyecto.
 2. Determinar dimensiones de cada página digital.
-3. Crear mapeo reproducible `pdf_page ↔ Canvas` y `printed_page ↔ Canvas`.
+3. Crear mapeo reproducible `pdf_page ↔ Canvas` y `printed_page ↔ Canvas` para el witness completo.
 4. Generar/usar Annotation Pages de `painting` para las imágenes.
 5. Incorporar coordenadas de región sólo cuando provengan de segmentación real y verificable.
 6. Validar el Manifest contra Presentation API 3.0 y probarlo en al menos un visor IIIF.
@@ -52,12 +56,14 @@ Estos campos deben permanecer `null` mientras no exista evidencia espacial verif
 
 ## 7. Lo que sí puede automatizarse antes de cerrar el witness
 
+- verificación automática de existencia y estructura del Manifest externo;
+- comparación de secuencia/paginación contra el PDF de trabajo;
 - generador de identificadores deterministas de Canvas;
-- tabla de correspondencia entre página impresa y página digital;
+- tabla de correspondencia entre página impresa, página PDF y Canvas;
 - esquema de Annotation Page;
 - pruebas que prohíban publicar `iiif_canvas`/`iiif_target` sin URI HTTP(S) real;
 - documentación de cómo una segunda fuente debe declarar su estrategia facsimilar.
 
 ## 8. Criterio de cierre
 
-La dimensión IIIF no se marcará como completa por tener un JSON sintácticamente correcto. Se cerrará cuando exista una representación navegable del facsímil real, con Canvases persistentes, imágenes recuperables y vínculos reproducibles desde las entradas RHD hacia las páginas o regiones que constituyen su evidencia documental.
+La dimensión IIIF no se marcará como completa por tener un JSON sintácticamente correcto. Se cerrará cuando exista una representación navegable del facsímil real, con Canvases persistentes, imágenes recuperables y vínculos reproducibles desde las entradas RHD hacia las páginas o regiones que constituyen su evidencia documental. No se exige validación humana; sí consistencia automatizada y trazabilidad completa.
