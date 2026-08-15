@@ -6,6 +6,11 @@ on:
     branches: [main]
     paths:
       - 'public/**'
+      - 'scripts/build_steffel_canonical_iiif.py'
+      - 'tests/validate_steffel_canonical_iiif.py'
+      - 'data/appendices/facsimile_page_map.json'
+      - 'source_profiles/steffel-1809.source.json'
+      - '.github/workflows/pages.yml'
 
 permissions:
   contents: read
@@ -25,6 +30,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install canonical IIIF build dependencies
+        run: |
+          python3 -m pip install --disable-pip-version-check pillow pypdf
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+      - name: Build canonical Steffel IIIF from exact public checksum-fixed PDF
+        run: python3 scripts/build_steffel_canonical_iiif.py public
+      - name: Validate canonical 84-Canvas IIIF package before publication
+        run: python3 tests/validate_steffel_canonical_iiif.py
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static site
