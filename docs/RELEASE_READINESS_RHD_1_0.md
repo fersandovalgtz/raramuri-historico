@@ -1,11 +1,14 @@
 # Preparación de release científico RHD 1.0 — Steffel
 
 **Corte:** 15 de agosto de 2026  
+**Alcance:** edición histórico-digital computacional e IA-asistida, sin intervención humana de adjudicación.  
 **Estado:** prerelease científico; no declarar 1.0 final todavía.
 
-## Gates que ya están satisfechos
+La política de alcance vigente es `docs/MACHINE_ONLY_SCIENTIFIC_POLICY.md`. La ausencia de revisión humana no es un defecto pendiente del release: es una decisión metodológica explícita. Ningún artefacto puede presentar resultados IA-asistidos como `human_verified`.
 
-### G1. Cobertura documental del cuerpo lexicográfico
+## Gates ya satisfechos
+
+### G1. Cobertura documental del cuerpo lexicográfico — cerrado
 
 - 2,495 candidatos con disposición editorial IA-asistida.
 - 1,965 artículos activos.
@@ -13,7 +16,7 @@
 - 1,965 transcripciones diplomáticas IA-asistidas.
 - Ningún lote automático de frontera o recotejo PHIL pendiente.
 
-### G2. Modelo reusable
+### G2. Modelo reusable — cerrado
 
 - Especificación RHD 1.0.
 - JSON Schema canónico.
@@ -22,73 +25,87 @@
 - Adaptador no destructivo `Steffel -> RHD canonical`.
 - Procedencia explícita para OCR, segmentación, diplomática y PHIL.
 
-### G3. Interoperabilidad lexicográfica mínima
+### G3. Interoperabilidad lexicográfica mínima — cerrado
 
 - Edición TEI RHD rica separada de la proyección interoperable.
 - Proyección TEI Lex-0 estricta.
 - Validación automatizada contra el RNG oficial TEI Lex-0 0.9.5 en CI.
 - Prohibición testada de fabricar `<def>` desde material no estructurado.
+- Los anexos RHD permanecen fuera de la proyección Lex-0 estricta.
 
-### G4. Preparación de revisión humana
+### G4. Recotejo y contabilidad de incertidumbre sin intervención humana — cerrado
 
-- 482 problemas abiertos recotejados IA-asistidamente.
-- Priorización 46 / 152 / 284.
-- Paquetes independientes preparados con decisiones en blanco.
-- Protocolo que separa evaluación filológica, lingüística, semántico-histórica y disciplinar.
+Los 482 problemas explícitos tienen estado computacional terminal y trazable:
 
-### G5. Capa diacrónica no adjudicativa
+- 284 `confirmed_ai_assisted`;
+- 152 `corrected_ai_assisted`;
+- 46 `unresolved_after_ai_recollation`.
+
+`unresolved_after_ai_recollation` es un estado final legítimo dentro del alcance machine-only. La edición no debe forzar una lectura única donde la evidencia visual no la sostenga.
+
+Los paquetes de revisión humana ya creados se conservan únicamente como artefactos históricos/opcionales; no pertenecen al camino crítico ni a la CI de release.
+
+### G5. Capa diacrónica no adjudicativa — cerrada como infraestructura
 
 - 298 candidatos representados como relaciones derivadas.
 - Los estados permanecen `candidate`.
 - No existe promoción automática a cognación, equivalencia semántica o continuidad histórica.
+- La investigación computacional adicional puede refinar ranking y evidencia sin convertir candidatos en hechos históricos.
 
 ## Gates todavía abiertos
 
-### G6. Revisión humana crítica — bloqueante
+### G6. Apéndices y muestra paralela — parcialmente abierto
 
-**Estado:** 0/482 revisados independientemente.
+Ya están cerrados:
 
-Requisito de cierre: definir el universo humano mínimo del release y completar la revisión de ese universo o mantener explícitamente los casos como irresolubles. Las decisiones adoptadas deben vivir en una capa crítica derivada y no sobrescribir la diplomática.
+- detección estructural OCR del apéndice de numeración;
+- secuencia de 22 fórmulas;
+- Padre Nuestro como objeto separado;
+- cotejo visual IA de la frontera completa del apéndice;
+- mapeo facsimilar exacto `PDF 79–84 ↔ impreso 369–374`;
+- capa canónica de 24 objetos: 1 numeración + 22 fórmulas + 1 oración;
+- integración de esos objetos en la TEI RHD rica sin contaminación de Lex-0.
 
-### G7. Apéndices — bloqueante para edición Steffel integral
+Falta para cierre:
 
-Existe segmentación OCR candidata para numeración, 22 fórmulas trilingües y Padre Nuestro. Falta:
+- mejorar la transcripción diplomática IA de los textos del apéndice, especialmente donde el OCR es defectuoso;
+- separar/alinear de forma computacional las líneas latinas, alemanas y tarahumaras de las 22 fórmulas;
+- conservar incertidumbre de lectura a nivel de campo cuando sea necesario.
 
-- cotejo facsimilar;
-- transcripción diplomática;
-- alineación de las tres lenguas;
-- integración canónica y TEI.
+### G7. IIIF — abierto
 
-### G8. IIIF — abierto
+Existe modelo lógico y campos reservados. El repositorio Git no contiene la imagen/facsímil. Existe un ejemplar digital externo identificado como Internet Archive `tarahumarischesw00stef`; antes de fijarlo como dependencia canónica deben verificarse el Manifest IIIF real, la correspondencia con el witness de trabajo y la estabilidad de las URIs.
 
-Existe modelo lógico y campos reservados. El repositorio Git no contiene la imagen/facsímil. Existe un ejemplar digital externo identificado como Internet Archive `tarahumarischesw00stef`; antes de fijarlo como dependencia de release deben verificarse el Manifest IIIF real, la correspondencia de páginas con el witness de trabajo y la estabilidad de las URIs.
+Ya está comprobado localmente el mapeo de las páginas finales del PDF de trabajo: 79–84 corresponden a 369–374. La misma estrategia debe extenderse al witness completo cuando se cierre IIIF.
 
-### G9. Release/archivo — abierto
+### G8. Release, integridad y archivo — parcialmente abierto
 
-Antes de 1.0 final:
+Ya existe un generador determinista de manifiesto de integridad de release y una prueba que recomputa hashes, tamaños y conteos. El manifiesto incluye las capas lexicales, anexos canónicos, TEI, Lex-0, políticas, esquema y perfil de fuente.
 
-- actualizar `CHANGELOG.md`;
+Falta:
+
+- actualizar `CHANGELOG.md` y `CITATION.cff` para el release candidato;
 - fijar versión y commit;
-- regenerar exportaciones/manifest de integridad;
-- generar release GitHub;
+- generar release GitHub estable;
 - depositar dataset/software y obtener identificador persistente apropiado;
-- registrar DOI/URI en `CITATION.cff` y documentación;
-- comprobar archivo de software;
-- publicar declaración de conformidad y limitaciones.
+- comprobar archivo de software/datos;
+- publicar declaración de conformidad y limitaciones machine-only.
 
-### G10. Replicabilidad externa — bloqueante para declarar el método industrializado
+### G9. Replicabilidad externa — bloqueante para declarar el método industrializado
 
 La plantilla reusable existe, pero se requiere una segunda fuente histórica real procesada de extremo a extremo. La prueba debe documentar:
 
 - qué componentes se reutilizaron sin cambios;
 - qué parámetros residieron sólo en el perfil de fuente;
 - qué modificaciones al núcleo fueron realmente inevitables;
-- si los IDs, procedencia, revisión, canonicalización y exportaciones funcionaron sin rediseño conceptual.
+- si IDs, procedencia, canonicalización, anexos y exportaciones funcionaron sin rediseño conceptual.
 
 ## Política de nomenclatura de releases
 
-Hasta cerrar G6, G7, G8/G9 y G10, no se recomienda llamar al conjunto **RHD 1.0 final**. Pueden publicarse prereleases o versiones 0.x claramente etiquetadas, siempre declarando la cobertura documental alcanzada y las validaciones todavía pendientes.
+No se debe llamar al conjunto **“edición crítica humanamente validada”**. La designación correcta es **edición histórico-digital computacional / IA-asistida**.
+
+El release RHD 1.0 final podrá cerrarse sin revisión humana si G6–G9 quedan resueltos y todos los estados de incertidumbre siguen siendo explícitos, trazables y no destructivos.
 
 ## Criterio de decisión
 
-El release 1.0 final no depende de alcanzar una apariencia de “100% de certeza lingüística”. Depende de que todas las afirmaciones publicadas tengan estado epistemológico, procedencia y alcance verificables, y de que la infraestructura haya demostrado ser reusable con otra fuente real.
+El release 1.0 no exige una ficción de certeza total. Exige que cada afirmación tenga procedencia, método y estado epistemológico verificables; que los artefactos sean reproducibles e íntegros; y que el pipeline haya demostrado reutilización real sobre una segunda fuente histórica.
