@@ -2,16 +2,26 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "name": "Rarámuri Histórico Digital",
-  "version": "0.1.0-mvp",
+  "alternateName": "RHD — Corpus Steffel 1791/1809",
+  "version": "1.0.0",
   "dateCreated": "2026-08-11",
-  "description": "Infraestructura abierta para lexicografía histórica rarámuri; primera colección: Corpus Steffel 1791/1809.",
+  "datePublished": "2026-08-15",
+  "description": "Research software and reproducible data/provenance infrastructure for a machine-only historical-digital scholarly edition of Matthäus Steffel's Tarahumarisches Wörterbuch (1809), preserving source evidence, explicit uncertainty, TEI/TEI Lex-0 representations and IIIF links.",
   "codeRepository": "https://github.com/fersandovalgtz/raramuri-historico",
+  "url": "https://raramuri-historico.pages.dev",
   "license": "https://spdx.org/licenses/MIT.html",
   "author": {
     "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-3168-6725",
     "givenName": "Fernando",
     "familyName": "Sandoval Gutierrez",
-    "@id": "https://orcid.org/0000-0002-3168-6725"
+    "url": "https://github.com/fersandovalgtz"
+  },
+  "maintainer": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-3168-6725",
+    "givenName": "Fernando",
+    "familyName": "Sandoval Gutierrez"
   },
   "programmingLanguage": [
     "Python",
@@ -23,8 +33,24 @@
   "keywords": [
     "Rarámuri",
     "Tarahumara",
+    "Matthäus Steffel",
+    "Tarahumarisches Wörterbuch",
     "historical lexicography",
     "digital humanities",
-    "indigenous languages"
-  ]
+    "indigenous languages",
+    "research software",
+    "research data",
+    "TEI",
+    "TEI Lex-0",
+    "IIIF",
+    "provenance",
+    "reproducibility"
+  ],
+  "relatedLink": [
+    "https://github.com/fersandovalgtz/raramuri-digital",
+    "https://raramuri.ceees.mx",
+    "https://orcid.org/0000-0002-3168-6725",
+    "https://github.com/fersandovalgtz"
+  ],
+  "citation": "https://github.com/fersandovalgtz/raramuri-historico/blob/main/CITATION.cff"
 }
