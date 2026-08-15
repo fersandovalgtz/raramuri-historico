@@ -25,15 +25,32 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Materialize exact-witness Steffel PNG72 package on RHD branch
+      - name: Materialize and verify exact-witness Steffel PNG72 package on RHD branch
         if: github.ref == 'refs/heads/rhd-1.0-specification'
         run: |
           set -euo pipefail
           payload=data/iiif/steffel-1809-pages-png72.tar.gz
-          echo 'fa7cb36b26907b35e37b1d1bbad762b4ea0142535cb7174a2ff299c96c0f2e12  '"$payload" | sha256sum -c -
+          tar -tzf "$payload" >/dev/null
           mkdir -p public/iiif/steffel-1809/images
           rm -f public/iiif/steffel-1809/images/*.png
           tar -xzf "$payload" -C public/iiif/steffel-1809/images
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root=Path('public/iiif/steffel-1809/images')
+          inv=json.loads(Path('data/iiif/steffel-1809-published-png72-assets.json').read_text(encoding='utf-8'))
+          assets=inv['assets']
+          assert len(assets)==84
+          actual=sorted(root.glob('*.png'))
+          assert len(actual)==84, len(actual)
+          for item in assets:
+              p=root/item['filename']
+              assert p.exists(), item['filename']
+              b=p.read_bytes()
+              assert len(b)==item['bytes'], (item['filename'], len(b), item['bytes'])
+              assert hashlib.sha256(b).hexdigest()==item['sha256'], item['filename']
+          print('OK: 84/84 PNG publication assets match versioned byte-level inventory')
+          PY
 
       - name: Enforce complete Steffel IIIF publication package on RHD branch
         if: github.ref == 'refs/heads/rhd-1.0-specification'
@@ -41,14 +58,12 @@ jobs:
           set -euo pipefail
           test -f public/iiif/steffel-1809/manifest.json
           test -f public/iiif/steffel-1809/canvas-map.json
-          count=$(find public/iiif/steffel-1809/images -maxdepth 1 -type f -name '*.png' | wc -l)
-          test "$count" -eq 84
           python3 - <<'PY'
           import json
           from pathlib import Path
           manifest=json.loads(Path('public/iiif/steffel-1809/manifest.json').read_text(encoding='utf-8'))
           assert len(manifest.get('items', [])) == 84, len(manifest.get('items', []))
-          print('OK: complete Steffel IIIF package: 84 PNG + 84 Canvases')
+          print('OK: complete Steffel IIIF package: 84 exact-inventory PNG + 84 Canvases')
           PY
 
       - name: Configure Pages
