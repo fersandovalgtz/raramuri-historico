@@ -30,8 +30,26 @@ if len(numeration) != 1 or len(formulas) != 22 or len(prayers) != 1:
     errors.append(f"object type counts wrong: numeration={len(numeration)}, formulas={len(formulas)}, prayers={len(prayers)}")
 if [x.get("sequence") for x in formulas] != list(range(1, 23)):
     errors.append("formula sequence is not exactly 1..22")
-if data.get("counts", {}).get("machine_aligned_parallel_formulas") != 22:
+counts = data.get("counts", {})
+if counts.get("machine_aligned_parallel_formulas") != 22:
     errors.append("canonical counts must report 22 machine-aligned formulas")
+if counts.get("machine_structured_numeration_sections") != 1:
+    errors.append("canonical counts must report one machine-structured numeration section")
+if counts.get("machine_transcribed_prayer_texts") != 1:
+    errors.append("canonical counts must report one machine-transcribed prayer")
+
+num = numeration[0] if numeration else {}
+if num.get("machine_structure_complete") is not True:
+    errors.append("numeration machine structure not complete")
+num_layer = num.get("layers", {}).get("structured_numeration", {})
+if num_layer.get("status") != "machine_structured_candidate" or num_layer.get("human_verified") is not False:
+    errors.append("numeration structured layer status invalid")
+if len(num_layer.get("primary_cardinals", [])) < 30:
+    errors.append("numeration canonical layer lost primary cardinal inventory")
+if len(num_layer.get("multiplicatives", [])) != 10:
+    errors.append("numeration canonical layer lost multiplicative inventory")
+if len(num_layer.get("ordinals", [])) != 5:
+    errors.append("numeration canonical layer lost ordinal inventory")
 
 expected_page = {}
 for i in range(1, 23):
@@ -65,6 +83,17 @@ for item in formulas:
     if confidence.get("und") == "low" and not alignment.get("uncertain_segments"):
         errors.append(f"formula {n}: low-confidence Tarahumara lacks uncertainty note")
 
+prayer = prayers[0] if prayers else {}
+if prayer.get("machine_transcription_complete") is not True:
+    errors.append("prayer machine transcription not complete")
+prayer_layer = prayer.get("layers", {}).get("visual_transcription", {})
+if prayer_layer.get("status") != "ai_visual_transcription_candidate" or prayer_layer.get("human_verified") is not False:
+    errors.append("prayer visual transcription status invalid")
+if not (prayer_layer.get("text") or "").strip().endswith("Amen."):
+    errors.append("prayer visual transcription missing or incomplete")
+if not prayer_layer.get("uncertain_segments"):
+    errors.append("prayer visual transcription lost uncertainty inventory")
+
 mapping = data.get("facsimile_mapping", {}).get("mapping", [])
 expected_mapping = [(79,369),(80,370),(81,371),(82,372),(83,373),(84,374)]
 if [(x.get("pdf_page"), x.get("printed_page")) for x in mapping] != expected_mapping:
@@ -73,4 +102,4 @@ if [(x.get("pdf_page"), x.get("printed_page")) for x in mapping] != expected_map
 if errors:
     print("\n".join("ERROR: " + e for e in errors))
     sys.exit(1)
-print("OK: canonical appendix layer has 24 machine-only objects, 22 la/de/und AI-aligned formulas and exact facsimile page mapping")
+print("OK: canonical appendix layer has structured numeration, 22 la/de/und AI-aligned formulas, AI-transcribed prayer and exact facsimile mapping")
