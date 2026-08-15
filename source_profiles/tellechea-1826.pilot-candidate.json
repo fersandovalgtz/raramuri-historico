@@ -1,5 +1,5 @@
 {
-  "profile_version": "0.3.0-minimal-end-to-end-pilot",
+  "profile_version": "0.4.0-full-witness-industrialization",
   "rhd_core_version": "1.0-draft",
   "source_id": "RHD-SRC-TELLECHEA-1826",
   "source_code": "TELLECHEA-1826",
@@ -13,11 +13,11 @@
   "project_role": "second_source_replicability_pilot",
   "edition_scope": "machine_only_scholarly_edition",
   "human_adjudication_required": false,
-  "pilot_status": "minimal_end_to_end_pilot_complete_full_witness_pending",
+  "pilot_status": "full_witness_documentary_traversal_complete",
   "selection_rationale": [
     "historical Tarahumara source published only 17 years after Steffel",
     "structurally different from Steffel: grammar plus long Spanish–Tarahumara parallel religious/discourse material rather than a bidirectional dictionary",
-    "public-domain 1826 publication with a reproducible public PDF now fixed by SHA-256",
+    "public-domain 1826 publication with a reproducible public PDF fixed by SHA-256",
     "strong stress test for whether RHD core entities and provenance remain reusable beyond dictionary articles"
   ],
   "public_references": [
@@ -122,18 +122,36 @@
     "parallel_locator": {"pdf_page": 75, "printed_page": 49},
     "human_validation_claimed": false
   },
+  "full_witness_pilot_outputs": {
+    "generator": "scripts/generate_tellechea_full_pilot.py",
+    "validator": "tests/validate_tellechea_full_pilot.py",
+    "canonical_jsonl": "data/pilot/tellechea-1826.full-witness.jsonl",
+    "tei": "data/pilot/tellechea-1826.full-witness.tei.xml",
+    "diagnostics": "data/pilot/tellechea-1826.full-witness.diagnostics.json",
+    "record_count": 205,
+    "coverage": "205_of_205_pdf_pages",
+    "generated_in_ci": true,
+    "artifact_name": "tellechea-1826-full-witness-rhd-pilot",
+    "first_successful_run_id": 31887068250,
+    "first_successful_artifact_id": 9247575047,
+    "first_successful_artifact_sha256": "fb0fbf4b64c9978e97212951778e6843c21b3d64e7308e37b7dfbab34a6d13f8",
+    "rhd_core_changes_required": 0,
+    "lex0_entries_generated": 0,
+    "human_validation_claimed": false
+  },
   "pilot_success_criteria": [
     "exact witness is checksum-fixed",
     "document hierarchy is represented without changing RHD core identity/provenance concepts",
     "at least one grammar/example section and one Spanish–Tarahumara parallel section complete the full machine-only pipeline",
+    "complete declared 205-page witness traverses the documentary pipeline as persistent RHD units",
     "parallel text is exported without coercing it into Lex-0 dictionary entries",
-    "uncertainty and AI responsibility remain explicit",
+    "uncertainty and machine responsibility remain explicit",
     "source-specific rules reside in this profile or a source adapter rather than in the universal core",
     "CI demonstrates reproducible generation from source evidence to canonical/TEI outputs"
   ],
   "completion_credit": {
     "counts_toward_second_source_end_to_end_gate": true,
-    "completes_second_source_end_to_end_gate": false,
-    "reason": "A real grammar unit and a real two-column Spanish–Tarahumara prayer unit now traverse checksum verification, embedded-source extraction, independent facsimile OCR, canonical RHD validation and TEI export in CI. Full-witness processing and change-impact analysis remain required before the industrialization gate is closed."
+    "completes_second_source_end_to_end_gate": true,
+    "reason": "The checksum-fixed 205-page DGB witness now traverses the declared RHD documentary pipeline in CI: all 205 pages receive stable canonical documentary units, the output validates against the same RHD JSON Schema, a complete documentary TEI is generated, source-specific behavior remains in the adapter/profile, Lex-0 fabrication is zero, universal-core redesign is zero, and no human validation is claimed. This closes the RHD industrialization gate; it does not claim a human-adjudicated critical edition of Tellechea."
   }
 }
