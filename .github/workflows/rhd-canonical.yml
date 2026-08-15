@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'scripts/generate_rhd_canonical.py'
+      - 'scripts/enrich_canonical_iiif_locators.py'
       - 'scripts/generate_appendix_candidates.py'
       - 'scripts/generate_appendix_canonical.py'
       - 'scripts/generate_appendix_tei.py'
@@ -19,6 +20,7 @@ on:
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_source_profiles_machine_only.py'
       - 'tests/validate_steffel_canonical_iiif.py'
+      - 'tests/validate_canonical_iiif_linkage.py'
       - 'tests/validate_tellechea_pilot.py'
       - 'tests/validate_tellechea_full_pilot.py'
       - 'tests/validate_rhd_canonical.py'
@@ -57,6 +59,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/generate_rhd_canonical.py'
+      - 'scripts/enrich_canonical_iiif_locators.py'
       - 'scripts/generate_appendix_candidates.py'
       - 'scripts/generate_appendix_canonical.py'
       - 'scripts/generate_appendix_tei.py'
@@ -72,6 +75,7 @@ on:
       - 'scripts/generate_release_manifest.py'
       - 'tests/validate_source_profiles_machine_only.py'
       - 'tests/validate_steffel_canonical_iiif.py'
+      - 'tests/validate_canonical_iiif_linkage.py'
       - 'tests/validate_tellechea_pilot.py'
       - 'tests/validate_tellechea_full_pilot.py'
       - 'tests/validate_rhd_canonical.py'
@@ -167,6 +171,10 @@ jobs:
           if-no-files-found: error
       - name: Generate lexical canonical projection
         run: python3 scripts/generate_rhd_canonical.py
+      - name: Enrich canonical records with stable IIIF page Canvases
+        run: python3 scripts/enrich_canonical_iiif_locators.py
+      - name: Validate active-record to canonical Canvas linkage
+        run: python3 tests/validate_canonical_iiif_linkage.py
       - name: Validate lexical canonical invariants and JSON Schema
         run: python3 tests/validate_rhd_canonical.py
       - name: Generate appendix OCR candidates
