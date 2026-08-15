@@ -2,18 +2,21 @@
 """Generate a non-destructive RHD 1.0 canonical projection from Steffel 0.2.0.
 
 This adapter deliberately preserves data/entries.csv as the operational master.
-It does not adjudicate semantics, morphology, cognacy, or human validation.
+It joins append-only RHD-PHIL manifests as explicit AI-assisted validation events,
+without adjudicating semantics, morphology, cognacy, or human verification.
 """
 
 from __future__ import annotations
 
 from pathlib import Path
+from collections import Counter, defaultdict
 import csv
 import json
 
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "data" / "entries.csv"
 PROFILE_PATH = ROOT / "source_profiles" / "steffel-1809.source.json"
+PHIL_DIR = ROOT / "data" / "validation" / "review"
 OUT_DIR = ROOT / "data" / "canonical"
 OUT_JSONL = OUT_DIR / "steffel-1809.entries.jsonl"
 OUT_SUMMARY = OUT_DIR / "steffel-1809.summary.json"
@@ -113,10 +116,10 @@ def make_forms(row: dict[str, str]) -> list[dict]:
 
 
 def make_senses(row: dict[str, str]) -> list[dict]:
-    """Only project explicitly editorial translations here.
+    """Project only explicit editorial translations.
 
-    definition_raw is intentionally NOT promoted automatically to a semantic <sense>
-    because its documentary role varies by lexicographic direction and article structure.
+    definition_raw is intentionally NOT promoted automatically to a semantic sense
+    because its documentary role varies by direction and article microstructure.
     """
     translation = text(row.get("translation_es_editorial"))
     if not translation:
@@ -161,7 +164,79 @@ def make_notes(row: dict[str, str]) -> list[dict]:
     return notes
 
 
-def make_provenance(profile: dict, row: dict[str, str], status: str) -> list[dict]:
+def load_phil_events() -> tuple[dict[str, list[dict]], dict[str, dict], Counter]:
+    """Read append-only PHIL manifests and index them by persistent record_id."""
+    by_record: dict[str, list[dict]] = defaultdict(list)
+    batch_meta: dict[str, dict] = {}
+    disposition_counts: Counter = Counter()
+
+    for path in sorted(PHIL_DIR.glob("philological_review_batch_*.json")):
+        manifest = json.loads(path.read_text(encoding="utf-8"))
+        batch_id = text(manifest.get("batch_id")) or path.stem
+        batch_meta[batch_id] = {
+            "review_date": text(manifest.get("review_date")) or None,
+            "review_method": text(manifest.get("review_method")) or "ai_assisted_philological_recollation",
+            "source_authority": text(manifest.get("source_authority")) or None,
+            "human_verified": manifest.get("human_verified") is True,
+            "philologically_verified_by_human": manifest.get("philologically_verified_by_human") is True,
+            "linguistically_verified": manifest.get("linguistically_verified") is True,
+            "manifest_path": path.relative_to(ROOT).as_posix(),
+        }
+        for record in manifest.get("records", []):
+            rid = text(record.get("record_id"))
+            if not rid:
+                continue
+            disposition = text(record.get("disposition")) or "unresolved"
+            disposition_counts[disposition] += 1
+            by_record[rid].append(
+                {
+                    "batch_id": batch_id,
+                    "manifest_path": path.relative_to(ROOT).as_posix(),
+                    "review_date": batch_meta[batch_id]["review_date"],
+                    "review_method": batch_meta[batch_id]["review_method"],
+                    "source_authority": batch_meta[batch_id]["source_authority"],
+                    "disposition": disposition,
+                    "confirmed_reading": text(record.get("confirmed_reading")) or None,
+                    "previous_reading": text(record.get("previous_reading")) or None,
+                    "proposed_reading": text(record.get("proposed_reading")) or None,
+                    "correction_scope": text(record.get("correction_scope")) or None,
+                    "residual_route": text(record.get("residual_route")) or None,
+                    "note": text(record.get("note")) or None,
+                    "printed_page": integer_or_none(record.get("printed_page")),
+                }
+            )
+    return by_record, batch_meta, disposition_counts
+
+
+def make_phil_validation_event(profile: dict, row: dict[str, str], event: dict) -> dict:
+    evidence = [witness_pointer(profile, row), event["manifest_path"]]
+    if event.get("source_authority"):
+        evidence.append(f"source_authority: {event['source_authority']}")
+    if event.get("confirmed_reading"):
+        evidence.append(f"confirmed_reading: {event['confirmed_reading']}")
+    if event.get("previous_reading"):
+        evidence.append(f"previous_reading: {event['previous_reading']}")
+    if event.get("proposed_reading"):
+        evidence.append(f"proposed_reading: {event['proposed_reading']}")
+    if event.get("correction_scope"):
+        evidence.append(f"correction_scope: {event['correction_scope']}")
+    if event.get("residual_route"):
+        evidence.append(f"residual_route: {event['residual_route']}")
+
+    return {
+        "event_id": f"{event['batch_id']}:{row['record_id']}",
+        "scope": "philological",
+        "decision": event["disposition"],
+        "reviewer_type": "ai_assisted",
+        "agent_id": None,
+        "date": event.get("review_date"),
+        "evidence": evidence,
+        "justification": event.get("note"),
+        "confidence": None,
+    }
+
+
+def make_provenance(profile: dict, row: dict[str, str], status: str, phil_events: list[dict]) -> list[dict]:
     rid = row["record_id"]
     ocr_pointer = source_pointer(row)
     witness = witness_pointer(profile, row)
@@ -207,10 +282,25 @@ def make_provenance(profile: dict, row: dict[str, str], status: str) -> list[dic
                 "software_version": None,
             }
         )
+
+    for event in phil_events:
+        events.append(
+            {
+                "activity_id": event["batch_id"],
+                "activity_type": "ai_assisted_philological_recollation",
+                "generated_entity": f"{rid}#validation/{event['batch_id']}",
+                "used_entities": [witness, f"{rid}#layers.diplomatic", event["manifest_path"]],
+                "agent_id": None,
+                "agent_type": "ai_system",
+                "method": event.get("review_method") or "ai_assisted_philological_recollation",
+                "timestamp": None,
+                "software_version": None,
+            }
+        )
     return events
 
 
-def convert(profile: dict, row: dict[str, str]) -> dict:
+def convert(profile: dict, row: dict[str, str], phil_events: list[dict]) -> dict:
     rid = row["record_id"]
     status = canonical_status(row)
     rejected = status == "rejected_boundary"
@@ -223,6 +313,7 @@ def convert(profile: dict, row: dict[str, str]) -> dict:
         "senses": make_senses(row),
         "cross_references": [],
     }
+    validation = [make_phil_validation_event(profile, row, event) for event in phil_events]
 
     canonical = {
         "record_id": rid,
@@ -283,14 +374,14 @@ def convert(profile: dict, row: dict[str, str]) -> dict:
             "normalized": None,
         },
         "lexical": lexical,
-        "validation": [],
+        "validation": validation,
         "historical_relations": [],
-        "provenance": make_provenance(profile, row, status),
+        "provenance": make_provenance(profile, row, status, phil_events),
         "notes": notes,
     }
 
-    # Preserve the epistemic boundary explicitly. A flat source flag cannot create
-    # a synthetic human validation event; that must be joined from an actual review manifest.
+    # A flat source flag cannot create a synthetic human validation event; a real
+    # human review manifest must be joined before any reviewer_type=human event exists.
     if boolish(row.get("human_verified")):
         canonical["notes"].append(
             {
@@ -306,13 +397,15 @@ def convert(profile: dict, row: dict[str, str]) -> dict:
 def main() -> None:
     profile = json.loads(PROFILE_PATH.read_text(encoding="utf-8"))
     rows = list(csv.DictReader(INPUT.open(encoding="utf-8")))
-    canonical = [convert(profile, row) for row in rows]
+    phil_by_record, batch_meta, disposition_counts = load_phil_events()
+    canonical = [convert(profile, row, phil_by_record.get(row["record_id"], [])) for row in rows]
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     with OUT_JSONL.open("w", encoding="utf-8") as fh:
         for item in canonical:
             fh.write(json.dumps(item, ensure_ascii=False, separators=(",", ":")) + "\n")
 
+    all_validation = [event for item in canonical for event in item["validation"]]
     summary = {
         "dataset": "raramuri-historico-steffel-1809",
         "rhd_core_version": profile["rhd_core_version"],
@@ -324,15 +417,20 @@ def main() -> None:
         "open_validation_notes": sum(
             any(n.get("status") == "open_validation" for n in x["notes"]) for x in canonical
         ),
-        "human_validation_events": sum(
-            any(v.get("reviewer_type") == "human" for v in x["validation"]) for x in canonical
+        "philological_ai_validation_events": sum(
+            v.get("scope") == "philological" and v.get("reviewer_type") == "ai_assisted"
+            for v in all_validation
         ),
-        "scope": "non-destructive documentary projection; PHIL/human validation manifests are not yet joined",
+        "philological_ai_batches": sorted(batch_meta),
+        "philological_ai_dispositions": dict(sorted(disposition_counts.items())),
+        "human_validation_events": sum(v.get("reviewer_type") == "human" for v in all_validation),
+        "scope": "non-destructive documentary projection with RHD-PHIL AI-assisted events joined; independent human review remains separate and absent until real review manifests exist",
     }
     OUT_SUMMARY.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
         f"generated {len(canonical)} RHD canonical records: "
-        f"{summary['active']} active, {summary['rejected_boundary']} rejected boundaries"
+        f"{summary['active']} active, {summary['rejected_boundary']} rejected boundaries, "
+        f"{summary['philological_ai_validation_events']} PHIL events"
     )
 
 
