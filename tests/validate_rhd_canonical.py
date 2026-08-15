@@ -21,6 +21,7 @@ PROFILE_PATH = ROOT / "source_profiles" / "steffel-1809.source.json"
 INVENTORY_PATH = ROOT / "data" / "corpus_inventory.json"
 VALIDATION_PROGRESS = ROOT / "data" / "validation" / "validation_progress.json"
 PHIL_DIR = ROOT / "data" / "validation" / "review"
+DIACHRONIC_QUEUE = ROOT / "data" / "research" / "diachronic_semantic_context_queue.json"
 
 errors = []
 
@@ -66,6 +67,29 @@ def load_expected_phil():
     return expected, batches, dispositions
 
 
+def load_expected_relations():
+    queue = json.loads(DIACHRONIC_QUEUE.read_text(encoding="utf-8"))
+    expected = {}
+    signals = Counter()
+    for rec in queue.get("records", []):
+        historical = rec.get("historical", {})
+        modern = rec.get("modern", {})
+        signal = rec.get("machine_context_signal", {})
+        independent = rec.get("independent_review", {})
+        relation_id = rec.get("semantic_context_id") or rec.get("source_candidate_id")
+        if relation_id in expected:
+            errors.append(f"duplicate diachronic relation id {relation_id}")
+        signal_type = signal.get("type") or "cross_corpus_context_only"
+        signals[signal_type] += 1
+        expected[relation_id] = {
+            "record_id": historical.get("record_id"),
+            "target_id": modern.get("record_id"),
+            "method": signal_type,
+            "human_reviewed": independent.get("human_reviewed") is True,
+        }
+    return queue, expected, signals
+
+
 for required in (
     SOURCE_CSV,
     CANONICAL,
@@ -74,6 +98,7 @@ for required in (
     PROFILE_PATH,
     INVENTORY_PATH,
     VALIDATION_PROGRESS,
+    DIACHRONIC_QUEUE,
 ):
     if not required.exists():
         errors.append(f"missing required file: {required.relative_to(ROOT)}")
@@ -92,6 +117,7 @@ profile = json.loads(PROFILE_PATH.read_text(encoding="utf-8"))
 inventory = json.loads(INVENTORY_PATH.read_text(encoding="utf-8"))
 validation_progress = json.loads(VALIDATION_PROGRESS.read_text(encoding="utf-8"))
 expected_phil, expected_batches, expected_dispositions = load_expected_phil()
+dia_queue, expected_relations, expected_signal_counts = load_expected_relations()
 
 if len(canonical) != len(source_rows):
     errors.append(f"canonical count {len(canonical)} != source count {len(source_rows)}")
@@ -109,7 +135,6 @@ expected_open = sum(
     and r.get("diplomatic_note_state") == "open_validation"
     for r in source_rows
 )
-
 actual_rejected = sum(r.get("status") == "rejected_boundary" for r in canonical)
 actual_active = sum(r.get("status") == "active" for r in canonical)
 actual_open = sum(
@@ -125,7 +150,6 @@ if actual_open != expected_open:
     errors.append(f"open-validation note count {actual_open} != {expected_open}")
 if expected_open != validation_progress.get("open_validation_records_total"):
     errors.append("open-validation source count differs from validation_progress")
-
 if expected_active != inventory["facsimile_review"]["active_candidates_after_review"]:
     errors.append("active source count differs from inventory")
 if expected_rejected != inventory["facsimile_review"]["rejected_false_positive_boundaries"]:
@@ -140,14 +164,13 @@ required_top = {
     "layers",
     "provenance",
 }
-
 actual_phil = {}
+actual_relations = {}
 human_event_count = 0
 
 for item in canonical:
     rid = item.get("record_id")
     src = source_by_id.get(rid, {})
-
     missing = required_top - set(item)
     if missing:
         errors.append(f"{rid}: missing canonical keys {sorted(missing)}")
@@ -172,7 +195,6 @@ for item in canonical:
     expected_status = "rejected_boundary" if rejected else "active"
     if item["status"] != expected_status:
         errors.append(f"{rid}: canonical status {item['status']} != {expected_status}")
-
     segmentation = item["layers"].get("segmentation", {})
     if segmentation.get("confidence") != src.get("segmentation_confidence"):
         errors.append(f"{rid}: segmentation confidence changed")
@@ -202,16 +224,25 @@ for item in canonical:
                 errors.append(f"duplicate canonical PHIL event {eid}")
             actual_phil[eid] = {"record_id": rid, "event": event}
 
+    for relation in item.get("historical_relations", []):
+        relation_id = relation.get("relation_id")
+        if relation_id in actual_relations:
+            errors.append(f"duplicate canonical diachronic relation {relation_id}")
+        actual_relations[relation_id] = {"record_id": rid, "relation": relation}
+        if relation.get("status") != "candidate":
+            errors.append(f"{relation_id}: machine diachronic relation promoted beyond candidate")
+        if relation.get("human_reviewed") is not False:
+            errors.append(f"{relation_id}: machine diachronic relation claims human review")
+
     for event in item.get("provenance", []):
         if event.get("agent_type") == "ai_system" and event.get("activity_type") == "diplomatic_transcription" and rejected:
             errors.append(f"{rid}: rejected boundary has diplomatic AI provenance")
 
-# The canonical projection must contain exactly the append-only PHIL event universe.
+# PHIL universe must be an exact projection of append-only source manifests.
 if set(actual_phil) != set(expected_phil):
     missing = sorted(set(expected_phil) - set(actual_phil))[:10]
     extra = sorted(set(actual_phil) - set(expected_phil))[:10]
     errors.append(f"PHIL event set mismatch; missing={missing} extra={extra}")
-
 for eid, exp in expected_phil.items():
     if eid not in actual_phil:
         continue
@@ -235,7 +266,36 @@ if validation_progress.get("ai_philological_recollation_remaining") != 0:
 if validation_progress.get("human_verified_records") != 0:
     errors.append("source validation_progress unexpectedly reports human verified records")
 
-# Summary must be calculable from the records, not manually asserted.
+# Diachronic universe must also remain an exact non-adjudicative projection.
+if set(actual_relations) != set(expected_relations):
+    missing = sorted(set(expected_relations) - set(actual_relations))[:10]
+    extra = sorted(set(actual_relations) - set(expected_relations))[:10]
+    errors.append(f"diachronic relation set mismatch; missing={missing} extra={extra}")
+for relation_id, exp in expected_relations.items():
+    if relation_id not in actual_relations:
+        continue
+    actual = actual_relations[relation_id]
+    relation = actual["relation"]
+    if actual["record_id"] != exp["record_id"]:
+        errors.append(f"{relation_id}: attached to wrong historical record")
+    if relation.get("target_id") != exp["target_id"]:
+        errors.append(f"{relation_id}: modern target changed")
+    if relation.get("method") != exp["method"]:
+        errors.append(f"{relation_id}: context signal changed")
+    if relation.get("human_reviewed") != exp["human_reviewed"]:
+        errors.append(f"{relation_id}: human-review state changed")
+    if relation.get("relation_type") != "cross_corpus_form_candidate":
+        errors.append(f"{relation_id}: unexpected relation type")
+
+if dia_queue.get("human_reviewed") is not False:
+    errors.append("source diachronic queue unexpectedly claims human review")
+if dia_queue.get("cross_language_semantic_similarity_computed") is not False:
+    errors.append("source diachronic queue unexpectedly claims cross-language semantic similarity")
+if dia_queue.get("automatic_semantic_judgment") is not False:
+    errors.append("source diachronic queue unexpectedly claims automatic semantic judgment")
+if len(actual_relations) != dia_queue.get("count"):
+    errors.append("canonical diachronic relation count differs from source queue")
+
 expected_summary = {
     "records_total": len(canonical),
     "active": actual_active,
@@ -244,19 +304,22 @@ expected_summary = {
     "open_validation_notes": actual_open,
     "philological_ai_validation_events": len(actual_phil),
     "human_validation_events": 0,
+    "diachronic_candidate_relations": len(actual_relations),
+    "diachronic_semantic_judgment_computed": False,
+    "diachronic_human_reviewed": False,
 }
 for key, expected in expected_summary.items():
     if summary.get(key) != expected:
         errors.append(f"summary {key}={summary.get(key)} != {expected}")
-
 if summary.get("philological_ai_batches") != expected_batches:
     errors.append("summary PHIL batch list differs from manifests")
 if summary.get("philological_ai_dispositions") != dict(sorted(expected_dispositions.items())):
     errors.append("summary PHIL disposition counts differ from manifests")
+if summary.get("diachronic_signal_counts") != dict(sorted(expected_signal_counts.items())):
+    errors.append("summary diachronic signal counts differ from source queue")
 if human_event_count != 0:
     errors.append("canonical projection contains human validation events before human manifests exist")
 
-# Optional full JSON Schema validation if the environment already provides jsonschema.
 try:
     import jsonschema  # type: ignore
 except ImportError:
@@ -276,5 +339,6 @@ if errors:
 print(
     f"OK: {len(canonical)} canonical records; {actual_active} active; "
     f"{actual_rejected} rejected boundaries; {actual_open} open-validation notes; "
-    f"{len(actual_phil)} PHIL events joined; no synthetic human validation events"
+    f"{len(actual_phil)} PHIL events; {len(actual_relations)} diachronic candidates; "
+    "no synthetic human validation or semantic-continuity promotion"
 )
