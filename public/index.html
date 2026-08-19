@@ -4,7 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Rarámuri Histórico Digital — Corpus Steffel 1791/1809</title>
-  <meta name="description" content="Edición histórico-digital reproducible del Tarahumarisches Wörterbuch de Matthäus Steffel: 1,965 artículos, procedencia explícita, incertidumbre documentada, TEI/TEI Lex-0 e IIIF.">
+  <meta name="description" content="Edición histórico-digital reproducible del Tarahumarisches Wörterbuch de Matthäus Steffel: 1,965 artículos, procedencia explícita, incertidumbre documentada, TEI/TEI Lex-0, IIIF y DOI persistente.">
+  <meta name="author" content="Fernando Sandoval Gutierrez">
+  <meta name="citation_doi" content="10.5281/zenodo.21958018">
+  <meta property="og:title" content="Rarámuri Histórico Digital — Corpus Steffel 1791/1809">
+  <meta property="og:description" content="Edición histórico-digital machine-only, trazable, versionada y reproducible.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fersandovalgtz.github.io/raramuri-historico/">
+  <link rel="canonical" href="https://fersandovalgtz.github.io/raramuri-historico/">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,7 +23,7 @@
       <a href="research.html">Investigación</a>
       <a href="#fuente">Steffel</a>
       <a href="#metodo">Método</a>
-      <a href="#ecosistema">Ecosistema</a>
+      <a href="#citar">Citar</a>
       <a href="https://github.com/fersandovalgtz/raramuri-historico">GitHub</a>
     </div>
   </div>
@@ -28,7 +35,7 @@
     <div class="eyebrow">Humanidades digitales · lexicografía histórica · ciencia abierta</div>
     <h1>Corpus Steffel<br>1791/1809</h1>
     <p>Edición histórico-digital de investigación del <em>Tarahumarisches Wörterbuch</em> de Matthäus Steffel. RHD preserva testimonio, OCR, transcripción diplomática, decisiones editoriales, incertidumbre y capas derivadas como objetos distintos y trazables.</p>
-    <span class="status">● RHD 1.0.0 · 2,495 candidatos documentados · 1,965 artículos · 482/482 casos PHIL terminalizados · machine-only</span>
+    <span class="status">● RHD 1.0.1 · Zenodo DOI 10.5281/zenodo.21958018 · 1,965 artículos · machine-only</span>
   </div>
   <aside class="source-card">
     <span class="source-kicker">Fuente primaria</span>
@@ -36,7 +43,7 @@
     <em>Tarahumarisches Wörterbuch</em>
     <span>Publicado en 1809 por Christoph Gottlieb von Murr</span>
     <span>Halle · Johann Christian Hendel · pp. 293–374</span>
-    <a href="https://openlibrary.org/works/OL16883366W/Tarahumarisches_W%C3%B6rterbuch_nebst_einigen_Nachrichten_von_den_Sitten_und_Gebr%C3%A4uchen_der_Tarahumaren" target="_blank" rel="noopener">Consultar registro y facsímil ↗</a>
+    <a href="https://doi.org/10.5281/zenodo.21958018" target="_blank" rel="noopener">Citar snapshot v1.0.1 ↗</a>
   </aside>
 </section>
 
@@ -57,23 +64,23 @@
 </section>
 
 <section class="panel" id="estado">
-  <h2>Estado científico de RHD 1.0.0</h2>
-  <p>Los 2,495 candidatos documentales tienen una disposición registrada: <strong>1,965 artículos activos</strong> y <strong>530 falsos límites preservados</strong>. Los artículos activos cuentan con transcripción diplomática IA-asistida. La serie <code>RHD-PHIL-001</code>–<code>RHD-PHIL-010</code> recotejó los 482 casos que requerían inspección adicional.</p>
+  <h2>Estado científico de RHD 1.0.1</h2>
+  <p>La release pública vigente <strong>v1.0.1</strong> conserva sin cambios el corpus científico fijado por v1.0.0 y mejora documentación, metadatos, citación y descubribilidad. Los 2,495 candidatos documentales tienen una disposición registrada: <strong>1,965 artículos activos</strong> y <strong>530 falsos límites preservados</strong>.</p>
   <div class="callout"><strong>284</strong> casos quedaron como <code>confirmed_ai_assisted</code>, <strong>152</strong> como <code>corrected_ai_assisted</code> y <strong>46</strong> como <code>unresolved_after_ai_recollation</code>. La incertidumbre no se elimina para producir una apariencia artificial de completitud.</div>
-  <p class="small">La release 1.0.0 es deliberadamente <strong>machine-only</strong>. Ninguno de estos estados se presenta como <code>human_verified</code>. Una revisión humana futura será una capa posterior y versionada, no una reescritura retrospectiva de 1.0.0.</p>
+  <p class="small">RHD es deliberadamente <strong>machine-only</strong>. Ninguno de estos estados se presenta como <code>human_verified</code>. Una revisión humana futura será una capa posterior y versionada.</p>
 </section>
 
 <section class="grid2" id="fuente">
   <div class="panel">
     <h2>Matthäus Steffel y la fuente</h2>
     <p>Matthäus Steffel fue un jesuita moravo que trabajó en la Sierra Tarahumara durante la década de 1760. Tras la expulsión de los jesuitas de los dominios españoles regresó a Europa y continuó elaborando materiales lingüísticos.</p>
-    <p>El diccionario apareció póstumamente en 1809 dentro del volumen I de <em>Nachrichten von verschiedenen Ländern des Spanischen Amerika</em>, editado por Christoph Gottlieb von Murr. La contribución de Steffel ocupa las pp. 293–374; el cuerpo lexicográfico comienza en la p. 301 y cambia de alemán→rarámuri a rarámuri→alemán dentro de la p. 353.</p>
-    <p class="small"><a href="https://github.com/fersandovalgtz/raramuri-historico/blob/main/docs/STEFFEL_SOURCE.md" target="_blank" rel="noopener">Historia documental, bibliografía y explicación de «1791/1809» ↗</a></p>
+    <p>El diccionario apareció póstumamente en 1809 dentro del volumen I de <em>Nachrichten von verschiedenen Ländern des Spanischen Amerika</em>, editado por Christoph Gottlieb von Murr. La contribución ocupa las pp. 293–374.</p>
+    <p class="small"><a href="https://github.com/fersandovalgtz/raramuri-historico/blob/main/docs/STEFFEL_SOURCE.md" target="_blank" rel="noopener">Historia documental y explicación de «1791/1809» ↗</a></p>
   </div>
   <div class="panel">
     <h2>¿Por qué 1791/1809?</h2>
-    <p><strong>1809</strong> es la fecha de la edición impresa utilizada por RHD. <strong>1791</strong> remite al horizonte manuscrito y epistolar documentado durante la elaboración de los materiales, no a una segunda edición impresa del diccionario.</p>
-    <p>Esta distinción es importante: RHD separa historia de elaboración, publicación, testimonio digital y representación computacional.</p>
+    <p><strong>1809</strong> es la fecha de la edición impresa utilizada por RHD. <strong>1791</strong> remite al horizonte manuscrito y epistolar documentado durante la elaboración de los materiales, no a una segunda edición impresa.</p>
+    <p>RHD separa historia de elaboración, publicación, testimonio digital y representación computacional.</p>
   </div>
 </section>
 
@@ -90,25 +97,25 @@
 
 <section class="panel" id="interoperabilidad">
   <h2>Interoperabilidad y reproducibilidad</h2>
-  <p>RHD 1.0.0 distribuye datos estructurados y representaciones derivadas en CSV, JSON, XML y SQLite; mantiene TEI RHD y una proyección TEI Lex-0 estricta; expone IIIF Presentation 3 con 84 Canvases y 1,965 enlaces registro→Canvas; y conserva esquemas, perfiles de fuente, manifiestos y pruebas que permiten auditar el pipeline.</p>
-  <p class="small"><a href="https://github.com/fersandovalgtz/raramuri-historico/blob/main/REPRODUCIBILITY.md" target="_blank" rel="noopener">Protocolo de reproducibilidad ↗</a> · <a href="https://github.com/fersandovalgtz/raramuri-historico/blob/main/FAIR_ASSESSMENT.md" target="_blank" rel="noopener">Evaluación FAIR/FAIR4RS ↗</a> · <a href="research.html">Portal de investigación interna ↗</a></p>
+  <p>RHD distribuye datos estructurados y representaciones derivadas en CSV, JSON, XML y SQLite; mantiene TEI RHD y una proyección TEI Lex-0 estricta; expone IIIF Presentation 3 con 84 Canvases y 1,965 enlaces registro→Canvas; y conserva esquemas, perfiles de fuente, manifiestos y pruebas que permiten auditar el pipeline.</p>
+  <p class="small"><a href="https://github.com/fersandovalgtz/raramuri-historico/blob/main/REPRODUCIBILITY.md" target="_blank" rel="noopener">Reproducibilidad ↗</a> · <a href="https://github.com/fersandovalgtz/raramuri-historico/blob/main/FAIR_ASSESSMENT.md" target="_blank" rel="noopener">FAIR/FAIR4RS ↗</a> · <a href="research.html">Portal de investigación ↗</a></p>
 </section>
 
 <section class="panel" id="ecosistema">
-  <h2>Un nodo del ecosistema Rarámuri Digital</h2>
-  <p>RHD conserva la dimensión histórica sin fusionarla automáticamente con recursos contemporáneos. Las relaciones entre proyectos se expresan como vínculos tipados y revisables.</p>
+  <h2>Ecosistema científico</h2>
+  <p>RHD conserva la dimensión histórica sin fusionarla automáticamente con recursos contemporáneos. Su proyecto hermano <strong>Rarámuri Digital</strong> funciona como infraestructura lexicográfica contemporánea; las relaciones entre ambos recursos permanecen tipadas y revisables.</p>
   <div class="pagegrid">
     <article class="pagecard"><span>Rarámuri Digital</span><strong>Lexicografía contemporánea</strong><p><a href="https://raramuri.ceees.mx" target="_blank" rel="noopener">Sitio ↗</a> · <a href="https://github.com/fersandovalgtz/raramuri-digital" target="_blank" rel="noopener">GitHub ↗</a></p></article>
     <article class="pagecard"><span>GitHub</span><strong>Proyectos científicos abiertos</strong><p><a href="https://github.com/fersandovalgtz" target="_blank" rel="noopener">Perfil y repositorios ↗</a></p></article>
     <article class="pagecard"><span>Identidad académica</span><strong>ORCID y producción</strong><p><a href="https://orcid.org/0000-0002-3168-6725" target="_blank" rel="noopener">ORCID ↗</a> · <a href="https://scholar.google.com/citations?user=zNZsYYAAAAAJ&hl=es" target="_blank" rel="noopener">Google Scholar ↗</a></p></article>
   </div>
-  <p class="small"><a href="https://github.com/fersandovalgtz/raramuri-historico/blob/main/docs/ECOSYSTEM.md" target="_blank" rel="noopener">Mapa completo de repositorios, sitios y perfiles ↗</a></p>
 </section>
 
 <section class="panel" id="citar">
   <h2>Citar y reutilizar</h2>
-  <p>La fuente histórica y RHD son objetos distintos y deben citarse como tales. Para resultados derivados del corpus, cite la versión específica de RHD utilizada y, cuando el argumento dependa de una lectura histórica, cite además a Steffel 1809 y la página correspondiente.</p>
-  <p class="small">La metadata canónica vive en <a href="https://github.com/fersandovalgtz/raramuri-historico/blob/main/CITATION.cff" target="_blank" rel="noopener"><code>CITATION.cff</code></a>. El DOI de RHD se mostrará aquí únicamente después de verificar que el depósito persistente corresponde exactamente a la release canónica.</p>
+  <p>Para resultados derivados del corpus, cite la versión específica de RHD utilizada. Para la release vigente:</p>
+  <div class="callout"><strong>Sandoval Gutierrez, Fernando. 2026.</strong> <em>Rarámuri Histórico Digital — Corpus Steffel 1791/1809</em>, versión 1.0.1. Zenodo. <a href="https://doi.org/10.5281/zenodo.21958018" target="_blank" rel="noopener">doi:10.5281/zenodo.21958018 ↗</a></div>
+  <p class="small">Concept DOI, todas las versiones: <a href="https://doi.org/10.5281/zenodo.21957212" target="_blank" rel="noopener">10.5281/zenodo.21957212 ↗</a>. Cuando el argumento dependa de una lectura histórica, cite además a Steffel 1809 y la página correspondiente.</p>
 </section>
 </main>
 
