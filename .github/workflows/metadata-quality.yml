@@ -1,0 +1,90 @@
+name: metadata-quality
+
+on:
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'README.en.md'
+      - 'CITATION.cff'
+      - 'codemeta.json'
+      - 'CHANGELOG.md'
+      - 'ROADMAP.md'
+      - 'public/**'
+      - '.github/workflows/metadata-quality.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'README.en.md'
+      - 'CITATION.cff'
+      - 'codemeta.json'
+      - 'CHANGELOG.md'
+      - 'ROADMAP.md'
+      - 'public/**'
+      - '.github/workflows/metadata-quality.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-public-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate JSON metadata
+        run: |
+          python3 -m json.tool codemeta.json >/dev/null
+          python3 -m json.tool project-metadata.json >/dev/null
+
+      - name: Validate CFF syntax and canonical release metadata
+        run: |
+          python3 - <<'PY'
+          import pathlib, re
+          p = pathlib.Path('CITATION.cff')
+          text = p.read_text(encoding='utf-8')
+          required = [
+              'cff-version: 1.2.0',
+              'version: 1.0.1',
+              'doi: "10.5281/zenodo.21958018"',
+              'license: MIT',
+              '0000-0002-3168-6725',
+          ]
+          missing = [x for x in required if x not in text]
+          if missing:
+              raise SystemExit(f'Missing canonical CFF fields: {missing}')
+          if 'validation is claimed by release 1.0.0' in text:
+              raise SystemExit('Stale v1.0.0 validation statement in CITATION.cff')
+          print('CFF canonical metadata OK')
+          PY
+
+      - name: Guard DOI and version consistency
+        run: |
+          python3 - <<'PY'
+          import json, pathlib
+          files = ['README.md', 'README.en.md', 'CITATION.cff', 'codemeta.json', 'public/index.html']
+          version_doi = '10.5281/zenodo.21958018'
+          concept_doi = '10.5281/zenodo.21957212'
+          for fn in files:
+              text = pathlib.Path(fn).read_text(encoding='utf-8')
+              if version_doi not in text:
+                  raise SystemExit(f'{fn}: missing version DOI')
+          for fn in ['README.md', 'README.en.md', 'codemeta.json', 'public/index.html']:
+              text = pathlib.Path(fn).read_text(encoding='utf-8')
+              if concept_doi not in text:
+                  raise SystemExit(f'{fn}: missing Concept DOI')
+          meta = json.loads(pathlib.Path('codemeta.json').read_text(encoding='utf-8'))
+          if meta.get('version') != '1.0.1':
+              raise SystemExit('codemeta.json: version must be 1.0.1')
+          print('DOI/version consistency OK')
+          PY
+
+      - name: Check public landing essentials
+        run: |
+          test -f public/repository-header-es.svg
+          grep -q 'RHD 1.0.1' public/index.html
+          grep -q 'machine-only' public/index.html
+          grep -q 'CITATION.cff' README.md
+          grep -q 'README.en.md' README.md
+          echo 'Public landing essentials OK'
