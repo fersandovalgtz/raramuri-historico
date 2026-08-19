@@ -1,4 +1,4 @@
-# Evaluación FAIR y FAIR4RS — RHD 1.0
+# Evaluación FAIR y FAIR4RS — RHD 1.0.1
 
 ## Alcance
 
@@ -7,25 +7,26 @@ Esta autoevaluación aplica dos marcos complementarios:
 - los principios **FAIR** para datos y objetos de investigación: Findable, Accessible, Interoperable, Reusable;
 - los principios **FAIR4RS** para software de investigación, que extienden esos criterios a identificadores de versiones, metadatos ricos, interoperabilidad, licencias, procedencia y reutilización del software.
 
-La evaluación es deliberadamente conservadora. Un requisito dependiente de un servicio externo no se considera cerrado hasta que exista evidencia verificable. En particular, el DOI de RHD `v1.0.0` permanece **pendiente de verificación** aunque la release científica ya esté congelada en GitHub.
+La evaluación es deliberadamente conservadora: una capacidad sólo se considera cerrada cuando existe evidencia verificable. Para RHD 1.0.1, el gate de persistencia ya está cerrado mediante Zenodo.
 
 ## Findable / Localizable
 
-**Estado: alto, con un gate persistente pendiente.**
+**Estado: alto.**
 
-- Repositorio público y versión canónica etiquetada como `v1.0.0`.
+- Repositorio público y release archivada `v1.0.1`.
+- Concept DOI del proyecto: `10.5281/zenodo.21957212`.
+- DOI específico de v1.0.1: `10.5281/zenodo.21958018`.
 - Identificadores internos estables para registros y artefactos de revisión.
-- `CITATION.cff` en la raíz con autor, ORCID, título, versión, fecha, licencia, resumen y palabras clave.
+- `CITATION.cff` en la raíz con autor, ORCID, título, versión, fecha, licencia, resumen, palabras clave y DOI de versión.
 - `codemeta.json` proporciona metadatos JSON-LD complementarios para software e infraestructura.
 - README, `SOURCES.md`, `PROVENANCE.md`, `DATASHEET.md` y documentación específica describen el objeto y su procedencia.
-- Release versionada y commit asociado permiten identificar el snapshot científico exacto.
-- **Pendiente:** verificar un depósito persistente externo con DOI para `v1.0.0` y propagar ese identificador a todos los metadatos.
+- Release versionada y Git permiten identificar el snapshot científico y su historia de cambios.
 
 ### FAIR4RS relacionado
 
-- F1/F1.2: la release y el tag distinguen versiones; el DOI aportará el identificador global persistente de archivo.
+- F1/F1.2: DOI de versión y Concept DOI distinguen snapshot y familia de versiones.
 - F2: metadatos ricos en CFF, CodeMeta y documentación humana.
-- F3/F4: el identificador persistente se incorporará explícitamente cuando el depósito sea verificado.
+- F3/F4: los identificadores persistentes aparecen explícitamente en metadatos y landing pública.
 
 ## Accessible / Accesible
 
@@ -33,14 +34,14 @@ La evaluación es deliberadamente conservadora. Un requisito dependiente de un s
 
 - Código, datos derivados permitidos y documentación son accesibles por HTTPS/GitHub.
 - Existe un sitio público asociado al proyecto.
+- Zenodo conserva un snapshot citable fuera del ciclo de vida de la interfaz viva de GitHub Pages.
 - Los objetos de datos se distribuyen en formatos abiertos o ampliamente implementados.
-- El testimonio, sus reproducciones y materiales de terceros conservan su régimen jurídico y procedencia; la accesibilidad técnica no se confunde con licencia de reutilización.
-- La documentación de una versión debe permanecer útil incluso si una interfaz web cambia; por eso el proyecto prioriza release, metadatos y archivo persistente sobre la URL de una aplicación viva.
+- El testimonio, sus reproducciones y materiales de terceros conservan su régimen jurídico y procedencia; accesibilidad técnica no equivale a licencia de reutilización.
 
 ### FAIR4RS relacionado
 
-- A1/A1.1: Git/HTTPS y formatos abiertos permiten recuperación mediante protocolos estándar.
-- A2: el objetivo del depósito persistente es asegurar que los metadatos de la versión permanezcan disponibles fuera del ciclo de vida de GitHub.
+- A1/A1.1: Git/HTTPS, Zenodo y formatos abiertos permiten recuperación mediante protocolos estándar.
+- A2: los metadatos de la versión archivada permanecen disponibles mediante el registro persistente.
 
 ## Interoperable / Interoperable
 
@@ -48,7 +49,7 @@ La evaluación es deliberadamente conservadora. Un requisito dependiente de un s
 
 - Capa canónica estructurada y serializaciones CSV, JSON, XML y SQLite.
 - Representación TEI RHD rica y proyección TEI Lex-0 estricta.
-- Proyección estricta validada contra TEI Lex-0 0.9.5 en el alcance documentado por la release 1.0.0.
+- Proyección estricta validada contra TEI Lex-0 0.9.5 en el alcance documentado por el corpus científico.
 - IIIF Presentation 3 para localización del testimonio y enlaces registro→Canvas.
 - JSON Schema y perfiles de fuente para separar el núcleo RHD de particularidades documentales.
 - Objetos de procedencia y actividades de transformación diseñados para ser mapeables a modelos de procedencia estándar.
@@ -79,19 +80,20 @@ La evaluación es deliberadamente conservadora. Un requisito dependiente de un s
 
 ## Citación y persistencia
 
-RHD sigue el principio de que **datos y software son productos científicos citables**. El repositorio utiliza `CITATION.cff`, releases versionadas y metadatos legibles por máquina. Para la versión 1.0.0 se considera necesario un archivo externo persistente porque una URL de GitHub y un hash de commit, aunque importantes para la trazabilidad, no sustituyen por sí solos un identificador persistente de archivo reconocido en el sistema académico.
+RHD trata datos y software como productos científicos citables. El repositorio utiliza `CITATION.cff`, CodeMeta, releases versionadas y metadatos legibles por máquina.
 
-El cierre del gate será:
+Correspondencia pública vigente:
 
-`release v1.0.0 ↔ commit canónico ↔ manifiesto de integridad ↔ depósito persistente ↔ DOI verificado`.
+`release v1.0.1 ↔ repositorio GitHub ↔ snapshot Zenodo ↔ DOI 10.5281/zenodo.21958018`
 
-Hasta completar esa correspondencia, el proyecto no mostrará un badge DOI de RHD ni insertará un DOI no comprobado.
+El Concept DOI `10.5281/zenodo.21957212` representa la familia de versiones y debe usarse para enlazar el proyecto vivo; el DOI `10.5281/zenodo.21958018` identifica específicamente v1.0.1 y debe usarse cuando la investigación dependa de ese snapshot.
 
 ## Evidencia de buenas prácticas
 
 | Dimensión | Evidencia principal |
 |---|---|
-| Citación | `CITATION.cff`, `codemeta.json`, release `v1.0.0` |
+| Citación | `CITATION.cff`, `codemeta.json`, Zenodo v1.0.1 |
+| Persistencia | Concept DOI `10.5281/zenodo.21957212`; v1.0.1 `10.5281/zenodo.21958018` |
 | Procedencia | `PROVENANCE.md`, `sources/checksums.json`, manifiestos de revisión |
 | Licencias | `LICENSE`, `DATA_LICENSE.md` |
 | Calidad | `tests/`, workflows de GitHub Actions, manifiestos de integridad |
@@ -111,4 +113,4 @@ Hasta completar esa correspondencia, el proyecto no mostrará un badge DOI de RH
 
 ## Resultado
 
-**RHD 1.0 cumple de manera sustantiva con prácticas FAIR/FAIR4RS en metadatos, acceso, interoperabilidad, licenciamiento, procedencia, reproducibilidad y versionado. El punto deliberadamente no cerrado es el identificador persistente externo de la release canónica.** Ese punto deberá actualizarse únicamente después de verificar el depósito real.
+**RHD 1.0.1 cumple de manera sustantiva con prácticas FAIR/FAIR4RS en identificadores persistentes, metadatos, acceso, interoperabilidad, licenciamiento, procedencia, reproducibilidad y versionado.** Las principales áreas futuras ya no son de persistencia básica, sino de preservación adicional —por ejemplo Software Heritage—, revisión humana independiente y ampliación controlada a nuevas fuentes.

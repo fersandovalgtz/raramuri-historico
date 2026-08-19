@@ -1,11 +1,11 @@
 # Contribuciones, autoría y reconocimiento
 
-## Release canónica 1.0.0
+## Release pública vigente — 1.0.1
 
 **Fernando Sandoval Gutierrez**  
 ORCID: `0000-0002-3168-6725`
 
-Responsabilidad principal del proyecto y de la release `v1.0.0`. Roles CRediT aplicables al trabajo documentado en el repositorio:
+Responsabilidad principal del proyecto, del corpus científico fijado en `v1.0.0` y de la release pública archivada `v1.0.1`. Roles CRediT aplicables al trabajo documentado en el repositorio:
 
 - **Conceptualization**
 - **Data curation**
@@ -39,6 +39,10 @@ Una revisión humana del corpus sólo se atribuirá cuando exista una persona id
 
 La aparición en este archivo reconoce contribuciones al proyecto, pero **no determina automáticamente la coautoría de artículos, capítulos o data papers**. La autoría de cada producto académico deberá decidirse según la contribución intelectual real, las políticas de la publicación y una taxonomía de contribuciones explícita.
 
+## Sincronización de identidad y metadatos
+
+La identidad de autor y los roles relevantes deben mantenerse coherentes entre este archivo, `CITATION.cff`, Zenodo y perfiles académicos. Para v1.0.1, el DOI de versión es `10.5281/zenodo.21958018` y el Concept DOI del proyecto es `10.5281/zenodo.21957212`.
+
 ## Historial
 
-Git conserva el historial técnico de cambios; `CONTRIBUTORS.md` conserva la atribución científica legible por personas. Cuando sea necesario, los metadatos de una nueva release deberán sincronizarse con `CITATION.cff`, Zenodo y este documento.
+Git conserva el historial técnico de cambios; `CONTRIBUTORS.md` conserva la atribución científica legible por personas. Nuevas releases deberán sincronizar autoría, identificadores persistentes y roles sin reescribir retrospectivamente la atribución de versiones previas.

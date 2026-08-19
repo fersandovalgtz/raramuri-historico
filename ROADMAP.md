@@ -1,28 +1,25 @@
 # Roadmap — Rarámuri Histórico Digital
 
-## Estado de referencia — RHD 1.0.0
+## Estado de referencia — RHD 1.0.1
 
-RHD 1.0.0 fija el Corpus Steffel 1791/1809 como **implementación de referencia reusable** de una edición histórico-digital machine-only. La fase de construcción científica incluida en ese alcance está cerrada: cobertura documental, transcripción diplomática IA-asistida, estados terminales de incertidumbre, anexos, TEI/TEI Lex-0, IIIF, procedencia y prueba de replicación sobre Tellechea 1826.
+RHD 1.0.1 es la versión pública archivada de referencia del Corpus Steffel 1791/1809. Conserva el corpus científico fijado en 1.0.0 y añade documentación, metadatos, citación, descubribilidad y articulación del ecosistema.
 
-El roadmap posterior a 1.0 ya no consiste en «terminar Steffel» mediante más inferencia automática. Se divide en preservación, revisión humana opcional, consolidación de la infraestructura reusable, nuevas fuentes y productos científicos derivados.
+La fase documental machine-only está cerrada dentro de su alcance: cobertura, transcripción diplomática IA-asistida, incertidumbre terminal explícita, anexos, TEI/TEI Lex-0, IIIF, procedencia y replicación sobre Tellechea 1826. El trabajo futuro no consiste en «terminar Steffel» mediante más inferencia automática, sino en mejorar preservación, revisión humana independiente, reutilización de la infraestructura y producción científica derivada.
 
-## Gate inmediato — archivo persistente de v1.0.0
+## Preservación persistente — completada
 
-**Prioridad máxima.**
+- Concept DOI del proyecto: **10.5281/zenodo.21957212**.
+- DOI de la versión archivada v1.0.1: **10.5281/zenodo.21958018**.
+- GitHub permanece como espacio vivo de desarrollo; Zenodo funciona como snapshot persistente citable.
+- CFF, CodeMeta, README y sitio público deben mantener sincronizados release, DOI, licencias y límites epistemológicos.
 
-- Depositar o verificar en Zenodo el snapshot exacto de `v1.0.0`.
-- Comprobar correspondencia entre DOI, tag, commit `441cbac036d82e83451e32378a030c3bb0923bf6`, artefacto archivado y manifiesto de integridad.
-- Registrar DOI de versión y, cuando corresponda, DOI conceptual.
-- Propagar el identificador verificado a `CITATION.cff`, README, metadatos, perfil científico y sitio público.
-- Conservar GitHub como espacio vivo de desarrollo y Zenodo como snapshot persistente citable.
+No deben alterarse retrospectivamente tags/releases ya publicados para corregir documentación posterior.
 
-Este gate no debe resolverse fabricando un DOI, reutilizando el de otro proyecto ni alterando retrospectivamente la release canónica.
+## Prioridad A — revisión humana independiente
 
-## Línea A — revisión humana independiente
+La release 1.0.1 permanece válida dentro de su alcance machine-only. Una capa humana futura será una **extensión versionada**, no una corrección silenciosa del pasado.
 
-La release 1.0.0 permanece válida dentro de su alcance machine-only. Una capa humana futura será una **extensión versionada**, no una corrección silenciosa del pasado.
-
-Orden sugerido:
+Orden recomendado:
 
 1. 46 casos `unresolved_after_ai_recollation`;
 2. 152 `corrected_ai_assisted`;
@@ -31,116 +28,74 @@ Orden sugerido:
 
 Toda adjudicación humana debe registrar persona, fecha, alcance, evidencia, decisión y relación con el estado previo. No se permitirá promover registros por lote a `human_verified` sin evidencia individual o protocolo explícito.
 
-## Línea B — RHD como infraestructura reusable
+## Prioridad B — RHD como infraestructura reusable
 
-### Especificación y contratos
-
-- Mantener estable el núcleo RHD 1.x.
-- Versionar cambios de JSON Schema de manera semántica.
-- Conservar perfiles de fuente separados del núcleo.
-- Publicar ejemplos mínimos y fixtures que permitan a terceros implementar un nuevo adaptador.
-- Documentar compatibilidad hacia atrás y política de deprecación.
-
-### Procedencia
-
-- Formalizar el mapeo de entidades, actividades y agentes a PROV-O donde aporte interoperabilidad real.
-- Mantener hashes de fuentes y artefactos críticos.
-- Exponer manifiestos legibles por máquina que conecten release, fuente, pipeline y outputs.
-
-### Interfaces
-
+- Mantener estable el núcleo RHD 1.x y versionar contratos de datos semánticamente.
+- Conservar perfiles de fuente separados del núcleo reusable.
+- Publicar ejemplos mínimos y fixtures para que terceros puedan implementar nuevos adaptadores.
+- Formalizar PROV-O cuando aporte interoperabilidad real.
+- Mantener hashes, manifiestos y relaciones release→fuente→pipeline→outputs.
 - Mantener TEI RHD rica y TEI Lex-0 estricta como productos distintos.
 - Mantener IIIF Presentation 3 como capa de localización documental.
-- Publicar/estabilizar OpenAPI cuando exista un servicio de consulta que lo justifique.
-- Evaluar RO-Crate para empaquetado de objetos de investigación cuando no duplique metadatos sin valor añadido.
+- Evaluar RO-Crate y Software Heritage cuando añadan preservación/interoperabilidad sin duplicación improductiva.
 
-## Línea C — segunda y siguientes fuentes históricas
+## Prioridad C — segunda y siguientes fuentes históricas
 
-Tellechea 1826 ya demostró que el núcleo puede reutilizarse sin rediseño fundamental. El siguiente objetivo es convertir esa demostración en una **colección histórica sostenible**.
+Tellechea 1826 ya demostró que el núcleo puede reutilizarse sin rediseño fundamental. El siguiente objetivo es convertir esa demostración en una colección histórica sostenible.
 
-Cada nueva fuente debe:
+Cada nueva fuente debe tener perfil propio, referencia bibliográfica y testimonio identificable, calibración documental específica, reutilización del núcleo de IDs/capas/procedencia/incertidumbre/revisión/exportadores, y métricas que distingan infraestructura compartida de código específico de fuente.
 
-- tener perfil de fuente propio;
-- conservar referencia bibliográfica y testimonio identificable;
-- calibrar segmentación según su materialidad;
-- reutilizar IDs, capas, procedencia, incertidumbre, revisión y exportadores del núcleo;
-- documentar cualquier modificación requerida al estándar RHD;
-- producir métricas que distingan infraestructura reutilizada de código específico de la fuente.
-
-El éxito no se mide por volumen de OCR procesado, sino por la capacidad de incorporar fuentes heterogéneas sin degradar procedencia, evidencia ni reproducibilidad.
-
-## Línea D — integración con Rarámuri Digital
+## Prioridad D — integración controlada con Rarámuri Digital
 
 RHD y Rarámuri Digital seguirán siendo repositorios independientes.
 
 - Mantener relaciones Steffel ↔ Rarámuri Digital como objetos tipados y revisables.
 - Publicar identificadores recíprocos cuando sean estables.
 - Evitar la fusión automática de lemas históricos y contemporáneos.
-- Distinguir coincidencia gráfica, apoyo documental, hipótesis diacrónica, revisión humana y eventual interpretación lingüística.
-- Desarrollar visualizaciones de continuidad/cambio que muestren incertidumbre y procedencia.
+- Distinguir coincidencia gráfica, apoyo documental, hipótesis diacrónica, revisión humana e interpretación lingüística.
+- Desarrollar visualizaciones de continuidad/cambio que hagan visible la incertidumbre y la procedencia.
 
 Véase `docs/ECOSYSTEM.md`.
 
-## Línea E — publicación científica
+## Prioridad E — publicación científica
 
-RHD 1.0 permite producir al menos dos objetos académicos diferenciados:
+RHD permite producir al menos dos objetos académicos diferenciados: un **data paper / scholarly dataset paper** sobre fuente, modelo, cobertura, procedencia, formatos, validaciones técnicas, límites y DOI; y un **artículo metodológico** sobre RHD como modelo generalizable de edición histórico-digital IA-asistida con preservación de incertidumbre, demostrando portabilidad con Steffel y Tellechea.
 
-### Data paper / scholarly dataset paper
+Ambos productos deben citar el software/dataset archivado y no reemplazar su citación.
 
-Debe describir:
+## Prioridad F — preservación, descubribilidad y calidad
 
-- fuente histórica y relevancia;
-- modelo de datos;
-- metodología de extracción y revisión;
-- métricas de cobertura;
-- procedencia y control de incertidumbre;
-- formatos y estándares;
-- validaciones técnicas;
-- límites epistemológicos y usos recomendados;
-- DOI de la release archivada.
+- Mantener Zenodo como archivo versionado y DOI persistente.
+- Integrar el registro en ORCID y perfiles académicos pertinentes.
+- Mantener CFF y CodeMeta sincronizados.
+- Evaluar archivado del software en Software Heritage.
+- Mantener enlaces recíprocos desde Rarámuri Digital, perfil científico, sitios institucionales y repositorios relacionados.
+- Revisar periódicamente enlaces externos y documentación de fuente.
+- Mantener CI de datos y una segunda capa CI para metadatos/documentación pública.
 
-### Artículo metodológico
+## Prioridad G — gobernanza y sostenibilidad
 
-Debe argumentar RHD como modelo generalizable de edición histórico-digital IA-asistida con preservación de incertidumbre y demostrar su replicabilidad mediante Steffel y Tellechea.
-
-Los dos productos deben citar el dataset/software, no reemplazar su citación.
-
-## Línea F — preservación y descubribilidad
-
-- Zenodo para DOI y snapshot versionado.
-- ORCID para identidad y descubrimiento académico.
-- CodeMeta y CFF como metadatos legibles por máquina.
-- Evaluar archivado en Software Heritage para el componente de software.
-- Mantener enlaces desde el perfil científico, CEEES, Rarámuri Digital y otros repositorios relacionados.
-- Revisar periódicamente enlaces externos y documentación de la fuente.
-
-## Línea G — gobernanza y sostenibilidad
-
-- Aplicar `GOVERNANCE.md` para decisiones editoriales y técnicas.
+- Aplicar `GOVERNANCE.md` a decisiones editoriales y técnicas.
 - Mantener `CONTRIBUTING.md` orientado a contribuciones con evidencia.
 - Usar issues/PRs como registro público de cambios no sensibles.
-- Separar problemas de seguridad de debates científicos mediante `SECURITY.md`.
+- Separar seguridad de debate científico mediante `SECURITY.md`.
 - Registrar cambios relevantes en `CHANGELOG.md`.
+- Mantener roles CRediT y atribución explícita en `CONTRIBUTORS.md`.
 
 ## Criterios para una futura 1.1.0
 
-Una versión 1.1.0 deberá representar una **adición compatible y científicamente significativa**, por ejemplo:
+Una 1.1.0 debe representar una **adición compatible y científicamente significativa**: revisión humana documentada, una nueva capa interoperable verificable, incorporación estable de una nueva fuente, o nuevas herramientas de consulta que no reescriban retrospectivamente las afirmaciones de 1.0.x.
 
-- DOI y metadatos persistentes plenamente integrados;
-- nuevas capas documentales/revisión humana sin romper el esquema 1.0;
-- mejoras interoperables verificables;
-- incorporación estable de una nueva fuente con cambios compatibles;
-- nuevas herramientas de consulta que no alteren las afirmaciones científicas de v1.0.0.
-
-Los cambios incompatibles del núcleo deberán reservarse para una versión mayor.
+Los cambios incompatibles del núcleo deben reservarse para una versión mayor.
 
 ## Lo que RHD no debe hacer
 
-- reescribir retrospectivamente `v1.0.0`;
+- reescribir retrospectivamente releases publicadas;
 - confundir mejora de interfaz con nueva evidencia científica;
 - declarar validación humana por inferencia o automatización;
-- borrar incertidumbres para elevar una métrica de «completitud»;
+- borrar incertidumbres para elevar una métrica de completitud;
 - fusionar datos históricos y contemporáneos sin relación tipada;
-- duplicar información de metadatos en múltiples archivos sin una fuente de verdad clara.
+- fabricar DOI, autorías, revisiones o procedencias;
+- duplicar metadatos sin una fuente de verdad clara.
 
-La prioridad posterior a 1.0 es **hacer más durable, citable, reusable y científicamente inteligible lo que ya se construyó**, y después escalarlo a nuevas fuentes.
+La prioridad posterior a 1.0 es hacer más durable, citable, reusable y científicamente inteligible lo ya construido, y después escalarlo con control de evidencia.

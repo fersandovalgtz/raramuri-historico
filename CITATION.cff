@@ -1,10 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this dataset, its data model, or its research software, please cite the archived version corresponding to your analysis."
+message: "If you use this research software, dataset, data model, or derived research outputs, please cite the archived version corresponding to your analysis."
 title: "Rarámuri Histórico Digital — Corpus Steffel 1791/1809"
 type: software
 version: 1.0.1
 date-released: "2026-08-15"
-license: CC-BY-4.0
+doi: "10.5281/zenodo.21958018"
+license: MIT
 authors:
   - family-names: "Sandoval Gutierrez"
     given-names: "Fernando"
@@ -19,8 +20,8 @@ abstract: >-
   data/provenance model. The corpus preserves source/OCR evidence,
   AI-assisted diplomatic and documentary layers, explicit uncertainty,
   TEI and TEI Lex-0 projections, IIIF links, appendices, and computational
-  diachronic candidate evidence. No human linguistic or philological
-  validation is claimed by release 1.0.0.
+  diachronic candidate evidence. No independent human linguistic or
+  philological validation is claimed by release 1.0.1.
 keywords:
   - "Rarámuri"
   - "Tarahumara"
@@ -29,10 +30,12 @@ keywords:
   - "historical lexicography"
   - "digital humanities"
   - "indigenous languages"
+  - "research software"
   - "research data"
   - "TEI"
   - "TEI Lex-0"
   - "IIIF"
   - "provenance"
   - "reproducibility"
+  - "FAIR4RS"
   - "machine-only scholarly edition"
