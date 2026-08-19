@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Rarámuri Histórico Digital</title>
+  <desc id="desc">Corpus Steffel 1791/1809, edición histórico-digital reproducible</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151b26"/>
+      <stop offset="0.55" stop-color="#273348"/>
+      <stop offset="1" stop-color="#6d2a35"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="420" rx="28" fill="url(#grid)"/>
+  <g transform="translate(105 86)">
+    <text x="0" y="0" fill="#d9c29c" font-family="Georgia,serif" font-size="25" letter-spacing="4">CORPUS STEFFEL · 1791/1809</text>
+    <text x="0" y="78" fill="#ffffff" font-family="Georgia,serif" font-size="72" font-weight="700">Rarámuri Histórico Digital</text>
+    <text x="0" y="132" fill="#d9dee8" font-family="Arial,sans-serif" font-size="28">Edición histórico-digital · procedencia explícita · incertidumbre preservada</text>
+    <text x="0" y="178" fill="#b9c1cf" font-family="Arial,sans-serif" font-size="22">TEI / TEI Lex-0 · IIIF · datos versionados · reproducibilidad · ciencia abierta</text>
+  </g>
+  <g transform="translate(1240 75)" fill="none" stroke="#d9c29c" stroke-width="3" stroke-opacity="0.75">
+    <path d="M0 30h170v235H0z"/>
+    <path d="M22 62h126M22 92h126M22 122h94M22 152h126M22 182h108M22 212h126"/>
+    <path d="M28 0v30M142 0v30"/>
+  </g>
+  <text x="1325" y="350" text-anchor="middle" fill="#d9c29c" font-family="Georgia,serif" font-size="20">documento · evidencia · proceso</text>
+</svg>
